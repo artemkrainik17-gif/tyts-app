@@ -23,35 +23,48 @@ jobs:
           java-version: 21
 
       - name: Встановити Android SDK
-        uses: android-actions/setup-android@v4
+        uses: android-actions/setup-android@v3
 
-      - name: Встановити Android SDK компоненти
+      - name: Встановити Android компоненти
         run: |
-          yes | sdkmanager --licenses || true
-          sdkmanager "platform-tools" "platforms;android-36" "build-tools;36.0.0"
+          sdkmanager "platform-tools"
+          sdkmanager "platforms;android-35"
+          sdkmanager "build-tools;35.0.0"
 
-      - name: Встановити залежності
+      - name: Встановити Capacitor
         run: |
-          npm install
           npm install @capacitor/core@8 @capacitor/cli@8 @capacitor/android@8
+
+      - name: Підготувати вебзастосунок
+        run: |
+          rm -rf www
+          mkdir -p www
+          cp index.html www/index.html
+
+      - name: Створити конфігурацію Capacitor
+        run: |
+          cat > capacitor.config.json <<'EOF'
+          {
+            "appId": "com.tyts.app",
+            "appName": "Тиць",
+            "webDir": "www"
+          }
+          EOF
 
       - name: Створити Android-проєкт
         run: |
+          rm -rf android
           npx cap add android
-
-      - name: Скопіювати застосунок
-        run: |
           npx cap copy android
 
       - name: Зібрати APK
         working-directory: android
         run: |
           chmod +x gradlew
-          ./gradlew assembleDebug --no-daemon
+          ./gradlew assembleDebug
 
       - name: Зберегти APK
         uses: actions/upload-artifact@v4
         with:
           name: tyts-apk
           path: android/app/build/outputs/apk/debug/app-debug.apk
-          if-no-files-found: error
