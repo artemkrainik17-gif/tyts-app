@@ -36,11 +36,21 @@ jobs:
         run: |
           npm install --no-save @capacitor/core@8 @capacitor/cli@8 @capacitor/android@8
 
+      - name: Встановити генератор іконки
+        run: |
+          npm install --no-save @capacitor/assets
+
       - name: Підготувати вебзастосунок
         run: |
           rm -rf www
           mkdir -p www
           cp index.html www/index.html
+
+      - name: Підготувати іконку Тиць
+        run: |
+          rm -rf assets
+          mkdir -p assets
+          cp a_clean_modern_flat_soft_3d_app_icon_logo_imag.png assets/icon.png
 
       - name: Створити конфігурацію Capacitor
         run: |
@@ -57,6 +67,10 @@ jobs:
           rm -rf android
           npx cap add android
           npx cap copy android
+
+      - name: Створити Android-іконки
+        run: |
+          npx @capacitor/assets generate --android --assetPath assets --androidProject android
 
       - name: Зібрати APK
         working-directory: android
