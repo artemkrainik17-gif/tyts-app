@@ -15,6 +15,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
 
       - name: Встановити Java
         uses: actions/setup-java@v4
@@ -23,10 +24,11 @@ jobs:
           java-version: 21
 
       - name: Встановити Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
 
-      - name: Встановити Android SDK Platform
+      - name: Встановити Android SDK компоненти
         run: |
+          yes | sdkmanager --licenses || true
           sdkmanager "platform-tools" "platforms;android-36" "build-tools;36.0.0"
 
       - name: Встановити залежності
@@ -38,7 +40,7 @@ jobs:
         run: |
           npx cap add android
 
-      - name: Скопіювати сайт в Android
+      - name: Скопіювати застосунок
         run: |
           npx cap copy android
 
@@ -46,10 +48,11 @@ jobs:
         working-directory: android
         run: |
           chmod +x gradlew
-          ./gradlew assembleDebug
+          ./gradlew assembleDebug --no-daemon
 
       - name: Зберегти APK
         uses: actions/upload-artifact@v4
         with:
           name: tyts-apk
           path: android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
