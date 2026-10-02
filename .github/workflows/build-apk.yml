@@ -21,10 +21,16 @@ jobs:
           cache: ''
 
       - name: Встановити Java
-        uses: actions/setup-java@v5
+        uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: 21
+
+      - name: Перевірити Android SDK
+        run: |
+          echo "ANDROID_HOME=$ANDROID_HOME"
+          echo "ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT"
+          ls -la "$ANDROID_SDK_ROOT"
 
       - name: Встановити Capacitor
         run: |
@@ -60,21 +66,26 @@ jobs:
 
       - name: Перевірити APK
         run: |
-          ls -lh android/app/build/outputs/apk/debug/app-debug.apk
+          ls -lh android/app/build/outputs/apk/debug/
+          test -f android/app/build/outputs/apk/debug/app-debug.apk
 
-      - name: Створити реліз з APK
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          TAG="v1.0.${{ github.run_number }}"
-          
-          gh release create "$TAG" \
-            "android/app/build/outputs/apk/debug/app-debug.apk" \
-            --title "Тиць APK $TAG" \
-            --notes "Готовий APK застосунку Тиць."
-
-      - name: Зберегти APK як резервну копію
+      - name: Зберегти APK як артефакт
         uses: actions/upload-artifact@v4
         with:
           name: tyts-apk
           path: android/app/build/outputs/apk/debug/app-debug.apk
+
+      - name: Створити GitHub Release з APK
+        uses: softprops/action-gh-release@v3
+        with:
+          tag_name: tyts-latest
+          name: Тиць — остання версія
+          body: |
+            Остання збірка застосунку «Тиць».
+
+            APK готовий для встановлення на Android.
+          prerelease: true
+          files: android/app/build/outputs/apk/debug/app-debug.apk
+          overwrite_files: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
