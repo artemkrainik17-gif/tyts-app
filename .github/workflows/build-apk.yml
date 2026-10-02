@@ -3,6 +3,9 @@ name: Збірка APK Тиць
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,18 +21,10 @@ jobs:
           cache: ''
 
       - name: Встановити Java
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 21
-
-      - name: Перевірити Android SDK
-        run: |
-          echo "ANDROID_HOME=$ANDROID_HOME"
-          echo "ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT"
-          ls -la "$ANDROID_SDK_ROOT"
-          ls -la "$ANDROID_SDK_ROOT/platforms" || true
-          ls -la "$ANDROID_SDK_ROOT/build-tools" || true
 
       - name: Встановити Capacitor
         run: |
@@ -63,8 +58,22 @@ jobs:
           chmod +x gradlew
           ./gradlew assembleDebug --no-daemon
 
-      - name: Зберегти APK
-        if: success()
+      - name: Перевірити APK
+        run: |
+          ls -lh android/app/build/outputs/apk/debug/app-debug.apk
+
+      - name: Створити реліз з APK
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="v1.0.${{ github.run_number }}"
+          
+          gh release create "$TAG" \
+            "android/app/build/outputs/apk/debug/app-debug.apk" \
+            --title "Тиць APK $TAG" \
+            --notes "Готовий APK застосунку Тиць."
+
+      - name: Зберегти APK як резервну копію
         uses: actions/upload-artifact@v4
         with:
           name: tyts-apk
