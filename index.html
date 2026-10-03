@@ -743,22 +743,26 @@ body:not(.tyts-dark){background:#f3f4f6 !important;color:#222}
 </style>
 
 <style id="tyts-bottom-navigation">
-body{padding-bottom:78px;}
+body{padding-bottom:calc(94px + env(safe-area-inset-bottom));}
 .tyts-bottom-nav{
   position:fixed;
   left:0;right:0;bottom:0;
-  height:68px;
-  background:rgba(255,255,255,.98);
-  border-top:1px solid #e5e7eb;
+  height:calc(76px + env(safe-area-inset-bottom));
+  box-sizing:border-box;
+  background:rgba(255,255,255,.99);
+  border-top:2px solid #d8dde5;
   display:flex;
   align-items:stretch;
   justify-content:space-around;
   z-index:9999;
-  box-shadow:0 -4px 18px rgba(0,0,0,.08);
-  padding-bottom:env(safe-area-inset-bottom);
+  box-shadow:0 -6px 20px rgba(0,0,0,.12);
+  padding:0 2px env(safe-area-inset-bottom);
 }
 .tyts-bottom-nav button{
   flex:1;
+  min-width:0;
+  height:76px;
+  box-sizing:border-box;
   border:0;
   background:transparent;
   color:#374151;
@@ -767,16 +771,16 @@ body{padding-bottom:78px;}
   flex-direction:column;
   align-items:center;
   justify-content:center;
-  gap:3px;
+  gap:4px;
   cursor:pointer;
-  padding:4px 2px;
+  padding:5px 2px;
 }
-.tyts-bottom-nav .tyts-nav-icon{font-size:23px;line-height:1;}
+.tyts-bottom-nav .tyts-nav-icon{font-size:25px;line-height:1;}
 .tyts-bottom-nav button:active{transform:scale(.96);}
 html.tyts-dark .tyts-bottom-nav{
   background:#161d26;
-  border-top-color:#303846;
-  box-shadow:0 -4px 18px rgba(0,0,0,.35);
+  border-top-color:#3b4654;
+  box-shadow:0 -6px 20px rgba(0,0,0,.45);
 }
 html.tyts-dark .tyts-bottom-nav button{color:#f3f4f6;}
 .tyts-bottom-page{padding-bottom:20px;}
@@ -810,9 +814,10 @@ html.tyts-dark .tyts-chat-window{background:#1b2430;color:#f8fafc;}
 html.tyts-dark .tyts-chat-last{color:#9ca3af;}
 html.tyts-dark .tyts-chat-message.theirs{background:#303846;color:#f8fafc;}
 @media(max-width:600px){
-  .tyts-bottom-nav{height:64px;}
-  .tyts-bottom-nav button{font-size:10px;}
-  .tyts-bottom-nav .tyts-nav-icon{font-size:22px;}
+  body{padding-bottom:calc(88px + env(safe-area-inset-bottom));}
+  .tyts-bottom-nav{height:calc(72px + env(safe-area-inset-bottom));}
+  .tyts-bottom-nav button{height:72px;font-size:11px;}
+  .tyts-bottom-nav .tyts-nav-icon{font-size:24px;}
 }
 </style>
 
@@ -1163,26 +1168,7 @@ onclick="showOther()">
 </div>
 
 
-<div class="info">
 
-👨‍🔧 Надаєте послуги?
-
-<br><br>
-
-Хочете розмістити своє оголошення
-в «Тиць»?
-
-<br><br>
-
-<button
-class="add-button"
-onclick="showAddService()">
-
-➕ Додати своє оголошення
-
-</button>
-
-</div>
 
 </div>
 
@@ -6599,6 +6585,14 @@ window.firebaseSaveUser = async function(data){
   return {uid,tytsId};
 };
 
+/* Отримати профіль «Тиць» з Firebase для входу на іншому пристрої. */
+window.firebaseGetUserProfile=async function(uid){
+  if(!uid) return null;
+  const snap=await getDoc(doc(db,"users",String(uid)));
+  if(!snap.exists()) return null;
+  return {uid:snap.id,...snap.data()};
+};
+
 
 
 /* =========================================================
@@ -8281,14 +8275,44 @@ window.submitService=async function(){
       const authUser=await window.firebaseLoginAuth(email,password);
       const users=getUsers();
       let user=users.find(u=>u.uid===authUser.uid || u.id===authUser.uid || String(u.email||"").toLowerCase()===String(authUser.email||email).toLowerCase());
-      if(!user){
-        throw new Error("Акаунт Firebase знайдено, але профіль «Тиць» на цьому пристрої не знайдено. Зареєструйте профіль на цьому пристрої або відновіть дані профілю.");
+
+      /* Якщо на цьому телефоні локального профілю немає — беремо його з Firebase. */
+      if(!user && typeof window.firebaseGetUserProfile === "function"){
+        const remoteProfile=await window.firebaseGetUserProfile(authUser.uid);
+        if(remoteProfile){
+          user={
+            id:authUser.uid,
+            uid:authUser.uid,
+            email:remoteProfile.email || authUser.email || email,
+            name:remoteProfile.name || "",
+            surname:remoteProfile.surname || "",
+            patronymic:remoteProfile.patronymic || "",
+            phone:remoteProfile.phone || "",
+            age:remoteProfile.age || "",
+            gender:remoteProfile.gender || "",
+            role:remoteProfile.role || "seeker",
+            roleLabel:remoteProfile.roleLabel || (remoteProfile.role === "provider" ? "Надаю послуги" : "Шукаю послугу"),
+            photo:remoteProfile.photo || "",
+            tytsId:remoteProfile.tytsId || "",
+            firebaseId:authUser.uid,
+            authRole:authUser.role || remoteProfile.authRole || "user",
+            admin:authUser.admin === true,
+            createdAt:remoteProfile.createdAt || Date.now()
+          };
+          users.push(user);
+          setUsers(users);
+        }
       }
+
+      if(!user){
+        throw new Error("Акаунт Firebase знайдено, але профіль «Тиць» у Firebase не знайдено. Якщо це старий акаунт, спочатку зареєструйте профіль у «Тиць».");
+      }
+
       user.uid=authUser.uid;
       user.id=authUser.uid;
-      user.email=authUser.email || email;
+      user.email=authUser.email || user.email || email;
       user.firebaseId=authUser.uid;
-      user.authRole=authUser.role || "user";
+      user.authRole=authUser.role || user.authRole || "user";
       user.admin=authUser.admin === true;
       const idx=users.findIndex(u=>u.uid===authUser.uid || u.id===authUser.uid || String(u.email||"").toLowerCase()===String(email).toLowerCase());
       if(idx!==-1){users[idx]=user;setUsers(users);}
