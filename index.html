@@ -425,20 +425,23 @@ margin-top:6px;
   user-select:none;
   white-space:nowrap;
   line-height:1;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size:96px;
+  font-family:"Nunito","Arial Rounded MT Bold","Arial Rounded MT",sans-serif;
+  font-size:100px;
   font-weight:900;
-  letter-spacing:0;
+  letter-spacing:-3px;
   text-rendering:geometricPrecision;
   -webkit-font-smoothing:antialiased;
 }
 .tyts-text-logo span{
   display:inline-block;
+  font-family:"Nunito","Arial Rounded MT Bold","Arial Rounded MT",sans-serif;
+  font-weight:900;
+  -webkit-text-stroke:0;
 }
 .tyts-logo-t{color:#10c4c7;}
-.tyts-logo-y{color:#145f8b;}
-.tyts-logo-c{color:#7fce2b;}
-.tyts-logo-ь{color:#ffb400; margin-left:8px;}
+.tyts-logo-y{color:#2b78a8;}
+.tyts-logo-c{color:#83d12b;}
+.tyts-logo-ь{color:#ffb400; margin-left:7px;}
 
 
 .tyts-text-logo{position:relative;}
@@ -463,8 +466,12 @@ margin-top:6px;
   .tyts-logo-ь{margin-left:6px;}
   .tyts-text-logo{
     height:88px;
-    font-size:72px;
-    letter-spacing:-1px;
+    font-size:74px;
+    letter-spacing:-2px;
+  }
+  .tyts-text-logo span{
+    -webkit-text-stroke:0;
+    font-weight:900;
   }
 }
 
@@ -743,26 +750,22 @@ body:not(.tyts-dark){background:#f3f4f6 !important;color:#222}
 </style>
 
 <style id="tyts-bottom-navigation">
-body{padding-bottom:calc(94px + env(safe-area-inset-bottom));}
+body{padding-bottom:78px;}
 .tyts-bottom-nav{
   position:fixed;
   left:0;right:0;bottom:0;
-  height:calc(76px + env(safe-area-inset-bottom));
-  box-sizing:border-box;
-  background:rgba(255,255,255,.99);
-  border-top:2px solid #d8dde5;
+  height:68px;
+  background:rgba(255,255,255,.98);
+  border-top:1px solid #e5e7eb;
   display:flex;
   align-items:stretch;
   justify-content:space-around;
   z-index:9999;
-  box-shadow:0 -6px 20px rgba(0,0,0,.12);
-  padding:0 2px env(safe-area-inset-bottom);
+  box-shadow:0 -4px 18px rgba(0,0,0,.08);
+  padding-bottom:env(safe-area-inset-bottom);
 }
 .tyts-bottom-nav button{
   flex:1;
-  min-width:0;
-  height:76px;
-  box-sizing:border-box;
   border:0;
   background:transparent;
   color:#374151;
@@ -771,16 +774,16 @@ body{padding-bottom:calc(94px + env(safe-area-inset-bottom));}
   flex-direction:column;
   align-items:center;
   justify-content:center;
-  gap:4px;
+  gap:3px;
   cursor:pointer;
-  padding:5px 2px;
+  padding:4px 2px;
 }
-.tyts-bottom-nav .tyts-nav-icon{font-size:25px;line-height:1;}
+.tyts-bottom-nav .tyts-nav-icon{font-size:23px;line-height:1;}
 .tyts-bottom-nav button:active{transform:scale(.96);}
 html.tyts-dark .tyts-bottom-nav{
   background:#161d26;
-  border-top-color:#3b4654;
-  box-shadow:0 -6px 20px rgba(0,0,0,.45);
+  border-top-color:#303846;
+  box-shadow:0 -4px 18px rgba(0,0,0,.35);
 }
 html.tyts-dark .tyts-bottom-nav button{color:#f3f4f6;}
 .tyts-bottom-page{padding-bottom:20px;}
@@ -814,10 +817,9 @@ html.tyts-dark .tyts-chat-window{background:#1b2430;color:#f8fafc;}
 html.tyts-dark .tyts-chat-last{color:#9ca3af;}
 html.tyts-dark .tyts-chat-message.theirs{background:#303846;color:#f8fafc;}
 @media(max-width:600px){
-  body{padding-bottom:calc(88px + env(safe-area-inset-bottom));}
-  .tyts-bottom-nav{height:calc(72px + env(safe-area-inset-bottom));}
-  .tyts-bottom-nav button{height:72px;font-size:11px;}
-  .tyts-bottom-nav .tyts-nav-icon{font-size:24px;}
+  .tyts-bottom-nav{height:64px;}
+  .tyts-bottom-nav button{font-size:10px;}
+  .tyts-bottom-nav .tyts-nav-icon{font-size:22px;}
 }
 </style>
 
@@ -870,21 +872,12 @@ body.tyts-dark #tytsRegisterButton{
 </style>
 
 <style id="tyts-full-admin-css">
-.tyts-admin-page{max-width:980px!important;margin:0 auto;padding-bottom:120px!important}.tyts-admin-wrap{display:flex;flex-direction:column;gap:14px}.tyts-admin-status{background:#1b2430;color:#fff;border-radius:18px;padding:18px;text-align:center}.tyts-admin-badge{display:inline-block;background:#fff;color:#111;border-radius:999px;padding:7px 13px;font-weight:900;margin-bottom:8px}.tyts-admin-muted{font-size:11px;opacity:.7;margin-top:5px;word-break:break-all}.tyts-admin-tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.tyts-admin-tab{border:0;border-radius:12px;padding:12px 7px;background:#e9edf2;color:#111;font-weight:800;cursor:pointer}.tyts-admin-tab.active{background:#111;color:#fff}.tyts-admin-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.tyts-admin-stat{background:#1b2430;color:#fff;border-radius:14px;padding:12px 7px;text-align:center}.tyts-admin-stat b{display:block;font-size:20px}.tyts-admin-stat span{font-size:11px;opacity:.75}.tyts-admin-panel{background:#fff;border-radius:18px;padding:14px;box-shadow:0 2px 8px rgba(0,0,0,.06)}.tyts-admin-panel h3{margin:0 0 12px}.tyts-admin-row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 0;border-bottom:1px solid #e5e7eb}.tyts-admin-row:last-child{border-bottom:0}.tyts-admin-row-main{min-width:0;display:flex;flex-direction:column;gap:3px}.tyts-admin-row-main b{font-size:14px}.tyts-admin-row-main span{font-size:12px;color:#555}.tyts-admin-row-main small{font-size:11px;color:#888;word-break:break-word}.tyts-user-tyts-id{font-weight:900;color:#111}.tyts-admin-buttons{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}.tyts-admin-btn{border:0;border-radius:10px;padding:8px 10px;font-weight:800;cursor:pointer;background:#111;color:#fff}.tyts-admin-btn.warn{background:#d97706}.tyts-admin-btn.danger{background:#dc2626}.tyts-admin-btn.ok{background:#15803d}.tyts-admin-search{width:100%;box-sizing:border-box;padding:11px 12px;border:1px solid #d1d5db;border-radius:11px;margin-bottom:10px;font-size:14px}.tyts-admin-empty{padding:18px;text-align:center;color:#888}.tyts-admin-note{background:#f3f4f6;border-radius:12px;padding:12px;font-size:12px;line-height:1.45;margin-bottom:10px}.tyts-admin-actions{display:flex;gap:8px;flex-wrap:wrap}.tyts-admin-actions .add-button{flex:1}.tyts-admin-hidden{opacity:.65}.tyts-admin-status-pill{display:inline-block;padding:4px 8px;border-radius:999px;font-size:10px;font-weight:800;background:#e5e7eb;color:#333}.tyts-admin-status-pill.ok{background:#dcfce7;color:#166534}.tyts-admin-status-pill.warn{background:#fef3c7;color:#92400e}.tyts-admin-status-pill.bad{background:#fee2e2;color:#991b1b}@media(max-width:650px){.tyts-admin-stats{grid-template-columns:repeat(2,1fr)}.tyts-admin-tabs{grid-template-columns:repeat(2,1fr)}.tyts-admin-row{align-items:flex-start;flex-direction:column}.tyts-admin-buttons{width:100%;justify-content:flex-start}}
+.tyts-admin-page{max-width:980px!important;margin:0 auto;padding-bottom:120px!important}.tyts-admin-wrap{display:flex;flex-direction:column;gap:14px}.tyts-admin-status{background:#1b2430;color:#fff;border-radius:18px;padding:18px;text-align:center}.tyts-admin-badge{display:inline-block;background:#fff;color:#111;border-radius:999px;padding:7px 13px;font-weight:900;margin-bottom:8px}.tyts-admin-muted{font-size:11px;opacity:.7;margin-top:5px;word-break:break-all}.tyts-admin-tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.tyts-admin-tab{border:0;border-radius:12px;padding:12px 7px;background:#e9edf2;color:#111;font-weight:800;cursor:pointer}.tyts-admin-tab.active{background:#111;color:#fff}.tyts-admin-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.tyts-admin-stat{background:#1b2430;color:#fff;border-radius:14px;padding:12px 7px;text-align:center}.tyts-admin-stat b{display:block;font-size:20px}.tyts-admin-stat span{font-size:11px;opacity:.75}.tyts-admin-panel{background:#fff;border-radius:18px;padding:14px;box-shadow:0 2px 8px rgba(0,0,0,.06)}.tyts-admin-panel h3{margin:0 0 12px}.tyts-admin-row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 0;border-bottom:1px solid #e5e7eb}.tyts-admin-row:last-child{border-bottom:0}.tyts-admin-row-main{min-width:0;display:flex;flex-direction:column;gap:3px}.tyts-admin-row-main b{font-size:14px}.tyts-admin-row-main span{font-size:12px;color:#555}.tyts-admin-row-main small{font-size:11px;color:#888;word-break:break-word}.tyts-admin-buttons{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}.tyts-admin-btn{border:0;border-radius:10px;padding:8px 10px;font-weight:800;cursor:pointer;background:#111;color:#fff}.tyts-admin-btn.warn{background:#d97706}.tyts-admin-btn.danger{background:#dc2626}.tyts-admin-btn.ok{background:#15803d}.tyts-admin-search{width:100%;box-sizing:border-box;padding:11px 12px;border:1px solid #d1d5db;border-radius:11px;margin-bottom:10px;font-size:14px}.tyts-admin-empty{padding:18px;text-align:center;color:#888}.tyts-admin-note{background:#f3f4f6;border-radius:12px;padding:12px;font-size:12px;line-height:1.45;margin-bottom:10px}.tyts-admin-actions{display:flex;gap:8px;flex-wrap:wrap}.tyts-admin-actions .add-button{flex:1}.tyts-admin-hidden{opacity:.65}.tyts-admin-status-pill{display:inline-block;padding:4px 8px;border-radius:999px;font-size:10px;font-weight:800;background:#e5e7eb;color:#333}.tyts-admin-status-pill.ok{background:#dcfce7;color:#166534}.tyts-admin-status-pill.warn{background:#fef3c7;color:#92400e}.tyts-admin-status-pill.bad{background:#fee2e2;color:#991b1b}@media(max-width:650px){.tyts-admin-stats{grid-template-columns:repeat(2,1fr)}.tyts-admin-tabs{grid-template-columns:repeat(2,1fr)}.tyts-admin-row{align-items:flex-start;flex-direction:column}.tyts-admin-buttons{width:100%;justify-content:flex-start}}
 html.tyts-dark .tyts-admin-panel{background:#1b2430!important;color:#f3f4f6!important}html.tyts-dark .tyts-admin-row{border-color:#334155!important}html.tyts-dark .tyts-admin-row-main span,html.tyts-dark .tyts-admin-row-main small{color:#aeb8c5!important}html.tyts-dark .tyts-admin-search{background:#111820!important;color:#fff!important;border-color:#3b4654!important}html.tyts-dark .tyts-admin-note{background:#111820!important;color:#dbe4ee!important}html.tyts-dark .tyts-admin-tab{background:#263241!important;color:#f3f4f6!important}html.tyts-dark .tyts-admin-tab.active{background:#fff!important;color:#111!important}
 </style>
 
-
-<style id="tyts-admin-click-fix">
-#tytsAdminPage, #tytsAdminContent, #tytsAdminContent .tyts-admin-wrap, #tytsAdminContent .tyts-admin-tabs, #tytsAdminContent .tyts-admin-tab, #tytsAdminContent .tyts-admin-btn {
-  position: relative;
-  z-index: 10000;
-  pointer-events: auto !important;
-}
-#tytsAdminContent .tyts-admin-tab, #tytsAdminContent .tyts-admin-btn, #tytsAdminContent .tyts-admin-actions button {
-  cursor: pointer !important;
-  touch-action: manipulation;
-}
+<style id="tyts-rounded-logo-font">
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800;900&display=swap');
 </style>
 </head>
 
@@ -1168,7 +1161,26 @@ onclick="showOther()">
 </div>
 
 
+<div class="info">
 
+👨‍🔧 Надаєте послуги?
+
+<br><br>
+
+Хочете розмістити своє оголошення
+в «Тиць»?
+
+<br><br>
+
+<button
+class="add-button"
+onclick="showAddService()">
+
+➕ Додати своє оголошення
+
+</button>
+
+</div>
 
 </div>
 
@@ -6389,8 +6401,7 @@ deleteDoc,
 onSnapshot,
 query,
 where,
-serverTimestamp,
-runTransaction
+serverTimestamp
 }
 from
 "https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js";
@@ -6473,10 +6484,6 @@ window.firebaseGetAdminStatus=async function(){
     admin:tokenResult.claims.admin === true
   };
 };
-window.firebaseAdminRefreshServices=function(){
-  if(!Array.isArray(window.tytsAdminServices)) window.tytsAdminServices=[];
-  return window.tytsAdminServices;
-};
 window.firebaseAdminDeleteService=async function(id){
   const status=await window.firebaseGetAdminStatus();
   if(!status.allowed) throw new Error("Доступ до адмін-панелі заборонений.");
@@ -6545,52 +6552,13 @@ window.firebaseAdminSetReportClosed=async function(id,closed){
 window.firebaseSaveUser = async function(data){
   const uid=data.uid;
   if(!uid) throw new Error("Не знайдено UID користувача Firebase.");
-
-  const userRef=doc(db,"users",uid);
-  const counterRef=doc(db,"system","userCounter");
-
-  const tytsId=await runTransaction(db,async(transaction)=>{
-    const userSnap=await transaction.get(userRef);
-    const existing=userSnap.exists() ? userSnap.data() : {};
-
-    if(existing.tytsId){
-      transaction.set(userRef,{
-        uid, email:data.email || "", name:data.name, surname:data.surname || "", patronymic:data.patronymic || "",
-        phone:data.phone, age:data.age, gender:data.gender, role:data.role, roleLabel:data.roleLabel || "",
-        authRole:data.authRole || "user", admin:data.admin === true, photo:data.photo || "",
-        tytsId:existing.tytsId,
-        createdAt:existing.createdAt || data.createdAt || serverTimestamp()
-      },{merge:true});
-      return existing.tytsId;
-    }
-
-    const counterSnap=await transaction.get(counterRef);
-    const counterData=counterSnap.exists() ? counterSnap.data() : {};
-    const lastId=Number(counterData.lastId || 0);
-    const nextId=lastId+1;
-    const newTytsId="TYTS-"+String(nextId).padStart(6,"0");
-
-    transaction.set(counterRef,{lastId:nextId,updatedAt:serverTimestamp()},{merge:true});
-    transaction.set(userRef,{
-      uid, email:data.email || "", name:data.name, surname:data.surname || "", patronymic:data.patronymic || "",
-      phone:data.phone, age:data.age, gender:data.gender, role:data.role, roleLabel:data.roleLabel || "",
-      authRole:data.authRole || "user", admin:data.admin === true, photo:data.photo || "",
-      tytsId:newTytsId,
-      createdAt:data.createdAt || serverTimestamp()
-    },{merge:true});
-
-    return newTytsId;
-  });
-
-  return {uid,tytsId};
-};
-
-/* Отримати профіль «Тиць» з Firebase для входу на іншому пристрої. */
-window.firebaseGetUserProfile=async function(uid){
-  if(!uid) return null;
-  const snap=await getDoc(doc(db,"users",String(uid)));
-  if(!snap.exists()) return null;
-  return {uid:snap.id,...snap.data()};
+  await setDoc(doc(db,"users",uid), {
+    uid, email:data.email || "", name:data.name, surname:data.surname || "", patronymic:data.patronymic || "",
+    phone:data.phone, age:data.age, gender:data.gender, role:data.role, roleLabel:data.roleLabel || "",
+    authRole:data.authRole || "user", admin:data.admin === true, photo:data.photo || "",
+    createdAt:data.createdAt || serverTimestamp()
+  },{merge:true});
+  return uid;
 };
 
 
@@ -6685,12 +6653,12 @@ collection(
 
 function(snapshot){
 
-window.tytsAdminServices=[];
+tytsAdminServices=[];
 allServices=[];
 
 snapshot.forEach(function(doc){
 const item={id:doc.id,...doc.data()};
-window.tytsAdminServices.push(item);
+tytsAdminServices.push(item);
 if(item.hidden !== true) allServices.push(item);
 });
 
@@ -8275,44 +8243,14 @@ window.submitService=async function(){
       const authUser=await window.firebaseLoginAuth(email,password);
       const users=getUsers();
       let user=users.find(u=>u.uid===authUser.uid || u.id===authUser.uid || String(u.email||"").toLowerCase()===String(authUser.email||email).toLowerCase());
-
-      /* Якщо на цьому телефоні локального профілю немає — беремо його з Firebase. */
-      if(!user && typeof window.firebaseGetUserProfile === "function"){
-        const remoteProfile=await window.firebaseGetUserProfile(authUser.uid);
-        if(remoteProfile){
-          user={
-            id:authUser.uid,
-            uid:authUser.uid,
-            email:remoteProfile.email || authUser.email || email,
-            name:remoteProfile.name || "",
-            surname:remoteProfile.surname || "",
-            patronymic:remoteProfile.patronymic || "",
-            phone:remoteProfile.phone || "",
-            age:remoteProfile.age || "",
-            gender:remoteProfile.gender || "",
-            role:remoteProfile.role || "seeker",
-            roleLabel:remoteProfile.roleLabel || (remoteProfile.role === "provider" ? "Надаю послуги" : "Шукаю послугу"),
-            photo:remoteProfile.photo || "",
-            tytsId:remoteProfile.tytsId || "",
-            firebaseId:authUser.uid,
-            authRole:authUser.role || remoteProfile.authRole || "user",
-            admin:authUser.admin === true,
-            createdAt:remoteProfile.createdAt || Date.now()
-          };
-          users.push(user);
-          setUsers(users);
-        }
-      }
-
       if(!user){
-        throw new Error("Акаунт Firebase знайдено, але профіль «Тиць» у Firebase не знайдено. Якщо це старий акаунт, спочатку зареєструйте профіль у «Тиць».");
+        throw new Error("Акаунт Firebase знайдено, але профіль «Тиць» на цьому пристрої не знайдено. Зареєструйте профіль на цьому пристрої або відновіть дані профілю.");
       }
-
       user.uid=authUser.uid;
       user.id=authUser.uid;
-      user.email=authUser.email || user.email || email;
+      user.email=authUser.email || email;
       user.firebaseId=authUser.uid;
-      user.authRole=authUser.role || user.authRole || "user";
+      user.authRole=authUser.role || "user";
       user.admin=authUser.admin === true;
       const idx=users.findIndex(u=>u.uid===authUser.uid || u.id===authUser.uid || String(u.email||"").toLowerCase()===String(email).toLowerCase());
       if(idx!==-1){users[idx]=user;setUsers(users);}
@@ -8454,9 +8392,8 @@ window.submitService=async function(){
       updateTytsHeader();
 
       /* Firestore — профіль зберігаємо під UID Firebase. */
-      const firebaseResult=await window.firebaseSaveUser(user);
-      user.firebaseId=firebaseResult.uid;
-      user.tytsId=firebaseResult.tytsId;
+      const firebaseId=await window.firebaseSaveUser(user);
+      user.firebaseId=firebaseId;
       localStorage.setItem("tyts_current_user",JSON.stringify(user));
       updateTytsHeader();
       const refreshed=getUsers();
@@ -8510,7 +8447,7 @@ window.submitService=async function(){
   function getAdminServices(){
     let local=[];
     try{local=JSON.parse(localStorage.getItem("tyts_services")||"[]");}catch(e){local=[];}
-    const firebaseItems=(Array.isArray(window.tytsAdminServices)) ? window.tytsAdminServices : [];
+    const firebaseItems=(typeof tytsAdminServices!=="undefined" && Array.isArray(tytsAdminServices)) ? tytsAdminServices : [];
     const merged=firebaseItems.slice();
     (Array.isArray(local)?local:[]).forEach(function(item){
       if(!merged.some(x=>String(x.id)===String(item.id))) merged.push(item);
@@ -8527,6 +8464,7 @@ window.submitService=async function(){
     const reviews=data.reviews || [];
     const reports=data.reports || [];
     const escAdmin=(value)=>esc(value);
+    const adminArg=(value)=>"&quot;"+String(value ?? "").replace(/&/g,"&amp;").replace(/\\/g,"\\\\").replace(/"/g,"&quot;")+"&quot;";
     const active=tab||"dashboard";
     const tabs=[
       ["dashboard","📊 Огляд"],["services","📢 Оголошення"],["users","👥 Користувачі"],
@@ -8534,7 +8472,7 @@ window.submitService=async function(){
     ];
     let html='<div class="tyts-admin-wrap">';
     html+='<div class="tyts-admin-status"><div class="tyts-admin-badge">👑 СУПЕРАДМІН</div><div><b>'+escAdmin(status.email)+'</b></div><div class="tyts-admin-muted">Firebase UID: '+escAdmin(status.uid)+'</div></div>';
-    html+='<div class="tyts-admin-tabs">'+tabs.map(t=>'<button class="tyts-admin-tab '+(active===t[0]?'active':'')+'" onclick=\'tytsAdminTab('+JSON.stringify(t[0])+')\'>'+t[1]+'</button>').join('')+'</div>';
+    html+='<div class="tyts-admin-tabs">'+tabs.map(t=>'<button class="tyts-admin-tab '+(active===t[0]?'active':'')+'" onclick="tytsAdminTab('+adminArg(t[0])+')">'+t[1]+'</button>').join('')+'</div>';
     html+='<div class="tyts-admin-stats">'+
       '<div class="tyts-admin-stat"><b>'+services.length+'</b><span>Оголошень</span></div>'+
       '<div class="tyts-admin-stat"><b>'+users.length+'</b><span>Користувачів</span></div>'+
@@ -8569,55 +8507,40 @@ window.submitService=async function(){
       const admins=users.filter(u=>u.admin===true || u.authRole==="superadmin");
       const requests=users.filter(u=>u.adminRequest===true && u.admin!==true && u.authRole!=="superadmin");
       html+='<div class="tyts-admin-panel"><h3>🛡️ Адміністратори</h3><div class="tyts-admin-note">Твій статус <b>superadmin</b> захищений Firebase Custom Claims. Кнопка запиту лише фіксує заявку в профілі — вона не видає Custom Claim автоматично.</div>';
-      html+=admins.length?admins.map(u=>'<div class="tyts-admin-row"><div class="tyts-admin-row-main"><b>'+escAdmin([u.surname,u.name,u.patronymic].filter(Boolean).join(' ')||'Без імені')+'</b><span>'+escAdmin(u.email||'')+'</span><small>'+escAdmin(u.authRole==='superadmin'?'👑 superadmin':'🛡️ admin')+'</small></div><div class="tyts-admin-buttons"><button class="tyts-admin-btn" onclick=\'tytsAdminCopyUid('+JSON.stringify(u.uid||u.id||'')+')\'>📋 UID</button></div></div>').join(''):'<div class="tyts-admin-empty">Адміністраторів ще немає.</div>';
+      html+=admins.length?admins.map(u=>'<div class="tyts-admin-row"><div class="tyts-admin-row-main"><b>'+escAdmin([u.name,u.surname].filter(Boolean).join(' ')||'Без імені')+'</b><span>'+escAdmin(u.email||'')+'</span><small>'+escAdmin(u.authRole==='superadmin'?'👑 superadmin':'🛡️ admin')+'</small></div><div class="tyts-admin-buttons"><button class="tyts-admin-btn" onclick="tytsAdminCopyUid('+adminArg(u.uid||u.id||'')+')">📋 UID</button></div></div>').join(''):'<div class="tyts-admin-empty">Адміністраторів ще немає.</div>';
       html+='<h3 style="margin-top:18px">📝 Запити на адміністратора</h3>';
-      html+=requests.length?requests.map(u=>'<div class="tyts-admin-row"><div class="tyts-admin-row-main"><b>'+escAdmin([u.surname,u.name,u.patronymic].filter(Boolean).join(' ')||'Без імені')+'</b><span>'+escAdmin(u.email||'')+'</span><small>UID: '+escAdmin(u.uid||u.id||'')+'</small></div><div class="tyts-admin-buttons"><button class="tyts-admin-btn" onclick=\'tytsAdminCopyUid('+JSON.stringify(u.uid||u.id||'')+')\'>📋 UID</button></div></div>').join(''):'<div class="tyts-admin-empty">Запитів немає.</div>';
+      html+=requests.length?requests.map(u=>'<div class="tyts-admin-row"><div class="tyts-admin-row-main"><b>'+escAdmin([u.name,u.surname].filter(Boolean).join(' ')||'Без імені')+'</b><span>'+escAdmin(u.email||'')+'</span><small>UID: '+escAdmin(u.uid||u.id||'')+'</small></div><div class="tyts-admin-buttons"><button class="tyts-admin-btn" onclick="tytsAdminCopyUid('+adminArg(u.uid||u.id||'')+')">📋 UID</button></div></div>').join(''):'<div class="tyts-admin-empty">Запитів немає.</div>';
       html+='</div>';
     }
 
     html+='<div class="tyts-admin-actions"><button class="add-button" type="button" onclick="openTytsAdminPanel()">🔄 Оновити дані</button><button class="add-button" type="button" onclick="openTytsProfile()">👤 Мій профіль</button></div></div>';
     box.innerHTML=html;
-
-    // Надійна навігація адмін-панелі для локального HTML.
-    box.querySelectorAll(".tyts-admin-tab").forEach(function(btn){
-      btn.type="button";
-      btn.addEventListener("click",function(e){
-        e.preventDefault();
-        e.stopPropagation();
-        const m=this.getAttribute("onclick") || "";
-        const match=m.match(/tytsAdminTab\((['\"])(.*?)\1\)/);
-        if(match && typeof window.tytsAdminTab === "function") window.tytsAdminTab(match[2]);
-      });
-    });
-    box.querySelectorAll(".tyts-admin-btn, .tyts-admin-actions button").forEach(function(btn){
-      btn.type="button";
-    });
   }
 
   function renderAdminServicesRows(services,escAdmin){
     if(!services.length) return '<div class="tyts-admin-empty">Оголошень немає.</div>';
     return services.slice().reverse().map(function(item){
       const id=String(item.id||""); const hidden=item.hidden===true;
-      return '<div class="tyts-admin-row '+(hidden?'tyts-admin-hidden':'')+'" data-admin-service="'+escAdmin([item.name,item.service,item.category].join(' '))+'"><div class="tyts-admin-row-main"><b>'+escAdmin(item.name||'Без імені')+'</b><span>'+escAdmin(item.service||'Послуга')+'</span><small>'+escAdmin(item.category||'')+' · '+(hidden?'⛔ Приховане':'🟢 Опубліковане')+'</small></div><div class="tyts-admin-buttons">'+(id.startsWith('local_')?'':'<button class="tyts-admin-btn '+(hidden?'ok':'warn')+'" onclick=\'tytsAdminToggleService('+JSON.stringify(id)+','+(!hidden)+')\'>'+(hidden?'👁 Показати':'🙈 Приховати')+'</button>')+'<button class="tyts-admin-btn danger" onclick=\'tytsAdminRemoveService('+JSON.stringify(id)+')\'>🗑 Видалити</button></div></div>';
+      return '<div class="tyts-admin-row '+(hidden?'tyts-admin-hidden':'')+'" data-admin-service="'+escAdmin([item.name,item.service,item.category].join(' '))+'"><div class="tyts-admin-row-main"><b>'+escAdmin(item.name||'Без імені')+'</b><span>'+escAdmin(item.service||'Послуга')+'</span><small>'+escAdmin(item.category||'')+' · '+(hidden?'⛔ Приховане':'🟢 Опубліковане')+'</small></div><div class="tyts-admin-buttons">'+(id.startsWith('local_')?'':'<button class="tyts-admin-btn '+(hidden?'ok':'warn')+'" onclick="tytsAdminToggleService('+adminArg(id)+','+(!hidden)+')">'+(hidden?'👁 Показати':'🙈 Приховати')+'</button>')+'<button class="tyts-admin-btn danger" onclick="tytsAdminRemoveService('+adminArg(id)+')">🗑 Видалити</button></div></div>';
     }).join('');
   }
 
   function renderAdminUsersRows(users,status,escAdmin){
     if(!users.length) return '<div class="tyts-admin-empty">Користувачів у Firebase ще немає.</div>';
     return users.slice().sort((a,b)=>String(a.name||'').localeCompare(String(b.name||''))).map(function(u){
-      const uid=u.uid||u.id||''; const tytsId=u.tytsId||''; const superAdmin=u.authRole==='superadmin'; const blocked=u.blocked===true;
-      return '<div class="tyts-admin-row" data-admin-user="'+escAdmin([u.name,u.surname,u.email,tytsId,uid].join(' '))+'"><div class="tyts-admin-row-main"><b>'+escAdmin([u.surname,u.name,u.patronymic].filter(Boolean).join(' ')||'Без імені')+'</b><span>'+escAdmin(u.email||'')+'</span><small>'+escAdmin(tytsId||'ID ще не присвоєно')+' · '+(superAdmin?'👑 Суперадмін':u.admin?'🛡️ Адмін':'👤 Користувач')+'</small></div><div class="tyts-admin-buttons">'+(superAdmin?'':'<button class="tyts-admin-btn '+(blocked?'ok':'warn')+'" onclick=\'tytsAdminToggleUser('+JSON.stringify(uid)+','+(!blocked)+')\'>'+(blocked?'🔓 Розблокувати':'🚫 Заблокувати')+'</button><button class="tyts-admin-btn" onclick=\'tytsAdminRequestAdmin('+JSON.stringify(uid)+')\'>🛡️ Запит адміна</button>')+'<button class="tyts-admin-btn" onclick="tytsAdminCopyUid('+JSON.stringify(uid)+')">📋 UID</button></div></div>';
+      const uid=u.uid||u.id||''; const superAdmin=u.authRole==='superadmin'; const blocked=u.blocked===true;
+      return '<div class="tyts-admin-row" data-admin-user="'+escAdmin([u.name,u.surname,u.email].join(' '))+'"><div class="tyts-admin-row-main"><b>'+escAdmin([u.name,u.surname].filter(Boolean).join(' ')||'Без імені')+'</b><span>'+escAdmin(u.email||'')+'</span><small>'+escAdmin(uid)+' · '+(superAdmin?'👑 Суперадмін':u.admin?'🛡️ Адмін':'👤 Користувач')+'</small></div><div class="tyts-admin-buttons">'+(superAdmin?'':'<button class="tyts-admin-btn '+(blocked?'ok':'warn')+'" onclick="tytsAdminToggleUser('+adminArg(uid)+','+(!blocked)+')">'+(blocked?'🔓 Розблокувати':'🚫 Заблокувати')+'</button><button class="tyts-admin-btn" onclick="tytsAdminRequestAdmin('+adminArg(uid)+')">🛡️ Запит адміна</button>')+'<button class="tyts-admin-btn" onclick="tytsAdminCopyUid('+adminArg(uid)+')">📋 UID</button></div></div>';
     }).join('');
   }
 
   function renderAdminReviewsRows(reviews,escAdmin){
     if(!reviews.length) return '<div class="tyts-admin-empty">Відгуків немає.</div>';
-    return reviews.slice().reverse().map(r=>'<div class="tyts-admin-row"><div class="tyts-admin-row-main"><b>'+escAdmin(r.name||'Без імені')+'</b><span>Для: '+escAdmin(r.workerName||r.workerId||'')+'</span><small>'+escAdmin(r.text||'')+'</small></div><div class="tyts-admin-buttons"><button class="tyts-admin-btn danger" onclick=\'tytsAdminDeleteReview('+JSON.stringify(String(r.id||''))+')\'>🗑 Видалити</button></div></div>').join('');
+    return reviews.slice().reverse().map(r=>'<div class="tyts-admin-row"><div class="tyts-admin-row-main"><b>'+escAdmin(r.name||'Без імені')+'</b><span>Для: '+escAdmin(r.workerName||r.workerId||'')+'</span><small>'+escAdmin(r.text||'')+'</small></div><div class="tyts-admin-buttons"><button class="tyts-admin-btn danger" onclick="tytsAdminDeleteReview('+adminArg(String(r.id||''))+')">🗑 Видалити</button></div></div>').join('');
   }
 
   function renderAdminReportsRows(reports,escAdmin){
     if(!reports.length) return '<div class="tyts-admin-empty">Скарг поки немає.</div>';
-    return reports.slice().reverse().map(r=>'<div class="tyts-admin-row"><div class="tyts-admin-row-main"><b>'+escAdmin(r.reason||r.title||'Скарга')+'</b><span>'+escAdmin(r.email||r.userEmail||r.reporter||'')+'</span><small>'+escAdmin(r.text||r.description||r.message||'')+' · '+(r.closed===true?'✅ Закрито':'🟠 Відкрита')+'</small></div><div class="tyts-admin-buttons"><button class="tyts-admin-btn '+(r.closed===true?'warn':'ok')+'" onclick=\'tytsAdminToggleReport('+JSON.stringify(String(r.id||''))+','+(r.closed!==true)+')\'>'+(r.closed===true?'🔄 Відкрити':'✅ Закрити')+'</button></div></div>').join('');
+    return reports.slice().reverse().map(r=>'<div class="tyts-admin-row"><div class="tyts-admin-row-main"><b>'+escAdmin(r.reason||r.title||'Скарга')+'</b><span>'+escAdmin(r.email||r.userEmail||r.reporter||'')+'</span><small>'+escAdmin(r.text||r.description||r.message||'')+' · '+(r.closed===true?'✅ Закрито':'🟠 Відкрита')+'</small></div><div class="tyts-admin-buttons"><button class="tyts-admin-btn '+(r.closed===true?'warn':'ok')+'" onclick="tytsAdminToggleReport('+adminArg(String(r.id||''))+','+(r.closed!==true)+')">'+(r.closed===true?'🔄 Відкрити':'✅ Закрити')+'</button></div></div>').join('');
   }
 
   window.tytsAdminTab=function(tab){
@@ -8673,7 +8596,7 @@ window.submitService=async function(){
       }else{
         await window.firebaseAdminDeleteService(id);
         if(typeof allServices!=="undefined") allServices=allServices.filter(x=>String(x.id)!==String(id));
-        if(Array.isArray(window.tytsAdminServices)) window.tytsAdminServices=window.tytsAdminServices.filter(x=>String(x.id)!==String(id));
+        if(typeof tytsAdminServices!=="undefined") tytsAdminServices=tytsAdminServices.filter(x=>String(x.id)!==String(id));
       }
       await openTytsAdminPanel();
       tytsAdminTab("services");
@@ -8686,7 +8609,7 @@ window.submitService=async function(){
     box.innerHTML=`
       <div class="tyts-profile-card">
         <img class="tyts-profile-avatar" src="${user.photo||""}" alt="Фото профілю">
-        <div class="tyts-profile-name">${esc([user.surname,user.name,user.patronymic].filter(Boolean).join(" "))}</div>
+        <div class="tyts-profile-name">${esc([user.name,user.surname,user.patronymic].filter(Boolean).join(" "))}</div>
         <div class="tyts-profile-role">${roleIcon} ${esc(user.roleLabel || (user.role==="provider"?"Надаю послуги":"Шукаю послугу"))}</div>
         <div class="tyts-profile-data">
           <div class="tyts-profile-item"><span>Ім’я</span><b>${esc(user.name)}</b></div>
@@ -8696,7 +8619,7 @@ window.submitService=async function(){
           <div class="tyts-profile-item"><span>Email</span><b>${esc(user.email)}</b></div>
           <div class="tyts-profile-item"><span>Вік</span><b>${esc(user.age)}</b></div>
           <div class="tyts-profile-item"><span>Стать</span><b>${esc(user.gender)}</b></div>
-          <div class="tyts-profile-item"><span>ID користувача</span><b>${esc(user.tytsId || user.firebaseId || user.id)}</b></div>
+          <div class="tyts-profile-item"><span>ID користувача</span><b>${esc(user.firebaseId || user.id)}</b></div>
           <div class="tyts-profile-item"><span>Статус</span><b>${user.authRole==="superadmin" ? "👑 Суперадмін" : (user.admin ? "🛡️ Адміністратор" : "Профіль створено")}</b></div>
         </div>
         <div class="tyts-profile-actions">
@@ -8728,7 +8651,7 @@ window.submitService=async function(){
       if(profileButton) profileButton.style.display="none";
       if(userButton) userButton.style.display="flex";
       if(userPhoto) userPhoto.src=current.photo||"";
-      if(userName) userName.textContent=[current.surname,current.name,current.patronymic].filter(Boolean).join(" ")||"Профіль";
+      if(userName) userName.textContent=[current.name,current.surname].filter(Boolean).join(" ")||"Профіль";
     }else{
       if(registerButton) registerButton.style.display="inline-flex";
       if(profileButton) profileButton.style.display="flex";
@@ -8740,7 +8663,7 @@ window.submitService=async function(){
   window.addEventListener("load",function(){
     updateTytsHeader();
     const current=getCurrentUser();
-    if(current) console.log("Тиць: активний профіль",[current.surname,current.name,current.patronymic].filter(Boolean).join(" "));
+    if(current) console.log("Тиць: активний профіль",[current.name,current.surname].filter(Boolean).join(" "));
   });
 
   /* Нове оголошення від постачальника просимо створити профіль, якщо його ще немає. */
