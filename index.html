@@ -746,20 +746,74 @@ body:not(.tyts-dark){background:#f3f4f6 !important;color:#222}
 </style>
 
 <style id="tyts-bottom-navigation">
+/* ТИЦЬ — плаваюча нижня навігація в стилі Telegram */
 body{padding-bottom:calc(94px + env(safe-area-inset-bottom));}
+
 .tyts-bottom-nav{
   position:fixed;
-  left:0;right:0;bottom:0;
-  height:68px;
-  box-sizing:content-box;
-  background:rgba(255,255,255,.98);
-  border-top:1px solid #e5e7eb;
+  left:12px;
+  right:12px;
+  bottom:calc(10px + env(safe-area-inset-bottom));
+  height:66px;
+  box-sizing:border-box;
+  background:rgba(255,255,255,.82);
+  border:1px solid rgba(255,255,255,.72);
+  border-radius:28px;
   display:flex;
   align-items:stretch;
   justify-content:space-around;
-  z-index:9999;
-  box-shadow:0 -4px 18px rgba(0,0,0,.08);
-  padding-bottom:env(safe-area-inset-bottom);
+  z-index:99999;
+  box-shadow:0 8px 30px rgba(0,0,0,.18);
+  padding:4px;
+  overflow:hidden;
+  backdrop-filter:blur(18px);
+  -webkit-backdrop-filter:blur(18px);
+}
+
+.tyts-bottom-nav button{
+  position:relative;
+  flex:1;
+  min-width:0;
+  border:0;
+  border-radius:22px;
+  background:transparent;
+  color:#374151;
+  font:600 11px Arial,sans-serif;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:3px;
+  cursor:pointer;
+  padding:4px 2px;
+  -webkit-tap-highlight-color:transparent;
+}
+
+.tyts-bottom-nav .tyts-nav-icon{
+  font-size:23px;
+  line-height:1;
+}
+
+.tyts-bottom-nav button:active{
+  transform:scale(.96);
+}
+
+.tyts-bottom-nav button:hover{
+  background:rgba(17,24,39,.06);
+}
+
+html.tyts-dark .tyts-bottom-nav{
+  background:rgba(22,29,38,.84);
+  border-color:rgba(255,255,255,.08);
+  box-shadow:0 8px 30px rgba(0,0,0,.42);
+}
+
+html.tyts-dark .tyts-bottom-nav button{
+  color:#f3f4f6;
+}
+
+html.tyts-dark .tyts-bottom-nav button:hover{
+  background:rgba(255,255,255,.07);
 }
 .tyts-bottom-nav button{
   flex:1;
@@ -815,8 +869,15 @@ html.tyts-dark .tyts-chat-last{color:#9ca3af;}
 html.tyts-dark .tyts-chat-message.theirs{background:#303846;color:#f8fafc;}
 @media(max-width:600px){
   body{padding-bottom:calc(90px + env(safe-area-inset-bottom));}
-  .tyts-bottom-nav{height:64px;}
-  .tyts-bottom-nav button{font-size:10px;}
+  .tyts-bottom-nav{
+    left:8px;
+    right:8px;
+    bottom:calc(8px + env(safe-area-inset-bottom));
+    height:64px;
+    border-radius:26px;
+    padding:4px;
+  }
+  .tyts-bottom-nav button{font-size:10px;border-radius:21px;}
   .tyts-bottom-nav .tyts-nav-icon{font-size:22px;}
 }
 </style>
@@ -876,6 +937,15 @@ html.tyts-dark .tyts-admin-panel{background:#1b2430!important;color:#f3f4f6!impo
 
 <style id="tyts-rounded-logo-font">
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800;900&display=swap');
+</style>
+
+<style id="tyts-my-services-style">
+.tyts-my-services-list{display:flex;flex-direction:column;gap:10px;margin-top:10px;text-align:left}
+.tyts-my-service-card{background:#fff;border:1px solid #ddd;border-radius:14px;padding:12px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.tyts-my-service-meta{font-size:13px;opacity:.72;margin-top:4px}.tyts-my-service-desc{font-size:14px;margin-top:7px;line-height:1.35}
+.tyts-my-service-actions{display:flex;gap:8px;margin-top:10px}.tyts-my-service-actions .add-button{flex:1;margin:0;font-size:14px;padding:10px 8px}
+@media(max-width:600px){.tyts-my-service-actions{flex-direction:column}.tyts-my-service-actions .add-button{width:100%}}
+.tyts-success-modal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:100000;padding:20px}.tyts-success-modal-box{background:#fff;border-radius:20px;padding:28px 22px;text-align:center;max-width:340px;width:100%;box-shadow:0 12px 40px rgba(0,0,0,.25);font-size:18px}
 </style>
 </head>
 
@@ -6612,6 +6682,9 @@ price:data.price || "",
 
 description:data.description,
 
+ownerUid: data.ownerUid || data.uid || "",
+ownerEmail: data.ownerEmail || data.email || "",
+
 createdAt:
 serverTimestamp()
 
@@ -6622,6 +6695,46 @@ serverTimestamp()
 
 return docRef.id;
 
+};
+
+/* =========================================================
+   МОЇ ОГОЛОШЕННЯ — Firebase
+========================================================= */
+window.firebaseGetMyServices = async function(uid){
+  if(!uid) return [];
+  const snap = await getDocs(collection(db,"services"));
+  const out=[];
+  snap.forEach(function(d){
+    const item={id:d.id,...d.data()};
+    if(String(item.ownerUid||item.uid||"")===String(uid)) out.push(item);
+  });
+  return out;
+};
+
+window.firebaseUpdateMyService = async function(id, data){
+  const uid = data && data.ownerUid ? String(data.ownerUid) : "";
+  if(!uid || !id) throw new Error("Не знайдено власника оголошення.");
+  const ref=doc(db,"services",String(id));
+  const snap=await getDoc(ref);
+  if(!snap.exists()) throw new Error("Оголошення не знайдено.");
+  const old=snap.data()||{};
+  if(String(old.ownerUid||old.uid||"")!==uid) throw new Error("Це оголошення належить іншому користувачу.");
+  await updateDoc(ref,{
+    name:data.name||"", phone:data.phone||"", service:data.service||"",
+    price:data.price||"", description:data.description||"", updatedAt:serverTimestamp()
+  });
+  return true;
+};
+
+window.firebaseDeleteMyService = async function(id, uid){
+  if(!uid || !id) throw new Error("Не знайдено власника оголошення.");
+  const ref=doc(db,"services",String(id));
+  const snap=await getDoc(ref);
+  if(!snap.exists()) throw new Error("Оголошення не знайдено.");
+  const old=snap.data()||{};
+  if(String(old.ownerUid||old.uid||"")!==String(uid)) throw new Error("Це оголошення належить іншому користувачу.");
+  await deleteDoc(ref);
+  return true;
 };
 
 
@@ -6996,6 +7109,101 @@ error
     return profile;
   }
 
+  function restValue(v){
+    if(!v) return "";
+    if(v.stringValue!==undefined) return v.stringValue;
+    if(v.integerValue!==undefined) return Number(v.integerValue);
+    if(v.doubleValue!==undefined) return Number(v.doubleValue);
+    if(v.booleanValue!==undefined) return v.booleanValue;
+    if(v.timestampValue!==undefined) return v.timestampValue;
+    if(v.referenceValue!==undefined) return v.referenceValue;
+    return "";
+  }
+
+  function restFieldsToObject(fields){
+    const out={};
+    Object.keys(fields||{}).forEach(function(k){ out[k]=restValue(fields[k]); });
+    return out;
+  }
+
+  async function restListCollection(name){
+    const token=localStorage.getItem("tyts_firebase_id_token") || "";
+    const url="https://firestore.googleapis.com/v1/projects/"+encodeURIComponent(PROJECT_ID)+"/databases/(default)/documents/"+encodeURIComponent(name)+"?pageSize=1000";
+    const headers={};
+    if(token) headers.Authorization="Bearer "+token;
+    const response=await fetch(url,{headers});
+    let data={};
+    try{data=await response.json();}catch(e){}
+    if(!response.ok) throw new Error(data?.error?.message || "Не вдалося завантажити дані Firebase.");
+    return (data.documents||[]).map(function(d){
+      const parts=String(d.name||"").split("/");
+      const id=parts[parts.length-1] || "";
+      return {id,...restFieldsToObject(d.fields||{})};
+    });
+  }
+
+  async function restPatchDocument(collectionName,id,fields){
+    const token=localStorage.getItem("tyts_firebase_id_token") || "";
+    if(!token) throw new Error("Потрібен вхід у Firebase.");
+    const fieldPaths=Object.keys(fields||{}).map(function(k){return "updateMask.fieldPaths="+encodeURIComponent(k);}).join("&");
+    const url="https://firestore.googleapis.com/v1/projects/"+encodeURIComponent(PROJECT_ID)+"/databases/(default)/documents/"+encodeURIComponent(collectionName)+"/"+encodeURIComponent(id)+(fieldPaths?"?"+fieldPaths:"");
+    const body={fields:{}};
+    Object.keys(fields||{}).forEach(function(k){
+      const v=fields[k];
+      body.fields[k]=typeof v==="boolean"?{booleanValue:v}:typeof v==="number"?{doubleValue:v}:{stringValue:String(v)};
+    });
+    const response=await fetch(url,{method:"PATCH",headers:{"Content-Type":"application/json",Authorization:"Bearer "+token},body:JSON.stringify(body)});
+    let data={}; try{data=await response.json();}catch(e){}
+    if(!response.ok) throw new Error(data?.error?.message || "Не вдалося змінити документ Firebase.");
+    return true;
+  }
+
+  async function restDeleteDocument(collectionName,id){
+    const token=localStorage.getItem("tyts_firebase_id_token") || "";
+    if(!token) throw new Error("Потрібен вхід у Firebase.");
+    const url="https://firestore.googleapis.com/v1/projects/"+encodeURIComponent(PROJECT_ID)+"/databases/(default)/documents/"+encodeURIComponent(collectionName)+"/"+encodeURIComponent(id);
+    const response=await fetch(url,{method:"DELETE",headers:{Authorization:"Bearer "+token}});
+    if(!response.ok){let data={};try{data=await response.json();}catch(e){} throw new Error(data?.error?.message || "Не вдалося видалити документ Firebase.");}
+    return true;
+  }
+
+  function restTokenClaims(){
+    try{
+      const token=localStorage.getItem("tyts_firebase_id_token")||"";
+      const part=token.split(".")[1];
+      if(!part) return {};
+      const json=decodeURIComponent(atob(part.replace(/-/g,"+").replace(/_/g,"/").padEnd(Math.ceil(part.length/4)*4,"=")).split("").map(function(c){return "%"+("00"+c.charCodeAt(0).toString(16)).slice(-2);}).join(""));
+      return JSON.parse(json)||{};
+    }catch(e){return {};}
+  }
+
+  async function restAdminStatus(){
+    const claims=restTokenClaims();
+    const uid=claims.user_id || claims.sub || "";
+    const email=claims.email || localStorage.getItem("tyts_firebase_email") || "";
+    const allowed=claims.role==="superadmin" && claims.admin===true;
+    return {allowed,uid,email,role:claims.role||"user",admin:claims.admin===true};
+  }
+
+  async function restLoadServices(){
+    try{
+      const items=await restListCollection("services");
+      if(!Array.isArray(items)) return;
+      if(typeof allServices!=="undefined") {
+        items.forEach(function(item){
+          if(item.hidden===true) return;
+          const i=allServices.findIndex(function(x){return String(x.id)===String(item.id);});
+          if(i===-1) allServices.push(item); else allServices[i]={...allServices[i],...item};
+        });
+      }
+      if(typeof tytsAdminServices!=="undefined") {
+        tytsAdminServices=items.slice();
+      }
+      if(typeof refreshVisibleServicePage==="function") refreshVisibleServicePage();
+      else if(typeof renderWorkersForHomeService==="function" && document.getElementById("homeService")?.style.display==="block") renderWorkersForHomeService(currentHomeCategory);
+    }catch(e){ console.warn("Firebase REST: не вдалося завантажити оголошення",e); }
+  }
+
   /*
    * Module-скрипт Firebase у звичайному браузері має пріоритет.
    * Якщо він не зміг виконатися у мобільному WebView,
@@ -7014,6 +7222,19 @@ error
       return await firebaseRestGetUserProfile(uid,token);
     };
   }
+
+  if(typeof window.firebaseGetAdminStatus !== "function") window.firebaseGetAdminStatus=restAdminStatus;
+  if(typeof window.firebaseAdminListUsers !== "function") window.firebaseAdminListUsers=async function(){ const st=await restAdminStatus(); if(!st.allowed) throw new Error("Доступ до адмін-панелі заборонений."); return await restListCollection("users"); };
+  if(typeof window.firebaseAdminListReviews !== "function") window.firebaseAdminListReviews=async function(){ const st=await restAdminStatus(); if(!st.allowed) throw new Error("Доступ до адмін-панелі заборонений."); return await restListCollection("reviews"); };
+  if(typeof window.firebaseAdminListReports !== "function") window.firebaseAdminListReports=async function(){ const st=await restAdminStatus(); if(!st.allowed) throw new Error("Доступ до адмін-панелі заборонений."); return await restListCollection("reports"); };
+  if(typeof window.firebaseAdminSetServiceHidden !== "function") window.firebaseAdminSetServiceHidden=async function(id,hidden){ const st=await restAdminStatus(); if(!st.allowed) throw new Error("Доступ до адмін-панелі заборонений."); return await restPatchDocument("services",id,{hidden:hidden===true}); };
+  if(typeof window.firebaseAdminDeleteService !== "function") window.firebaseAdminDeleteService=async function(id){ const st=await restAdminStatus(); if(!st.allowed) throw new Error("Доступ до адмін-панелі заборонений."); return await restDeleteDocument("services",id); };
+  if(typeof window.firebaseAdminSetUserBlocked !== "function") window.firebaseAdminSetUserBlocked=async function(uid,blocked){ const st=await restAdminStatus(); if(!st.allowed) throw new Error("Доступ до адмін-панелі заборонений."); if(uid===st.uid) throw new Error("Не можна заблокувати власний суперадмін-акаунт."); return await restPatchDocument("users",uid,{blocked:blocked===true}); };
+  if(typeof window.firebaseAdminDeleteReview !== "function") window.firebaseAdminDeleteReview=async function(id){ const st=await restAdminStatus(); if(!st.allowed) throw new Error("Доступ до адмін-панелі заборонений."); return await restDeleteDocument("reviews",id); };
+  if(typeof window.firebaseAdminSetReportClosed !== "function") window.firebaseAdminSetReportClosed=async function(id,closed){ const st=await restAdminStatus(); if(!st.allowed) throw new Error("Доступ до адмін-панелі заборонений."); return await restPatchDocument("reports",id,{closed:closed===true}); };
+
+  // Навіть якщо Web SDK не стартував, спробуємо отримати оголошення через REST.
+  restLoadServices();
 
   /*
    * Зберігаємо REST-токен після резервного входу.
@@ -7044,7 +7265,7 @@ error
 })();
 </script>
 
-<script>==============================
+<script>/*
    ТЕХНІКА — ДОДАНО ОКРЕМИМ БЛОКОМ
 ========================================================= */
 
@@ -8069,6 +8290,8 @@ window.submitService=async function(){
         service:service,
         price:price,
         description:description,
+        ownerUid:(getCurrentUser && getCurrentUser() ? (getCurrentUser().uid || getCurrentUser().firebaseId || getCurrentUser().id || "") : ""),
+        ownerEmail:(getCurrentUser && getCurrentUser() ? (getCurrentUser().email || "") : ""),
         createdAt:Date.now()
     };
 
@@ -8124,9 +8347,8 @@ window.submitService=async function(){
 
         const success=document.getElementById("serviceSuccess");
         if(success){
-            success.innerHTML='<div class="success">✅ Оголошення опубліковано!<br><br><b>'+
-                escapeHtml(name)+'</b><br>'+escapeHtml(service)+
-                '<br><br>Оголошення збережене.</div>';
+            success.innerHTML='<div class="tyts-success-modal"><div class="tyts-success-modal-box">🙏<br><br><b>Дякую!</b><br><br>Ваше оголошення подане.<br><br><small>Повертаємо вас на головну...</small></div></div>';
+            success.style.display="block";
         }
 
         /* 2. ТЕПЕР ПРОБУЄМО FIREBASE. Якщо не вийде —
@@ -8152,6 +8374,11 @@ window.submitService=async function(){
                 console.warn("Firebase не зберіг оголошення. Локальна копія залишена.",firebaseError);
             }
         }
+
+        /* Показуємо повідомлення 1 секунду і повертаємо на головну */
+        await new Promise(function(resolve){ setTimeout(resolve,1000); });
+        if(typeof goToHome === "function") goToHome();
+        else if(typeof showTytsPage === "function") showTytsPage("home");
 
         /* Очищаємо форму */
         ["workerName","workerPhone","workerService","workerPrice","workerDescription"].forEach(function(id){
@@ -8751,6 +8978,89 @@ window.submitService=async function(){
       tytsAdminTab("services");
     }catch(error){alert("❌ Не вдалося видалити оголошення.\n\n"+(error.message||"Помилка Firebase"));}
   };
+  async function getMyTytsServices(user){
+    const uid=String(user?.uid || user?.firebaseId || user?.id || "");
+    let firebaseItems=[];
+    try{
+      if(uid && typeof window.firebaseGetMyServices === "function") firebaseItems=await window.firebaseGetMyServices(uid);
+    }catch(e){ console.warn("Мої оголошення Firebase:",e); }
+    let local=[];
+    try{ local=JSON.parse(localStorage.getItem("tyts_services")||"[]"); }catch(e){ local=[]; }
+    if(!Array.isArray(local)) local=[];
+    const merged=firebaseItems.slice();
+    local.forEach(function(x){
+      const owner=String(x.ownerUid||x.uid||"");
+      if(owner && owner===uid && !merged.some(y=>String(y.id)===String(x.id))) merged.push(x);
+    });
+    return merged.sort((a,b)=>Number(b.createdAt||0)-Number(a.createdAt||0));
+  }
+
+  function renderMyTytsServices(items){
+    const escLocal=esc;
+    if(!items.length) return '<div class="tyts-admin-empty" style="margin-top:12px">📢 У вас ще немає оголошень.</div>';
+    return '<div class="tyts-my-services-list">'+items.map(function(item){
+      const id=escLocal(String(item.id||""));
+      return '<div class="tyts-my-service-card">'+
+        '<div><b>'+escLocal(item.service||"Послуга")+'</b><div class="tyts-my-service-meta">'+escLocal(item.category||"")+(item.price?' · '+escLocal(item.price):"")+'</div><div class="tyts-my-service-desc">'+escLocal(item.description||"")+'</div></div>'+
+        '<div class="tyts-my-service-actions"><button class="add-button" type="button" onclick="tytsEditMyService('+JSON.stringify(String(item.id||""))+')">✏️ Змінити</button><button class="add-button" type="button" style="background:#ffe7e7;color:#a00" onclick="tytsDeleteMyService('+JSON.stringify(String(item.id||""))+')">🗑 Видалити</button></div>'+
+        '</div>';
+    }).join('')+'</div>';
+  }
+
+  window.openTytsMyServices=async function(){
+    const user=getCurrentUser();
+    if(!user){ alert("Спочатку увійдіть у профіль."); return; }
+    const box=document.getElementById("tytsMyServicesContent");
+    if(!box) return;
+    box.innerHTML='<div class="tyts-admin-empty">⏳ Завантажуємо ваші оголошення...</div>';
+    const items=await getMyTytsServices(user);
+    box.innerHTML=renderMyTytsServices(items);
+  };
+
+  window.tytsDeleteMyService=async function(id){
+    const user=getCurrentUser(); if(!user) return;
+    if(!confirm("Видалити це оголошення? Дію не можна скасувати.")) return;
+    const uid=String(user.uid||user.firebaseId||user.id||"");
+    try{
+      if(String(id).startsWith("local_")){
+        let local=[];try{local=JSON.parse(localStorage.getItem("tyts_services")||"[]");}catch(e){local=[];}
+        local=Array.isArray(local)?local.filter(x=>String(x.id)!==String(id)):[];
+        localStorage.setItem("tyts_services",JSON.stringify(local));
+      }else if(typeof window.firebaseDeleteMyService==="function"){
+        await window.firebaseDeleteMyService(id,uid);
+      }
+      if(typeof allServices!=="undefined") allServices=allServices.filter(x=>String(x.id)!==String(id));
+      alert("Оголошення видалено.");
+      await window.openTytsMyServices();
+    }catch(e){ alert("❌ "+(e.message||"Не вдалося видалити оголошення.")); }
+  };
+
+  window.tytsEditMyService=async function(id){
+    const user=getCurrentUser(); if(!user) return;
+    const items=await getMyTytsServices(user);
+    const item=items.find(x=>String(x.id)===String(id));
+    if(!item){ alert("Оголошення не знайдено."); return; }
+    const name=prompt("Ім'я:",item.name||""); if(name===null) return;
+    const phone=prompt("Телефон:",item.phone||""); if(phone===null) return;
+    const service=prompt("Послуга:",item.service||""); if(service===null) return;
+    const price=prompt("Ціна:",item.price||""); if(price===null) return;
+    const description=prompt("Опис:",item.description||""); if(description===null) return;
+    const uid=String(user.uid||user.firebaseId||user.id||"");
+    const updated={...item,name:name.trim(),phone:phone.trim(),service:service.trim(),price:price.trim(),description:description.trim(),ownerUid:uid};
+    try{
+      if(String(id).startsWith("local_")){
+        let local=[];try{local=JSON.parse(localStorage.getItem("tyts_services")||"[]");}catch(e){local=[];}
+        local=Array.isArray(local)?local.map(x=>String(x.id)===String(id)?updated:x):[];
+        localStorage.setItem("tyts_services",JSON.stringify(local));
+      }else if(typeof window.firebaseUpdateMyService==="function"){
+        await window.firebaseUpdateMyService(id,updated);
+      }
+      if(typeof allServices!=="undefined"){ const ix=allServices.findIndex(x=>String(x.id)===String(id)); if(ix!==-1) allServices[ix]={...allServices[ix],...updated}; }
+      alert("Оголошення змінено.");
+      await window.openTytsMyServices();
+    }catch(e){ alert("❌ "+(e.message||"Не вдалося змінити оголошення.")); }
+  };
+
   function renderTytsProfile(user){
     const box=document.getElementById("tytsProfileContent");
     if(!box) return;
@@ -8777,6 +9087,8 @@ window.submitService=async function(){
           <button class="add-button" style="background:#eee;color:#222" onclick="tytsLogout()">Вийти</button>
         </div>
         ${user.role==="provider" ? '<button class="add-button" style="margin-top:10px" onclick="showAddService(\'home\')">➕ Додати оголошення</button>' : ''}
+        <button class="add-button" type="button" style="margin-top:10px" onclick="openTytsMyServices()">📢 Мої оголошення</button>
+        <div id="tytsMyServicesContent" style="margin-top:12px"></div>
       </div>`;
   }
 
@@ -9147,11 +9459,11 @@ onAuthStateChanged(auth, async function(firebaseUser){
    Нижні кнопки мають власну зону і ніколи не накладаються на контент/вкладки. */
 
 html{
-  scroll-padding-bottom:calc(104px + env(safe-area-inset-bottom));
+  scroll-padding-bottom:calc(112px + env(safe-area-inset-bottom));
 }
 
 body{
-  padding-bottom:calc(104px + env(safe-area-inset-bottom)) !important;
+  padding-bottom:calc(112px + env(safe-area-inset-bottom)) !important;
 }
 
 .tyts-bottom-nav{
@@ -9160,11 +9472,11 @@ body{
   right:0 !important;
   bottom:0 !important;
 
-  height:76px !important;
-  min-height:76px !important;
+  height:84px !important;
+  min-height:84px !important;
   box-sizing:border-box !important;
 
-  padding:5px 8px env(safe-area-inset-bottom) !important;
+  padding:6px 7px env(safe-area-inset-bottom) !important;
 
   display:flex !important;
   align-items:stretch !important;
@@ -9189,7 +9501,7 @@ body{
 
   box-sizing:border-box !important;
   margin:0 !important;
-  padding:3px 2px !important;
+  padding:4px 2px !important;
 
   display:flex !important;
   flex-direction:column !important;
@@ -9202,19 +9514,19 @@ body{
   background:transparent !important;
 
   color:#374151 !important;
-  font:600 11px/1.1 Arial,sans-serif !important;
+  font:600 12px/1.15 Arial,sans-serif !important;
   white-space:nowrap !important;
   overflow:hidden !important;
 }
 
 .tyts-bottom-nav .tyts-nav-icon{
   display:block !important;
-  width:24px !important;
-  height:25px !important;
-  flex:0 0 25px !important;
+  width:30px !important;
+  height:30px !important;
+  flex:0 0 30px !important;
 
-  font-size:21px !important;
-  line-height:25px !important;
+  font-size:26px !important;
+  line-height:30px !important;
   text-align:center !important;
 
   overflow:hidden !important;
@@ -9244,28 +9556,28 @@ html.tyts-dark .tyts-bottom-nav button{
 
 @media(max-width:600px){
   body{
-    padding-bottom:calc(100px + env(safe-area-inset-bottom)) !important;
+    padding-bottom:calc(112px + env(safe-area-inset-bottom)) !important;
   }
 
   .tyts-bottom-nav{
-    height:72px !important;
-    min-height:72px !important;
-    padding:4px 5px env(safe-area-inset-bottom) !important;
+    height:84px !important;
+    min-height:84px !important;
+    padding:6px 6px env(safe-area-inset-bottom) !important;
     gap:2px !important;
   }
 
   .tyts-bottom-nav button{
-    padding:2px 1px !important;
+    padding:4px 1px !important;
     border-radius:10px !important;
-    font-size:10px !important;
+    font-size:12px !important;
   }
 
   .tyts-bottom-nav .tyts-nav-icon{
-    width:23px !important;
-    height:24px !important;
-    flex-basis:24px !important;
-    font-size:20px !important;
-    line-height:24px !important;
+    width:30px !important;
+    height:30px !important;
+    flex-basis:30px !important;
+    font-size:26px !important;
+    line-height:30px !important;
   }
 }
 </style>
