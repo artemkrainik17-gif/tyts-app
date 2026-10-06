@@ -6547,6 +6547,41 @@ window.firebaseAdminListReports=async function(){
   return snap.docs.map(function(d){ return {id:d.id,...d.data()}; });
 };
 
+
+/* =========================================================
+   СКАРГА НА ОГОЛОШЕННЯ
+   Використовує вже існуючу колекцію reports.
+========================================================= */
+window.firebaseSubmitServiceReport=async function(payload){
+  const user=auth.currentUser;
+  if(!user) throw new Error("Щоб подати скаргу, спочатку увійдіть у профіль.");
+
+  const data=payload || {};
+  const serviceId=String(data.serviceId || "").trim();
+  const reason=String(data.reason || "").trim();
+  const text=String(data.text || "").trim();
+
+  if(!serviceId) throw new Error("Не знайдено оголошення.");
+  if(!reason) throw new Error("Оберіть причину скарги.");
+
+  const ref=await addDoc(collection(db,"reports"),{
+    type:"service",
+    serviceId:serviceId,
+    serviceName:String(data.serviceName || ""),
+    serviceCategory:String(data.serviceCategory || ""),
+    ownerUid:String(data.ownerUid || ""),
+    ownerName:String(data.ownerName || ""),
+    reason:reason,
+    text:text,
+    reporterUid:user.uid,
+    reporterEmail:user.email || "",
+    closed:false,
+    createdAt:serverTimestamp()
+  });
+
+  return ref.id;
+};
+
 window.firebaseAdminListServices=async function(){
   try{
     const snap=await getDocs(collection(db,"services"));
@@ -10671,6 +10706,364 @@ html.tyts-dark #backButton.tyts-tab-back-check{
   wrap('tytsNavAdd',true);
   wrap('tytsNavProfile',true);
   wrap('tytsNavHome',false);
+})();
+</script>
+
+
+<style id="tyts-content-moderation-style">
+.tyts-moderation-box{
+  margin:12px 0 14px;
+  padding:13px 14px;
+  border:1px solid #d9dee6;
+  border-radius:14px;
+  background:#f8fafc;
+  font-size:13px;
+  line-height:1.45;
+}
+.tyts-moderation-check{
+  display:flex;
+  gap:9px;
+  align-items:flex-start;
+  cursor:pointer;
+}
+.tyts-moderation-check input{
+  width:18px;
+  height:18px;
+  margin:1px 0 0;
+  flex:0 0 18px;
+}
+.tyts-moderation-link{
+  border:0;
+  background:transparent;
+  padding:0;
+  margin:8px 0 0 27px;
+  font-weight:800;
+  text-decoration:underline;
+  cursor:pointer;
+  color:#374151;
+}
+.tyts-moderation-warning{
+  margin-top:8px;
+  color:#8a3d00;
+  font-size:12px;
+}
+.tyts-detail-report{
+  background:#fff1f2 !important;
+  color:#b42318 !important;
+  border:1px solid #fecdd3 !important;
+}
+html.tyts-dark .tyts-moderation-box{
+  background:#202833;
+  border-color:#3b4654;
+  color:#f8fafc;
+}
+html.tyts-dark .tyts-moderation-link{color:#dbe4ee}
+html.tyts-dark .tyts-moderation-warning{color:#f6c177}
+html.tyts-dark .tyts-detail-report{
+  background:#3a2024 !important;
+  color:#ffd5d8 !important;
+  border-color:#6b3038 !important;
+}
+</style>
+
+<script id="tyts-content-moderation-js">
+(function(){
+  /* =========================================================
+     ТИЦЬ — базова локальна модерація тексту.
+     Вона блокує тільки явно заборонені формулювання, щоб не
+     ловити нейтральні згадки на кшталт "сейф для зброї".
+  ========================================================= */
+
+  const prohibitedGroups=[
+    {
+      label:"порнографія або сексуальні послуги",
+      patterns:[
+        /\bпорно(граф\w*)?\b/i, /\bporn\b/i, /\bxxx\b/i,
+        /\bескорт\b/i, /\bінтимн\w*\s+послуг\w*/i,
+        /\bсекс[\s-]*послуг\w*/i, /\bпроституц\w*/i
+      ]
+    },
+    {
+      label:"сексуальний контент щодо неповнолітніх",
+      patterns:[
+        /(дитяч\w*|неповнолітн\w*).{0,25}(порно|секс|інтим)/i,
+        /(порно|секс|інтим).{0,25}(дитяч\w*|неповнолітн\w*)/i
+      ]
+    },
+    {
+      label:"продаж або виготовлення зброї, боєприпасів чи вибухівки",
+      patterns:[
+        /(продам|продаю|куплю|купити|доставлю|виготовлю|зроблю).{0,35}(пістолет|автомат|рушниц|збро|гранат|боєприпас|патрон|вибухівк|міна)/i,
+        /(пістолет|автомат|рушниц|збро|гранат|боєприпас|патрон|вибухівк|міна).{0,35}(продам|продаю|куплю|купити|доставлю|виготовлю)/i
+      ]
+    },
+    {
+      label:"наркотики або незаконні психоактивні речовини",
+      patterns:[
+        /(продам|продаю|куплю|купити|доставлю|закладк\w*|виготовлю).{0,35}(наркотик|кокаїн|героїн|амфетамін|метамфетамін|екстазі|mdma|марихуан|канабіс|гашиш)/i,
+        /(наркотик|кокаїн|героїн|амфетамін|метамфетамін|екстазі|mdma|марихуан|канабіс|гашиш).{0,35}(продам|продаю|куплю|купити|доставлю|закладк\w*)/i
+      ]
+    },
+    {
+      label:"підроблені документи",
+      patterns:[
+        /(підроб|фальшив|купити|продам).{0,35}(паспорт|посвідчен|диплом|довідк|сертифікат|печатк)/i,
+        /(паспорт|посвідчен|диплом|довідк|сертифікат|печатк).{0,35}(підроб|фальшив|купити|продам)/i
+      ]
+    },
+    {
+      label:"злам акаунтів, крадіжка паролів або незаконний доступ",
+      patterns:[
+        /\bзлам(аю|ати|акаунт|пошту|телефон|сайт)/i,
+        /(вкрад|дістану|добуду).{0,30}(парол|логін|доступ)/i,
+        /\bфішинг\b/i,
+        /(прослуховуван|стеженн).{0,20}(без\s+згоди|таємн)/i
+      ]
+    },
+    {
+      label:"торгівля людьми або незаконна експлуатація",
+      patterns:[
+        /(продам|куплю|продати|купити).{0,25}(людин|дитин)/i,
+        /(примусов\w*\s+прац|торгівл\w*\s+люд)/i
+      ]
+    },
+    {
+      label:"замовлення насильства або погроз",
+      patterns:[
+        /(побити|викрасти|залякати|підпалити|ліквідувати).{0,30}(людин|чоловік|жінк|особ)/i,
+        /(замовлю|шукаю).{0,30}(побитт|викраден|залякуван|напад)/i
+      ]
+    },
+    {
+      label:"незаконні банківські або шахрайські схеми",
+      patterns:[
+        /(продам|куплю|оренда|орендую).{0,30}(банківськ\w*\s+карт|рахунок|акаунт\s+банку)/i,
+        /\bфінансов\w*\s+пірамід\w*/i,
+        /(обнал|відмиван).{0,20}(грош|кошт)/i
+      ]
+    }
+  ];
+
+  function normalizeText(v){
+    return String(v || "")
+      .toLowerCase()
+      .replace(/[’`]/g,"'")
+      .replace(/\s+/g," ")
+      .trim();
+  }
+
+  window.tytsCheckProhibitedServiceContent=function(){
+    const fields=["workerName","workerService","workerPrice","workerDescription"];
+    const parts=fields.map(function(id){
+      const el=document.getElementById(id);
+      return el ? String(el.value || "") : "";
+    });
+
+    const text=normalizeText(parts.join(" "));
+    const hits=[];
+
+    prohibitedGroups.forEach(function(group){
+      if(group.patterns.some(function(rx){return rx.test(text);})){
+        hits.push(group.label);
+      }
+    });
+
+    return {blocked:hits.length>0,hits:hits};
+  };
+
+  window.tytsShowProhibitedRules=function(){
+    alert(
+      "У ТИЦЬ заборонено розміщувати:\n\n"+
+      "• порнографію, сексуальні та ескорт-послуги;\n"+
+      "• сексуальний контент щодо неповнолітніх;\n"+
+      "• зброю, боєприпаси, вибухівку та незаконні послуги з ними;\n"+
+      "• наркотики та незаконні психоактивні речовини;\n"+
+      "• підроблені документи;\n"+
+      "• шахрайські та незаконні фінансові схеми;\n"+
+      "• злам акаунтів, крадіжку паролів, незаконне стеження;\n"+
+      "• торгівлю людьми та експлуатацію;\n"+
+      "• замовлення насильства, погроз чи викрадення;\n"+
+      "• викрадені, контрафактні або інші незаконні товари/послуги;\n"+
+      "• персональні дані інших людей без їхньої згоди;\n"+
+      "• незаконні азартні ігри, небезпечні речовини та інший контент, заборонений законом.\n\n"+
+      "Заборона стосується також фото оголошення."
+    );
+  };
+
+  function installModerationBox(){
+    if(document.getElementById("tytsModerationBox")) return;
+
+    const submit=document.getElementById("submitButton");
+    if(!submit) return;
+
+    const box=document.createElement("div");
+    box.id="tytsModerationBox";
+    box.className="tyts-moderation-box";
+    box.innerHTML=
+      '<label class="tyts-moderation-check">'+
+        '<input id="tytsModerationAgree" type="checkbox">'+
+        '<span><b>Підтверджую, що оголошення не містить забороненого контенту</b> і не порушує права інших людей.</span>'+
+      '</label>'+
+      '<button type="button" class="tyts-moderation-link" onclick="tytsShowProhibitedRules()">Що заборонено?</button>'+
+      '<div class="tyts-moderation-warning">Фото послуги також має відповідати цим правилам. На оголошення можна поскаржитися.</div>';
+
+    submit.parentNode.insertBefore(box,submit);
+  }
+
+  /* Обгортаємо фінальну робочу submitService, не переписуючи її логіку. */
+  const originalSubmitService=window.submitService;
+  if(typeof originalSubmitService==="function"){
+    window.submitService=async function(){
+      /* Захист ролей: оголошення може подати тільки профіль "Надаю послуги".
+         Основний перехід seeker -> provider вже виконується через кнопку
+         "Додати оголошення"; ця перевірка лише не дає обійти його напряму. */
+      let tytsRoleUser=null;
+      try{
+        tytsRoleUser=JSON.parse(localStorage.getItem("tyts_current_user") || "null");
+      }catch(e){}
+
+      if(!tytsRoleUser){
+        alert("Щоб розмістити оголошення, спочатку увійдіть або зареєструйтеся як «Надаю послуги».");
+        return;
+      }
+
+      if(tytsRoleUser.role!=="provider"){
+        alert("Розміщувати оголошення може лише користувач з роллю «Надаю послуги». Натисніть «Додати оголошення» та підтвердьте перехід у цей режим.");
+        return;
+      }
+
+      const agree=document.getElementById("tytsModerationAgree");
+      if(!agree || !agree.checked){
+        alert("Підтвердіть, що оголошення не містить забороненого контенту.");
+        return;
+      }
+
+      const result=window.tytsCheckProhibitedServiceContent();
+      if(result.blocked){
+        alert(
+          "⛔ Оголошення не опубліковано.\n\n"+
+          "Система виявила ознаки забороненого контенту:\n• "+
+          result.hits.join("\n• ")+
+          "\n\nЯкщо це помилка через нейтральний контекст, змініть формулювання оголошення."
+        );
+        return;
+      }
+
+      const out=await originalSubmitService.apply(this,arguments);
+
+      /* Після успішної спроби подання готуємо чекбокс до наступного оголошення. */
+      const currentAgree=document.getElementById("tytsModerationAgree");
+      if(currentAgree) currentAgree.checked=false;
+
+      return out;
+    };
+  }
+
+  window.tytsReportService=async function(worker){
+    let u=null;
+    try{u=JSON.parse(localStorage.getItem("tyts_current_user")||"null");}catch(e){}
+    if(!u){
+      alert("Щоб подати скаргу, спочатку увійдіть у профіль.");
+      return;
+    }
+
+    const reason=prompt(
+      "Причина скарги:\n\n"+
+      "1 — Заборонений або незаконний контент\n"+
+      "2 — Порнографія / сексуальний контент\n"+
+      "3 — Зброя / наркотики / небезпечні товари\n"+
+      "4 — Шахрайство\n"+
+      "5 — Образи, погрози або насильство\n"+
+      "6 — Неправдива інформація / спам\n"+
+      "7 — Інше\n\n"+
+      "Введіть номер 1–7:"
+    );
+
+    if(reason===null) return;
+
+    const labels={
+      "1":"Заборонений або незаконний контент",
+      "2":"Порнографія / сексуальний контент",
+      "3":"Зброя / наркотики / небезпечні товари",
+      "4":"Шахрайство",
+      "5":"Образи, погрози або насильство",
+      "6":"Неправдива інформація / спам",
+      "7":"Інше"
+    };
+
+    const selected=labels[String(reason).trim()];
+    if(!selected){
+      alert("Оберіть причину від 1 до 7.");
+      return;
+    }
+
+    const comment=prompt("Коротко опишіть проблему (необов’язково):") ?? "";
+
+    if(typeof window.firebaseSubmitServiceReport!=="function"){
+      alert("Сервіс скарг ще не підключений.");
+      return;
+    }
+
+    try{
+      await window.firebaseSubmitServiceReport({
+        serviceId:String(worker.id || worker.firebaseId || ""),
+        serviceName:String(worker.service || worker.name || ""),
+        serviceCategory:String(worker.category || ""),
+        ownerUid:String(worker.ownerUid || worker.uid || ""),
+        ownerName:String(worker.name || ""),
+        reason:selected,
+        text:
+          "Оголошення: "+String(worker.service || worker.name || "")+
+          " | ID: "+String(worker.id || worker.firebaseId || "")+
+          (comment ? " | Коментар: "+comment : "")
+      });
+      alert("✅ Дякуємо. Скаргу надіслано адміністратору.");
+    }catch(e){
+      console.error(e);
+      alert("❌ Не вдалося надіслати скаргу.\n\n"+(e.message || "Помилка Firebase"));
+    }
+  };
+
+  /* Додаємо кнопку скарги у вже існуюче повне оголошення. */
+  const originalOpenServiceDetails=window.tytsOpenServiceDetails;
+  if(typeof originalOpenServiceDetails==="function"){
+    window.tytsOpenServiceDetails=function(id){
+      const result=originalOpenServiceDetails.apply(this,arguments);
+      const overlay=document.getElementById("tytsServiceDetailOverlay");
+      if(!overlay) return result;
+
+      const actions=overlay.querySelector(".tyts-detail-actions");
+      if(actions && !actions.querySelector(".tyts-detail-report")){
+        const report=document.createElement("button");
+        report.type="button";
+        report.className="secondary tyts-detail-report";
+        report.textContent="🚩 Поскаржитися";
+        report.onclick=function(e){
+          e.preventDefault();
+          e.stopPropagation();
+
+          let worker=null;
+          try{
+            const sid=String(id);
+            const list=Array.isArray(window.allServices) ? window.allServices :
+                       (typeof allServices!=="undefined" && Array.isArray(allServices) ? allServices : []);
+            worker=list.find(function(x){
+              return String(x.id)===sid || String(x.firebaseId||"")===sid;
+            }) || null;
+          }catch(err){}
+
+          if(worker) window.tytsReportService(worker);
+          else alert("Не вдалося знайти оголошення для скарги.");
+        };
+        actions.appendChild(report);
+      }
+
+      return result;
+    };
+  }
+
+  document.addEventListener("DOMContentLoaded",installModerationBox);
+  if(document.readyState!=="loading") installModerationBox();
 })();
 </script>
 
