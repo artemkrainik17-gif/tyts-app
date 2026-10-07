@@ -13377,4 +13377,493 @@ html.tyts-dark .tyts-notification-count{border-color:#242d38}
 })();
 </script>
 
+
+<!-- =========================================================
+     ТИЦЬ — ТОЧКОВЕ ОНОВЛЕННЯ
+     1) Популярне поруч можна згортати.
+     2) Популярне = тільки максимальний рейтинг.
+     3) Поділитися: Viber / Telegram / WhatsApp / копіювати.
+========================================================= -->
+<style id="tyts-popular-collapse-share-menu-style">
+.tyts-popular-head{
+  cursor:pointer;
+  user-select:none;
+}
+.tyts-popular-head-main{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  min-width:0;
+}
+.tyts-popular-toggle{
+  width:30px;
+  height:30px;
+  flex:0 0 30px;
+  border:0;
+  border-radius:50%;
+  background:#eef2f6;
+  color:#111827;
+  font-size:17px;
+  font-weight:900;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.tyts-popular-nearby.tyts-collapsed .tyts-popular-row{
+  display:none!important;
+}
+.tyts-popular-nearby.tyts-collapsed{
+  margin-bottom:10px!important;
+}
+html.tyts-dark .tyts-popular-toggle{
+  background:#303846;
+  color:#fff;
+}
+
+/* Меню "Поділитися" */
+.tyts-share-menu-overlay{
+  position:fixed;
+  inset:0;
+  z-index:2147483647;
+  background:rgba(0,0,0,.58);
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+  padding:10px;
+}
+.tyts-share-menu{
+  width:min(520px,100%);
+  background:#fff;
+  color:#111827;
+  border-radius:24px 24px 18px 18px;
+  padding:18px;
+  box-shadow:0 20px 60px rgba(0,0,0,.42);
+}
+.tyts-share-menu-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:14px;
+}
+.tyts-share-menu-title{
+  font-size:19px;
+  font-weight:950;
+}
+.tyts-share-menu-close{
+  width:36px;
+  height:36px;
+  border:0;
+  border-radius:50%;
+  background:#eef2f6;
+  color:#111827;
+  font-size:17px;
+  cursor:pointer;
+}
+.tyts-share-options{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:10px;
+}
+.tyts-share-option{
+  border:0;
+  border-radius:15px;
+  min-height:58px;
+  padding:12px 10px;
+  font-size:14px;
+  font-weight:900;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  text-decoration:none;
+  background:#f5f7f9;
+  color:#111827;
+}
+.tyts-share-option .tyts-share-icon{
+  font-size:22px;
+}
+.tyts-share-option.telegram{background:#eaf6ff;color:#1476a8}
+.tyts-share-option.whatsapp{background:#ecfdf3;color:#087a3d}
+.tyts-share-option.viber{background:#f4efff;color:#665cac}
+.tyts-share-option.copy{background:#f3f4f6;color:#111827}
+.tyts-share-option.system{
+  grid-column:1/-1;
+  background:#111827;
+  color:#fff;
+}
+html.tyts-dark .tyts-share-menu{
+  background:#1b2430;
+  color:#f8fafc;
+}
+html.tyts-dark .tyts-share-menu-close{
+  background:#303846;
+  color:#fff;
+}
+html.tyts-dark .tyts-share-option.copy{
+  background:#303846;
+  color:#fff;
+}
+@media(max-width:460px){
+  .tyts-share-options{grid-template-columns:1fr}
+  .tyts-share-option.system{grid-column:auto}
+}
+</style>
+
+<script id="tyts-popular-collapse-share-menu-script">
+(function(){
+  function escFinal(v){
+    if(typeof escapeHtml==="function") return escapeHtml(String(v==null?"":v));
+    return String(v==null?"":v).replace(/[&<>"']/g,function(c){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
+    });
+  }
+
+  function currentUserFinal(){
+    try{
+      const u=JSON.parse(localStorage.getItem("tyts_current_user")||"null");
+      return u&&typeof u==="object"?u:null;
+    }catch(e){return null;}
+  }
+
+  function publicFinal(w){
+    return !!w && w.hidden!==true && String(w.status||"active").toLowerCase()==="active";
+  }
+
+  function locationFinal(w){
+    return String((w&&w.location)||(w&&w.city)||(w&&w.settlement)||"Жмеринка").trim()||"Жмеринка";
+  }
+
+  function ratingFinal(id){
+    const s=(window.tytsRatingStats||{})[String(id)]||{sum:0,count:0};
+    const count=Number(s.count||0);
+    const sum=Number(s.sum||0);
+    return {count:count,sum:sum,avg:count?sum/count:0};
+  }
+
+  function ratingTextFinal(id){
+    const r=ratingFinal(id);
+    return r.count ? "★ "+r.avg.toFixed(1)+" ("+r.count+")" : "☆ Немає оцінок";
+  }
+
+  function iconFinal(category){
+    const c=String(category||"");
+    if(c.includes("Автом"))return "🚗";
+    if(c.includes("Дім"))return "🏠";
+    if(c.includes("Сад"))return "🌳";
+    if(c.includes("Ремонт"))return "🔨";
+    if(c.includes("Їжа"))return "🍰";
+    if(c.includes("Краса"))return "💇";
+    if(c.includes("Приби"))return "🧹";
+    if(c.includes("Перев"))return "🚚";
+    if(c.includes("Елект"))return "⚡";
+    if(c.includes("Сант"))return "🚿";
+    if(c.includes("Техн"))return "💻";
+    return "🛠";
+  }
+
+  function popularCardFinal(w){
+    const el=document.createElement("div");
+    el.className="tyts-popular-card";
+    el.tabIndex=0;
+
+    const photo=String(w.servicePhoto||"");
+    el.innerHTML=
+      (photo
+        ? '<img src="'+escFinal(photo)+'" alt="Фото послуги">'
+        : '<div class="tyts-popular-fallback">'+iconFinal(w.category)+'</div>')+
+      '<div class="tyts-popular-body">'+
+        '<div class="tyts-popular-name">'+escFinal(w.service||w.name||"Послуга")+'</div>'+
+        '<div class="tyts-popular-price">'+escFinal(w.price||"Договірна")+'</div>'+
+        '<div class="tyts-popular-location">📍 '+escFinal(locationFinal(w))+'</div>'+
+        '<div class="tyts-popular-rating">'+escFinal(ratingTextFinal(w.id))+'</div>'+
+      '</div>';
+
+    el.onclick=function(){
+      if(typeof window.tytsOpenServiceDetails==="function"){
+        window.tytsOpenServiceDetails(w.id);
+      }
+    };
+    el.onkeydown=function(e){
+      if(e.key==="Enter"||e.key===" "){
+        e.preventDefault();
+        el.click();
+      }
+    };
+    return el;
+  }
+
+  function popularCollapsed(){
+    return localStorage.getItem("tyts_popular_collapsed")==="1";
+  }
+
+  window.tytsTogglePopularNearby=function(force){
+    const block=document.getElementById("tytsPopularNearby");
+    if(!block)return;
+    const next=typeof force==="boolean"
+      ? force
+      : !block.classList.contains("tyts-collapsed");
+
+    block.classList.toggle("tyts-collapsed",next);
+    localStorage.setItem("tyts_popular_collapsed",next?"1":"0");
+
+    const btn=block.querySelector(".tyts-popular-toggle");
+    if(btn){
+      btn.textContent=next?"⌄":"⌃";
+      btn.title=next?"Розгорнути":"Згорнути";
+      btn.setAttribute("aria-label",next?"Розгорнути Популярне поруч":"Згорнути Популярне поруч");
+    }
+  };
+
+  /* Фінальна логіка "Популярне поруч":
+     - тільки активні оголошення;
+     - тільки оголошення, які вже мають оцінки;
+     - показуємо ЛИШЕ оголошення з максимальним середнім рейтингом;
+     - при однаковому рейтингу вище те, де більше оцінок.
+  */
+  window.tytsRenderPopularNearby=function(){
+    const home=document.getElementById("home");
+    if(!home)return;
+
+    let block=document.getElementById("tytsPopularNearby");
+    if(!block){
+      block=document.createElement("section");
+      block.id="tytsPopularNearby";
+      block.className="tyts-popular-nearby";
+      const title=home.querySelector(".title");
+      home.insertBefore(block,title||home.firstChild);
+    }
+
+    const user=currentUserFinal();
+    const userLoc=String((user&&user.location)||"");
+
+    let source=[];
+    try{
+      if(typeof allServices!=="undefined"&&Array.isArray(allServices))source=allServices;
+      else if(Array.isArray(window.allServices))source=window.allServices;
+    }catch(e){}
+
+    const rated=source.filter(function(w){
+      if(!publicFinal(w))return false;
+      return ratingFinal(w.id).count>0;
+    });
+
+    let top=[];
+    let maxRating=0;
+
+    if(rated.length){
+      maxRating=Math.max.apply(null,rated.map(function(w){
+        return ratingFinal(w.id).avg;
+      }));
+
+      const EPS=0.00001;
+      top=rated.filter(function(w){
+        return Math.abs(ratingFinal(w.id).avg-maxRating)<EPS;
+      });
+
+      top.sort(function(a,b){
+        const ra=ratingFinal(a.id);
+        const rb=ratingFinal(b.id);
+
+        /* 1. Більша кількість оцінок. */
+        if(rb.count!==ra.count)return rb.count-ra.count;
+
+        /* 2. При повній рівності ближче до населеного пункту користувача. */
+        const aSame=userLoc&&locationFinal(a).toLowerCase()===userLoc.toLowerCase()?1:0;
+        const bSame=userLoc&&locationFinal(b).toLowerCase()===userLoc.toLowerCase()?1:0;
+        if(bSame!==aSame)return bSame-aSame;
+
+        return String(a.service||a.name||"").localeCompare(String(b.service||b.name||""),"uk");
+      });
+
+      top=top.slice(0,10);
+    }
+
+    const collapsed=popularCollapsed();
+    block.classList.toggle("tyts-collapsed",collapsed);
+
+    block.innerHTML=
+      '<div class="tyts-popular-head">'+
+        '<div class="tyts-popular-head-main">'+
+          '<div class="tyts-popular-title">Популярне поруч</div>'+
+          '<div class="tyts-popular-sub">'+
+            (top.length
+              ? '⭐ максимальний рейтинг '+maxRating.toFixed(1)
+              : 'поки немає оцінених оголошень')+
+          '</div>'+
+        '</div>'+
+        '<button type="button" class="tyts-popular-toggle" aria-label="'+
+          (collapsed?'Розгорнути Популярне поруч':'Згорнути Популярне поруч')+
+          '" title="'+(collapsed?'Розгорнути':'Згорнути')+'">'+
+          (collapsed?'⌄':'⌃')+
+        '</button>'+
+      '</div>'+
+      '<div class="tyts-popular-row"></div>';
+
+    const head=block.querySelector(".tyts-popular-head");
+    const btn=block.querySelector(".tyts-popular-toggle");
+
+    if(head){
+      head.onclick=function(e){
+        if(e.target.closest(".tyts-popular-toggle"))return;
+        window.tytsTogglePopularNearby();
+      };
+    }
+    if(btn){
+      btn.onclick=function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        window.tytsTogglePopularNearby();
+      };
+    }
+
+    const row=block.querySelector(".tyts-popular-row");
+    if(!top.length){
+      row.innerHTML=
+        '<div style="font-size:12px;color:#7b8491;padding:8px 2px">'+
+        'Тут з’являться оголошення, які отримають найвищий рейтинг користувачів.'+
+        '</div>';
+      return;
+    }
+
+    top.forEach(function(w){
+      row.appendChild(popularCardFinal(w));
+    });
+  };
+
+  /* -------------------- ПОДІЛИТИСЯ ЧЕРЕЗ МЕСЕНДЖЕРИ -------------------- */
+  window.tytsCloseShareMenu=function(){
+    const old=document.getElementById("tytsShareMenuOverlay");
+    if(old)old.remove();
+  };
+
+  function buildShareData(worker){
+    const title="ТИЦЬ · "+String(worker.service||worker.name||"Оголошення");
+    const body=[
+      String(worker.service||worker.name||"Послуга"),
+      worker.price?"Ціна: "+worker.price:"",
+      "📍 "+locationFinal(worker)
+    ].filter(Boolean).join("\n");
+
+    let url="";
+    try{
+      if(location.protocol==="http:"||location.protocol==="https:"){
+        url=location.href.split("#")[0]+"#service="+encodeURIComponent(String(worker.id||""));
+      }
+    }catch(e){}
+
+    const full=(body+(url?"\n"+url:"")).trim();
+    return {title:title,body:body,url:url,full:full};
+  }
+
+  function openExternalShare(url){
+    try{
+      const a=document.createElement("a");
+      a.href=url;
+      a.target="_blank";
+      a.rel="noopener noreferrer";
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+    }catch(e){
+      window.location.href=url;
+    }
+  }
+
+  window.tytsShareService=async function(worker){
+    if(!worker)return;
+
+    window.tytsCloseShareMenu();
+    const data=buildShareData(worker);
+
+    const overlay=document.createElement("div");
+    overlay.id="tytsShareMenuOverlay";
+    overlay.className="tyts-share-menu-overlay";
+    overlay.onclick=function(e){
+      if(e.target===overlay)window.tytsCloseShareMenu();
+    };
+
+    overlay.innerHTML=
+      '<div class="tyts-share-menu">'+
+        '<div class="tyts-share-menu-head">'+
+          '<div class="tyts-share-menu-title">Поділитися оголошенням</div>'+
+          '<button type="button" class="tyts-share-menu-close" aria-label="Закрити">✕</button>'+
+        '</div>'+
+        '<div class="tyts-share-options">'+
+          '<button type="button" class="tyts-share-option viber" data-share="viber"><span class="tyts-share-icon">💜</span>Viber</button>'+
+          '<button type="button" class="tyts-share-option telegram" data-share="telegram"><span class="tyts-share-icon">✈️</span>Telegram</button>'+
+          '<button type="button" class="tyts-share-option whatsapp" data-share="whatsapp"><span class="tyts-share-icon">🟢</span>WhatsApp</button>'+
+          '<button type="button" class="tyts-share-option copy" data-share="copy"><span class="tyts-share-icon">🔗</span>Копіювати</button>'+
+          (navigator.share
+            ? '<button type="button" class="tyts-share-option system" data-share="system"><span class="tyts-share-icon">↗</span>Інші застосунки</button>'
+            : '')+
+        '</div>'+
+      '</div>';
+
+    overlay.querySelector(".tyts-share-menu-close").onclick=window.tytsCloseShareMenu;
+
+    overlay.querySelector('[data-share="telegram"]').onclick=function(){
+      const u="https://t.me/share/url?url="+encodeURIComponent(data.url||"")+
+        "&text="+encodeURIComponent(data.body);
+      openExternalShare(u);
+    };
+
+    overlay.querySelector('[data-share="whatsapp"]').onclick=function(){
+      const u="https://wa.me/?text="+encodeURIComponent(data.full);
+      openExternalShare(u);
+    };
+
+    overlay.querySelector('[data-share="viber"]').onclick=function(){
+      const u="viber://forward?text="+encodeURIComponent(data.full);
+      openExternalShare(u);
+    };
+
+    overlay.querySelector('[data-share="copy"]').onclick=async function(){
+      try{
+        if(navigator.clipboard&&navigator.clipboard.writeText){
+          await navigator.clipboard.writeText(data.full);
+          window.tytsCloseShareMenu();
+          alert("Посилання на оголошення скопійовано.");
+          return;
+        }
+      }catch(e){}
+      prompt("Скопіюйте посилання/дані оголошення:",data.full);
+    };
+
+    const system=overlay.querySelector('[data-share="system"]');
+    if(system){
+      system.onclick=async function(){
+        try{
+          await navigator.share({
+            title:data.title,
+            text:data.body,
+            url:data.url||undefined
+          });
+          window.tytsCloseShareMenu();
+        }catch(e){
+          if(!(e&&e.name==="AbortError"))console.warn(e);
+        }
+      };
+    }
+
+    document.body.appendChild(overlay);
+  };
+
+  /* Після завантаження перемальовуємо популярне новою логікою. */
+  function refreshFinalPopular(){
+    setTimeout(function(){
+      try{window.tytsRenderPopularNearby();}catch(e){console.warn(e);}
+    },0);
+    setTimeout(function(){
+      try{window.tytsRenderPopularNearby();}catch(e){console.warn(e);}
+    },500);
+  }
+
+  document.addEventListener("DOMContentLoaded",refreshFinalPopular);
+  if(document.readyState!=="loading")refreshFinalPopular();
+})();
+</script>
+
 </html>
