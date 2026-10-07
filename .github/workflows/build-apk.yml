@@ -34,7 +34,7 @@ jobs:
 
       - name: Встановити Capacitor
         run: |
-          npm install --no-save @capacitor/core@8 @capacitor/cli@8 @capacitor/android@8
+          npm install --no-save @capacitor/core@8 @capacitor/cli@8 @capacitor/android@8 @capacitor/app@8
 
       - name: Встановити генератор іконки
         run: |
@@ -67,6 +67,40 @@ jobs:
           rm -rf android
           npx cap add android
           npx cap copy android
+
+      - name: Додати deep link Тиць
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          p = Path("android/app/src/main/AndroidManifest.xml")
+          s = p.read_text()
+
+          deep_link = '''
+              <intent-filter>
+                  <action android:name="android.intent.action.VIEW" />
+                  <category android:name="android.intent.category.DEFAULT" />
+                  <category android:name="android.intent.category.BROWSABLE" />
+
+                  <data
+                      android:scheme="tyts"
+                      android:host="service" />
+              </intent-filter>
+          '''
+
+          if 'android:scheme="tyts"' not in s:
+              s = s.replace(
+                  '</activity>',
+                  deep_link + '\n        </activity>',
+                  1
+              )
+
+          p.write_text(s)
+          PY
+
+      - name: Встановити Capacitor App plugin у Android
+        run: |
+          npx cap sync android
 
       - name: Створити Android-іконки
         run: |
