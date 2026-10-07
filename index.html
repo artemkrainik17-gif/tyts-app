@@ -11188,19 +11188,45 @@ html.tyts-dark .tyts-bottom-nav button{
   window.tytsResizeDataUrl=function(dataUrl,maxSide,quality){
     return new Promise(function(resolve){
       if(!dataUrl || !String(dataUrl).startsWith("data:image/")){resolve(dataUrl||"");return;}
+
+      const source=String(dataUrl);
+      const mime=(source.match(/^data:([^;]+);/i)||[])[1]||"";
+
+      /* PNG/GIF/WebP залишаємо без примусової JPEG-конвертації,
+         щоб не псувати прозорість і кольори. */
+      if(/image\/(png|gif|webp)/i.test(mime)){
+        resolve(source);
+        return;
+      }
+
       const img=new Image();
       img.onload=function(){
         try{
-          const scale=Math.min(1,Number(maxSide||1200)/Math.max(img.width,img.height));
-          const w=Math.max(1,Math.round(img.width*scale));
-          const h=Math.max(1,Math.round(img.height*scale));
-          const canvas=document.createElement("canvas");canvas.width=w;canvas.height=h;
-          canvas.getContext("2d").drawImage(img,0,0,w,h);
-          resolve(canvas.toDataURL("image/jpeg",Number(quality||0.78)));
-        }catch(e){resolve(dataUrl);}
+          const max=Math.max(img.naturalWidth||img.width||1,img.naturalHeight||img.height||1);
+          const scale=Math.min(1,Number(maxSide||1200)/max);
+          const w=Math.max(1,Math.round((img.naturalWidth||img.width||1)*scale));
+          const h=Math.max(1,Math.round((img.naturalHeight||img.height||1)*scale));
+          const canvas=document.createElement("canvas");
+          canvas.width=w;
+          canvas.height=h;
+          const ctx=canvas.getContext("2d",{alpha:false});
+          if(!ctx){resolve(source);return;}
+
+          /* Білий фон перед JPEG-конвертацією запобігає чорному/темному фону. */
+          ctx.save();
+          ctx.fillStyle="#ffffff";
+          ctx.fillRect(0,0,w,h);
+          ctx.drawImage(img,0,0,w,h);
+          ctx.restore();
+
+          const out=canvas.toDataURL("image/jpeg",Number(quality||0.82));
+          resolve(out||source);
+        }catch(e){
+          resolve(source);
+        }
       };
-      img.onerror=function(){resolve(dataUrl);};
-      img.src=dataUrl;
+      img.onerror=function(){resolve(source);};
+      img.src=source;
     });
   };
 
@@ -11633,53 +11659,11 @@ html.tyts-dark .tyts-bottom-nav button{
   }
 
   /* ---------- 2. Телефон ---------- */
-  function normalizePhoneForCall(value){
-    let phone=String(value||"").trim();
-    phone=phone.replace(/^tel:/i,"");
-    try{ phone=decodeURIComponent(phone); }catch(e){}
-    phone=phone.replace(/[^0-9+]/g,"");
-    /* '+' допускається тільки на початку. */
-    if(phone.indexOf("+")>0) phone=phone.replace(/\+/g,"");
-    if(phone.startsWith("+")) phone="+"+phone.slice(1).replace(/\+/g,"");
-    return phone;
-  }
-
-  window.tytsOpenPhoneNumber=function(value){
-    const phone=normalizePhoneForCall(value);
-    if(!phone){
-      alert("Номер телефону не вказано.");
-      return false;
-    }
-
-    const telUrl="tel:"+phone;
-
-    /* Найнадійніший варіант для браузера/PWA/Android WebView,
-       якщо оболонка дозволяє зовнішні tel: схеми. */
-    try{
-      window.location.href=telUrl;
-      return true;
-    }catch(e){
-      try{
-        window.open(telUrl,"_self");
-        return true;
-      }catch(err){
-        console.warn("Не вдалося відкрити телефон:",err);
-        return false;
-      }
-    }
-  };
-
-  /* Один обробник працює і для вже наявних, і для динамічно створених кнопок. */
-  document.addEventListener("click",function(event){
-    const link=event.target && event.target.closest ? event.target.closest('a[href^="tel:"]') : null;
-    if(!link) return;
-
-    event.preventDefault();
-    event.stopPropagation();
-    if(typeof event.stopImmediatePropagation==="function") event.stopImmediatePropagation();
-
-    window.tytsOpenPhoneNumber(link.getAttribute("href")||"");
-  },true);
+  /*
+     Не перехоплюємо tel: через JavaScript.
+     Залишаємо штатний href="tel:...", щоб Android/iOS самі
+     передали виклик системному обробнику дзвінків.
+  */
 
   document.addEventListener("DOMContentLoaded",ensureAllAddButtons);
   if(document.readyState!=="loading") ensureAllAddButtons();
