@@ -1344,6 +1344,47 @@ html.tyts-dark .tyts-chat-unread-badge{
 }
 </style>
 
+
+<style id="tyts-chat-person-link-style">
+.tyts-chat-person-link{
+  display:inline-block;
+  border:0;
+  background:transparent;
+  color:inherit;
+  padding:0;
+  margin:0;
+  font:inherit;
+  font-size:17px;
+  font-weight:800;
+  text-align:left;
+  cursor:pointer;
+  text-decoration:underline;
+  text-decoration-thickness:1px;
+  text-underline-offset:3px;
+}
+.tyts-chat-person-link:active{opacity:.72}
+
+.tyts-provider-contact{
+  padding:0 18px 14px;
+}
+.tyts-provider-call{
+  display:block;
+  width:100%;
+  box-sizing:border-box;
+  border-radius:13px;
+  padding:12px 14px;
+  background:#111827;
+  color:#fff !important;
+  text-align:center;
+  text-decoration:none;
+  font-weight:800;
+}
+html.tyts-dark .tyts-provider-call{
+  background:#f8fafc;
+  color:#111827 !important;
+}
+</style>
+
 </head>
 
 <body>
@@ -13558,6 +13599,8 @@ html.tyts-dark .tyts-notification-count{border-color:#242d38}
       (worker&&worker.name) || "Виконавець"
     );
     const loc=String((profile&&profile.location)||(worker&&locationX(worker))||"—");
+    const phone=String((profile&&profile.phone)||(worker&&worker.phone)||"").trim();
+    const phoneDial=phone.replace(/[^0-9+]/g,"");
     const isVerified=verifiedX(worker,profile);
 
     window.tytsCloseProviderProfile();
@@ -13600,6 +13643,9 @@ html.tyts-dark .tyts-notification-count{border-color:#242d38}
           '<div class="tyts-provider-stat"><span>Активних оголошень</span><b>'+ads.length+'</b></div>'+
           '<div class="tyts-provider-stat"><span>У ТИЦЬ з</span><b>'+escX(dateX(profile&&profile.createdAt))+'</b></div>'+
         '</div>'+
+        (phoneDial
+          ? '<div class="tyts-provider-contact"><a class="tyts-provider-call" href="tel:'+escX(phoneDial)+'">📞 '+escX(phone)+'</a></div>'
+          : '')+
         '<div class="tyts-provider-services"><h3>Оголошення виконавця</h3>'+servicesHtml+'</div>'+
       '</div>';
 
@@ -15156,6 +15202,16 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
     return chat.ownerName||chat.customerName||"Чат";
   }
 
+  function otherUid(chat){
+    if(String(state.uid)===String(chat.ownerUid) && String(chat.customerUid)!==String(chat.ownerUid)){
+      return String(chat.customerUid||"");
+    }
+    if(String(state.uid)===String(chat.customerUid) && String(chat.ownerUid)!==String(chat.customerUid)){
+      return String(chat.ownerUid||"");
+    }
+    return String(chat.ownerUid||chat.customerUid||"");
+  }
+
   function showChatPage(){
     if(typeof window.hideAll==="function")window.hideAll();
     const page=document.getElementById("tytsChatPage");
@@ -15187,7 +15243,7 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
       const unread=chatUnreadCount(chat);
       item.innerHTML=
         '<div class="tyts-chat-name-row">'+
-          '<div class="tyts-chat-name">💬 '+esc(otherName(chat))+'</div>'+
+          '<button type="button" class="tyts-chat-person-link tyts-chat-list-person-link">💬 '+esc(otherName(chat))+'</button>'+
           (unread?'<span class="tyts-chat-item-unread">'+(unread>99?"99+":String(unread))+'</span>':'')+
         '</div>'+
         '<div class="tyts-chat-last"><b>'+esc(chat.serviceName)+'</b><br>'+esc(last?last.text:"Нова розмова")+'</div>'+
@@ -15197,6 +15253,15 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
         state.activeMeta=chat;
         markChatRead(chat.chatId);
         renderActiveChat();
+      };
+      const person=item.querySelector(".tyts-chat-list-person-link");
+      if(person)person.onclick=function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        const uid=otherUid(chat);
+        if(uid && typeof window.tytsOpenProviderProfile==="function"){
+          window.tytsOpenProviderProfile(uid);
+        }
       };
       const del=item.querySelector(".tyts-chat-delete-btn");
       if(del)del.onclick=function(e){
@@ -15229,7 +15294,7 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
 
     box.innerHTML=
       '<div class="tyts-chat-window">'+
-        '<div class="tyts-chat-name">💬 '+esc(otherName(chat))+'</div>'+
+        '<button id="tytsChatPersonLink" type="button" class="tyts-chat-person-link">💬 '+esc(otherName(chat))+'</button>'+
         '<div class="tyts-chat-last" style="margin-bottom:8px">'+esc(chat.serviceName||"Оголошення")+'</div>'+
         '<div id="tytsChatMessages" class="tyts-chat-messages"></div>'+
         '<div class="tyts-chat-compose">'+
@@ -15246,6 +15311,16 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
       msgs.appendChild(d);
     });
     msgs.scrollTop=msgs.scrollHeight;
+
+    const personLink=document.getElementById("tytsChatPersonLink");
+    if(personLink){
+      personLink.onclick=function(){
+        const uid=otherUid(chat);
+        if(uid && typeof window.tytsOpenProviderProfile==="function"){
+          window.tytsOpenProviderProfile(uid);
+        }
+      };
+    }
 
     const input=document.getElementById("tytsChatInput");
     const send=document.getElementById("tytsChatSendButton");
