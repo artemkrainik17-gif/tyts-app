@@ -1159,6 +1159,70 @@ html.tyts-dark .tyts-chat-compose button{
 }
 </style>
 
+
+<style id="tyts-chat-delete-detail-favorite-style">
+.tyts-chat-list-item{
+  position:relative;
+  padding-right:54px !important;
+}
+
+.tyts-chat-delete-btn{
+  position:absolute;
+  right:10px;
+  top:50%;
+  transform:translateY(-50%);
+  width:36px;
+  height:36px;
+  border:0;
+  border-radius:50%;
+  background:#fee2e2;
+  color:#991b1b;
+  font-size:17px;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:2;
+}
+
+.tyts-chat-delete-btn:active{
+  transform:translateY(-50%) scale(.95);
+}
+
+html.tyts-dark .tyts-chat-delete-btn{
+  background:#3a2024;
+  color:#fecaca;
+}
+
+.tyts-detail-favorite{
+  width:100%;
+  margin-top:10px;
+  border:0;
+  border-radius:12px;
+  padding:12px 10px;
+  background:#e8edf2;
+  color:#111827;
+  font-size:14px;
+  font-weight:800;
+  cursor:pointer;
+}
+
+.tyts-detail-favorite.active{
+  background:#111827;
+  color:#fff;
+}
+
+html.tyts-dark .tyts-detail-favorite{
+  background:#303846;
+  color:#f8fafc;
+}
+
+html.tyts-dark .tyts-detail-favorite.active{
+  background:#f8fafc;
+  color:#111827;
+}
+</style>
+
 </head>
 
 <body>
@@ -14627,6 +14691,29 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
     ready:false
   };
 
+  const HIDDEN_CHATS_KEY="tyts_hidden_chats_v1";
+
+  function getHiddenChats(){
+    try{
+      const value=JSON.parse(localStorage.getItem(HIDDEN_CHATS_KEY)||"{}");
+      return value&&typeof value==="object"&&!Array.isArray(value)?value:{};
+    }catch(e){return {};}
+  }
+
+  function hideChatForMe(chatId){
+    const hidden=getHiddenChats();
+    hidden[String(chatId||"")]=Date.now();
+    localStorage.setItem(HIDDEN_CHATS_KEY,JSON.stringify(hidden));
+  }
+
+  function isChatHidden(chat){
+    const hidden=getHiddenChats();
+    const cutoff=Number(hidden[String(chat.chatId||"")]||0);
+    if(!cutoff)return false;
+    const last=chat.messages&&chat.messages.length?messageTime(chat.messages[chat.messages.length-1]):0;
+    return last<=cutoff;
+  }
+
   function esc(v){
     if(typeof window.escapeHtml==="function") return window.escapeHtml(v);
     return String(v==null?"":v)
@@ -14720,7 +14807,7 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
       const bm=b.messages.length?messageTime(b.messages[b.messages.length-1]):0;
       return bm-am;
     });
-    return arr;
+    return arr.filter(function(chat){return !isChatHidden(chat);});
   }
 
   function otherName(chat){
@@ -14763,11 +14850,23 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
       const last=chat.messages[chat.messages.length-1];
       item.innerHTML=
         '<div class="tyts-chat-name">💬 '+esc(otherName(chat))+'</div>'+
-        '<div class="tyts-chat-last"><b>'+esc(chat.serviceName)+'</b><br>'+esc(last?last.text:"Нова розмова")+'</div>';
+        '<div class="tyts-chat-last"><b>'+esc(chat.serviceName)+'</b><br>'+esc(last?last.text:"Нова розмова")+'</div>'+
+        '<button type="button" class="tyts-chat-delete-btn" title="Видалити чат" aria-label="Видалити чат">🗑</button>';
       item.onclick=function(){
         state.activeChatId=chat.chatId;
         state.activeMeta=chat;
         renderActiveChat();
+      };
+      const del=item.querySelector(".tyts-chat-delete-btn");
+      if(del)del.onclick=function(e){
+        e.stopPropagation();
+        if(!confirm("Видалити цей чат зі свого списку?"))return;
+        hideChatForMe(chat.chatId);
+        if(state.activeChatId===chat.chatId){
+          state.activeChatId="";
+          state.activeMeta=null;
+        }
+        renderList();
       };
       box.appendChild(item);
     });
@@ -14935,6 +15034,81 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
     const uid=getUid();
     if(uid!==state.uid)startListener();
   },2000);
+})();
+</script>
+
+
+<script id="tyts-detail-favorite-final">
+(function(){
+  "use strict";
+
+  function findServiceById(id){
+    const sid=String(id||"");
+    const pools=[];
+    try{if(Array.isArray(window.tytsAdminServices))pools.push(window.tytsAdminServices);}catch(e){}
+    try{if(typeof allServices!=="undefined"&&Array.isArray(allServices))pools.push(allServices);}catch(e){}
+    for(const list of pools){
+      const found=list.find(function(x){return String(x&&x.id||"")===sid;});
+      if(found)return found;
+    }
+    try{
+      const local=JSON.parse(localStorage.getItem("tyts_services")||"[]");
+      if(Array.isArray(local)){
+        const found=local.find(function(x){return String(x&&x.id||"")===sid;});
+        if(found)return found;
+      }
+    }catch(e){}
+    return null;
+  }
+
+  function updateButton(btn,worker){
+    if(!btn||!worker)return;
+    const active=typeof window.tytsIsFavorite==="function" && window.tytsIsFavorite(worker.id);
+    btn.classList.toggle("active",!!active);
+    btn.textContent=active?"♥ В обраному":"♡ В обране";
+  }
+
+  const previous=window.tytsOpenServiceDetails;
+  if(typeof previous!=="function")return;
+
+  window.tytsOpenServiceDetails=function(id){
+    const result=previous.apply(this,arguments);
+
+    setTimeout(function(){
+      const overlay=document.getElementById("tytsServiceDetailOverlay");
+      if(!overlay)return;
+
+      const worker=findServiceById(id);
+      if(!worker)return;
+
+      const inner=overlay.querySelector(".tyts-detail-inner");
+      if(!inner)return;
+
+      let btn=inner.querySelector(".tyts-detail-favorite");
+      if(!btn){
+        btn=document.createElement("button");
+        btn.type="button";
+        btn.className="tyts-detail-favorite";
+
+        const actions=inner.querySelector(".tyts-detail-actions");
+        if(actions)actions.insertAdjacentElement("afterend",btn);
+        else inner.appendChild(btn);
+      }
+
+      updateButton(btn,worker);
+
+      btn.onclick=function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        if(typeof window.tytsToggleFavorite==="function"){
+          window.tytsToggleFavorite(worker);
+          updateButton(btn,worker);
+        }
+      };
+    },0);
+
+    return result;
+  };
 })();
 </script>
 
