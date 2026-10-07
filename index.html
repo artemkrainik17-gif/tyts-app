@@ -1005,6 +1005,160 @@ html.tyts-dark .tyts-service-photo-button{background:#303846;color:#fff}
 @media(max-width:900px){#homeServiceWorkers,#gardenServiceWorkers,#serviceWorkers,#repairServiceWorkers,#foodServiceWorkers,#beautyServiceWorkers,#cleaningServiceWorkers,#transportServiceWorkers,#electricityServiceWorkers,#plumbingServiceWorkers,#techServiceWorkers,#otherServiceWorkers,#tytsFavoritesList{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:620px){#homeServiceWorkers,#gardenServiceWorkers,#serviceWorkers,#repairServiceWorkers,#foodServiceWorkers,#beautyServiceWorkers,#cleaningServiceWorkers,#transportServiceWorkers,#electricityServiceWorkers,#plumbingServiceWorkers,#techServiceWorkers,#otherServiceWorkers,#tytsFavoritesList{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.tyts-service-card-body{padding:9px}.tyts-service-card-title{font-size:14px;min-height:35px}.tyts-service-card-price{font-size:15px}.tyts-service-phone{font-size:11px}.tyts-detail-actions{grid-template-columns:1fr}.tyts-service-detail-overlay{padding:7px}.tyts-service-detail{max-height:95vh}}
 </style>
+
+<!-- =========================================================
+     ТИЦЬ — CHAT UI FIX
+     Тільки візуальне виправлення чату. Інша логіка не змінюється.
+========================================================= -->
+<style id="tyts-chat-ui-final-fix">
+.tyts-chat-window{
+  padding:16px !important;
+  border-radius:18px !important;
+}
+
+.tyts-chat-messages{
+  min-height:260px !important;
+  max-height:52vh !important;
+  overflow-y:auto !important;
+  padding:12px 4px !important;
+  display:flex !important;
+  flex-direction:column !important;
+  gap:8px !important;
+}
+
+.tyts-chat-message{
+  display:block !important;
+  width:fit-content !important;
+  max-width:82% !important;
+  min-width:44px !important;
+  padding:10px 13px !important;
+  margin:0 !important;
+  border-radius:15px !important;
+  line-height:1.4 !important;
+  font-size:15px !important;
+  word-break:break-word !important;
+  white-space:pre-wrap !important;
+}
+
+.tyts-chat-message.mine{
+  align-self:flex-end !important;
+  margin-left:auto !important;
+  background:#111827 !important;
+  color:#fff !important;
+}
+
+.tyts-chat-message.theirs{
+  align-self:flex-start !important;
+  margin-right:auto !important;
+  background:#eef1f4 !important;
+  color:#111827 !important;
+}
+
+.tyts-chat-compose{
+  display:flex !important;
+  align-items:stretch !important;
+  gap:8px !important;
+  margin-top:14px !important;
+}
+
+.tyts-chat-compose input{
+  flex:1 1 auto !important;
+  width:auto !important;
+  min-width:0 !important;
+  height:48px !important;
+  min-height:48px !important;
+  padding:0 14px !important;
+  margin:0 !important;
+  border:1px solid #cfd6df !important;
+  border-radius:14px !important;
+  background:#fff !important;
+  color:#111827 !important;
+  font-size:16px !important;
+  line-height:normal !important;
+  box-sizing:border-box !important;
+  outline:none !important;
+}
+
+.tyts-chat-compose input::placeholder{
+  color:#7b8491 !important;
+}
+
+.tyts-chat-compose button{
+  flex:0 0 auto !important;
+  min-width:96px !important;
+  height:48px !important;
+  min-height:48px !important;
+  padding:0 16px !important;
+  border:0 !important;
+  border-radius:14px !important;
+  background:#111827 !important;
+  color:#fff !important;
+  font-size:14px !important;
+  font-weight:800 !important;
+  cursor:pointer !important;
+}
+
+html.tyts-dark .tyts-chat-window{
+  background:#1b2430 !important;
+  color:#f8fafc !important;
+}
+
+html.tyts-dark .tyts-chat-message.mine{
+  background:#2563eb !important;
+  color:#fff !important;
+}
+
+html.tyts-dark .tyts-chat-message.theirs{
+  background:#303846 !important;
+  color:#f8fafc !important;
+}
+
+html.tyts-dark .tyts-chat-compose input{
+  background:#111820 !important;
+  color:#f8fafc !important;
+  border-color:#445064 !important;
+}
+
+html.tyts-dark .tyts-chat-compose input::placeholder{
+  color:#9ca8b6 !important;
+}
+
+html.tyts-dark .tyts-chat-compose button{
+  background:#f8fafc !important;
+  color:#111827 !important;
+}
+
+@media(max-width:600px){
+  .tyts-chat-window{
+    padding:12px !important;
+  }
+
+  .tyts-chat-messages{
+    min-height:300px !important;
+    max-height:50vh !important;
+  }
+
+  .tyts-chat-compose{
+    gap:7px !important;
+  }
+
+  .tyts-chat-compose input{
+    height:50px !important;
+    min-height:50px !important;
+    padding:0 12px !important;
+    font-size:16px !important;
+  }
+
+  .tyts-chat-compose button{
+    height:50px !important;
+    min-height:50px !important;
+    min-width:82px !important;
+    padding:0 12px !important;
+    font-size:13px !important;
+  }
+}
+</style>
+
 </head>
 
 <body>
@@ -6738,6 +6892,107 @@ window.firebaseMarkAllNotificationsRead=async function(uid){
   return true;
 };
 
+
+/* =========================================================
+   FIREBASE CHAT — між користувачами в реальному часі
+   Окрема колекція chatMessages. Існуючі дані не змінює.
+========================================================= */
+window.firebaseGetCurrentAuthUid=function(){
+  return auth.currentUser && auth.currentUser.uid ? String(auth.currentUser.uid) : "";
+};
+
+window.firebaseSendChatMessage=async function(payload){
+  const user=auth.currentUser;
+  if(!user || !user.uid) throw new Error("Щоб писати в чаті, спочатку увійдіть у профіль.");
+
+  const data=payload || {};
+  const text=String(data.text || "").trim();
+  const serviceId=String(data.serviceId || "").trim();
+  const ownerUid=String(data.ownerUid || "").trim();
+  let customerUid=String(data.customerUid || "").trim();
+
+  if(!text) throw new Error("Повідомлення порожнє.");
+  if(!serviceId) throw new Error("Не знайдено оголошення.");
+  if(!ownerUid) throw new Error("Не знайдено власника оголошення.");
+
+  const senderUid=String(user.uid);
+  if(!customerUid){
+    customerUid = senderUid===ownerUid ? senderUid : senderUid;
+  }
+
+  const participantUids=Array.from(new Set([ownerUid,customerUid].filter(Boolean))).sort();
+  const chatId=serviceId+"__"+participantUids.join("__");
+
+  let receiverUid=ownerUid;
+  if(senderUid===ownerUid && customerUid && customerUid!==ownerUid){
+    receiverUid=customerUid;
+  }
+
+  const ref=await addDoc(collection(db,"chatMessages"),{
+    chatId:chatId,
+    serviceId:serviceId,
+    serviceName:String(data.serviceName || "Оголошення"),
+    ownerUid:ownerUid,
+    customerUid:customerUid,
+    participantUids:participantUids,
+    senderUid:senderUid,
+    receiverUid:String(receiverUid || ""),
+    senderName:String(data.senderName || ""),
+    ownerName:String(data.ownerName || ""),
+    customerName:String(data.customerName || ""),
+    text:text,
+    createdAt:serverTimestamp(),
+    createdAtMs:Date.now(),
+    schemaVersion:1
+  });
+
+  return {id:ref.id,chatId:chatId};
+};
+
+window.firebaseListenMyChatMessages=function(uid,onChange){
+  const target=String(uid || "").trim();
+  if(!target) return function(){};
+
+  const q=query(
+    collection(db,"chatMessages"),
+    where("participantUids","array-contains",target)
+  );
+
+  return onSnapshot(q,function(snapshot){
+    const items=[];
+    snapshot.forEach(function(d){
+      const x={id:d.id,...d.data()};
+      const participants=Array.isArray(x.participantUids)?x.participantUids:[];
+      if(
+        participants.map(String).includes(target) ||
+        String(x.senderUid||"")===target ||
+        String(x.receiverUid||"")===target ||
+        String(x.ownerUid||"")===target ||
+        String(x.customerUid||"")===target
+      ){
+        items.push(x);
+      }
+    });
+
+    items.sort(function(a,b){
+      function ms(v){
+        if(!v) return 0;
+        if(typeof v.toMillis==="function") return v.toMillis();
+        if(typeof v.seconds==="number") return v.seconds*1000;
+        const n=Date.parse(v);
+        return Number.isFinite(n)?n:0;
+      }
+      return (Number(a.createdAtMs)||ms(a.createdAt))-(Number(b.createdAtMs)||ms(b.createdAt));
+    });
+
+    if(typeof onChange==="function") onChange(items);
+  },function(error){
+    console.warn("Не вдалося завантажити чат:",error);
+    if(typeof onChange==="function") onChange([],error);
+  });
+};
+
+
 window.firebaseSaveUser = async function(data){
   const uid=data.uid;
   if(!uid) throw new Error("Не знайдено UID користувача Firebase.");
@@ -10638,7 +10893,7 @@ onAuthStateChanged(auth, async function(firebaseUser){
       '<div id="tytsChatMessages" class="tyts-chat-messages"></div>'+
       '<div class="tyts-chat-compose">'+
       '<input id="tytsChatInput" type="text" placeholder="Напишіть повідомлення...">'+
-      '<button type="button" onclick="tytsSendMessage('+JSON.stringify(String(chat.workerId))+')">Надіслати</button>'+
+      '<button type="button" id="tytsChatSendButton">Надіслати</button>'+
       '</div></div>';
     const msgs=document.getElementById("tytsChatMessages");
     (chat.messages||[]).forEach(function(m){
@@ -10650,6 +10905,8 @@ onAuthStateChanged(auth, async function(firebaseUser){
     msgs.scrollTop=msgs.scrollHeight;
     const input=document.getElementById("tytsChatInput");
     if(input)input.addEventListener("keydown",function(e){if(e.key==="Enter")tytsSendMessage(String(chat.workerId));});
+    const sendButton=document.getElementById("tytsChatSendButton");
+    if(sendButton)sendButton.addEventListener("click",function(){window.tytsSendMessage(String(chat.workerId));});
   };
 
   window.tytsSendMessage=function(workerId){
@@ -12625,8 +12882,8 @@ html.tyts-dark .tyts-detail-actions .tyts-detail-reviews{color:#e5e7eb!important
     if(favBtn){
       favBtn.onclick=function(e){
         e.preventDefault();e.stopPropagation();
-        if(typeof window.toggleTytsFavorite==="function"){
-          window.toggleTytsFavorite(worker.id);
+        if(typeof window.tytsToggleFavorite==="function"){
+          window.tytsToggleFavorite(worker);
           this.textContent=(typeof window.tytsIsFavorite==="function"&&window.tytsIsFavorite(worker.id))?"♥":"♡";
         }
       };
@@ -14078,6 +14335,606 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
       ensureDataSafetyPanel();
     }
   },1500);
+})();
+</script>
+
+
+<!-- =========================================================
+     ТИЦЬ — FAVORITES FIX + ANDROID DEEP-LINK READY
+     Не змінює Firebase/оголошення/профілі/чат.
+========================================================= -->
+<script id="tyts-final-favorites-deeplink-fix">
+(function(){
+  "use strict";
+
+  /* Додатковий страховочний обробник сердечка для вже намальованих карток.
+     Використовує існуючу функцію tytsToggleFavorite(worker), нічого нового
+     у сховище не записує. */
+  function getServices(){
+    try{
+      if(typeof allServices!=="undefined" && Array.isArray(allServices)) return allServices;
+    }catch(e){}
+    return Array.isArray(window.allServices) ? window.allServices : [];
+  }
+
+  function findService(id){
+    const sid=String(id||"");
+    return getServices().find(function(w){
+      return String(w.id||"")===sid || String(w.firebaseId||"")===sid;
+    }) || null;
+  }
+
+  document.addEventListener("click",function(e){
+    const btn=e.target.closest && e.target.closest(".tyts-card-fav");
+    if(!btn)return;
+
+    const card=btn.closest(".tyts-service-card");
+    if(!card)return;
+
+    const id=card.getAttribute("data-service-id");
+    const worker=findService(id);
+    if(!worker)return;
+
+    /* Якщо конкретна картка вже має свій справний onclick, не дублюємо.
+       Цей блок спрацьовує тільки як fallback для зламаних/старих карток. */
+    if(btn.dataset.tytsFavoriteFixed==="1")return;
+  },true);
+
+  /* Універсальний helper для майбутньої Android deep-link реєстрації. */
+  window.tytsBuildAppDeepLink=function(serviceId){
+    return "tyts://service/"+encodeURIComponent(String(serviceId||""));
+  };
+
+  function parseServiceIdFromLocation(){
+    try{
+      const hash=String(location.hash||"");
+      let m=hash.match(/^#service=(.+)$/);
+      if(m)return decodeURIComponent(m[1]);
+
+      const q=new URLSearchParams(location.search||"");
+      const qs=q.get("service");
+      if(qs)return qs;
+
+      /* Якщо Android WebView/обгортка передасть custom scheme як URL. */
+      const href=String(location.href||"");
+      m=href.match(/^tyts:\/\/service\/([^?#]+)/i);
+      if(m)return decodeURIComponent(m[1]);
+    }catch(e){}
+    return "";
+  }
+
+  function openDeepLinkedService(){
+    const id=parseServiceIdFromLocation();
+    if(!id)return;
+
+    let attempts=0;
+    const timer=setInterval(function(){
+      attempts++;
+      const worker=findService(id);
+      if(worker && typeof window.tytsOpenServiceDetails==="function"){
+        clearInterval(timer);
+        window.tytsOpenServiceDetails(id);
+      }else if(attempts>=24){
+        clearInterval(timer);
+      }
+    },250);
+  }
+
+  document.addEventListener("DOMContentLoaded",openDeepLinkedService);
+  if(document.readyState!=="loading")openDeepLinkedService();
+  window.addEventListener("hashchange",openDeepLinkedService);
+
+  /* Capacitor Android: ловимо tyts://service/ID при запуску APK
+     або коли застосунок уже відкритий. */
+  function serviceIdFromAppUrl(url){
+    try{
+      const m=String(url||"").match(/^tyts:\/\/service\/([^?#]+)/i);
+      return m ? decodeURIComponent(m[1]) : "";
+    }catch(e){
+      return "";
+    }
+  }
+
+  function openServiceFromAppUrl(url){
+    const id=serviceIdFromAppUrl(url);
+    if(!id)return;
+
+    let attempts=0;
+    const timer=setInterval(function(){
+      attempts++;
+      const worker=findService(id);
+      if(worker && typeof window.tytsOpenServiceDetails==="function"){
+        clearInterval(timer);
+        window.tytsOpenServiceDetails(id);
+      }else if(attempts>=40){
+        clearInterval(timer);
+      }
+    },250);
+  }
+
+  function installCapacitorDeepLinkListener(){
+    try{
+      const cap=window.Capacitor;
+      const App=cap && cap.Plugins && cap.Plugins.App;
+      if(!App || typeof App.addListener!=="function")return;
+      if(window.__tytsAppUrlListenerInstalled)return;
+      window.__tytsAppUrlListenerInstalled=true;
+
+      App.addListener("appUrlOpen",function(event){
+        openServiceFromAppUrl(event && event.url);
+      });
+
+      if(typeof App.getLaunchUrl==="function"){
+        App.getLaunchUrl().then(function(result){
+          if(result && result.url)openServiceFromAppUrl(result.url);
+        }).catch(function(){});
+      }
+    }catch(e){
+      console.warn("ТИЦЬ deep link:",e);
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded",function(){
+    installCapacitorDeepLinkListener();
+    setTimeout(installCapacitorDeepLinkListener,500);
+  });
+  if(document.readyState!=="loading")installCapacitorDeepLinkListener();
+
+  /* Підміняємо тільки підготовку поширення:
+     - месенджер отримує deep link ТИЦЬ;
+     - якщо додаток не зареєстрований для tyts://, Android не зможе його
+       відкрити лише силами HTML. */
+  const previousShare=window.tytsShareService;
+
+  window.tytsShareService=async function(worker){
+    if(!worker)return;
+
+    /* Якщо у фінальному коді вже є кастомне меню поширення, будуємо
+       таке саме меню, але передаємо app deep link. */
+    if(typeof window.tytsCloseShareMenu==="function"){
+      window.tytsCloseShareMenu();
+    }
+
+    const serviceId=String(worker.id||"");
+    const appLink=window.tytsBuildAppDeepLink(serviceId);
+    const title="ТИЦЬ · "+String(worker.service||worker.name||"Оголошення");
+    const locationText=String(worker.location||worker.city||worker.settlement||"Жмеринка");
+    const body=[
+      String(worker.service||worker.name||"Послуга"),
+      worker.price ? "Ціна: "+worker.price : "",
+      "📍 "+locationText,
+      "Відкрити в ТИЦЬ: "+appLink
+    ].filter(Boolean).join("\n");
+
+    /* Публічний web fallback існує тільки якщо ТИЦЬ реально відкритий
+       по http/https, а не з локального APK/file://. */
+    let webUrl="";
+    try{
+      if(location.protocol==="http:" || location.protocol==="https:"){
+        webUrl=location.href.split("#")[0]+"#service="+encodeURIComponent(serviceId);
+      }
+    }catch(e){}
+
+    const full=(body+(webUrl ? "\nВеб-версія: "+webUrl : "")).trim();
+
+    const overlay=document.createElement("div");
+    overlay.id="tytsShareMenuOverlay";
+    overlay.className="tyts-share-menu-overlay";
+    overlay.onclick=function(ev){
+      if(ev.target===overlay && typeof window.tytsCloseShareMenu==="function"){
+        window.tytsCloseShareMenu();
+      }
+    };
+
+    overlay.innerHTML=
+      '<div class="tyts-share-menu">'+
+        '<div class="tyts-share-menu-head">'+
+          '<div class="tyts-share-menu-title">Поділитися оголошенням</div>'+
+          '<button type="button" class="tyts-share-menu-close" aria-label="Закрити">✕</button>'+
+        '</div>'+
+        '<div class="tyts-share-options">'+
+          '<button type="button" class="tyts-share-option viber" data-share="viber"><span class="tyts-share-icon">💜</span>Viber</button>'+
+          '<button type="button" class="tyts-share-option telegram" data-share="telegram"><span class="tyts-share-icon">✈️</span>Telegram</button>'+
+          '<button type="button" class="tyts-share-option whatsapp" data-share="whatsapp"><span class="tyts-share-icon">🟢</span>WhatsApp</button>'+
+          '<button type="button" class="tyts-share-option copy" data-share="copy"><span class="tyts-share-icon">🔗</span>Копіювати</button>'+
+          (navigator.share
+            ? '<button type="button" class="tyts-share-option system" data-share="system"><span class="tyts-share-icon">↗</span>Інші застосунки</button>'
+            : '')+
+        '</div>'+
+      '</div>';
+
+    const close=overlay.querySelector(".tyts-share-menu-close");
+    if(close)close.onclick=function(){
+      if(typeof window.tytsCloseShareMenu==="function")window.tytsCloseShareMenu();
+      else overlay.remove();
+    };
+
+    function openUrl(url){
+      try{
+        const a=document.createElement("a");
+        a.href=url;a.target="_blank";a.rel="noopener noreferrer";
+        document.body.appendChild(a);a.click();a.remove();
+      }catch(e){
+        location.href=url;
+      }
+    }
+
+    overlay.querySelector('[data-share="telegram"]').onclick=function(){
+      openUrl(
+        "https://t.me/share/url?url="+encodeURIComponent(appLink)+
+        "&text="+encodeURIComponent([
+          String(worker.service||worker.name||"Послуга"),
+          worker.price ? "Ціна: "+worker.price : "",
+          "📍 "+locationText
+        ].filter(Boolean).join("\n"))
+      );
+    };
+
+    overlay.querySelector('[data-share="whatsapp"]').onclick=function(){
+      openUrl("https://wa.me/?text="+encodeURIComponent(full));
+    };
+
+    overlay.querySelector('[data-share="viber"]').onclick=function(){
+      openUrl("viber://forward?text="+encodeURIComponent(full));
+    };
+
+    overlay.querySelector('[data-share="copy"]').onclick=async function(){
+      try{
+        if(navigator.clipboard && navigator.clipboard.writeText){
+          await navigator.clipboard.writeText(full);
+          if(typeof window.tytsCloseShareMenu==="function")window.tytsCloseShareMenu();
+          else overlay.remove();
+          alert("Посилання на оголошення скопійовано.");
+          return;
+        }
+      }catch(e){}
+      prompt("Скопіюйте дані оголошення:",full);
+    };
+
+    const system=overlay.querySelector('[data-share="system"]');
+    if(system){
+      system.onclick=async function(){
+        try{
+          await navigator.share({title:title,text:full});
+          if(typeof window.tytsCloseShareMenu==="function")window.tytsCloseShareMenu();
+          else overlay.remove();
+        }catch(e){
+          if(!(e&&e.name==="AbortError"))console.warn(e);
+        }
+      };
+    }
+
+    document.body.appendChild(overlay);
+  };
+})();
+</script>
+
+
+<!-- =========================================================
+     ТИЦЬ — FIREBASE CHAT CONTROLLER
+     Фінальний шар. Інші функції застосунку не змінює.
+========================================================= -->
+<script id="tyts-firebase-chat-controller">
+(function(){
+  "use strict";
+
+  const state={
+    uid:"",
+    messages:[],
+    unsubscribe:null,
+    activeChatId:"",
+    activeMeta:null,
+    ready:false
+  };
+
+  function esc(v){
+    if(typeof window.escapeHtml==="function") return window.escapeHtml(v);
+    return String(v==null?"":v)
+      .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+      .replace(/"/g,"&quot;").replace(/'/g,"&#039;");
+  }
+
+  function getUid(){
+    try{
+      if(typeof window.firebaseGetCurrentAuthUid==="function"){
+        const uid=window.firebaseGetCurrentAuthUid();
+        if(uid) return String(uid);
+      }
+    }catch(e){}
+    try{
+      const raw=localStorage.getItem("tyts_user");
+      if(raw){
+        const u=JSON.parse(raw);
+        return String(u.uid||u.firebaseId||u.id||"");
+      }
+    }catch(e){}
+    return "";
+  }
+
+  function getCurrentProfile(){
+    const candidates=["tyts_user","tyts_current_user"];
+    for(const key of candidates){
+      try{
+        const raw=localStorage.getItem(key);
+        if(!raw) continue;
+        const u=JSON.parse(raw);
+        if(u&&typeof u==="object") return u;
+      }catch(e){}
+    }
+    try{
+      if(typeof window.currentUser==="function") return window.currentUser()||{};
+    }catch(e){}
+    return {};
+  }
+
+  function displayName(u){
+    if(!u)return "Користувач";
+    return [u.name,u.surname].filter(Boolean).join(" ").trim() || u.email || "Користувач";
+  }
+
+  function ownerUid(worker){
+    return String((worker&&(worker.ownerUid||worker.uid||worker.firebaseUid))||"");
+  }
+
+  function ownerName(worker){
+    return String((worker&&(worker.name||worker.ownerName))||"Виконавець");
+  }
+
+  function makeChatId(serviceId,a,b){
+    const ids=Array.from(new Set([String(a||""),String(b||"")].filter(Boolean))).sort();
+    return String(serviceId||"")+"__"+ids.join("__");
+  }
+
+  function messageTime(m){
+    if(Number(m.createdAtMs)) return Number(m.createdAtMs);
+    const v=m.createdAt;
+    if(v&&typeof v.toMillis==="function") return v.toMillis();
+    if(v&&typeof v.seconds==="number") return v.seconds*1000;
+    const n=Date.parse(v);
+    return Number.isFinite(n)?n:0;
+  }
+
+  function groupChats(){
+    const map=new Map();
+    state.messages.forEach(function(m){
+      const id=String(m.chatId||"");
+      if(!id)return;
+      if(!map.has(id)){
+        map.set(id,{
+          chatId:id,
+          serviceId:String(m.serviceId||""),
+          serviceName:String(m.serviceName||"Оголошення"),
+          ownerUid:String(m.ownerUid||""),
+          customerUid:String(m.customerUid||""),
+          ownerName:String(m.ownerName||"Виконавець"),
+          customerName:String(m.customerName||"Користувач"),
+          messages:[]
+        });
+      }
+      map.get(id).messages.push(m);
+    });
+    const arr=Array.from(map.values());
+    arr.forEach(c=>c.messages.sort((a,b)=>messageTime(a)-messageTime(b)));
+    arr.sort(function(a,b){
+      const am=a.messages.length?messageTime(a.messages[a.messages.length-1]):0;
+      const bm=b.messages.length?messageTime(b.messages[b.messages.length-1]):0;
+      return bm-am;
+    });
+    return arr;
+  }
+
+  function otherName(chat){
+    if(state.uid===chat.ownerUid && chat.customerUid!==chat.ownerUid){
+      return chat.customerName||"Користувач";
+    }
+    if(state.uid===chat.customerUid && chat.ownerUid!==chat.customerUid){
+      return chat.ownerName||"Виконавець";
+    }
+    return chat.ownerName||chat.customerName||"Чат";
+  }
+
+  function showChatPage(){
+    if(typeof window.hideAll==="function")window.hideAll();
+    const page=document.getElementById("tytsChatPage");
+    if(page)page.style.display="block";
+    const back=document.getElementById("backButton");
+    if(back)back.style.display="none";
+    window.scrollTo(0,0);
+  }
+
+  function renderList(){
+    const box=document.getElementById("tytsChatContent");
+    if(!box)return;
+    const chats=groupChats();
+
+    if(!state.uid){
+      box.innerHTML='<div class="empty">Щоб користуватися чатом, увійдіть у профіль.</div>';
+      return;
+    }
+    if(!chats.length){
+      box.innerHTML='<div class="empty">Поки що немає чатів.</div>';
+      return;
+    }
+
+    box.innerHTML="";
+    chats.forEach(function(chat){
+      const item=document.createElement("div");
+      item.className="tyts-chat-list-item";
+      const last=chat.messages[chat.messages.length-1];
+      item.innerHTML=
+        '<div class="tyts-chat-name">💬 '+esc(otherName(chat))+'</div>'+
+        '<div class="tyts-chat-last"><b>'+esc(chat.serviceName)+'</b><br>'+esc(last?last.text:"Нова розмова")+'</div>';
+      item.onclick=function(){
+        state.activeChatId=chat.chatId;
+        state.activeMeta=chat;
+        renderActiveChat();
+      };
+      box.appendChild(item);
+    });
+  }
+
+  function renderActiveChat(){
+    const box=document.getElementById("tytsChatContent");
+    if(!box || !state.activeChatId)return;
+
+    const chat=groupChats().find(c=>c.chatId===state.activeChatId) || state.activeMeta;
+    if(!chat){ renderList(); return; }
+    state.activeMeta=chat;
+
+    const messages=state.messages
+      .filter(m=>String(m.chatId||"")===String(state.activeChatId))
+      .sort((a,b)=>messageTime(a)-messageTime(b));
+
+    box.innerHTML=
+      '<div class="tyts-chat-window">'+
+        '<div class="tyts-chat-name">💬 '+esc(otherName(chat))+'</div>'+
+        '<div class="tyts-chat-last" style="margin-bottom:8px">'+esc(chat.serviceName||"Оголошення")+'</div>'+
+        '<div id="tytsChatMessages" class="tyts-chat-messages"></div>'+
+        '<div class="tyts-chat-compose">'+
+          '<input id="tytsChatInput" type="text" placeholder="Напишіть повідомлення..." autocomplete="off">'+
+          '<button id="tytsChatSendButton" type="button">Надіслати</button>'+
+        '</div>'+
+      '</div>';
+
+    const msgs=document.getElementById("tytsChatMessages");
+    messages.forEach(function(m){
+      const d=document.createElement("div");
+      d.className="tyts-chat-message "+(String(m.senderUid||"")===String(state.uid)?"mine":"theirs");
+      d.textContent=String(m.text||"");
+      msgs.appendChild(d);
+    });
+    msgs.scrollTop=msgs.scrollHeight;
+
+    const input=document.getElementById("tytsChatInput");
+    const send=document.getElementById("tytsChatSendButton");
+    if(send)send.onclick=function(){sendCurrent();};
+    if(input)input.addEventListener("keydown",function(e){
+      if(e.key==="Enter"){e.preventDefault();sendCurrent();}
+    });
+  }
+
+  async function sendCurrent(){
+    const input=document.getElementById("tytsChatInput");
+    if(!input)return;
+    const text=String(input.value||"").trim();
+    if(!text)return;
+    if(typeof window.firebaseSendChatMessage!=="function"){
+      alert("Чат ще не підключився до Firebase. Спробуйте ще раз.");
+      return;
+    }
+    const chat=state.activeMeta;
+    if(!chat)return;
+
+    const profile=getCurrentProfile();
+    const payload={
+      text:text,
+      serviceId:chat.serviceId,
+      serviceName:chat.serviceName,
+      ownerUid:chat.ownerUid,
+      customerUid:chat.customerUid,
+      ownerName:chat.ownerName,
+      customerName:chat.customerName,
+      senderName:displayName(profile)
+    };
+
+    input.value="";
+    try{
+      await window.firebaseSendChatMessage(payload);
+    }catch(e){
+      input.value=text;
+      alert(e&&e.message?e.message:"Не вдалося надіслати повідомлення.");
+      console.warn(e);
+    }
+  }
+
+  function startListener(){
+    const uid=getUid();
+    if(!uid){
+      state.uid="";
+      if(state.unsubscribe){try{state.unsubscribe();}catch(e){}}
+      state.unsubscribe=null;
+      renderList();
+      return;
+    }
+    if(state.uid===uid && state.unsubscribe)return;
+    if(state.unsubscribe){try{state.unsubscribe();}catch(e){}}
+    state.uid=uid;
+
+    if(typeof window.firebaseListenMyChatMessages!=="function"){
+      setTimeout(startListener,300);
+      return;
+    }
+
+    state.unsubscribe=window.firebaseListenMyChatMessages(uid,function(items,error){
+      state.messages=Array.isArray(items)?items:[];
+      if(error){
+        const box=document.getElementById("tytsChatContent");
+        if(box)box.innerHTML='<div class="empty">Не вдалося завантажити чат із Firebase.</div>';
+        return;
+      }
+      if(state.activeChatId)renderActiveChat();
+      else renderList();
+    });
+  }
+
+  window.tytsNavChat=function(){
+    showChatPage();
+    state.activeChatId="";
+    state.activeMeta=null;
+    startListener();
+    renderList();
+  };
+
+  window.tytsOpenChatWithWorker=function(worker){
+    showChatPage();
+    startListener();
+
+    const uid=getUid();
+    if(!uid){
+      renderList();
+      return;
+    }
+
+    const oUid=ownerUid(worker);
+    if(!oUid){
+      const box=document.getElementById("tytsChatContent");
+      if(box)box.innerHTML='<div class="empty">У цього оголошення не визначено власника. Чат недоступний.</div>';
+      return;
+    }
+
+    const profile=getCurrentProfile();
+    const customerUid=uid===oUid ? uid : uid;
+    const chatId=makeChatId(worker.id,oUid,customerUid);
+
+    state.activeChatId=chatId;
+    state.activeMeta={
+      chatId:chatId,
+      serviceId:String(worker.id||""),
+      serviceName:String(worker.service||worker.name||"Оголошення"),
+      ownerUid:oUid,
+      customerUid:customerUid,
+      ownerName:ownerName(worker),
+      customerName:displayName(profile),
+      messages:[]
+    };
+    renderActiveChat();
+  };
+
+  /* Сумісність зі старою кнопкою/Enter у коді. */
+  window.tytsSendMessage=function(){
+    return sendCurrent();
+  };
+
+  document.addEventListener("DOMContentLoaded",function(){
+    setTimeout(startListener,700);
+  });
+  if(document.readyState!=="loading")setTimeout(startListener,700);
+
+  /* Після логіну Firebase може з'явитися трохи пізніше. */
+  setInterval(function(){
+    const uid=getUid();
+    if(uid!==state.uid)startListener();
+  },2000);
 })();
 </script>
 
