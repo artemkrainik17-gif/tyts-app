@@ -1228,6 +1228,122 @@ html.tyts-dark .tyts-detail-favorite.active{
 .tyts-share-button{display:none !important;}
 </style>
 
+
+<style id="tyts-add-service-dark-form-fix">
+/* Точкова правка: тільки форма "Додати своє оголошення" у темній темі */
+html.tyts-dark #addServicePage .form,
+body.tyts-dark #addServicePage .form{
+  background:#1b2430 !important;
+  color:#f8fafc !important;
+  border:1px solid #303a47 !important;
+  box-shadow:0 6px 20px rgba(0,0,0,.28) !important;
+}
+
+/* Поля форми залишаємо трохи світлішими за сам контейнер */
+html.tyts-dark #addServicePage .input,
+html.tyts-dark #addServicePage .select,
+html.tyts-dark #addServicePage .textarea,
+body.tyts-dark #addServicePage .input,
+body.tyts-dark #addServicePage .select,
+body.tyts-dark #addServicePage .textarea{
+  background:#202833 !important;
+  color:#f3f4f6 !important;
+  border-color:#374151 !important;
+}
+
+/* Placeholder та службові підказки */
+html.tyts-dark #addServicePage input::placeholder,
+html.tyts-dark #addServicePage textarea::placeholder,
+body.tyts-dark #addServicePage input::placeholder,
+body.tyts-dark #addServicePage textarea::placeholder{
+  color:#9ca8b6 !important;
+  opacity:1 !important;
+}
+
+html.tyts-dark #addServicePage .tyts-location-search-note,
+body.tyts-dark #addServicePage .tyts-location-search-note{
+  color:#b8c2cf !important;
+}
+
+/* Блок завантаження фото теж не лишається світлим */
+html.tyts-dark #addServicePage .tyts-service-photo-field,
+body.tyts-dark #addServicePage .tyts-service-photo-field{
+  background:#202833 !important;
+  color:#f8fafc !important;
+  border-color:#3b4654 !important;
+}
+
+html.tyts-dark #addServicePage .tyts-service-photo-button,
+body.tyts-dark #addServicePage .tyts-service-photo-button{
+  background:#303846 !important;
+  color:#f8fafc !important;
+}
+
+html.tyts-dark #addServicePage .tyts-service-photo-label,
+html.tyts-dark #addServicePage .tyts-service-photo-help,
+body.tyts-dark #addServicePage .tyts-service-photo-label,
+body.tyts-dark #addServicePage .tyts-service-photo-help{
+  color:#cbd5e1 !important;
+}
+</style>
+
+
+<style id="tyts-chat-unread-badges-fix">
+/* Дзвіночок прибрано з інтерфейсу. Система чату не змінюється. */
+.tyts-notification-btn{
+  display:none !important;
+}
+
+/* Загальна кількість непрочитаних на нижній кнопці "Чат" */
+#tytsChatNavButton{
+  position:relative;
+}
+.tyts-chat-unread-badge{
+  position:absolute;
+  top:3px;
+  left:50%;
+  margin-left:8px;
+  min-width:18px;
+  height:18px;
+  padding:0 5px;
+  border-radius:999px;
+  background:#dc2626;
+  color:#fff;
+  font:800 10px/18px Arial,sans-serif;
+  text-align:center;
+  box-shadow:0 0 0 2px rgba(255,255,255,.95);
+  display:none;
+  z-index:5;
+  pointer-events:none;
+}
+html.tyts-dark .tyts-chat-unread-badge{
+  box-shadow:0 0 0 2px #161d26;
+}
+
+/* Кількість непрочитаних у конкретному чаті */
+.tyts-chat-name-row{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding-right:42px;
+}
+.tyts-chat-name-row .tyts-chat-name{
+  flex:1;
+  min-width:0;
+}
+.tyts-chat-item-unread{
+  min-width:22px;
+  height:22px;
+  padding:0 7px;
+  border-radius:999px;
+  background:#dc2626;
+  color:#fff;
+  font:800 11px/22px Arial,sans-serif;
+  text-align:center;
+  flex:0 0 auto;
+}
+</style>
+
 </head>
 
 <body>
@@ -10805,8 +10921,9 @@ onAuthStateChanged(auth, async function(firebaseUser){
   <button type="button" onclick="tytsNavAdd()">
     <span class="tyts-nav-icon">＋</span><span>Додати</span>
   </button>
-  <button type="button" onclick="tytsNavChat()">
+  <button id="tytsChatNavButton" type="button" onclick="tytsNavChat()">
     <span class="tyts-nav-icon">💬</span><span>Чат</span>
+    <span id="tytsChatUnreadBadge" class="tyts-chat-unread-badge" aria-label="Непрочитані повідомлення"></span>
   </button>
   <button type="button" onclick="tytsNavProfile()">
     <span class="tyts-nav-icon">👤</span><span>Профіль</span>
@@ -14832,6 +14949,72 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
   };
 
   const HIDDEN_CHATS_KEY="tyts_hidden_chats_v1";
+  const CHAT_READ_KEY_PREFIX="tyts_chat_read_v1_";
+
+  function chatReadKey(){
+    return CHAT_READ_KEY_PREFIX+String(state.uid||getUid()||"guest");
+  }
+
+  function getChatReadMap(){
+    try{
+      const value=JSON.parse(localStorage.getItem(chatReadKey())||"{}");
+      return value&&typeof value==="object"&&!Array.isArray(value)?value:{};
+    }catch(e){return {};}
+  }
+
+  function saveChatReadMap(map){
+    try{localStorage.setItem(chatReadKey(),JSON.stringify(map||{}));}catch(e){}
+  }
+
+  function chatUnreadCount(chat){
+    if(!chat || !state.uid)return 0;
+    const readMap=getChatReadMap();
+    const lastRead=Number(readMap[String(chat.chatId||"")]||0);
+    return (chat.messages||[]).filter(function(m){
+      return String(m.senderUid||"")!==String(state.uid) && messageTime(m)>lastRead;
+    }).length;
+  }
+
+  function totalUnreadCount(){
+    return groupChats().reduce(function(sum,chat){
+      return sum+chatUnreadCount(chat);
+    },0);
+  }
+
+  function updateChatUnreadBadge(){
+    const badge=document.getElementById("tytsChatUnreadBadge");
+    if(!badge)return;
+    const count=state.uid?totalUnreadCount():0;
+    badge.textContent=count>99?"99+":String(count);
+    badge.style.display=count>0?"block":"none";
+  }
+
+  function markChatRead(chatId){
+    if(!chatId || !state.uid)return;
+    const chat=groupChats().find(function(c){return String(c.chatId)===String(chatId);});
+    if(!chat)return;
+    const latest=(chat.messages||[]).reduce(function(max,m){
+      return Math.max(max,messageTime(m));
+    },0);
+    const readMap=getChatReadMap();
+    readMap[String(chatId)]=Math.max(Number(readMap[String(chatId)]||0),latest,Date.now());
+    saveChatReadMap(readMap);
+    updateChatUnreadBadge();
+  }
+
+  function initializeReadBaselineIfNeeded(){
+    if(!state.uid)return;
+    const key=chatReadKey();
+    if(localStorage.getItem(key)!==null)return;
+    const map={};
+    groupChats().forEach(function(chat){
+      const latest=(chat.messages||[]).reduce(function(max,m){
+        return Math.max(max,messageTime(m));
+      },0);
+      map[String(chat.chatId||"")]=latest||Date.now();
+    });
+    saveChatReadMap(map);
+  }
 
   function getHiddenChats(){
     try{
@@ -14988,13 +15171,18 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
       const item=document.createElement("div");
       item.className="tyts-chat-list-item";
       const last=chat.messages[chat.messages.length-1];
+      const unread=chatUnreadCount(chat);
       item.innerHTML=
-        '<div class="tyts-chat-name">💬 '+esc(otherName(chat))+'</div>'+
+        '<div class="tyts-chat-name-row">'+
+          '<div class="tyts-chat-name">💬 '+esc(otherName(chat))+'</div>'+
+          (unread?'<span class="tyts-chat-item-unread">'+(unread>99?"99+":String(unread))+'</span>':'')+
+        '</div>'+
         '<div class="tyts-chat-last"><b>'+esc(chat.serviceName)+'</b><br>'+esc(last?last.text:"Нова розмова")+'</div>'+
         '<button type="button" class="tyts-chat-delete-btn" title="Видалити чат" aria-label="Видалити чат">🗑</button>';
       item.onclick=function(){
         state.activeChatId=chat.chatId;
         state.activeMeta=chat;
+        markChatRead(chat.chatId);
         renderActiveChat();
       };
       const del=item.querySelector(".tyts-chat-delete-btn");
@@ -15023,6 +15211,8 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
     const messages=state.messages
       .filter(m=>String(m.chatId||"")===String(state.activeChatId))
       .sort((a,b)=>messageTime(a)-messageTime(b));
+
+    markChatRead(state.activeChatId);
 
     box.innerHTML=
       '<div class="tyts-chat-window">'+
@@ -15093,6 +15283,7 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
       if(state.unsubscribe){try{state.unsubscribe();}catch(e){}}
       state.unsubscribe=null;
       renderList();
+      updateChatUnreadBadge();
       return;
     }
     if(state.uid===uid && state.unsubscribe)return;
@@ -15109,10 +15300,13 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
       if(error){
         const box=document.getElementById("tytsChatContent");
         if(box)box.innerHTML='<div class="empty">Не вдалося завантажити чат із Firebase.</div>';
+        updateChatUnreadBadge();
         return;
       }
+      initializeReadBaselineIfNeeded();
       if(state.activeChatId)renderActiveChat();
       else renderList();
+      updateChatUnreadBadge();
     });
   }
 
@@ -15122,6 +15316,7 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
     state.activeMeta=null;
     startListener();
     renderList();
+    updateChatUnreadBadge();
   };
 
   window.tytsOpenChatWithWorker=function(worker){
@@ -15156,6 +15351,7 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
       customerName:displayName(profile),
       messages:[]
     };
+    markChatRead(chatId);
     renderActiveChat();
   };
 
