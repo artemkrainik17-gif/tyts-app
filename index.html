@@ -11557,6 +11557,135 @@ html.tyts-dark .tyts-bottom-nav button{
 })();
 </script>
 
+
+
+<!-- =========================================================
+     ТИЦЬ — ТОЧКОВИЙ FIX 07.10.2026
+     1) Кнопка "Додати своє оголошення" у всіх категоріях/підкатегоріях.
+     2) Надійне відкриття системного набору номера для всіх tel: посилань.
+     Інша логіка застосунку не змінюється.
+========================================================= -->
+<script id="tyts-final-add-button-call-fix">
+(function(){
+  /* ---------- 1. Єдина кнопка додавання у всіх категоріях ---------- */
+  const addButtonPages = {
+    auto: "auto",
+    homeServices: "home",
+    gardenServices: "garden",
+    repairServices: "repair",
+    foodServices: "food",
+    cleaningServices: "cleaning",
+    beautyServices: "beauty",
+    transportServices: "transport",
+    electricityServices: "electricity",
+    plumbingServices: "plumbing",
+    techServices: "tech",
+    otherServices: "other",
+
+    service: "autoCategory",
+    homeService: "homeCategory",
+    gardenService: "gardenCategory",
+    repairService: "repairCategory",
+    foodService: "foodCategory",
+    cleaningService: "cleaningCategory",
+    beautyService: "beautyCategory",
+    transportService: "transportCategory",
+    electricityService: "electricityCategory",
+    plumbingService: "plumbingCategory",
+    techService: "techCategory",
+    otherService: "otherCategory"
+  };
+
+  function ensureAddButton(pageId, addType){
+    const page=document.getElementById(pageId);
+    if(!page) return;
+
+    /* Не створюємо дубль, якщо кнопка вже є на цій сторінці. */
+    const existing=Array.from(page.querySelectorAll("button.add-button")).find(function(btn){
+      const code=String(btn.getAttribute("onclick")||"");
+      return code.indexOf("showAddService")!==-1;
+    });
+    if(existing) return;
+
+    let info=page.querySelector(":scope > .info");
+    if(!info){
+      info=document.createElement("div");
+      info.className="info";
+      page.appendChild(info);
+    }
+
+    if(info.innerHTML.trim()) info.insertAdjacentHTML("beforeend","<br><br>");
+
+    const button=document.createElement("button");
+    button.type="button";
+    button.className="add-button";
+    button.textContent="➕ Додати своє оголошення";
+    button.onclick=function(){
+      if(typeof window.showAddService==="function") window.showAddService(addType);
+    };
+    info.appendChild(button);
+  }
+
+  function ensureAllAddButtons(){
+    Object.keys(addButtonPages).forEach(function(pageId){
+      ensureAddButton(pageId,addButtonPages[pageId]);
+    });
+  }
+
+  /* ---------- 2. Телефон ---------- */
+  function normalizePhoneForCall(value){
+    let phone=String(value||"").trim();
+    phone=phone.replace(/^tel:/i,"");
+    try{ phone=decodeURIComponent(phone); }catch(e){}
+    phone=phone.replace(/[^0-9+]/g,"");
+    /* '+' допускається тільки на початку. */
+    if(phone.indexOf("+")>0) phone=phone.replace(/\+/g,"");
+    if(phone.startsWith("+")) phone="+"+phone.slice(1).replace(/\+/g,"");
+    return phone;
+  }
+
+  window.tytsOpenPhoneNumber=function(value){
+    const phone=normalizePhoneForCall(value);
+    if(!phone){
+      alert("Номер телефону не вказано.");
+      return false;
+    }
+
+    const telUrl="tel:"+phone;
+
+    /* Найнадійніший варіант для браузера/PWA/Android WebView,
+       якщо оболонка дозволяє зовнішні tel: схеми. */
+    try{
+      window.location.href=telUrl;
+      return true;
+    }catch(e){
+      try{
+        window.open(telUrl,"_self");
+        return true;
+      }catch(err){
+        console.warn("Не вдалося відкрити телефон:",err);
+        return false;
+      }
+    }
+  };
+
+  /* Один обробник працює і для вже наявних, і для динамічно створених кнопок. */
+  document.addEventListener("click",function(event){
+    const link=event.target && event.target.closest ? event.target.closest('a[href^="tel:"]') : null;
+    if(!link) return;
+
+    event.preventDefault();
+    event.stopPropagation();
+    if(typeof event.stopImmediatePropagation==="function") event.stopImmediatePropagation();
+
+    window.tytsOpenPhoneNumber(link.getAttribute("href")||"");
+  },true);
+
+  document.addEventListener("DOMContentLoaded",ensureAllAddButtons);
+  if(document.readyState!=="loading") ensureAllAddButtons();
+})();
+</script>
+
 </body>
 
 <style id="tyts-admin-panel-style">
