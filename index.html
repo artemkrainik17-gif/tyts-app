@@ -6749,7 +6749,8 @@ window.firebaseSaveUser = async function(data){
     authRole:data.authRole || "user", admin:data.admin === true, photo:data.photo || "",
     createdAt:data.createdAt || serverTimestamp(),
     lastActiveMs:Date.now(),
-    online:true
+    online:true,
+    schemaVersion:1
   },{merge:true});
   return uid;
 };
@@ -6828,6 +6829,7 @@ ownerEmail: data.ownerEmail || data.email || "",
 location: data.location || "Жмеринка",
 status: data.status || "active",
 hidden: data.hidden === true,
+schemaVersion: 1,
 
 createdAt:
 serverTimestamp()
@@ -6867,6 +6869,7 @@ window.firebaseUpdateMyService = async function(id, data){
     name:data.name||"", phone:data.phone||"", service:data.service||"",
     price:data.price||"", description:data.description||"",
     location:data.location||"Жмеринка", status:data.status||old.status||"active",
+    schemaVersion:Number(old.schemaVersion||1),
     updatedAt:serverTimestamp()
   });
   return true;
@@ -13863,6 +13866,218 @@ html.tyts-dark .tyts-share-option.copy{
 
   document.addEventListener("DOMContentLoaded",refreshFinalPopular);
   if(document.readyState!=="loading")refreshFinalPopular();
+})();
+</script>
+
+
+<!-- =========================================================
+     ТИЦЬ — DATA SAFETY CONTRACT v1
+     Не змінює існуючі ID/колекції. Додає лише:
+     - версію схеми;
+     - документований контракт даних;
+     - експорт резервної копії з адмінки.
+========================================================= -->
+<style id="tyts-data-safety-style">
+.tyts-data-safety-panel{
+  margin-top:14px;
+  padding:14px;
+  border-radius:16px;
+  background:#eef7ff;
+  border:1px solid #cfe8ff;
+}
+.tyts-data-safety-title{font-weight:900;margin-bottom:6px}
+.tyts-data-safety-text{font-size:12px;line-height:1.45;color:#475569;margin-bottom:10px}
+.tyts-data-safety-actions{display:flex;gap:8px;flex-wrap:wrap}
+.tyts-data-safety-actions button{
+  border:0;border-radius:11px;padding:10px 12px;font-weight:900;cursor:pointer;
+  background:#111827;color:#fff;
+}
+.tyts-data-safety-meta{font-size:10px;color:#64748b;margin-top:8px}
+html.tyts-dark .tyts-data-safety-panel{background:#172231;border-color:#334155}
+html.tyts-dark .tyts-data-safety-text,
+html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
+</style>
+
+<script id="tyts-data-safety-script">
+(function(){
+  "use strict";
+
+  /* =======================================================
+     КОНТРАКТ ДАНИХ ТИЦЬ v1
+     Ці значення не перейменовувати в майбутніх оновленнях.
+  ======================================================= */
+  window.TYTS_DATA_SCHEMA_VERSION = 1;
+
+  window.TYTS_DATA_CONTRACT = Object.freeze({
+    schemaVersion:1,
+    firebaseProjectId:"tyts-377ea",
+    collections:Object.freeze({
+      services:"services",
+      users:"users",
+      reviews:"reviews",
+      reports:"reports",
+      notifications:"notifications"
+    }),
+    immutableIdentityFields:Object.freeze({
+      service:"id",
+      user:"uid",
+      serviceOwner:"ownerUid"
+    })
+  });
+
+  /* Старі записи без schemaVersion вважаються версією 1.
+     Це забезпечує backward compatibility. */
+  window.tytsGetRecordSchemaVersion=function(record){
+    const n=Number(record&&record.schemaVersion);
+    return Number.isFinite(n)&&n>0?n:1;
+  };
+
+  window.tytsNormalizeLegacyService=function(record){
+    const x=record&&typeof record==="object"?record:{};
+    return {
+      ...x,
+      schemaVersion:window.tytsGetRecordSchemaVersion(x),
+      ownerUid:String(x.ownerUid||x.uid||""),
+      status:String(x.status||"active"),
+      hidden:x.hidden===true,
+      location:String(x.location||x.city||x.settlement||"Жмеринка"),
+      price:String(x.price||""),
+      service:String(x.service||x.name||"Послуга")
+    };
+  };
+
+  function downloadJson(filename,data){
+    const json=JSON.stringify(data,null,2);
+    const blob=new Blob([json],{type:"application/json;charset=utf-8"});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement("a");
+    a.href=url;
+    a.download=filename;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(function(){URL.revokeObjectURL(url);},1000);
+  }
+
+  function backupDate(){
+    const d=new Date();
+    const p=n=>String(n).padStart(2,"0");
+    return d.getFullYear()+"-"+p(d.getMonth()+1)+"-"+p(d.getDate())+"_"+p(d.getHours())+"-"+p(d.getMinutes());
+  }
+
+  window.tytsExportFirebaseBackup=async function(){
+    try{
+      if(typeof window.firebaseGetAdminStatus!=="function"){
+        throw new Error("Адмін-функції Firebase недоступні.");
+      }
+
+      const status=await window.firebaseGetAdminStatus();
+      if(!status||!status.allowed){
+        alert("⛔ Резервну копію може створити лише суперадмін.");
+        return;
+      }
+
+      const loaders=[
+        ["services",window.firebaseAdminListServices],
+        ["users",window.firebaseAdminListUsers],
+        ["reviews",window.firebaseAdminListReviews],
+        ["reports",window.firebaseAdminListReports]
+      ];
+
+      const backup={
+        format:"TYTS_FIREBASE_BACKUP",
+        backupVersion:1,
+        schemaVersion:window.TYTS_DATA_SCHEMA_VERSION,
+        firebaseProjectId:window.TYTS_DATA_CONTRACT.firebaseProjectId,
+        exportedAt:new Date().toISOString(),
+        exportedBy:String(status.uid||""),
+        collections:{}
+      };
+
+      for(const pair of loaders){
+        const name=pair[0], fn=pair[1];
+        if(typeof fn==="function"){
+          try{
+            const rows=await fn();
+            backup.collections[name]=Array.isArray(rows)?rows:[];
+          }catch(e){
+            backup.collections[name]=[];
+            backup.collections[name+"__error"]=String(e&&e.message||e);
+          }
+        }else{
+          backup.collections[name]=[];
+          backup.collections[name+"__error"]="Функція експорту недоступна";
+        }
+      }
+
+      downloadJson("TYTS_backup_"+backupDate()+".json",backup);
+
+      const counts=Object.entries(backup.collections)
+        .filter(([k,v])=>!k.endsWith("__error")&&Array.isArray(v))
+        .map(([k,v])=>k+": "+v.length)
+        .join("\n");
+
+      alert("✅ Резервну копію створено.\n\n"+counts+"\n\nЗбережи цей JSON-файл окремо перед великими оновленнями.");
+    }catch(e){
+      alert("❌ Не вдалося створити резервну копію.\n"+String(e&&e.message||e));
+    }
+  };
+
+  function ensureDataSafetyPanel(){
+    const admin=document.getElementById("tytsAdminContent");
+    if(!admin)return;
+    if(document.getElementById("tytsDataSafetyPanel"))return;
+
+    const wrap=admin.querySelector(".tyts-admin-wrap");
+    if(!wrap)return;
+
+    const panel=document.createElement("div");
+    panel.id="tytsDataSafetyPanel";
+    panel.className="tyts-data-safety-panel";
+    panel.innerHTML=
+      '<div class="tyts-data-safety-title">🛡️ Безпека даних</div>'+
+      '<div class="tyts-data-safety-text">'+
+        'Оновлення index.html не видаляє користувачів або оголошення. Дані зберігаються у Firebase-проєкті <b>tyts-377ea</b>. '+
+        'Перед великими оновленнями створи резервну JSON-копію основних колекцій.'+
+      '</div>'+
+      '<div class="tyts-data-safety-actions">'+
+        '<button type="button" id="tytsExportBackupBtn">⬇️ Резервна копія даних</button>'+
+      '</div>'+
+      '<div class="tyts-data-safety-meta">Схема даних: v1 · services / users / reviews / reports · ID та ownerUid не змінювати</div>';
+
+    wrap.appendChild(panel);
+
+    const btn=document.getElementById("tytsExportBackupBtn");
+    if(btn)btn.onclick=window.tytsExportFirebaseBackup;
+  }
+
+  const observer=new MutationObserver(function(){
+    ensureDataSafetyPanel();
+  });
+
+  document.addEventListener("DOMContentLoaded",function(){
+    const admin=document.getElementById("tytsAdminContent");
+    if(admin){
+      observer.observe(admin,{childList:true,subtree:true});
+      ensureDataSafetyPanel();
+    }
+  });
+
+  if(document.readyState!=="loading"){
+    const admin=document.getElementById("tytsAdminContent");
+    if(admin){
+      observer.observe(admin,{childList:true,subtree:true});
+      ensureDataSafetyPanel();
+    }
+  }
+
+  /* Додатковий контроль при відкритті адмінки. */
+  setInterval(function(){
+    if(document.getElementById("tytsAdminPage") &&
+       getComputedStyle(document.getElementById("tytsAdminPage")).display!=="none"){
+      ensureDataSafetyPanel();
+    }
+  },1500);
 })();
 </script>
 
