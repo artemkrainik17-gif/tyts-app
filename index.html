@@ -6706,6 +6706,9 @@ servicePhoto: data.servicePhoto || "",
 ownerAvatar: data.ownerAvatar || "",
 ownerUid: data.ownerUid || data.uid || "",
 ownerEmail: data.ownerEmail || data.email || "",
+location: data.location || "Жмеринка",
+status: data.status || "active",
+hidden: data.hidden === true,
 
 createdAt:
 serverTimestamp()
@@ -6743,7 +6746,9 @@ window.firebaseUpdateMyService = async function(id, data){
   if(String(old.ownerUid||old.uid||"")!==uid) throw new Error("Це оголошення належить іншому користувачу.");
   await updateDoc(ref,{
     name:data.name||"", phone:data.phone||"", service:data.service||"",
-    price:data.price||"", description:data.description||"", updatedAt:serverTimestamp()
+    price:data.price||"", description:data.description||"",
+    location:data.location||"Жмеринка", status:data.status||old.status||"active",
+    updatedAt:serverTimestamp()
   });
   return true;
 };
@@ -8715,6 +8720,225 @@ window.submitService=async function(){
       <option value="Інше">Інше</option>
       <option value="Не вказувати">Не вказувати</option>
     </select>
+    <select id="tytsRegLocation" class="select" required>
+      <option value="">Оберіть населений пункт Жмеринського району *</option>
+<option value="с. Івановецьке">с. Івановецьке</option>
+<option value="с. Іванівці">с. Іванівці</option>
+<option value="с. Івашківці">с. Івашківці</option>
+<option value="с. Адамівка">с. Адамівка</option>
+<option value="с. Андріївка">с. Андріївка</option>
+<option value="с. Антонівка">с. Антонівка</option>
+<option value="с. Аристівка">с. Аристівка</option>
+<option value="с. Бабина Долина">с. Бабина Долина</option>
+<option value="с. Балки">с. Балки</option>
+<option value="с. Бар">с. Бар</option>
+<option value="м. Бар">м. Бар</option>
+<option value="с. Барок">с. Барок</option>
+<option value="с. Борщі">с. Борщі</option>
+<option value="с. Борівське">с. Борівське</option>
+<option value="с. Браїлів">с. Браїлів</option>
+<option value="с-ще Браїлів">с-ще Браїлів</option>
+<option value="с. Бригидівка">с. Бригидівка</option>
+<option value="с. Будне">с. Будне</option>
+<option value="с. Будьки">с. Будьки</option>
+<option value="с. Буцні">с. Буцні</option>
+<option value="с. Біликівці">с. Біликівці</option>
+<option value="с. Біличин">с. Біличин</option>
+<option value="с. Василівка">с. Василівка</option>
+<option value="с. Васютинці">с. Васютинці</option>
+<option value="с. Вербівка">с. Вербівка</option>
+<option value="с. Верешки">с. Верешки</option>
+<option value="с. Верхівка">с. Верхівка</option>
+<option value="с. Вознівці">с. Вознівці</option>
+<option value="с. Войнашівка">с. Войнашівка</option>
+<option value="с. Володимирка">с. Володимирка</option>
+<option value="с. Володимирівка">с. Володимирівка</option>
+<option value="с. Володіївці">с. Володіївці</option>
+<option value="с. Гавришівка">с. Гавришівка</option>
+<option value="с. Гайове">с. Гайове</option>
+<option value="с. Гармаки">с. Гармаки</option>
+<option value="с. Гибалівка">с. Гибалівка</option>
+<option value="с. Глинянка">с. Глинянка</option>
+<option value="с. Голинчинці">с. Голинчинці</option>
+<option value="с. Голубівка">с. Голубівка</option>
+<option value="с. Голубівка">с. Голубівка</option>
+<option value="с. Горяни">с. Горяни</option>
+<option value="с. Грелівка">с. Грелівка</option>
+<option value="с. Губачівка">с. Губачівка</option>
+<option value="с. Гулі">с. Гулі</option>
+<option value="с. Гута-Мовчанська">с. Гута-Мовчанська</option>
+<option value="с. Демків">с. Демків</option>
+<option value="с. Деребчин">с. Деребчин</option>
+<option value="с. Дерев'янки">с. Дерев'янки</option>
+<option value="с. Джурин">с. Джурин</option>
+<option value="с. Довжок">с. Довжок</option>
+<option value="с. Дубинки">с. Дубинки</option>
+<option value="с. Дубова">с. Дубова</option>
+<option value="с. Діброва">с. Діброва</option>
+<option value="м. Жмеринка">м. Жмеринка</option>
+<option value="с. Жуківці">с. Жуківці</option>
+<option value="с. Журавлівка">с. Журавлівка</option>
+<option value="с. Заможне">с. Заможне</option>
+<option value="с. Затоки">с. Затоки</option>
+<option value="с. Зведенівка">с. Зведенівка</option>
+<option value="с. Зелене">с. Зелене</option>
+<option value="с. Зоринці">с. Зоринці</option>
+<option value="с. Зоряне">с. Зоряне</option>
+<option value="с. Йосипівці">с. Йосипівці</option>
+<option value="с. Калинівка">с. Калинівка</option>
+<option value="с. Калитинка">с. Калитинка</option>
+<option value="с. Кам'яногірка">с. Кам'яногірка</option>
+<option value="с. Каноницьке">с. Каноницьке</option>
+<option value="с. Каришків">с. Каришків</option>
+<option value="с. Кармалюкове">с. Кармалюкове</option>
+<option value="с. Кацмазів">с. Кацмазів</option>
+<option value="с. Квітка">с. Квітка</option>
+<option value="с. Киянівка">с. Киянівка</option>
+<option value="с. Клекотина">с. Клекотина</option>
+<option value="с. Козарівка">с. Козарівка</option>
+<option value="с. Козлівка">с. Козлівка</option>
+<option value="с. Колосівка">с. Колосівка</option>
+<option value="с. Комарівці">с. Комарівці</option>
+<option value="с. Конатківці">с. Конатківці</option>
+<option value="с. Копай">с. Копай</option>
+<option value="с-ще Копайгород">с-ще Копайгород</option>
+<option value="с. Копистирин">с. Копистирин</option>
+<option value="с. Коростівці">с. Коростівці</option>
+<option value="с. Котова">с. Котова</option>
+<option value="с. Кошаринці">с. Кошаринці</option>
+<option value="с. Кропивня">с. Кропивня</option>
+<option value="с. Кудіївці">с. Кудіївці</option>
+<option value="с. Кузьминці">с. Кузьминці</option>
+<option value="с. Курилівці">с. Курилівці</option>
+<option value="с. Леляки">с. Леляки</option>
+<option value="с. Ленінка">с. Ленінка</option>
+<option value="с. Лисогірка">с. Лисогірка</option>
+<option value="с. Лозова">с. Лозова</option>
+<option value="с. Лопатинці">с. Лопатинці</option>
+<option value="с. Лугове">с. Лугове</option>
+<option value="с. Лука-Барська">с. Лука-Барська</option>
+<option value="с. Лука-Мовчанська">с. Лука-Мовчанська</option>
+<option value="с. Лукашівка">с. Лукашівка</option>
+<option value="с. Людавка">с. Людавка</option>
+<option value="с. Лядова">с. Лядова</option>
+<option value="с. Лісничівка">с. Лісничівка</option>
+<option value="с. Лісове">с. Лісове</option>
+<option value="с. Майдан-Головчинський">с. Майдан-Головчинський</option>
+<option value="с. Мала Деребчинка">с. Мала Деребчинка</option>
+<option value="с. Мала Жмеринка">с. Мала Жмеринка</option>
+<option value="с. Мальовниче">с. Мальовниче</option>
+<option value="с. Мальчівці">с. Мальчівці</option>
+<option value="с. Малі Коростівці">с. Малі Коростівці</option>
+<option value="с. Маньківці">с. Маньківці</option>
+<option value="с. Мар'янівка">с. Мар'янівка</option>
+<option value="с. Мартинівка">с. Мартинівка</option>
+<option value="с. Мартинівка">с. Мартинівка</option>
+<option value="с. Матейкове">с. Матейкове</option>
+<option value="с. Матейків">с. Матейків</option>
+<option value="с. Межирів">с. Межирів</option>
+<option value="с. Мельники">с. Мельники</option>
+<option value="с. Мельники">с. Мельники</option>
+<option value="с. Мигалівці">с. Мигалівці</option>
+<option value="с. Мирне">с. Мирне</option>
+<option value="с. Митки">с. Митки</option>
+<option value="с. Михайлівка">с. Михайлівка</option>
+<option value="с. Мишівське">с. Мишівське</option>
+<option value="с. Мовчани">с. Мовчани</option>
+<option value="с. Мурафа">с. Мурафа</option>
+<option value="с. Мурашка">с. Мурашка</option>
+<option value="с. Міжлісся">с. Міжлісся</option>
+<option value="с. Настасіївка">с. Настасіївка</option>
+<option value="с. Новоселиця">с. Новоселиця</option>
+<option value="с. Носиківка">с. Носиківка</option>
+<option value="с. Носківці">с. Носківці</option>
+<option value="с. Окладне">с. Окладне</option>
+<option value="с. Олександрівка">с. Олександрівка</option>
+<option value="с. Олексіївка">с. Олексіївка</option>
+<option value="с. Оліхи">с. Оліхи</option>
+<option value="с. Павлівка">с. Павлівка</option>
+<option value="с. Пасинки">с. Пасинки</option>
+<option value="с. Пеньківка">с. Пеньківка</option>
+<option value="с. Переліски">с. Переліски</option>
+<option value="с. Перепільчинці">с. Перепільчинці</option>
+<option value="с. Петрані">с. Петрані</option>
+<option value="с. Петрівка">с. Петрівка</option>
+<option value="с. Пилипи">с. Пилипи</option>
+<option value="с. Писарівка">с. Писарівка</option>
+<option value="с. Плебанівка">с. Плебанівка</option>
+<option value="с. Пляцина">с. Пляцина</option>
+<option value="с. Повал">с. Повал</option>
+<option value="с. Подільське">с. Подільське</option>
+<option value="с. Покутине">с. Покутине</option>
+<option value="с. Польове">с. Польове</option>
+<option value="с. Поляна">с. Поляна</option>
+<option value="с. Політанки">с. Політанки</option>
+<option value="с. Попівці">с. Попівці</option>
+<option value="с. Почапинці">с. Почапинці</option>
+<option value="с. Примощаниця">с. Примощаниця</option>
+<option value="с. Підлісний Ялтушків">с. Підлісний Ялтушків</option>
+<option value="с. Регентівка">с. Регентівка</option>
+<option value="с. Рожепи">с. Рожепи</option>
+<option value="с. Роля">с. Роля</option>
+<option value="с. Руданське">с. Руданське</option>
+<option value="с. Рів">с. Рів</option>
+<option value="с. Садківці">с. Садківці</option>
+<option value="с. Сапіжанка">с. Сапіжанка</option>
+<option value="с. Северинівка">с. Северинівка</option>
+<option value="с. Семенки">с. Семенки</option>
+<option value="с. Семенівка">с. Семенівка</option>
+<option value="с. Сербинівці">с. Сербинівці</option>
+<option value="с. Сеферівка">с. Сеферівка</option>
+<option value="с. Синьожупанники">с. Синьожупанники</option>
+<option value="с. Слобода">с. Слобода</option>
+<option value="с. Слобода">с. Слобода</option>
+<option value="с. Слобода-Гулівська">с. Слобода-Гулівська</option>
+<option value="с. Слобода-Межирівська">с. Слобода-Межирівська</option>
+<option value="с. Слобода-Носковецька">с. Слобода-Носковецька</option>
+<option value="с. Слобода-Ходацька">с. Слобода-Ходацька</option>
+<option value="с. Слобода-Чернятинська">с. Слобода-Чернятинська</option>
+<option value="с. Слобода-Шаргородська">с. Слобода-Шаргородська</option>
+<option value="с. Слобода-Ялтушківська">с. Слобода-Ялтушківська</option>
+<option value="с. Станіславчик">с. Станіславчик</option>
+<option value="с. Стасюки">с. Стасюки</option>
+<option value="с. Степанки">с. Степанки</option>
+<option value="с. Стодульці">с. Стодульці</option>
+<option value="с. Супівка">с. Супівка</option>
+<option value="с. Сурогатка">с. Сурогатка</option>
+<option value="с. Сьомаки">с. Сьомаки</option>
+<option value="с. Сідава">с. Сідава</option>
+<option value="с. Тарасівка">с. Тарасівка</option>
+<option value="с. Тартак">с. Тартак</option>
+<option value="с. Теклівка">с. Теклівка</option>
+<option value="с. Телелинці">с. Телелинці</option>
+<option value="с. Терешки">с. Терешки</option>
+<option value="с. Токарівка">с. Токарівка</option>
+<option value="с. Травневе">с. Травневе</option>
+<option value="с. Трудолюбівка">с. Трудолюбівка</option>
+<option value="с. Українське">с. Українське</option>
+<option value="с. Улянівка">с. Улянівка</option>
+<option value="с. Федорівка">с. Федорівка</option>
+<option value="с. Хатки">с. Хатки</option>
+<option value="с. Ходаки">с. Ходаки</option>
+<option value="с. Хоменки">с. Хоменки</option>
+<option value="с. Чапаєве">с. Чапаєве</option>
+<option value="с. Чемериси-Барські">с. Чемериси-Барські</option>
+<option value="с. Чемериське">с. Чемериське</option>
+<option value="с. Червоне">с. Червоне</option>
+<option value="с. Черешневе">с. Черешневе</option>
+<option value="с. Чернятин">с. Чернятин</option>
+<option value="м. Шаргород">м. Шаргород</option>
+<option value="с. Шевченка">с. Шевченка</option>
+<option value="с. Шевченкове">с. Шевченкове</option>
+<option value="с. Шевченкове">с. Шевченкове</option>
+<option value="с. Шершні">с. Шершні</option>
+<option value="с. Шипинки">с. Шипинки</option>
+<option value="с. Широке">с. Широке</option>
+<option value="с. Шпирки">с. Шпирки</option>
+<option value="с. Щучинці">с. Щучинці</option>
+<option value="с. Юхимівка">с. Юхимівка</option>
+<option value="с. Ялтушків">с. Ялтушків</option>
+<option value="с. Ярошенка">с. Ярошенка</option>
+    </select>
 
     <div class="tyts-photo-wrap">
       <label class="tyts-photo-picker" for="tytsRegPhoto" title="Додати фото профілю">
@@ -9046,14 +9270,15 @@ window.submitService=async function(){
     const password2=(document.getElementById("tytsRegPassword2")?.value||"");
     const age=Number(document.getElementById("tytsRegAge")?.value||0);
     const gender=(document.getElementById("tytsRegGender")?.value||"").trim();
+    const location=(document.getElementById("tytsRegLocation")?.value||"").trim();
     const button=document.getElementById("tytsRegisterButton");
     const msg=document.getElementById("tytsRegisterMessage");
     const roleError=document.getElementById("tytsRoleError");
     const photoError=document.getElementById("tytsPhotoError");
 
     if(!tytsSelectedRole){ if(roleError) roleError.style.display="block"; return; }
-    if(!name || !surname || !phone || !email || !password || !password2 || !gender || !Number.isInteger(age) || age<14 || age>100){
-      if(msg) msg.innerHTML='<div class="error">❌ Заповніть обов’язкові поля: ім’я, прізвище, телефон, email, пароль, вік та стать. Вік: від 14 до 100 років.</div>';
+    if(!name || !surname || !phone || !email || !password || !password2 || !gender || !location || !Number.isInteger(age) || age<14 || age>100){
+      if(msg) msg.innerHTML='<div class="error">❌ Заповніть обов’язкові поля: ім’я, прізвище, телефон, email, пароль, вік, стать та населений пункт. Вік: від 14 до 100 років.</div>';
       return;
     }
     if(!isValidTytsMobilePhone(phone)){
@@ -9104,7 +9329,7 @@ window.submitService=async function(){
 
       const user={
         id:authUser.uid, uid:authUser.uid,
-        name,surname,patronymic,phone,email:authUser.email || email,age,gender,role:tytsSelectedRole,roleLabel,photo:tytsPhotoData,createdAt:Date.now(),
+        name,surname,patronymic,phone,email:authUser.email || email,age,gender,location,role:tytsSelectedRole,roleLabel,photo:tytsPhotoData,createdAt:Date.now(),
         recoveryEmail:authUser.email || email,
         phoneVerified:false,
         authRole:authUser.role || "user", admin:authUser.admin === true
@@ -9796,6 +10021,7 @@ window.tytsAdminRemoveService=async function(id){
           <div class="tyts-profile-item"><span>Email</span><b>${esc(user.email)}</b></div>
           <div class="tyts-profile-item"><span>Вік</span><b>${esc(user.age)}</b></div>
           <div class="tyts-profile-item"><span>Стать</span><b>${esc(user.gender)}</b></div>
+          <div class="tyts-profile-item"><span>Населений пункт</span><b>${esc(user.location || "Не вказано")}</b></div>
           <div class="tyts-profile-item"><span>ID користувача</span><b>${esc(user.firebaseId || user.id)}</b></div>
           <div class="tyts-profile-item"><span>Статус</span><b>${user.authRole==="superadmin" ? "👑 Суперадмін" : (user.admin ? "🛡️ Адміністратор" : "Профіль створено")}</b></div>
         </div>
@@ -11410,4 +11636,210 @@ html.tyts-dark .tyts-detail-report{
 })();
 </script>
 
+
+
+<!-- =========================================================
+     ТИЦЬ — 7 ФУНКЦІЙ ОГОЛОШЕНЬ 07.10.2026
+     Додається поверх чинної логіки, без перебудови застосунку.
+========================================================= -->
+<style id="tyts-seven-features-style">
+.tyts-browse-tools{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 12px;padding:10px;background:#fff;border-radius:14px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.tyts-browse-tools select,.tyts-browse-tools input{width:100%;margin:0;padding:10px 11px;border:1px solid #d7dce2;border-radius:10px;background:#fff;color:#111827;font-size:13px;box-sizing:border-box}
+.tyts-card-badges{position:absolute;left:8px;top:8px;z-index:4;display:flex;flex-direction:column;align-items:flex-start;gap:5px;pointer-events:none}
+.tyts-card-badge{display:inline-flex;align-items:center;min-height:25px;padding:4px 8px;border-radius:999px;background:rgba(17,24,39,.90);color:#fff;font-size:10px;font-weight:900;box-shadow:0 2px 8px rgba(0,0,0,.17)}
+.tyts-card-badge.mine{background:#0f766e}.tyts-card-badge.status{background:#334155}
+.tyts-service-card-date{font-size:11px;color:#7b8491;line-height:1.25}
+.tyts-card-actions{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:3px}
+.tyts-card-actions a,.tyts-card-actions button{border:0;border-radius:9px;padding:8px 5px;font-size:11px;font-weight:800;text-decoration:none;text-align:center;cursor:pointer;background:#111827;color:#fff;min-width:0}
+.tyts-card-actions button{background:#e8edf2;color:#111827}
+.tyts-my-status{display:inline-flex;padding:5px 9px;border-radius:999px;font-size:11px;font-weight:900;margin-top:7px;background:#e5e7eb;color:#374151}
+.tyts-my-status.active{background:#dcfce7;color:#166534}.tyts-my-status.moderation{background:#fef3c7;color:#92400e}.tyts-my-status.hidden{background:#fee2e2;color:#991b1b}.tyts-my-status.completed{background:#e5e7eb;color:#475569}
+.tyts-edit-overlay{position:fixed;inset:0;background:rgba(0,0,0,.62);z-index:2147483647;display:flex;align-items:center;justify-content:center;padding:14px;box-sizing:border-box}
+.tyts-edit-modal{width:min(560px,100%);max-height:92vh;overflow:auto;background:#fff;color:#111827;border-radius:22px;padding:18px;box-shadow:0 20px 60px rgba(0,0,0,.4)}
+.tyts-edit-modal h3{margin:0 0 14px;font-size:21px}.tyts-edit-modal .tyts-edit-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}.tyts-edit-modal label{display:block;font-size:12px;font-weight:800;color:#667085;margin-bottom:5px}.tyts-edit-modal input,.tyts-edit-modal textarea,.tyts-edit-modal select{width:100%;box-sizing:border-box;padding:11px 12px;border:1px solid #d4d8df;border-radius:11px;background:#fff;color:#111827;font-size:14px;margin:0}.tyts-edit-modal textarea{min-height:110px;resize:vertical}.tyts-edit-full{grid-column:1/-1}.tyts-edit-actions{display:flex;gap:8px;margin-top:14px}.tyts-edit-actions button{flex:1;border:0;border-radius:11px;padding:12px;font-weight:900;cursor:pointer}.tyts-edit-save{background:#111827;color:#fff}.tyts-edit-cancel{background:#e8edf2;color:#111827}
+html.tyts-dark .tyts-browse-tools,html.tyts-dark .tyts-edit-modal{background:#1b2430;color:#f8fafc}html.tyts-dark .tyts-browse-tools select,html.tyts-dark .tyts-browse-tools input,html.tyts-dark .tyts-edit-modal input,html.tyts-dark .tyts-edit-modal textarea,html.tyts-dark .tyts-edit-modal select{background:#202833;color:#f8fafc;border-color:#3b4654}html.tyts-dark .tyts-edit-modal label{color:#aeb8c5}html.tyts-dark .tyts-card-actions button{background:#303846;color:#fff}html.tyts-dark .tyts-service-card-date{color:#aeb8c5}
+@media(max-width:620px){.tyts-browse-tools{grid-template-columns:1fr}.tyts-edit-modal .tyts-edit-grid{grid-template-columns:1fr}.tyts-edit-full{grid-column:auto}.tyts-card-actions{grid-template-columns:1fr}.tyts-edit-actions{flex-direction:column}}
+</style>
+
+<script id="tyts-seven-features-script">
+(function(){
+  const STATUS_LABELS={active:"Активне",moderation:"На модерації",hidden:"Приховане",completed:"Завершене"};
+  const browseState=window.tytsBrowseState || (window.tytsBrowseState={});
+  const renderConfigs=window.tytsRenderConfigs || (window.tytsRenderConfigs={});
+
+  function esc7(v){return typeof escapeHtml==="function"?escapeHtml(String(v??"")):String(v??"").replace(/[&<>\"']/g,function(c){return({"&":"&amp;","<":"&lt;",">":"&gt;",'\"':"&quot;","'":"&#39;"})[c];});}
+  function norm7(v){if(typeof normalizeServiceLabel==="function") return normalizeServiceLabel(v);return String(v||"").replace(/^[^\p{L}\p{N}]+/u,"").replace(/\s+/g," ").trim().toLowerCase();}
+  function user7(){try{return JSON.parse(localStorage.getItem("tyts_current_user")||"null");}catch(e){return null;}}
+  function uid7(){const u=user7();return u?String(u.uid||u.firebaseId||u.id||""):"";}
+  function isMine7(w){const uid=uid7();return !!uid && String(w&& (w.ownerUid||w.uid)||"")===uid;}
+  function status7(w){if(w&&w.hidden===true)return "hidden";const s=String(w&&w.status||"active").toLowerCase();return STATUS_LABELS[s]?s:"active";}
+  function public7(w){return !!w && w.hidden!==true && status7(w)==="active";}
+  function location7(w){return String(w&& (w.location||w.city||w.settlement)||"Жмеринка").trim()||"Жмеринка";}
+  function createdMs7(v){if(typeof tytsCreatedAtMs==="function")return tytsCreatedAtMs(v);if(typeof v==="number")return v;if(v&&typeof v.seconds==="number")return v.seconds*1000;const n=Date.parse(v);return Number.isFinite(n)?n:0;}
+  function date7(v){if(typeof tytsFormatDate==="function")return tytsFormatDate(v);const ms=createdMs7(v);return ms?new Date(ms).toLocaleDateString("uk-UA"):"📅 Дата: —";}
+  function ratingData7(id){const s=(window.tytsRatingStats||{})[String(id)]||{sum:0,count:0};return {avg:s.count?s.sum/s.count:0,count:s.count||0};}
+  function ratingText7(id){const r=ratingData7(id);return r.count?"★ "+r.avg.toFixed(1)+" ("+r.count+")":"☆ Немає оцінок";}
+  function priceNumber7(v){const txt=String(v||"").replace(/\s/g,"").replace(",",".");const m=txt.match(/\d+(?:\.\d+)?/);return m?Number(m[0]):Number.POSITIVE_INFINITY;}
+  function ownerAvatar7(w){let avatar=w.ownerAvatar||w.ownerPhoto||"";const u=user7();if(!avatar&&isMine7(w)&&u)avatar=u.photo||"";return avatar;}
+  function categoryIcon7(category){if(typeof categoryIcon==="function")return categoryIcon(category);return "🛠";}
+  function categoryName7(category){if(typeof categoryName==="function")return categoryName(category);return String(category||"Послуга").replace(/^[^\p{L}\p{N}]+/u,"").trim();}
+
+  function ensureTools(containerId){
+    const container=document.getElementById(containerId);if(!container)return;
+    let tools=document.getElementById("tytsTools_"+containerId);
+    if(!tools){
+      tools=document.createElement("div");tools.id="tytsTools_"+containerId;tools.className="tyts-browse-tools";
+      tools.innerHTML='<select aria-label="Сортування"><option value="new">Нові спочатку</option><option value="rating">За рейтингом</option><option value="cheap">Спочатку дешевші</option></select><input type="search" placeholder="Населений пункт / район" aria-label="Фільтр за населеним пунктом або районом">';
+      container.parentNode.insertBefore(tools,container);
+      const st=browseState[containerId]||(browseState[containerId]={sort:"new",location:""});
+      tools.querySelector("select").value=st.sort;
+      tools.querySelector("input").value=st.location;
+      tools.querySelector("select").onchange=function(){st.sort=this.value;window.tytsApplyBrowseControls(containerId);};
+      tools.querySelector("input").oninput=function(){st.location=this.value;window.tytsApplyBrowseControls(containerId);};
+    }
+  }
+
+  function renderUnified7(containerId,title,categoryNeedle,subField,addType,emptyWord){
+    const container=document.getElementById(containerId);if(!container)return;
+    renderConfigs[containerId]={containerId,title,categoryNeedle,subField,addType,emptyWord};
+    ensureTools(containerId);
+    const state=browseState[containerId]||(browseState[containerId]={sort:"new",location:""});
+    const wanted=norm7(title);const q=norm7(state.location);
+    const source=(typeof allServices!=="undefined"&&Array.isArray(allServices))?allServices:[];
+    let found=source.filter(function(w){return public7(w)&&String(w.category||"").includes(categoryNeedle)&&norm7(w[subField])===wanted&&(!q||norm7(location7(w)).includes(q));});
+    if(state.sort==="rating") found.sort(function(a,b){return ratingData7(b.id).avg-ratingData7(a.id).avg||createdMs7(b.createdAt)-createdMs7(a.createdAt);});
+    else if(state.sort==="cheap") found.sort(function(a,b){return priceNumber7(a.price)-priceNumber7(b.price)||createdMs7(b.createdAt)-createdMs7(a.createdAt);});
+    else found.sort(function(a,b){return createdMs7(b.createdAt)-createdMs7(a.createdAt);});
+    container.innerHTML="";
+    if(!found.length){container.innerHTML='<div class="empty">'+(q?'За цим населеним пунктом оголошень не знайдено.':'Поки що тут немає оголошень.<br><br>'+(emptyWord||'Будьте першим виконавцем!'))+'<br><br><button class="add-button" onclick="showAddService(\''+addType+'\')">➕ Додати своє оголошення</button></div>';return;}
+    found.forEach(function(w){container.appendChild(window.createWorkerCard?window.createWorkerCard(w):createWorkerCard(w));});
+  }
+  window.tytsApplyBrowseControls=function(containerId){const c=renderConfigs[containerId];if(c)renderUnified7(c.containerId,c.title,c.categoryNeedle,c.subField,c.addType,c.emptyWord);};
+
+  window.renderWorkersForHomeService=function(t){renderUnified7("homeServiceWorkers",t,"Дім","homeSubcategory","homeCategory");};
+  window.renderWorkersForGardenService=function(t){renderUnified7("gardenServiceWorkers",t,"Сад та двір","gardenSubcategory","gardenCategory");};
+  window.renderWorkersForAutoService=function(t){renderUnified7("serviceWorkers",t,"Автомобілі","autoSubcategory","autoCategory");};
+  window.renderWorkersForRepairService=function(t){renderUnified7("repairServiceWorkers",t,"Ремонт","repairSubcategory","repairCategory");};
+  window.renderWorkersForFoodService=function(t){renderUnified7("foodServiceWorkers",t,"Їжа та випічка","foodSubcategory","foodCategory");};
+  window.renderWorkersForBeautyService=function(t){renderUnified7("beautyServiceWorkers",t,"Краса","beautySubcategory","beautyCategory","Будьте першим майстром!");};
+  window.renderWorkersForCleaningService=function(t){renderUnified7("cleaningServiceWorkers",t,"Прибирання","cleaningSubcategory","cleaningCategory");};
+  window.renderWorkersForTransportService=function(t){renderUnified7("transportServiceWorkers",t,"Перевезення","transportSubcategory","transportCategory");};
+  window.renderWorkersForElectricityService=function(t){renderUnified7("electricityServiceWorkers",t,"Електрика","electricitySubcategory","electricityCategory");};
+  window.renderWorkersForPlumbingService=function(t){renderUnified7("plumbingServiceWorkers",t,"Сантехніка","plumbingSubcategory","plumbingCategory");};
+  window.renderWorkersForTechService=function(t){renderUnified7("techServiceWorkers",t,"Техніка","techSubcategory","techCategory","Будьте першим майстром!");};
+  window.renderWorkersForOtherService=function(t){renderUnified7("otherServiceWorkers",t,"Інші послуги","otherSubcategory","otherCategory");};
+  try{renderWorkersForHomeService=window.renderWorkersForHomeService;renderWorkersForGardenService=window.renderWorkersForGardenService;renderWorkersForAutoService=window.renderWorkersForAutoService;renderWorkersForRepairService=window.renderWorkersForRepairService;renderWorkersForFoodService=window.renderWorkersForFoodService;renderWorkersForBeautyService=window.renderWorkersForBeautyService;renderWorkersForCleaningService=window.renderWorkersForCleaningService;renderWorkersForTransportService=window.renderWorkersForTransportService;renderWorkersForElectricityService=window.renderWorkersForElectricityService;renderWorkersForPlumbingService=window.renderWorkersForPlumbingService;renderWorkersForTechService=window.renderWorkersForTechService;renderWorkersForOtherService=window.renderWorkersForOtherService;}catch(e){}
+
+  /* Додаємо населений пункт до форми без зміни вихідної розмітки. */
+  function installLocationField(){
+    const service=document.getElementById("workerService");if(!service||document.getElementById("workerLocation"))return;
+    const input=document.createElement("input");input.id="workerLocation";input.className="input";input.type="text";input.placeholder="Населений пункт / район";input.value="Жмеринка";input.autocomplete="address-level2";
+    service.parentNode.insertBefore(input,service);
+  }
+  const oldShowAdd=window.showAddService;
+  if(typeof oldShowAdd==="function")window.showAddService=function(){const r=oldShowAdd.apply(this,arguments);installLocationField();return r;};
+  document.addEventListener("DOMContentLoaded",installLocationField);if(document.readyState!=="loading")installLocationField();
+
+  /* Підмішуємо location/status у вже чинне збереження Firebase та локальної копії. */
+  function installFirebaseAddWrapper7(){
+    if(typeof window.firebaseAddService!=="function" || window.firebaseAddService.__tytsSevenWrapped) return;
+    const oldFirebaseAdd=window.firebaseAddService;
+    const wrapped=async function(data){
+      data=data||{};const loc=document.getElementById("workerLocation");data.location=String((loc&&loc.value)||data.location||"Жмеринка").trim()||"Жмеринка";data.status=data.status||"active";data.hidden=data.hidden===true;return oldFirebaseAdd(data);
+    };
+    wrapped.__tytsSevenWrapped=true;
+    window.firebaseAddService=wrapped;
+  }
+  document.addEventListener("DOMContentLoaded",function(){installFirebaseAddWrapper7();setTimeout(installFirebaseAddWrapper7,0);setTimeout(installFirebaseAddWrapper7,250);});
+  if(document.readyState!=="loading")setTimeout(installFirebaseAddWrapper7,0);
+
+  /* Пошук теж показує тільки активні публічні оголошення. */
+  const oldSearch=window.searchServices;
+  if(typeof oldSearch==="function")window.searchServices=function(){
+    if(typeof allServices==="undefined"||!Array.isArray(allServices))return oldSearch.apply(this,arguments);
+    const saved=allServices;try{allServices=saved.filter(public7);return oldSearch.apply(this,arguments);}finally{allServices=saved;}
+  };
+  try{searchServices=window.searchServices;}catch(e){}
+
+  function findWorker7(id){const sid=String(id);const list=(typeof allServices!=="undefined"&&Array.isArray(allServices))?allServices:[];return list.find(function(x){return String(x.id)===sid||String(x.firebaseId||"")===sid;})||null;}
+
+  window.createWorkerCard=function(worker){
+    const card=document.createElement("div");card.className="tyts-service-card";card.setAttribute("data-service-id",String(worker.id||""));card.tabIndex=0;
+    const photo=worker.servicePhoto||"",avatar=ownerAvatar7(worker),price=worker.price||"Договірна",phone=String(worker.phone||""),loc=location7(worker),mine=isMine7(worker);
+    const media=photo?'<img class="tyts-service-image" src="'+esc7(photo)+'" alt="Фото послуги">':'<div class="tyts-service-image-fallback"><div>'+categoryIcon7(worker.category)+'</div><small>'+esc7(categoryName7(worker.category))+'</small></div>';
+    const av=avatar?'<img class="tyts-service-owner-avatar" src="'+esc7(avatar)+'" alt="Фото профілю">':'<div class="tyts-service-owner-fallback">👤</div>';
+    const fav=(typeof window.tytsIsFavorite==="function"&&window.tytsIsFavorite(worker.id))?"♥":"♡";
+    const badges=mine?'<div class="tyts-card-badges"><span class="tyts-card-badge mine">Ваше оголошення</span></div>':"";
+    card.innerHTML=media+badges+'<button type="button" class="tyts-card-fav" aria-label="В обране">'+fav+'</button><div class="tyts-service-card-body">'+
+      '<div class="tyts-service-card-title">'+esc7(worker.service||worker.name||"Послуга")+'</div><div class="tyts-service-card-rating" data-tyts-rating-id="'+esc7(worker.id)+'">'+esc7(ratingText7(worker.id))+'</div><div class="tyts-service-card-price">💰 '+esc7(price)+'</div><div class="tyts-service-card-location">📍 '+esc7(loc)+'</div><div class="tyts-service-card-date">'+esc7(date7(worker.createdAt))+'</div><div class="tyts-service-card-contact">'+av+'<span style="font-size:12px;font-weight:800;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+esc7(worker.name||"Виконавець")+'</span></div><div class="tyts-card-actions"><a href="tel:'+esc7(phone)+'">📞 '+esc7(phone||"Телефон")+'</a><button type="button" class="tyts-card-chat">💬 Чат</button></div></div>';
+    card.onclick=function(){window.tytsOpenServiceDetails(worker.id);};card.onkeydown=function(e){if(e.key==="Enter"||e.key===" "){e.preventDefault();window.tytsOpenServiceDetails(worker.id);}};
+    const favBtn=card.querySelector(".tyts-card-fav");favBtn.onclick=function(e){e.stopPropagation();if(typeof window.tytsToggleFavorite==="function")window.tytsToggleFavorite(worker);favBtn.textContent=(typeof window.tytsIsFavorite==="function"&&window.tytsIsFavorite(worker.id))?"♥":"♡";};
+    const phoneLink=card.querySelector("a[href^='tel:']");if(phoneLink)phoneLink.onclick=function(e){e.stopPropagation();};
+    const chat=card.querySelector(".tyts-card-chat");if(chat)chat.onclick=function(e){e.stopPropagation();if(typeof window.tytsOpenChatWithWorker==="function")window.tytsOpenChatWithWorker(worker);};
+    return card;
+  };try{createWorkerCard=window.createWorkerCard;}catch(e){}
+
+  const oldDetails=window.tytsOpenServiceDetails;
+  window.tytsOpenServiceDetails=function(id){
+    const worker=findWorker7(id);if(!worker)return oldDetails&&oldDetails.apply(this,arguments);
+    const r=oldDetails&&oldDetails.apply(this,arguments);const overlay=document.getElementById("tytsServiceDetailOverlay");if(!overlay)return r;
+    const locEl=overlay.querySelector(".tyts-detail-meta");if(locEl)locEl.textContent="📍 "+location7(worker);
+    const title=overlay.querySelector(".tyts-detail-title");if(title){const date=document.createElement("div");date.className="tyts-service-card-date";date.style.marginTop="6px";date.textContent=date7(worker.createdAt);title.insertAdjacentElement("afterend",date);if(isMine7(worker)){const b=document.createElement("span");b.className="tyts-card-badge mine";b.style.marginTop="8px";b.textContent="Ваше оголошення";date.insertAdjacentElement("afterend",b);}}
+    return r;
+  };
+
+  async function myItems7(){
+    const u=user7();if(!u)return[];const uid=String(u.uid||u.firebaseId||u.id||"");let cloud=[];
+    try{if(uid&&typeof window.firebaseGetMyServices==="function")cloud=await window.firebaseGetMyServices(uid);}catch(e){console.warn(e);}
+    let local=[];try{local=JSON.parse(localStorage.getItem("tyts_services")||"[]");}catch(e){}if(!Array.isArray(local))local=[];
+    const merged=Array.isArray(cloud)?cloud.slice():[];local.forEach(function(x){if(String(x.ownerUid||x.uid||"")===uid&&!merged.some(function(y){return String(y.id)===String(x.id);}))merged.push(x);});
+    return merged.sort(function(a,b){return createdMs7(b.createdAt)-createdMs7(a.createdAt);});
+  }
+  function renderMy7(items){
+    if(!items.length)return '<div class="tyts-admin-empty" style="margin-top:12px">📢 У вас ще немає оголошень.</div>';
+    return '<div class="tyts-my-services-list">'+items.map(function(item){const st=status7(item);return '<div class="tyts-my-service-card"><div><b>'+esc7(item.service||"Послуга")+'</b><div class="tyts-my-service-meta">'+esc7(item.category||"")+(item.price?' · '+esc7(item.price):'')+' · 📍 '+esc7(location7(item))+'</div><span class="tyts-my-status '+st+'">'+esc7(STATUS_LABELS[st])+'</span><div class="tyts-my-service-desc">'+esc7(item.description||"")+'</div><div class="tyts-service-card-date" style="margin-top:7px">'+esc7(date7(item.createdAt))+'</div></div><div class="tyts-my-service-actions"><button class="add-button" type="button" onclick="tytsEditMyService('+JSON.stringify(String(item.id||""))+')">✏️ Редагувати</button><button class="add-button" type="button" style="background:#ffe7e7;color:#a00" onclick="tytsDeleteMyService('+JSON.stringify(String(item.id||""))+')">🗑 Видалити</button></div></div>';}).join('')+'</div>';
+  }
+  window.openTytsMyServices=async function(){const u=user7();if(!u){alert("Спочатку увійдіть у профіль.");return;}const box=document.getElementById("tytsMyServicesContent");if(!box)return;box.innerHTML='<div class="tyts-admin-empty">⏳ Завантажуємо ваші оголошення...</div>';box.innerHTML=renderMy7(await myItems7());};
+
+  window.tytsEditMyService=async function(id){
+    const u=user7();if(!u)return;const items=await myItems7();const item=items.find(function(x){return String(x.id)===String(id);});if(!item){alert("Оголошення не знайдено.");return;}
+    const old=document.getElementById("tytsEditOverlay");if(old)old.remove();const st=status7(item),locked=st==="hidden"||st==="moderation";
+    const overlay=document.createElement("div");overlay.id="tytsEditOverlay";overlay.className="tyts-edit-overlay";overlay.innerHTML='<div class="tyts-edit-modal"><h3>✏️ Редагування оголошення</h3><div class="tyts-edit-grid"><div><label>Ім’я</label><input id="tytsEditName" value="'+esc7(item.name||u.name||"")+'" readonly></div><div><label>Телефон із профілю</label><input id="tytsEditPhone" value="'+esc7(u.phone||item.phone||"")+'" readonly></div><div class="tyts-edit-full"><label>Послуга</label><input id="tytsEditService" value="'+esc7(item.service||"")+'"></div><div><label>Ціна</label><input id="tytsEditPrice" value="'+esc7(item.price||"")+'"></div><div><label>Населений пункт / район</label><input id="tytsEditLocation" value="'+esc7(location7(item))+'"></div><div class="tyts-edit-full"><label>Статус</label><select id="tytsEditStatus" '+(locked?'disabled':'')+'><option value="active" '+(st==='active'?'selected':'')+'>Активне</option><option value="completed" '+(st==='completed'?'selected':'')+'>Завершене</option>'+(locked?'<option value="'+st+'" selected>'+esc7(STATUS_LABELS[st])+'</option>':'')+'</select></div><div class="tyts-edit-full"><label>Опис</label><textarea id="tytsEditDescription">'+esc7(item.description||"")+'</textarea></div></div>'+(locked?'<div style="font-size:12px;color:#92400e;margin-top:9px">Статус «'+esc7(STATUS_LABELS[st])+'» змінюється системою або адміністратором.</div>':'')+'<div class="tyts-edit-actions"><button class="tyts-edit-cancel" type="button">Скасувати</button><button class="tyts-edit-save" type="button">💾 Зберегти</button></div></div>';
+    overlay.onclick=function(e){if(e.target===overlay)overlay.remove();};overlay.querySelector(".tyts-edit-cancel").onclick=function(){overlay.remove();};overlay.querySelector(".tyts-edit-save").onclick=async function(){
+      const uid=String(u.uid||u.firebaseId||u.id||"");const updated={...item,name:String(u.name||item.name||"").trim(),phone:String(u.phone||item.phone||"").trim(),service:document.getElementById("tytsEditService").value.trim(),price:document.getElementById("tytsEditPrice").value.trim(),location:document.getElementById("tytsEditLocation").value.trim()||"Жмеринка",description:document.getElementById("tytsEditDescription").value.trim(),status:locked?st:document.getElementById("tytsEditStatus").value,ownerUid:uid};
+      if(!updated.service||!updated.description){alert("Заповніть назву послуги та опис.");return;}const btn=this;btn.disabled=true;btn.textContent="⏳ Зберігаємо...";
+      try{if(String(id).startsWith("local_")){let local=[];try{local=JSON.parse(localStorage.getItem("tyts_services")||"[]");}catch(e){}local=Array.isArray(local)?local.map(function(x){return String(x.id)===String(id)?updated:x;}):[];localStorage.setItem("tyts_services",JSON.stringify(local));}else if(typeof window.firebaseUpdateMyService==="function")await window.firebaseUpdateMyService(id,updated);if(typeof allServices!=="undefined"&&Array.isArray(allServices)){const ix=allServices.findIndex(function(x){return String(x.id)===String(id);});if(ix!==-1)allServices[ix]={...allServices[ix],...updated};}overlay.remove();await window.openTytsMyServices();if(typeof refreshVisibleServicePage==="function")refreshVisibleServicePage();alert("✅ Оголошення оновлено.");}catch(e){btn.disabled=false;btn.textContent="💾 Зберегти";alert("❌ "+(e.message||"Не вдалося змінити оголошення."));}
+    };document.body.appendChild(overlay);
+  };
+
+  /* Видалення лишається через чинну Firebase-функцію, але з чітким підтвердженням. */
+  const oldDelete=window.tytsDeleteMyService;
+  if(typeof oldDelete==="function")window.tytsDeleteMyService=async function(id){if(!confirm("Ви точно хочете видалити це оголошення?\n\nПісля видалення відновити його буде неможливо."))return;const originalConfirm=window.confirm;try{window.confirm=function(){return true;};return await oldDelete(id);}finally{window.confirm=originalConfirm;}};
+})();
+</script>
+
+
+<script id="tyts-zhmerynka-localities-v1">
+(function(){
+  const LOCATIONS=['с. Івановецьке','с. Іванівці','с. Івашківці','с. Адамівка','с. Андріївка','с. Антонівка','с. Аристівка','с. Бабина Долина','с. Балки','с. Бар','м. Бар','с. Барок','с. Борщі','с. Борівське','с. Браїлів','с-ще Браїлів','с. Бригидівка','с. Будне','с. Будьки','с. Буцні','с. Біликівці','с. Біличин','с. Василівка','с. Васютинці','с. Вербівка','с. Верешки','с. Верхівка','с. Вознівці','с. Войнашівка','с. Володимирка','с. Володимирівка','с. Володіївці','с. Гавришівка','с. Гайове','с. Гармаки','с. Гибалівка','с. Глинянка','с. Голинчинці','с. Голубівка','с. Голубівка','с. Горяни','с. Грелівка','с. Губачівка','с. Гулі','с. Гута-Мовчанська','с. Демків','с. Деребчин',"с. Дерев'янки",'с. Джурин','с. Довжок','с. Дубинки','с. Дубова','с. Діброва','м. Жмеринка','с. Жуківці','с. Журавлівка','с. Заможне','с. Затоки','с. Зведенівка','с. Зелене','с. Зоринці','с. Зоряне','с. Йосипівці','с. Калинівка','с. Калитинка',"с. Кам'яногірка",'с. Каноницьке','с. Каришків','с. Кармалюкове','с. Кацмазів','с. Квітка','с. Киянівка','с. Клекотина','с. Козарівка','с. Козлівка','с. Колосівка','с. Комарівці','с. Конатківці','с. Копай','с-ще Копайгород','с. Копистирин','с. Коростівці','с. Котова','с. Кошаринці','с. Кропивня','с. Кудіївці','с. Кузьминці','с. Курилівці','с. Леляки','с. Ленінка','с. Лисогірка','с. Лозова','с. Лопатинці','с. Лугове','с. Лука-Барська','с. Лука-Мовчанська','с. Лукашівка','с. Людавка','с. Лядова','с. Лісничівка','с. Лісове','с. Майдан-Головчинський','с. Мала Деребчинка','с. Мала Жмеринка','с. Мальовниче','с. Мальчівці','с. Малі Коростівці','с. Маньківці',"с. Мар'янівка",'с. Мартинівка','с. Мартинівка','с. Матейкове','с. Матейків','с. Межирів','с. Мельники','с. Мельники','с. Мигалівці','с. Мирне','с. Митки','с. Михайлівка','с. Мишівське','с. Мовчани','с. Мурафа','с. Мурашка','с. Міжлісся','с. Настасіївка','с. Новоселиця','с. Носиківка','с. Носківці','с. Окладне','с. Олександрівка','с. Олексіївка','с. Оліхи','с. Павлівка','с. Пасинки','с. Пеньківка','с. Переліски','с. Перепільчинці','с. Петрані','с. Петрівка','с. Пилипи','с. Писарівка','с. Плебанівка','с. Пляцина','с. Повал','с. Подільське','с. Покутине','с. Польове','с. Поляна','с. Політанки','с. Попівці','с. Почапинці','с. Примощаниця','с. Підлісний Ялтушків','с. Регентівка','с. Рожепи','с. Роля','с. Руданське','с. Рів','с. Садківці','с. Сапіжанка','с. Северинівка','с. Семенки','с. Семенівка','с. Сербинівці','с. Сеферівка','с. Синьожупанники','с. Слобода','с. Слобода','с. Слобода-Гулівська','с. Слобода-Межирівська','с. Слобода-Носковецька','с. Слобода-Ходацька','с. Слобода-Чернятинська','с. Слобода-Шаргородська','с. Слобода-Ялтушківська','с. Станіславчик','с. Стасюки','с. Степанки','с. Стодульці','с. Супівка','с. Сурогатка','с. Сьомаки','с. Сідава','с. Тарасівка','с. Тартак','с. Теклівка','с. Телелинці','с. Терешки','с. Токарівка','с. Травневе','с. Трудолюбівка','с. Українське','с. Улянівка','с. Федорівка','с. Хатки','с. Ходаки','с. Хоменки','с. Чапаєве','с. Чемериси-Барські','с. Чемериське','с. Червоне','с. Черешневе','с. Чернятин','м. Шаргород','с. Шевченка','с. Шевченкове','с. Шевченкове','с. Шершні','с. Шипинки','с. Широке','с. Шпирки','с. Щучинці','с. Юхимівка','с. Ялтушків','с. Ярошенка'];
+  window.TYTS_ZHMERYNKA_SETTLEMENTS=LOCATIONS.slice();
+  function esc(v){return String(v||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+  function options(selected){return '<option value="">Оберіть населений пункт Жмеринського району *</option>'+LOCATIONS.map(function(x){return '<option value="'+esc(x)+'" '+(x===selected?'selected':'')+'>'+esc(x)+'</option>';}).join('');}
+  function currentProfileLocation(){try{const u=JSON.parse(localStorage.getItem('tyts_current_user')||'null');return u&&u.location?String(u.location):'';}catch(e){return '';}}
+  function replaceWorkerLocation(){
+    let old=document.getElementById('workerLocation');
+    if(!old)return;
+    if(old.tagName==='SELECT'){if(!old.value)old.value=currentProfileLocation()||'м. Жмеринка';return;}
+    const sel=document.createElement('select');sel.id='workerLocation';sel.className='select';sel.required=true;sel.innerHTML=options(old.value||currentProfileLocation()||'м. Жмеринка');
+    old.replaceWith(sel);
+  }
+  const oldShow=window.showAddService;
+  if(typeof oldShow==='function')window.showAddService=function(){const r=oldShow.apply(this,arguments);setTimeout(replaceWorkerLocation,0);return r;};
+  document.addEventListener('DOMContentLoaded',function(){replaceWorkerLocation();const r=document.getElementById('tytsRegLocation');if(r&&currentProfileLocation())r.value=currentProfileLocation();});
+  const oldSubmit=window.submitService;
+  if(typeof oldSubmit==='function')window.submitService=async function(){replaceWorkerLocation();const loc=document.getElementById('workerLocation');if(!loc||!loc.value){alert('Оберіть населений пункт Жмеринського району.');return;}return await oldSubmit.apply(this,arguments);};
+  const oldEdit=window.tytsEditMyService;
+  if(typeof oldEdit==='function')window.tytsEditMyService=async function(){const r=await oldEdit.apply(this,arguments);setTimeout(function(){const old=document.getElementById('tytsEditLocation');if(!old||old.tagName==='SELECT')return;const sel=document.createElement('select');sel.id='tytsEditLocation';sel.className='select';sel.innerHTML=options(old.value||'м. Жмеринка');old.replaceWith(sel);},0);return r;};
+})();
+</script>
 </html>
