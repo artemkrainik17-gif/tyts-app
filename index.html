@@ -11218,12 +11218,20 @@ body{
   overflow:hidden !important;
 }
 
-.tyts-bottom-nav button span:last-child{
+.tyts-bottom-nav button > span:not(.tyts-nav-icon):not(.tyts-chat-unread-badge){
   display:block !important;
   max-width:100% !important;
   overflow:hidden !important;
   text-overflow:ellipsis !important;
   line-height:12px !important;
+}
+
+.tyts-bottom-nav .tyts-chat-unread-badge{
+  display:none !important;
+}
+
+.tyts-bottom-nav .tyts-chat-unread-badge.tyts-has-unread{
+  display:block !important;
 }
 
 .tyts-bottom-page{
@@ -14985,8 +14993,13 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
     const badge=document.getElementById("tytsChatUnreadBadge");
     if(!badge)return;
     const count=state.uid?totalUnreadCount():0;
-    badge.textContent=count>99?"99+":String(count);
-    badge.style.display=count>0?"block":"none";
+    if(count>0){
+      badge.textContent=count>99?"99+":String(count);
+      badge.classList.add("tyts-has-unread");
+    }else{
+      badge.textContent="";
+      badge.classList.remove("tyts-has-unread");
+    }
   }
 
   function markChatRead(chatId){
