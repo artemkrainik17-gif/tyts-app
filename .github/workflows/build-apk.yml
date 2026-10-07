@@ -102,6 +102,91 @@ jobs:
         run: |
           npx cap sync android
 
+      - name: Змусити tel відкривати системний телефон
+        run: |
+          cat > android/app/src/main/java/com/tyts/app/MainActivity.java <<'EOF'
+          package com.tyts.app;
+
+          import android.content.Intent;
+          import android.net.Uri;
+          import android.os.Bundle;
+          import android.telecom.TelecomManager;
+          import android.webkit.WebResourceRequest;
+          import android.webkit.WebView;
+
+          import com.getcapacitor.BridgeActivity;
+          import com.getcapacitor.BridgeWebViewClient;
+
+          public class MainActivity extends BridgeActivity {
+
+              @Override
+              protected void onCreate(Bundle savedInstanceState) {
+                  super.onCreate(savedInstanceState);
+
+                  bridge.getWebView().setWebViewClient(
+                      new BridgeWebViewClient(bridge) {
+
+                          @Override
+                          public boolean shouldOverrideUrlLoading(
+                                  WebView view,
+                                  WebResourceRequest request
+                          ) {
+                              Uri uri = request.getUrl();
+
+                              if (uri != null && "tel".equalsIgnoreCase(uri.getScheme())) {
+                                  openSystemDialer(uri);
+                                  return true;
+                              }
+
+                              return super.shouldOverrideUrlLoading(view, request);
+                          }
+
+                          @Override
+                          @SuppressWarnings("deprecation")
+                          public boolean shouldOverrideUrlLoading(
+                                  WebView view,
+                                  String url
+                          ) {
+                              if (url != null && url.startsWith("tel:")) {
+                                  openSystemDialer(Uri.parse(url));
+                                  return true;
+                              }
+
+                              return super.shouldOverrideUrlLoading(view, url);
+                          }
+                      }
+                  );
+              }
+
+              private void openSystemDialer(Uri phoneUri) {
+                  try {
+                      Intent intent = new Intent(Intent.ACTION_DIAL);
+                      intent.setData(phoneUri);
+
+                      TelecomManager telecomManager =
+                          (TelecomManager) getSystemService(TELECOM_SERVICE);
+
+                      if (telecomManager != null) {
+                          String defaultDialer =
+                              telecomManager.getDefaultDialerPackage();
+
+                          if (defaultDialer != null && !defaultDialer.isEmpty()) {
+                              intent.setPackage(defaultDialer);
+                          }
+                      }
+
+                      startActivity(intent);
+
+                  } catch (Exception e) {
+                      Intent fallback =
+                          new Intent(Intent.ACTION_DIAL, phoneUri);
+
+                      startActivity(fallback);
+                  }
+              }
+          }
+          EOF
+
       - name: Створити Android-іконки
         run: |
           npx @capacitor/assets generate --android --assetPath assets --androidProject android
