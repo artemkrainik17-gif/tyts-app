@@ -1223,6 +1223,11 @@ html.tyts-dark .tyts-detail-favorite.active{
 }
 </style>
 
+
+<style id="tyts-share-button-disabled">
+.tyts-share-button{display:none !important;}
+</style>
+
 </head>
 
 <body>
@@ -10228,7 +10233,7 @@ window.submitService=async function(){
 
       try{
         const services=await window.firebaseAdminListServices();
-        if(Array.isArray(services) && services.length){
+        if(Array.isArray(services)){
           window.tytsAdminServices=services;
           tytsAdminServices=services;
           renderTytsAdminPanel(status,"services");
@@ -10415,6 +10420,14 @@ window.tytsAdminRemoveService=async function(id){
         if(typeof allServices!=="undefined") allServices=allServices.filter(x=>String(x.id)!==String(id));
       }else{
         await window.firebaseAdminDeleteService(id);
+
+        /* FIX: якщо стара локальна копія має той самий ID, теж прибираємо її,
+           інакше getAdminServices() одразу повертає видалене оголошення назад у список. */
+        let local=[];
+        try{local=JSON.parse(localStorage.getItem("tyts_services")||"[]");}catch(e){local=[];}
+        local=Array.isArray(local)?local.filter(x=>String(x.id)!==String(id)):[];
+        localStorage.setItem("tyts_services",JSON.stringify(local));
+
         if(typeof allServices!=="undefined") allServices=allServices.filter(x=>String(x.id)!==String(id));
         if(Array.isArray(window.tytsAdminServices)) window.tytsAdminServices=window.tytsAdminServices.filter(x=>String(x.id)!==String(id));
         tytsAdminServices=window.tytsAdminServices;
@@ -11296,6 +11309,7 @@ html.tyts-dark .tyts-bottom-nav button{
     const imageHtml=image?'<img class="tyts-detail-photo" src="'+esc(image)+'" alt="Фото послуги">':'<div class="tyts-detail-photo-fallback"><div>'+categoryIcon(worker.category)+'</div><small>'+esc(categoryName(worker.category))+'</small></div>';
     const avatarHtml=avatar?'<img class="tyts-service-owner-avatar" src="'+esc(avatar)+'" alt="Фото профілю">':'<div class="tyts-service-owner-fallback">👤</div>';
     const phone=String(worker.phone||"");
+    const phoneDial=phone.trim().replace(/[^0-9+]/g,"");
     const price=worker.price||"Договірна";
     const u=currentUser();const uid=u?String(u.uid||u.firebaseId||u.id||""):"";const mine=uid?(ratingData(worker.id).byUser[uid]||0):0;
     let stars="";for(let i=1;i<=5;i++)stars+='<button type="button" class="tyts-detail-star '+(i<=mine?'active':'')+'" data-rating="'+i+'">★</button>';
@@ -11303,12 +11317,26 @@ html.tyts-dark .tyts-bottom-nav button{
       '<div class="tyts-detail-title">'+esc(worker.service||worker.name||"Послуга")+'</div>'+
       '<div class="tyts-detail-rating-box"><b data-detail-rating-label>'+esc(ratingText(worker.id))+'</b><div style="font-size:12px;color:#7b8491;margin-top:4px">Ваша оцінка:</div><div class="tyts-detail-stars">'+stars+'</div></div>'+
       '<div class="tyts-detail-price">💰 '+esc(price)+'</div><div class="tyts-detail-meta">📍 Жмеринка</div>'+
-      '<div class="tyts-detail-owner">'+avatarHtml+'<div style="min-width:0"><div style="font-weight:800">'+esc(worker.name||"Виконавець")+'</div><a href="tel:'+esc(phone)+'" style="font-size:14px;color:inherit;text-decoration:none">📞 '+esc(phone||"Номер не вказано")+'</a></div></div>'+
+      '<div class="tyts-detail-owner">'+avatarHtml+'<div style="min-width:0"><div style="font-weight:800">'+esc(worker.name||"Виконавець")+'</div><a href="tel:'+esc(phoneDial)+'" style="font-size:14px;color:inherit;text-decoration:none">📞 '+esc(phone||"Номер не вказано")+'</a></div></div>'+
       '<div class="tyts-detail-description">'+esc(worker.description||"")+'</div>'+
-      '<div class="tyts-detail-actions"><a class="tyts-detail-call" href="tel:'+esc(phone)+'">📞 Зателефонувати</a><button type="button" class="secondary tyts-detail-chat">💬 Чат</button><button type="button" class="secondary tyts-detail-reviews">⭐ Відгуки</button></div>'+
+      '<div class="tyts-detail-actions"><a class="tyts-detail-call" href="tel:'+esc(phoneDial)+'">📞 Зателефонувати</a><button type="button" class="secondary tyts-detail-chat">💬 Чат</button><button type="button" class="secondary tyts-detail-reviews">⭐ Відгуки</button></div>'+
       '</div></div>';
     overlay.querySelector(".tyts-detail-close").onclick=function(){window.tytsCloseServiceDetails();};
     overlay.querySelectorAll(".tyts-detail-star").forEach(function(btn){btn.onclick=function(e){e.stopPropagation();window.tytsRateService(worker.id,Number(btn.dataset.rating));};});
+    const callBtn=overlay.querySelector(".tyts-detail-call");
+    if(callBtn){
+      if(!phoneDial){
+        callBtn.removeAttribute("href");
+        callBtn.onclick=function(e){
+          e.preventDefault();
+          e.stopPropagation();
+          alert("Номер телефону не вказано.");
+        };
+      }else{
+        callBtn.setAttribute("href","tel:"+phoneDial);
+        callBtn.onclick=function(e){e.stopPropagation();};
+      }
+    }
     const chatBtn=overlay.querySelector(".tyts-detail-chat");
     if(chatBtn)chatBtn.onclick=function(){window.tytsCloseServiceDetails();if(typeof window.tytsOpenChatWithWorker==="function")window.tytsOpenChatWithWorker(worker);};
     const reviewsBtn=overlay.querySelector(".tyts-detail-reviews");
@@ -13472,7 +13500,7 @@ html.tyts-dark .tyts-notification-count{border-color:#242d38}
       if(w&&overlay){
         addOwnerProfileLinkX(overlay,w);
         addOtherServicesX(overlay,w);
-        addShareX(overlay,w);
+        /* Кнопку "Поділитися оголошенням" вимкнено. */
       }
       return r;
     };
