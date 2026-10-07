@@ -11670,6 +11670,57 @@ html.tyts-dark .tyts-bottom-nav button{
 })();
 </script>
 
+
+<script id="tyts-system-dialer-only-fix">
+(function(){
+  "use strict";
+
+  function normalizePhone(value){
+    let phone=String(value||"").trim().replace(/^tel:/i,"");
+    try{ phone=decodeURIComponent(phone); }catch(e){}
+    phone=phone.replace(/[^0-9+]/g,"");
+    if(phone.startsWith("+")){
+      phone="+"+phone.slice(1).replace(/\+/g,"");
+    }else{
+      phone=phone.replace(/\+/g,"");
+    }
+    return phone;
+  }
+
+  function openSystemDialer(phone){
+    phone=normalizePhone(phone);
+    if(!phone){
+      alert("Номер телефону не вказано.");
+      return;
+    }
+
+    const isAndroid=/Android/i.test(navigator.userAgent||"");
+
+    if(isAndroid){
+      /* ACTION_DIAL просить Android відкрити саме системний екран набору номера,
+         а не месенджер через звичайний tel:-обробник. */
+      const intentUrl="intent://"+phone+"#Intent;scheme=tel;action=android.intent.action.DIAL;end";
+      window.location.href=intentUrl;
+      return;
+    }
+
+    /* iPhone/iPad та інші платформи */
+    window.location.href="tel:"+phone;
+  }
+
+  document.addEventListener("click",function(e){
+    const btn=e.target && e.target.closest ? e.target.closest(".tyts-detail-call") : null;
+    if(!btn) return;
+
+    e.preventDefault();
+    e.stopPropagation();
+    if(typeof e.stopImmediatePropagation==="function") e.stopImmediatePropagation();
+
+    openSystemDialer(btn.getAttribute("href")||"");
+  },true);
+})();
+</script>
+
 </body>
 
 <style id="tyts-admin-panel-style">
