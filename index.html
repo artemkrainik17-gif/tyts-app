@@ -1385,6 +1385,73 @@ html.tyts-dark .tyts-provider-call{
 }
 </style>
 
+
+<style id="tyts-five-service-photos-only">
+.tyts-service-photo-preview-grid{
+  grid-template-columns:repeat(5,minmax(0,1fr));
+  gap:8px;
+  max-width:100%;
+}
+.tyts-service-photo-preview-item{
+  position:relative;
+  min-width:0;
+  aspect-ratio:1/1;
+}
+.tyts-service-photo-preview-item img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:12px;
+  display:block;
+}
+.tyts-service-photo-preview-item .tyts-service-photo-remove{
+  right:5px;
+  top:5px;
+  width:27px;
+  height:27px;
+  font-size:14px;
+}
+.tyts-service-photo-button:disabled{
+  opacity:.72;
+  cursor:default;
+}
+
+.tyts-detail-thumbs{
+  display:flex;
+  gap:7px;
+  padding:8px 10px 10px;
+  overflow-x:auto;
+}
+.tyts-detail-thumb{
+  flex:0 0 64px;
+  width:64px;
+  height:52px;
+  border:2px solid transparent;
+  border-radius:9px;
+  padding:0;
+  overflow:hidden;
+  background:transparent;
+  cursor:pointer;
+}
+.tyts-detail-thumb.active{
+  border-color:#111827;
+}
+.tyts-detail-thumb img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+html.tyts-dark .tyts-detail-thumb.active{
+  border-color:#f8fafc;
+}
+@media(max-width:600px){
+  .tyts-service-photo-preview-grid{
+    grid-template-columns:repeat(3,minmax(0,1fr));
+  }
+}
+</style>
+
 </head>
 
 <body>
@@ -2695,14 +2762,11 @@ class="textarea"
 placeholder="Коротко опишіть свою роботу"></textarea>
 
 <div class="tyts-service-photo-field">
-  <div class="tyts-service-photo-label">📷 Фото послуги <span>(необов’язково)</span></div>
-  <input id="workerServicePhoto" type="file" accept="image/*" class="tyts-service-photo-input">
+  <div class="tyts-service-photo-label">📷 Фото послуги <span>(необов’язково, до 5 фото)</span></div>
+  <input id="workerServicePhoto" type="file" accept="image/*" multiple class="tyts-service-photo-input">
   <button id="workerServicePhotoButton" type="button" class="tyts-service-photo-button">➕ Додати фото</button>
-  <div id="workerServicePhotoPreviewWrap" class="tyts-service-photo-preview-wrap" style="display:none">
-    <img id="workerServicePhotoPreview" alt="Фото послуги">
-    <button id="workerServicePhotoRemove" type="button" class="tyts-service-photo-remove">✕</button>
-  </div>
-  <div class="tyts-service-photo-help">Можна додати фото роботи, товару або рекламне зображення. Оголошення можна подати і без фото.</div>
+  <div id="workerServicePhotoPreviewWrap" class="tyts-service-photo-preview-wrap tyts-service-photo-preview-grid" style="display:none"></div>
+  <div class="tyts-service-photo-help">Можна додати до 5 фото роботи, товару або рекламних зображень. Оголошення можна подати і без фото.</div>
 </div>
 
 <button
@@ -7304,6 +7368,9 @@ price:data.price || "",
 description:data.description,
 
 servicePhoto: data.servicePhoto || "",
+servicePhotos: Array.isArray(data.servicePhotos)
+  ? data.servicePhotos.slice(0,5)
+  : (data.servicePhoto ? [data.servicePhoto] : []),
 ownerAvatar: data.ownerAvatar || "",
 ownerUid: data.ownerUid || data.uid || "",
 ownerEmail: data.ownerEmail || data.email || "",
@@ -9120,6 +9187,9 @@ window.submitService=async function(){
         price:price,
         description:description,
         servicePhoto:window.tytsPendingServicePhoto || "",
+        servicePhotos:Array.isArray(window.tytsPendingServicePhotos)
+            ? window.tytsPendingServicePhotos.slice(0,5)
+            : (window.tytsPendingServicePhoto ? [window.tytsPendingServicePhoto] : []),
         ownerAvatar:ownerAvatar || "",
         ownerUid:currentUser.uid || currentUser.firebaseId || currentUser.id || "",
         ownerEmail:currentUser.email || "",
@@ -11321,110 +11391,144 @@ html.tyts-dark .tyts-bottom-nav button{
 <script id="tyts-market-grid-js">
 (function(){
   window.tytsPendingServicePhoto=window.tytsPendingServicePhoto || "";
+  window.tytsPendingServicePhotos=Array.isArray(window.tytsPendingServicePhotos)
+    ? window.tytsPendingServicePhotos.slice(0,5)
+    : (window.tytsPendingServicePhoto ? [window.tytsPendingServicePhoto] : []);
 
-  function esc(v){
-    if(typeof escapeHtml==="function") return escapeHtml(String(v??""));
-    return String(v??"").replace(/[&<>\"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c];});
-  }
-
-  function currentUser(){
-    try{return JSON.parse(localStorage.getItem("tyts_current_user")||"null");}catch(e){return null;}
-  }
-
-  function categoryIcon(category){
-    const c=String(category||"");
-    if(c.includes("Автомобілі")) return "🚗";
-    if(c.includes("Дім")) return "🏠";
-    if(c.includes("Сад")) return "🌳";
-    if(c.includes("Ремонт")) return "🔨";
-    if(c.includes("Їжа")) return "🍰";
-    if(c.includes("Краса")) return "💇";
-    if(c.includes("Прибирання")) return "🧹";
-    if(c.includes("Перевезення")) return "🚚";
-    if(c.includes("Електрика")) return "⚡️";
-    if(c.includes("Сантехніка")) return "🚿";
-    if(c.includes("Техніка")) return "💻";
-    return "🛠";
-  }
-
-  function categoryName(category){
-    return String(category||"Послуга").replace(/^[^\p{L}\p{N}]+/u,"").trim() || "Послуга";
-  }
-
-  window.tytsResizeDataUrl=function(dataUrl,maxSide,quality){
+  window.tytsResizeDataUrl=window.tytsResizeDataUrl || function(source,maxWidth,quality){
     return new Promise(function(resolve){
-      if(!dataUrl || !String(dataUrl).startsWith("data:image/")){resolve(dataUrl||"");return;}
-
-      const source=String(dataUrl);
-      const mime=(source.match(/^data:([^;]+);/i)||[])[1]||"";
-
-      /* PNG/GIF/WebP залишаємо без примусової JPEG-конвертації,
-         щоб не псувати прозорість і кольори. */
-      if(/image\/(png|gif|webp)/i.test(mime)){
-        resolve(source);
-        return;
-      }
-
+      if(!source){resolve("");return;}
       const img=new Image();
       img.onload=function(){
         try{
-          const max=Math.max(img.naturalWidth||img.width||1,img.naturalHeight||img.height||1);
-          const scale=Math.min(1,Number(maxSide||1200)/max);
-          const w=Math.max(1,Math.round((img.naturalWidth||img.width||1)*scale));
-          const h=Math.max(1,Math.round((img.naturalHeight||img.height||1)*scale));
+          const ratio=Math.min(1,Number(maxWidth||900)/img.width);
+          const w=Math.max(1,Math.round(img.width*ratio));
+          const h=Math.max(1,Math.round(img.height*ratio));
           const canvas=document.createElement("canvas");
-          canvas.width=w;
-          canvas.height=h;
-          const ctx=canvas.getContext("2d",{alpha:false});
-          if(!ctx){resolve(source);return;}
-
-          /* Білий фон перед JPEG-конвертацією запобігає чорному/темному фону. */
+          canvas.width=w;canvas.height=h;
+          const ctx=canvas.getContext("2d");
           ctx.save();
           ctx.fillStyle="#ffffff";
           ctx.fillRect(0,0,w,h);
           ctx.drawImage(img,0,0,w,h);
           ctx.restore();
-
           const out=canvas.toDataURL("image/jpeg",Number(quality||0.82));
           resolve(out||source);
-        }catch(e){
-          resolve(source);
-        }
+        }catch(e){resolve(source);}
       };
       img.onerror=function(){resolve(source);};
       img.src=source;
     });
   };
 
+  function tytsRenderServicePhotoPreviews(){
+    const wrap=document.getElementById("workerServicePhotoPreviewWrap");
+    const btn=document.getElementById("workerServicePhotoButton");
+    if(!wrap)return;
+
+    const photos=Array.isArray(window.tytsPendingServicePhotos)
+      ? window.tytsPendingServicePhotos.slice(0,5)
+      : [];
+
+    wrap.innerHTML="";
+    photos.forEach(function(src,index){
+      const item=document.createElement("div");
+      item.className="tyts-service-photo-preview-item";
+      item.innerHTML=
+        '<img src="'+String(src).replace(/"/g,"&quot;")+'" alt="Фото послуги '+(index+1)+'">'+
+        '<button type="button" class="tyts-service-photo-remove" data-photo-index="'+index+'" aria-label="Видалити фото">✕</button>';
+      wrap.appendChild(item);
+    });
+
+    wrap.style.display=photos.length ? "grid" : "none";
+
+    wrap.querySelectorAll(".tyts-service-photo-remove").forEach(function(removeBtn){
+      removeBtn.onclick=function(){
+        const index=Number(this.getAttribute("data-photo-index"));
+        if(Number.isInteger(index) && index>=0){
+          window.tytsPendingServicePhotos.splice(index,1);
+          window.tytsPendingServicePhoto=window.tytsPendingServicePhotos[0] || "";
+          tytsRenderServicePhotoPreviews();
+        }
+      };
+    });
+
+    if(btn){
+      btn.disabled=photos.length>=5;
+      btn.textContent=photos.length>=5 ? "✅ Додано 5 фото" : "➕ Додати фото ("+photos.length+"/5)";
+    }
+  }
+
   window.tytsResetServicePhoto=function(){
+    window.tytsPendingServicePhotos=[];
     window.tytsPendingServicePhoto="";
-    const input=document.getElementById("workerServicePhoto"); if(input) input.value="";
-    const wrap=document.getElementById("workerServicePhotoPreviewWrap"); if(wrap) wrap.style.display="none";
-    const img=document.getElementById("workerServicePhotoPreview"); if(img) img.removeAttribute("src");
+    const input=document.getElementById("workerServicePhoto");
+    if(input) input.value="";
+    tytsRenderServicePhotoPreviews();
   };
 
   function initPhotoPicker(){
     const input=document.getElementById("workerServicePhoto");
     const btn=document.getElementById("workerServicePhotoButton");
-    const remove=document.getElementById("workerServicePhotoRemove");
-    const wrap=document.getElementById("workerServicePhotoPreviewWrap");
-    const preview=document.getElementById("workerServicePhotoPreview");
-    if(!input||!btn||!remove||!wrap||!preview) return;
-    btn.onclick=function(){input.click();};
-    remove.onclick=function(){window.tytsResetServicePhoto();};
-    input.onchange=function(){
-      const file=input.files&&input.files[0];
-      if(!file){window.tytsResetServicePhoto();return;}
-      if(!String(file.type||"").startsWith("image/")){alert("Оберіть файл зображення.");window.tytsResetServicePhoto();return;}
-      if(file.size>10*1024*1024){alert("Фото завелике. Оберіть файл до 10 МБ.");window.tytsResetServicePhoto();return;}
-      const reader=new FileReader();
-      reader.onload=async function(){
-        window.tytsPendingServicePhoto=await window.tytsResizeDataUrl(String(reader.result||""),900,0.70);
-        preview.src=window.tytsPendingServicePhoto;
-        wrap.style.display="block";
-      };
-      reader.readAsDataURL(file);
+    if(!input||!btn)return;
+
+    input.setAttribute("multiple","multiple");
+
+    btn.onclick=function(){
+      if((window.tytsPendingServicePhotos||[]).length>=5)return;
+      input.click();
     };
+
+    input.onchange=async function(){
+      const selected=Array.from(input.files||[]);
+      input.value="";
+      if(!selected.length)return;
+
+      const current=Array.isArray(window.tytsPendingServicePhotos)
+        ? window.tytsPendingServicePhotos
+        : [];
+      const free=Math.max(0,5-current.length);
+
+      if(free<=0){
+        alert("Можна додати не більше 5 фото.");
+        tytsRenderServicePhotoPreviews();
+        return;
+      }
+
+      if(selected.length>free){
+        alert("Можна додати не більше 5 фото. Будуть додані перші "+free+".");
+      }
+
+      const files=selected.slice(0,free);
+      for(const file of files){
+        if(!String(file.type||"").startsWith("image/")){
+          alert("Один із вибраних файлів не є зображенням і буде пропущений.");
+          continue;
+        }
+        if(file.size>10*1024*1024){
+          alert("Одне з фото завелике. Максимальний розмір одного фото - 10 МБ.");
+          continue;
+        }
+
+        const dataUrl=await new Promise(function(resolve){
+          const reader=new FileReader();
+          reader.onload=function(){resolve(String(reader.result||""));};
+          reader.onerror=function(){resolve("");};
+          reader.readAsDataURL(file);
+        });
+
+        if(dataUrl){
+          const resized=await window.tytsResizeDataUrl(dataUrl,900,0.70);
+          if(resized) current.push(resized);
+        }
+      }
+
+      window.tytsPendingServicePhotos=current.slice(0,5);
+      window.tytsPendingServicePhoto=window.tytsPendingServicePhotos[0] || "";
+      tytsRenderServicePhotoPreviews();
+    };
+
+    tytsRenderServicePhotoPreviews();
   }
 
   function ratingData(id){
@@ -11497,8 +11601,20 @@ html.tyts-dark .tyts-bottom-nav button{
     overlay.id="tytsServiceDetailOverlay";overlay.className="tyts-service-detail-overlay";overlay.setAttribute("data-service-id",String(worker.id));
     overlay.onclick=function(e){if(e.target===overlay)window.tytsCloseServiceDetails();};
     const avatar=ownerAvatar(worker);
-    const image=worker.servicePhoto||"";
-    const imageHtml=image?'<img class="tyts-detail-photo" src="'+esc(image)+'" alt="Фото послуги">':'<div class="tyts-detail-photo-fallback"><div>'+categoryIcon(worker.category)+'</div><small>'+esc(categoryName(worker.category))+'</small></div>';
+    const images=(Array.isArray(worker.servicePhotos)&&worker.servicePhotos.length
+      ? worker.servicePhotos
+      : (worker.servicePhoto?[worker.servicePhoto]:[])
+    ).filter(Boolean).slice(0,5);
+    const imageHtml=images.length
+      ? '<div class="tyts-detail-gallery">'+
+          '<img class="tyts-detail-photo tyts-detail-main-photo" src="'+esc(images[0])+'" alt="Фото послуги">'+
+          (images.length>1
+            ? '<div class="tyts-detail-thumbs">'+images.map(function(src,i){
+                return '<button type="button" class="tyts-detail-thumb '+(i===0?'active':'')+'" data-photo-src="'+esc(src)+'"><img src="'+esc(src)+'" alt="Фото '+(i+1)+'"></button>';
+              }).join("")+'</div>'
+            : '')+
+        '</div>'
+      : '<div class="tyts-detail-photo-fallback"><div>'+categoryIcon(worker.category)+'</div><small>'+esc(categoryName(worker.category))+'</small></div>';
     const avatarHtml=avatar?'<img class="tyts-service-owner-avatar" src="'+esc(avatar)+'" alt="Фото профілю">':'<div class="tyts-service-owner-fallback">👤</div>';
     const phone=String(worker.phone||"");
     const phoneDial=phone.trim().replace(/[^0-9+]/g,"");
@@ -11514,6 +11630,18 @@ html.tyts-dark .tyts-bottom-nav button{
       '<div class="tyts-detail-actions"><a class="tyts-detail-call" href="tel:'+esc(phoneDial)+'">📞 Зателефонувати</a><button type="button" class="secondary tyts-detail-chat">💬 Чат</button><button type="button" class="secondary tyts-detail-reviews">⭐ Відгуки</button></div>'+
       '</div></div>';
     overlay.querySelector(".tyts-detail-close").onclick=function(){window.tytsCloseServiceDetails();};
+
+    const mainPhoto=overlay.querySelector(".tyts-detail-main-photo");
+    overlay.querySelectorAll(".tyts-detail-thumb").forEach(function(btn){
+      btn.onclick=function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        if(mainPhoto) mainPhoto.src=this.getAttribute("data-photo-src")||"";
+        overlay.querySelectorAll(".tyts-detail-thumb").forEach(function(x){x.classList.remove("active");});
+        this.classList.add("active");
+      };
+    });
+
     overlay.querySelectorAll(".tyts-detail-star").forEach(function(btn){btn.onclick=function(e){e.stopPropagation();window.tytsRateService(worker.id,Number(btn.dataset.rating));};});
     const callBtn=overlay.querySelector(".tyts-detail-call");
     if(callBtn){
