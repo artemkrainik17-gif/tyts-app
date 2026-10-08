@@ -7743,6 +7743,12 @@ window.firebaseSetServiceRating=async function(serviceId,rating){
   const value=Number(rating);
   if(!serviceId || !Number.isInteger(value) || value<1 || value>5) throw new Error("Некоректна оцінка.");
 
+  // Автор не може оцінювати власне оголошення, незалежно від вкладки.
+  const serviceSnapshot=await getDoc(doc(db,"services",String(serviceId)));
+  if(!serviceSnapshot.exists()) throw new Error("Оголошення не знайдено.");
+  const serviceOwner=String(serviceSnapshot.data().ownerUid||serviceSnapshot.data().uid||serviceSnapshot.data().firebaseUid||"");
+  if(serviceOwner && serviceOwner===String(user.uid)) throw new Error("Власне оголошення оцінювати не можна.");
+
   const ratingId=String(serviceId)+"_"+String(user.uid);
   await setDoc(doc(db,"ratings",ratingId),{
     serviceId:String(serviceId),
@@ -11610,6 +11616,10 @@ html.tyts-dark .tyts-bottom-nav button{
   window.tytsRateService=async function(id,value){
     const authUid=typeof window.firebaseGetCurrentAuthUid==="function" ? window.firebaseGetCurrentAuthUid() : "";
     if(!authUid){alert("Щоб поставити оцінку, спочатку увійдіть у профіль.");return;}
+    const service=findWorker(id);
+    if(service && String(service.ownerUid||service.uid||service.firebaseUid||"")===String(authUid)){
+      alert("Ви не можете оцінювати власне оголошення.");return;
+    }
     if(typeof window.firebaseSetServiceRating!=="function"){alert("Оцінювання ще не підключене до Firebase.");return;}
     const overlay=document.getElementById("tytsServiceDetailOverlay");
     const stars=overlay?Array.from(overlay.querySelectorAll(".tyts-detail-star")):[];
@@ -11741,189 +11751,6 @@ html.tyts-dark .tyts-bottom-nav button{
 </script>
 
 
-<!-- =========================================================
-     ТИЦЬ — PULL TO REFRESH (потягнути зверху вниз для оновлення)
-========================================================= -->
-<style id="tyts-pull-refresh-style">
-  html, body { overscroll-behavior-y: contain; }
-
-  #tytsPullRefresh {
-    position: fixed;
-    left: 50%;
-    top: calc(10px + env(safe-area-inset-top));
-    transform: translate(-50%, -78px);
-    z-index: 2147483647;
-    pointer-events: none;
-    opacity: 0;
-    transition: transform .18s ease, opacity .18s ease;
-  }
-
-  #tytsPullRefresh.tyts-pull-visible {
-    opacity: 1;
-  }
-
-  #tytsPullRefresh .tyts-pull-box {
-    min-width: 138px;
-    height: 42px;
-    padding: 0 14px;
-    border-radius: 999px;
-    background: rgba(255,255,255,.96);
-    color: #111827;
-    box-shadow: 0 8px 24px rgba(0,0,0,.20);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 9px;
-    font: 800 13px Arial, sans-serif;
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-  }
-
-  #tytsPullRefresh .tyts-pull-icon {
-    width: 22px;
-    height: 22px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 19px;
-    line-height: 1;
-    transform: rotate(0deg);
-    transition: transform .12s linear;
-  }
-
-  #tytsPullRefresh.tyts-pull-ready .tyts-pull-box {
-    background: #111827;
-    color: #fff;
-  }
-
-  #tytsPullRefresh.tyts-pull-loading .tyts-pull-icon {
-    animation: tytsPullSpin .7s linear infinite;
-  }
-
-  html.tyts-dark #tytsPullRefresh .tyts-pull-box {
-    background: rgba(32,40,51,.97);
-    color: #f8fafc;
-    box-shadow: 0 8px 24px rgba(0,0,0,.45);
-  }
-
-  html.tyts-dark #tytsPullRefresh.tyts-pull-ready .tyts-pull-box {
-    background: #f8fafc;
-    color: #111827;
-  }
-
-  @keyframes tytsPullSpin {
-    from { transform: rotate(0deg); }
-    to   { transform: rotate(360deg); }
-  }
-</style>
-
-<div id="tytsPullRefresh" aria-hidden="true">
-  <div class="tyts-pull-box">
-    <span class="tyts-pull-icon">↻</span>
-    <span class="tyts-pull-text">Потягніть для оновлення</span>
-  </div>
-</div>
-
-<script id="tyts-pull-refresh-script">
-(function(){
-  const indicator = document.getElementById('tytsPullRefresh');
-  if(!indicator) return;
-
-  const textEl = indicator.querySelector('.tyts-pull-text');
-  const iconEl = indicator.querySelector('.tyts-pull-icon');
-  const TRIGGER = 86;
-  const MAX_PULL = 132;
-
-  let startY = 0;
-  let pull = 0;
-  let tracking = false;
-  let refreshing = false;
-
-  function pageAtTop(){
-    return (window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0) <= 0;
-  }
-
-  function shouldIgnoreTarget(target){
-    if(!target || !target.closest) return false;
-    return !!target.closest('input, textarea, select, [contenteditable="true"], .tyts-service-detail, .tyts-admin-page, .tyts-chat-messages');
-  }
-
-  function resetIndicator(){
-    pull = 0;
-    tracking = false;
-    indicator.classList.remove('tyts-pull-visible','tyts-pull-ready','tyts-pull-loading');
-    indicator.style.transform = 'translate(-50%, -78px)';
-    textEl.textContent = 'Потягніть для оновлення';
-    iconEl.style.transform = 'rotate(0deg)';
-  }
-
-  document.addEventListener('touchstart', function(e){
-    if(refreshing || !pageAtTop() || e.touches.length !== 1 || shouldIgnoreTarget(e.target)) return;
-    startY = e.touches[0].clientY;
-    pull = 0;
-    tracking = true;
-  }, {passive:true});
-
-  document.addEventListener('touchmove', function(e){
-    if(!tracking || refreshing || e.touches.length !== 1) return;
-
-    const delta = e.touches[0].clientY - startY;
-    if(delta <= 0){
-      resetIndicator();
-      return;
-    }
-
-    if(!pageAtTop()){
-      resetIndicator();
-      return;
-    }
-
-    // Опір жесту: рука рухається більше, індикатор — м'якше.
-    pull = Math.min(MAX_PULL, delta * 0.58);
-    if(pull < 8) return;
-
-    e.preventDefault();
-    indicator.classList.add('tyts-pull-visible');
-
-    const y = Math.min(26, -78 + pull);
-    indicator.style.transform = 'translate(-50%, ' + y + 'px)';
-    iconEl.style.transform = 'rotate(' + Math.min(220, pull * 2.2) + 'deg)';
-
-    if(pull >= TRIGGER){
-      indicator.classList.add('tyts-pull-ready');
-      textEl.textContent = 'Відпустіть, щоб оновити';
-    }else{
-      indicator.classList.remove('tyts-pull-ready');
-      textEl.textContent = 'Потягніть для оновлення';
-    }
-  }, {passive:false});
-
-  document.addEventListener('touchend', function(){
-    if(!tracking || refreshing) return;
-
-    if(pull >= TRIGGER){
-      refreshing = true;
-      tracking = false;
-      indicator.classList.remove('tyts-pull-ready');
-      indicator.classList.add('tyts-pull-visible','tyts-pull-loading');
-      indicator.style.transform = 'translate(-50%, 8px)';
-      textEl.textContent = 'Оновлюємо...';
-      iconEl.style.transform = '';
-
-      // Даємо браузеру намалювати стан "Оновлюємо..." і перезавантажуємо застосунок.
-      requestAnimationFrame(function(){
-        setTimeout(function(){ window.location.reload(); }, 90);
-      });
-    }else{
-      resetIndicator();
-    }
-  }, {passive:true});
-
-  document.addEventListener('touchcancel', function(){
-    if(!refreshing) resetIndicator();
-  }, {passive:true});
-})();
-</script>
 
 
 
@@ -16006,10 +15833,17 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
     const label=inner.querySelector('[data-detail-rating-label]');if(label)label.textContent=cnt?'★ '+avg.toFixed(1)+' ('+cnt+')':'☆ Немає оцінок';
     let currentUid='';try{const u=JSON.parse(localStorage.getItem('tyts_user')||'null');if(u)currentUid=String(u.uid||u.firebaseId||u.id||'');}catch(e){}
     const mine=currentUid&&stats.byUser?Number(stats.byUser[currentUid]||0):0;
+    const authUid=typeof window.firebaseGetCurrentAuthUid==='function'?String(window.firebaseGetCurrentAuthUid()||''):'';
+    const isOwn=!!authUid&&String(worker.ownerUid||worker.uid||worker.firebaseUid||'')===authUid;
     inner.querySelectorAll('.tyts-detail-star').forEach(btn=>{
       btn.classList.toggle('active',Number(btn.dataset.rating)<=mine);
-      btn.onclick=function(e){e.preventDefault();e.stopPropagation();if(typeof window.tytsRateService==='function')window.tytsRateService(worker.id,Number(btn.dataset.rating));};
+      btn.disabled=isOwn;
+      btn.title=isOwn?'Власне оголошення оцінювати не можна':'Оцінити оголошення';
+      btn.style.cursor=isOwn?'not-allowed':'';
+      btn.onclick=function(e){e.preventDefault();e.stopPropagation();if(!isOwn&&typeof window.tytsRateService==='function')window.tytsRateService(worker.id,Number(btn.dataset.rating));};
     });
+    const ratingHint=inner.querySelector('.tyts-detail-rating-box div');
+    if(isOwn&&ratingHint)ratingHint.textContent='Власне оголошення оцінювати не можна';
     let fav=inner.querySelector('.tyts-detail-favorite');
     if(!fav){fav=document.createElement('button');fav.className='tyts-detail-favorite';fav.type='button';const actions=inner.querySelector('.tyts-detail-actions');if(actions)actions.insertAdjacentElement('afterend',fav);else inner.appendChild(fav);}
     const renderFav=()=>{const yes=typeof window.tytsIsFavorite==='function'&&window.tytsIsFavorite(worker.id);fav.classList.toggle('active',!!yes);fav.textContent=yes?'♥ В обраному':'♡ В обране';};
