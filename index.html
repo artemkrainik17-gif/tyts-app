@@ -9202,6 +9202,27 @@ window.submitService=async function(){
         button.innerText="⏳ Зберігаємо...";
     }
 
+    /* Публікація вважається успішною тільки після підтвердження Firestore. */
+    let confirmedFirebaseId;
+    try{
+        if(typeof window.firebaseAddService!=="function"){
+            throw new Error("Немає з’єднання із сервісом публікації Firebase.");
+        }
+        confirmedFirebaseId=await window.firebaseAddService(data);
+        if(!confirmedFirebaseId) throw new Error("Firebase не підтвердив збереження оголошення.");
+    }catch(error){
+        console.error("Публікація у Firebase не підтверджена:",error);
+        const notice=document.getElementById("serviceSuccess");
+        if(notice){
+            notice.innerHTML='<div class="error">❌ Оголошення не опубліковане. Перевірте з’єднання та повторіть спробу.<br><br>'+escapeHtml(error.message||"Помилка Firebase")+'</div>';
+            notice.style.display="block";
+        }else{
+            alert("❌ Оголошення не опубліковане. "+(error.message||"Помилка Firebase"));
+        }
+        if(button){button.disabled=false;button.innerText="📤 Подати оголошення";}
+        return;
+    }
+
         /* =========================================================
            УСПІШНЕ ПОДАННЯ — МОДАЛЬНЕ ВІКНО ПОВЕРХ УСЬОГО ДОДАТКА
            Показуємо його незалежно від serviceSuccess/hideAll.
@@ -9244,58 +9265,25 @@ window.submitService=async function(){
 
 
 
-    const localId="local_"+Date.now()+"_"+Math.random().toString(36).slice(2);
-    const localWorker={id:localId,...data};
+    const localId=String(confirmedFirebaseId);
+    const localWorker={id:localId,firebaseId:localId,...data};
 
     try{
-        /* СПОЧАТКУ — гарантоване локальне збереження */
-        let local=[];
+        /* Локальна копія — лише кеш уже підтвердженого запису Firebase. */
         try{
-            local=JSON.parse(localStorage.getItem("tyts_services")||"[]");
+            let local=JSON.parse(localStorage.getItem("tyts_services")||"[]");
             if(!Array.isArray(local)) local=[];
-        }catch(e){
-            local=[];
+            local=local.filter(function(x){return String(x.id)!==localId && String(x.firebaseId||"")!==localId;});
+            local.push(localWorker);
+            localStorage.setItem("tyts_services",JSON.stringify(local));
+        }catch(cacheError){
+            console.warn("Не вдалося оновити локальний кеш:",cacheError);
         }
-
-        local.push(localWorker);
-        localStorage.setItem("tyts_services",JSON.stringify(local));
-
         if(!Array.isArray(allServices)) allServices=[];
-        allServices.push(localWorker);
+        if(!allServices.some(function(x){return String(x.id)===localId;})) allServices.push(localWorker);
 
-        /* Блокуємо натискання позаду модального вікна на ці 2 секунди. */
         const oldBodyOverflow=document.body.style.overflow;
         document.body.style.overflow="hidden";
-
-        /*
-          Firebase працює у фоні.
-          Він більше НЕ блокує подачу оголошення.
-        */
-        if(typeof window.firebaseAddService==="function"){
-            Promise.race([
-                window.firebaseAddService(data),
-                new Promise(function(_,reject){
-                    setTimeout(function(){
-                        reject(new Error("Firebase timeout"));
-                    },5000);
-                })
-            ]).then(function(firebaseId){
-                try{
-                    const saved=JSON.parse(localStorage.getItem("tyts_services")||"[]");
-                    const idx=saved.findIndex(function(x){return x.id===localId;});
-                    if(idx!==-1){
-                        saved[idx].id=firebaseId;
-                        saved[idx].firebaseId=firebaseId;
-                        localStorage.setItem("tyts_services",JSON.stringify(saved));
-                    }
-
-                    const ai=allServices.findIndex(function(x){return x.id===localId;});
-                    if(ai!==-1) allServices[ai].id=firebaseId;
-                }catch(e){}
-            }).catch(function(err){
-                console.warn("Firebase не зберіг оголошення. Локальна копія залишена.",err);
-            });
-        }
 
         /* Даємо користувачу побачити повідомлення перед переходом. */
         await new Promise(function(resolve){
