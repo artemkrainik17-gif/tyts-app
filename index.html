@@ -11538,15 +11538,25 @@ html.tyts-dark .tyts-bottom-nav button{
   }
 
   function findWorker(id){
-    const sid=String(id);
-    if(Array.isArray(window.allServices||allServices)){
-      const w=(window.allServices||allServices).find(function(x){return String(x.id)===sid || String(x.firebaseId||"")===sid;});
-      if(w) return w;
-    }
+    const sid=String(id||"");
+    // Не обираємо window.allServices через ||: навіть порожній масив
+    // перекриває актуальний allServices та блокує відкриття картки.
+    const pools=[];
+    try{if(typeof allServices!=="undefined"&&Array.isArray(allServices))pools.push(allServices);}catch(e){}
+    if(Array.isArray(window.allServices))pools.push(window.allServices);
+    if(Array.isArray(window.tytsAdminServices))pools.push(window.tytsAdminServices);
+    try{
+      const local=JSON.parse(localStorage.getItem("tyts_services")||"[]");
+      if(Array.isArray(local))pools.push(local);
+    }catch(e){}
     try{
       const fav=JSON.parse(localStorage.getItem("tyts_favorites")||"[]");
-      if(Array.isArray(fav)){const w=fav.find(function(x){return String(x.id)===sid;});if(w)return w;}
+      if(Array.isArray(fav))pools.push(fav);
     }catch(e){}
+    for(const list of pools){
+      const worker=list.find(function(x){return x&&(String(x.id||"")===sid||String(x.firebaseId||"")===sid);});
+      if(worker)return worker;
+    }
     return null;
   }
 
@@ -11581,6 +11591,20 @@ html.tyts-dark .tyts-bottom-nav button{
   window.tytsCloseServiceDetails=function(){
     const el=document.getElementById("tytsServiceDetailOverlay");if(el)el.remove();document.body.style.overflow="";
   };
+
+  // Helpers local to the detail/card renderer. Previously referenced but not defined
+  // within this script's closure, causing ReferenceError on opening an ad.
+  function esc(value){
+    return String(value==null?"":value).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+  }
+  function categoryName(category){
+    const value=String(category||"Послуга");
+    return value.replace(/^[^\p{L}\p{N}]+/u,"").trim()||"Послуга";
+  }
+  function categoryIcon(category){
+    const match=String(category||"").match(/^[^\p{L}\p{N}]+/u);
+    return match&&match[0].trim()?match[0].trim():"🛠️";
+  }
 
   window.tytsOpenServiceDetails=function(id){
     const worker=findWorker(id); if(!worker) return;
@@ -15649,6 +15673,69 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
 
     return result;
   };
+})();
+</script>
+
+<script id="tyts-detail-fallback-guard-20261008">
+(function(){
+  "use strict";
+  // Keep the existing detail implementation. Intervene only if it fails.
+  const previous=window.tytsOpenServiceDetails;
+  if(typeof previous!=="function")return;
+  const known=new Map();
+  function getWorker(id){
+    const key=String(id==null?"":id);
+    if(known.has(key))return known.get(key);
+    const pools=[];
+    try{if(typeof allServices!=="undefined"&&Array.isArray(allServices))pools.push(allServices);}catch(e){}
+    if(Array.isArray(window.allServices))pools.push(window.allServices);
+    if(Array.isArray(window.tytsAdminServices))pools.push(window.tytsAdminServices);
+    try{const local=JSON.parse(localStorage.getItem("tyts_services")||"[]");if(Array.isArray(local))pools.push(local);}catch(e){}
+    for(const pool of pools){const w=pool.find(x=>x&&(String(x.id)===key||String(x.firebaseId||"")===key));if(w)return w;}
+    return null;
+  }
+  const escapeText=v=>String(v==null?"":v).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+  function fallback(worker){
+    const previousOverlay=document.getElementById("tytsServiceDetailOverlay");
+    if(previousOverlay)return;
+    const photos=(Array.isArray(worker.servicePhotos)&&worker.servicePhotos.length?worker.servicePhotos:(worker.servicePhoto?[worker.servicePhoto]:[])).filter(x=>typeof x==="string"&&/^(data:image\/|https?:\/\/)/i.test(x)).slice(0,5);
+    const overlay=document.createElement("div");
+    overlay.id="tytsServiceDetailOverlay";
+    overlay.className="tyts-service-detail-overlay";
+    overlay.setAttribute("data-service-id",String(worker.id||""));
+    const number=String(worker.phone||"").replace(/[^0-9+]/g,"");
+    overlay.innerHTML='<div class="tyts-service-detail"><button type="button" class="tyts-detail-close" aria-label="Закрити">✕</button>'+
+      (photos.length?'<div class="tyts-detail-gallery"><img class="tyts-detail-photo tyts-detail-main-photo" src="'+escapeText(photos[0])+'" alt="Фото оголошення">'+(photos.length>1?'<div class="tyts-detail-thumbs">'+photos.map((src,i)=>'<button type="button" class="tyts-detail-thumb '+(i===0?'active':'')+'" data-photo-index="'+i+'"><img src="'+escapeText(src)+'" alt="Фото '+(i+1)+'"></button>').join('')+'</div>':'')+'</div>':'')+
+      '<div class="tyts-detail-inner"><div class="tyts-detail-title">'+escapeText(worker.service||worker.name||'Оголошення')+'</div>'+
+      '<div class="tyts-detail-price">💰 '+escapeText(worker.price||'Договірна')+'</div>'+
+      '<div class="tyts-detail-meta">📍 '+escapeText(worker.location||worker.city||'')+'</div>'+
+      '<div class="tyts-detail-owner">'+escapeText(worker.name||'Виконавець')+'</div>'+
+      '<div class="tyts-detail-description">'+escapeText(worker.description||'')+'</div>'+
+      '<div class="tyts-detail-actions">'+(number?'<a href="tel:'+escapeText(number)+'">📞 Зателефонувати</a>':'')+'<button type="button" class="secondary tyts-detail-chat">💬 Чат</button><button type="button" class="secondary tyts-detail-reviews">⭐ Відгуки</button></div></div></div>';
+    function close(){overlay.remove();document.body.style.overflow="";}
+    overlay.querySelector('.tyts-detail-close').onclick=close;
+    overlay.addEventListener('click',e=>{if(e.target===overlay)close();});
+    overlay.querySelectorAll('.tyts-detail-thumb').forEach(b=>b.onclick=()=>{overlay.querySelector('.tyts-detail-main-photo').src=photos[Number(b.dataset.photoIndex)];overlay.querySelectorAll('.tyts-detail-thumb').forEach(x=>x.classList.toggle('active',x===b));});
+    overlay.querySelector('.tyts-detail-chat').onclick=()=>{close();if(typeof window.tytsOpenChatWithWorker==='function')window.tytsOpenChatWithWorker(worker);};
+    overlay.querySelector('.tyts-detail-reviews').onclick=()=>{close();if(typeof window.showReviews==='function')window.showReviews(worker.id,worker.name||'Виконавець');};
+    document.body.appendChild(overlay);document.body.style.overflow='hidden';
+  }
+  window.tytsOpenServiceDetails=function(id){
+    const worker=getWorker(id);
+    let result;
+    try{result=previous.apply(this,arguments);}catch(error){console.error('ТИЦЬ: помилка стандартного перегляду оголошення',error);}
+    if(!document.getElementById('tytsServiceDetailOverlay')&&worker){try{fallback(worker);}catch(error){console.error('ТИЦЬ: помилка резервного перегляду',error);}}
+    return result;
+  };
+  // Capture the actual listing record even when it has not reached a shared list yet.
+  const cardFactory=window.createWorkerCard;
+  if(typeof cardFactory==='function'){
+    window.createWorkerCard=function(worker){
+      if(worker&&worker.id!=null)known.set(String(worker.id),worker);
+      return cardFactory.apply(this,arguments);
+    };
+    try{createWorkerCard=window.createWorkerCard;}catch(e){}
+  }
 })();
 </script>
 
