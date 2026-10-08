@@ -1452,6 +1452,33 @@ html.tyts-dark .tyts-detail-thumb.active{
 }
 </style>
 
+<style id="tyts-yellow-rating-visual-only">
+/* Лише кольори зірок. Збереження оцінок та інші функції не змінюються. */
+.tyts-service-detail .tyts-detail-star.active,
+.tyts-detail-stars .tyts-detail-star.active { color:#ffbf00 !important; -webkit-text-fill-color:#ffbf00 !important; }
+.tyts-detail-stars .tyts-detail-star:not(.active) { color:#cbd5e1 !important; -webkit-text-fill-color:#cbd5e1 !important; }
+.tyts-service-card-rating,
+.tyts-popular-rating { color:#e9a800 !important; }
+</style>
+<style id="tyts-my-ads-grid-search-20261008">
+/* Лише вкладка «Мої оголошення». */
+#tytsMyServicesContent .tyts-my-services-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;align-items:stretch}
+#tytsMyServicesContent .tyts-my-service-card{display:flex;flex-direction:column;min-width:0;overflow:hidden;padding:0;border-radius:16px}
+#tytsMyServicesContent .tyts-my-ad-open{display:flex;flex-direction:column;flex:1;min-width:0;padding:10px;gap:5px}
+#tytsMyServicesContent .tyts-my-ad-open>b{font-size:14px;line-height:1.25;overflow-wrap:anywhere}
+#tytsMyServicesContent .tyts-my-service-meta{font-size:11px;line-height:1.3;overflow-wrap:anywhere}
+#tytsMyServicesContent .tyts-my-service-desc{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:12px;line-height:1.35;margin-top:2px}
+#tytsMyServicesContent .tyts-my-service-actions{display:grid;grid-template-columns:1fr 1fr;gap:5px;padding:8px;margin:0;margin-top:auto}
+#tytsMyServicesContent .tyts-my-service-actions .add-button{padding:9px 3px;font-size:11px;min-width:0;overflow-wrap:anywhere}
+#tytsMyServicesContent .tyts-my-ad-photo{width:calc(100% + 20px);height:auto;aspect-ratio:4/3;object-fit:cover;display:block;margin:-10px -10px 5px;background:#e8edf2}
+#tytsMyServicesContent .tyts-my-ad-photo-empty{display:flex;justify-content:center;align-items:center;font-size:32px;color:#778194}
+#tytsMyServicesContent .tyts-my-ads-search{width:100%;box-sizing:border-box;padding:13px 14px;border:1px solid #d1d5db;border-radius:13px;font:inherit;margin:8px 0 12px;background:#fff;color:#111827}
+#tytsMyServicesContent .tyts-my-ads-count{font-size:12px;opacity:.75;margin:0 0 7px}
+html.tyts-dark #tytsMyServicesContent .tyts-my-service-card{background:#1b2430;color:#f8fafc;border-color:#303846}
+html.tyts-dark #tytsMyServicesContent .tyts-my-ads-search{background:#202833;color:#f8fafc;border-color:#374151}
+@media(max-width:900px){#tytsMyServicesContent .tyts-my-services-list{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:620px){#tytsMyServicesContent .tyts-my-services-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}}
+</style>
 </head>
 
 <body>
@@ -7417,6 +7444,8 @@ window.firebaseUpdateMyService = async function(id, data){
     name:data.name||"", phone:data.phone||"", service:data.service||"",
     price:data.price||"", description:data.description||"",
     location:data.location||"Жмеринка", status:data.status||old.status||"active",
+    servicePhoto: Array.isArray(data.servicePhotos) ? (data.servicePhotos[0]||"") : (old.servicePhoto||""),
+    servicePhotos: Array.isArray(data.servicePhotos) ? data.servicePhotos.slice(0,5) : (old.servicePhotos||[]),
     schemaVersion:Number(old.schemaVersion||1),
     updatedAt:serverTimestamp()
   });
@@ -10756,6 +10785,7 @@ window.tytsAdminRemoveService=async function(id){
           <div class="tyts-profile-item"><span>Статус</span><b>${user.authRole==="superadmin" ? "👑 Суперадмін" : (user.admin ? "🛡️ Адміністратор" : "Профіль створено")}</b></div>
         </div>
         <div class="tyts-profile-actions">
+          <button class="add-button" type="button" onclick="tytsOpenProfileEditor()">✏️ Редагувати профіль</button>
           <button class="add-button" onclick="goToHome()">🏠 На головну</button>
           ${user.authRole==="superadmin" && user.admin===true ? '<button class="add-button tyts-admin-open-button" onclick="openTytsAdminPanel()">👑 Адмін-панель</button>' : ''}
           <button class="add-button" style="background:#eee;color:#222" onclick="tytsLogout()">Вийти</button>
@@ -11578,14 +11608,20 @@ html.tyts-dark .tyts-bottom-nav button{
   window.addEventListener("tyts-ratings-updated",window.tytsUpdateRatingDisplays);
 
   window.tytsRateService=async function(id,value){
-    const u=currentUser();
-    if(!u){alert("Щоб поставити оцінку, спочатку увійдіть у профіль.");return;}
+    const authUid=typeof window.firebaseGetCurrentAuthUid==="function" ? window.firebaseGetCurrentAuthUid() : "";
+    if(!authUid){alert("Щоб поставити оцінку, спочатку увійдіть у профіль.");return;}
     if(typeof window.firebaseSetServiceRating!=="function"){alert("Оцінювання ще не підключене до Firebase.");return;}
+    const overlay=document.getElementById("tytsServiceDetailOverlay");
+    const stars=overlay?Array.from(overlay.querySelectorAll(".tyts-detail-star")):[];
+    stars.forEach(b=>{b.disabled=true;});
     try{
       await window.firebaseSetServiceRating(String(id),Number(value));
+      stars.forEach(b=>b.classList.toggle("active",Number(b.dataset.rating)<=Number(value)));
+      // The Firestore rating listener refreshes the average and every card.
     }catch(e){
-      console.error(e);alert(e.message||"Не вдалося зберегти оцінку.");
-    }
+      console.error("ТИЦЬ: рейтинг не збережено",e);
+      alert("Не вдалося зберегти оцінку у Firebase: "+(e&&e.message?e.message:"перевірте правила доступу до ratings."));
+    }finally{stars.forEach(b=>{b.disabled=false;});}
   };
 
   window.tytsCloseServiceDetails=function(){
@@ -11975,6 +12011,119 @@ html.tyts-dark .tyts-bottom-nav button{
   if(document.readyState!=="loading") ensureAllAddButtons();
 })();
 </script>
+
+<!-- Targeted fixes: card author avatar across renderers, without replacing card click handlers. -->
+<style id="tyts-card-author-avatar-fix">
+.tyts-card-author-mini{display:flex;align-items:center;gap:6px;margin-top:5px;min-width:0;font-size:12px;font-weight:700}
+.tyts-card-author-mini .tyts-service-owner-avatar,.tyts-card-author-mini .tyts-service-owner-fallback{width:25px;height:25px;flex:0 0 25px;border-radius:50%;object-fit:cover}
+.tyts-card-author-mini .tyts-service-owner-fallback{display:flex;align-items:center;justify-content:center;background:#e8edf2}
+.tyts-card-author-mini span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+</style>
+<script id="tyts-card-author-avatar-js">
+(function(){
+ "use strict";
+ const cache=new Map(),pending=new Set();
+ const esc=t=>String(t==null?"":t).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+ function find(id){
+   const key=String(id||"");
+   const pools=[window.allServices,window.tytsAdminServices];
+   try{pools.push(JSON.parse(localStorage.getItem("tyts_services")||"[]"));}catch(e){}
+   for(const list of pools){if(Array.isArray(list)){const w=list.find(x=>x&&(String(x.id)===key||String(x.firebaseId||"")===key));if(w)return w;}}
+   return null;
+ }
+ function avatarFor(uid){
+   if(cache.has(uid))return cache.get(uid);
+   if(!uid||pending.has(uid)||typeof window.firebaseGetUserProfile!=="function")return "";
+   pending.add(uid);
+   Promise.resolve(window.firebaseGetUserProfile(uid)).then(profile=>{
+     const photo=String(profile&&profile.photo||"");cache.set(uid,photo);
+     document.querySelectorAll('.tyts-service-card[data-service-id]').forEach(card=>{
+       const w=find(card.dataset.serviceId);
+       if(w&&String(w.ownerUid||w.uid||w.firebaseUid||"")===uid){if(photo){w.ownerAvatar=photo;} hydrate(card,w);}
+     });
+   }).catch(err=>console.warn("ТИЦЬ: профіль автора не завантажився",err)).finally(()=>pending.delete(uid));
+   return "";
+ }
+ function hydrate(card,w){
+   if(!card||!w)return;
+   const body=card.querySelector('.tyts-service-card-body');if(!body)return;
+   let row=body.querySelector('.tyts-card-author-mini');
+   if(!row){row=document.createElement('div');row.className='tyts-card-author-mini';body.appendChild(row);}
+   const uid=String(w.ownerUid||w.uid||w.firebaseUid||"");
+   let photo=String(w.ownerAvatar||w.ownerPhoto||"");
+   if(!photo&&uid){photo=cache.get(uid)||avatarFor(uid);}
+   const key=photo+'|'+String(w.name||w.ownerName||'');
+   if(row.dataset.key===key)return;
+   row.dataset.key=key;
+   row.innerHTML=(photo?'<img class="tyts-service-owner-avatar" src="'+esc(photo)+'" alt="Фото автора">':'<div class="tyts-service-owner-fallback">👤</div>')+'<span>'+esc(w.name||w.ownerName||"Автор оголошення")+'</span>';
+ }
+ function scan(){document.querySelectorAll('.tyts-service-card[data-service-id]').forEach(card=>{const w=find(card.dataset.serviceId);if(w)hydrate(card,w);});}
+ let scheduled=false;
+ const observer=new MutationObserver(()=>{if(scheduled)return;scheduled=true;requestAnimationFrame(()=>{scheduled=false;scan();});});
+ function init(){scan();observer.observe(document.body,{childList:true,subtree:true});window.addEventListener('tyts-services-updated',scan);}
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
+})();
+</script>
+
+<script id="tyts-edit-user-service-final-20261008">
+(function(){
+ 'use strict';
+ const getUser=()=>{try{return JSON.parse(localStorage.getItem('tyts_current_user')||'null');}catch(e){return null;}};
+ const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const uidOf=u=>String(u&&(u.uid||u.firebaseId||u.id)||'');
+ const close=()=>{const x=document.getElementById('tytsEditOverlay');if(x)x.remove();};
+ const val=id=>(document.getElementById(id)?.value||'').trim();
+ function modal(title,content,onSave){close();const root=document.createElement('div');root.id='tytsEditOverlay';root.className='tyts-edit-overlay';
+ root.innerHTML='<div class="tyts-edit-modal" role="dialog" aria-modal="true"><h3>'+esc(title)+'</h3>'+content+'<div class="tyts-edit-actions"><button type="button" class="tyts-edit-cancel">Скасувати</button><button type="button" class="tyts-edit-save">💾 Зберегти</button></div></div>';
+ root.querySelector('.tyts-edit-cancel').onclick=close;root.onclick=e=>{if(e.target===root)close();};
+ root.querySelector('.tyts-edit-save').onclick=async e=>{const b=e.currentTarget;b.disabled=true;b.textContent='⏳ Збереження...';try{await onSave();close();}catch(err){alert('❌ '+(err?.message||'Не вдалося зберегти зміни.'));b.disabled=false;b.textContent='💾 Зберегти';}};
+ document.body.appendChild(root);return root;}
+ function field(id,label,value,type='text'){return '<div><label for="'+id+'">'+esc(label)+'</label><input id="'+id+'" type="'+type+'" value="'+esc(value||'')+'"></div>';}
+ function dataUrl(file,maxWidth=640,quality=.65){return new Promise((resolve,reject)=>{if(!file.type.startsWith('image/'))return reject(new Error('Оберіть фотографію.'));const reader=new FileReader();reader.onerror=()=>reject(new Error('Фото не вдалося прочитати.'));reader.onload=()=>{const im=new Image();im.onerror=()=>reject(new Error('Некоректне фото.'));im.onload=()=>{const scale=Math.min(1,maxWidth/im.width,maxWidth/im.height);const canvas=document.createElement('canvas');canvas.width=Math.max(1,Math.round(im.width*scale));canvas.height=Math.max(1,Math.round(im.height*scale));canvas.getContext('2d').drawImage(im,0,0,canvas.width,canvas.height);resolve(canvas.toDataURL('image/jpeg',quality));};im.src=reader.result;};reader.readAsDataURL(file);});}
+ window.tytsOpenProfileEditor=function(){const u=getUser();if(!u){alert('Увійдіть у профіль.');return;}
+ const locs=Array.isArray(window.TYTS_ZHMERYNKA_SETTLEMENTS)?window.TYTS_ZHMERYNKA_SETTLEMENTS:[];
+ const locField=locs.length?'<div><label>Населений пункт</label><select id="tytsPElocation"><option value="">Оберіть населений пункт</option>'+Array.from(new Set([u.location,...locs].filter(Boolean))).map(x=>'<option value="'+esc(x)+'"'+(x===u.location?' selected':'')+'>'+esc(x)+'</option>').join('')+'</select></div>':field('tytsPElocation','Населений пункт',u.location);
+ const content='<div class="tyts-edit-grid">'+field('tytsPEname','Ім’я',u.name)+field('tytsPEsurname','Прізвище',u.surname)+field('tytsPEpatronymic','По батькові',u.patronymic)+field('tytsPEphone','Телефон',u.phone,'tel')+field('tytsPEage','Вік',u.age,'number')+field('tytsPEgender','Стать',u.gender)+locField+'<div class="tyts-edit-full"><label>Фото профілю</label><input id="tytsPEphoto" type="file" accept="image/*"><small>Якщо не вибирати фото, поточне залишиться.</small></div></div><p style="font-size:12px">Email для входу, ID та адміністративні права залишаться без змін.</p>';
+ modal('✏️ Редагування профілю',content,async()=>{
+ const fresh=getUser();if(!fresh||uidOf(fresh)!==uidOf(u))throw new Error('Профіль змінився. Увійдіть повторно.');
+ const name=val('tytsPEname'),surname=val('tytsPEsurname'),phone=val('tytsPEphone');if(!name||!surname||!phone)throw new Error('Заповніть ім’я, прізвище та телефон.');
+ const data={...fresh,name,surname,patronymic:val('tytsPEpatronymic'),phone,age:val('tytsPEage'),gender:val('tytsPEgender'),location:val('tytsPElocation')};
+ const file=document.getElementById('tytsPEphoto')?.files?.[0];if(file)data.photo=await dataUrl(file,640,.65);
+ // Do not overwrite role/admin claims with unverified client changes.
+ if(typeof window.firebaseSaveUser!=='function')throw new Error('Firebase недоступний: зміни не збережені.');
+ await window.firebaseSaveUser(data);localStorage.setItem('tyts_current_user',JSON.stringify(data));
+ try{const all=JSON.parse(localStorage.getItem('tyts_users')||'[]');if(Array.isArray(all)){const i=all.findIndex(x=>uidOf(x)===uidOf(data));if(i!==-1){all[i]=data;localStorage.setItem('tyts_users',JSON.stringify(all));}}}catch(e){}
+ if(typeof window.openTytsProfile==='function')window.openTytsProfile();if(typeof window.updateTytsHeader==='function')window.updateTytsHeader();
+ alert('✅ Профіль оновлено.');
+ });};
+ window.tytsEditMyService=async function(id){const u=getUser(),uid=uidOf(u);if(!uid){alert('Спочатку увійдіть у профіль.');return;}
+ let items=[];try{if(typeof window.firebaseGetMyServices==='function')items=await window.firebaseGetMyServices(uid);}catch(e){console.warn('Не вдалося отримати оголошення:',e);}
+ let local=[];try{local=JSON.parse(localStorage.getItem('tyts_services')||'[]');}catch(e){}if(!Array.isArray(local))local=[];
+ const item=[...(Array.isArray(items)?items:[]),...local].find(x=>String(x.id)===String(id)&&String(x.ownerUid||x.uid||'')===uid);
+ if(!item){alert('Власне оголошення не знайдено.');return;}
+ const photos=(Array.isArray(item.servicePhotos)&&item.servicePhotos.length?item.servicePhotos:(item.servicePhoto?[item.servicePhoto]:[])).slice(0,5);
+ const isLocked=['hidden','moderation'].includes(item.status);
+ const locs=Array.isArray(window.TYTS_ZHMERYNKA_SETTLEMENTS)?window.TYTS_ZHMERYNKA_SETTLEMENTS:[];
+ const locField=locs.length?'<div><label>Населений пункт</label><select id="tytsESlocation">'+Array.from(new Set([item.location,...locs].filter(Boolean))).map(x=>'<option value="'+esc(x)+'"'+(x===item.location?' selected':'')+'>'+esc(x)+'</option>').join('')+'</select></div>':field('tytsESlocation','Населений пункт',item.location);
+ const content='<div class="tyts-edit-grid">'+field('tytsESname','Назва послуги',item.service)+field('tytsESprice','Ціна',item.price)+locField+'<div><label>Статус</label><select id="tytsESstatus" '+(isLocked?'disabled':'')+'><option value="active"'+(item.status==='active'?' selected':'')+'>Активне</option><option value="completed"'+(item.status==='completed'?' selected':'')+'>Завершене</option></select></div><div class="tyts-edit-full"><label>Опис</label><textarea id="tytsESdesc">'+esc(item.description||'')+'</textarea></div><div class="tyts-edit-full"><label>Додати фотографії (до 5 усього)</label><input id="tytsESphotos" type="file" accept="image/*" multiple><small>Поточних фото: '+photos.length+'. Щоб видалити фото, натисніть × нижче.</small><div id="tytsEScurrent" style="display:flex;flex-wrap:wrap;gap:8px;margin-top:8px"></div></div></div>';
+ const root=modal('✏️ Редагування оголошення',content,async()=>{
+ const title=val('tytsESname'),desc=val('tytsESdesc');if(!title||!desc)throw new Error('Вкажіть назву та опис оголошення.');
+ const files=Array.from(document.getElementById('tytsESphotos').files||[]);if(photos.length+files.length>5)throw new Error('Можна зберегти не більше 5 фотографій.');
+ const next=photos.slice();for(const file of files)next.push(await dataUrl(file,850,.55));
+ const updated={...item,ownerUid:uid,service:title,description:desc,price:val('tytsESprice'),location:val('tytsESlocation')||item.location,status:isLocked?item.status:val('tytsESstatus'),servicePhotos:next,servicePhoto:next[0]||''};
+ if(String(id).startsWith('local_')){const arr=local.map(x=>String(x.id)===String(id)?updated:x);localStorage.setItem('tyts_services',JSON.stringify(arr));}
+ else{if(typeof window.firebaseUpdateMyService!=='function')throw new Error('Firebase недоступний.');await window.firebaseUpdateMyService(id,updated);}
+ const stored=local.map(x=>String(x.id)===String(id)?updated:x);localStorage.setItem('tyts_services',JSON.stringify(stored));
+ if(typeof window.openTytsMyServices==='function')await window.openTytsMyServices();
+ if(typeof window.firebaseLoadServices==='function')try{await window.firebaseLoadServices();}catch(e){}
+ if(typeof window.refreshVisibleServicePage==='function')window.refreshVisibleServicePage();
+ alert('✅ Оголошення оновлено.');
+ });
+ const draw=()=>{document.getElementById('tytsEScurrent').innerHTML=photos.map((p,i)=>'<div style="position:relative"><img src="'+esc(p)+'" style="width:75px;height:65px;object-fit:cover;border-radius:8px"><button type="button" data-remove="'+i+'" style="position:absolute;right:0;top:0;background:#111;color:white;border:0;border-radius:50%">×</button></div>').join('');document.querySelectorAll('#tytsEScurrent [data-remove]').forEach(b=>b.onclick=()=>{photos.splice(Number(b.dataset.remove),1);draw();});};draw();
+ };
+})();
+</script>
+
 </body>
 
 <style id="tyts-admin-panel-style">
@@ -12746,13 +12895,77 @@ html.tyts-dark .tyts-browse-tools,html.tyts-dark .tyts-edit-modal{background:#1b
     return merged.sort(function(a,b){return createdMs7(b.createdAt)-createdMs7(a.createdAt);});
   }
   function renderMy7(items){
+    window.__tytsRenderedMyServices = Array.isArray(items) ? items.slice() : [];
     if(!items.length)return '<div class="tyts-admin-empty" style="margin-top:12px">📢 У вас ще немає оголошень.</div>';
-    return '<div class="tyts-my-services-list">'+items.map(function(item){const st=status7(item);return '<div class="tyts-my-service-card"><div><b>'+esc7(item.service||"Послуга")+'</b><div class="tyts-my-service-meta">'+esc7(item.category||"")+(item.price?' · '+esc7(item.price):'')+' · 📍 '+esc7(location7(item))+'</div><span class="tyts-my-status '+st+'">'+esc7(STATUS_LABELS[st])+'</span><div class="tyts-my-service-desc">'+esc7(item.description||"")+'</div><div class="tyts-service-card-date" style="margin-top:7px">'+esc7(date7(item.createdAt))+'</div></div><div class="tyts-my-service-actions"><button class="add-button" type="button" onclick="tytsEditMyService('+JSON.stringify(String(item.id||""))+')">✏️ Редагувати</button><button class="add-button" type="button" style="background:#ffe7e7;color:#a00" onclick="tytsDeleteMyService('+JSON.stringify(String(item.id||""))+')">🗑 Видалити</button></div></div>';}).join('')+'</div>';
+    return '<div class="tyts-my-services-list">'+items.map(function(item){
+      const st=status7(item), id=esc7(String(item.id||item.firebaseId||""));
+      return '<div class="tyts-my-service-card" data-tyts-my-id="'+id+'">'+
+        '<div class="tyts-my-ad-open" role="button" tabindex="0" style="cursor:pointer" aria-label="Відкрити оголошення"><b>'+esc7(item.service||"Послуга")+'</b><div class="tyts-my-service-meta">'+esc7(item.category||"")+(item.price?' · '+esc7(item.price):'')+' · 📍 '+esc7(location7(item))+'</div><span class="tyts-my-status '+st+'">'+esc7(STATUS_LABELS[st])+'</span><div class="tyts-my-service-desc">'+esc7(item.description||"")+'</div><div class="tyts-service-card-date" style="margin-top:7px">'+esc7(date7(item.createdAt))+'</div></div>'+
+        '<div class="tyts-my-service-actions"><button class="add-button tyts-my-ad-edit" type="button">✏️ Редагувати</button><button class="add-button tyts-my-ad-delete" type="button" style="background:#ffe7e7;color:#a00">🗑 Видалити</button></div></div>';
+    }).join('')+'</div>';
   }
-  window.openTytsMyServices=async function(){const u=user7();if(!u){alert("Спочатку увійдіть у профіль.");return;}const box=document.getElementById("tytsMyServicesContent");if(!box)return;box.innerHTML='<div class="tyts-admin-empty">⏳ Завантажуємо ваші оголошення...</div>';box.innerHTML=renderMy7(await myItems7());};
+  // Події прив'язуються до DOM, а не до рядків onclick із вкладеними лапками.
+  function tytsMyActionTarget(e){return e.target&&e.target.closest&&e.target.closest('.tyts-my-ad-edit,.tyts-my-ad-delete,.tyts-my-ad-open');}
+  window.openTytsMyServices=async function(){
+    const u=user7();if(!u){alert("Спочатку увійдіть у профіль.");return;}
+    const box=document.getElementById("tytsMyServicesContent");if(!box)return;
+    box.innerHTML='<div class="tyts-admin-empty">⏳ Завантажуємо ваші оголошення...</div>';
+    box.innerHTML=renderMy7(await myItems7());
+    // Пошук та фото додаються поверх існуючих карток; їхні кнопки й обробники незмінні.
+    const myCards=Array.from(box.querySelectorAll('.tyts-my-service-card'));
+    const shown=Array.isArray(window.__tytsRenderedMyServices)?window.__tytsRenderedMyServices:[];
+    myCards.forEach(function(card,index){
+      const item=shown[index]||{};
+      const photos=Array.isArray(item.servicePhotos)?item.servicePhotos:[];
+      const photo=String(item.servicePhoto||item.photo||photos[0]||'').trim();
+      const media=photo?document.createElement('img'):document.createElement('div');
+      media.className='tyts-my-ad-photo'+(photo?'':' tyts-my-ad-photo-empty');
+      if(photo){media.src=photo;media.alt='Фото оголошення';media.loading='lazy';}else media.textContent='📢';
+      const opener=card.querySelector('.tyts-my-ad-open');if(opener)opener.prepend(media);
+      card.dataset.tytsSearch=[item.service,item.name,item.category,item.description,item.location,item.city].filter(Boolean).join(' ').toLocaleLowerCase('uk');
+    });
+    if(myCards.length){
+      const count=document.createElement('div');count.className='tyts-my-ads-count';
+      const search=document.createElement('input');search.type='search';search.className='tyts-my-ads-search';search.placeholder='🔎 Пошук моїх оголошень';search.setAttribute('aria-label','Пошук моїх оголошень');
+      const update=function(){const q=search.value.trim().toLocaleLowerCase('uk');let visible=0;myCards.forEach(function(card){const found=!q||card.dataset.tytsSearch.includes(q);card.style.display=found?'':'none';if(found)visible++;});count.textContent=q?'Знайдено: '+visible+' із '+myCards.length:'Усього оголошень: '+myCards.length;};
+      search.addEventListener('input',update);
+      box.prepend(count);box.prepend(search);update();
+    }
+    function doAction(target){
+      const card=target.closest('[data-tyts-my-id]');if(!card)return;
+      const id=card.getAttribute('data-tyts-my-id');
+      if(target.classList.contains('tyts-my-ad-edit')){window.tytsEditMyService(id);return;}
+      if(target.classList.contains('tyts-my-ad-delete')){window.tytsDeleteMyService(id);return;}
+      if(target.classList.contains('tyts-my-ad-open')){
+        const item=(window.__tytsRenderedMyServices||[]).find(x=>String(x.id||x.firebaseId||'')===String(id));
+        if(!item)return;
+        // Перегляд використовує чинну функцію картки, без зміни даних на сервері.
+        let visible=false;
+        try{visible=Array.isArray(allServices)&&allServices.some(x=>String(x.id||x.firebaseId||'')===String(id));}catch(e){}
+        if(!visible){
+          if(!Array.isArray(window.tytsAdminServices))window.tytsAdminServices=[];
+          if(!window.tytsAdminServices.some(x=>String(x.id||x.firebaseId||'')===String(id)))window.tytsAdminServices.push(item);
+        }
+        if(typeof window.tytsOpenServiceDetails==='function')window.tytsOpenServiceDetails(id);
+      }
+    }
+    box.onclick=function(e){const target=tytsMyActionTarget(e);if(target){e.preventDefault();doAction(target);}};
+    box.onkeydown=function(e){if(e.key==='Enter'||e.key===' '){const target=e.target&&e.target.closest&&e.target.closest('.tyts-my-ad-open');if(target){e.preventDefault();doAction(target);}}};
+  };
 
   window.tytsEditMyService=async function(id){
-    const u=user7();if(!u)return;const items=await myItems7();const item=items.find(function(x){return String(x.id)===String(id);});if(!item){alert("Оголошення не знайдено.");return;}
+    const u=user7();if(!u){alert("Спочатку увійдіть у профіль.");return;}
+    const sid=String(id);
+    const cache=Array.isArray(window.__tytsRenderedMyServices)?window.__tytsRenderedMyServices:[];
+    let item=cache.find(function(x){return x&&String(x.id||x.firebaseId||"")===sid;});
+    if(!item){
+      try{if(typeof allServices!=="undefined"&&Array.isArray(allServices))item=allServices.find(function(x){return x&&String(x.id||x.firebaseId||"")===sid;});}catch(e){}
+    }
+    if(!item){const items=await myItems7();item=items.find(function(x){return x&&String(x.id||x.firebaseId||"")===sid;});}
+    if(!item){alert("Оголошення не знайдено.");return;}
+    const uid=String(u.uid||u.firebaseId||u.id||"");
+    const owner=String(item.ownerUid||item.uid||"");
+    if(!uid||!owner||owner!==uid){alert("Редагувати можна лише власне оголошення.");return;}
     const old=document.getElementById("tytsEditOverlay");if(old)old.remove();const st=status7(item),locked=st==="hidden"||st==="moderation";
     const overlay=document.createElement("div");overlay.id="tytsEditOverlay";overlay.className="tyts-edit-overlay";overlay.innerHTML='<div class="tyts-edit-modal"><h3>✏️ Редагування оголошення</h3><div class="tyts-edit-grid"><div><label>Ім’я</label><input id="tytsEditName" value="'+esc7(item.name||u.name||"")+'" readonly></div><div><label>Телефон із профілю</label><input id="tytsEditPhone" value="'+esc7(u.phone||item.phone||"")+'" readonly></div><div class="tyts-edit-full"><label>Послуга</label><input id="tytsEditService" value="'+esc7(item.service||"")+'"></div><div><label>Ціна</label><input id="tytsEditPrice" value="'+esc7(item.price||"")+'"></div><div><label>Населений пункт / район</label><input id="tytsEditLocation" value="'+esc7(location7(item))+'"></div><div class="tyts-edit-full"><label>Статус</label><select id="tytsEditStatus" '+(locked?'disabled':'')+'><option value="active" '+(st==='active'?'selected':'')+'>Активне</option><option value="completed" '+(st==='completed'?'selected':'')+'>Завершене</option>'+(locked?'<option value="'+st+'" selected>'+esc7(STATUS_LABELS[st])+'</option>':'')+'</select></div><div class="tyts-edit-full"><label>Опис</label><textarea id="tytsEditDescription">'+esc7(item.description||"")+'</textarea></div></div>'+(locked?'<div style="font-size:12px;color:#92400e;margin-top:9px">Статус «'+esc7(STATUS_LABELS[st])+'» змінюється системою або адміністратором.</div>':'')+'<div class="tyts-edit-actions"><button class="tyts-edit-cancel" type="button">Скасувати</button><button class="tyts-edit-save" type="button">💾 Зберегти</button></div></div>';
     overlay.onclick=function(e){if(e.target===overlay)overlay.remove();};overlay.querySelector(".tyts-edit-cancel").onclick=function(){overlay.remove();};overlay.querySelector(".tyts-edit-save").onclick=async function(){
@@ -15196,7 +15409,7 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
       return Math.max(max,messageTime(m));
     },0);
     const readMap=getChatReadMap();
-    readMap[String(chatId)]=Math.max(Number(readMap[String(chatId)]||0),latest,Date.now());
+    readMap[String(chatId)]=Math.max(Number(readMap[String(chatId)]||0),latest);
     saveChatReadMap(readMap);
     updateChatUnreadBadge();
   }
@@ -15206,11 +15419,9 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
     const key=chatReadKey();
     if(localStorage.getItem(key)!==null)return;
     const map={};
+    // For a first-time device, received messages must not be silently marked read.
     groupChats().forEach(function(chat){
-      const latest=(chat.messages||[]).reduce(function(max,m){
-        return Math.max(max,messageTime(m));
-      },0);
-      map[String(chat.chatId||"")]=latest||Date.now();
+      map[String(chat.chatId||"")]=0;
     });
     saveChatReadMap(map);
   }
@@ -15736,6 +15947,121 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
     };
     try{createWorkerCard=window.createWorkerCard;}catch(e){}
   }
+})();
+</script>
+
+
+<script id="tyts-detail-complete-ui-20261008">
+(function(){
+  "use strict";
+  const previous=window.tytsOpenServiceDetails;
+  if(typeof previous!=="function")return;
+  const esc=x=>String(x==null?"":x).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+  const cached=new Map();
+  function find(id){
+    const key=String(id==null?"":id);
+    if(cached.has(key))return cached.get(key);
+    const pools=[window.allServices,window.tytsAdminServices];
+    try{const list=JSON.parse(localStorage.getItem("tyts_services")||"[]");pools.push(list);}catch(e){}
+    for(const pool of pools){if(!Array.isArray(pool))continue;const found=pool.find(w=>w&&(String(w.id)===key||String(w.firebaseId||"")===key));if(found)return found;}
+    return null;
+  }
+  function enhance(overlay,worker){
+    if(!overlay||!worker)return;
+    const inner=overlay.querySelector('.tyts-detail-inner');
+    if(!inner)return;
+    let owner=overlay.querySelector('.tyts-detail-owner');
+    if(owner){
+      let avatar=owner.querySelector('.tyts-service-owner-avatar');
+      let placeholder=owner.querySelector('.tyts-service-owner-fallback');
+      if(!avatar&&!placeholder){
+        placeholder=document.createElement('div');placeholder.className='tyts-service-owner-fallback';placeholder.textContent='👤';
+        owner.prepend(placeholder);
+      }
+      const direct=String(worker.ownerAvatar||worker.ownerPhoto||'').trim();
+      function setAvatar(photo){
+        if(!photo||!owner.isConnected)return;
+        let target=owner.querySelector('.tyts-service-owner-avatar');
+        if(!target){target=document.createElement('img');target.className='tyts-service-owner-avatar';target.alt='Фото профілю';const old=owner.querySelector('.tyts-service-owner-fallback');if(old)old.replaceWith(target);else owner.prepend(target);}
+        target.src=photo;
+      }
+      if(direct)setAvatar(direct);
+      else{
+        const uid=String(worker.ownerUid||worker.uid||worker.firebaseUid||'');
+        const current=(()=>{try{return JSON.parse(localStorage.getItem('tyts_user')||'null')}catch(e){return null}})();
+        const currentUid=current&&String(current.uid||current.firebaseId||current.id||'');
+        if(uid&&uid===currentUid&&current&&current.photo)setAvatar(current.photo);
+        else if(uid&&typeof window.firebaseGetUserProfile==='function'){
+          Promise.resolve(window.firebaseGetUserProfile(uid)).then(p=>{if(p&&p.photo){worker.ownerAvatar=p.photo;setAvatar(p.photo);}}).catch(e=>console.warn('Фото автора недоступне:',e));
+        }
+      }
+    }
+    if(!inner.querySelector('.tyts-detail-rating-box')){
+      const rating=document.createElement('div');rating.className='tyts-detail-rating-box';
+      rating.innerHTML='<b data-detail-rating-label>☆ Немає оцінок</b><div style="font-size:12px;margin-top:4px">Ваша оцінка:</div><div class="tyts-detail-stars">'+[1,2,3,4,5].map(n=>'<button class="tyts-detail-star" type="button" data-rating="'+n+'" aria-label="Оцінити на '+n+' зірок">★</button>').join('')+'</div>';
+      const title=inner.querySelector('.tyts-detail-title');if(title)title.insertAdjacentElement('afterend',rating);else inner.prepend(rating);
+    }
+    const stats=(window.tytsRatingStats||{})[String(worker.id)]||{};
+    const cnt=Number(stats.count)||0,avg=cnt?(Number(stats.sum)||0)/cnt:0;
+    const label=inner.querySelector('[data-detail-rating-label]');if(label)label.textContent=cnt?'★ '+avg.toFixed(1)+' ('+cnt+')':'☆ Немає оцінок';
+    let currentUid='';try{const u=JSON.parse(localStorage.getItem('tyts_user')||'null');if(u)currentUid=String(u.uid||u.firebaseId||u.id||'');}catch(e){}
+    const mine=currentUid&&stats.byUser?Number(stats.byUser[currentUid]||0):0;
+    inner.querySelectorAll('.tyts-detail-star').forEach(btn=>{
+      btn.classList.toggle('active',Number(btn.dataset.rating)<=mine);
+      btn.onclick=function(e){e.preventDefault();e.stopPropagation();if(typeof window.tytsRateService==='function')window.tytsRateService(worker.id,Number(btn.dataset.rating));};
+    });
+    let fav=inner.querySelector('.tyts-detail-favorite');
+    if(!fav){fav=document.createElement('button');fav.className='tyts-detail-favorite';fav.type='button';const actions=inner.querySelector('.tyts-detail-actions');if(actions)actions.insertAdjacentElement('afterend',fav);else inner.appendChild(fav);}
+    const renderFav=()=>{const yes=typeof window.tytsIsFavorite==='function'&&window.tytsIsFavorite(worker.id);fav.classList.toggle('active',!!yes);fav.textContent=yes?'♥ В обраному':'♡ В обране';};
+    renderFav();
+    fav.onclick=function(e){e.preventDefault();e.stopPropagation();if(typeof window.tytsToggleFavorite==='function'){window.tytsToggleFavorite(worker);renderFav();}};
+  }
+  window.tytsOpenServiceDetails=function(id){
+    const worker=find(id);if(worker)cached.set(String(id),worker);
+    const result=previous.apply(this,arguments);
+    const overlay=document.getElementById('tytsServiceDetailOverlay');
+    if(overlay){const w=worker||find(overlay.getAttribute('data-service-id'));if(w)enhance(overlay,w);}
+    return result;
+  };
+  window.addEventListener('tyts-ratings-updated',()=>{
+    const overlay=document.getElementById('tytsServiceDetailOverlay');
+    if(overlay){const worker=find(overlay.getAttribute('data-service-id'));if(worker)enhance(overlay,worker);}
+  });
+})();
+</script>
+
+
+<!-- ТИЦЬ: вузьке виправлення відкриття форми редагування оголошення -->
+<script id="tyts-edit-service-open-fix-20261008">
+(function(){
+  const previousEdit=window.tytsEditMyService;
+  if(typeof previousEdit!=="function")return;
+  window.tytsEditMyService=async function(id){
+    const sid=String(id||"");
+    const pools=[];
+    try{if(typeof allServices!=="undefined"&&Array.isArray(allServices))pools.push(allServices);}catch(e){}
+    if(Array.isArray(window.tytsAdminServices))pools.push(window.tytsAdminServices);
+    try{const a=JSON.parse(localStorage.getItem("tyts_services")||"[]");if(Array.isArray(a))pools.push(a);}catch(e){}
+    const item=pools.flat().find(x=>x&&String(x.id||x.firebaseId||"")===sid);
+    const uid=(function(){try{const u=JSON.parse(localStorage.getItem("tyts_current_user")||"null");return u?String(u.uid||u.firebaseId||u.id||""):"";}catch(e){return "";}})();
+    const owner=item?String(item.ownerUid||item.uid||""):"";
+    if(item&&uid&&owner&&owner!==uid){alert("Редагувати можна лише власне оголошення.");return;}
+    const originalGet=window.firebaseGetMyServices;
+    if(item&&typeof originalGet==="function"){
+      window.firebaseGetMyServices=async function(requestUid){
+        if(String(requestUid)===uid)return [item];
+        return originalGet.apply(this,arguments);
+      };
+    }
+    try{
+      await previousEdit.apply(this,arguments);
+    }catch(error){
+      console.error("ТИЦЬ: відкриття редагування",error);
+      alert("Не вдалося відкрити редагування: "+(error&&error.message||"невідома помилка"));
+    }finally{
+      if(item&&typeof originalGet==="function"&&window.firebaseGetMyServices!==originalGet)window.firebaseGetMyServices=originalGet;
+    }
+  };
 })();
 </script>
 
