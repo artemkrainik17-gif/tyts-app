@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T18:33:09.080290+00:00",
+  "updated_at": "2026-10-12T19:29:33.757120+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-12T18:32:00+00:00",
+      "date": "2026-10-12T19:28:09+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,12 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Митрополит Епіфаній розповів про «церковну дипломатію», яку ПЦУ здійснює за кордоном",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4173734-mitropolit-epifanij-rozpoviv-pro-cerkovnu-diplomatiu-aku-pcu-zdijsnue-za-kordonom.html",
-      "date": "2026-10-12T18:25:00+00:00",
-      "excerpt": "Представники Православної церкви України в межах «закордонної церковної дипломатії» цьогоріч їздили до Брюсселя, Берліна, Праги, в інші країни Європи та Америку, щоб доносити правду про те, що відбувається зараз в країні. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791827496-958.jpg",
-      "source": "Укрінформ"
+      "title": "Шмигаль анонсував реорганізацію Укроборонпрому з АТ в холдинг",
+      "url": "https://suspilne.media/1425947-smigal-anonsuvav-reorganizaciu-ukroboronpromu-z-akcionernogo-tovaristva-v-holding",
+      "date": "2026-10-12T19:22:52+00:00",
+      "excerpt": "Денис Шмигаль підкреслив, що Укроборонпром входить у топ-50 найбільших оборонних компаній світу й зараз перед концерном стоять «чіткі цілі». Йдеться про забезпечення ЗСУ зброєю та водночас розвиток новітніх технологій — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/f3/f3dfc3f33b9289db02f4b3451340d652dc9d5b2216beeaf882914ae4f925d042.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -80,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Києві російський безпілотник влучив у житловий будинок: двоє людей загинули, є постраждалі",
-      "url": "https://www.pravda.com.ua/news/2026/10/12/8057686",
-      "date": "2026-10-12T18:19:00+00:00",
-      "excerpt": "Увечері 12 жовтня російські війська атакували безпілотником житловий будинок в Києві: загинули дві людини, є постраждалі.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/1/a/933842/1a1220335d8f57463e7715478ede7132.jpeg?w=1200&q=85&stamp=1791829081",
-      "source": "Українська правда"
+      "title": "У Києві пролунали вибухи",
+      "url": "https://www.ukrinform.ua/rubric-regions/4173752-u-kievi-prolunali-vibuhi.html",
+      "date": "2026-10-12T19:09:00+00:00",
+      "excerpt": "У столиці було чутно серію вибухів. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1761480128-769.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -116,11 +116,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Битва за Україну. День 1692: Зрив «енергетичного перемир'я» РФ, санкції ЄС та жорстка відсіч «дизельній угоді»",
-      "url": "https://www.ukrinform.ua/rubric-ato/4173738-bitva-za-ukrainu-den-1692-zriv-energeticnogo-peremira-rf-sankcii-es-ta-zorstka-vidsic-dizelnij-ugodi.html",
-      "date": "2026-10-12T18:15:00+00:00",
-      "excerpt": "Попри заяви Білого дому про «енергетичне перемир’я», РФ завдала 6 ударів по енергетиці. Після атак ЗСУ користувачі «Яндексу» зіткнулися з масштабними перебоями в роботі сервісів — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791828911-860.jpg",
+      "title": "Українці зможуть побачити пік метеорного потоку Оріоніди",
+      "url": "https://www.ukrinform.ua/rubric-society/4172699-ukrainci-zmozut-pobaciti-pik-meteornogo-potoku-orionidi.html",
+      "date": "2026-10-12T19:06:00+00:00",
+      "excerpt": "У ніч проти 22 жовтня українці зможуть спостерігати за піком метеорного потоку Оріоніди. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_08/thumb_files/630_360_1754827209-131.jpg",
       "source": "Укрінформ"
     },
     {
@@ -143,11 +143,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Путін на рік запровадив безвізовий режим для громадян В'єтнаму",
-      "url": "https://suspilne.media/1425913-putin-na-rik-zaprovadiv-bezvizovij-rezim-dla-gromadan-vetnamu",
-      "date": "2026-10-12T18:11:41+00:00",
-      "excerpt": "Указ очільника Кремля Володимира Путіна стосується поїздок з цілями «туризму, науки та спорту» і не поширюється на трудову діяльність та здобуття освіти. Безвізовий режим розпочне діяти з 15 жовтня 2026 року і триватиме рік — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/af/af9e52db211764f288e20e5f87817f82e13d122522f56343d66a78e5294df83e.jpg",
+      "title": "Туск заявив про затримання підозрюваних у підпалі станції Starlink в Польщі",
+      "url": "https://suspilne.media/1425939-tusk-zaaviv-pro-zatrimanna-dvoh-gromadan-tureccini-za-pidozrou-u-pidpali-stancii-starlink-v-polsi",
+      "date": "2026-10-12T18:55:01+00:00",
+      "excerpt": "Пожежа на станції Starlink, яка розташована у Воля-Кробовській у Мазовецькому воєводстві Польщі, сталася ввечері 23 вересня. Вогонь пошкодив електрогенератор, однак пожежники загасили займання — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/be/be3c24a32d32ad4a4c6f9c8f583190df9ce72ddc898a626226485f66f9117abf.jpg",
       "source": "Суспільне"
     },
     {
@@ -170,11 +170,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни атакували нафтобазу австрійської компанії Amic Energy в Україні",
-      "url": "https://www.ukrinform.ua/rubric-economy/4173737-rosiani-atakuvali-naftobazu-avstrijskoi-kompanii-amic-energy-v-ukraini.html",
-      "date": "2026-10-12T18:08:57+00:00",
-      "excerpt": "Російські війська атакували нафтобазу австрійської паливної компанії Amic Energy в Україні. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791828257-473.png",
+      "title": "Французька компанія Thales удесятеро збільшила виробництво ракет для протидії дронам",
+      "url": "https://www.ukrinform.ua/rubric-world/4173740-francuzka-kompania-thales-udesatero-zbilsila-virobnictvo-raket-dla-protidii-dronam.html",
+      "date": "2026-10-12T18:53:00+00:00",
+      "excerpt": "Французька технологічна група Thales, яка розробляє системи для оборони, аерокосмічної галузі та кібербезпеки, вдесятеро збільшила випуск 70-міліметрових ракет, придатних для боротьби з дронами. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791829393-952.jpg",
       "source": "Укрінформ"
     },
     {
@@ -206,11 +206,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Дизельна оборудка Трампа і Путіна не вплине на ціни, але буде вигідна РФ - американський експерт",
-      "url": "https://www.ukrinform.ua/rubric-world/4173736-dizelna-oborudka-trampa-i-putina-ne-vpline-na-cini-ale-bude-vigidna-rf-amerikanskij-ekspert.html",
-      "date": "2026-10-12T18:02:00+00:00",
-      "excerpt": "Дизельна угода президента США Дональда Трампа з російським очільником Володимиром Путіним навряд чи вплине на ціни пального для американських споживачів, але може принести Росії політичні дивіденди. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_07/thumb_files/630_360_1783236787-244.png",
+      "title": "Росіяни атакували Рівне, є пошкодження",
+      "url": "https://www.ukrinform.ua/rubric-regions/4173747-rosiani-atakuvali-rivne-e-poskodzenna.html",
+      "date": "2026-10-12T18:46:00+00:00",
+      "excerpt": "Російські військові увечері 12 жовтня атакували місто Рівне, є пошкодження. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_10/thumb_files/630_360_1728310907-237.jpg",
       "source": "Укрінформ"
     },
     {
@@ -233,12 +233,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Туск: Затримали двох громадян Туреччини, підозрюваних у підпалі наземної станції Starlink у Польщі",
-      "url": "https://www.pravda.com.ua/news/2026/10/12/8057700",
-      "date": "2026-10-12T17:57:00+00:00",
-      "excerpt": "Польський прем'єр Дональд Туск оголосив про затримання підозрюваних у підпалі наземної базової станції супутникового зв'язку Starlink, який стався минулого місяця у селищі Воля-Кробовська.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/b/0/933841/b03a7f527c07b5db71d0ed0e53b144d3.jpeg?w=1200&q=85&stamp=1791827636",
-      "source": "Українська правда"
+      "title": "Від -3° до +23°: вівторок в Україні буде з дощами і туманами",
+      "url": "https://www.ukrinform.ua/rubric-regions/4173582-vid-3-do-23-vivtorok-v-ukraini-bude-z-dosami-i-tumanami.html",
+      "date": "2026-10-12T18:44:00+00:00",
+      "excerpt": "В Україні у вівторок, 13 жовтня, буде хмарно з проясненнями, дощитиме, крім західних, східних, Житомирської та Вінницької областей, у західних областях заморозки, вдень до +23°. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2023_11/thumb_files/630_360_1700988049-132.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -260,11 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський: США мають силу та можливості, щоб примусити Росію піти на реальне енергетичне перемир’я",
-      "url": "https://www.ukrinform.ua/rubric-ato/4173729-zelenskij-ssa-maut-silu-ta-mozlivosti-sob-primusiti-rosiu-piti-na-realne-energeticne-peremira.html",
-      "date": "2026-10-12T17:54:00+00:00",
-      "excerpt": "Президент Володимир Зеленський заявив, що США мають силу та можливості, щоб змусити Росію до справжнього енергетичного перемир'я. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1773933311-402.jpeg",
+      "title": "Війська РФ ударили «Бандеролями» по Харкову, є постраждалі",
+      "url": "https://www.ukrinform.ua/rubric-regions/4173746-vijska-rf-udarili-banderolami-po-harkovu-e-poraneni.html",
+      "date": "2026-10-12T18:43:00+00:00",
+      "excerpt": "Російські загарбники атакували Харків. Під ударом опинився Холодногірський район. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_09/thumb_files/630_360_1759244178-555.jpg",
       "source": "Укрінформ"
     },
     {
@@ -296,11 +296,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Україна та Європа мають переваги у розвитку нових технологій, і війна буде виграна завдяки ним - Воллес",
-      "url": "https://www.ukrinform.ua/rubric-world/4173717-ukraina-ta-evropa-maut-perevagi-u-rozvitku-novih-tehnologij-i-vijna-bude-vigrana-zavdaki-nim-volles.html",
-      "date": "2026-10-12T17:53:00+00:00",
-      "excerpt": "Україна та Європа мають переваги у розвитку нових технологій, і війна буде виграна завдяки ним, а не лише ракетами Patriot. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791814857-459.png",
+      "title": "Британія не обмежується пресрелізами у відповідь на агресію Росії - Воллес",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4173723-britania-ne-obmezuetsa-presrelizami-u-vidpovid-na-agresiu-rosii-volles.html",
+      "date": "2026-10-12T18:39:00+00:00",
+      "excerpt": "На агресію Росії необхідно відповідати конкретними діями, інакше Москва вважатиме, що їй усе дозволено. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791814878-354.jpg",
       "source": "Укрінформ"
     },
     {
@@ -323,11 +323,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Армія РФ повторно вдарила по рятувальниках у Слов’янську, коли вони гасили пожежу",
-      "url": "https://www.ukrinform.ua/rubric-regions/4173731-armia-rf-povtorno-vdarila-po-ratuvalnikah-u-slovansku-koli-voni-gasili-pozezu.html",
-      "date": "2026-10-12T17:50:00+00:00",
-      "excerpt": "Російська армія повторно атакувала рятувальників у Слов’янську Донецької області, коли вони ліквідовували пожежу, що виникла внаслідок попереднього ворожого удару. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791827163-990.jpg",
+      "title": "Удар по 25-поверхівці у Дарницькому районі Києва: кількість загиблих зросла до двох",
+      "url": "https://www.ukrinform.ua/rubric-regions/4173744-udar-po-25poverhivci-u-darnickomu-rajoni-kieva-kilkist-zagiblih-zrosla-do-dvoh.html",
+      "date": "2026-10-12T18:30:00+00:00",
+      "excerpt": "На місці падіння російського безпілотника у Дарницькому районі Києва виявили ще одне тіло. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791830071-345.jpg",
       "source": "Укрінформ"
     },
     {
@@ -350,12 +350,12 @@
     },
     {
       "area": "ukraine",
-      "title": "В Азербайджані спалахнули протести через заборону хіджабів у школах - 37 затриманих",
-      "url": "https://www.ukrinform.ua/rubric-world/4173733-v-azerbajdzani-spalahnuli-protesti-cerez-zaboronu-hidzabiv-u-skolah-37-zatrimanih.html",
-      "date": "2026-10-12T17:45:48+00:00",
-      "excerpt": "В Азербайджані почалися протести після запровадження єдиної шкільної форми та заборони елементів одягу, які суперечать світському характеру загальної освіти. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1751383137-714.jpg",
-      "source": "Укрінформ"
+      "title": "Зеленський: Позиції України на фронті найсильніші за довгий час",
+      "url": "https://suspilne.media/1425897-zelenskij-pozicii-ukraini-na-fronti-najsilnisi-za-dovgij-cas",
+      "date": "2026-10-12T18:27:34+00:00",
+      "excerpt": "Президент Володимир Зеленський провів Ставку, на якій заслухав доповідь щодо ситуації на фронті і заявив, що позиції України на фронті найсильніші за довгий час — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/96/96df3718e59cd8dcff63aba7000351d27932efa4ad6c46dd8997e12933c1d9e6.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
