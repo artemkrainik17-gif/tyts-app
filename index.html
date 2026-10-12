@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script id="tyts-dark-only-bootstrap">document.documentElement.classList.add("tyts-dark");</script>
 <title>Тиць</title>
 
 <style id="tyts-search-new-style">
@@ -1479,6 +1480,62 @@ html.tyts-dark #tytsMyServicesContent .tyts-my-ads-search{background:#202833;col
 @media(max-width:900px){#tytsMyServicesContent .tyts-my-services-list{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:620px){#tytsMyServicesContent .tyts-my-services-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}}
 </style>
+
+<style id="tyts-stage2-home-layout">
+/* Етап 2: виключно головна сторінка, без змін бази, логіки оголошень та авторизації */
+#home .tyts-stage2-section-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:3px 0 12px}
+#home .tyts-stage2-section-head .title{margin:0!important;min-width:0;font-size:23px!important}
+#home .tyts-stage2-all-link{background:transparent;border:0;color:#47e6a4;font-size:13px;font-weight:800;cursor:pointer;white-space:nowrap;padding:9px 0}
+#home .categories .category:nth-child(n+7){display:none!important}
+#home.tyts-stage2-expanded .categories .category:nth-child(n+7){display:flex!important}
+#home .category{background:#1b2430!important;border:1px solid #273342!important;border-radius:18px!important;box-shadow:0 3px 12px rgba(0,0,0,.18)!important}
+#home .category:focus-visible,#home .tyts-stage2-all-link:focus-visible{outline:2px solid #47e6a4;outline-offset:2px}
+#home .categories{gap:10px!important}
+#home .category .description{color:#aeb8c5!important}
+@media(min-width:750px){#home .categories{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:390px){#home .tyts-stage2-section-head .title{font-size:20px!important}#home .tyts-stage2-all-link{font-size:12px}}
+</style>
+<style id="tyts-stage3-sale-styles">
+#home .tyts-sale-home-category{border:1px solid #6640bd!important;background:linear-gradient(135deg,#2d214b,#202938)!important}
+#tytsSaleCategories{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.tyts-sale-tile{background:#1b2430;border:1px solid #303b4b;color:#f8fafc;text-align:left;border-radius:16px;padding:15px 12px;min-height:76px;cursor:pointer;font:700 14px Arial,sans-serif}
+.tyts-sale-tile .tyts-sale-emoji{display:block;font-size:27px;margin-bottom:7px}
+.tyts-sale-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:16px}
+.tyts-sale-head h2{margin:0;font-size:23px}
+.tyts-sale-add{background:#12cf90;border:0;border-radius:12px;padding:11px;color:#0b1920;font-weight:800;cursor:pointer}
+#tytsSaleListings{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+#tytsSaleForm input,#tytsSaleForm select,#tytsSaleForm textarea{width:100%;box-sizing:border-box;background:#202833;color:#f8fafc;border:1px solid #3b4654;border-radius:12px;padding:13px;font:15px Arial,sans-serif;margin-bottom:10px}
+#tytsSaleForm{background:#1b2430;border-radius:18px;padding:15px}
+#tytsSaleForm textarea{min-height:100px;resize:vertical}
+#tytsSaleForm label{font-size:13px;color:#cbd5e1;display:block;margin-bottom:7px}
+#tytsSaleFormMessage{font-size:13px;line-height:1.5;margin-top:10px}
+@media(min-width:800px){#tytsSaleCategories{grid-template-columns:repeat(4,minmax(0,1fr))}#tytsSaleListings{grid-template-columns:repeat(3,minmax(0,1fr))}}
+</style>
+<style id="tyts-sale-full-width-add-fix">
+/* Єдина форма додавання, точно як у категоріях послуг. */
+#tytsSaleMain .tyts-sale-add-panel,#tytsSaleCategory .tyts-sale-add-panel{
+  display:block!important;width:100%!important;max-width:none!important;
+  margin:20px 0 0!important;padding:12px!important;
+  border-radius:16px!important;background:#111!important;color:#fff!important;
+  text-align:center!important;clear:both!important;
+}
+#tytsSaleMain .tyts-sale-add-panel .add-button,#tytsSaleCategory .tyts-sale-add-panel .add-button{
+  display:block!important;width:100%!important;min-height:44px!important;
+  background:#1b2430!important;color:#f8fafc!important;border:0!important;
+  border-radius:9px!important;cursor:pointer!important;font-weight:700!important;
+}
+#tytsSaleMain .tyts-sale-head .tyts-sale-add,#tytsSaleCategory .tyts-sale-head .tyts-sale-add{display:none!important}
+</style>
+<style id="tyts-sale-category-service-like-layout">
+/* Підкатегорії «Продам»: структура додавання як у категоріях послуг. */
+#tytsSaleCategory .tyts-sale-filter-bar{display:grid;grid-template-columns:1fr 1fr;gap:10px;background:#1b2430;border-radius:13px;padding:8px;margin:10px 0 18px}
+#tytsSaleCategory .tyts-sale-filter-bar select,#tytsSaleCategory .tyts-sale-filter-bar input{width:100%;min-width:0;padding:10px 12px;border:1px solid #374151;border-radius:10px;background:#202833;color:#f8fafc;font-size:14px}
+#tytsSaleCategory .tyts-sale-inline-add{width:100%;margin:12px 0 36px;padding:0 20px}
+#tytsSaleCategory .tyts-sale-inline-add .add-button{display:block;width:min(550px,100%);padding:14px;background:#1b2430!important;color:#f8fafc!important;border-radius:10px}
+#tytsSaleCategory .tyts-sale-add-panel{margin-top:16px!important}
+#tytsSaleCategory #tytsSaleListings>.empty{grid-column:1/-1}
+@media(max-width:540px){#tytsSaleCategory .tyts-sale-filter-bar{grid-template-columns:1fr}#tytsSaleCategory .tyts-sale-inline-add{padding:0}}
+</style>
 </head>
 
 <body>
@@ -1489,7 +1546,7 @@ html.tyts-dark #tytsMyServicesContent .tyts-my-ads-search{background:#202833;col
     <span class="tyts-logo-t">Т</span><span class="tyts-logo-y">и</span><span class="tyts-logo-c">ц</span><span class="tyts-logo-ь">ь</span>
   </div>
   <div class="tyts-mini-icons">
-    <button id="tytsThemeToggle" type="button" class="tyts-theme-toggle" onclick="toggleTytsTheme()" title="Перемкнути тему" aria-label="Перемкнути тему">🌙</button>
+    <button type="button" id="tytsSupportButton" class="tyts-support-header" onclick="tytsOpenAdminSupport()" aria-label="Зв’язок з адміном">💬 <span>Зв’язок з адміном</span></button>
   </div>
 </div>
 
@@ -1534,11 +1591,17 @@ id="home"
 class="page"
 style="display:block">
 
-<div class="title">
-Що вам потрібно?
+<div class="tyts-stage2-section-head">
+  <div class="title">Що вам потрібно?</div>
+  <button type="button" id="tytsAllCategoriesButton" class="tyts-stage2-all-link" aria-expanded="false" onclick="tytsStage2ToggleCategories()">Усі категорії →</button>
 </div>
 
 <div class="categories">
+
+<div class="category tyts-sale-home-category" data-search="продам продаж речі товари телефони одяг меблі техніка" onclick="tytsSaleOpen()" role="button" tabindex="0" onkeydown="if(event.key==='Enter')tytsSaleOpen()">
+  <div class="icon">🛍️</div><div class="name">Продам</div><div class="description">Речі, техніка, меблі та інше</div>
+</div>
+
 
 
 <div
@@ -2439,6 +2502,47 @@ onclick="showAddService('cleaningCategory')">
 <div id="otherServiceTitle" class="title">Інша послуга</div>
 <div id="otherServiceWorkers"></div>
 <div class="info">🛠 Надаєте цю послугу?<br><br><button class="add-button" onclick="showAddService('otherCategory')">➕ Додати своє оголошення</button></div>
+</div>
+
+<!-- ЕТАП 3. ТОВАРИ: окрема навігація, існуючі послуги не змінюються -->
+<div id="tytsSaleMain" class="page">
+ <div class="tyts-sale-head"><h2>🛍️ Продам</h2></div>
+ <div id="tytsSaleCategories"></div>
+ <div class="info tyts-sale-add-panel">🛍️ Продаєте товар?<br><br><button class="add-button" type="button" onclick="tytsSaleCreate()">➕ Додати своє оголошення</button></div>
+</div>
+<div id="tytsSaleCategory" class="page">
+ <div class="tyts-sale-head"><h2 id="tytsSaleCategoryTitle">Товари</h2></div>
+ <div class="tyts-sale-filter-bar">
+  <select id="tytsSaleSort" aria-label="Сортування товарів" onchange="tytsSaleRefresh()"><option value="new">Нові спочатку</option><option value="old">Старі спочатку</option><option value="priceLow">Спочатку дешевші</option><option value="priceHigh">Спочатку дорожчі</option></select>
+  <input id="tytsSaleLocationFilter" type="search" placeholder="Населений пункт / район" aria-label="Населений пункт або район" oninput="tytsSaleRefresh()">
+ </div>
+ <div id="tytsSaleListings"></div>
+ <div class="tyts-sale-inline-add"><button class="add-button" type="button" onclick="tytsSaleCreate()">➕ Додати своє оголошення</button></div>
+ <div class="info tyts-sale-add-panel">🛍️ Продаєте товар?<br><br><button class="add-button" type="button" onclick="tytsSaleCreate()">➕ Додати оголошення</button></div>
+</div>
+<div id="tytsSaleCreate" class="page">
+ <div class="title">🛍️ Продати товар</div>
+ <form id="tytsSaleForm" onsubmit="tytsSaleSubmit(event)">
+  <label for="tytsSaleSub">Категорія товару</label><select id="tytsSaleSub" required></select>
+  <div id="tytsSaleVehicleFields" hidden>
+   <label for="tytsCarMake">Марка автомобіля</label><select id="tytsCarMake"></select>
+   <label for="tytsCarModel">Модель</label><select id="tytsCarModel"></select>
+   <label for="tytsCarModelOther">Інша модель (якщо немає в переліку)</label><input id="tytsCarModelOther" maxlength="65" placeholder="Вкажіть модель" style="display:none">
+   <label for="tytsCarYear">Рік випуску</label><select id="tytsCarYear"></select>
+   <label for="tytsCarFuel">Пальне</label><select id="tytsCarFuel"><option value="">Оберіть пальне</option><option>Бензин</option><option>Дизель</option><option>Газ/бензин</option><option>Електро</option><option>Гібрид</option><option>Інше</option></select>
+   <label for="tytsCarGearbox">Коробка передач</label><select id="tytsCarGearbox"><option value="">Оберіть коробку</option><option>Механічна</option><option>Автоматична</option><option>Варіатор</option><option>Роботизована</option></select>
+   <label for="tytsCarMileage">Пробіг, км</label><input id="tytsCarMileage" type="number" min="0" max="3000000" placeholder="Пробіг у кілометрах">
+   <label for="tytsCarEngine">Об’єм двигуна, л (для ДВЗ)</label><input id="tytsCarEngine" type="number" min="0" max="20" step="0.1" placeholder="Наприклад: 2.0">
+   <label for="tytsCarBody">Тип кузова</label><select id="tytsCarBody"><option value="">Не вказано</option><option>Седан</option><option>Хетчбек</option><option>Універсал</option><option>Кросовер</option><option>Позашляховик</option><option>Купе</option><option>Мінівен</option><option>Пікап</option><option>Інше</option></select>
+  </div>
+  <label for="tytsSaleTitle">Назва товару</label><input id="tytsSaleTitle" maxlength="120" placeholder="Наприклад: iPhone 13, 128 ГБ" required>
+  <label for="tytsSalePrice">Ціна, грн</label><input id="tytsSalePrice" type="number" min="0" step="1" placeholder="Ціна в гривнях" required>
+  <label for="tytsSaleDescription">Опис товару</label><textarea id="tytsSaleDescription" maxlength="3000" placeholder="Стан, комплектація, особливості" required></textarea>
+  <div id="tytsSalePhotoPreview" class="tyts-sale-photo-preview"></div>
+  <label for="tytsSalePhotos">Фотографії, до 5 штук</label><input id="tytsSalePhotos" type="file" accept="image/*" multiple>
+  <button id="tytsSaleCancelEdit" type="button" class="tyts-sale-add" style="display:none;margin-bottom:10px" onclick="tytsSaleCreate()">Скасувати редагування</button>
+  <button id="tytsSaleSubmitButton" class="add-button" type="submit">Опублікувати товар</button><div id="tytsSaleFormMessage" role="status"></div>
+ </form>
 </div>
 
 <!-- ================= ДОДАТИ ОГОЛОШЕННЯ ================= -->
@@ -7128,6 +7232,11 @@ window.firebaseAdminSetReportClosed=async function(id,closed){
 /* =========================================================
    КОРИСТУВАЧІ / ПРОФІЛІ
 ========================================================= */
+/* Адресат підтримки: відомий Firebase Auth UID. Без читання колекції users. */
+window.firebaseFindSupportAdmin=async function(){
+  return {uid:"a2QG06Z5D0SNkmAeZv0YIOAEyYI2",name:"Адміністрація ТИЦЬ"};
+};
+
 window.firebaseGetUserProfile=async function(uid){
   if(!uid) return null;
   const snap=await getDoc(doc(db,"users",uid));
@@ -7385,6 +7494,9 @@ data.techSubcategory || "",
 otherSubcategory:
 data.otherSubcategory || "",
 
+saleSubcategory:data.saleSubcategory || "",
+saleVehicle:data.category === "🛍️ Продам" ? (data.saleVehicle || {}) : {},
+
 foodSubcategory:
 data.foodSubcategory || "",
 
@@ -7446,6 +7558,7 @@ window.firebaseUpdateMyService = async function(id, data){
     location:data.location||"Жмеринка", status:data.status||old.status||"active",
     servicePhoto: Array.isArray(data.servicePhotos) ? (data.servicePhotos[0]||"") : (old.servicePhoto||""),
     servicePhotos: Array.isArray(data.servicePhotos) ? data.servicePhotos.slice(0,5) : (old.servicePhotos||[]),
+    ...(old.category === "🛍️ Продам" ? {saleSubcategory:data.saleSubcategory || old.saleSubcategory || "", saleVehicle:data.saleVehicle || old.saleVehicle || {}} : {}),
     schemaVersion:Number(old.schemaVersion||1),
     updatedAt:serverTimestamp()
   });
@@ -7487,6 +7600,8 @@ if(item.hidden !== true) allServices.push(item);
 });
 
 loadLocalServices();
+// Сигнал для головного блоку після фактичного оновлення даних.
+window.dispatchEvent(new Event("tyts-services-updated"));
 
 
 
@@ -10988,37 +11103,17 @@ onAuthStateChanged(auth, async function(firebaseUser){
 });
 
 </script>
-<script>
-/* ТИЦЬ — простий і надійний перемикач теми */
+<script id="tyts-dark-only-init">
+/* Темна тема постійна; інші функції застосунку не змінюються. */
 (function(){
-  function setTheme(isDark){
-    document.body.classList.toggle('tyts-dark', !!isDark);
-    document.documentElement.classList.toggle('tyts-dark', !!isDark);
-    var btn=document.getElementById('tytsThemeToggle');
-    if(btn){
-      btn.textContent=isDark?'☀️':'🌙';
-      btn.title=isDark?'Світла тема':'Темна тема';
-      btn.setAttribute('aria-label',btn.title);
-    }
-    try{ localStorage.setItem('tyts_theme', isDark?'dark':'light'); }catch(e){}
+  function applyDarkTheme(){
+    document.documentElement.classList.add('tyts-dark');
+    document.body.classList.add('tyts-dark');
+    try{ localStorage.setItem('tyts_theme','dark'); }catch(e){}
   }
-  function init(){
-    var saved='light';
-    try{ saved=localStorage.getItem('tyts_theme')||'light'; }catch(e){}
-    setTheme(saved==='dark');
-    var btn=document.getElementById('tytsThemeToggle');
-    if(btn && !btn.dataset.themeReady){
-      btn.dataset.themeReady='1';
-      btn.onclick=function(e){
-        e.preventDefault();
-        e.stopPropagation();
-        var isDark=document.body.classList.contains('tyts-dark');
-        setTheme(!isDark);
-      };
-    }
-  }
-  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',init); else init();
-  window.addEventListener('load',init);
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',applyDarkTheme);
+  else applyDarkTheme();
+  window.addEventListener('load',applyDarkTheme);
 })();
 </script>
 
@@ -11951,6 +12046,117 @@ html.tyts-dark .tyts-bottom-nav button{
 })();
 </script>
 
+
+<style id="tyts-sale-stage3-fix-style">
+#tytsSaleVehicleFields[hidden]{display:none!important}
+.tyts-sale-photo-preview{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.tyts-sale-photo-preview div{position:relative}
+.tyts-sale-photo-preview img{width:77px;height:72px;object-fit:cover;border-radius:10px}
+.tyts-sale-photo-preview button{position:absolute;right:0;top:0;border:0;border-radius:50%;background:#9f1239;color:white;cursor:pointer;width:24px;height:24px}
+.tyts-sale-own-edit{margin:8px 0;border:1px solid #2dd4bf;background:#18352f;color:#a7f3d0;padding:10px;border-radius:10px;font-weight:700;cursor:pointer;width:100%}
+#tytsSaleCreate .add-button{background:#11ca91!important;color:#0c1b22!important}
+</style>
+<script id="tyts-stage3-sale-behavior">
+(function(){
+'use strict';
+const saleGroups=[['🚗','Авто та транспорт'],['🏠','Нерухомість'],['📱','Телефони та гаджети'],['💻','Комп’ютери та ноутбуки'],['📺','Побутова техніка'],['🛋️','Меблі та інтер’єр'],['👕','Одяг та взуття'],['🧸','Дитячі товари'],['🔨','Інструменти'],['🌱','Сад і город'],['🏋️','Спорт і відпочинок'],['🐾','Товари для тварин'],['📚','Книги та хобі'],['📦','Інше']];
+const makes={'Toyota':['Camry','Corolla','RAV4','Land Cruiser','Prius','Yaris','Avensis'],'Volkswagen':['Golf','Passat','Tiguan','Polo','Touareg','Jetta','Transporter'],'Renault':['Megane','Scenic','Duster','Logan','Clio','Kangoo'],'Skoda':['Octavia','Fabia','Superb','Kodiaq','Rapid'],'BMW':['3 Series','5 Series','X1','X3','X5','X6'],'Mercedes-Benz':['C-Class','E-Class','S-Class','GLC','GLE','Sprinter'],'Audi':['A3','A4','A6','Q3','Q5','Q7'],'Ford':['Focus','Fiesta','Mondeo','Kuga','Transit'],'Hyundai':['Tucson','Santa Fe','Elantra','Sonata','i30'],'Kia':['Sportage','Ceed','Rio','Sorento'],'Nissan':['Qashqai','X-Trail','Leaf','Juke'],'Mazda':['3','6','CX-5','CX-30'],'Opel':['Astra','Vectra','Insignia','Zafira'],'Peugeot':['308','3008','508','Partner'],'Honda':['Civic','Accord','CR-V'],'Chevrolet':['Aveo','Lacetti','Cruze'],'Daewoo':['Lanos','Matiz','Nexia'],'ВАЗ':['2101','2106','2107','2109','2110','Niva'],'ЗАЗ':['Sens','Lanos','Forza','Tavria'],'Інша марка':[]};
+let chosen='',editingId=null,storedPhotos=[];
+const byId=id=>document.getElementById(id);
+const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function user(){try{return JSON.parse(localStorage.getItem('tyts_current_user')||'null')}catch(e){return null}}
+function uid(){const u=user();return u&&String(u.uid||u.firebaseId||u.id||'')}
+function show(id){hideAll();byId(id).style.display='block';byId('backButton').style.display='block';window.scrollTo(0,0)}
+function saleItems(){return Array.isArray(allServices)?allServices.filter(x=>x.category==='🛍️ Продам'):[]}
+function findOwn(id){return saleItems().find(x=>String(x.id||x.firebaseId)===String(id)&&String(x.ownerUid||x.uid||'')===uid())}
+function vehicleOn(){const active=byId('tytsSaleSub').value==='Авто та транспорт';byId('tytsSaleVehicleFields').hidden=!active;for(const key of ['tytsCarMake','tytsCarModel','tytsCarYear','tytsCarFuel'])byId(key).required=active}
+function changeMake(){const make=byId('tytsCarMake').value;const models=makes[make]||[];byId('tytsCarModel').innerHTML='<option value="">Оберіть модель</option>'+models.map(m=>'<option>'+esc(m)+'</option>').join('')+'<option value="Інша">Інша модель</option>';changeModel()}
+function changeModel(){const other=byId('tytsCarModel').value==='Інша';byId('tytsCarModelOther').style.display=other?'block':'none';byId('tytsCarModelOther').required=other}
+function carInfo(){return {make:byId('tytsCarMake').value,model:byId('tytsCarModel').value==='Інша'?byId('tytsCarModelOther').value.trim():byId('tytsCarModel').value,year:byId('tytsCarYear').value,fuel:byId('tytsCarFuel').value,gearbox:byId('tytsCarGearbox').value,mileage:byId('tytsCarMileage').value,engine:byId('tytsCarEngine').value,body:byId('tytsCarBody').value}}
+function setup(){byId('tytsCarMake').innerHTML='<option value="">Оберіть марку</option>'+Object.keys(makes).map(x=>'<option>'+esc(x)+'</option>').join('');const year=new Date().getFullYear()+1;byId('tytsCarYear').innerHTML='<option value="">Оберіть рік</option>'+Array.from({length:year-1950+1},(_,i)=>'<option>'+ (year-i) +'</option>').join('');byId('tytsCarMake').addEventListener('change',changeMake);byId('tytsCarModel').addEventListener('change',changeModel);byId('tytsSaleSub').addEventListener('change',vehicleOn);byId('tytsSalePhotos').addEventListener('change',previewPhotos)}
+function previewPhotos(){const root=byId('tytsSalePhotoPreview');root.replaceChildren();storedPhotos.forEach((photo,i)=>{const wrap=document.createElement('div'),img=document.createElement('img'),btn=document.createElement('button');img.src=photo;btn.textContent='×';btn.type='button';btn.title='Прибрати фото';btn.onclick=()=>{storedPhotos.splice(i,1);previewPhotos()};wrap.append(img,btn);root.appendChild(wrap)});const files=Array.from(byId('tytsSalePhotos').files||[]);const hint=document.createElement('small');hint.textContent=`Збережених фото: ${storedPhotos.length}. Нових: ${files.length}. Максимум 5.`;hint.style.color='#9ca3af';root.appendChild(hint)}
+window.tytsSaleOpen=function(){chosen='';show('tytsSaleMain');const root=byId('tytsSaleCategories');root.replaceChildren();saleGroups.forEach(([emoji,title])=>{const b=document.createElement('button');b.type='button';b.className='tyts-sale-tile';b.innerHTML='<span class="tyts-sale-emoji">'+emoji+'</span>'+esc(title);b.onclick=()=>window.tytsSaleOpenCategory(title);root.appendChild(b)})};
+window.tytsSaleOpenCategory=async function(title){chosen=title;show('tytsSaleCategory');byId('tytsSaleCategoryTitle').textContent='🛍️ '+title;byId('tytsSaleSort').value='new';byId('tytsSaleLocationFilter').value='';await renderSale()};
+window.tytsSaleRefresh=function(){renderSale(false)};
+async function renderSale(reload=true){const root=byId('tytsSaleListings');if(reload){root.innerHTML='<div class="empty">Завантажуємо товари…</div>';try{if(typeof window.firebaseLoadServices==='function')await window.firebaseLoadServices()}catch(e){console.warn('Не вдалося оновити товари:',e)}}const query=(byId('tytsSaleLocationFilter')?.value||'').trim().toLocaleLowerCase('uk');const sort=byId('tytsSaleSort')?.value||'new';const items=saleItems().filter(x=>x.saleSubcategory===chosen&&x.hidden!==true&&x.status!=='hidden'&&x.status!=='moderation'&&(!query||String(x.location||'').toLocaleLowerCase('uk').includes(query)));const ts=x=>Number(x.createdAtMs||x.createdAt||0);const price=x=>Number(String(x.price||0).replace(/[^0-9.]/g,''))||0;items.sort((a,b)=>sort==='old'?ts(a)-ts(b):sort==='priceLow'?price(a)-price(b):sort==='priceHigh'?price(b)-price(a):ts(b)-ts(a));root.replaceChildren();if(!items.length){root.innerHTML='<div class="empty">Товарів ще немає. Будьте першим продавцем!</div>';return}items.forEach(x=>{try{const wrap=document.createElement('div');const card=(window.createWorkerCard||createWorkerCard)(x);wrap.appendChild(card);if(uid()&&String(x.ownerUid||x.uid||'')===uid()){const edit=document.createElement('button');edit.className='tyts-sale-own-edit';edit.type='button';edit.textContent='✏️ Редагувати свій товар';edit.onclick=()=>window.tytsSaleEdit(x.id);wrap.appendChild(edit)}if(x.saleVehicle&&x.saleVehicle.make){const info=document.createElement('div');info.style.cssText='font-size:12px;color:#aeb8c5;padding:6px';info.textContent=[x.saleVehicle.make,x.saleVehicle.model,x.saleVehicle.year,x.saleVehicle.fuel].filter(Boolean).join(' · ');wrap.appendChild(info)}root.appendChild(wrap)}catch(e){console.error('Помилка картки товару:',e)}})}
+window.tytsSaleCreate=function(){if(!uid()){alert('Щоб додати товар, спочатку увійдіть у профіль.');return}editingId=null;storedPhotos=[];byId('tytsSaleForm').reset();byId('tytsSaleFormMessage').textContent='';byId('tytsSaleSub').innerHTML='<option value="">Оберіть категорію товару</option>'+saleGroups.map(g=>'<option value="'+esc(g[1])+'">'+g[0]+' '+esc(g[1])+'</option>').join('');byId('tytsSaleSub').value=chosen||'';changeMake();vehicleOn();previewPhotos();byId('tytsSaleSubmitButton').textContent='Опублікувати товар';byId('tytsSaleCancelEdit').style.display='none';show('tytsSaleCreate')};
+window.tytsSaleEdit=async function(id){if(!uid()){alert('Увійдіть у профіль');return}try{if(typeof window.firebaseLoadServices==='function')await window.firebaseLoadServices()}catch(e){}const item=findOwn(id);if(!item){alert('Редагувати може лише власник оголошення.');return}chosen=item.saleSubcategory;window.tytsSaleCreate();editingId=String(id);byId('tytsSaleTitle').value=item.service||'';byId('tytsSalePrice').value=item.price||'';byId('tytsSaleDescription').value=item.description||'';storedPhotos=Array.isArray(item.servicePhotos)?item.servicePhotos.slice(0,5):item.servicePhoto?[item.servicePhoto]:[];if(item.saleVehicle){const v=item.saleVehicle;byId('tytsCarMake').value=v.make||'';changeMake();byId('tytsCarModel').value=(makes[v.make]||[]).includes(v.model)?v.model:'Інша';changeModel();byId('tytsCarModelOther').value=v.model||'';for(const [id,key] of [['tytsCarYear','year'],['tytsCarFuel','fuel'],['tytsCarGearbox','gearbox'],['tytsCarMileage','mileage'],['tytsCarEngine','engine'],['tytsCarBody','body']])byId(id).value=v[key]||''}previewPhotos();byId('tytsSaleSubmitButton').textContent='Зберегти зміни';byId('tytsSaleCancelEdit').style.display='block'};
+function filePhoto(file){return new Promise((resolve,reject)=>{if(!file.type.startsWith('image/'))return reject(new Error('Оберіть лише фотографії'));const r=new FileReader();r.onerror=()=>reject(new Error('Помилка зчитування фото'));r.onload=()=>{const img=new Image();img.onerror=()=>reject(new Error('Пошкоджене фото'));img.onload=()=>{const k=Math.min(1,850/img.width,850/img.height),c=document.createElement('canvas');c.width=Math.max(1,Math.round(img.width*k));c.height=Math.max(1,Math.round(img.height*k));c.getContext('2d').drawImage(img,0,0,c.width,c.height);resolve(c.toDataURL('image/jpeg',.55))};img.src=r.result};r.readAsDataURL(file)})}
+window.tytsSaleSubmit=async function(e){e.preventDefault();const current=user(),owner=uid();if(!owner){alert('Увійдіть у профіль');return}const sub=byId('tytsSaleSub').value,title=byId('tytsSaleTitle').value.trim(),description=byId('tytsSaleDescription').value.trim(),price=byId('tytsSalePrice').value.trim();if(!saleGroups.some(g=>g[1]===sub)||!title||!description||!/^[0-9]+$/.test(price)){alert('Заповніть категорію, назву, ціну та опис');return}const vehicle=sub==='Авто та транспорт'?carInfo():{};if(sub==='Авто та транспорт'&&(!vehicle.make||!vehicle.model||!vehicle.year||!vehicle.fuel)){alert('Оберіть марку, модель, рік та тип пального');return}const files=Array.from(byId('tytsSalePhotos').files||[]);if(storedPhotos.length+files.length>5){alert('Максимум 5 фотографій. Спочатку приберіть зайві старі фото.');return}const button=byId('tytsSaleSubmitButton'),message=byId('tytsSaleFormMessage');button.disabled=true;message.textContent='Зберігаємо товар…';try{const photos=storedPhotos.slice();for(const f of files)photos.push(await filePhoto(f));const item=editingId?findOwn(editingId):null;if(editingId&&!item)throw new Error('Не вдалося підтвердити право редагування.');const data={category:'🛍️ Продам',saleSubcategory:sub,saleVehicle:vehicle,service:title,price,description,name:item?item.name:([current.name,current.surname].filter(Boolean).join(' ')||'Продавець'),phone:item?item.phone:(current.phone||''),location:item?item.location:(current.location||'м. Жмеринка'),ownerUid:owner,ownerEmail:current.email||'',ownerAvatar:current.photo||'',servicePhoto:photos[0]||'',servicePhotos:photos,status:item?(item.status||'active'):'active'};if(editingId){if(typeof window.firebaseUpdateMyService!=='function')throw new Error('Firebase не підтримує редагування');await window.firebaseUpdateMyService(editingId,data)}else{if(typeof window.firebaseAddService!=='function')throw new Error('Firebase недоступний');const id=await window.firebaseAddService(data);if(!id)throw new Error('Firebase не підтвердив запис')}message.textContent='✅ Збережено';editingId=null;storedPhotos=[];byId('tytsSaleForm').reset();chosen=sub;await window.tytsSaleOpenCategory(sub);setTimeout(()=>{if(byId('tytsSaleCategory').style.display==='block')renderSale()},1200)}catch(error){console.error('Помилка збереження товару:',error);message.textContent='❌ '+String(error.message||error)}finally{button.disabled=false}};
+// Одна кнопка «+» тепер відкриває вибір типу оголошення, не змінюючи стару форму послуг.
+const oldNavAdd=window.tytsNavAdd;
+window.tytsNavAdd=function(){const overlay=document.createElement('div');overlay.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.78);display:flex;align-items:center;justify-content:center;padding:18px;z-index:2147483646';overlay.innerHTML='<div style="width:min(360px,100%);background:#1b2430;color:white;padding:22px;border-radius:20px"><h3 style="margin-top:0">Що ви хочете додати?</h3><button type="button" data-type="service" class="add-button" style="margin-bottom:12px">🔧 Оголошення про послугу</button><button type="button" data-type="sale" class="add-button" style="margin-bottom:12px">🛍️ Продам товар</button><button type="button" data-type="cancel" style="border:0;background:#303846;color:white;border-radius:12px;padding:12px;width:100%">Скасувати</button></div>';document.body.appendChild(overlay);overlay.addEventListener('click',e=>{if(e.target===overlay||e.target.closest('[data-type]')){const type=e.target.closest('[data-type]')?.dataset.type;overlay.remove();if(type==='service'){if(typeof oldNavAdd==='function')oldNavAdd()}else if(type==='sale'){chosen='';window.tytsSaleCreate()}}})};
+const prevBack=window.goBack;window.goBack=function(){const visible=['tytsSaleMain','tytsSaleCategory','tytsSaleCreate'].find(id=>byId(id)&&byId(id).style.display==='block');if(visible==='tytsSaleCreate'){chosen?window.tytsSaleOpenCategory(chosen):window.tytsSaleOpen();return}if(visible==='tytsSaleCategory'){window.tytsSaleOpen();return}if(visible==='tytsSaleMain'){if(typeof window.goToHome==='function')window.goToHome();else{hideAll();byId('home').style.display='block';byId('backButton').style.display='none'}return}return prevBack.apply(this,arguments)};
+setup();
+})();
+</script>
+<script id="tyts-stage2-home-interaction">
+function tytsStage2ToggleCategories(){
+  var home=document.getElementById('home');
+  var button=document.getElementById('tytsAllCategoriesButton');
+  if(!home||!button)return;
+  var expanded=home.classList.toggle('tyts-stage2-expanded');
+  button.setAttribute('aria-expanded',String(expanded));
+  button.textContent=expanded?'Згорнути ↑':'Усі категорії →';
+}
+</script>
+<style id="tyts-support-layout-and-retire-popular">
+  #tytsPopularNearby{display:none!important}
+  .tyts-support-header{border:1px solid rgba(255,255,255,.13);background:#203c43;color:#fff;
+    border-radius:12px;padding:10px 12px;font-size:12px;font-weight:800;cursor:pointer;
+    white-space:nowrap;display:flex;gap:6px;align-items:center;justify-content:center}
+  .tyts-support-header{margin-right:18px;max-width:calc(100vw - 160px)}
+  .tyts-support-header:disabled{opacity:.55;cursor:wait}
+  @media(max-width:440px){.tyts-support-header{padding:10px 8px;font-size:11px;margin-right:10px}}
+</style>
+<script id="tyts-support-final-integration">
+(function(){
+  'use strict';
+  // Remove the deprecated home block without modifying rating storage or callbacks.
+  function retirePopular(){
+    const el=document.getElementById('tytsPopularNearby');
+    if(el)el.remove();
+  }
+  window.tytsRenderPopularNearby=function(){retirePopular();};
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',retirePopular);
+  else retirePopular();
+
+  let opening=false;
+  window.tytsOpenAdminSupport=async function(){
+    if(opening)return;
+    const button=document.getElementById('tytsSupportButton');
+    const authenticated=typeof window.firebaseGetCurrentAuthUid==='function'
+      ? String(window.firebaseGetCurrentAuthUid()||'') : '';
+    if(!authenticated){
+      alert('Щоб написати адміністратору, спочатку увійдіть у свій профіль.');
+      return;
+    }
+    if(typeof window.firebaseFindSupportAdmin!=='function' || typeof window.tytsOpenChatWithWorker!=='function'){
+      alert('Чат іще завантажується. Спробуйте за кілька секунд.');
+      return;
+    }
+    opening=true;
+    if(button)button.disabled=true;
+    try{
+      const admin=await window.firebaseFindSupportAdmin();
+      if(admin.uid===authenticated){
+        window.tytsNavChat(); // The superadmin sees all support requests in ordinary chats.
+        return;
+      }
+      window.tytsOpenChatWithWorker({
+        id:'tyts-support',service:'Зв’язок з адміністрацією ТИЦЬ',
+        ownerUid:admin.uid,name:'Адміністрація ТИЦЬ',ownerName:'Адміністрація ТИЦЬ'
+      });
+    }catch(e){
+      console.warn('TYTS support:',e);
+      alert('Не вдалося відкрити чат з адміном: '+(e&&e.message?e.message:'спробуйте пізніше.'));
+    }finally{
+      opening=false;
+      if(button)button.disabled=false;
+    }
+  };
+})();
+</script>
 </body>
 
 <style id="tyts-admin-panel-style">
@@ -14678,6 +14884,10 @@ html.tyts-dark .tyts-share-option.copy{
 
   document.addEventListener("DOMContentLoaded",refreshFinalPopular);
   if(document.readyState!=="loading")refreshFinalPopular();
+  // Дані Firebase надходять асинхронно: рендеримо після оновлення послуг і рейтингів.
+  // Не змінюємо підписки Firebase, стан оголошень чи поведінку логотипа.
+  window.addEventListener("tyts-services-updated",refreshFinalPopular);
+  window.addEventListener("tyts-ratings-updated",refreshFinalPopular);
 })();
 </script>
 
