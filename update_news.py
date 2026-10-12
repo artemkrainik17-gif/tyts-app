@@ -1,248 +1,216 @@
-
 #!/usr/bin/env python3
-"""Автоматичний збирач новин для ТИЦЬ."""
+"""ТИЦЬ: агрегатор прямих новинних сторінок/RSS без Google News.
+Не завантажує зображення на сервер: image — лише адреса з метаданих статті.
+Право відображати фотографії в застосунку треба узгодити з правовласниками.
+"""
+import calendar
 import json
 import os
 import re
-import html
+import time
 from datetime import datetime, timezone
-from urllib.parse import quote, urlparse, urljoin
+from email.utils import parsedate_to_datetime
+from urllib.parse import urljoin, urlparse, urlunparse
 
-import requests
 import feedparser
+import requests
 from bs4 import BeautifulSoup
 
-SESSION = requests.Session()
-SESSION.headers.update({
-    "User-Agent": "Mozilla/5.0 (compatible; TYTSNewsAggregator/1.1)",
-    "Accept-Language": "uk-UA,uk;q=0.9"
-})
+S = requests.Session()
+S.headers.update({'User-Agent': 'TYTS-NewsReader/2.0 (+https://github.com/artemkrainik17-gif/tyts-app)',
+                  'Accept-Language': 'uk-UA,uk;q=0.9,en;q=0.5'})
+TIMEOUT = 15
+MAX_AGE_DAYS = 21
+MAX_PER_SITE = 15
+MAX_ITEMS = 40
 
-QUERIES = {
-    "local": '(Жмеринка OR Жмеринський OR Браїлів OR Северинівка OR Станіславчик) (site:zhmerynka.city OR site:zhmr.gov.ua OR site:zhmerynka-rda.gov.ua)',
-    "region": '(Вінниця OR Вінниччина OR Вінницька область) (site:vin.gov.ua OR site:suspilne.media OR site:vn.20minut.ua)',
-    "ukraine": '(Україна OR українці) (site:ukrinform.ua OR site:suspilne.media OR site:pravda.com.ua)'
-}
+# Лише підтверджені сайти. RSS вказуємо там, де адресу знайдено на офіційній сторінці.
+SITES = [
+    ('local', 'Жмеринка.City', 'https://zhmerynka.city/articles', []),
+    ('local', 'Жмеринська міська рада', 'https://zhmr.gov.ua/', []),
+    ('local', 'Жмеринська РВА', 'https://zhmerynka-rda.gov.ua/', []),
+    ('region', 'Вінницька ОВА', 'https://vin.gov.ua/news', []),
+    ('region', '20 хвилин. Вінниця', 'https://vn.20minut.ua/', []),
+    ('region', 'Суспільне Вінниця', 'https://suspilne.media/vinnytsia/', []),
+    ('ukraine', 'Українська правда', 'https://www.pravda.com.ua/news/',
+     ['https://www.pravda.com.ua/rss/view_news/']),
+    ('ukraine', 'Укрінформ', 'https://www.ukrinform.ua/', []),
+    ('ukraine', 'Суспільне', 'https://suspilne.media/', []),
+]
+LOCAL_TERMS = re.compile(r'жмерин|браїл|северинів|станіславчик|шаргород|барськ|копайгород|мураф|джурин', re.I)
+REGION_TERMS = re.compile(r'вінниц|віннич|жмерин|гайсин|тульчин|хмільник|могилів.подільськ', re.I)
+ALERTS = re.compile(r'(повітрян\w* тривог|сирен\w*).{0,75}(почат|відбі|заверш|оголош|скасув)|'
+                    r'(почат|відбі|заверш|оголош|скасув).{0,75}(повітрян\w* тривог|сирен\w*)', re.I)
+EXCLUDE = re.compile(r'реклама|партнерськ\w* матеріал|на правах реклами', re.I)
 
-ALLOWED = {
-    "local": {"zhmerynka.city", "zhmr.gov.ua", "zhmerynka-rda.gov.ua"},
-    "region": {"vin.gov.ua", "suspilne.media", "vn.20minut.ua"},
-    "ukraine": {"ukrinform.ua", "suspilne.media", "pravda.com.ua"}
-}
+def host(u):
+    try: return (urlparse(u).hostname or '').lower().removeprefix('www.')
+    except ValueError: return ''
 
-SOURCES = {
-    "zhmerynka.city": "Жмеринка.City",
-    "zhmr.gov.ua": "Жмеринська міська рада",
-    "zhmerynka-rda.gov.ua": "Жмеринська РВА",
-    "vin.gov.ua": "Вінницька ОВА",
-    "suspilne.media": "Суспільне",
-    "vn.20minut.ua": "20 хвилин. Вінниця",
-    "ukrinform.ua": "Укрінформ",
-    "pravda.com.ua": "Українська правда"
-}
+def allowed(u, base):
+    h, b = host(u), host(base)
+    return urlparse(u).scheme == 'https' and (h == b or h.endswith('.' + b))
 
-BLOCK = re.compile(
-    r"((початок|кінець|відбій|оголошення|скасування|лунає|пролунала).{0,65}"
-    r"(повітрян\w* тривог|сирен)|повітрян\w* тривог.{0,65}"
-    r"(початок|кінець|відбій|оголошен|скасуван))",
-    re.I
-)
+def canonical(u):
+    p = urlparse(u)
+    return urlunparse((p.scheme, p.netloc, p.path.rstrip('/') or '/', '', '', ''))
 
-def clean(value):
-    soup = BeautifulSoup(html.unescape(value or ""), "html.parser")
-    return re.sub(r"\s+", " ", soup.get_text(" ", strip=True)).strip()
+def get(u):
+    r = S.get(u, timeout=TIMEOUT)
+    r.raise_for_status()
+    return r
 
-def hostname(url):
+def text(v):
+    return re.sub(r'\s+', ' ', BeautifulSoup(str(v or ''), 'html.parser').get_text(' ', strip=True)).strip()
+
+def iso_date(raw):
+    if not raw: return ''
     try:
-        return (urlparse(url).hostname or "").lower().removeprefix("www.")
+        d = datetime.fromisoformat(str(raw).replace('Z', '+00:00'))
+        return d.replace(tzinfo=timezone.utc).isoformat() if d.tzinfo is None else d.astimezone(timezone.utc).isoformat()
     except (ValueError, TypeError):
-        return ""
+        try: return parsedate_to_datetime(str(raw)).astimezone(timezone.utc).isoformat()
+        except (ValueError, TypeError, OverflowError): return ''
 
-def accepted_host(url, area):
-    host = hostname(url)
-    if urlparse(url).scheme == "https" and host in ALLOWED[area]:
-        return host
-    return None
+def meta(soup, *selectors):
+    for attr, name in selectors:
+        el = soup.find('meta', attrs={attr: name})
+        if el and el.get('content'): return el['content'].strip()
+    return ''
 
-def resolve(link):
-    if not link:
-        return ""
-    if hostname(link) not in {"news.google.com", "google.com"}:
-        return link
+def extract_article(url, area, source, base, feed_title='', feed_date='', feed_description='', feed_image=''):
+    if not allowed(url, base): return None
     try:
-        from googlenewsdecoder import gnewsdecoder
-        result = gnewsdecoder(link, interval=1)
-        if isinstance(result, dict):
-            decoded = result.get("decoded_url", "")
-            if decoded and hostname(decoded) not in {"news.google.com", "google.com"}:
-                return decoded
-    except Exception as exc:
-        print("DECODER ERROR:", str(exc)[:180], flush=True)
-    try:
-        response = SESSION.get(link, timeout=14, allow_redirects=True)
-        if hostname(response.url) not in {"news.google.com", "google.com"}:
-            return response.url
+        r = get(url)
+        if not allowed(r.url, base): return None
+        soup = BeautifulSoup(r.text[:850000], 'html.parser')
+        kind = meta(soup, ('property','og:type'))
+        if kind and kind not in ('article', 'news', 'website'): return None
+        title = text(meta(soup, ('property','og:title'), ('name','twitter:title')) or
+                     (soup.title.get_text(' ',strip=True) if soup.title else feed_title))
+        if not title or len(title) < 18: return None
+        description = text(meta(soup, ('name','description'), ('property','og:description')) or feed_description)
+        if EXCLUDE.search(title) or ALERTS.search(title + ' ' + description): return None
+        if area == 'local' and not (LOCAL_TERMS.search(title + ' ' + description) or host(base) in ('zhmerynka.city','zhmr.gov.ua','zhmerynka-rda.gov.ua')):
+            return None
+        if area == 'region' and not (REGION_TERMS.search(title + ' ' + description) or host(base) == 'vn.20minut.ua' or 'vinnytsia' in url):
+            return None
+        raw_date = (meta(soup, ('property','article:published_time'), ('itemprop','datePublished'),
+                         ('name','date'), ('name','pubdate')) or feed_date)
+        dt = iso_date(raw_date)
+        if not dt:
+            for tag in soup.find_all('time', limit=3):
+                dt = iso_date(tag.get('datetime'))
+                if dt: break
+        # Не вигадуємо дату новини; матеріали без дати допускаються лише з RSS.
+        if not dt: return None
+        try:
+            days = (datetime.now(timezone.utc) - datetime.fromisoformat(dt)).total_seconds()/86400
+            if days > MAX_AGE_DAYS or days < -1: return None
+        except ValueError: return None
+        image = meta(soup, ('property','og:image'), ('name','twitter:image'), ('property','twitter:image')) or feed_image
+        image = urljoin(r.url,image) if image else ''
+        if urlparse(image).scheme != 'https': image = ''
+        final = canonical(r.url)
+        return {'area': area, 'title': title[:200], 'url': final, 'date': dt,
+                'excerpt': description[:320], 'image': image, 'source': source}
     except requests.RequestException as exc:
-        print("REDIRECT ERROR:", str(exc)[:180], flush=True)
-    return link
+        print('ARTICLE ERROR', source, str(exc)[:120], flush=True)
+        return None
 
-def metadata(url):
+def discover(base, homepage, configured):
+    feeds = list(configured)
+    links = []
     try:
-        response = SESSION.get(url, timeout=14)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text[:700000], "html.parser")
-
-        def get_meta(*selectors):
-            for key, value in selectors:
-                node = soup.find("meta", attrs={key: value})
-                if node and node.get("content"):
-                    return node["content"].strip()
-            return ""
-
-        image = get_meta(
-            ("property", "og:image"),
-            ("name", "twitter:image"),
-            ("property", "twitter:image")
-        )
-        image = urljoin(url, image) if image else ""
-        if not image.startswith("https://"):
-            image = ""
-
-        description = get_meta(
-            ("name", "description"),
-            ("property", "og:description")
-        )
-        return image, clean(description)[:320]
+        page = get(homepage)
+        soup = BeautifulSoup(page.text[:1200000], 'html.parser')
+        for a in soup.select('link[rel="alternate"]'):
+            typ = (a.get('type') or '').lower()
+            if ('rss' in typ or 'atom' in typ) and a.get('href'):
+                feed = urljoin(page.url, a['href'])
+                if allowed(feed, base): feeds.append(feed)
+        for a in soup.find_all('a', href=True, limit=500):
+            u = urljoin(page.url,a['href'])
+            if not allowed(u,base): continue
+            path = urlparse(u).path
+            if any(x in path for x in ('/articles/', '/news/', '/article/', '/2026/', '/novyny/')):
+                if u not in links: links.append(u)
     except requests.RequestException as exc:
-        print("ARTICLE ERROR:", hostname(url), str(exc)[:140], flush=True)
-        return "", ""
+        print('LISTING ERROR', homepage, str(exc)[:150], flush=True)
+    return list(dict.fromkeys(feeds)), links[:MAX_PER_SITE*3]
 
-def collect(area, query):
-    rss = (
-        "https://news.google.com/rss/search?q="
-        + quote(query)
-        + "&hl=uk&gl=UA&ceid=UA:uk"
-    )
+def from_feed(url, area, source, base):
+    out=[]
     try:
-        response = SESSION.get(rss, timeout=25)
-        response.raise_for_status()
+        response = get(url)
         feed = feedparser.parse(response.content)
-        entries = feed.entries
-        print(area, "RSS entries:", len(entries), flush=True)
+        if not feed.entries:
+            print('EMPTY RSS', source, url, flush=True)
+        for item in feed.entries[:MAX_PER_SITE*2]:
+            direct = item.get('link', '')
+            if not allowed(direct,base): continue
+            date = iso_date(item.get('published','') or item.get('updated',''))
+            if not date and item.get('published_parsed'):
+                date = datetime.fromtimestamp(calendar.timegm(item.published_parsed),timezone.utc).isoformat()
+            image = ''
+            if item.get('media_content'):
+                image = item.media_content[0].get('url','')
+            article = extract_article(direct,area,source,base,item.get('title',''),date,
+                                      item.get('summary',''),image)
+            if article: out.append(article)
+            if len(out)>=MAX_PER_SITE: break
     except requests.RequestException as exc:
-        print(area, "RSS ERROR:", str(exc), flush=True)
-        return []
+        print('RSS ERROR', source, str(exc)[:150], flush=True)
+    return out
 
-    articles = []
-    rejected = 0
+def collect(area, source, page, configured):
+    base = 'https://' + host(page)
+    feeds, links = discover(base,page,configured)
+    found=[]; seen=set()
+    for f in feeds[:4]:
+        for item in from_feed(f,area,source,base):
+            if item['url'] not in seen: seen.add(item['url']); found.append(item)
+    if len(found)<MAX_PER_SITE:
+        for u in links:
+            if canonical(u) in seen: continue
+            item=extract_article(u,area,source,base)
+            if item and item['url'] not in seen:
+                seen.add(item['url']);found.append(item)
+            if len(found)>=MAX_PER_SITE: break
+    print('SOURCE',source,'feeds',len(feeds),'article_candidates',len(links),'accepted',len(found),flush=True)
+    return found
 
-    for entry in entries[:50]:
-        title = clean(entry.get("title", ""))
-        if " - " in title:
-            title = title.rsplit(" - ", 1)[0]
-        if not title or BLOCK.search(title):
-            continue
-
-        article_url = resolve(entry.get("link", ""))
-        host = accepted_host(article_url, area)
-
-        if not host:
-            rejected += 1
-            if rejected <= 8:
-                print(area, "SKIPPED URL:", article_url[:180], flush=True)
-            continue
-
-        published = entry.get("published_parsed") or entry.get("updated_parsed")
-        date = (
-            datetime(*published[:6], tzinfo=timezone.utc).isoformat()
-            if published else ""
-        )
-        image, description = metadata(article_url)
-        if not description:
-            description = clean(entry.get("summary", ""))[:320]
-
-        articles.append({
-            "area": area,
-            "title": title[:220],
-            "url": article_url,
-            "date": date,
-            "excerpt": description,
-            "image": image,
-            "source": SOURCES[host]
-        })
-        print(area, "ACCEPTED:", host, "IMAGE:", bool(image), flush=True)
-
-    print(
-        area,
-        "ACCEPTED COUNT:", len(articles),
-        "REJECTED LINKS:", rejected,
-        flush=True
-    )
-    return articles
-
-def interleave(groups, limit=60):
-    pattern = [
-        "local", "region", "ukraine",
-        "local", "region", "ukraine",
-        "local", "region", "ukraine", "local"
-    ]
-
-    for items in groups.values():
-        items.sort(key=lambda x: x["date"], reverse=True)
-
-    result = []
-    seen = set()
-
-    while len(result) < limit:
-        changed = False
-        for area in pattern:
-            while groups[area]:
-                item = groups[area].pop(0)
-                key = re.sub(r"\W+", "", item["title"].lower())[:110]
-                if key in seen:
-                    continue
-                seen.add(key)
-                result.append(item)
-                changed = True
-                break
-            if len(result) >= limit:
-                break
-        if not changed:
-            break
-
-    return result
+def interleave(groups, limit=MAX_ITEMS):
+    # 10 позицій: 4 місцеві, 3 обласні, 3 загальноукраїнські.
+    pattern=('local','region','ukraine','local','region','ukraine','local','region','ukraine','local')
+    for items in groups.values(): items.sort(key=lambda x:x['date'],reverse=True)
+    output=[]; seen=set()
+    while len(output)<limit:
+        added=False
+        for category in pattern:
+            while groups[category]:
+                item=groups[category].pop(0)
+                key=re.sub(r'\W+','',item['title'].casefold())[:120]
+                if key in seen:continue
+                seen.add(key);output.append(item);added=True;break
+            if len(output)>=limit:break
+        if not added:break
+    return output
 
 def main():
-    groups = {
-        area: collect(area, query)
-        for area, query in QUERIES.items()
-    }
-    output = os.environ.get("NEWS_OUTPUT", "news.json")
-    news = interleave(groups)
-
+    groups={'local':[], 'region':[], 'ukraine':[]}
+    for area,source,page,configured in SITES:
+        groups[area].extend(collect(area,source,page,configured))
+    print('CATEGORY COUNTS', {k:len(v) for k,v in groups.items()},flush=True)
+    news=interleave(groups)
     if not news:
-        print(
-            "ERROR: No articles collected. "
-            "Check RSS entries, SKIPPED URL and DECODER ERROR.",
-            flush=True
-        )
+        print('ERROR: No verified direct articles. Existing news.json preserved.',flush=True)
         raise SystemExit(1)
+    output=os.getenv('NEWS_OUTPUT','news.json')
+    payload={'updated_at':datetime.now(timezone.utc).isoformat(),
+             'distribution_target':{'local':40,'region':30,'ukraine':30},'items':news}
+    with open(output+'.tmp','w',encoding='utf-8') as f:json.dump(payload,f,ensure_ascii=False,indent=2)
+    os.replace(output+'.tmp',output)
+    print('SUCCESS',len(news),'items; with images',sum(bool(n['image']) for n in news),flush=True)
 
-    data = {
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "distribution_target": {
-            "local": 40,
-            "region": 30,
-            "ukraine": 30
-        },
-        "items": news
-    }
-
-    with open(output + ".tmp", "w", encoding="utf-8") as file:
-        json.dump(data, file, ensure_ascii=False, indent=2)
-
-    os.replace(output + ".tmp", output)
-    print("SUCCESS: Saved", len(news), "articles", flush=True)
-
-if __name__ == "__main__":
-    main()
+if __name__=='__main__':main()
