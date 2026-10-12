@@ -1660,6 +1660,28 @@ html:not(.tyts-dark) .tyts-news-heading h2{color:#111827}html:not(.tyts-dark) .t
 #tyts-news-home-status{font-size:11px}
 @media(min-width:760px){#tyts-news-strip .tyts-news-card{flex-basis:285px}}
 </style>
+<style id="tyts-news-compact-collapse-20261012">
+/* Лише компактні новини на головній. Повний перегляд і НБУ не змінюємо. */
+#tyts-news-home .tyts-news-head-actions{display:flex;align-items:center;gap:12px}
+#tyts-news-home .tyts-news-head-actions button{font-size:12px}
+#tyts-news-strip .tyts-news-card{flex:0 0 clamp(135px,43vw,172px)!important;border-radius:13px}
+#tyts-news-strip .tyts-news-cover{height:82px!important}
+#tyts-news-strip .tyts-news-content{padding:8px 9px 9px;gap:4px}
+#tyts-news-strip .tyts-news-title{font-size:12px;line-height:1.24;-webkit-line-clamp:3}
+#tyts-news-strip .tyts-news-date{font-size:10px}
+#tyts-news-strip .tyts-news-source{font-size:9px;padding-top:3px}
+#tyts-news-strip .tyts-news-tag{font-size:9px;padding:3px 6px;left:7px;bottom:6px}
+#tyts-news-home-status{display:none}
+#tyts-news-home.tyts-news-collapsed{margin-bottom:8px}
+#tyts-news-home.tyts-news-collapsed #tyts-news-collapsible{display:none}
+@media(max-width:390px){#tyts-news-home .tyts-news-heading h2{font-size:17px}#tyts-news-home .tyts-news-head-actions{gap:5px}#tyts-news-home .tyts-news-head-actions button{font-size:10px}#tyts-news-strip .tyts-news-card{flex-basis:43vw!important}}
+</style>
+<style id="tyts-news-missing-photo-style">
+.tyts-news-missing-photo{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;background:radial-gradient(circle at 28% 18%,#315e6b 0%,transparent 53%),linear-gradient(145deg,#162e43,#172b34);color:#dbeafe;font-size:12px;font-weight:700;z-index:0}
+.tyts-news-missing-photo span:first-child{font-size:38px;line-height:1.15}
+.tyts-news-cover .tyts-news-image{z-index:1}
+.tyts-news-cover .tyts-news-tag{z-index:2}
+</style>
 </head>
 
 <body>
@@ -1724,9 +1746,10 @@ style="display:block">
 
 <!-- TYTS NEWS: самостійний блок, решта головної сторінки не змінюється -->
 <section id="tyts-news-home" class="tyts-news-section" aria-label="Новини громади">
-  <div class="tyts-news-heading"><h2>📰 Новини громади</h2><button type="button" onclick="tytsNewsOpenAll()">Усі новини →</button></div>
+  <div class="tyts-news-heading"><h2>📰 Новини громади</h2><div class="tyts-news-head-actions"><button type="button" onclick="tytsNewsOpenAll()">Усі новини →</button><button id="tyts-news-toggle" type="button" aria-expanded="true" onclick="tytsNewsToggle()">Згорнути ▴</button></div></div><div id="tyts-news-collapsible">
   <div id="tyts-news-strip" class="tyts-news-strip" aria-live="polite"><div class="tyts-news-note">Завантажуємо новини з відкритих джерел…</div></div>
   <div id="tyts-news-home-status" class="tyts-news-footnote"></div>
+  </div>
 </section>
 <section id="tyts-nbu-home" class="tyts-nbu-section" aria-label="Офіційний курс валют">
   <div class="tyts-news-heading"><h2>💱 Офіційний курс НБУ</h2><a href="https://bank.gov.ua/ua/markets/exchangerates" target="_blank" rel="noopener noreferrer">Джерело: НБУ ↗</a></div>
@@ -1976,7 +1999,7 @@ onclick="showOther()">
 
 <section id="tytsNewsPage" class="page tyts-news-all-page" aria-label="Усі новини громади">
  <div class="tyts-news-heading"><h2>📰 Новини громади</h2><button type="button" onclick="tytsNewsBack()">← На головну</button></div>
- <p class="tyts-news-intro">Жмеринка та Жмеринський район: 60%. Вінниця та область: 40%. Публікації з посиланнями на першоджерела.</p>
+ <p class="tyts-news-intro">Жмеринка та район: 40%. Вінниця та область: 30%. Україна: 30%. Прямі посилання на першоджерела.</p>
  <div id="tyts-news-all-list" class="tyts-news-all-list"><div class="tyts-news-note">Завантажуємо…</div></div>
 </section>
 
@@ -12435,93 +12458,44 @@ function tytsStage2ToggleCategories(){
   update();
 })();
 </script>
-<script id="tyts-news-v1-js">
+<script id="tyts-news-v2-js">
 (function(){
  'use strict';
- // Окремий модуль: лише відображення публічних новин і курсів НБУ.
- // RSS отримуємо через сторонній публічний шлюз rss2json; його доступність не гарантована.
- const CACHE='tyts_news_public_v1',TTL=15*60*1000, NEWS_MAX=45;
- const feeds=[
-  {area:'local',query:'Жмеринка OR Жмеринський район OR Браїлів OR Северинівка OR Станіславчик site:zhmerynka.city OR site:zhmr.gov.ua OR site:zhmerinka-adm.gov.ua'},
-  {area:'region',query:'Вінниця OR Вінницька область site:vn.20minut.ua OR site:vin.gov.ua'}
- ];
- const blocked=/(повітрян\w*\s+тривог|сигнал\w*\s+тривог|відбі[йю]\s+тривог|почат\w*\s+тривог|кінець\s+тривог|оголошен\w*\s+тривог|скасуван\w*\s+тривог)/iu;
- const safeUrl=u=>{try{const x=new URL(u);return ['https:','http:'].includes(x.protocol)?x.href:''}catch(_){return ''}};
- const text=s=>{const el=document.createElement('div');el.innerHTML=String(s||'');return(el.textContent||'').trim()};
+ // Set this to the raw public HTTPS URL for news.json produced by the hourly GitHub workflow.
+ const TYTS_NEWS_FEED_URL='https://raw.githubusercontent.com/artemkrainik17-gif/tyts-app/main/news.json';
+ const NEWS_TTL=60*60*1000, NBU_TTL=30*60*1000, CACHE='tyts_news_feed_v2';
+ const allowed={local:['zhmerynka.city','zhmr.gov.ua','zhmerynka-rda.gov.ua'],region:['vin.gov.ua','vn.20minut.ua','suspilne.media'],ukraine:['ukrinform.ua','suspilne.media','pravda.com.ua']};
+ const prohibited=/(повітрян\w*\s+тривог|сигнал\w*\s+тривог|відбі[йю]\s+тривог|почат\w*\s+тривог|кінець\s+тривог|оголошен\w*\s+тривог|скасуван\w*\s+тривог)/iu;
  const byId=id=>document.getElementById(id);
- const dateString=s=>{const d=new Date(s);return Number.isNaN(d.getTime())?'Дата не вказана':new Intl.DateTimeFormat('uk-UA',{day:'numeric',month:'short',year:'numeric'}).format(d)};
- const source=u=>{try{const host=new URL(u).hostname.replace(/^www\./,'');return ({'zhmerynka.city':'Жмеринка.City','zhmr.gov.ua':'Жмеринська міська рада','zhmerinka-adm.gov.ua':'Жмеринська міська рада','vn.20minut.ua':'20 хвилин. Вінниця','vin.gov.ua':'Вінницька ОВА'})[host]||host}catch(_){return 'Google Новини (першоджерело за посиланням)'}};
- const VERIFIED_SNAPSHOT=[
- {area:'local',title:'У Жмеринці стартували депутатські комісії перед 80-ю сесією',date:'2026-10-09',source:'Жмеринка.City',excerpt:'9 жовтня депутати розпочали розгляд проєктів рішень до сесії 15 жовтня. Серед питань: підтримка громади, медицина та освіта.',url:'https://zhmerynka.city/articles/482080/u-zhmerinci-startuvali-deputatski-komisii-yaki-pitannya-vinosyat-na-80-sesiyu-miskoi-radi-15-zhovtnya',image:'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=650&q=75'},
- {area:'region',title:'Вінничанам пояснили зміни в субсидіях у жовтні',date:'',source:'20 хвилин. Вінниця',excerpt:'Огляд змін для жителів Вінниччини: перерахунок житлових субсидій на опалювальний сезон та випадки, коли необхідно подати заяву.',url:'https://vn.20minut.ua/Podii/tarifi-subsidiyi-novi-pravila-scho-zminitsya-dlya-vinnichan-u-zhovtni-12008746.html',image:'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=650&q=75'},
- {area:'local',title:'У Жмеринці порушили питання протидії кібербулінгу',date:'2026-10-09',source:'Жмеринка.City',excerpt:'Повідомили про блокування анонімного Telegram-каналу, де поширювали матеріали з ознаками цькування. Питання дійшло до Верховної Ради.',url:'https://zhmerynka.city/articles/482005/-u-zhmerinci-zablokuvali-anonimnij-telegram-kanal-pitannya-kiberbulingu-dijshlo-do-verhovnoi-radi',image:'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=650&q=75'},
- {area:'region',title:'У Вінниці розповіли про тарифи на опалення на новий сезон',date:'',source:'20 хвилин. Вінниця',excerpt:'Вінницьке видання пояснює ухвалені тарифи КП «Вінницяміськтеплоенерго» та від чого залежатимуть рахунки мешканців.',url:'https://vn.20minut.ua/Podii/opalyuvalniy-sezon-iz-novimi-tarifami-skilki-platitimut-vinnichani-12009274.html',image:'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=650&q=75'},
- {area:'local',title:'У Жмеринці оновлюють вуличне освітлення мікрорайону «Петрівка»',date:'',source:'Жмеринка.City',excerpt:'Енергетики та комунальні служби замінюють старі опори й ліхтарі на нові бетонні опори та енергоефективні LED-світильники.',url:'https://zhmerynka.city/articles/479568/u-zhmerinci-na-petrivci-zaminyuyut-opori-ta-vstanovlyuyut-novi-led-lihtari',image:'https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=650&q=75'}
- ];
- let items=VERIFIED_SNAPSHOT.slice();
- function mix(local,region){const result=[];let a=0,b=0;while(result.length<NEWS_MAX&&(a<local.length||b<region.length)){
-  for(const area of ['local','region','local','region','local']){if(result.length>=NEWS_MAX)break;if(area==='local'&&a<local.length)result.push(local[a++]);else if(area==='region'&&b<region.length)result.push(region[b++]);}
-  if(a>=local.length&&b>=region.length)break;
- }return result;}
- function addCover(cover,item){
-  const imgUrl=safeUrl(item.image||'');
-  if(imgUrl){const img=document.createElement('img');img.className='tyts-news-image';img.src=imgUrl;img.alt='Ілюстративне фото до новини';img.loading='lazy';img.referrerPolicy='no-referrer';img.onerror=()=>{img.remove();addIllustration(cover,item)};cover.appendChild(img)}else addIllustration(cover,item);
+ let items=[],lastNews=0,lastNbu=0,loading=false;
+ function safeUrl(url){try{let u=new URL(url);return u.protocol==='https:'?u.href:''}catch(_){return ''}}
+ function good(item){if(!item||!allowed[item.area])return false;let link=safeUrl(item.url);if(!link)return false;let host=new URL(link).hostname.replace(/^www\./,'').toLowerCase();return allowed[item.area].includes(host)&&!prohibited.test(String(item.title||'')+' '+String(item.excerpt||''))}
+ function dateString(s){const d=new Date(s);return !s||Number.isNaN(+d)?'Дата не вказана':new Intl.DateTimeFormat('uk-UA',{day:'numeric',month:'short',year:'numeric'}).format(d)}
+ function category(x){return x==='local'?'Жмеринщина':x==='region'?'Вінниччина':'Україна'}
+ function mix(all){const q={local:[],region:[],ukraine:[]};const seen=new Set();for(const x of all){if(!good(x))continue;const key=String(x.title||'').toLowerCase().replace(/[^\p{L}\p{N}]/gu,'').slice(0,110);if(!key||seen.has(key))continue;seen.add(key);q[x.area].push(x)}for(const k of Object.keys(q))q[k].sort((a,b)=>Date.parse(b.date||0)-Date.parse(a.date||0));const order=['local','region','ukraine','local','region','ukraine','local','region','ukraine','local'],out=[];for(let cycle=0;cycle<12;cycle++){let added=0;for(let k of order){if(q[k].length){out.push(q[k].shift());added++}}if(!added)break}return out.slice(0,60)}
+ function addCover(node,item){drawFallback(node);const url=safeUrl(item.image||'');if(url){const image=new Image();image.className='tyts-news-image';image.alt='Фото з першоджерела';image.loading='lazy';image.referrerPolicy='no-referrer';image.onload=()=>{const fallback=node.querySelector('.tyts-news-missing-photo');if(fallback)fallback.remove()};image.onerror=()=>{image.remove()};image.src=url;node.appendChild(image)}else drawFallback(node)}
+ function drawFallback(node){
+   if(node.querySelector('.tyts-news-missing-photo'))return;
+   const label = node.classList.contains('local')?'Жмеринщина':'Новини';
+   const badge=document.createElement('div');
+   badge.className='tyts-news-missing-photo';
+   const symbol=document.createElement('span');symbol.textContent='📰';
+   const text=document.createElement('span');text.textContent='Фото відсутнє';
+   badge.append(symbol,text);
+   node.prepend(badge);
  }
- function addIllustration(cover,item){
-  // Вбудована тематична картинка: гарантовано видно навіть без інтернету.
-  const i=VERIFIED_SNAPSHOT.indexOf(item);const presets=[
-   ['#153c55','#43b0a5','Міська рада','🏛️'],
-   ['#245077','#58a6dd','Житлові субсидії','🏠'],
-   ['#423e79','#ae77cc','Безпечний інтернет','🛡️'],
-   ['#6c3c23','#eda75f','Опалювальний сезон','♨️'],
-   ['#183959','#f5c76e','Вуличне освітлення','💡']
-  ];const p=presets[Math.max(0,i)%presets.length];
-  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450"><defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="${p[0]}"/><stop offset="1" stop-color="${p[1]}"/></linearGradient></defs><rect width="800" height="450" fill="url(#g)"/><circle cx="650" cy="85" r="155" fill="#ffffff" opacity=".09"/><circle cx="160" cy="340" r="190" fill="#ffffff" opacity=".07"/><text x="400" y="222" font-size="135" text-anchor="middle">${p[3]}</text><rect x="80" y="320" rx="23" width="640" height="79" fill="#071626" opacity=".57"/><text x="400" y="372" font-size="36" font-weight="bold" fill="white" font-family="Arial,sans-serif" text-anchor="middle">${p[2]}</text></svg>`;
-  const img=document.createElement('img');img.className='tyts-news-image';img.alt='Тематична ілюстрація, не фотографія події';img.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);cover.insertBefore(img,cover.firstChild)
- }
- function openPreview(item){
-  document.getElementById('tytsNewsPreview')?.remove();const overlay=document.createElement('div');overlay.id='tytsNewsPreview';overlay.className='tyts-news-preview-overlay';overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label','Перегляд новини');
-  const panel=document.createElement('div');panel.className='tyts-news-preview';const close=document.createElement('button');close.className='tyts-news-preview-close';close.type='button';close.textContent='✕';close.setAttribute('aria-label','Закрити');close.onclick=()=>overlay.remove();
-  const cover=document.createElement('div');cover.className='tyts-news-cover tyts-news-preview-cover '+(item.area==='local'?'local':'');addCover(cover,item);
-  const content=document.createElement('div');content.className='tyts-news-preview-content';const meta=document.createElement('div');meta.className='tyts-news-date';meta.textContent=dateString(item.date)+' · '+(item.area==='local'?'Жмеринщина':'Вінниччина');
-  const h=document.createElement('h2');h.textContent=item.title;const desc=document.createElement('p');desc.className='tyts-news-preview-excerpt';desc.textContent=item.excerpt||'Читайте детальніше у першоджерелі.';
-  const sourceLine=document.createElement('div');sourceLine.className='tyts-news-source';sourceLine.textContent='Джерело: '+item.source;
-  const more=document.createElement('a');more.className='tyts-news-read-more';more.textContent='Читати далі →';more.href=item.url;more.target='_blank';more.rel='noopener noreferrer';
-  content.append(meta,h,desc,sourceLine,more);panel.append(close,cover,content);overlay.appendChild(panel);overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.remove()});document.body.appendChild(overlay);close.focus();
- }
- function newsLink(item){const a=document.createElement('button');a.type='button';a.className='tyts-news-card';a.setAttribute('aria-label','Переглянути новину: '+item.title);a.addEventListener('click',()=>openPreview(item));
-  const cover=document.createElement('div');cover.className='tyts-news-cover '+(item.area==='local'?'local':'');addCover(cover,item);
-  const tag=document.createElement('span');tag.className='tyts-news-tag '+(item.area==='local'?'':'regional');tag.textContent=item.area==='local'?'Жмеринщина':'Вінниччина';cover.appendChild(tag);a.appendChild(cover);
-  const body=document.createElement('div');body.className='tyts-news-content';
-  for(const [cls,value] of [['tyts-news-date',dateString(item.date)],['tyts-news-title',item.title],['tyts-news-source','Джерело: '+item.source+' ↗']]){const div=document.createElement('div');div.className=cls;div.textContent=value;body.appendChild(div)}
-  a.appendChild(body);return a;}
- function fallback(){const box=document.createElement('div');box.className='tyts-news-note';box.append('Автоматична стрічка тимчасово недоступна. Перевірте новини у джерелах: ');
-  [['Жмеринка.City','https://zhmerynka.city/'],['Жмеринська міська рада','https://zhmr.gov.ua/'],['20 хвилин. Вінниця','https://vn.20minut.ua/'],['Вінницька ОВА','https://vin.gov.ua/news']].forEach(([name,url],i)=>{if(i)box.append(' · ');const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=name;box.appendChild(a)});return box;}
- function render(){for(const id of ['tyts-news-strip','tyts-news-all-list']){const root=byId(id);if(!root)continue;root.replaceChildren();if(!items.length){root.appendChild(fallback());continue}items.forEach(x=>root.appendChild(newsLink(x)));}
-  const note=byId('tyts-news-home-status');if(note)note.textContent=items.length?'Натисніть картку для короткого перегляду. Фото ілюстративні; «Читати далі» веде на конкретну статтю. Оновлення стрічки в тестовому режимі.':'Новини оновляться після відновлення доступу до RSS.';
- }
- function normalize(raw,area){const full=text(raw.title||'');const match=full.match(/\s+-\s+([^-]{2,65})$/u);const title=(match?full.slice(0,match.index):full).trim(),url=safeUrl(raw.link||raw.guid||'');if(!title||!url||blocked.test(title+' '+text(raw.description||'')))return null;const publisher=match?match[1].trim():'';const plain=text(raw.description||raw.content||'').replace(/\s+/g,' ').trim();const excerpt=plain&&plain!==full&&plain!==title&&!plain.startsWith(title)?plain.slice(0,350):'';
-  const enclosure=raw.enclosure&&typeof raw.enclosure==='object'?(raw.enclosure.link||raw.enclosure.url):'';
-  const imgHtml=String(raw.description||raw.content||'').match(/<img[^>]+src=["']([^"']+)["']/i);
-  const image=safeUrl(raw.thumbnail||enclosure||(imgHtml&&imgHtml[1])||'');
-  return {title,url,area,date:raw.pubDate||'',excerpt,image,source:publisher||((raw.author&&raw.author!=='Google News')?text(raw.author):source(url))};}
- async function fetchFeed(feed){const query=encodeURIComponent(feed.query),rss='https://news.google.com/rss/search?q='+query+'&hl=uk&gl=UA&ceid=UA:uk';const api='https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent(rss)+'&count=50';const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),9500);
-  try{const response=await fetch(api,{signal:controller.signal,cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);const data=await response.json();if(data.status!=='ok'||!Array.isArray(data.items))throw Error('RSS недоступний');return data.items.map(x=>normalize(x,feed.area)).filter(Boolean)}finally{clearTimeout(timeout)}}
- function readCache(){try{const c=JSON.parse(localStorage.getItem(CACHE)||'null');if(c&&Array.isArray(c.items)&&c.items.length){const valid=c.items.filter(x=>safeUrl(x.url)&&!blocked.test(x.title||'')&&/^(zhmerynka\.city|vn\.20minut\.ua|zhmr\.gov\.ua|vin\.gov\.ua)$/i.test(new URL(x.url).hostname.replace(/^www\./,'')));if(valid.length>=5){items=valid;render()}}return c}catch(_){return null}}
- let busy=false;
- async function refresh(force){if(busy)return;const c=readCache();if(!force&&c&&Date.now()-c.timestamp<TTL)return;busy=true;
-  try{const result=await Promise.allSettled(feeds.map(fetchFeed));const local=result[0].status==='fulfilled'?result[0].value:[],region=result[1].status==='fulfilled'?result[1].value:[];
-   if(!local.length&&!region.length)return;
-   const seen=new Set();const filter=arr=>arr.sort((a,b)=>Date.parse(b.date||0)-Date.parse(a.date||0)).filter(x=>{const key=x.title.toLowerCase().replace(/[^\p{L}\p{N}]/gu,'').slice(0,95);if(seen.has(key))return false;seen.add(key);return true});
-   const verified=mix(filter(local),filter(region)).filter(x=>/^(zhmerynka\.city|vn\.20minut\.ua|zhmr\.gov\.ua|vin\.gov\.ua)$/i.test(new URL(x.url).hostname.replace(/^www\./,'')));if(verified.length<5)return;items=verified;try{localStorage.setItem(CACHE,JSON.stringify({timestamp:Date.now(),items}))}catch(_){}render();
-  }catch(err){console.warn('ТИЦЬ новини:',err)}finally{busy=false;render()}}
- window.tytsNewsOpenAll=function(){if(typeof window.hideAll==='function')window.hideAll();document.querySelectorAll('.page').forEach(x=>x.style.display='none');const page=byId('tytsNewsPage');if(page)page.style.display='block';const back=byId('backButton');if(back)back.style.display='none';window.scrollTo(0,0);refresh(false)};
+
+ function makeCover(item){const cover=document.createElement('div');cover.className='tyts-news-cover'+(item.area==='local'?' local':'');addCover(cover,item);const label=document.createElement('span');label.className='tyts-news-tag'+(item.area==='local'?'':' regional');label.textContent=category(item.area);cover.appendChild(label);return cover}
+ function preview(item){byId('tytsNewsPreview')?.remove();const overlay=document.createElement('div');overlay.id='tytsNewsPreview';overlay.className='tyts-news-preview-overlay';overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');const panel=document.createElement('div');panel.className='tyts-news-preview';const close=document.createElement('button');close.className='tyts-news-preview-close';close.textContent='✕';close.onclick=()=>overlay.remove();const cover=makeCover(item);cover.classList.add('tyts-news-preview-cover');const content=document.createElement('div');content.className='tyts-news-preview-content';const date=document.createElement('div');date.className='tyts-news-date';date.textContent=dateString(item.date)+' · '+category(item.area);const title=document.createElement('h2');title.textContent=item.title;const excerpt=document.createElement('p');excerpt.className='tyts-news-preview-excerpt';excerpt.textContent=item.excerpt||'Деталі у першоджерелі.';const source=document.createElement('div');source.className='tyts-news-source';source.textContent='Джерело: '+item.source;const more=document.createElement('a');more.className='tyts-news-read-more';more.textContent='Читати далі →';more.href=item.url;more.target='_blank';more.rel='noopener noreferrer';content.append(date,title,excerpt,source,more);panel.append(close,cover,content);overlay.appendChild(panel);overlay.onclick=e=>{if(e.target===overlay)overlay.remove()};document.body.appendChild(overlay)}
+ function card(item){const el=document.createElement('button');el.type='button';el.className='tyts-news-card';el.onclick=()=>preview(item);el.appendChild(makeCover(item));const body=document.createElement('div');body.className='tyts-news-content';for(const [c,t] of [['tyts-news-date',dateString(item.date)],['tyts-news-title',item.title],['tyts-news-source','Джерело: '+item.source]]){const d=document.createElement('div');d.className=c;d.textContent=t;body.appendChild(d)}el.appendChild(body);return el}
+ function render(){for(const id of ['tyts-news-strip','tyts-news-all-list']){const root=byId(id);if(!root)continue;root.replaceChildren();if(!items.length){let note=document.createElement('div');note.className='tyts-news-note';note.textContent=TYTS_NEWS_FEED_URL?'Стрічка зараз недоступна. Перевірте підключення до інтернету.':'Для автоматичних новин потрібно підключити публічну адресу news.json з GitHub Actions.';root.appendChild(note)}else items.forEach(item=>root.appendChild(card(item)))}const status=byId('tyts-news-home-status');if(status)status.textContent=items.length?'Джерело вказано на кожній картці. Натисніть для перегляду.':''}
+ function cache(){try{const c=JSON.parse(localStorage.getItem(CACHE)||'null');if(c&&Array.isArray(c.items)){items=mix(c.items);lastNews=c.checked||0}}catch(e){}render()}
+ async function refreshNews(force=false){if(loading||!TYTS_NEWS_FEED_URL||(!force&&Date.now()-lastNews<NEWS_TTL))return;loading=true;try{let url=safeUrl(TYTS_NEWS_FEED_URL);if(!url)throw Error('URL новин не є HTTPS');const r=await fetch(url+'?t='+Math.floor(Date.now()/NEWS_TTL),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const data=await r.json();if(!Array.isArray(data.items))throw Error('Немає items');const next=mix(data.items);if(!next.length)throw Error('Немає перевірених статей');items=next;lastNews=Date.now();localStorage.setItem(CACHE,JSON.stringify({checked:lastNews,items}));render()}catch(e){console.warn('ТИЦЬ новини:',e)}finally{loading=false}}
+ async function refreshNbu(force=false){if(!force&&Date.now()-lastNbu<NBU_TTL)return;lastNbu=Date.now();const box=byId('tyts-nbu-values');if(!box)return;let data=null;try{const r=await fetch('https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json',{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const all=await r.json(),usd=all.find(x=>x.cc==='USD'),eur=all.find(x=>x.cc==='EUR');if(!usd||!eur)throw Error('Курси відсутні');data={usd:usd.rate,eur:eur.rate,date:usd.exchangedate};localStorage.setItem('tyts_nbu_rates_v1',JSON.stringify(data))}catch(e){try{data=JSON.parse(localStorage.getItem('tyts_nbu_rates_v1')||'null')}catch(_){}if(!data){box.textContent='Курс НБУ тимчасово недоступний';return}data.cached=true}box.replaceChildren();for(const [label,value] of [['🇺🇸 USD',data.usd],['🇪🇺 EUR',data.eur]]){let el=document.createElement('div');el.className='tyts-nbu-currency';let name=document.createElement('span');name.textContent=label;let rate=document.createElement('b');rate.textContent=Number(value).toFixed(4)+' грн';el.append(name,rate);box.appendChild(el)}let foot=document.createElement('div');foot.className='tyts-nbu-date';foot.textContent='Офіційний курс НБУ на '+(data.date||'дату НБУ')+(data.cached?' · збережене значення':'');box.appendChild(foot)}
+ window.tytsNewsToggle=function(){const section=byId('tyts-news-home'),button=byId('tyts-news-toggle');if(!section||!button)return;const collapsed=section.classList.toggle('tyts-news-collapsed');button.textContent=collapsed?'Розгорнути ▾':'Згорнути ▴';button.setAttribute('aria-expanded',String(!collapsed))};
+ window.tytsNewsOpenAll=function(){if(typeof window.hideAll==='function')window.hideAll();document.querySelectorAll('.page').forEach(x=>x.style.display='none');const page=byId('tytsNewsPage');if(page)page.style.display='block';const back=byId('backButton');if(back)back.style.display='none';window.scrollTo(0,0);refreshNews()};
  window.tytsNewsBack=function(){if(typeof window.tytsNavHome==='function')window.tytsNavHome();else if(typeof window.goToHome==='function')window.goToHome()};
- async function nbu(){const box=byId('tyts-nbu-values');if(!box)return;const cacheKey='tyts_nbu_rates_v1';let data;
-  try{const response=await fetch('https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json',{cache:'no-store'});if(!response.ok)throw Error('НБУ '+response.status);const rates=await response.json();const usd=rates.find(x=>x.cc==='USD'),eur=rates.find(x=>x.cc==='EUR');if(!usd||!eur)throw Error('Валют не знайдено');data={usd:usd.rate,eur:eur.rate,date:usd.exchangedate};localStorage.setItem(cacheKey,JSON.stringify(data))}
-  catch(e){try{data=JSON.parse(localStorage.getItem(cacheKey)||'null')}catch(_){}if(!data){box.textContent='Курс тимчасово недоступний. Офіційні дані: bank.gov.ua';return}data.cached=true}
-  box.replaceChildren();for(const [label,value] of [['🇺🇸 USD',data.usd],['🇪🇺 EUR',data.eur]]){const el=document.createElement('div');el.className='tyts-nbu-currency';const name=document.createElement('span');name.textContent=label;const rate=document.createElement('b');rate.textContent=Number(value).toFixed(4)+' грн';el.append(name,rate);box.appendChild(el)}const info=document.createElement('div');info.className='tyts-nbu-date';info.textContent='Офіційний курс НБУ на '+(data.date||'дату, зазначену НБУ')+(data.cached?' · останні збережені дані':'');box.appendChild(info)}
- function start(){render();refresh(false);nbu();setInterval(()=>{if(!document.hidden){refresh(false);nbu()}},TTL)}
+ function start(){cache();refreshNews();refreshNbu();setInterval(()=>{if(!document.hidden){refreshNews();refreshNbu()}},60*1000);document.addEventListener('visibilitychange',()=>{if(!document.hidden){refreshNews();refreshNbu()}})}
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
 })();
 </script>
