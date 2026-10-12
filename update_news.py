@@ -78,6 +78,53 @@ def meta(soup, *selectors):
         if el and el.get('content'): return el['content'].strip()
     return ''
 
+def find_article_image(soup, page_url, candidate=''):
+    """Find an article image URL without downloading or republishing it."""
+    candidates = [candidate]
+    # NewsArticle structured data is often populated even when og:image is absent.
+    for script in soup.select('script[type="application/ld+json"]')[:15]:
+        try:
+            data = json.loads(script.string or script.get_text() or '{}')
+        except (json.JSONDecodeError, TypeError, ValueError):
+            continue
+        stack = [data]
+        while stack:
+            obj = stack.pop()
+            if isinstance(obj, list):
+                stack.extend(obj[:40])
+            elif isinstance(obj, dict):
+                typ = obj.get('@type', '')
+                if isinstance(typ, list): typ = ' '.join(map(str, typ))
+                if any(x in str(typ).lower() for x in ('article','posting','reportage')):
+                    pic = obj.get('image') or obj.get('thumbnailUrl')
+                    if isinstance(pic, dict): pic = pic.get('url') or pic.get('contentUrl')
+                    if isinstance(pic, list):
+                        pic = next((x.get('url') if isinstance(x,dict) else x for x in pic if x), '')
+                    if isinstance(pic, str): candidates.append(pic)
+                # Handle @graph and nested mainEntity, not arbitrary unrelated schema images.
+                for key in ('@graph', 'mainEntity'):
+                    if key in obj: stack.append(obj[key])
+    # Article's primary image, not images from navigation or advertisements.
+    for selector in ('article figure img','article img.wp-post-image',
+                     '.entry-content figure img','.post-content figure img',
+                     '.article-content figure img','main article img',
+                     'main figure img','article img'):
+        for img in soup.select(selector)[:8]:
+            for attr in ('data-src','data-lazy-src','data-original','src'):
+                if img.get(attr): candidates.append(img[attr])
+            srcset = img.get('data-srcset') or img.get('srcset')
+            if srcset:
+                candidates.extend(part.strip().split(' ')[0] for part in srcset.split(',')[-2:])
+    for image in candidates:
+        if not image or not isinstance(image,str): continue
+        url = urljoin(page_url, image.strip())
+        u = urlparse(url)
+        if u.scheme != 'https' or not u.hostname: continue
+        if re.search(r'(logo|favicon|avatar|sprite|placeholder|pixel|tracking|emoji|icon)', u.path, re.I): continue
+        if url.lower().endswith('.svg'): continue
+        return url
+    return ''
+
 def extract_article(url, area, source, base, feed_title='', feed_date='', feed_description='', feed_image=''):
     if not allowed(url, base): return None
     try:
@@ -109,8 +156,9 @@ def extract_article(url, area, source, base, feed_title='', feed_date='', feed_d
             if days > MAX_AGE_DAYS or days < -1: return None
         except ValueError: return None
         image = meta(soup, ('property','og:image'), ('name','twitter:image'), ('property','twitter:image')) or feed_image
-        image = urljoin(r.url,image) if image else ''
-        if urlparse(image).scheme != 'https': image = ''
+        image = find_article_image(soup, r.url, image)
+        if not image and feed_image:
+            image = find_article_image(soup, r.url, feed_image)
         final = canonical(r.url)
         return {'area': area, 'title': title[:200], 'url': final, 'date': dt,
                 'excerpt': description[:320], 'image': image, 'source': source}
