@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T20:31:08.878020+00:00",
+  "updated_at": "2026-10-12T21:28:14.965958+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-12T20:30:11+00:00",
+      "date": "2026-10-12T21:27:04+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,12 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "ВМС Франції в Індійському океані затримали підсанкційний танкер DF Peak",
-      "url": "https://suspilne.media/1425957-vms-francii-v-indijskomu-okeani-zatrimali-pidsankcijnij-rosijskij-tanker-df-peak",
-      "date": "2026-10-12T20:15:40+00:00",
-      "excerpt": "За даними порталу War&Sanctions ГУР МО, танкер DF Peak афілійований з підсанкційною російської компанією «Совкомфлот» й перевозить сиру нафту. Судно перебуває під санкціями США, Канади, ЄС, України, Швейцарії, Японії та Британії — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/75/7548a72d2d7c4a3db54b3c9ef646ecff1d5730cd3d15033c80f9de9bd76a90bd.jpg",
-      "source": "Суспільне"
+      "title": "Росіяни масовано атакували Харків: зруйнований під’їзд будинку, 7 постраждалих",
+      "url": "https://www.pravda.com.ua/news/2026/10/13/8057704",
+      "date": "2026-10-12T21:12:00+00:00",
+      "excerpt": "У Холодногірському районі Харкова внаслідок російського обстрілу постраждали семеро людей, двоє у важкому стані. Рятувальна операція триває.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/0/0/934068/0057d262c3eae5d90fa81635f9c426a2.jpeg?w=1200&q=85&stamp=1791833700",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -80,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "РФ атакувала Рівне та область: є пошкодження",
-      "url": "https://www.pravda.com.ua/news/2026/10/12/8057707",
-      "date": "2026-10-12T20:14:00+00:00",
-      "excerpt": "Російська армія завдала ударів по Рівному та Рівненській області, пошкоджене нежитлове приміщення.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/c/e/934089/ceaf5a3d90a33c59f7e6a0d88f87e842.jpeg?w=1200&q=85&stamp=1791836100",
-      "source": "Українська правда"
+      "title": "Від ударів РФ у Харкові постраждали семеро людей",
+      "url": "https://www.ukrinform.ua/rubric-regions/4173764-vid-udariv-rf-u-harkovi-postrazdali-semero-ludej.html",
+      "date": "2026-10-12T21:09:00+00:00",
+      "excerpt": "У Холодногірському районі Харкова внаслідок російського удару по житловому будинку постраждали семеро осіб. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590638-279.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -116,12 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський обговорив з Мерцом підготовку до зустрічі Коаліції охочих",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4173759-zelenskij-obgovoriv-z-mercom-pidgotovku-do-zustrici-koalicii-ohocih.html",
-      "date": "2026-10-12T20:03:00+00:00",
-      "excerpt": "Володимир Зеленський у розмові з канцлером ФРН Фрідріхом Мерцом заявив, що реакцією Росії на оголошене Дональдом Трампом енергетичне перемир’я стали нові атаки на українські енергооб’єкти. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791835952-824.jpeg",
-      "source": "Укрінформ"
+      "title": "РФ атакувала Рівне та область: є пошкодження гуртожитків та житлових будинків",
+      "url": "https://www.pravda.com.ua/news/2026/10/13/8057707",
+      "date": "2026-10-12T21:06:00+00:00",
+      "excerpt": "Російська армія завдала ударів по Рівному та Рівненській області, пошкоджені гуртожитки та житлові будинки, а також нежитлова інфраструктура.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/c/e/934089/ceaf5a3d90a33c59f7e6a0d88f87e842.jpeg?w=1200&q=85&stamp=1791836100",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -143,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У прокуратурі Відня пояснили затримання журналіста Ткача",
-      "url": "https://suspilne.media/1425953-u-prokuraturi-vidna-poasnili-zatrimanna-zurnalista-tkaca",
-      "date": "2026-10-12T19:55:34+00:00",
-      "excerpt": "Затримання у Відні журналіста УП Михайла Ткача та оператора Ярослава Бондаренка було санкціоноване через те, що їх помітили під час спостереження за локацією, яку також контролювали двоє чоловіків, підозрюваних у шпигунстві — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/d4/d4186735e8b521058f54750fcb8186efc73e9d7ec9029d59cec9bf3579e8ea9d.jpg",
-      "source": "Суспільне"
+      "title": "Балістичні удари по Києву без тривоги: у ПС кажуть, що інформації про пуски не було",
+      "url": "https://www.pravda.com.ua/news/2026/10/12/8057711",
+      "date": "2026-10-12T20:57:00+00:00",
+      "excerpt": "Увечері 12 жовтня Київ обстріляли 6 ракетами, а Харків – 9 боєприпасами S-8000 «Бандероль». Повітряну тривогу оголосили із затримкою.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/3/e/934113/3e70e81e8c69cfa552edcd16768bb433.jpeg?w=1200&q=85&stamp=1791838796",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -170,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "На Кіровоградщині затримали чоловіка, який кинув у поліцейських гранати та почав стріляти",
-      "url": "https://www.pravda.com.ua/news/2026/10/12/8057676",
-      "date": "2026-10-12T19:50:00+00:00",
-      "excerpt": "У Кропивницькому 12 жовтня чоловік під час спілкування з правоохоронцями кинув у них гранати та почав стріляти. Його затримали.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/4/a/933743/4a75feb8e2b645aad4ea6a10318b5f7b.jpeg?w=1200&q=85&stamp=1791823590",
-      "source": "Українська правда"
+      "title": "Балістична атака на Київ: Повітряні сили з’ясовують, чому не було інформації про пуски",
+      "url": "https://www.ukrinform.ua/rubric-regions/4173763-balisticna-ataka-na-kiiv-povitrani-sili-zasovuut-comu-ne-bulo-informacii-pro-puski.html",
+      "date": "2026-10-12T20:57:00+00:00",
+      "excerpt": "Війська РФ завдали по кількох районах Києва удару - за попередніми даними, шістьма балістичними ракетами. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_10/thumb_files/630_360_1728310907-237.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -206,12 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Ворог атакував у Києві обʼєкт транспортної інфраструктури та склад",
-      "url": "https://www.ukrinform.ua/rubric-regions/4173758-vorog-atakuvav-obekt-transportnoi-infrastrukturi-v-kievi.html",
-      "date": "2026-10-12T19:48:00+00:00",
-      "excerpt": "Російські війська завдали удару по обʼєкту транспортної інфраструктури у Дніпровському районі столиці. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_01/thumb_files/630_360_1769766508-8340.jpeg",
-      "source": "Укрінформ"
+      "title": "Кім пояснив, як працюватиме Держслужба супроводу ветерана",
+      "url": "https://suspilne.media/1425969-kim-poasniv-ak-pracuvatime-derzsluzba-suprovodu-veterana",
+      "date": "2026-10-12T20:56:59+00:00",
+      "excerpt": "Міністерство ветеранів прагне створити Державну службу супроводу ветерана, розробивши стандарти, щоб забезпечити рівність послуги для всіх ветеранів — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/82/822c3f0c30e300163cf0f97d575bb25bf3d2bd08d2f4e12aabffc8fd52b50fe9.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -233,12 +233,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Кропивницькому затримали чоловіка, який підірвав гранати та зчинив стрілянину",
-      "url": "https://www.ukrinform.ua/rubric-regions/4173756-u-kropivnickomu-zatrimali-colovika-akij-kinuv-granati-v-bik-policejskih.html",
-      "date": "2026-10-12T19:41:00+00:00",
-      "excerpt": "У Кропивницькому затримали озброєного чоловіка, який під час спілкування з поліцейськими кинув у бік правоохоронців гранати та відкрив стрілянину з автоматичної зброї. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2017_07/thumb_files/630_360_1501220558-6401.jpg",
-      "source": "Укрінформ"
+      "title": "Від початку доби на фронті відбулося 180 боїв – Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/10/12/8057710",
+      "date": "2026-10-12T20:51:00+00:00",
+      "excerpt": "Від початку доби 12 жовтня на фронті зафіксували 180 бойових зіткень.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/e/c/934108/ec9e64ec3d99ea1e4084063a5fb4967e.jpeg?w=1200&q=85&stamp=1791838292",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -260,12 +260,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Кропивницькому затримали чоловіка, який кидав гранати і стріляв",
-      "url": "https://suspilne.media/kropyvnytskiy/1425927-u-kropivnickomu-zatrimali-colovika-akij-kidav-u-policejskih-granati-ta-strilav",
-      "date": "2026-10-12T19:31:45+00:00",
-      "excerpt": "У Кропивницькому 12 жовтня під час поліцейської спецоперації затримали чоловіка, який кинув гранати в бік правоохоронців, а потім стріляв з автоматичної зброї. — Суспільне Кропивницький",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/51/517d0ee14293bbb4abd6dd7799bb3fdcccef2ff84da11c33ea4a1c1edca01d7f.jpg",
-      "source": "Суспільне"
+      "title": "Франція зупинила в Індійському океані танкер тіньового флоту РФ - Макрон",
+      "url": "https://www.ukrinform.ua/rubric-world/4173762-francia-zupinila-v-indijskomu-okeani-tanker-tinovogo-flotu-rf-makron.html",
+      "date": "2026-10-12T20:46:00+00:00",
+      "excerpt": "ВМС Франції зупинили в Індійському океані танкер DF Peak, який підозрюють у незаконному перевезенні пального. Це судно внесене до переліку російського тіньового флоту. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_06/thumb_files/630_360_1781609685-368.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -296,11 +296,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У Харкові під завалами можуть бути люди після влучання «Бандеролі»",
-      "url": "https://suspilne.media/kharkiv/1425955-u-harkovi-pid-zavalami-mozut-buti-ludi-pisla-vlucanna-banderoli-u-budinok",
-      "date": "2026-10-12T19:31:37+00:00",
-      "excerpt": "У Харкові цілий підʼїзд будинку «склався» після атаки російської армії по будинку у Холодногірському районі ввечері 12 жовтня. Під завалами можуть бути люди — Суспільне Харків",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/9a/9a08c8b174801949416cff0a0b2687e386f381cc4b493473292e5317141b4896.jpg",
+      "title": "РФ втретє за день вдарила по Києву",
+      "url": "https://suspilne.media/kyiv/1425985-rf-vtrete-za-den-vdarila-po-kievu",
+      "date": "2026-10-12T20:41:00+00:00",
+      "excerpt": "Ввечері 12 жовтня Росія втретє за день вдарила по Києву: удари прийшлися по транспортній інфраструктурі, наслідки фіксують у двох районах міста — Суспільне Київ",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/8d/8d63f944112c24fdfe51a9b0634cf3b6c760ace6d2f654c550fd6f378833bb29.jpg",
       "source": "Суспільне"
     },
     {
@@ -323,12 +323,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни масовано атакували Харків: зруйнований під’їзд будинку, 5 постраждалих",
-      "url": "https://www.pravda.com.ua/news/2026/10/12/8057704",
-      "date": "2026-10-12T19:31:00+00:00",
-      "excerpt": "Увечері 12 жовтня російські війська завдали ударів по Харкову: склався під'їзд житлового будинку, є постраждалі.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/0/0/934068/0057d262c3eae5d90fa81635f9c426a2.jpeg?w=1200&q=85&stamp=1791833700",
-      "source": "Українська правда"
+      "title": "Три хвилі ударів по Харкову за вечір: усе про наслідки атак РФ",
+      "url": "https://suspilne.media/kharkiv/1425983-tri-hvili-udariv-po-harkovu-za-vecir-use-pro-naslidki-atak-rf-u-holodnogirskomu-ta-sevcenkivskomu-rajonah-12-zovtna",
+      "date": "2026-10-12T20:37:06+00:00",
+      "excerpt": "О 21:15 почалася російська атака на Харків. На 22:55 у місті пролунали дев'ять вибухів. Росіяни били у три хвилі — по три вибухи у кожній. Влучання були «Бандеролями» і ракетою, вісім з них — у Холодногірському районі — Суспільне Харків",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/aa/aae2f7c46de659e7ea9530c99e7596b30b1ff366ba60e98cb962505de916b311.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -350,11 +350,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський - про удар по будинку в Києві: Розраховуємо, що США побачать такі сигнали від Росії",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4173755-zelenskij-pro-udar-po-budinku-v-kievi-rozrahovuemo-so-ssa-pobacat-taki-signali-vid-rosii.html",
-      "date": "2026-10-12T19:27:00+00:00",
-      "excerpt": "Володимир Зеленський, коментуючи удар російського безпілотника по житловому будинку в Києві, заявив, що це черговий доказ того, що Росія повинна отримати більше тиску. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_12/thumb_files/630_360_1765392737-572.jpg",
+      "title": "На фронті сталося 180 зіткнень, Найбільше - на Покровському напрямку",
+      "url": "https://www.ukrinform.ua/rubric-ato/4173760-na-fronti-stalosa-180-zitknen-najbilse-na-pokrovskomu-napramku.html",
+      "date": "2026-10-12T20:29:00+00:00",
+      "excerpt": "Протягом 12 жовтня на фронті сталося 180 боєзіткнень Сил оборони України з російськими загарбниками, зокрема на Покровському напрямку ворог намагався атакувати 23 рази. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1790842637-343.jpeg",
       "source": "Укрінформ"
     },
     {
