@@ -1536,6 +1536,46 @@ html.tyts-dark #tytsMyServicesContent .tyts-my-ads-search{background:#202833;col
 #tytsSaleCategory #tytsSaleListings>.empty{grid-column:1/-1}
 @media(max-width:540px){#tytsSaleCategory .tyts-sale-filter-bar{grid-template-columns:1fr}#tytsSaleCategory .tyts-sale-inline-add{padding:0}}
 </style>
+<style id="tyts-support-compact-admin-button">
+/* Тільки зовнішній вигляд кнопки Admin; логіку чату не змінюємо. */
+.tyts-thin-top .tyts-mini-icons{margin-left:auto;margin-right:4px;min-width:0;flex-shrink:0}
+#tytsSupportButton.tyts-support-header{
+  display:inline-flex;align-items:center;justify-content:center;
+  flex:0 0 auto;width:44px;height:44px;min-width:44px;
+  padding:0;margin:0 6px 0 0;max-width:none;
+  border:1px solid rgba(30,202,192,.32);border-radius:50%;
+  background:#22323c;color:#22d3cf;
+  cursor:pointer;line-height:1;
+  box-shadow:0 2px 9px rgba(0,0,0,.14);
+}
+#tytsSupportButton .tyts-support-headset{
+  width:20px;height:20px;display:block;flex:0 0 20px;
+}
+#tytsSupportButton .tyts-support-headset svg{
+  width:20px;height:20px;display:block;
+}
+#tytsSupportButton:active{transform:scale(.97)}
+#tytsSupportButton:focus-visible{outline:2px solid #20c8c3;outline-offset:3px}
+@media(max-width:440px){
+  .tyts-thin-top .tyts-mini-icons{margin-right:2px}
+  #tytsSupportButton.tyts-support-header{width:40px;height:40px;min-width:40px;margin-right:2px}
+  #tytsSupportButton .tyts-support-headset,
+  #tytsSupportButton .tyts-support-headset svg{width:18px;height:18px}
+}
+</style>
+<style id="tyts-zhmerynka-weather-style">
+/* Компактна погода Жмеринки під пошуком, без впливу на решту застосунку. */
+#tyts-zhmerynka-weather{display:none;justify-content:flex-end;align-items:center;gap:7px;
+  margin:8px 18px 0;padding:0 26px 2px 0;color:#cbd5e1;font:500 12px/1.35 Arial,sans-serif;
+  min-height:22px;text-align:right;white-space:nowrap;}
+#tyts-zhmerynka-weather.tyts-weather-ready{display:flex}
+#tyts-weather-icon{font-size:19px;line-height:1}
+#tyts-weather-temp{font-size:14px;font-weight:800;color:#f8fafc}
+#tyts-weather-condition{color:#cbd5e1;max-width:140px;overflow:hidden;text-overflow:ellipsis}
+#tyts-weather-town{color:#9ca3af}
+#tyts-weather-stale{font-size:10px;color:#fbbf24}
+@media(max-width:430px){#tyts-zhmerynka-weather{margin:7px 10px 0;padding-right:20px;gap:5px;font-size:11px}#tyts-weather-condition{max-width:105px}}
+</style>
 </head>
 
 <body>
@@ -1546,7 +1586,7 @@ html.tyts-dark #tytsMyServicesContent .tyts-my-ads-search{background:#202833;col
     <span class="tyts-logo-t">Т</span><span class="tyts-logo-y">и</span><span class="tyts-logo-c">ц</span><span class="tyts-logo-ь">ь</span>
   </div>
   <div class="tyts-mini-icons">
-    <button type="button" id="tytsSupportButton" class="tyts-support-header" onclick="tytsOpenAdminSupport()" aria-label="Зв’язок з адміном">💬 <span>Зв’язок з адміном</span></button>
+    <button type="button" id="tytsSupportButton" class="tyts-support-header" onclick="tytsOpenAdminSupport()" aria-label="Зв’язок з адміном" title="Admin"><span class="tyts-support-headset" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 13a8 8 0 0 1 16 0" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><rect x="3" y="12" width="4.5" height="7" rx="2.2" stroke="currentColor" stroke-width="2.2"/><rect x="16.5" y="12" width="4.5" height="7" rx="2.2" stroke="currentColor" stroke-width="2.2"/><path d="M7.5 20c1.6 1 3.1 1.5 4.5 1.5h1.2" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="14.2" cy="21.5" r="1.3" fill="currentColor"/></svg></span></button>
   </div>
 </div>
 
@@ -1567,6 +1607,13 @@ type="text"
 placeholder="Пошук послуги..."
 oninput="searchServices()">
 
+</div>
+<div id="tyts-zhmerynka-weather" aria-label="Погода у Жмеринці" aria-live="off" title="Погода у Жмеринці · Open-Meteo">
+  <span id="tyts-weather-icon" aria-hidden="true"></span>
+  <span id="tyts-weather-temp"></span>
+  <span id="tyts-weather-condition"></span>
+  <span id="tyts-weather-town">Жмеринка</span>
+  <span id="tyts-weather-stale" hidden></span>
 </div>
 
 </div>
@@ -12157,6 +12204,80 @@ function tytsStage2ToggleCategories(){
   };
 })();
 </script>
+
+<!-- Погода Жмеринки. Окремий модуль, не втручається в Firebase або навігацію. -->
+<script id="tyts-zhmerynka-weather">
+(function(){
+  'use strict';
+  var INTERVAL = 30 * 60 * 1000;
+  var CACHE_KEY = 'tyts_zhmerynka_weather_v1';
+  var endpoint = 'https://api.open-meteo.com/v1/forecast?latitude=49.03546&longitude=28.11473&current=temperature_2m,weather_code,is_day&timezone=Europe%2FKyiv';
+  var inFlight = false;
+  var lastAttempt = 0;
+  function node(id){return document.getElementById(id)}
+  function condition(code, day){
+    if(code===0) return [day?'☀️':'🌙','Ясно'];
+    if(code===1) return [day?'🌤️':'🌙','Переважно ясно'];
+    if(code===2) return ['⛅','Мінлива хмарність'];
+    if(code===3) return ['☁️','Хмарно'];
+    if(code===45 || code===48) return ['🌫️','Туман'];
+    if(code===51 || code===53 || code===55 || code===56 || code===57) return ['🌦️','Мряка'];
+    if(code===61 || code===63 || code===65 || code===66 || code===67 || code===80 || code===81 || code===82) return ['🌧️','Дощ'];
+    if(code===71 || code===73 || code===75 || code===77 || code===85 || code===86) return ['🌨️','Сніг'];
+    if(code===95 || code===96 || code===99) return ['⛈️','Гроза'];
+    return ['🌡️','Погода'];
+  }
+  function display(record){
+    if(!record || !Number.isFinite(Number(record.temp)) || !Number.isFinite(Number(record.code))) return;
+    var label = condition(Number(record.code), Number(record.day)===1);
+    var temp = Math.round(Number(record.temp));
+    node('tyts-weather-icon').textContent = label[0];
+    node('tyts-weather-temp').textContent = (temp>0?'+':'')+temp+'°C';
+    node('tyts-weather-condition').textContent = label[1]+' ·';
+    var stale = node('tyts-weather-stale');
+    var outdated = Date.now()-Number(record.savedAt)>INTERVAL;
+    stale.hidden = !outdated;
+    if(outdated){
+      var time = new Intl.DateTimeFormat('uk-UA',{hour:'2-digit',minute:'2-digit',timeZone:'Europe/Kyiv'}).format(new Date(Number(record.savedAt)));
+      stale.textContent='· о '+time;
+      node('tyts-zhmerynka-weather').title='Останні отримані дані о '+time;
+    }else{
+      stale.textContent='';
+      node('tyts-zhmerynka-weather').title='Погода у Жмеринці · Open-Meteo';
+    }
+    node('tyts-zhmerynka-weather').classList.add('tyts-weather-ready');
+  }
+  function readCache(){try{return JSON.parse(localStorage.getItem(CACHE_KEY)||'null')}catch(e){return null}}
+  async function refresh(force){
+    if(inFlight || !node('tyts-zhmerynka-weather')) return;
+    var saved=readCache();
+    if(!force && saved && Date.now()-Number(saved.savedAt)<INTERVAL){display(saved);return}
+    if(Date.now()-lastAttempt<60000) return;
+    lastAttempt=Date.now();inFlight=true;
+    var controller = new AbortController();
+    var timeout = setTimeout(function(){controller.abort()},12000);
+    try{
+      var response=await fetch(endpoint,{signal:controller.signal,cache:'no-store'});
+      if(!response.ok) throw new Error('Weather HTTP '+response.status);
+      var data=await response.json();
+      var current=data && data.current;
+      if(!current || !Number.isFinite(Number(current.temperature_2m)) || !Number.isFinite(Number(current.weather_code))) throw new Error('Invalid weather data');
+      var record={temp:Number(current.temperature_2m),code:Number(current.weather_code),day:Number(current.is_day),savedAt:Date.now()};
+      try{localStorage.setItem(CACHE_KEY,JSON.stringify(record))}catch(e){}
+      display(record);
+    }catch(e){if(saved) display(saved)}
+    finally{clearTimeout(timeout);inFlight=false}
+  }
+  function start(){
+    var saved=readCache();if(saved) display(saved);
+    refresh(false);
+    setInterval(function(){if(!document.hidden) refresh(false)},INTERVAL);
+    document.addEventListener('visibilitychange',function(){if(!document.hidden)refresh(false)});
+    window.addEventListener('online',function(){refresh(false)});
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',start,{once:true});else start();
+})();
+</script>
 </body>
 
 <style id="tyts-admin-panel-style">
@@ -12955,6 +13076,15 @@ html.tyts-dark .tyts-browse-tools,html.tyts-dark .tyts-edit-modal{background:#1b
       media.className='tyts-my-ad-photo'+(photo?'':' tyts-my-ad-photo-empty');
       if(photo){media.src=photo;media.alt='Фото оголошення';media.loading='lazy';}else media.textContent='📢';
       const opener=card.querySelector('.tyts-my-ad-open');if(opener)opener.prepend(media);
+      // Заявка на просування саме цього оголошення (без автоматичного розміщення в ТОП).
+      const topButton=document.createElement('button');
+      topButton.type='button';
+      topButton.className='add-button tyts-request-top-btn';
+      topButton.textContent='⭐ Запропонувати в ТОП';
+      topButton.style.cssText='width:100%;margin-top:8px;background:#263342;color:#fcd34d;border:1px solid #5b4c27;font-size:13px;padding:11px;';
+      topButton.addEventListener('click',function(e){e.stopPropagation();window.tytsRequestTopPlacement(item,topButton);});
+      card.appendChild(topButton);
+
       card.dataset.tytsSearch=[item.service,item.name,item.category,item.description,item.location,item.city].filter(Boolean).join(' ').toLocaleLowerCase('uk');
     });
     if(myCards.length){
@@ -15696,6 +15826,19 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
       const d=document.createElement("div");
       d.className="tyts-chat-message "+(String(m.senderUid||"")===String(state.uid)?"mine":"theirs");
       d.textContent=String(m.text||"");
+      // Тільки суперадмін бачить швидке відкриття оголошення з ТОП-заявки.
+      const topMatch=String(m.text||"").match(/TYTS_TOP_REQUEST_ID:([A-Za-z0-9_-]{1,160})/);
+      if(topMatch && String(state.uid)==='a2QG06Z5D0SNkmAeZv0YIOAEyYI2'){
+        const openAd=document.createElement('button');
+        openAd.type='button';openAd.textContent='📋 Відкрити це оголошення';
+        openAd.style.cssText='display:block;margin-top:8px;padding:8px;border:1px solid #20c8c3;border-radius:8px;background:#253342;color:#fff;cursor:pointer;font-size:12px';
+        openAd.onclick=function(){
+          const id=topMatch[1];
+          if(typeof window.tytsOpenServiceDetails==='function')window.tytsOpenServiceDetails(id);
+          else alert('ID оголошення: '+id);
+        };
+        d.appendChild(openAd);
+      }
       msgs.appendChild(d);
     });
     msgs.scrollTop=msgs.scrollHeight;
@@ -16109,4 +16252,52 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
 })();
 </script>
 
+
+<script id="tyts-top-request-to-admin">
+(function(){
+  'use strict';
+  const ADMIN_UID='a2QG06Z5D0SNkmAeZv0YIOAEyYI2';
+  const esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  window.tytsRequestTopPlacement=function(item,origin){
+    const uid=typeof window.firebaseGetCurrentAuthUid==='function'?String(window.firebaseGetCurrentAuthUid()||''):'';
+    if(!uid){alert('Для подання заявки увійдіть у свій профіль.');return;}
+    if(uid===ADMIN_UID){alert('Ви адміністратор. Просування власних оголошень налаштовується в адмін-панелі.');return;}
+    const owner=String(item&& (item.ownerUid||item.uid)||'');
+    if(owner!==uid){alert('Подавати заявку може лише власник оголошення.');return;}
+    const id=String(item.id||item.firebaseId||'');
+    if(!/^[A-Za-z0-9_-]{1,160}$/.test(id)||id.startsWith('local_')){alert('Заявки приймаються тільки для опублікованих оголошень Firebase.');return;}
+    if(typeof window.firebaseSendChatMessage!=='function'){alert('Зв’язок із Firebase ще завантажується. Спробуйте пізніше.');return;}
+    const backdrop=document.createElement('div');
+    backdrop.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.78);z-index:2147483646;display:flex;align-items:center;justify-content:center;padding:16px';
+    backdrop.innerHTML='<div role="dialog" aria-modal="true" aria-label="Заявка на ТОП" style="background:#1b2430;color:#f8fafc;width:min(390px,100%);padding:20px;border-radius:17px;box-shadow:0 15px 40px #0008"><h3 style="margin:0 0 9px">⭐ Заявка на ТОП</h3><p style="font-size:14px;line-height:1.4;margin:0 0 14px">'+esc(item.service||'Оголошення')+'</p><label for="tytsTopDuration" style="display:block;margin-bottom:7px">Бажаний строк розміщення</label><select id="tytsTopDuration" style="width:100%;padding:12px;border-radius:10px;background:#263342;color:#fff;border:1px solid #526070"><option value="3">3 дні</option><option value="7" selected>7 днів</option><option value="14">14 днів</option><option value="30">30 днів</option></select><div style="font-size:12px;color:#aeb8c5;margin:10px 0 15px">Це заявка адміністратору, а не автоматичне платне розміщення.</div><button type="button" data-action="send" class="add-button" style="margin-bottom:9px;background:#14b89e;color:#071a16">Надіслати адміністратору</button><button type="button" data-action="cancel" class="add-button" style="background:#303846">Скасувати</button></div>';
+    document.body.appendChild(backdrop);
+    const cancel=()=>backdrop.remove();
+    backdrop.addEventListener('click',e=>{if(e.target===backdrop)cancel()});
+    backdrop.querySelector('[data-action="cancel"]').onclick=cancel;
+    backdrop.querySelector('[data-action="send"]').onclick=async function(){
+      const button=this;button.disabled=true;button.textContent='Надсилаємо…';
+      const days=backdrop.querySelector('#tytsTopDuration').value;
+      let profile={};try{profile=JSON.parse(localStorage.getItem('tyts_current_user')||'{}')||{}}catch(e){}
+      const sender=[profile.name,profile.surname].filter(Boolean).join(' ')||profile.email||'Користувач';
+      const text='⭐ ЗАЯВКА НА ТОП ОГОЛОШЕННЯ\n'+
+        'Назва: '+String(item.service||'Оголошення')+'\n'+
+        'Категорія: '+String(item.category||'')+'\n'+
+        'Строк: '+days+' днів\n'+
+        'ID оголошення: '+id+'\n'+
+        'TYTS_TOP_REQUEST_ID:'+id+'\n'+
+        'Прошу розглянути просування цього оголошення.';
+      try{
+        await window.firebaseSendChatMessage({
+          text,serviceId:'tyts-support',serviceName:'Зв’язок з адміністрацією ТИЦЬ',
+          ownerUid:ADMIN_UID,customerUid:uid,ownerName:'Адміністрація ТИЦЬ',
+          customerName:sender,senderName:sender
+        });
+        backdrop.remove();
+        alert('✅ Заявку надіслано адміністратору в чат. Розміщення в ТОП відбудеться лише після погодження.');
+        if(typeof window.tytsOpenAdminSupport==='function')window.tytsOpenAdminSupport();
+      }catch(err){button.disabled=false;button.textContent='Надіслати адміністратору';alert('Заявку не надіслано: '+(err&&err.message||'Помилка Firebase'));}
+    };
+  };
+})();
+</script>
 </html>
