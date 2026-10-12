@@ -8,6 +8,7 @@ import calendar
 import json
 import os
 import re
+from datetime import timedelta
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse, urlunparse
@@ -23,13 +24,14 @@ SESSION.headers.update({
 })
 TIMEOUT = 15
 MAX_AGE_DAYS = 21
-MAX_PER_SITE = 16
+MAX_PER_SITE = 24
 MAX_ITEMS = 40
-MIN_ITEMS_TO_REPLACE = 3
+MIN_ITEMS_TO_REPLACE = 5
 
 # Використовуємо лише прямі сторінки та RSS, виявлені на сайті.
 SITES = [
     ('local', 'Жмеринка.City', 'https://zhmerynka.city/articles', []),
+    ('local', 'Жмеринка.City', 'https://zhmerynka.city/articles/misto', []),
     ('local', 'Жмеринська міська рада', 'https://zhmr.gov.ua/', []),
     ('local', 'Жмеринська РВА', 'https://zhmerynka-rda.gov.ua/', []),
     ('region', 'Вінницька ОВА', 'https://vin.gov.ua/news', []),
@@ -44,7 +46,7 @@ SITES = [
 # Не вважаємо кожну новину на сайті РВА суто жмеринською.
 LOCAL_TERMS = re.compile(
     r'жмерин|браїл|северинів|станіславчик|шаргород|шаргоро|барськ|'
-    r'копайгород|мураф|джурин|северинівськ|станіславчицьк', re.I)
+    r'копайгород|мураф|джурин|северинівськ|станіславчицьк|коростівц|мала жмеринк', re.I)
 REGION_TERMS = re.compile(
     r'вінниц|віннич|жмерин|гайсин|тульчин|хмільник|могилів[ -]подільськ|'
     r'козятин|калинівк|немирів|погребищ|липівець|томашпіл', re.I)
@@ -86,6 +88,53 @@ def get(url):
 
 def clean(value):
     return re.sub(r'\s+', ' ', BeautifulSoup(str(value or ''), 'html.parser').get_text(' ', strip=True)).strip()
+
+
+UA_MONTHS = {
+    'січня': 1, 'лютого': 2, 'березня': 3, 'квітня': 4, 'травня': 5,
+    'червня': 6, 'липня': 7, 'серпня': 8, 'вересня': 9,
+    'жовтня': 10, 'листопада': 11, 'грудня': 12,
+}
+
+
+def ukrainian_date(value, now=None):
+    """Parse publisher-visible dates; never substitute scraping time for publish time."""
+    now = now or datetime.now(timezone.utc)
+    v = clean(value).casefold()
+    match = re.search(r'\b([0-3]?\d)\s+(' + '|'.join(UA_MONTHS) + r')\s*(20\d\d)?\b', v)
+    if match:
+        day, month = int(match.group(1)), UA_MONTHS[match.group(2)]
+        year = int(match.group(3)) if match.group(3) else now.year
+        try:
+            dt = datetime(year, month, day, tzinfo=timezone.utc)
+            if not match.group(3) and dt > now + timedelta(days=1):
+                dt = dt.replace(year=year-1)
+            return dt.isoformat()
+        except ValueError:
+            return ''
+    if re.search(r'\bсьогодні\b', v):
+        return now.replace(hour=12, minute=0, second=0, microsecond=0).isoformat()
+    if re.search(r'\bвчора\b', v):
+        return (now - timedelta(days=1)).replace(hour=12, minute=0, second=0, microsecond=0).isoformat()
+    return ''
+
+
+def jsonld_dates(soup):
+    for node in soup.select('script[type="application/ld+json"]')[:14]:
+        try:
+            obj = json.loads(node.string or node.get_text() or '{}')
+        except (TypeError, ValueError):
+            continue
+        queue = [obj]
+        while queue:
+            v = queue.pop()
+            if isinstance(v, list):
+                queue.extend(v[:50])
+            elif isinstance(v, dict):
+                for key in ('datePublished','dateCreated','uploadDate'):
+                    if v.get(key):
+                        yield str(v[key])
+                queue.extend(v.get(key) for key in ('@graph','mainEntity') if key in v)
 
 
 def iso_date(value):
@@ -216,7 +265,7 @@ def extract(url, area, source, base, feed_title='', feed_date='', feed_descripti
             return None
         soup = BeautifulSoup(response.text[:850000], 'html.parser')
         kind = meta(soup, ('property', 'og:type')).lower()
-        if kind and kind not in ('article', 'news', 'newsarticle'):
+        if kind and kind not in ('article', 'news', 'newsarticle') and host(base) != 'zhmerynka.city':
             return None
         title = clean(meta(soup, ('property', 'og:title'), ('name', 'twitter:title')) or
                       (soup.title.get_text(' ', strip=True) if soup.title else feed_title))
@@ -227,6 +276,7 @@ def extract(url, area, source, base, feed_title='', feed_date='', feed_descripti
         if UNWANTED.search(title + ' ' + description) or ALERTS.search(title + ' ' + description):
             return None
         searchable = title + ' ' + description
+        # Жмеринка.City covers the locality, but individual articles must be truly local.
         if area == 'local' and not LOCAL_TERMS.search(searchable):
             return None
         if area == 'region' and not REGION_TERMS.search(searchable):
@@ -237,6 +287,18 @@ def extract(url, area, source, base, feed_title='', feed_date='', feed_descripti
         if not published:
             for node in soup.find_all('time', limit=3):
                 published = iso_date(node.get('datetime'))
+                if published:
+                    break
+        if not published:
+            published = next((x for raw in jsonld_dates(soup) if (x := iso_date(raw))), '')
+        if not published and host(base) == 'zhmerynka.city':
+            # Local portal displays dates as '09 жовтня' in article headers.
+            for selector in ('.article-date', '.date', '.news-date',
+                             'time', '.article-info', '.article-head', 'header'):
+                for node in soup.select(selector)[:8]:
+                    published = ukrainian_date(node.get_text(' ', strip=True)[:220])
+                    if published:
+                        break
                 if published:
                     break
         if not published:
@@ -265,13 +327,13 @@ def discover(homepage, base, configured):
                 candidate = urljoin(response.url, node['href'])
                 if allowed(candidate, base):
                     feeds.append(candidate)
-        for anchor in soup.find_all('a', href=True, limit=700):
+        for anchor in soup.find_all('a', href=True, limit=1400):
             candidate = urljoin(response.url, anchor['href'])
             if article_url(candidate, base) and candidate not in links:
                 links.append(candidate)
     except requests.RequestException as exc:
         print('LISTING ERROR:', homepage, str(exc)[:130], flush=True)
-    return list(dict.fromkeys(feeds))[:4], links[:MAX_PER_SITE * 4]
+    return list(dict.fromkeys(feeds))[:4], links[:MAX_PER_SITE * 6]
 
 
 def from_feed(url, area, source, base):
@@ -326,27 +388,30 @@ def collect(area, source, homepage, configured):
 
 
 def interleave(groups, limit=MAX_ITEMS):
-    pattern = ('local', 'region', 'ukraine', 'local', 'region', 'ukraine',
-               'local', 'region', 'ukraine', 'local')
-    for items in groups.values():
-        items.sort(key=lambda x: x['date'], reverse=True)
-    output, seen = [], set()
-    while len(output) < limit:
-        changed = False
+    """Complete 10-story groups maintain the actual 4/3/3 distribution.
+
+    Never silently replace missing local articles with national ones.
+    """
+    pattern = ('local', 'region', 'ukraine', 'local', 'region',
+               'ukraine', 'local', 'region', 'ukraine', 'local')
+    unique = {}
+    global_seen = set()
+    for area, raw in groups.items():
+        unique[area] = []
+        for article in sorted(raw, key=lambda x: x['date'], reverse=True):
+            key = canonical(article['url'])
+            headline = re.sub(r'\W+', '', article['title'].casefold())[:120]
+            if key in global_seen or headline in global_seen:
+                continue
+            global_seen.add(key)
+            global_seen.add(headline)
+            unique[area].append(article)
+    blocks = min(limit // 10, len(unique['local']) // 4,
+                 len(unique['region']) // 3, len(unique['ukraine']) // 3)
+    output = []
+    for i in range(blocks):
         for area in pattern:
-            while groups[area]:
-                article = groups[area].pop(0)
-                key = re.sub(r'\W+', '', article['title'].casefold())[:120]
-                if key in seen:
-                    continue
-                seen.add(key)
-                output.append(article)
-                changed = True
-                break
-            if len(output) >= limit:
-                break
-        if not changed:
-            break
+            output.append(unique[area].pop(0))
     return output
 
 
@@ -356,8 +421,8 @@ def main():
         categories[area].extend(collect(area, source, homepage, configured))
     print('CANDIDATES', {k: len(v) for k, v in categories.items()}, flush=True)
     items = interleave(categories)
-    if len(items) < MIN_ITEMS_TO_REPLACE:
-        print('ERROR: Too few accepted articles; preserving existing news.json.', flush=True)
+    if len(items) < 10 or not any(x['area'] == 'local' for x in items):
+        print('ERROR: Cannot form a verified 40/30/30 block (4 local, 3 region, 3 national). Existing news.json preserved.', flush=True)
         raise SystemExit(1)
     counts = {area: sum(x['area'] == area for x in items) for area in categories}
     print('ACCEPTED', len(items), 'BY AREA', counts,
