@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T21:37:42.077940+00:00",
+  "updated_at": "2026-10-13T22:38:06.331299+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-13T21:36:10+00:00",
+      "date": "2026-10-13T22:36:39+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,12 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Російський удар по Києву: загинула людина, горить будинок",
-      "url": "https://www.pravda.com.ua/news/2026/10/14/8057886",
-      "date": "2026-10-13T21:19:00+00:00",
-      "excerpt": "Після російського удару по багатоповерхівці в Києві загинув чоловік, восьмеро людей отримали травми. Триває евакуація мешканців, екстрені служби працюють.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/4/934853/a4b12e789fe9e4b46efa3c0472abff07.jpeg?w=1200&q=85&stamp=1791926455",
-      "source": "Українська правда"
+      "title": "Ворог атакував Київ балістикою: горить будинок, двоє загиблих, 21 людина постраждала",
+      "url": "https://www.ukrinform.ua/rubric-regions/4174129-u-kievi-prolunala-seria-vibuhiv.html",
+      "date": "2026-10-13T22:31:00+00:00",
+      "excerpt": "Під час повітряної тривоги у столиці було чутно вибухи - війська РФ атакували місто балістичними ракетами. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2022_10/thumb_files/630_360_1665415321-362.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -80,11 +80,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У середу в Україні дощитиме, вдень до 22° тепла",
-      "url": "https://www.ukrinform.ua/rubric-regions/4173967-u-seredu-v-ukraini-dositime-vden-do-22-tepla.html",
-      "date": "2026-10-13T21:12:00+00:00",
-      "excerpt": "У середу, 14 жовтня, в Україні утримається хмарна із проясненнями погода, у більшості областей очікують дощі та зниження температури повітря. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_10/thumb_files/630_360_1729843658-269.jpg",
+      "title": "Від атак РФ у Києві цьогоріч постраждали понад 1100 людей",
+      "url": "https://www.ukrinform.ua/rubric-regions/4174136-vid-atak-rf-u-kievi-cogoric-postrazdali-ponad-1100-ludej.html",
+      "date": "2026-10-13T22:10:00+00:00",
+      "excerpt": "Від початку року внаслідок російських атак у столиці постраждали більш як 1100 осіб. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2020_04/thumb_files/630_360_1586020381-158.jpg",
       "source": "Укрінформ"
     },
     {
@@ -116,12 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "РФ вдарила по Києву ракетами, ЄС офіційно відкрив ще 2 переговорні кластери",
-      "url": "https://suspilne.media/1426901-rf-vdarila-po-kievu-raketami-es-oficijno-vidkriv-se-dva-peregovorni-klasteri-z-ukrainou-1694-den-vijni",
-      "date": "2026-10-13T21:03:21+00:00",
-      "excerpt": "Російські військові атакували Київ ракетами, є влучання в житлову багатоповерхівку в одному з районів міста. ЄС офіційно відкрив два переговорні кластери для України — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/3d/3defc8ac221bb10db4a1b569fc229cd07379cc1fb2fa91bb0dda0061f128defb.jpg",
-      "source": "Суспільне"
+      "title": "Російський удар по Києву: загинула людина, 21 постраждалий, серед них – дитина",
+      "url": "https://www.pravda.com.ua/news/2026/10/14/8057886",
+      "date": "2026-10-13T22:03:00+00:00",
+      "excerpt": "Унаслідок російського удару по Києву одна людина загинула, 21 постраждала, серед них восьмирічна дитина. Госпіталізували 16 осіб.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/4/934853/a4b12e789fe9e4b46efa3c0472abff07.jpeg?w=1200&q=85&stamp=1791926455",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -143,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Ворог атакував Київ балістикою: горить будинок, є загиблий та поранені",
-      "url": "https://www.ukrinform.ua/rubric-regions/4174129-u-kievi-prolunala-seria-vibuhiv.html",
-      "date": "2026-10-13T20:57:00+00:00",
-      "excerpt": "Під час повітряної тривоги у столиці було чутно вибухи. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2022_10/thumb_files/630_360_1665415321-362.jpg",
-      "source": "Укрінформ"
+      "title": "У Ростові вибухнув резервуар на НПЗ",
+      "url": "https://www.pravda.com.ua/news/2026/10/14/8057887",
+      "date": "2026-10-13T21:57:00+00:00",
+      "excerpt": "У Ростові стався вибух ще одного резервуара на нафтотерміналі Новошахтинського заводу. Оприлюднено відео події.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/0/1/934858/01f3fc1323cd6c8adece6a1ea27616d2.jpeg?w=1200&q=85&stamp=1791928640",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -170,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "На Хмельниччині через атаки РФ за добу постраждали 6 людей, виникли пожежі",
-      "url": "https://www.pravda.com.ua/news/2026/10/13/8057872",
-      "date": "2026-10-13T20:42:00+00:00",
-      "excerpt": "Російські війська 13 жовтня атакували підприємства у Хмельницькому та Шепетівському районах. Також пошкоджена АЗС, є постраждалі.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/3/b/934790/3b98be2017d7acd60ad7b82f24517a91.jpeg?w=1200&q=85&stamp=1791915549",
-      "source": "Українська правда"
+      "title": "Францією прокотилася п’ята хвиля учнівськиз протестів",
+      "url": "https://www.ukrinform.ua/rubric-world/4174133-francieu-prokotilasa-pata-hvila-ucnivskiz-protestiv.html",
+      "date": "2026-10-13T21:44:00+00:00",
+      "excerpt": "МВС Франції нарахувало 161,5 тисячі учасників акцій протесту, які прокотилися країною 13 жовтня, тоді як об’єднання учнівських і студентських організацій заявило про 480 тисяч. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791280580-285.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -206,11 +206,11 @@
     },
     {
       "area": "ukraine",
-      "title": "На фронті - 206 зіткнень, ЗСУ знешкодили понад 70 окупантів на Покровському напрямку",
-      "url": "https://www.ukrinform.ua/rubric-ato/4174130-na-fronti-206-zitknen-zsu-zneskodili-ponad-70-okupantiv-na-pokrovskomu-napramku.html",
-      "date": "2026-10-13T20:40:00+00:00",
-      "excerpt": "На фронті протягом 13 жовтня сталося 206 бойових зіткнень Сил оборони України з російськими загарбниками, найактивніше - 35 разів - ворог намагався атакувати на Покровському напрямку. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791111251-334.jpg",
+      "title": "Зеленський і Карні обговорили контакти зі США та найближчі дипломатичні події",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4174132-zelenskij-i-karni-obgovorili-kontakti-zi-ssa-ta-najblizci-diplomaticni-podii.html",
+      "date": "2026-10-13T21:20:00+00:00",
+      "excerpt": "Володимир Зеленський провів телефонну розмову з прем’єр-міністром Канади Марком Карні. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_05/thumb_files/630_360_1747508164-507.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -233,11 +233,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни вдарили по ТЕЦ-4 у Києві",
-      "url": "https://suspilne.media/kyiv/1426915-rosiani-vdarili-po-tec-4-u-kievi",
-      "date": "2026-10-13T20:37:37+00:00",
-      "excerpt": "Російська армія обстріляла Київ балістичними ракетами: основною ціллю є ТЕЦ-4, там є влучання. Окрім того, удар прийшовся по житловому будинку у Деснянському районі, спалахнула пожежа. — Суспільне Київ",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/be/beaedf0183ec65357ef4c308440929c8c078c74f616026928e855c0f0503a0d2.jpg",
+      "title": "РФ вдарила по Києву ракетами, ЄС офіційно відкрив ще 2 переговорні кластери",
+      "url": "https://suspilne.media/1426901-rf-vdarila-po-kievu-raketami-es-oficijno-vidkriv-se-dva-peregovorni-klasteri-z-ukrainou-1694-den-vijni",
+      "date": "2026-10-13T21:03:21+00:00",
+      "excerpt": "Російські військові атакували Київ ракетами, є влучання в житлову багатоповерхівку в одному з районів міста. ЄС офіційно відкрив два переговорні кластери для України — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/3d/3defc8ac221bb10db4a1b569fc229cd07379cc1fb2fa91bb0dda0061f128defb.jpg",
       "source": "Суспільне"
     },
     {
@@ -260,12 +260,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський: Росія вдарила балістикою по енергетиці в Києві, попередження від партнерів не було",
-      "url": "https://www.pravda.com.ua/news/2026/10/13/8057882",
-      "date": "2026-10-13T20:27:00+00:00",
-      "excerpt": "Російські війська увечері 13 жовтня завдали балістичного удару по Києву: є влучання в ТЕЦ-4 та житловий будинок. Президент України Володимир Зеленський каже, що попередження від партнерів про удар не було.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/9/934834/89109ff9952b409b1a3611b15cbc0926.jpeg?w=1200&q=85&stamp=1791923265",
-      "source": "Українська правда"
+      "title": "У середу в Україні дощитиме, вдень до 22° тепла",
+      "url": "https://www.ukrinform.ua/rubric-regions/4173967-u-seredu-v-ukraini-dositime-vden-do-22-tepla.html",
+      "date": "2026-10-13T21:03:00+00:00",
+      "excerpt": "У середу, 14 жовтня, в Україні утримається хмарна із проясненнями погода, у більшості областей очікують дощі та зниження температури повітря. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_10/thumb_files/630_360_1729843658-269.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -296,12 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський - про балістичну атаку РФ: Сьогодні знову не було попередження від партнерів",
-      "url": "https://www.ukrinform.ua/rubric-ato/4174131-sogodni-znovu-ne-bulo-poperedzenna-vid-partneriv-pro-balisticnu-ataku-zelenskij.html",
-      "date": "2026-10-13T20:22:00+00:00",
-      "excerpt": "Сьогодні ввечері росіяни атакували Київ балістикою, і знову від партнерів не надійшла інформація про пуски ракет. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_12/thumb_files/630_360_1765392737-572.jpg",
-      "source": "Укрінформ"
+      "title": "На Хмельниччині через атаки РФ за добу постраждали 6 людей, виникли пожежі",
+      "url": "https://www.pravda.com.ua/news/2026/10/13/8057872",
+      "date": "2026-10-13T20:42:00+00:00",
+      "excerpt": "Російські війська 13 жовтня атакували підприємства у Хмельницькому та Шепетівському районах. Також пошкоджена АЗС, є постраждалі.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/3/b/934790/3b98be2017d7acd60ad7b82f24517a91.jpeg?w=1200&q=85&stamp=1791915549",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -323,12 +323,12 @@
     },
     {
       "area": "ukraine",
-      "title": "ПС про балістичний удар по Києву: інформації від партнерів щодо пусків не надходило",
-      "url": "https://www.pravda.com.ua/news/2026/10/13/8057880",
-      "date": "2026-10-13T20:17:00+00:00",
-      "excerpt": "Повітряні сили ЗСУ 13 жовтня повідомили, що інформації від партнерів щодо пусків з території РФ балістичних ракет не надходило, тому про загрозу не оголосили завчасно.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/9/9/934827/99c117e18ac28f8760a328e4cb8e40c3.jpeg?w=1200&q=85&stamp=1791922698",
-      "source": "Українська правда"
+      "title": "На фронті - 206 зіткнень, ЗСУ знешкодили понад 70 окупантів на Покровському напрямку",
+      "url": "https://www.ukrinform.ua/rubric-ato/4174130-na-fronti-206-zitknen-zsu-zneskodili-ponad-70-okupantiv-na-pokrovskomu-napramku.html",
+      "date": "2026-10-13T20:41:00+00:00",
+      "excerpt": "На фронті протягом 13 жовтня сталося 206 бойових зіткнень Сил оборони України з російськими загарбниками, найактивніше - 35 разів - ворог намагався атакувати на Покровському напрямку. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791111251-334.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -350,12 +350,12 @@
     },
     {
       "area": "ukraine",
-      "title": "В Україні запрацювала «Мапа енергонезалежності», де можна перевірити готовність будинку до зими",
-      "url": "https://www.ukrinform.ua/rubric-society/4173953-v-ukraini-zapracuvala-mapa-energonezaleznosti-de-mozna-pereviriti-gotovnist-budinku-do-zimi.html",
-      "date": "2026-10-13T20:08:00+00:00",
-      "excerpt": "В Україні офіційно запрацювала інтерактивна «Мапа енергонезалежності» - цифровий інструмент, який допомагає мешканцям, орендарям і покупцям житла оцінити готовність будинків до опалювального сезону — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_01/thumb_files/630_360_1769162295-305.jpg",
-      "source": "Укрінформ"
+      "title": "Росіяни вдарили по ТЕЦ-4 у Києві,також постраждала багатоповерхівка",
+      "url": "https://suspilne.media/kyiv/1426915-rosiani-vdarili-po-tec-4-u-kievi",
+      "date": "2026-10-13T20:37:37+00:00",
+      "excerpt": "Російська армія обстріляла Київ балістичними ракетами: основною ціллю є ТЕЦ-4, там є влучання. Окрім того, удар прийшовся по житловому будинку у Деснянському районі, спалахнула пожежа. — Суспільне Київ",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/be/beaedf0183ec65357ef4c308440929c8c078c74f616026928e855c0f0503a0d2.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
