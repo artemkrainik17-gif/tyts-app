@@ -16725,12 +16725,14 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
 #tyts-nbu-home.tyts-nbu-collapsed #tyts-nbu-values{display:none!important}
 #tyts-nbu-home.tyts-nbu-collapsed{margin-bottom:8px}
 #home .tyts-stage2-section-head{margin-top:15px}
-#home .categories{display:flex!important;flex-wrap:nowrap!important;gap:10px!important;overflow-x:auto!important;overflow-y:hidden!important;scroll-snap-type:x proximity;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;padding:3px 2px 12px;scrollbar-width:thin}
-#home .categories .category,#home .categories .category:nth-child(n+7){display:flex!important;flex:0 0 112px!important;width:112px!important;min-width:112px!important;min-height:112px!important;padding:13px 10px!important;flex-direction:column!important;justify-content:center;scroll-snap-align:start}
-#home .categories .category .icon{font-size:28px!important;margin-bottom:7px!important}
-#home .categories .category .name{font-size:13px!important;line-height:1.2!important;overflow-wrap:anywhere}
-#home .categories .category .description{font-size:10px!important;line-height:1.25!important;margin-top:5px!important;display:-webkit-box!important;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-@media(max-width:390px){#home .categories .category,#home .categories .category:nth-child(n+7){flex-basis:102px!important;width:102px!important;min-width:102px!important}#home #tytsTopCollapse,#home #tytsNbuToggle{font-size:11px}}
+/* Категорії знову вертикально, як у попередній версії: 2 колонки, усі видимі. */
+#home .categories{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important;overflow:visible!important;padding:0!important;scroll-snap-type:none!important}
+#home .categories .category,#home .categories .category:nth-child(n+7){display:block!important;width:auto!important;min-width:0!important;min-height:125px!important;padding:18px 14px!important;flex:none!important}
+#home .categories .category .icon{font-size:34px!important;margin-bottom:10px!important}
+#home .categories .category .name{font-size:16px!important;line-height:normal!important}
+#home .categories .category .description{font-size:13px!important;line-height:normal!important;margin-top:5px!important;display:block!important;overflow:visible!important}
+@media(max-width:390px){#home #tytsTopCollapse,#home #tytsNbuToggle{font-size:11px}}
+
 </style>
 <script id="tyts-nbu-collapse-20261013">
 (function(){
