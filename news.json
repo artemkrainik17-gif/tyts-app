@@ -1,11 +1,38 @@
 {
-  "updated_at": "2026-10-13T18:36:12.594159+00:00",
+  "updated_at": "2026-10-13T19:40:54.873379+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
     "ukraine": 30
   },
   "items": [
+    {
+      "area": "local",
+      "title": "У лікарні Чернігова помер військовослужбовець з Браїлова Віталій Петрусь із позивним «Вітер» – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482398/u-likarni-chernigova-pomer-vijskovosluzhbovec-z-brailova-vitalij-petrus-iz-pozivnim-viter",
+      "date": "2026-10-13T17:12:00+00:00",
+      "excerpt": "Воїн, який любив свою родину, цінував дружбу та вмів радіти простим речам",
+      "image": "https://im2.abo.media/media/64/article/485c59153bd8458bbd836f0de488fb28.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "На Вінниччині через російську атаку пошкоджено об’єкт залізничної інфраструктури",
+      "url": "https://suspilne.media/vinnytsia/1426889-na-vinniccini-cerez-rosijsku-ataku-poskodzeno-obekt-zaliznicnoi-infrastrukturi",
+      "date": "2026-10-13T18:47:25+00:00",
+      "excerpt": "У Жмеринському районі Вінницької області внаслідок російської атаки постраждав об'єкт залізничної інфраструктури. Інформації про травмованих наразі немає. — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/b5/b530332948d3f11be29c1bd8e51108906d967c38adf8d3e134f80ff2b246c682.jpg",
+      "source": "Суспільне Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Офіційні документи",
+      "url": "https://www.ukrinform.ua/block-docs",
+      "date": "2026-10-13T19:39:46+00:00",
+      "excerpt": "",
+      "image": "https://www.ukrinform.ua/img/img_none.jpg",
+      "source": "Укрінформ"
+    },
     {
       "area": "local",
       "title": "Пан Клякса повернувся до Жмеринки: презентували нову книгу-комікс і вшанували пам’ять Яна Бжехви – Жмеринка.City",
@@ -26,11 +53,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Офіційні документи",
-      "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-13T18:35:09+00:00",
-      "excerpt": "",
-      "image": "https://www.ukrinform.ua/img/img_none.jpg",
+      "title": "Корецький: Адаптуємо захист енергообʼєктів до нової тактики ворога",
+      "url": "https://www.ukrinform.ua/rubric-economy/4174127-koreckij-adaptuemo-zahist-energoobektiv-do-novoi-taktiki-voroga.html",
+      "date": "2026-10-13T19:31:00+00:00",
+      "excerpt": "У ході підготовки до зими захист енергетичних обʼєктів України буде адаптовано до нової тактики ворога. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791919019-325.jpg",
       "source": "Укрінформ"
     },
     {
@@ -53,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "В Україні готують сценарії подолання криз у зимовий період - Буданов",
-      "url": "https://www.ukrinform.ua/rubric-society/4174115-v-ukraini-gotuut-scenarii-podolanna-kriz-u-zimovij-period-budanov.html",
-      "date": "2026-10-13T18:32:00+00:00",
-      "excerpt": "Потрібні чіткі плани дій на випадок виникнення криз у зимовий період. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791915935-954.jpeg",
-      "source": "Укрінформ"
+      "title": "У Польщі школам розіслали інструкції реагування на загрози після серії нападів",
+      "url": "https://suspilne.media/1426887-u-polsi-skolam-rozislali-instrukcii-sodo-reaguvanna-na-zagrozi-na-tli-nesodavnih-aktiv-nasilstva-v-navcalnih-zakladah",
+      "date": "2026-10-13T19:24:49+00:00",
+      "excerpt": "Передані матеріали містять інструкції щодо дій у разі нападу із застосуванням небезпечного предмета та поради вчителям щодо того, як розмовляти з учнями та батьками після кризових ситуацій — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/ee/ee924c6aff821de5b6dad80a7a380cb8a83009742575116d941e30a3b9550a84.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -66,8 +93,17 @@
       "url": "https://zhmerynka-rda.gov.ua/2026/10/13/%D1%8F%D0%BA-%D0%BE%D1%82%D1%80%D0%B8%D0%BC%D0%B0%D1%82%D0%B8-%D0%B0%D1%80%D1%85%D1%96%D0%B2%D0%BD%D1%83-%D0%B4%D0%BE%D0%B2%D1%96%D0%B4%D0%BA%D1%83",
       "date": "2026-10-13T06:14:42+00:00",
       "excerpt": "Для оформлення спадщини, підтвердження трудового стажу, пошуку відомостей про майно чи земельну ділянку можуть знадобитися документи минулих років. Якщо вони перебувають на зберіганні в архівному відділі Жмеринської районної військової адміністрації, на їх підставі можна отримати архівну довідку, копію або витяг. Які д",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2025/11/12-300x200.jpeg",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/08/08-300x120.png",
       "source": "Жмеринська РВА"
+    },
+    {
+      "area": "local",
+      "title": "Ірина Борзова: «Нові тротуари можуть почекати, пенсії та соціальні виплати – ні» – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482212/irina-borzova-novi-trotuari-mozhut-pochekati-pensii-ta-socialni-viplati-ni",
+      "date": "2026-10-12T09:28:00+00:00",
+      "excerpt": "Ірина Борзова: «Нові тротуари можуть почекати, пенсії та соціальні виплати – ні»",
+      "image": "https://im2.abo.media/media/64/article/5671b654f85e40968a5ee8aba0c791b7.webp",
+      "source": "Жмеринка.City"
     },
     {
       "area": "region",
@@ -80,21 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Підхід Трампа до пошуку домовленостей із РФ посилює позиції Путіна - ексголова Бюро нацбезпеки Польщі",
-      "url": "https://www.ukrinform.ua/rubric-world/4174116-pidhid-trampa-do-posuku-domovlenostej-iz-rf-posilue-pozicii-putina-eksgolova-buro-nacbezpeki-polsi.html",
-      "date": "2026-10-13T18:30:00+00:00",
-      "excerpt": "Колишній керівник Бюро національної безпеки (BBN) Польщі Станіслав Козєй вважає, що підхід президента США Дональда Трампа до пошуку домовленостей із Росією без належного врахування позиції України загрожує безпеці Європи та посилює позиції Володимира Путіна. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791891535-415.jpg",
+      "title": "У листі до Трампа 12 сенаторів закликали застосувати санкційний закон Грема",
+      "url": "https://www.ukrinform.ua/rubric-world/4174125-u-listi-do-trampa-12-senatoriv-zaklikali-zastosuvati-sankcijnij-zakon-grema.html",
+      "date": "2026-10-13T19:15:00+00:00",
+      "excerpt": "Сенатори від обох партій засудили угоду президента США з Путіним щодо імпорту російського дизельного пального, назвавши її «подарунком нашому супротивнику та зрадою союзників». — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1753862336-599.jpg",
       "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "Ірина Борзова: «Нові тротуари можуть почекати, пенсії та соціальні виплати – ні» – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482212/irina-borzova-novi-trotuari-mozhut-pochekati-pensii-ta-socialni-viplati-ni",
-      "date": "2026-10-12T09:28:00+00:00",
-      "excerpt": "Ірина Борзова: «Нові тротуари можуть почекати, пенсії та соціальні виплати – ні»",
-      "image": "https://im2.abo.media/media/64/article/5671b654f85e40968a5ee8aba0c791b7.webp",
-      "source": "Жмеринка.City"
     },
     {
       "area": "local",
@@ -116,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "На Хмельниччині РФ атакувала кілька підприємств: виникли пожежі",
-      "url": "https://www.pravda.com.ua/news/2026/10/13/8057872",
-      "date": "2026-10-13T18:18:00+00:00",
-      "excerpt": "Російські війська 13 жовтня атакували підприємства у Хмельницькому та Шепетівському районах.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/3/b/934790/3b98be2017d7acd60ad7b82f24517a91.jpeg?w=1200&q=85&stamp=1791915549",
-      "source": "Українська правда"
+      "title": "На Вінниччині через атаку РФ пошкоджений обʼєкт залізничної інфраструктури",
+      "url": "https://www.ukrinform.ua/rubric-regions/4174126-na-vinniccini-cerez-ataku-rf-poskodzenij-obekt-zaliznicnoi-infrastrukturi.html",
+      "date": "2026-10-13T19:02:00+00:00",
+      "excerpt": "У Жмеринському районі Вінницької області внаслідок російської атаки зазнав пошкоджень обʼєкт залізничної інфраструктури. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_06/thumb_files/630_360_1781864410-895.png",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -143,11 +170,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Ченцов: Вступ України до ЄС - це набагато більше, ніж розширення кордонів",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4174111-cencov-vstup-ukraini-do-es-ce-nabagato-bilse-niz-rozsirenna-kordoniv.html",
-      "date": "2026-10-13T18:17:00+00:00",
-      "excerpt": "Віцепрем'єр з європейської та євроатлантичної інтеграції Всеволод Ченцов вважає, що вступ України зробить Євросоюз сильнішим. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2020_09/thumb_files/630_360_1598954892-219.jpg",
+      "title": "У США монету номіналом п'ять центів продали на аукціоні за рекордні $2,93 мільйона",
+      "url": "https://www.ukrinform.ua/rubric-world/4174124-u-ssa-monetu-nominalom-pat-centiv-prodali-na-aukcioni-za-rekordni-293-miljona.html",
+      "date": "2026-10-13T18:59:00+00:00",
+      "excerpt": "У США срібну монету номіналом п’ять центів, викарбувану 1792 року, продали за рекордні $2,93 мільйона. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791917637-379.jpg",
       "source": "Укрінформ"
     },
     {
@@ -157,6 +184,15 @@
       "date": "2026-10-09T20:18:00+00:00",
       "excerpt": "У Жмеринці стартували депутатські комісії: які питання готують до 80-ї сесії міської ради 15 жовтня",
       "image": "https://im2.abo.media/media/64/article/d4f29d83bbed43c3abc9b11323441262.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "Жмеринське вище професійне училище виграло грант на облаштувнаня безбар’єрного простору – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482071/zhmerinske-vische-profesijne-uchilische-vigralo-grant-na-oblashtuvnanya-bezbaryernogo-prostoru",
+      "date": "2026-10-09T17:59:00+00:00",
+      "excerpt": "Жмеринське вище професійне училище виграло грант на облаштувнаня безбар’єрного простору",
+      "image": "https://im2.abo.media/media/64/article/5b43faaa1eee427e858dd618b324b3cc.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -170,21 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Екссудді Львову обрали запобіжний захід: майже мільйон гривень застави",
-      "url": "https://www.pravda.com.ua/news/2026/10/13/8057871",
-      "date": "2026-10-13T18:16:00+00:00",
-      "excerpt": "Богдану Львову, підозрюваному у легалізації 26 млн грн, ВАКС обрав заставу в майже мільйон та процесуальні обов'язки",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/6/5/934789/65432ce24eab4ca8fa94dd6020a2f825.jpeg?w=1200&q=85&stamp=1791915282",
+      "title": "Помер український комік Олександр Венедчук",
+      "url": "https://www.pravda.com.ua/news/2026/10/13/8057874",
+      "date": "2026-10-13T18:57:00+00:00",
+      "excerpt": "Олександр Венедчук, який був учасником проєкту \"Ветерани космічних військ\" та виступав у \"Лізі сміху\", помер 13 жовтня 2026 року.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/c/4/934792/c481a56f926ad063c3881b45348671c6.jpeg?w=1200&q=85&stamp=1791917448",
       "source": "Українська правда"
-    },
-    {
-      "area": "local",
-      "title": "Жмеринське вище професійне училище виграло грант на облаштувнаня безбар’єрного простору – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482071/zhmerinske-vische-profesijne-uchilische-vigralo-grant-na-oblashtuvnanya-bezbaryernogo-prostoru",
-      "date": "2026-10-09T17:59:00+00:00",
-      "excerpt": "Жмеринське вище професійне училище виграло грант на облаштувнаня безбар’єрного простору",
-      "image": "https://im2.abo.media/media/64/article/5b43faaa1eee427e858dd618b324b3cc.webp",
-      "source": "Жмеринка.City"
     },
     {
       "area": "local",
@@ -206,12 +233,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Воллес закликав Захід допомогти Україні продовжувати удари по російських НПЗ",
-      "url": "https://www.ukrinform.ua/rubric-ato/4174109-volles-zaklikav-zahid-dopomogti-ukraini-prodovzuvati-udari-po-rosijskih-npz.html",
-      "date": "2026-10-13T18:07:00+00:00",
-      "excerpt": "Колишній міністр оборони Великої Британії Бен Воллес підтримав удари України по російських НПЗ і закликав Захід допомагати їй продовжувати такі атаки, попри можливі енергетичні наслідки для Європи. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791914448-897.jpg",
-      "source": "Укрінформ"
+      "title": "Росіяни атакували обʼєкт залізничної інфраструктури на Вінниччині",
+      "url": "https://www.pravda.com.ua/news/2026/10/13/8057873",
+      "date": "2026-10-13T18:41:00+00:00",
+      "excerpt": "Російські війська 13 жовтня атакували обʼєкт залізничної інфраструктури в Жмеринському районі на Вінниччині.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/e/1/934791/e19bbf61e3a7a5b58a174f7766d67f44.jpeg?w=1200&q=85&stamp=1791916939",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -233,11 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У Кропивницькому чоловікові, який стріляв у центрі міста, оголосили підозру",
-      "url": "https://www.ukrinform.ua/rubric-regions/4174107-u-kropivnickomu-colovikovi-akij-strilav-u-centri-mista-ogolosili-pidozru.html",
-      "date": "2026-10-13T18:02:38+00:00",
-      "excerpt": "У Кропивницькому 53-річному місцевому жителю повідомили про підозру в замаху на вбивство правоохоронців і хуліганстві із застосуванням зброї. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791870174-679.jpg",
+      "title": "На Хмельниччині через російські атаки виникли пожежі на підприємствах",
+      "url": "https://www.ukrinform.ua/rubric-regions/4174119-na-hmelniccini-cerez-rosijski-ataki-vinikli-pozezi-na-pidpriemstvah.html",
+      "date": "2026-10-13T18:40:00+00:00",
+      "excerpt": "У Хмельницькому та Шепетівському районах Хмельницької області внаслідок російських атак виникли пожежі на підприємствах. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_06/thumb_files/630_360_1782560365-861.png",
       "source": "Укрінформ"
     },
     {
@@ -247,6 +274,15 @@
       "date": "2026-10-06T16:02:00+00:00",
       "excerpt": "​З настанням осені, коли асфальт стає вогким, з'являються бруд, пісок і опале листя - літні сліки втрачають керованість. Райдери переходять на варіанти з глибоким протектором.",
       "image": "https://im2.abo.media/media/64/article/029ace4563ad4692b2418411f8379d7c.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "Як купити Litecoin (LTC) за долари США (USD) – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/481656/yak-kupiti-litecoin-ltc-za-dolari-ssha-usd",
+      "date": "2026-10-06T14:11:00+00:00",
+      "excerpt": "Як купити Litecoin (LTC) за долари США (USD) з урахуванням курсу, комісій та подальшого використання монет? Розбираємось з прямим обміном, вибором сервісу, підготовкою гаманця та особливостями безпечного перекладу Litecoin.",
+      "image": "https://im2.abo.media/media/64/article/4da4e776964f4d83bcb12d3c15a84214.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -260,21 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Україну обрали до Ради ООН з прав людини",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4174105-ukrainu-obrali-do-radi-oon-z-prav-ludini.html",
-      "date": "2026-10-13T17:59:00+00:00",
-      "excerpt": "Україну обрали до Ради ООН з прав людини на 2027–2029 роки. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762426128-152.jpeg",
+      "title": "ЄІБ планує нарощувати фінансову підтримку України - віцепрезидент банку",
+      "url": "https://www.ukrinform.ua/rubric-economy/4174117-eib-planue-narosuvati-finansovu-pidtrimku-ukraini-viceprezident-banku.html",
+      "date": "2026-10-13T18:39:00+00:00",
+      "excerpt": "Європейський інвестиційний банк від початку російської агресії виділив Україні 4,5 млрд євро та найближчими роками планує нарощувати її фінансову підтримку. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791916458-150.jpg",
       "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "Як купити Litecoin (LTC) за долари США (USD) – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/481656/yak-kupiti-litecoin-ltc-za-dolari-ssha-usd",
-      "date": "2026-10-06T14:11:00+00:00",
-      "excerpt": "Як купити Litecoin (LTC) за долари США (USD) з урахуванням курсу, комісій та подальшого використання монет? Розбираємось з прямим обміном, вибором сервісу, підготовкою гаманця та особливостями безпечного перекладу Litecoin.",
-      "image": "https://im2.abo.media/media/64/article/4da4e776964f4d83bcb12d3c15a84214.webp",
-      "source": "Жмеринка.City"
     },
     {
       "area": "local",
@@ -296,11 +323,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У Рівному ліквідували наслідки удару РФ по університету - кількість постраждалих зросла до 30",
-      "url": "https://www.ukrinform.ua/rubric-regions/4174103-u-rivnomu-likviduvali-naslidki-udaru-rf-po-universitetu-kilkist-postrazdalih-zrosla-do-30.html",
-      "date": "2026-10-13T17:49:15+00:00",
-      "excerpt": "У Рівному ліквідували наслідки російської атаки на навчальний заклад, зокрема розібрали завали та обвалені конструкції. Наразі відомо про 30 постражлалих. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791913610-969.jpeg",
+      "title": "Росіяни вдарили по складах у Запоріжжі",
+      "url": "https://www.ukrinform.ua/rubric-regions/4174118-rosiani-vdarili-po-skladah-u-zaporizzi.html",
+      "date": "2026-10-13T18:38:00+00:00",
+      "excerpt": "Армія РФ завдала удару дроном по складах в одному з районів Запоріжжя. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791916731-739.jpg",
       "source": "Укрінформ"
     },
     {
@@ -323,11 +350,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Ворог атакував промислове підприємство у Дніпрі",
-      "url": "https://www.ukrinform.ua/rubric-regions/4174102-vorog-atakuvav-promislove-pidpriemstvo-u-dnipri.html",
-      "date": "2026-10-13T17:47:00+00:00",
-      "excerpt": "Російська армія ввечері атакувала Дніпро. Є влучання по промисловому підприємству. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_06/thumb_files/630_360_1782560364-359.png",
+      "title": "В Україні готують сценарії подолання криз у зимовий період - Буданов",
+      "url": "https://www.ukrinform.ua/rubric-society/4174115-v-ukraini-gotuut-scenarii-podolanna-kriz-u-zimovij-period-budanov.html",
+      "date": "2026-10-13T18:32:00+00:00",
+      "excerpt": "Потрібні чіткі плани дій на випадок виникнення криз у зимовий період. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791915935-954.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -337,33 +364,6 @@
       "date": "2026-09-30T17:56:00+00:00",
       "excerpt": "У Жмеринці подякували бібліотекарям за працю та любов до книги",
       "image": "https://im2.abo.media/media/64/article/97d68b52a939421f805edf0711ce3846.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "Дрон у небі чи вибух поблизу: як діяти вінничанам під час атаки - 20 хвилин",
-      "url": "https://vn.20minut.ua/Zdorovya/dron-u-nebi-chi-vibuh-poblizu-yak-diyati-vinnichanam-pid-chas-ataki-12009879.html",
-      "date": "2026-10-13T10:13:00+00:00",
-      "excerpt": "[13:10:2026] Дрон у небі чи вибух поблизу: як діяти вінничанам під час атаки ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/52/4151272-dron-u-nebi-chi-vibuh-poblizu-yak-diyati-vinnichanam-pid-chas-ataki.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "У столиці Албанії студентський протест переріс у сутички з поліцією - 23 затриманих",
-      "url": "https://www.ukrinform.ua/rubric-world/4174101-u-stolici-albanii-studentskij-protest-pereris-u-suticki-z-policieu-23-zatrimanih.html",
-      "date": "2026-10-13T17:46:00+00:00",
-      "excerpt": "У вівторок студентський протест біля Міністерства освіти в Тирані переріс у сутички з поліцією: демонстранти закидали будівлю камінням та яйцями, а правоохоронці застосували сльозогінний газ і водомети, щоб розігнати їх. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791912931-369.jpg",
-      "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "Безпека, медицина та освіта: рішення позачергового виконкому у Жмеринці – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/481049/bezpeka-medicina-ta-osvita-rishennya-pozachergovogo-vikonkomu-u-zhmerinci",
-      "date": "2026-09-30T11:42:00+00:00",
-      "excerpt": "Безпека, медицина та освіта: рішення позачергового виконкому у Жмеринці",
-      "image": "https://im2.abo.media/media/64/article/a26d7fb1fd584b639282b1616679703e.webp",
       "source": "Жмеринка.City"
     }
   ]
