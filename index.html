@@ -1751,15 +1751,19 @@ style="display:block">
   <div id="tyts-news-home-status" class="tyts-news-footnote"></div>
   </div>
 </section>
+<section id="tytsTopHome" class="tyts-top-home" hidden aria-label="ТОП оголошення">
+  <div class="tyts-top-head"><h2>⭐ ТОП оголошення</h2><div class="tyts-top-head-actions"><button type="button" id="tytsTopShowAll" aria-expanded="false">Усі ТОП →</button><button type="button" id="tytsTopCollapse" aria-expanded="true" aria-controls="tytsTopHomeGrid">Згорнути ▴</button></div></div>
+  <div id="tytsTopHomeGrid" class="tyts-top-grid"></div>
+</section>
 <section id="tyts-nbu-home" class="tyts-nbu-section" aria-label="Офіційний курс валют">
-  <div class="tyts-news-heading"><h2>💱 Офіційний курс НБУ</h2><a href="https://bank.gov.ua/ua/markets/exchangerates" target="_blank" rel="noopener noreferrer">Джерело: НБУ ↗</a></div>
+  <div class="tyts-news-heading"><h2>💱 Офіційний курс НБУ</h2><div class="tyts-news-head-actions"><a href="https://bank.gov.ua/ua/markets/exchangerates" target="_blank" rel="noopener noreferrer">Джерело: НБУ ↗</a><button type="button" id="tytsNbuToggle" aria-expanded="true" aria-controls="tyts-nbu-values">Згорнути ▴</button></div></div>
   <div id="tyts-nbu-values" class="tyts-nbu-values">Отримуємо офіційний курс…</div>
 </section>
 
 
 <div class="tyts-stage2-section-head">
   <div class="title">Що вам потрібно?</div>
-  <button type="button" id="tytsAllCategoriesButton" class="tyts-stage2-all-link" aria-expanded="false" onclick="tytsStage2ToggleCategories()">Усі категорії →</button>
+
 </div>
 
 <div class="categories">
@@ -1989,10 +1993,7 @@ onclick="showOther()">
 
 </div>
 
-<section id="tytsTopHome" class="tyts-top-home" hidden aria-label="ТОП оголошення">
-  <div class="tyts-top-head"><h2>⭐ ТОП оголошення</h2><button type="button" id="tytsTopShowAll" aria-expanded="false">Усі ТОП →</button></div>
-  <div id="tytsTopHomeGrid" class="tyts-top-grid"></div>
-</section>
+
 
 </div>
 
@@ -16698,6 +16699,12 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
     }catch(err){console.warn('ТОП: не вдалося оновити список, використовуємо вже завантажені оголошення',err);render()}
     finally{requested=false}
   }
+  const collapse=document.getElementById('tytsTopCollapse');
+  if(collapse)collapse.addEventListener('click',()=>{
+    const isCollapsed=root.classList.toggle('tyts-top-collapsed');
+    collapse.textContent=isCollapsed?'Розгорнути ▾':'Згорнути ▴';
+    collapse.setAttribute('aria-expanded',String(!isCollapsed));
+  });
   toggle.addEventListener('click',()=>{expanded=!expanded;render()});
   render();load();
   setInterval(()=>{render();if(document.visibilityState==='visible')load()},60000);
@@ -16706,5 +16713,76 @@ html.tyts-dark .tyts-data-safety-meta{color:#aeb8c5}
 })();
 </script>
 
+
+
+<!-- ТИЦЬ: точкове налаштування головної сторінки 13.10.2026 -->
+<style id="tyts-home-collapsible-horizontal-20261013">
+#tytsTopHome.tyts-top-collapsed #tytsTopHomeGrid,
+#tytsTopHome.tyts-top-collapsed #tytsTopShowAll{display:none!important}
+#tytsTopHome.tyts-top-collapsed{margin-bottom:8px}
+#home .tyts-top-head-actions{display:flex;align-items:center;gap:12px;min-width:0}
+#home #tytsTopCollapse,#home #tytsNbuToggle{background:transparent;border:0;color:#47e6a4;font-size:12px;font-weight:800;cursor:pointer;white-space:nowrap;padding:8px 0}
+#tyts-nbu-home.tyts-nbu-collapsed #tyts-nbu-values{display:none!important}
+#tyts-nbu-home.tyts-nbu-collapsed{margin-bottom:8px}
+#home .tyts-stage2-section-head{margin-top:15px}
+#home .categories{display:flex!important;flex-wrap:nowrap!important;gap:10px!important;overflow-x:auto!important;overflow-y:hidden!important;scroll-snap-type:x proximity;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;padding:3px 2px 12px;scrollbar-width:thin}
+#home .categories .category,#home .categories .category:nth-child(n+7){display:flex!important;flex:0 0 112px!important;width:112px!important;min-width:112px!important;min-height:112px!important;padding:13px 10px!important;flex-direction:column!important;justify-content:center;scroll-snap-align:start}
+#home .categories .category .icon{font-size:28px!important;margin-bottom:7px!important}
+#home .categories .category .name{font-size:13px!important;line-height:1.2!important;overflow-wrap:anywhere}
+#home .categories .category .description{font-size:10px!important;line-height:1.25!important;margin-top:5px!important;display:-webkit-box!important;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+@media(max-width:390px){#home .categories .category,#home .categories .category:nth-child(n+7){flex-basis:102px!important;width:102px!important;min-width:102px!important}#home #tytsTopCollapse,#home #tytsNbuToggle{font-size:11px}}
+</style>
+<script id="tyts-nbu-collapse-20261013">
+(function(){
+ const root=document.getElementById('tyts-nbu-home'),button=document.getElementById('tytsNbuToggle');
+ if(!root||!button)return;
+ button.addEventListener('click',function(){
+   const collapsed=root.classList.toggle('tyts-nbu-collapsed');
+   button.textContent=collapsed?'Розгорнути ▾':'Згорнути ▴';
+   button.setAttribute('aria-expanded',String(!collapsed));
+ });
+})();
+</script>
+
+
+<style id="tyts-top-news-card-sizing-20261013">
+/* Only TOP previews on the home page: same horizontal dimensions as news. */
+#home #tytsTopHomeGrid.tyts-top-grid{
+ display:flex!important;
+ flex-wrap:nowrap!important;
+ gap:12px!important;
+ overflow-x:auto!important;
+ overflow-y:hidden!important;
+ overscroll-behavior-x:contain;
+ scroll-snap-type:x mandatory;
+ scrollbar-width:none;
+ -webkit-overflow-scrolling:touch;
+ touch-action:pan-x pan-y;
+ padding:0 0 7px;
+ align-items:stretch;
+}
+#home #tytsTopHomeGrid.tyts-top-grid::-webkit-scrollbar{display:none}
+#home #tytsTopHomeGrid .tyts-top-card{
+ flex:0 0 clamp(205px,71vw,280px)!important;
+ width:clamp(205px,71vw,280px)!important;
+ min-width:0!important;
+ max-width:none!important;
+ scroll-snap-align:start;
+ border-radius:17px;
+}
+#home #tytsTopHomeGrid .tyts-top-picture{
+ aspect-ratio:auto!important;
+ height:108px!important;
+ min-height:108px!important;
+ flex:0 0 108px!important;
+}
+#home #tytsTopHomeGrid .tyts-top-card-info{
+ flex:1;
+ padding:11px 12px 13px;
+ gap:7px;
+}
+#home #tytsTopHomeGrid .tyts-top-card-title{font-size:14px;line-height:1.3}
+/* Ordinary advertisement cards keep their existing grid and sizes. */
+</style>
 
 </html>
