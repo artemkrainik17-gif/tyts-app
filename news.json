@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T04:31:53.720298+00:00",
+  "updated_at": "2026-10-13T05:31:19.962544+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -17,18 +17,18 @@
     },
     {
       "area": "region",
-      "title": "Синоптики попередили про заморозки та дощі на Вінниччині - 20 хвилин",
-      "url": "https://vn.20minut.ua/Pogoda/sinoptiki-poperedili-pro-zamorozki-ta-doschi-na-vinnichchini-12009833.html",
-      "date": "2026-10-12T18:01:00+00:00",
-      "excerpt": "[12:10:2026] Синоптики попередили про заморозки та дощі на Вінниччині ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/51/4150891-sinoptiki-poperedili-pro-zamorozki-ta-doschi-na-vinnichchini.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "До 15 градусів тепла: прогноз погоди на Вінниччині 13 жовтня",
+      "url": "https://suspilne.media/vinnytsia/1425665-do-15-gradusiv-tepla-prognoz-pogodi-na-vinniccini-13-zovtna",
+      "date": "2026-10-13T04:30:00+00:00",
+      "excerpt": "У світлу пору у Вінницькій області повітря прогріється від 10 до 15 градусів. В ніч на 13 жовтня стовпчики термометрів фіксуватимуть температуру в межах від 2 до 7 градусів вище нуля — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/22/22d73ebc10b8f7d64ce0642c4e73122001720f5b49e0219549e680907d53ec1c.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-13T04:30:41+00:00",
+      "date": "2026-10-13T05:30:28+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -44,21 +44,21 @@
     },
     {
       "area": "region",
-      "title": "Чому у Вінниці не сортують сухе та вологе сміття під час вивезення? Запитали у комунальників - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/chomu-u-vinnitsi-ne-sortuyut-suhe-ta-vologe-smittya-pid-chas-vivezenny-12009844.html",
-      "date": "2026-10-12T17:10:00+00:00",
-      "excerpt": "[12:10:2026] Чому у Вінниці не сортують сухе та вологе сміття під час вивезення? Запитали у комунальників ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/51/4150967-chomu-u-vinnitsi-ne-sortuyut-suhe-ta-vologe-smittya-pid-chas-vivezennya-zapitali-u-komunalnikiv.jpeg",
+      "title": "Синоптики попередили про заморозки та дощі на Вінниччині - 20 хвилин",
+      "url": "https://vn.20minut.ua/Pogoda/sinoptiki-poperedili-pro-zamorozki-ta-doschi-na-vinnichchini-12009833.html",
+      "date": "2026-10-12T18:01:00+00:00",
+      "excerpt": "[12:10:2026] Синоптики попередили про заморозки та дощі на Вінниччині ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/51/4150891-sinoptiki-poperedili-pro-zamorozki-ta-doschi-na-vinnichchini.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "У Дарницькому районі Києва уламки дрона впали на території приватного будинку",
-      "url": "https://www.ukrinform.ua/rubric-regions/4173784-u-darnickomu-rajoni-kieva-ulamki-drona-vpali-na-teritorii-privatnogo-budinku.html",
-      "date": "2026-10-13T04:23:31+00:00",
-      "excerpt": "У Дарницькому районі Києва уламки російського безпілотника впали на території приватного житлового будинку. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_06/thumb_files/630_360_1719068974-559.jpg",
-      "source": "Укрінформ"
+      "title": "Повітряні сили: Сили оборони вночі знешкодили 88 зі 108 дронів РФ",
+      "url": "https://suspilne.media/1426047-sili-oboroni-zneskodili-88-zi-108-droniv-rf-zafiksovano-vlucanna-na-17-lokaciah-povitrani-sili",
+      "date": "2026-10-13T05:24:17+00:00",
+      "excerpt": "Уночі армія РФ атакувала Україну пʼятьма балістичними ракетами, девʼятьма «Бандеролями» та 108 ударними безпілотниками. Протиповітряна оборона знищила 88 дронів, повідомили в Повітряних силах — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/e2/e20ff7c26530b56903c4ed40a9f9b635db8dd68b20ccdaaf3cfdcf5e688ff09a.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -71,20 +71,20 @@
     },
     {
       "area": "region",
-      "title": "Батько і син служать в одному загоні: історія прикордонника з Вінниччини - 20 хвилин",
-      "url": "https://vn.20minut.ua/lyudi/batko-i-sin-sluzhat-v-odnomu-zagoni-istoriya-prikordonnika-z-vinnichch-12009788.html",
-      "date": "2026-10-12T17:08:00+00:00",
-      "excerpt": "[12:10:2026] Батько і син служать в одному загоні: історія прикордонника з Вінниччини ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/51/4150541-batko-i-sin-sluzhat-v-odnomu-zagoni-istoriya-prikordonnika-z-vinnichchini.jpeg",
+      "title": "Чому у Вінниці не сортують сухе та вологе сміття під час вивезення? Запитали у комунальників - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/chomu-u-vinnitsi-ne-sortuyut-suhe-ta-vologe-smittya-pid-chas-vivezenny-12009844.html",
+      "date": "2026-10-12T17:10:00+00:00",
+      "excerpt": "[12:10:2026] Чому у Вінниці не сортують сухе та вологе сміття під час вивезення? Запитали у комунальників ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/51/4150967-chomu-u-vinnitsi-ne-sortuyut-suhe-ta-vologe-smittya-pid-chas-vivezennya-zapitali-u-komunalnikiv.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "У Харкові під завалами будинку знайшли трьох загиблих після російського удару",
-      "url": "https://www.pravda.com.ua/news/2026/10/13/8057714",
-      "date": "2026-10-13T04:18:00+00:00",
-      "excerpt": "Внаслідок удару по житловому будинку в Харкові 12 жовтня загинув чоловік, ще 11 людей поранені. Пошукові роботи тривають, серед травмованих рятувальник.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/1/934141/a1c85562f7683391791bb014a7e0af84.jpeg?w=1200&q=85&stamp=1791848926",
+      "title": "Росія атакувала Україну балістикою, \"Бандеролями\" та 108 дронами: ППО знешкодила 88 БпЛА",
+      "url": "https://www.pravda.com.ua/news/2026/10/13/8057733",
+      "date": "2026-10-13T05:19:00+00:00",
+      "excerpt": "У ніч на 13 жовтня Росія атакувала Україну 5 балістичними ракетами, 9 баражуючими боєприпасами та 108 безпілотниками, з яких сили ППО збили 88.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/d/b/934179/dbb66e2db9b7c1fc9b0de64e3f767ade.jpeg?w=1200&q=85&stamp=1791868987",
       "source": "Українська правда"
     },
     {
@@ -107,21 +107,21 @@
     },
     {
       "area": "region",
-      "title": "У ROSHEN підтвердили російський удар по виробничому комплексу у Вінниці",
-      "url": "https://suspilne.media/vinnytsia/1425865-u-roshen-pidtverdili-rosijskij-udar-po-virobnicomu-kompleksu-u-vinnici-so-vidomo",
-      "date": "2026-10-12T16:41:09+00:00",
-      "excerpt": "Корпорація ROSHEN повідомила про російський удар по виробничому комплексу у Вінниці. Працівників евакуювали. Компанія спростувала заяви про виробництво дронів — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/44/448ef1bc92dee4a7cf912658c91ea7da38911a829c2a3f1569f5f91dab4aa77b.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "Батько і син служать в одному загоні: історія прикордонника з Вінниччини - 20 хвилин",
+      "url": "https://vn.20minut.ua/lyudi/batko-i-sin-sluzhat-v-odnomu-zagoni-istoriya-prikordonnika-z-vinnichch-12009788.html",
+      "date": "2026-10-12T17:08:00+00:00",
+      "excerpt": "[12:10:2026] Батько і син служать в одному загоні: історія прикордонника з Вінниччини ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/51/4150541-batko-i-sin-sluzhat-v-odnomu-zagoni-istoriya-prikordonnika-z-vinnichchini.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "РФ кілька разів вдарила по Харкову, У ЄС погодили відкриття двох кластерів",
-      "url": "https://suspilne.media/1426001-rf-kilka-raziv-vdarila-po-harkovu-u-es-pogodili-vidkritta-dvoh-klasteriv-dla-ukraini-1693-den-vijni",
-      "date": "2026-10-13T04:14:23+00:00",
-      "excerpt": "Російські військові атакували Харків, влучивши в багатоквартиний будинок, щонайменше восьмеро людей отримали пораненя. ЄС погодився відкрити два кластери для України — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/d8/d8e1b4d0f7cef3ffdfdd72b6826ebbb6aae4985c198eb02b6611238e2867b24c.jpg",
-      "source": "Суспільне"
+      "title": "На Миколаївщині росіяни пошкодили вантажний термінал і склади",
+      "url": "https://www.ukrinform.ua/rubric-regions/4173791-na-mikolaivsini-rosiani-poskodili-vantaznij-terminal-i-skladi.html",
+      "date": "2026-10-13T05:15:31+00:00",
+      "excerpt": "У Миколаївській області внаслідок російських ударів пошкоджені вантажний термінал та склади. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762604261-116.png",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -134,20 +134,20 @@
     },
     {
       "area": "region",
-      "title": "Яйця на 42%, цукор на 18%: чому стрімко дорожчають продукти та чого чекати вінничанам взимку - 20 хвилин",
-      "url": "https://vn.20minut.ua/Groshi/yaytsya-na-42-tsukor-na-18-chomu-strimko-dorozhchayut-produkti-ta-chog-12009836.html",
-      "date": "2026-10-12T15:35:00+00:00",
-      "excerpt": "[12:10:2026] Яйця на 42%, цукор на 18%: чому стрімко дорожчають продукти та чого чекати вінничанам взимку ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/51/4150839-yaytsya-na-42-tsukor-na-18-chomu-strimko-dorozhchayut-produkti-ta-chogo-chekati-vinnichanam-vzimku.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "У ROSHEN підтвердили російський удар по виробничому комплексу у Вінниці",
+      "url": "https://suspilne.media/vinnytsia/1425865-u-roshen-pidtverdili-rosijskij-udar-po-virobnicomu-kompleksu-u-vinnici-so-vidomo",
+      "date": "2026-10-12T16:41:09+00:00",
+      "excerpt": "Корпорація ROSHEN повідомила про російський удар по виробничому комплексу у Вінниці. Працівників евакуювали. Компанія спростувала заяви про виробництво дронів — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/44/448ef1bc92dee4a7cf912658c91ea7da38911a829c2a3f1569f5f91dab4aa77b.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Росіяни вдарили дроном по ринку в Ізюмі: що відомо",
-      "url": "https://suspilne.media/kharkiv/1426021-rosiani-vdarili-dronom-po-rinku-v-izumi-so-vidomo",
-      "date": "2026-10-13T04:11:46+00:00",
-      "excerpt": "Вранці 13 жовтня армія РФ завдала удару по території ринку в Ізюмі на Харківщині. Попередньо, люди поранень не дістали, повідомили в Ізюмській міській військовій адміністрації — Суспільне Харків",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/99/995314097bf7eaf3a69698cb6e56f8571d266793c348024c629b7bd3e1fdf3b4.jpg",
+      "title": "Війська РФ обстріляли 36 населених пунктів Херсонщини: травмовані шестеро людей",
+      "url": "https://suspilne.media/kherson/1426027-rosijska-armia-obstrilala-36-naselenih-punktiv-hersonsini-travmovani-sestero-ludej",
+      "date": "2026-10-13T05:13:06+00:00",
+      "excerpt": "Російські військові обстріляли 36 населених пунктів Херсонської області. Поранені 6 людей, пошкоджені приватні та багатоповерхові будинки, транспорт — Суспільне Херсон",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/9b/9b56cc10b345af3b174ba78c82a2e9a372b9651134c9768e1d1f79641034fc26.jpg",
       "source": "Суспільне"
     },
     {
@@ -161,20 +161,20 @@
     },
     {
       "area": "region",
-      "title": "Росія атакувала склад готової продукції Roshen у Вінниці: що відомо - 20 хвилин",
-      "url": "https://vn.20minut.ua/Kryminal/rosiya-atakuvala-sklad-gotovoyi-produktsiyi-roshen-u-vinnitsi-scho-vid-12009827.html",
-      "date": "2026-10-12T14:39:00+00:00",
-      "excerpt": "[12:10:2026] Росія атакувала склад готової продукції Roshen у Вінниці: що відомо ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/51/4150888-rosiya-atakuvala-sklad-gotovoyi-produktsiyi-roshen-u-vinnitsi-scho-vidomo.jpeg",
+      "title": "Яйця на 42%, цукор на 18%: чому стрімко дорожчають продукти та чого чекати вінничанам взимку - 20 хвилин",
+      "url": "https://vn.20minut.ua/Groshi/yaytsya-na-42-tsukor-na-18-chomu-strimko-dorozhchayut-produkti-ta-chog-12009836.html",
+      "date": "2026-10-12T15:35:00+00:00",
+      "excerpt": "[12:10:2026] Яйця на 42%, цукор на 18%: чому стрімко дорожчають продукти та чого чекати вінничанам взимку ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/51/4150839-yaytsya-na-42-tsukor-na-18-chomu-strimko-dorozhchayut-produkti-ta-chogo-chekati-vinnichanam-vzimku.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Без води залишилися дев’ять міст на ТОТ Луганщини",
-      "url": "https://www.ukrinform.ua/rubric-regions/4173775-bez-vodi-zalisilisa-devat-mist-na-tot-lugansini.html",
-      "date": "2026-10-13T04:10:00+00:00",
-      "excerpt": "Дев’ять міст і навколишні села залишились без водопостачання внаслідок зупинки насосних станцій у різних куточках тимчасово окупованої Луганщини. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1751377039-867.jpg",
+      "title": "ППО знешкодила 88 безпілотників, якими росіяни з вечора атакували Україну",
+      "url": "https://www.ukrinform.ua/rubric-ato/4173789-ppo-zneskodila-88-bezpilotnikiv-akimi-rosiani-z-vecora-atakuvali-ukrainu.html",
+      "date": "2026-10-13T05:05:00+00:00",
+      "excerpt": "Сили протиповітряної оборони знешкодили 88 безпілотників, якими російські загарбники атакували Україну з вечора 12 жовтня. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_05/thumb_files/630_360_1778769034-813.jpg",
       "source": "Укрінформ"
     },
     {
@@ -197,6 +197,33 @@
     },
     {
       "area": "region",
+      "title": "Росія атакувала склад готової продукції Roshen у Вінниці: що відомо - 20 хвилин",
+      "url": "https://vn.20minut.ua/Kryminal/rosiya-atakuvala-sklad-gotovoyi-produktsiyi-roshen-u-vinnitsi-scho-vid-12009827.html",
+      "date": "2026-10-12T14:39:00+00:00",
+      "excerpt": "[12:10:2026] Росія атакувала склад готової продукції Roshen у Вінниці: що відомо ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/51/4150888-rosiya-atakuvala-sklad-gotovoyi-produktsiyi-roshen-u-vinnitsi-scho-vidomo.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "На Хмельниччині під час атаки російських дронів постраждали четверо пацієнтів медзакладу",
+      "url": "https://www.ukrinform.ua/rubric-regions/4173787-na-hmelniccini-pid-cas-ataki-rosijskih-droniv-postrazdali-cetvero-pacientiv-medzakladu.html",
+      "date": "2026-10-13T05:02:32+00:00",
+      "excerpt": "У Хмельницькій області внаслідок атаки російських ударних безпілотників постраждали четверо пацієнтів одного з медичних закладів. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_06/thumb_files/630_360_1719068952-237.jpg",
+      "source": "Укрінформ"
+    },
+    {
+      "area": "local",
+      "title": "«Браїлівська осінь Володимира Забаштанського»: хто став лауреатом премії 2026 року – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/481560/brailivska-osin-volodimira-zabashtanskogo-hto-stav-laureatom-premii-2026-roku",
+      "date": "2026-10-05T18:40:00+00:00",
+      "excerpt": "Слово, що продовжує звучати",
+      "image": "https://im2.abo.media/media/64/article/2bcfded416554a5491cf9de43573f718.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
       "title": "Від каяків до свічок із вощини: чим дивували родини ветеранів на Вінниччині - 20 хвилин",
       "url": "https://vn.20minut.ua/Podii/vid-kayakiv-do-svichok-iz-voschini-chim-divuvali-rodini-veteraniv-na-v-12009824.html",
       "date": "2026-10-12T13:16:00+00:00",
@@ -206,20 +233,20 @@
     },
     {
       "area": "ukraine",
-      "title": "Тіла трьох людей дістали з-під завалів будинку у Холодногірському районі Харкова",
-      "url": "https://suspilne.media/kharkiv/1426005-tila-troh-ludej-deblokuvali-z-pid-zavaliv-bagatopoverhivki-u-holodnogirskomu-rajoni-harkova",
-      "date": "2026-10-13T03:58:32+00:00",
-      "excerpt": "13 жовтня з-під завалів будинку у Холодногірському районі Харкова деблокували тіла трьох людей, під завалами може бути ще одна людина, повідомив міський голова Ігор Терехов — Суспільне Харків",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/3e/3e59ac4f9eb24874633759f5f867392a546fa693c345428156a06bead994cceb.jpg",
+      "title": "Пошкоджено будинки, склади та СТО: наслідки російських атак на Миколаївщині",
+      "url": "https://suspilne.media/mykolaiv/1426035-poskodzeno-budinki-skladi-ta-sto-naslidki-rosijskih-atak-na-mikolaivsini",
+      "date": "2026-10-13T05:02:08+00:00",
+      "excerpt": "У Миколаєві внаслідок атаки пошкоджено вантажний термінал, а у селах Баловне та Новофедорівка — склади. У Мішково-Погорілівській громаді пошкоджено СТО та приватний будинок у селі Зайчівське. Загиблих чи травмованих немає — Суспільне Миколаїв",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/06/06f317fd11cad51dda01e1c94b5fa6b3ffdcca8881363a63810c3fb1f94a00d2.jpg",
       "source": "Суспільне"
     },
     {
       "area": "local",
-      "title": "«Браїлівська осінь Володимира Забаштанського»: хто став лауреатом премії 2026 року – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/481560/brailivska-osin-volodimira-zabashtanskogo-hto-stav-laureatom-premii-2026-roku",
-      "date": "2026-10-05T18:40:00+00:00",
-      "excerpt": "Слово, що продовжує звучати",
-      "image": "https://im2.abo.media/media/64/article/2bcfded416554a5491cf9de43573f718.webp",
+      "title": "«Честь дорожча за життя»: чемпіонат України з боксу на підтримку 74-го розвідувального батальйону – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/481446/chest-dorozhcha-za-zhittyachempionat-ukraini-z-boksu-na-pidtrimku-74-go-rozviduvalnogo-bataljonu",
+      "date": "2026-10-04T12:23:00+00:00",
+      "excerpt": "Чемпіонат України з боксу на підтримку 74-го розвідувального батальйону",
+      "image": "https://im2.abo.media/media/64/article/5120c739622d44ac93afad36a7e97371.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -233,38 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Фінляндія закликала ЄС повністю заборонити видачу туристичних віз росіянам",
-      "url": "https://www.ukrinform.ua/rubric-world/4173630-finlandia-zaklikala-es-povnistu-zaboroniti-vidacu-turisticnih-viz-rosianam.html",
-      "date": "2026-10-13T03:51:00+00:00",
-      "excerpt": "Уряд Фінляндії ініціює запровадження повної заборони на видачу туристичних віз громадянам Росії на рівні Європейського Союзу. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_12/thumb_files/630_360_1765356776-132.jpg",
-      "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "«Честь дорожча за життя»: чемпіонат України з боксу на підтримку 74-го розвідувального батальйону – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/481446/chest-dorozhcha-za-zhittyachempionat-ukraini-z-boksu-na-pidtrimku-74-go-rozviduvalnogo-bataljonu",
-      "date": "2026-10-04T12:23:00+00:00",
-      "excerpt": "Чемпіонат України з боксу на підтримку 74-го розвідувального батальйону",
-      "image": "https://im2.abo.media/media/64/article/5120c739622d44ac93afad36a7e97371.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "Ворог атакував Вінницю «шахедом»: є влучання в об'єкт цивільної інфраструктури - 20 хвилин",
-      "url": "https://vn.20minut.ua/Kryminal/u-vinnitsi-e-vluchannya-v-obekt-tsivilnoyi-infrastrukturi-12009812.html",
-      "date": "2026-10-12T12:53:00+00:00",
-      "excerpt": "[12:10:2026] Ворог атакував Вінницю «шахедом»: є влучання в об'єкт цивільної інфраструктури ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/51/4150697-vorog-atakuvav-vinnitsyu-shahedom-e-vluchannya-v-obekt-tsivilnoyi-infrastrukturi.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "РФ за добу втратила ще 1390 військових та 51 артсистему – Генштаб",
-      "url": "https://www.pravda.com.ua/news/2026/10/13/8057727",
-      "date": "2026-10-13T03:42:00+00:00",
-      "excerpt": "Сили оборони України за добу ліквідували 1 390 російських військових. Загальні втрати РФ у війні з початку вторгнення – понад 1 555 700 осіб.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/0/934160/501abdee24cde3455dc41d80b7155a6a.jpeg?w=1200&q=85&stamp=1791862939",
+      "title": "На Хмельниччині через атаку РФ пошкоджений медзаклад, травмовані четверо пацієнтів",
+      "url": "https://www.pravda.com.ua/news/2026/10/13/8057730",
+      "date": "2026-10-13T05:02:00+00:00",
+      "excerpt": "Протягом 12 жовтня росіяни неодноразово атакували Хмельниччину ударними безпілотниками, під час однієї з атак пошкодили медичний заклад, де четверо пацієнтів дістали незначних травм.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/3/934176/a3c490237216e5b4f4fe6c5f6c9436dc.jpeg?w=1200&q=85&stamp=1791867403",
       "source": "Українська правда"
     },
     {
@@ -287,6 +287,33 @@
     },
     {
       "area": "region",
+      "title": "Ворог атакував Вінницю «шахедом»: є влучання в об'єкт цивільної інфраструктури - 20 хвилин",
+      "url": "https://vn.20minut.ua/Kryminal/u-vinnitsi-e-vluchannya-v-obekt-tsivilnoyi-infrastrukturi-12009812.html",
+      "date": "2026-10-12T12:53:00+00:00",
+      "excerpt": "[12:10:2026] Ворог атакував Вінницю «шахедом»: є влучання в об'єкт цивільної інфраструктури ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/51/4150697-vorog-atakuvav-vinnitsyu-shahedom-e-vluchannya-v-obekt-tsivilnoyi-infrastrukturi.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Росіяни з вечора понад 10 разів атакували Дніпропетровщину, є постраждалий",
+      "url": "https://www.ukrinform.ua/rubric-regions/4173786-rosiani-z-vecora-ponad-10-raziv-atakuvali-dnipropetrovsinu-e-postrazdalij.html",
+      "date": "2026-10-13T04:53:38+00:00",
+      "excerpt": "Російські війська понад десять разів атакували Дніпропетровську область, є постраждалий. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791867207-325.jpg",
+      "source": "Укрінформ"
+    },
+    {
+      "area": "local",
+      "title": "У Жмеринці подякували бібліотекарям за працю та любов до книги – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/481077/u-zhmerinci-podyakuvali-bibliotekaryam-za-pracyu-ta-lyubov-do-knigi",
+      "date": "2026-09-30T17:56:00+00:00",
+      "excerpt": "У Жмеринці подякували бібліотекарям за працю та любов до книги",
+      "image": "https://im2.abo.media/media/64/article/97d68b52a939421f805edf0711ce3846.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
       "title": "На Вінниччині священник проводить безкоштовні майстер-класи з іконопису",
       "url": "https://suspilne.media/vinnytsia/1425453-na-vinniccini-svasennik-provodit-bezkostovni-majster-klasi-z-ikonopisu",
       "date": "2026-10-12T12:37:58+00:00",
@@ -296,20 +323,20 @@
     },
     {
       "area": "ukraine",
-      "title": "На Львівщині пошкоджені будинки та автомобілі через атаку дронів",
-      "url": "https://www.pravda.com.ua/news/2026/10/13/8057720",
-      "date": "2026-10-13T03:29:00+00:00",
-      "excerpt": "Вранці 13 жовтня в одному із сіл Львівської області внаслідок падіння збитого російського безпілотника спалахнули два будинки.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/9/934148/f96f0d730f547736c78a35137f09c7ee.jpeg?w=1200&q=85&stamp=1791862133",
-      "source": "Українська правда"
+      "title": "Келлог: «Україна повинна мати повну свободу дій для ударів по території РФ»",
+      "url": "https://suspilne.media/1426019-kolisnij-specposlanec-trampa-kellog-ukraina-povinna-mati-povnu-svobodu-dij-dla-udariv-po-teritorii-rf",
+      "date": "2026-10-13T04:53:13+00:00",
+      "excerpt": "Колишній спецпосланець Трампа Кіт Келлог заявив, що Україна повинна мати свободу завдавати ударів по цілях у РФ у відповідь на її атаки. Також він наголосив, що Росія зазнає значних втрат у війні — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/92/9252e2db58462845327addd53c01f11653574acbf6aee54f7767ecff697f805c.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
-      "title": "У Жмеринці подякували бібліотекарям за працю та любов до книги – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/481077/u-zhmerinci-podyakuvali-bibliotekaryam-za-pracyu-ta-lyubov-do-knigi",
-      "date": "2026-09-30T17:56:00+00:00",
-      "excerpt": "У Жмеринці подякували бібліотекарям за працю та любов до книги",
-      "image": "https://im2.abo.media/media/64/article/97d68b52a939421f805edf0711ce3846.webp",
+      "title": "Безпека, медицина та освіта: рішення позачергового виконкому у Жмеринці – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/481049/bezpeka-medicina-ta-osvita-rishennya-pozachergovogo-vikonkomu-u-zhmerinci",
+      "date": "2026-09-30T11:42:00+00:00",
+      "excerpt": "Безпека, медицина та освіта: рішення позачергового виконкому у Жмеринці",
+      "image": "https://im2.abo.media/media/64/article/a26d7fb1fd584b639282b1616679703e.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -323,39 +350,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Ракетний удар по Харкову: під завалами будинку знайшли трьох загиблих, 10 людей постраждали",
-      "url": "https://www.ukrinform.ua/rubric-regions/4173779-raketnij-udar-po-harkovu-pid-zavalami-budinku-znajsli-zagiblogo-11-ludej-poraneni.html",
-      "date": "2026-10-13T03:25:00+00:00",
-      "excerpt": "У Холодногірському районі Харкова під завалами будинку, який зазнав російського ракетного удару, виявили тіла трьох людей. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791852217-9841.jpeg",
-      "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "Безпека, медицина та освіта: рішення позачергового виконкому у Жмеринці – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/481049/bezpeka-medicina-ta-osvita-rishennya-pozachergovogo-vikonkomu-u-zhmerinci",
-      "date": "2026-09-30T11:42:00+00:00",
-      "excerpt": "Безпека, медицина та освіта: рішення позачергового виконкому у Жмеринці",
-      "image": "https://im2.abo.media/media/64/article/a26d7fb1fd584b639282b1616679703e.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "Як змінилися ціни на житло за рік? Порівняли Вінниччину з іншими областями - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/yak-zminilisya-tsini-na-zhitlo-za-rik-porivnyali-vinnichchinu-z-inshim-12009764.html",
-      "date": "2026-10-12T09:21:00+00:00",
-      "excerpt": "[12:10:2026] Як змінилися ціни на житло за рік? Порівняли Вінниччину з іншими областями ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/51/4150434-yak-zminilisya-tsini-na-zhitlo-za-rik-porivnyali-vinnichchinu-z-inshimi-oblastyami.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "На Донеччині залишаються майже 72 тисячі цивільних - ОВА",
-      "url": "https://www.ukrinform.ua/rubric-regions/4173683-na-doneccini-zalisautsa-majze-72-tisaci-civilnih-ova.html",
-      "date": "2026-10-13T03:14:00+00:00",
-      "excerpt": "На підконтрольній уряду території Донецької області залишаються майже 72 тисячі цивільних, зокрема понад 3,1 тисячі дітей. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_05/thumb_files/630_360_1779691378-872.png",
-      "source": "Укрінформ"
+      "title": "Зеленський повідомив, що Німеччина організовує зустріч \"коаліції охочих\"",
+      "url": "https://www.pravda.com.ua/news/2026/10/13/8057729",
+      "date": "2026-10-13T04:52:00+00:00",
+      "excerpt": "Президент Володимир Зеленський після розмови з канцлером Фрідріхом Мерцом повідомив, що Німеччина працює над організацією зустрічі \"коаліції охочих\", а також анонсував зустріч радників із нацбезпеки у форматі Е3 – Україна.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/1/934175/51fd8c2439c1347a3f2119ab63434cbe.jpeg?w=1200&q=85&stamp=1791867043",
+      "source": "Українська правда"
     },
     {
       "area": "local",
