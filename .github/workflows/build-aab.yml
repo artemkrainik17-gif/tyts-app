@@ -1,0 +1,203 @@
+
+name: Збірка AAB Тиць для Google Play
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Завантажити код
+        uses: actions/checkout@v4
+
+      - name: Встановити Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Встановити Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Встановити Capacitor
+        run: |
+          npm install --no-save @capacitor/core@8 @capacitor/cli@8 @capacitor/android@8 @capacitor/app@8
+
+      - name: Встановити генератор іконки
+        run: |
+          npm install --no-save @capacitor/assets
+
+      - name: Підготувати вебзастосунок
+        run: |
+          rm -rf www
+          mkdir -p www
+          cp index.html www/index.html
+
+      - name: Підготувати іконку
+        run: |
+          rm -rf assets
+          mkdir -p assets
+          cp a_clean_modern_flat_soft_3d_app_icon_logo_imag.png assets/icon.png
+
+      - name: Створити конфігурацію Capacitor
+        run: |
+          cat > capacitor.config.json <<'EOF'
+          {
+            "appId": "com.tyts.app",
+            "appName": "Тиць",
+            "webDir": "www"
+          }
+          EOF
+
+      - name: Створити Android-проєкт
+        run: |
+          rm -rf android
+          npx cap add android
+          npx cap copy android
+
+      - name: Додати deep link Тиць
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          p = Path("android/app/src/main/AndroidManifest.xml")
+          s = p.read_text()
+
+          deep_link = '''
+              <intent-filter>
+                  <action android:name="android.intent.action.VIEW" />
+                  <category android:name="android.intent.category.DEFAULT" />
+                  <category android:name="android.intent.category.BROWSABLE" />
+
+                  <data
+                      android:scheme="tyts"
+                      android:host="service" />
+              </intent-filter>
+          '''
+
+          if 'android:scheme="tyts"' not in s:
+              s = s.replace(
+                  '</activity>',
+                  deep_link + '\n        </activity>',
+                  1
+              )
+
+          p.write_text(s)
+          PY
+
+      - name: Синхронізувати Capacitor
+        run: |
+          npx cap sync android
+
+      - name: Налаштувати відкриття телефонних номерів
+        run: |
+          cat > android/app/src/main/java/com/tyts/app/MainActivity.java <<'EOF'
+          package com.tyts.app;
+
+          import android.content.Intent;
+          import android.net.Uri;
+          import android.os.Bundle;
+          import android.telecom.TelecomManager;
+          import android.webkit.WebResourceRequest;
+          import android.webkit.WebView;
+
+          import com.getcapacitor.BridgeActivity;
+          import com.getcapacitor.BridgeWebViewClient;
+
+          public class MainActivity extends BridgeActivity {
+
+              @Override
+              protected void onCreate(Bundle savedInstanceState) {
+                  super.onCreate(savedInstanceState);
+
+                  bridge.getWebView().setWebViewClient(
+                      new BridgeWebViewClient(bridge) {
+
+                          @Override
+                          public boolean shouldOverrideUrlLoading(
+                                  WebView view,
+                                  WebResourceRequest request
+                          ) {
+                              Uri uri = request.getUrl();
+
+                              if (uri != null && "tel".equalsIgnoreCase(uri.getScheme())) {
+                                  openSystemDialer(uri);
+                                  return true;
+                              }
+
+                              return super.shouldOverrideUrlLoading(view, request);
+                          }
+
+                          @Override
+                          @SuppressWarnings("deprecation")
+                          public boolean shouldOverrideUrlLoading(
+                                  WebView view,
+                                  String url
+                          ) {
+                              if (url != null && url.startsWith("tel:")) {
+                                  openSystemDialer(Uri.parse(url));
+                                  return true;
+                              }
+
+                              return super.shouldOverrideUrlLoading(view, url);
+                          }
+                      }
+                  );
+              }
+
+              private void openSystemDialer(Uri phoneUri) {
+                  try {
+                      Intent intent = new Intent(Intent.ACTION_DIAL);
+                      intent.setData(phoneUri);
+
+                      TelecomManager telecomManager =
+                          (TelecomManager) getSystemService(TELECOM_SERVICE);
+
+                      if (telecomManager != null) {
+                          String defaultDialer =
+                              telecomManager.getDefaultDialerPackage();
+
+                          if (defaultDialer != null && !defaultDialer.isEmpty()) {
+                              intent.setPackage(defaultDialer);
+                          }
+                      }
+
+                      startActivity(intent);
+
+                  } catch (Exception e) {
+                      Intent fallback =
+                          new Intent(Intent.ACTION_DIAL, phoneUri);
+
+                      startActivity(fallback);
+                  }
+              }
+          }
+          EOF
+
+      - name: Створити Android-іконки
+        run: |
+          npx @capacitor/assets generate --android --assetPath assets --androidProject android
+
+      - name: Зібрати AAB
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew bundleRelease --no-daemon
+
+      - name: Перевірити AAB
+        run: |
+          ls -lh android/app/build/outputs/bundle/release/
+          test -f android/app/build/outputs/bundle/release/app-release.aab
+
+      - name: Зберегти AAB як артефакт
+        uses: actions/upload-artifact@v4
+        with:
+          name: tyts-aab-unsigned
+          path: android/app/build/outputs/bundle/release/app-release.aab
