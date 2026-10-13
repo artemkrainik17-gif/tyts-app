@@ -185,19 +185,97 @@ jobs:
         run: |
           npx @capacitor/assets generate --android --assetPath assets --androidProject android
 
-      - name: Зібрати AAB
+      - name: Перевірити наявність секретів
+        env:
+          KEYSTORE_BASE64: ${{ secrets.TYTS_KEYSTORE_BASE64 }}
+          STORE_PASSWORD: ${{ secrets.TYTS_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.TYTS_KEY_ALIAS }}
+        run: |
+          test -n "$KEYSTORE_BASE64" || exit 1
+          test -n "$STORE_PASSWORD" || exit 1
+          test -n "$KEY_ALIAS" || exit 1
+          echo "Секрети налаштовані"
+
+      - name: Відновити цифровий ключ
+        env:
+          KEYSTORE_BASE64: ${{ secrets.TYTS_KEYSTORE_BASE64 }}
+        run: |
+          printf '%s' "$KEYSTORE_BASE64" | base64 --decode > "$RUNNER_TEMP/tyts-upload.jks"
+          chmod 600 "$RUNNER_TEMP/tyts-upload.jks"
+          test -s "$RUNNER_TEMP/tyts-upload.jks"
+
+      - name: Перевірити ключ і пароль
+        env:
+          STORE_PASSWORD: ${{ secrets.TYTS_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.TYTS_KEY_ALIAS }}
+        run: |
+          keytool -list \
+            -keystore "$RUNNER_TEMP/tyts-upload.jks" \
+            -storepass:env STORE_PASSWORD \
+            -alias "$KEY_ALIAS" > /dev/null
+          echo "Ключ і пароль перевірено"
+
+      - name: Налаштувати цифровий підпис Android
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          p = Path("android/app/build.gradle")
+          s = p.read_text()
+
+          assert "    buildTypes {" in s, "Не знайдено buildTypes"
+          assert "        release {" in s, "Не знайдено release"
+
+          signing = '''
+              signingConfigs {
+                  tytsRelease {
+                      storeFile file(System.getenv("TYTS_KEYSTORE_FILE"))
+                      storePassword System.getenv("TYTS_STORE_PASSWORD")
+                      keyAlias System.getenv("TYTS_KEY_ALIAS")
+                      keyPassword System.getenv("TYTS_STORE_PASSWORD")
+                  }
+              }
+          '''
+
+          s = s.replace(
+              "    buildTypes {",
+              signing + "    buildTypes {",
+              1
+          )
+
+          s = s.replace(
+              "        release {",
+              "        release {\n            signingConfig signingConfigs.tytsRelease",
+              1
+          )
+
+          p.write_text(s)
+          print("Підпис релізної збірки налаштовано")
+          PY
+
+      - name: Зібрати підписаний AAB
         working-directory: android
+        env:
+          TYTS_STORE_PASSWORD: ${{ secrets.TYTS_KEYSTORE_PASSWORD }}
+          TYTS_KEY_ALIAS: ${{ secrets.TYTS_KEY_ALIAS }}
+          TYTS_KEYSTORE_FILE: ${{ runner.temp }}/tyts-upload.jks
         run: |
           chmod +x gradlew
           ./gradlew bundleRelease --no-daemon
 
-      - name: Перевірити AAB
+      - name: Перевірити готовий AAB
         run: |
-          ls -lh android/app/build/outputs/bundle/release/
-          test -f android/app/build/outputs/bundle/release/app-release.aab
+          AAB="android/app/build/outputs/bundle/release/app-release.aab"
+          test -s "$AAB"
+          ls -lh "$AAB"
+          jarsigner -verify -verbose "$AAB" > "$RUNNER_TEMP/signature-check.txt"
+          grep -q "jar verified" "$RUNNER_TEMP/signature-check.txt"
+          echo "AAB успішно підписаний"
 
-      - name: Зберегти AAB як артефакт
+      - name: Зберегти підписаний AAB
         uses: actions/upload-artifact@v4
         with:
-          name: tyts-aab-unsigned
+          name: tyts-aab-signed
           path: android/app/build/outputs/bundle/release/app-release.aab
+          if-no-files-found: error
+          retention-days: 30
