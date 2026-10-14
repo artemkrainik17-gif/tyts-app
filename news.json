@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T02:38:56.914839+00:00",
+  "updated_at": "2026-10-14T03:39:17.124926+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-14T02:37:48+00:00",
+      "date": "2026-10-14T03:38:06+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,12 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни атакують Київ та деякі області ракетами: у столиці пролунали вибухи",
-      "url": "https://www.pravda.com.ua/news/2026/10/14/8057892",
-      "date": "2026-10-14T02:30:00+00:00",
-      "excerpt": "У ніч на 14 жовтня в Києві та областях оголосили повітряну тривогу через пуски балістики. Мешканців закликали йти в укриття, зафіксовано вибухи.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/2/3/934900/235ccb9b0929189c7078c36447b63c8a.jpeg?w=1200&q=85&stamp=1791942225",
-      "source": "Українська правда"
+      "title": "Через атаку РФ у двох районах Києва тимчасово зупинили рух електротранспорту",
+      "url": "https://www.ukrinform.ua/rubric-regions/4174156-cerez-ataku-rf-u-dvoh-rajonah-kieva-timcasovo-zupinili-ruh-elektrotransportu.html",
+      "date": "2026-10-14T03:20:00+00:00",
+      "excerpt": "У двох районах столиці внаслідок російських ударів тимчасово призупинено рух електротранспорту. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2023_03/thumb_files/630_360_1679317181-263.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -80,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "На деокупованій Херсонщині вже розмінували 74% території",
-      "url": "https://www.ukrinform.ua/rubric-regions/4174149-na-deokupovanij-hersonsini-vze-rozminuvali-74-teritorii.html",
-      "date": "2026-10-14T02:26:00+00:00",
-      "excerpt": "У деокупованій частині Херсонської області вдалося розмінувати вже 74% території. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_09/thumb_files/630_360_1757349127-594.jpg",
-      "source": "Укрінформ"
+      "title": "Росіяни вдарили по енергооб'єктах Києва: рух електротранспорту у двох районах зупинили",
+      "url": "https://www.pravda.com.ua/news/2026/10/14/8057894",
+      "date": "2026-10-14T03:16:00+00:00",
+      "excerpt": "Внаслідок нічної ракетної атаки на енергооб'єкти Києва призупинено рух електротранспорту в Дарницькому та Печерському районах.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/6/b/934916/6bf46b793bb800c72e697aff19994e33.jpeg?w=1200&q=85&stamp=1791947828",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -93,7 +93,7 @@
       "url": "https://zhmerynka-rda.gov.ua/2026/10/13/%D1%8F%D0%BA-%D0%BE%D1%82%D1%80%D0%B8%D0%BC%D0%B0%D1%82%D0%B8-%D0%B0%D1%80%D1%85%D1%96%D0%B2%D0%BD%D1%83-%D0%B4%D0%BE%D0%B2%D1%96%D0%B4%D0%BA%D1%83",
       "date": "2026-10-13T06:14:42+00:00",
       "excerpt": "Для оформлення спадщини, підтвердження трудового стажу, пошуку відомостей про майно чи земельну ділянку можуть знадобитися документи минулих років. Якщо вони перебувають на зберіганні в архівному відділі Жмеринської районної військової адміністрації, на їх підставі можна отримати архівну довідку, копію або витяг. Які д",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/08/01-3-169x300.jpg",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/09/791996916_1695005872634474_3596751938137453882_n-300x225.jpg",
       "source": "Жмеринська РВА"
     },
     {
@@ -116,11 +116,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У столиці прогриміли вибухи - росіяни знову атакують балістикою",
-      "url": "https://www.ukrinform.ua/rubric-regions/4174148-u-kievi-progrimili-vibuhi-rosiani-znovu-atakuut-balistikou.html",
-      "date": "2026-10-14T02:01:00+00:00",
-      "excerpt": "Під час повітряної тривоги у столиці було чутно вибухи. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_05/thumb_files/630_360_1716022077-259.jpg",
+      "title": "Ворог ударив по Києву балістикою: двоє загиблих і 21 постраждалий, атаковані енергооб'єкти",
+      "url": "https://www.ukrinform.ua/rubric-regions/4174129-u-kievi-prolunala-seria-vibuhiv.html",
+      "date": "2026-10-14T03:11:00+00:00",
+      "excerpt": "Під час повітряної тривоги у столиці було чутно вибухи - війська РФ атакували місто балістичними ракетами. (Оновлено о 5:-5 – додані фото) — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791944570-2115.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -143,11 +143,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Атаки на російські дата-центри не менш перспективні, ніж удари по НПЗ - експерт",
-      "url": "https://www.ukrinform.ua/rubric-economy/4174146-ataki-na-rosijski-datacentri-ne-mens-perspektivni-niz-udari-po-npz-ekspert.html",
-      "date": "2026-10-14T01:57:00+00:00",
-      "excerpt": "У перспективі удари по російських дата-центрах можуть виявитися не менш руйнівними для економіки агресора, ніж атаки на нафтопереробні заводи. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2021_08/thumb_files/630_360_1627990717-421.jpg",
+      "title": "Латвія оголосила персоною нон грата проросійського журналіста",
+      "url": "https://www.ukrinform.ua/rubric-world/4174113-latvia-ogolosila-personou-non-grata-prorosijskogo-zurnalista.html",
+      "date": "2026-10-14T02:48:00+00:00",
+      "excerpt": "Латвійське МЗС підтвердило, що 7 жовтня до списку осіб, небажаних для Латвії, був включений ще один громадянин РФ. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791915773-464.jpg",
       "source": "Укрінформ"
     },
     {
@@ -170,11 +170,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни атакували реактивним дроном Тернопіль: пошкоджена адмінбудівля",
-      "url": "https://www.pravda.com.ua/news/2026/10/14/8057891",
-      "date": "2026-10-14T01:35:00+00:00",
-      "excerpt": "У ніч на 14 жовтня російський реактивний БПЛА влучив в адмінприміщення Тернополя. Інформацію про постраждалих уточнюють.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/0/934889/804c35f3708b70e09f9fd3c8516aca9b.jpeg?w=1200&q=85&stamp=1791941784",
+      "title": "Росіяни атакують Київ та деякі області ракетами: у столиці пролунали вибухи",
+      "url": "https://www.pravda.com.ua/news/2026/10/14/8057892",
+      "date": "2026-10-14T02:30:00+00:00",
+      "excerpt": "У ніч на 14 жовтня в Києві та областях оголосили повітряну тривогу через пуски балістики. Мешканців закликали йти в укриття, зафіксовано вибухи.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/2/3/934900/235ccb9b0929189c7078c36447b63c8a.jpeg?w=1200&q=85&stamp=1791942225",
       "source": "Українська правда"
     },
     {
@@ -206,11 +206,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У Німеччині підтримка вступу України в ЄС знизилася до 41%",
-      "url": "https://www.ukrinform.ua/rubric-world/4174002-u-nimeccini-pidtrimka-vstupu-ukraini-v-es-znizilasa-do-41.html",
-      "date": "2026-10-14T01:32:00+00:00",
-      "excerpt": "У Німеччині частка громадян, які підтримують вступ України до Європейського Союзу, знизилася із 61% у березні 2022 року до 41% у червні 2026-го. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_02/thumb_files/630_360_1709059904-778.jpeg",
+      "title": "На деокупованій Херсонщині вже розмінували 74% території",
+      "url": "https://www.ukrinform.ua/rubric-regions/4174149-na-deokupovanij-hersonsini-vze-rozminuvali-74-teritorii.html",
+      "date": "2026-10-14T02:26:00+00:00",
+      "excerpt": "У деокупованій частині Херсонської області вдалося розмінувати вже 74% території. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_09/thumb_files/630_360_1757349127-594.jpg",
       "source": "Укрінформ"
     },
     {
@@ -233,11 +233,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Цього року в Україні затримали близько 10 тисяч порушників кордону",
-      "url": "https://www.ukrinform.ua/rubric-society/4174143-cogo-roku-v-ukraini-zatrimali-blizko-10-tisac-porusnikiv-kordonu.html",
-      "date": "2026-10-14T01:14:00+00:00",
-      "excerpt": "Від початку року українські прикордонники затримали близько 9900 порушників, більшість - на ділянці кордону з Румунією — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_04/thumb_files/630_360_1776986273-217.jpg",
+      "title": "Росіяни масовано атакували Україну, у Києві та Дніпрі прогриміли вибухи",
+      "url": "https://www.ukrinform.ua/rubric-regions/4174148-u-kievi-progrimili-vibuhi-rosiani-znovu-atakuut-balistikou.html",
+      "date": "2026-10-14T02:01:00+00:00",
+      "excerpt": "Під час повітряної тривоги у столиці, а також у Дніпрі було чутно вибухи. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_05/thumb_files/630_360_1716022077-259.jpg",
       "source": "Укрінформ"
     },
     {
@@ -260,11 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "До міжнародної конференції «Глобальний Крим» у Києві долучаться учасники платформи Forum 2000",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4174141-do-miznarodnoi-konferencii-globalnij-krim-u-kievi-dolucatsa-ucasniki-platformi-forum-2000.html",
-      "date": "2026-10-14T00:55:00+00:00",
-      "excerpt": "Дискусійна платформа Forum 2000 підтримує проведення Четвертої міжнародної конференції «Глобальний Крим. Розуміння України через Південь», запланованої на 19 жовтня в Києві. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791936849-464.jpg",
+      "title": "Атаки на російські дата-центри не менш перспективні, ніж удари по НПЗ - експерт",
+      "url": "https://www.ukrinform.ua/rubric-economy/4174146-ataki-na-rosijski-datacentri-ne-mens-perspektivni-niz-udari-po-npz-ekspert.html",
+      "date": "2026-10-14T01:57:00+00:00",
+      "excerpt": "У перспективі удари по російських дата-центрах можуть виявитися не менш руйнівними для економіки агресора, ніж атаки на нафтопереробні заводи. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2021_08/thumb_files/630_360_1627990717-421.jpg",
       "source": "Укрінформ"
     },
     {
@@ -296,12 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни за день десять разів ударили по логістичному хабу «Епіцентру» в Хмельницькому",
-      "url": "https://www.ukrinform.ua/rubric-regions/4174142-rosiani-za-den-desat-raziv-udarili-po-logisticnomu-centru-epicentru-v-hmelnickomu.html",
-      "date": "2026-10-14T00:41:00+00:00",
-      "excerpt": "Унаслідок атак російських безпілотників у Хмельницькому зазнав руйнування останній великий логістичний розподільчий центр компанії «Епіцентр». — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791938839-222.jpg",
-      "source": "Укрінформ"
+      "title": "Росіяни атакували реактивним дроном Тернопіль: пошкоджена адмінбудівля",
+      "url": "https://www.pravda.com.ua/news/2026/10/14/8057891",
+      "date": "2026-10-14T01:35:00+00:00",
+      "excerpt": "У ніч на 14 жовтня російський реактивний БПЛА влучив в адмінприміщення Тернополя. Інформацію про постраждалих уточнюють.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/0/934889/804c35f3708b70e09f9fd3c8516aca9b.jpeg?w=1200&q=85&stamp=1791941784",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -323,11 +323,11 @@
     },
     {
       "area": "ukraine",
-      "title": "За які порушення військові несуть адмінвідповідальність - роз'яснення Міноборони",
-      "url": "https://www.ukrinform.ua/rubric-society/4174100-za-aki-porusenna-vijskovi-nesut-adminvidpovidalnist-rozasnenna-minoboroni.html",
-      "date": "2026-10-14T00:23:00+00:00",
-      "excerpt": "У Міноборони України роз’яснили, за які правопорушення військовослужбовці несуть адмінвідповідальність. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1764271055-764.jpg",
+      "title": "У Німеччині підтримка вступу України в ЄС знизилася до 41%",
+      "url": "https://www.ukrinform.ua/rubric-world/4174002-u-nimeccini-pidtrimka-vstupu-ukraini-v-es-znizilasa-do-41.html",
+      "date": "2026-10-14T01:32:00+00:00",
+      "excerpt": "У Німеччині частка громадян, які підтримують вступ України до Європейського Союзу, знизилася із 61% у березні 2022 року до 41% у червні 2026-го. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_02/thumb_files/630_360_1709059904-778.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -350,11 +350,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Машини для армії продавали через інтернет: БЕБ викрило схему з десятками автівок",
-      "url": "https://www.ukrinform.ua/rubric-society/4174139-masini-dla-armii-prodavali-cerez-internet-beb-vikrilo-shemu-z-desatkami-avtivok.html",
-      "date": "2026-10-14T00:02:00+00:00",
-      "excerpt": "Детективи Територіального управління Бюро економічної безпеки у Києві спільно з оперативниками Департаменту карного розшуку Нацполіції викрили схему незаконного ввезення та продажу автомобілів для ЗСУ. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791934764-609.jpg",
+      "title": "Цього року в Україні затримали близько 10 тисяч порушників кордону",
+      "url": "https://www.ukrinform.ua/rubric-society/4174143-cogo-roku-v-ukraini-zatrimali-blizko-10-tisac-porusnikiv-kordonu.html",
+      "date": "2026-10-14T01:14:00+00:00",
+      "excerpt": "Від початку року українські прикордонники затримали близько 9900 порушників, більшість - на ділянці кордону з Румунією — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_04/thumb_files/630_360_1776986273-217.jpg",
       "source": "Укрінформ"
     },
     {
