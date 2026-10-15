@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T18:46:12.070211+00:00",
+  "updated_at": "2026-10-15T19:39:07.705304+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -8,12 +8,12 @@
   "items": [
     {
       "area": "local",
-      "title": "2 шкільні автобуси та 4 генератори передали для закладів освіти Шаргородської громади",
-      "url": "https://zhmerynka-rda.gov.ua/2026/10/15/2-%D1%88%D0%BA%D1%96%D0%BB%D1%8C%D0%BD%D1%96-%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D0%B8-%D1%82%D0%B0-4-%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B4",
-      "date": "2026-10-15T13:27:12+00:00",
-      "excerpt": "Автобуси забезпечуватимуть довезення учнів до Плебанівського ліцею та Шаргородського ліцею № 2. Шкільний транспорт придбали за співфінансування держави та громади. Наразі актуальну потребу громади у автобусах повністю закрито. Генератори потужністю 6,5 кВт отримали Носиківська, Гибалівська, Івашковецька та Лозівська гі",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2025/06/5-1-300x300.jpg",
-      "source": "Жмеринська РВА"
+      "title": "Підтримка захисників, підготовка до зими та відзнака Вовкодаву: 80 сесія Жмеринської міської ради – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482716/pidtrimka-zahisnikiv-pidgotovka-do-zimi-ta-vidznaka-vovkodavu-80-sesiya-zhmerinskoi-miskoi-radi",
+      "date": "2026-10-15T19:05:00+00:00",
+      "excerpt": "Підтримка захисників, підготовка до зими та допомога лікарні: 80 сесія Жмеринської міської ради",
+      "image": "https://im2.abo.media/media/64/article/4992b74a8cfe48e5be5e77cc8240633b.webp",
+      "source": "Жмеринка.City"
     },
     {
       "area": "region",
@@ -28,9 +28,36 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-15T18:44:36+00:00",
+      "date": "2026-10-15T19:37:56+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
+      "source": "Укрінформ"
+    },
+    {
+      "area": "local",
+      "title": "2 шкільні автобуси та 4 генератори передали для закладів освіти Шаргородської громади",
+      "url": "https://zhmerynka-rda.gov.ua/2026/10/15/2-%D1%88%D0%BA%D1%96%D0%BB%D1%8C%D0%BD%D1%96-%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D0%B8-%D1%82%D0%B0-4-%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B4",
+      "date": "2026-10-15T13:27:12+00:00",
+      "excerpt": "Автобуси забезпечуватимуть довезення учнів до Плебанівського ліцею та Шаргородського ліцею № 2. Шкільний транспорт придбали за співфінансування держави та громади. Наразі актуальну потребу громади у автобусах повністю закрито. Генератори потужністю 6,5 кВт отримали Носиківська, Гибалівська, Івашковецька та Лозівська гі",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2025/08/006-6-240x300.jpg",
+      "source": "Жмеринська РВА"
+    },
+    {
+      "area": "region",
+      "title": "Вінниця передала військовим 200 FPV-дронів і 20 Matrice - 20 хвилин",
+      "url": "https://vn.20minut.ua/dopomogha-armiyi/vinnitsya-peredala-viyskovim-200-fpv-droniv-i-20-matrice-12010088.html",
+      "date": "2026-10-15T17:03:00+00:00",
+      "excerpt": "[15:10:2026] Вінниця передала військовим 200 FPV-дронів і 20 Matrice ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153058-vinnitsya-peredala-viyskovim-200-fpv-droniv-i-20-matrice.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "У Києві ворог атакував об'єкт критичної інфраструктури, у деяких районах столиці та області зникло світло",
+      "url": "https://www.ukrinform.ua/rubric-regions/4174891-u-kievi-vorog-atakuvav-obekt-kriticnoi-infrastrukturi-u-deakih-rajonah-stolici-ta-oblasti-zniklo-svitlo.html",
+      "date": "2026-10-15T19:33:00+00:00",
+      "excerpt": "У Києві росіяни атакували об'єкт критичної інфраструктури, у деяких районах столиці та області зникло світло. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_01/thumb_files/630_360_1768331916-841.jpg",
       "source": "Укрінформ"
     },
     {
@@ -44,21 +71,21 @@
     },
     {
       "area": "region",
-      "title": "Вінниця передала військовим 200 FPV-дронів і 20 Matrice - 20 хвилин",
-      "url": "https://vn.20minut.ua/dopomogha-armiyi/vinnitsya-peredala-viyskovim-200-fpv-droniv-i-20-matrice-12010088.html",
-      "date": "2026-10-15T17:03:00+00:00",
-      "excerpt": "[15:10:2026] Вінниця передала військовим 200 FPV-дронів і 20 Matrice ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153058-vinnitsya-peredala-viyskovim-200-fpv-droniv-i-20-matrice.jpeg",
+      "title": "У Вінниці провели чемпіонат із плавання серед ветеранів війни - 20 хвилин",
+      "url": "https://vn.20minut.ua/Sport/u-vinnitsi-proveli-chempionat-iz-plavannya-sered-veteraniv-viyni-12010089.html",
+      "date": "2026-10-15T16:11:00+00:00",
+      "excerpt": "[15:10:2026] У Вінниці провели чемпіонат із плавання серед ветеранів війни ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153062-u-vinnitsi-proveli-chempionat-iz-plavannya-sered-veteraniv-viyni.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Польща підняла військову авіацію через загрозу ударів РФ по заходу України",
-      "url": "https://www.pravda.com.ua/news/2026/10/15/8058240",
-      "date": "2026-10-15T18:38:00+00:00",
-      "excerpt": "Польща задіяла військову авіацію у через атаки РФ в західній частині України.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/6/d/936550/6d1a94ce4e58eee69d7e479e61092c1a.jpeg?w=1200&q=85&stamp=1792089551",
-      "source": "Українська правда"
+      "title": "У Луцькій громаді через пошкодження ЛЕП фіксують перебої з електро- і водопостачанням",
+      "url": "https://www.ukrinform.ua/rubric-regions/4174889-u-luckij-gromadi-cerez-poskodzenna-lep-fiksuut-pereboi-z-elektro-i-vodopostacannam.html",
+      "date": "2026-10-15T19:28:07+00:00",
+      "excerpt": "У Луцькій громаді Волинської області фіксують перебої з електро- і водопостачанням через пошкодження уламками російського безпілотника лінії електропередач. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590204-860.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -70,39 +97,12 @@
       "source": "Жмеринка.City"
     },
     {
-      "area": "region",
-      "title": "У Вінниці провели чемпіонат із плавання серед ветеранів війни - 20 хвилин",
-      "url": "https://vn.20minut.ua/Sport/u-vinnitsi-proveli-chempionat-iz-plavannya-sered-veteraniv-viyni-12010089.html",
-      "date": "2026-10-15T16:11:00+00:00",
-      "excerpt": "[15:10:2026] У Вінниці провели чемпіонат із плавання серед ветеранів війни ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153062-u-vinnitsi-proveli-chempionat-iz-plavannya-sered-veteraniv-viyni.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Україна передала зразки насіння до Всесвітнього сховища на Шпіцбергені",
-      "url": "https://www.ukrinform.ua/rubric-economy/4174813-ukraina-peredala-zrazki-nasinna-do-vsesvitnogo-shovisa-na-spicbergeni.html",
-      "date": "2026-10-15T18:32:00+00:00",
-      "excerpt": "Україна передала зразки насіння з національної колекції до Всесвітнього сховища на архіпелазі Свальбард у Норвегії – міжнародного резерву для збереження генетичних ресурсів рослин. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792075335-179.png",
-      "source": "Укрінформ"
-    },
-    {
       "area": "local",
       "title": "​​​​​​​Допомога захисникам, підтримка родин загиблих та благоустрій громади: акценти виконкому – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/482543/dopomoga-zahisnikam-pidtrimka-rodin-zagiblih-ta-blagoustrij-gromadi-akcenti-vikonkomu",
       "date": "2026-10-14T14:59:00+00:00",
       "excerpt": "​​​​​​​Допомога захисникам, підтримка родин загиблих та благоустрій громади: акценти виконкому",
       "image": "https://im2.abo.media/media/64/article/0b61c1f2cf8d423da110d0af5bc3a687.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринці четверо дітей тимчасово виховуватимуться у патронатній сім’ї – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482527/u-zhmerinci-chetvero-ditej-timchasovo-vihovuvatimutsya-u-patronatnij-simi",
-      "date": "2026-10-14T13:02:00+00:00",
-      "excerpt": "У Жмеринці четверо дітей тимчасово виховуватимуться у патронатній сім’ї",
-      "image": "https://im2.abo.media/media/64/article/4e7132c0ea3f4b5c826bdb81e4635b96.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -116,20 +116,20 @@
     },
     {
       "area": "ukraine",
-      "title": "NYT: РФ хоче за місяць відрізати Київ, Харків та Одесу від постачання світла, води та опалення",
-      "url": "https://www.pravda.com.ua/news/2026/10/15/8058232",
-      "date": "2026-10-15T18:26:00+00:00",
-      "excerpt": "Росія підготувала план, знідно з яким хоче за 1 місяць вивести з ладу енергетичну систему України і відрізати Київ, Харків та Одесу від постачання світла, води та опалення.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/9/936549/f920a20d7e858824cdfbae82ffbc6a60.jpeg?w=1200&q=85&stamp=1792088844",
+      "title": "Генштаб повідомив про 244 бойових зіткнення від початку доби",
+      "url": "https://www.pravda.com.ua/news/2026/10/15/8058243",
+      "date": "2026-10-15T19:24:00+00:00",
+      "excerpt": "Від початку доби 15 жовтня на фронті відбулось 244 бойових зіткнення.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/b/7/936568/b7002182a13b2afebc54ffd128e14acf.jpeg?w=1200&q=85&stamp=1792092335",
       "source": "Українська правда"
     },
     {
       "area": "local",
-      "title": "У Жмеринці російський дрон поцілив об’єкт залізничної інфраструктури – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482522/u-zhmerinci-rosijskij-dron-pociliv-obyekt-zaliznichnoi-infrastrukturi",
-      "date": "2026-10-14T12:19:00+00:00",
-      "excerpt": "У Жмеринці російський дрон зруйнував об’єкт залізничної інфраструктури",
-      "image": "https://im2.abo.media/media/64/article/bdde06cbf69e46d3a89d6f764173e880.webp",
+      "title": "У Жмеринці четверо дітей тимчасово виховуватимуться у патронатній сім’ї – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482527/u-zhmerinci-chetvero-ditej-timchasovo-vihovuvatimutsya-u-patronatnij-simi",
+      "date": "2026-10-14T13:02:00+00:00",
+      "excerpt": "У Жмеринці четверо дітей тимчасово виховуватимуться у патронатній сім’ї",
+      "image": "https://im2.abo.media/media/64/article/4e7132c0ea3f4b5c826bdb81e4635b96.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -143,21 +143,21 @@
     },
     {
       "area": "ukraine",
-      "title": "Франція відхиляє кожну третю заявку Росії на дипломатичну акредитацію, щоб не пробралися шпигуни",
-      "url": "https://www.ukrinform.ua/rubric-world/4174871-francia-vidhilae-koznu-tretu-zaavku-rosii-na-diplomaticnu-akreditaciu-sob-ne-probralisa-spiguni.html",
-      "date": "2026-10-15T18:22:23+00:00",
-      "excerpt": "Франція в середньому відхиляє третину заявок на дипломатичну акредитацію, які надходять із Москви. Після початку повномасштабного вторгнення РФ в Україну Париж посилив перевірки, щоб не допустити відновлення російської розвідувальної мережі на своїй території. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1752585043-800.jpg",
-      "source": "Укрінформ"
+      "title": "Путін пригрозив Україні ударами у відповідь на атаки по НПЗ та іншим об'єктам",
+      "url": "https://suspilne.media/1428721-putin-prigroziv-ukraini-udarami-u-vidpovid-na-ataki-po-npz-logisticnim-ta-energoobektam",
+      "date": "2026-10-15T19:21:44+00:00",
+      "excerpt": "Раніше президент України Володимир Зеленський заявив, що зняв обмеження для українських військових щодо атак на російські нафтопереробні заводи — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/73/7305c2e649462896109aff01faff8867973ea6aff9b508218fe02774f83d076c.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
-      "title": "Цієї ночі, внаслідок ворожого удару, у Жмеринському районі значних руйнувань зазнав обʼєкт залізничної інфраструктури. Виникла масштабна пожежа.",
-      "url": "https://zhmerynka-rda.gov.ua/2026/10/14/%D1%86%D1%96%D1%94%D1%97-%D0%BD%D0%BE%D1%87%D1%96-%D0%B2%D0%BD%D0%B0%D1%81%D0%BB%D1%96%D0%B4%D0%BE%D0%BA-%D0%B2%D0%BE%D1%80%D0%BE%D0%B6%D0%BE%D0%B3%D0%BE-%D1%83%D0%B4%D0%B0%D1%80%D1%83-%D1%83-%D0%B6",
-      "date": "2026-10-14T11:03:49+00:00",
-      "excerpt": "Як повідомила начальниця ОВА Наталя Заболотна, роботу на місці ускладнювали повторні загрози ударів БпЛА та балістики. Через небезпеку рятувальникам доводилося призупиняти ліквідацію наслідків та повертатися до роботи після відбою. Наразі всі осередки пожежі ліквідовані. Загиблих і травмованих немає. До ліквідації насл",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/04/7-300x226.jpg",
-      "source": "Жмеринська РВА"
+      "title": "У Жмеринці російський дрон поцілив об’єкт залізничної інфраструктури – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482522/u-zhmerinci-rosijskij-dron-pociliv-obyekt-zaliznichnoi-infrastrukturi",
+      "date": "2026-10-14T12:19:00+00:00",
+      "excerpt": "У Жмеринці російський дрон зруйнував об’єкт залізничної інфраструктури",
+      "image": "https://im2.abo.media/media/64/article/bdde06cbf69e46d3a89d6f764173e880.webp",
+      "source": "Жмеринка.City"
     },
     {
       "area": "region",
@@ -170,12 +170,21 @@
     },
     {
       "area": "ukraine",
-      "title": "CNN пише, що Україна вичерпала запаси ракет для Patriot",
-      "url": "https://www.pravda.com.ua/news/2026/10/15/8058238",
-      "date": "2026-10-15T18:22:00+00:00",
-      "excerpt": "Україна вичерпала запаси ракет-перехоплювачів для американських комплексів протиповітряної оборони Patriot, через що стала більш уразливою до російських балістичних ударів.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/b/3/936546/b3d74a55c5a87abb6921f415d7607578.jpeg?w=1200&q=85&stamp=1792088560",
-      "source": "Українська правда"
+      "title": "У США розслідують розсилання підозрілих листів до Конгресу та виборчих установ",
+      "url": "https://suspilne.media/1428711-u-ssa-rozsliduut-rozsilku-listiv-iz-pidozrilimi-recovinami-do-kongresu-ta-viborcih-ustanov",
+      "date": "2026-10-15T19:19:58+00:00",
+      "excerpt": "У США правоохоронці розслідують розсилання листів із невідомими речовинами до офісів конгресменів і виборчих органів у різних штатах. Деякі установи через це вже евакуювали, решту відправлень намагаються перехопити — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/ae/aedb4ab3b493b56f64f600a429907d6730348e4c52591d0fc2d476de3a85934a.jpg",
+      "source": "Суспільне"
+    },
+    {
+      "area": "local",
+      "title": "Цієї ночі, внаслідок ворожого удару, у Жмеринському районі значних руйнувань зазнав обʼєкт залізничної інфраструктури. Виникла масштабна пожежа.",
+      "url": "https://zhmerynka-rda.gov.ua/2026/10/14/%D1%86%D1%96%D1%94%D1%97-%D0%BD%D0%BE%D1%87%D1%96-%D0%B2%D0%BD%D0%B0%D1%81%D0%BB%D1%96%D0%B4%D0%BE%D0%BA-%D0%B2%D0%BE%D1%80%D0%BE%D0%B6%D0%BE%D0%B3%D0%BE-%D1%83%D0%B4%D0%B0%D1%80%D1%83-%D1%83-%D0%B6",
+      "date": "2026-10-14T11:03:49+00:00",
+      "excerpt": "Як повідомила начальниця ОВА Наталя Заболотна, роботу на місці ускладнювали повторні загрози ударів БпЛА та балістики. Через небезпеку рятувальникам доводилося призупиняти ліквідацію наслідків та повертатися до роботи після відбою. Наразі всі осередки пожежі ліквідовані. Загиблих і травмованих немає. До ліквідації насл",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/03/03-10-300x200.jpg",
+      "source": "Жмеринська РВА"
     },
     {
       "area": "local",
@@ -184,15 +193,6 @@
       "date": "2026-10-13T17:12:00+00:00",
       "excerpt": "Воїн, який любив свою родину, цінував дружбу та вмів радіти простим речам",
       "image": "https://im2.abo.media/media/64/article/485c59153bd8458bbd836f0de488fb28.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "local",
-      "title": "Пан Клякса повернувся до Жмеринки: презентували нову книгу-комікс і вшанували пам’ять Яна Бжехви – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482435/pan-klyaksa-povernuvsya-do-zhmerinki-prezentuvali-novu-knigu-komiks-i-vshanuvali-pamyat-yana-bzhehvi",
-      "date": "2026-10-13T15:09:00+00:00",
-      "excerpt": "11 жовтня у Публічній бібліотеці Жмеринської міської громади відбулося відкриття нового етапу навчання в Академії Пана Клякси",
-      "image": "https://im2.abo.media/media/64/article/6cd01383338a4304bb38011210439c83.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -206,20 +206,20 @@
     },
     {
       "area": "ukraine",
-      "title": "Уряд виконав усі заплановані зобов'язання перед міжнародними партнерами - Корецький",
-      "url": "https://www.ukrinform.ua/rubric-economy/4174869-urad-vikonav-usi-zaplanovani-zobovazanna-pered-miznarodnimi-partnerami-koreckij.html",
-      "date": "2026-10-15T18:18:00+00:00",
-      "excerpt": "Уряд своєчасно виконав усі заплановані зобов'язання перед міжнародними партнерами для отримання фінансової допомоги у 2026 році. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_07/thumb_files/630_360_1784306711-241.jpg",
+      "title": "На фронті 244 зіткнення, Покровський напрямок найгарячіший",
+      "url": "https://www.ukrinform.ua/rubric-ato/4174887-na-fronti-244-zitknenna-pokrovskij-napramok-najgaracisij.html",
+      "date": "2026-10-15T19:18:34+00:00",
+      "excerpt": "На фронті 244 бойових зіткнення, на Покровському напрямку ворог понад 30 разів намагався зламати оборону ЗСУ. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_07/thumb_files/630_360_1785438699-198.jpg",
       "source": "Укрінформ"
     },
     {
       "area": "local",
-      "title": "У Жмеринській міській раді відбувся тренінг із впровадження плану дій «Жінки, мир, безпека» – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482419/u-zhmerinskij-miskij-radi-vidbuvsya-trening-iz-vprovadzhennya-planu-dij-zhinki-mir-bezpeka",
-      "date": "2026-10-13T12:29:00+00:00",
-      "excerpt": "У Жмеринській міській раді відбувся тренінг із впровадження плану дій «Жінки, мир, безпека»",
-      "image": "https://im2.abo.media/media/64/article/7c4d833aae804b528085b6e360c03531.webp",
+      "title": "Пан Клякса повернувся до Жмеринки: презентували нову книгу-комікс і вшанували пам’ять Яна Бжехви – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482435/pan-klyaksa-povernuvsya-do-zhmerinki-prezentuvali-novu-knigu-komiks-i-vshanuvali-pamyat-yana-bzhehvi",
+      "date": "2026-10-13T15:09:00+00:00",
+      "excerpt": "11 жовтня у Публічній бібліотеці Жмеринської міської громади відбулося відкриття нового етапу навчання в Академії Пана Клякси",
+      "image": "https://im2.abo.media/media/64/article/6cd01383338a4304bb38011210439c83.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -233,20 +233,20 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський: Україна отримала від Польщі допомогу для захисту Києва",
-      "url": "https://www.pravda.com.ua/news/2026/10/15/8058237",
-      "date": "2026-10-15T18:16:00+00:00",
-      "excerpt": "Президент України Володимир Зеленський повідомив про передачу з боку Польщі пакету допомоги для захисту від російських атак, яка містить непублічні елементи.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/d/936545/8dc11964d45200b577cd174f5d8bf0d4.jpeg?w=1200&q=85&stamp=1792088061",
-      "source": "Українська правда"
+      "title": "Польща піднімала авіацію через повітряну атаку РФ на Україну",
+      "url": "https://www.ukrinform.ua/rubric-world/4174886-polsa-pidnimala-aviaciu-cerez-povitranu-ataku-rf-na-ukrainu.html",
+      "date": "2026-10-15T19:14:00+00:00",
+      "excerpt": "Польща задіяла свою авіацію у зв’язку з російською повітряною атакою на Україну. Жителів Люблінського воєводства, що межує з Україною, попередили про небезпеку, а після завершення атаки повідомили про відсутність загрози на території Польщі. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_02/thumb_files/630_360_1738397337-382.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
-      "title": "Ірина Борзова: «Нові тротуари можуть почекати, пенсії та соціальні виплати – ні» – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482212/irina-borzova-novi-trotuari-mozhut-pochekati-pensii-ta-socialni-viplati-ni",
-      "date": "2026-10-12T09:28:00+00:00",
-      "excerpt": "Ірина Борзова: «Нові тротуари можуть почекати, пенсії та соціальні виплати – ні»",
-      "image": "https://im2.abo.media/media/64/article/5671b654f85e40968a5ee8aba0c791b7.webp",
+      "title": "У Жмеринській міській раді відбувся тренінг із впровадження плану дій «Жінки, мир, безпека» – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482419/u-zhmerinskij-miskij-radi-vidbuvsya-trening-iz-vprovadzhennya-planu-dij-zhinki-mir-bezpeka",
+      "date": "2026-10-13T12:29:00+00:00",
+      "excerpt": "У Жмеринській міській раді відбувся тренінг із впровадження плану дій «Жінки, мир, безпека»",
+      "image": "https://im2.abo.media/media/64/article/7c4d833aae804b528085b6e360c03531.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -260,12 +260,21 @@
     },
     {
       "area": "ukraine",
-      "title": "Двоє загиблих і троє поранених: на Закарпатті за підозрою у стрілянині затримали священника УПЦ МП",
-      "url": "https://www.ukrinform.ua/rubric-regions/4174870-dvoe-zagiblih-i-troe-poranenih-na-zakarpatti-za-pidozrou-u-strilanini-zatrimali-svasennika-upc-mp.html",
-      "date": "2026-10-15T18:16:00+00:00",
-      "excerpt": "У Вишкові Хустського району на Закарпатті сталася стрiлянина, унаслiдок якої двоє чоловіків загинули, ще трьох потерпілих госпiталiзували. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2017_12/thumb_files/630_360_1513354776-4372.jpg",
+      "title": "Зеленський - про російські атаки: Лише за сьогодні в Україні поранені 52 людини",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4174881-zelenskij-pro-rosijski-ataki-lise-za-sogodni-v-ukraini-poraneni-52-ludini.html",
+      "date": "2026-10-15T19:07:00+00:00",
+      "excerpt": "Президент Володимир Зеленський обговорив під час зустрічі з премʼєр-міністром Польщі Дональдом Туском у Брюсселі загрози для України й зміцнення захисту від російських ударів. Глава держави також поінформував, щ за сьогодні, 15 жовтня, було поранено 52 людини. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_06/thumb_files/630_360_1781029441-840.jpg",
       "source": "Укрінформ"
+    },
+    {
+      "area": "local",
+      "title": "Ірина Борзова: «Нові тротуари можуть почекати, пенсії та соціальні виплати – ні» – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482212/irina-borzova-novi-trotuari-mozhut-pochekati-pensii-ta-socialni-viplati-ni",
+      "date": "2026-10-12T09:28:00+00:00",
+      "excerpt": "Ірина Борзова: «Нові тротуари можуть почекати, пенсії та соціальні виплати – ні»",
+      "image": "https://im2.abo.media/media/64/article/5671b654f85e40968a5ee8aba0c791b7.webp",
+      "source": "Жмеринка.City"
     },
     {
       "area": "local",
@@ -274,15 +283,6 @@
       "date": "2026-10-11T16:23:00+00:00",
       "excerpt": "У Жмеринці відкрився простір для дітей SMILE: організація свят, фотозони, ведучі",
       "image": "https://im2.abo.media/media/64/article/81f3b8ffd0794cb5984d04d268bda85b.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "local",
-      "title": "Найбільший асортимент постільної білизни у Жмеринці: понад 500 моделей у ТЦ «ГРАНД» – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482156/najbilshij-asortiment-postilnoi-bilizni-u-zhmerinci-ponad-500-modelej-u-tc-grand",
-      "date": "2026-10-11T12:56:00+00:00",
-      "excerpt": "Сайт Жмеринки: останні новини, цікаві люди, варті уваги місця Вінницької області - Жмеринка.City",
-      "image": "https://im2.abo.media/media/64/article/d57b6a2da69741278327f95706f9c3da.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -296,20 +296,20 @@
     },
     {
       "area": "ukraine",
-      "title": "Уряд дозволив керівництву шкіл самостійно організовувати навчання",
-      "url": "https://suspilne.media/1428689-urad-dozvoliv-kerivnictvu-skil-samostijno-organizovuvati-navcanna-pid-cas-povitranih-trivog",
-      "date": "2026-10-15T18:15:29+00:00",
-      "excerpt": "Тепер кожна школа самостійно визначає модель навчання з урахуванням безпекової ситуації, місткості та облаштування укриття, а громади мають приділити увагу цьому завданню та допомогти закладам освіти — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/81/81fe4cb83c48a3a016cc96d2f82a8fbdbd1d732db30ba09fc699917e2510cd2d.jpg",
-      "source": "Суспільне"
+      "title": "У Слов’янську через російський авіаудар загинули двоє людей",
+      "url": "https://www.ukrinform.ua/rubric-regions/4174885-u-slovansku-cerez-rosijskij-aviaudar-zaginuli-dvoe-ludej.html",
+      "date": "2026-10-15T19:03:00+00:00",
+      "excerpt": "Російські війська завдали авіаційного удару по Слов'янську Донецької області, загинули двоє людей. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792090787-226.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
-      "title": "У Жмеринці стартували депутатські комісії: які питання виносять на 80 сесію міської ради 15 жовтня – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482080/u-zhmerinci-startuvali-deputatski-komisii-yaki-pitannya-vinosyat-na-80-sesiyu-miskoi-radi-15-zhovtnya",
-      "date": "2026-10-09T20:18:00+00:00",
-      "excerpt": "У Жмеринці стартували депутатські комісії: які питання готують до 80-ї сесії міської ради 15 жовтня",
-      "image": "https://im2.abo.media/media/64/article/d4f29d83bbed43c3abc9b11323441262.webp",
+      "title": "Найбільший асортимент постільної білизни у Жмеринці: понад 500 моделей у ТЦ «ГРАНД» – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482156/najbilshij-asortiment-postilnoi-bilizni-u-zhmerinci-ponad-500-modelej-u-tc-grand",
+      "date": "2026-10-11T12:56:00+00:00",
+      "excerpt": "Сайт Жмеринки: останні новини, цікаві люди, варті уваги місця Вінницької області - Жмеринка.City",
+      "image": "https://im2.abo.media/media/64/article/d57b6a2da69741278327f95706f9c3da.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -323,20 +323,20 @@
     },
     {
       "area": "ukraine",
-      "title": "Корецький: уряд виконав умови для отримання міжнародної допомоги цього року",
-      "url": "https://suspilne.media/1428695-koreckij-urad-vikonav-svou-castinu-zobovazan-dla-otrimanna-miznarodnoi-dopomogi-u-2026-roci",
-      "date": "2026-10-15T18:10:37+00:00",
-      "excerpt": "Уряд України завершив виконання своїх зобов'язань для отримання міжнародної фінансової допомоги у 2026 році. Тепер необхідно подати запити до Єврокомісії та пройти процедури погодження, перш ніж кошти надійдуть Україні — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/36/36ef975b432d17f022e993ef92a1f646970e35f543a8654920264a0e02ec5479.jpg",
-      "source": "Суспільне"
+      "title": "Ворог атакував приватне підприємство у Запоріжжі, виникла пожежа",
+      "url": "https://www.ukrinform.ua/rubric-regions/4174884-vorog-atakuvav-privatne-pidpriemstvo-u-zaporizzi-vinikla-pozeza.html",
+      "date": "2026-10-15T18:58:00+00:00",
+      "excerpt": "Російська армія щойно атакувала Запоріжжя. Є влучання по приватному підприємству. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_08/thumb_files/630_360_1786205585-323.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
-      "title": "У Жмеринці заблокували анонімний Telegram-канал: питання кібербулінгу дійшло до Верховної Ради – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482005/-u-zhmerinci-zablokuvali-anonimnij-telegram-kanal-pitannya-kiberbulingu-dijshlo-do-verhovnoi-radi",
-      "date": "2026-10-09T11:35:00+00:00",
-      "excerpt": "У Жмеринці заблокували анонімний Telegram-канал: питання кібербулінгу дійшло до Верховної Ради",
-      "image": "https://im2.abo.media/media/64/article/781830801dc54fb5a30a8abe497e43de.webp",
+      "title": "У Жмеринці стартували депутатські комісії: які питання виносять на 80 сесію міської ради 15 жовтня – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482080/u-zhmerinci-startuvali-deputatski-komisii-yaki-pitannya-vinosyat-na-80-sesiyu-miskoi-radi-15-zhovtnya",
+      "date": "2026-10-09T20:18:00+00:00",
+      "excerpt": "У Жмеринці стартували депутатські комісії: які питання готують до 80-ї сесії міської ради 15 жовтня",
+      "image": "https://im2.abo.media/media/64/article/d4f29d83bbed43c3abc9b11323441262.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -350,20 +350,20 @@
     },
     {
       "area": "ukraine",
-      "title": "Ураження Су-34 на російському аеродромі може мати наслідки і для наземної інфраструктури - Плетенчук",
-      "url": "https://www.ukrinform.ua/rubric-ato/4174867-urazenna-su34-na-rosijskomu-aerodromi-moze-mati-naslidki-i-dla-nazemnoi-infrastrukturi-pletencuk.html",
-      "date": "2026-10-15T18:05:00+00:00",
-      "excerpt": "Речник Військово-Морських сил ЗСУ Дмитро Плетенчук заявив, що внаслідок ураження шести російських винищувачів Су-34 на військовому аеродромі \"Борисоглєбськ\" у Воронезькій області РФ могли постраждати також наземна інфраструктура, запаси пального та озброєння. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_12/thumb_files/630_360_1764660423-483.jpg",
-      "source": "Укрінформ"
+      "title": "У Луцьку є перебої в електро- та водопостачанні після російської атаки",
+      "url": "https://www.pravda.com.ua/news/2026/10/15/8058241",
+      "date": "2026-10-15T18:55:00+00:00",
+      "excerpt": "Увечері 15 жовтня російські БпЛА атакували Волинь, уламки одного із них влучили в лінії електропередач. У місті є перебої з електро- та водопостачанням.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/7/d/936551/7d3f4dff5f8205cd995f21a75abec666.jpeg?w=1200&q=85&stamp=1792090596",
+      "source": "Українська правда"
     },
     {
       "area": "local",
-      "title": "У Жмеринці стартував новий сезон «Пліч-о-пліч»: феєрична перемога футболістів ліцею №2 – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/481894/u-zhmerinci-startuvav-novij-sezon-plich-o-plich-feyerichna-peremoga-futbolistiv-liceyu-2",
-      "date": "2026-10-08T13:45:00+00:00",
-      "excerpt": "Разом переможемо",
-      "image": "https://im2.abo.media/media/64/article/6a8a18da57b84134937f602493c3a1fc.webp",
+      "title": "У Жмеринці заблокували анонімний Telegram-канал: питання кібербулінгу дійшло до Верховної Ради – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482005/-u-zhmerinci-zablokuvali-anonimnij-telegram-kanal-pitannya-kiberbulingu-dijshlo-do-verhovnoi-radi",
+      "date": "2026-10-09T11:35:00+00:00",
+      "excerpt": "У Жмеринці заблокували анонімний Telegram-канал: питання кібербулінгу дійшло до Верховної Ради",
+      "image": "https://im2.abo.media/media/64/article/781830801dc54fb5a30a8abe497e43de.webp",
       "source": "Жмеринка.City"
     }
   ]
