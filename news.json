@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T06:48:18.109070+00:00",
+  "updated_at": "2026-10-16T07:45:25.392222+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -17,18 +17,18 @@
     },
     {
       "area": "region",
-      "title": "У Вінницькій громаді 16 жовтня прощаються з військовим Віталієм Овчінниковим",
-      "url": "https://suspilne.media/vinnytsia/1428851-u-vinnickij-gromadi-16-zovtna-prosautsa-z-vijskovim-vitaliem-ovcinnikovim",
-      "date": "2026-10-16T06:02:13+00:00",
-      "excerpt": "У Вінницькій громаді 16 жовтня прощаються з Віталієм Овчінниковим, який приєднався до лав ЗСУ восени 2024 року. Служив старшим солдатом у 80 окремій десантно-штурмовій Галицькій бригаді — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/63/63fdb1a4f14ea857ffec09ca7e3d22051e0cb7007b08ba80c513fb446ca8f712.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "Вінниця прощається з 44-річним захисником Віталієм Овчінниковим - 20 хвилин",
+      "url": "https://vn.20minut.ua/lyudi/vinnitsya-proschaetsya-z-44-richnim-zahisnikom-vitaliem-ovchinnikovim-12010159.html",
+      "date": "2026-10-16T07:12:00+00:00",
+      "excerpt": "[16:10:2026] Вінниця прощається з 44-річним захисником Віталієм Овчінниковим ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153618-vinnitsya-proschaetsya-z-44-richnim-zahisnikom-vitaliem-ovchinnikovim.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-16T06:47:13+00:00",
+      "date": "2026-10-16T07:44:21+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -44,6 +44,33 @@
     },
     {
       "area": "region",
+      "title": "У Вінницькій громаді 16 жовтня прощаються з військовим Віталієм Овчінниковим",
+      "url": "https://suspilne.media/vinnytsia/1428851-u-vinnickij-gromadi-16-zovtna-prosautsa-z-vijskovim-vitaliem-ovcinnikovim",
+      "date": "2026-10-16T06:02:13+00:00",
+      "excerpt": "У Вінницькій громаді 16 жовтня прощаються з Віталієм Овчінниковим, який приєднався до лав ЗСУ восени 2024 року. Служив старшим солдатом у 80 окремій десантно-штурмовій Галицькій бригаді — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/63/63fdb1a4f14ea857ffec09ca7e3d22051e0cb7007b08ba80c513fb446ca8f712.jpg",
+      "source": "Суспільне Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Курси долара та євро на 16 жовтня",
+      "url": "https://www.ukrinform.ua/rubric-economy/4174999-kursi-dolara-ta-evro-na-16-zovtna.html",
+      "date": "2026-10-16T07:42:00+00:00",
+      "excerpt": "Долар офіційно подешевшав на 10 копійок, євро - на 4 копійки. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_09/thumb_files/630_360_1790229536-222.jpg",
+      "source": "Укрінформ"
+    },
+    {
+      "area": "local",
+      "title": "2 шкільні автобуси та 4 генератори передали для закладів освіти Шаргородської громади",
+      "url": "https://zhmerynka-rda.gov.ua/2026/10/15/2-%D1%88%D0%BA%D1%96%D0%BB%D1%8C%D0%BD%D1%96-%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D0%B8-%D1%82%D0%B0-4-%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B4",
+      "date": "2026-10-15T13:27:12+00:00",
+      "excerpt": "Автобуси забезпечуватимуть довезення учнів до Плебанівського ліцею та Шаргородського ліцею № 2. Шкільний транспорт придбали за співфінансування держави та громади. Наразі актуальну потребу громади у автобусах повністю закрито. Генератори потужністю 6,5 кВт отримали Носиківська, Гибалівська, Івашковецька та Лозівська гі",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/10/02-9.jpg",
+      "source": "Жмеринська РВА"
+    },
+    {
+      "area": "region",
       "title": "Вінничани повідомили поліцію про нетверезого водія. Драгер показав 2,78 проміле - 20 хвилин",
       "url": "https://vn.20minut.ua/Kryminal/vinnichani-povidomili-politsiyu-pro-netverezogo-vodiya-drager-pokazav--12010134.html",
       "date": "2026-10-16T06:02:00+00:00",
@@ -53,39 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський за тиждень може відвідати Угорщину - ОП",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4174959-zelenskij-za-tizden-moze-vidvidati-ugorsinu-op.html",
-      "date": "2026-10-16T06:29:00+00:00",
-      "excerpt": "Президент України Володимир Зеленський отримав від угорської сторони запрошення відвідати Будапешт у п'ятницю, 23 жовтня. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1790880305-676.jpeg",
+      "title": "У Криму сталася пожежа на електропідстанції - соцмережі",
+      "url": "https://www.ukrinform.ua/rubric-regions/4174995-u-krimu-stalasa-pozeza-na-elektropidstancii-socmerezi.html",
+      "date": "2026-10-16T07:33:00+00:00",
+      "excerpt": "У тимчасово окупованому Криму вранці 16 жовтня сталася пожежа на електропідстанції «Нижньогірська». — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2022_05/thumb_files/630_360_1652075100-633.jpg",
       "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "2 шкільні автобуси та 4 генератори передали для закладів освіти Шаргородської громади",
-      "url": "https://zhmerynka-rda.gov.ua/2026/10/15/2-%D1%88%D0%BA%D1%96%D0%BB%D1%8C%D0%BD%D1%96-%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D0%B8-%D1%82%D0%B0-4-%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B4",
-      "date": "2026-10-15T13:27:12+00:00",
-      "excerpt": "Автобуси забезпечуватимуть довезення учнів до Плебанівського ліцею та Шаргородського ліцею № 2. Шкільний транспорт придбали за співфінансування держави та громади. Наразі актуальну потребу громади у автобусах повністю закрито. Генератори потужністю 6,5 кВт отримали Носиківська, Гибалівська, Івашковецька та Лозівська гі",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/09/823947036_1611886473652051_2088694796393860173_n-300x200.jpg",
-      "source": "Жмеринська РВА"
-    },
-    {
-      "area": "region",
-      "title": "Вінничанці Євгустині Рябошапці виповнилося 100 років - 20 хвилин",
-      "url": "https://vn.20minut.ua/lyudi/vinnichantsi-evgustini-ryaboshaptsi-vipovnilosya-100-rokiv-12010086.html",
-      "date": "2026-10-15T18:01:00+00:00",
-      "excerpt": "[15:10:2026] Вінничанці Євгустині Рябошапці виповнилося 100 років ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153048-vinnichantsi-evgustini-ryaboshaptsi-vipovnilosya-100-rokiv.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "У США через стрілянину в початковій школі загинули діти та вчитель",
-      "url": "https://suspilne.media/1428871-u-ssa-pidlitok-zastreliv-troh-ditej-i-vcitela-u-pocatkovij-skoli-napadnika-likviduvav-perehozij",
-      "date": "2026-10-16T06:25:04+00:00",
-      "excerpt": "У місті Бенд штату Орегон, США, 16-річний підліток увірвався до початкової школи та вбив трьох дітей і вчителя. Ще одну дитину та вчителя госпіталізували з важкими травмами. Самого нападника застрелив місцевий житель — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/0e/0e42439d4efaf425e3367d90daff3825e14cf166fd93cdfcafef1c1fb90f3cf7.jpg",
-      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -107,21 +107,21 @@
     },
     {
       "area": "region",
-      "title": "Вінниця передала військовим 200 FPV-дронів і 20 Matrice - 20 хвилин",
-      "url": "https://vn.20minut.ua/dopomogha-armiyi/vinnitsya-peredala-viyskovim-200-fpv-droniv-i-20-matrice-12010088.html",
-      "date": "2026-10-15T17:03:00+00:00",
-      "excerpt": "[15:10:2026] Вінниця передала військовим 200 FPV-дронів і 20 Matrice ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153058-vinnitsya-peredala-viyskovim-200-fpv-droniv-i-20-matrice.jpeg",
+      "title": "Вінничанці Євгустині Рябошапці виповнилося 100 років - 20 хвилин",
+      "url": "https://vn.20minut.ua/lyudi/vinnichantsi-evgustini-ryaboshaptsi-vipovnilosya-100-rokiv-12010086.html",
+      "date": "2026-10-15T18:01:00+00:00",
+      "excerpt": "[15:10:2026] Вінничанці Євгустині Рябошапці виповнилося 100 років ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153048-vinnichantsi-evgustini-ryaboshaptsi-vipovnilosya-100-rokiv.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "На Одещині росіяни атакували обʼєкт енергетики і цивільну інфраструктуру, четверо поранених",
-      "url": "https://www.ukrinform.ua/rubric-regions/4174957-na-odesini-vorog-atakuvav-obekt-energetiki-i-civilnu-infrastrukturu-cetvero-poranenih.html",
-      "date": "2026-10-16T06:24:00+00:00",
-      "excerpt": "В Одеській області внаслідок російських ударів дістали поранень четверо людей. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792131411-399.jpg",
-      "source": "Укрінформ"
+      "title": "Росія масовано атакує регіони України: що відомо про наслідки",
+      "url": "https://suspilne.media/1428921-rosia-masovano-atakue-regioni-ukraini-so-vidomo-pro-naslidki",
+      "date": "2026-10-16T07:31:35+00:00",
+      "excerpt": "Під час дронової атаки РФ у ніч на 16 жовтня у низці міст України лунали вибухи, зокрема, в Умані, Львові, Рівному. Є поранені, пошкоджена цивільна інфраструктура, Луцьк повністю знеструмлениий — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/ee/eedb8f68def34cced3b080e1f3a9d3aa8114fe9072dd6dccc0b6dab7c91d7b54.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -134,20 +134,20 @@
     },
     {
       "area": "region",
-      "title": "У Вінниці провели чемпіонат із плавання серед ветеранів війни - 20 хвилин",
-      "url": "https://vn.20minut.ua/Sport/u-vinnitsi-proveli-chempionat-iz-plavannya-sered-veteraniv-viyni-12010089.html",
-      "date": "2026-10-15T16:11:00+00:00",
-      "excerpt": "[15:10:2026] У Вінниці провели чемпіонат із плавання серед ветеранів війни ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153062-u-vinnitsi-proveli-chempionat-iz-plavannya-sered-veteraniv-viyni.jpeg",
+      "title": "Вінниця передала військовим 200 FPV-дронів і 20 Matrice - 20 хвилин",
+      "url": "https://vn.20minut.ua/dopomogha-armiyi/vinnitsya-peredala-viyskovim-200-fpv-droniv-i-20-matrice-12010088.html",
+      "date": "2026-10-15T17:03:00+00:00",
+      "excerpt": "[15:10:2026] Вінниця передала військовим 200 FPV-дронів і 20 Matrice ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153058-vinnitsya-peredala-viyskovim-200-fpv-droniv-i-20-matrice.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "У Запоріжжі загасили масштабну пожежу на підприємстві після ворожого обстрілу",
-      "url": "https://www.ukrinform.ua/rubric-regions/4174955-u-zaporizzi-zagasili-masstabnu-pozezu-na-pidpriemstvi-pisla-obstrilu-rf.html",
-      "date": "2026-10-16T06:22:00+00:00",
-      "excerpt": "Рятувальники ліквідували пожежу, що виникла на приватному підприємстві в Запоріжжі внаслідок удару російського безпілотника. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792131512-608.jpg",
+      "title": "Зеленський прибув на засідання Євроради",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4174993-zelenskij-pribuv-na-zasidanna-evroradi.html",
+      "date": "2026-10-16T07:29:00+00:00",
+      "excerpt": "Президент Володимир Зеленський прибув на засідання Європейської ради, яке проходить у Брюсселі. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792136260-131.png",
       "source": "Укрінформ"
     },
     {
@@ -161,21 +161,21 @@
     },
     {
       "area": "region",
-      "title": "Гроші на вітер? У Вінниці замовили черговий проєкт перебудови бази ДСНС на Арабея - 20 хвилин",
-      "url": "https://vn.20minut.ua/Groshi/milyoni-na-viter-chi-novi-shemi-u-vinnitsi-zamovili-chergoviy-proekt-p-12010130.html",
-      "date": "2026-10-15T15:33:00+00:00",
-      "excerpt": "[15:10:2026] Гроші на вітер? У Вінниці замовили черговий проєкт перебудови бази ДСНС на Арабея ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153346-groshi-na-viter-u-vinnitsi-zamovili-chergoviy-proekt-perebudovi-bazi-dsns-na-arabeya.jpeg",
+      "title": "У Вінниці провели чемпіонат із плавання серед ветеранів війни - 20 хвилин",
+      "url": "https://vn.20minut.ua/Sport/u-vinnitsi-proveli-chempionat-iz-plavannya-sered-veteraniv-viyni-12010089.html",
+      "date": "2026-10-15T16:11:00+00:00",
+      "excerpt": "[15:10:2026] У Вінниці провели чемпіонат із плавання серед ветеранів війни ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153062-u-vinnitsi-proveli-chempionat-iz-plavannya-sered-veteraniv-viyni.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "У Слов'янську під завалами багатоповерхівки знайшли тіло загиблої жінки",
-      "url": "https://suspilne.media/donbas/1428893-u-slovansku-za-dobu-poranenna-distali-troe-ludej-pid-zavalami-bagatopoverhivki-znajsli-tilo-zagibloi-zinki",
-      "date": "2026-10-16T06:16:50+00:00",
-      "excerpt": "Російські війська протягом 15 жовтня обстрілювали Слов'янськ із різних видів озброєння. Троє людей дістали поранення, а з-під завалів багатоповерхівки рятувальники деблокували тіло 52-річної жінки — Суспільне Донбас",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/7f/7fb97d87efc3c7efb330e935368dc5a0eeb74517bd1ea82d94925d0a70aeb24c.jpg",
-      "source": "Суспільне"
+      "title": "Стріляли, били, змусили віддати понад $68 тисяч: трьох поліцейських підозрюють у розбої",
+      "url": "https://www.pravda.com.ua/news/2026/10/16/8058285",
+      "date": "2026-10-16T07:27:00+00:00",
+      "excerpt": "Трьом поліцейським повідомили про підозру у розбійному нападі на жителя Нікополя, під час якого, за даними слідства, вони заволоділи криптовалютою та готівкою на загальну суму понад 68 тисяч доларів.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/c/1/936716/c1ef152cc937c61852e3c0d33693e462.jpeg?w=1200&q=85&stamp=1792135542",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -192,8 +192,35 @@
       "url": "https://zhmerynka-rda.gov.ua/2026/10/14/%D1%86%D1%96%D1%94%D1%97-%D0%BD%D0%BE%D1%87%D1%96-%D0%B2%D0%BD%D0%B0%D1%81%D0%BB%D1%96%D0%B4%D0%BE%D0%BA-%D0%B2%D0%BE%D1%80%D0%BE%D0%B6%D0%BE%D0%B3%D0%BE-%D1%83%D0%B4%D0%B0%D1%80%D1%83-%D1%83-%D0%B6",
       "date": "2026-10-14T11:03:49+00:00",
       "excerpt": "Як повідомила начальниця ОВА Наталя Заболотна, роботу на місці ускладнювали повторні загрози ударів БпЛА та балістики. Через небезпеку рятувальникам доводилося призупиняти ліквідацію наслідків та повертатися до роботи після відбою. Наразі всі осередки пожежі ліквідовані. Загиблих і травмованих немає. До ліквідації насл",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/06/712504546_1448319283999611_5119116844211395647_n-300x200.jpg",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/10/03-7.jpg",
       "source": "Жмеринська РВА"
+    },
+    {
+      "area": "region",
+      "title": "Гроші на вітер? У Вінниці замовили черговий проєкт перебудови бази ДСНС на Арабея - 20 хвилин",
+      "url": "https://vn.20minut.ua/Groshi/milyoni-na-viter-chi-novi-shemi-u-vinnitsi-zamovili-chergoviy-proekt-p-12010130.html",
+      "date": "2026-10-15T15:33:00+00:00",
+      "excerpt": "[15:10:2026] Гроші на вітер? У Вінниці замовили черговий проєкт перебудови бази ДСНС на Арабея ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153346-groshi-na-viter-u-vinnitsi-zamovili-chergoviy-proekt-perebudovi-bazi-dsns-na-arabeya.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Наслідки атаки на Волинь: двоє людей травмовані, пошкоджені підприємства, Луцьк залишився без світла",
+      "url": "https://www.ukrinform.ua/rubric-regions/4174992-naslidki-ataki-na-volin-dvoe-ludej-travmovani-poskodzeni-pidpriemstva-luck-zalisivsa-bez-svitla.html",
+      "date": "2026-10-16T07:27:00+00:00",
+      "excerpt": "Унаслідок російської атаки на Волині пошкоджені підприємства, двоє людей дістали травми, доля ще п’ятьох осіб наразі невідома. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590404-937.jpeg",
+      "source": "Укрінформ"
+    },
+    {
+      "area": "local",
+      "title": "У лікарні Чернігова помер військовослужбовець з Браїлова Віталій Петрусь із позивним «Вітер» – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482398/u-likarni-chernigova-pomer-vijskovosluzhbovec-z-brailova-vitalij-petrus-iz-pozivnim-viter",
+      "date": "2026-10-13T17:12:00+00:00",
+      "excerpt": "Воїн, який любив свою родину, цінував дружбу та вмів радіти простим речам",
+      "image": "https://im2.abo.media/media/64/article/485c59153bd8458bbd836f0de488fb28.webp",
+      "source": "Жмеринка.City"
     },
     {
       "area": "region",
@@ -206,20 +233,20 @@
     },
     {
       "area": "ukraine",
-      "title": "Генштаб: За добу на фронті відбулося понад 300 боїв",
-      "url": "https://www.pravda.com.ua/news/2026/10/16/8058274",
-      "date": "2026-10-16T06:14:00+00:00",
-      "excerpt": "Протягом доби 15 жовтня на фронті відбулося 304 бойові зіткнення.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/0/7/936667/076ce8abf3f884b05f38923a5e84370a.jpeg?w=1200&q=85&stamp=1792131161",
-      "source": "Українська правда"
+      "title": "Заборона туристичних віз для росіян: Франція міняє позицію, Італія — проти",
+      "url": "https://suspilne.media/1428929-francia-zminue-pozicii-sodo-obmezen-na-turisticni-vizi-rosianam-italia-proti-dzerela",
+      "date": "2026-10-16T07:19:06+00:00",
+      "excerpt": "Лідери Європейського Союзу 17 жовтня обговорять можливість запровадження обмежень на видачу шенгенських віз росіянам. Італія залишається останньою країною, яка зберігає застереження в цьому питанні — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/22/22615d6a0bea974dad2d34a3f060d1b9837e7fe43328d6e23531248461c13b8c.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
-      "title": "У лікарні Чернігова помер військовослужбовець з Браїлова Віталій Петрусь із позивним «Вітер» – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482398/u-likarni-chernigova-pomer-vijskovosluzhbovec-z-brailova-vitalij-petrus-iz-pozivnim-viter",
-      "date": "2026-10-13T17:12:00+00:00",
-      "excerpt": "Воїн, який любив свою родину, цінував дружбу та вмів радіти простим речам",
-      "image": "https://im2.abo.media/media/64/article/485c59153bd8458bbd836f0de488fb28.webp",
+      "title": "Пан Клякса повернувся до Жмеринки: презентували нову книгу-комікс і вшанували пам’ять Яна Бжехви – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482435/pan-klyaksa-povernuvsya-do-zhmerinki-prezentuvali-novu-knigu-komiks-i-vshanuvali-pamyat-yana-bzhehvi",
+      "date": "2026-10-13T15:09:00+00:00",
+      "excerpt": "11 жовтня у Публічній бібліотеці Жмеринської міської громади відбулося відкриття нового етапу навчання в Академії Пана Клякси",
+      "image": "https://im2.abo.media/media/64/article/6cd01383338a4304bb38011210439c83.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -233,38 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "На Київщині через атаки РФ за добу пошкоджені 33 об’єкти, двоє постраждалих",
-      "url": "https://www.ukrinform.ua/rubric-regions/4174951-na-kiivsini-cerez-ataki-rf-za-dobu-poskodzeni-33-obekti-dvoe-postrazdalih.html",
-      "date": "2026-10-16T06:13:58+00:00",
-      "excerpt": "У Київській області внаслідок ворожих атак за останню добу пошкоджень зазнали 33 об’єкти, 25 з них – приватні домоволодіння. Травми дістали двоє людей. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792131141-192.jpg",
-      "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "Пан Клякса повернувся до Жмеринки: презентували нову книгу-комікс і вшанували пам’ять Яна Бжехви – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482435/pan-klyaksa-povernuvsya-do-zhmerinki-prezentuvali-novu-knigu-komiks-i-vshanuvali-pamyat-yana-bzhehvi",
-      "date": "2026-10-13T15:09:00+00:00",
-      "excerpt": "11 жовтня у Публічній бібліотеці Жмеринської міської громади відбулося відкриття нового етапу навчання в Академії Пана Клякси",
-      "image": "https://im2.abo.media/media/64/article/6cd01383338a4304bb38011210439c83.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "Після важкого поранення ветеран із Вінниці здійснює мрію та вчиться водити авто - 20 хвилин",
-      "url": "https://vn.20minut.ua/lyudi/pislya-vazhkogo-poranennya-veteran-iz-vinnitsi-zdiysnyue-mriyu-ta-vchi-12010096.html",
-      "date": "2026-10-15T14:02:00+00:00",
-      "excerpt": "[15:10:2026] Після важкого поранення ветеран із Вінниці здійснює мрію та вчиться водити авто ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153095-pislya-vazhkogo-poranennya-veteran-iz-vinnitsi-zdiysnyue-mriyu-ta-vchitsya-voditi-avto.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Трамп заявив, що Україні не обов’язково бити по НПЗ - у Росії є «багато цілей»",
-      "url": "https://www.ukrinform.ua/rubric-world/4174950-tramp-rozkritikuvav-udari-ukraini-po-rosijskih-npz.html",
-      "date": "2026-10-16T06:10:00+00:00",
-      "excerpt": "Президент США Дональд Трамп розкритикував рішення України відновити удари по російських нафтопереробних заводах, заявивши, що вони нібито сприяють збереженню високих світових цін на енергоносії. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_01/thumb_files/630_360_1769160720-836.jpeg",
+      "title": "У Києві розпочинається опалювальний сезон",
+      "url": "https://www.ukrinform.ua/rubric-regions/4174986-u-kievi-rozpocinaetsa-opaluvalnij-sezon.html",
+      "date": "2026-10-16T07:18:05+00:00",
+      "excerpt": "У Києві з 16 жовтня розпочинається опалювальний сезон, у першу чергу тепло подадуть у заклади соціальної сфери. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1759763455-529.jpg",
       "source": "Укрінформ"
     },
     {
@@ -287,20 +287,20 @@
     },
     {
       "area": "region",
-      "title": "Історія ветерана Євгенія Терещенка, який грає за ампфутбольну команду у Вінниці",
-      "url": "https://suspilne.media/vinnytsia/1428153-a-cekav-cogo-protezu-istoria-veterana-evgenia-teresenka-akij-grae-za-ampfutbolnu-komandu-u-vinnici",
-      "date": "2026-10-15T13:56:50+00:00",
-      "excerpt": "За ампфутбольну команду «АМП-Вінниця» виступає ветеран Євгеній Терещенко. Чоловік родом із Дніпропетровищини, проте після поранення залишився жити у Вінниці. Його історія на сайті Суспільного — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/a2/a29caa7c3a65de0569ce698cfd4bcb845e7645dd74da335564e77768cd929edb.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "Після важкого поранення ветеран із Вінниці здійснює мрію та вчиться водити авто - 20 хвилин",
+      "url": "https://vn.20minut.ua/lyudi/pislya-vazhkogo-poranennya-veteran-iz-vinnitsi-zdiysnyue-mriyu-ta-vchi-12010096.html",
+      "date": "2026-10-15T14:02:00+00:00",
+      "excerpt": "[15:10:2026] Після важкого поранення ветеран із Вінниці здійснює мрію та вчиться водити авто ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153095-pislya-vazhkogo-poranennya-veteran-iz-vinnitsi-zdiysnyue-mriyu-ta-vchitsya-voditi-avto.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Японія посилить моніторинг військової активності Китаю в Тихому океані",
-      "url": "https://www.ukrinform.ua/rubric-world/4174946-aponia-posilit-monitoring-vijskovoi-aktivnosti-kitau-v-tihomu-okeani.html",
-      "date": "2026-10-16T06:08:00+00:00",
-      "excerpt": "Сили самооборони Японії найближчим часом посилять патрулювання у прилеглих водах Тихого океану та спостереження за діяльністю кораблів і літаків ВМС Китаю. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_07/thumb_files/630_360_1784276129-567.jpg",
+      "title": "Експертам Мінюсту оголосили підозри у фальсифікації доказів в інтересах посадовця СБУ",
+      "url": "https://www.ukrinform.ua/rubric-society/4174985-ekspertam-minustu-ogolosili-pidozru-u-falsifikacii-dokaziv-v-interesah-posadovca-sbu.html",
+      "date": "2026-10-16T07:14:00+00:00",
+      "excerpt": "НАБУ та САП повідомили про підозру судовим експертам Київського науково-дослідного інституту судових експертиз Міністерства юстиції України (КНДІСЕ), які склали завідомо неправдиві висновки щодо вартості елітної нерухомості дружини високопосадовця СБУ. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_08/thumb_files/630_360_1787123784-830.jpg",
       "source": "Укрінформ"
     },
     {
@@ -314,20 +314,20 @@
     },
     {
       "area": "region",
-      "title": "Матері загиблого оборонця Романа Ільчука із Вінниччини передали нагороду сина",
-      "url": "https://suspilne.media/vinnytsia/1428395-materi-zagiblogo-oboronca-romana-ilcuka-iz-vinniccini-peredali-posmertnu-nagorodu-sina",
-      "date": "2026-10-15T12:40:26+00:00",
-      "excerpt": "Матері Романа Ільчука із Вінниччини, який загинув на фронті у вересні 2025 року, передали його посмертну нагороду. Відзнаку «За відвагу в службі» передали побратими із Нацгвардії — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/3c/3cfbefbd4cf3c0807399f3a9fce418a0ab385acde6533a82643151e15816fa97.jpg",
+      "title": "Історія ветерана Євгенія Терещенка, який грає за ампфутбольну команду у Вінниці",
+      "url": "https://suspilne.media/vinnytsia/1428153-a-cekav-cogo-protezu-istoria-veterana-evgenia-teresenka-akij-grae-za-ampfutbolnu-komandu-u-vinnici",
+      "date": "2026-10-15T13:56:50+00:00",
+      "excerpt": "За ампфутбольну команду «АМП-Вінниця» виступає ветеран Євгеній Терещенко. Чоловік родом із Дніпропетровищини, проте після поранення залишився жити у Вінниці. Його історія на сайті Суспільного — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/a2/a29caa7c3a65de0569ce698cfd4bcb845e7645dd74da335564e77768cd929edb.jpg",
       "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Нафта завершує тиждень зростанням на тлі загроз постачанню через Ормузьку протоку",
-      "url": "https://www.ukrinform.ua/rubric-economy/4174947-nafta-zaversue-tizden-zrostannam-na-tli-zagroz-postacannu-cerez-ormuzku-protoku.html",
-      "date": "2026-10-16T06:07:18+00:00",
-      "excerpt": "Ціни на нафту у п’ятницю дещо знизилися, однак за підсумками тижня демонстрували зростання на тлі невизначеності щодо поставок з Близького Сходу та більшого, ніж очікувалося, скорочення запасів нафти у США. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_03/thumb_files/630_360_1741159987-715.jpg",
+      "title": "На Хмельниччині через обстріли РФ пошкоджені 10 приватних будинків, спалахнула пожежа",
+      "url": "https://www.ukrinform.ua/rubric-regions/4174980-na-hmelniccini-cerez-ataki-rf-poskodzeni-10-privatnih-budinkiv-spalahnula-pozeza.html",
+      "date": "2026-10-16T07:13:00+00:00",
+      "excerpt": "У Кам’янець-Подільському районі Хмельницької області внаслідок атаки російських безпілотників зазнали пошкоджень 10 приватних будинків. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_06/thumb_files/630_360_1782559516-294.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -341,21 +341,21 @@
     },
     {
       "area": "region",
-      "title": "Гараж, комбайн і тюки соломи горіли на Вінниччині - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/garazh-kombayn-i-tyuki-solomi-gorili-na-vinnichchini-12010092.html",
-      "date": "2026-10-15T12:09:00+00:00",
-      "excerpt": "[15:10:2026] Гараж, комбайн і тюки соломи горіли на Вінниччині ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153080-garazh-kombayn-i-tyuki-solomi-gorili-na-vinnichchini.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "Матері загиблого оборонця Романа Ільчука із Вінниччини передали нагороду сина",
+      "url": "https://suspilne.media/vinnytsia/1428395-materi-zagiblogo-oboronca-romana-ilcuka-iz-vinniccini-peredali-posmertnu-nagorodu-sina",
+      "date": "2026-10-15T12:40:26+00:00",
+      "excerpt": "Матері Романа Ільчука із Вінниччини, який загинув на фронті у вересні 2025 року, передали його посмертну нагороду. Відзнаку «За відвагу в службі» передали побратими із Нацгвардії — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/3c/3cfbefbd4cf3c0807399f3a9fce418a0ab385acde6533a82643151e15816fa97.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Внаслідок російської атаки у Києві виникли пожежі",
-      "url": "https://suspilne.media/kyiv/1428865-vnaslidok-rosijskoi-ataki-u-kievi-vinikli-pozezi",
-      "date": "2026-10-16T06:03:39+00:00",
-      "excerpt": "Російські війська продовжують обстрілювати Київ. Зокрема, наслідки зафіксували у приватному житловому секторі міста. Інформації про травмованих наразі немає, повідомили у ДСНС — Суспільне Київ",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/98/98cd33f855b64f5c9b7c6601b48abf8ee3f6f0293b75663d7ce1556657d729df.jpg",
-      "source": "Суспільне"
+      "title": "Росія атакувала 148 дронами, більшість – реактивні, є влучання на 24 локаціях",
+      "url": "https://www.pravda.com.ua/news/2026/10/16/8058283",
+      "date": "2026-10-16T07:08:00+00:00",
+      "excerpt": "В ніч на 16 жовтня російські окупаційні війська атакували 149 ударними безпілотниками, 114 ворожих БпЛА знешкодила ППО, є влучання на 24 локаціях.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/d/7/936704/d798b11baf4ec000250ee7101f93551f.jpeg?w=1200&q=85&stamp=1792134441",
+      "source": "Українська правда"
     },
     {
       "area": "local",
