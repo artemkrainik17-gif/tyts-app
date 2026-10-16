@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T10:41:14.678287+00:00",
+  "updated_at": "2026-10-16T11:40:23.323949+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -17,18 +17,18 @@
     },
     {
       "area": "region",
-      "title": "Посилки з Temu можуть подорожчати для вінничан на 20%. Коли і чому? - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/posilki-z-temu-mozhut-podorozhchati-dlya-vinnichan-na-20-koli-i-chomu-12010185.html",
-      "date": "2026-10-16T09:21:00+00:00",
-      "excerpt": "[16:10:2026] Посилки з Temu можуть подорожчати для вінничан на 20%. Коли і чому? ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153782-posilki-z-temu-mozhut-podorozhchati-dlya-vinnichan-na-20-koli-i-chomu.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "У середмісті Вінниці виставили військову техніку армії УНР: що відомо",
+      "url": "https://suspilne.media/vinnytsia/1429267-u-seredmisti-vinnici-vistavili-vijskovu-tehniku-armii-unr-so-vidomo",
+      "date": "2026-10-16T11:08:33+00:00",
+      "excerpt": "У Вінниці на площі Європейській стартувала виставка військової техніки армії УНР. Біля Вежі Артинова із 16 жовтня покажуть панцерники «Отамана Коновалець» та «Федір Черник», а також гармату — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/9d/9db21cd8cb6a18fca180656fe96822d58384ffb8b96f596956a0ffc66c2503d7.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-16T10:40:07+00:00",
+      "date": "2026-10-16T11:39:11+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -44,6 +44,33 @@
     },
     {
       "area": "region",
+      "title": "Посилки з Temu можуть подорожчати для вінничан на 20%. Коли і чому? - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/posilki-z-temu-mozhut-podorozhchati-dlya-vinnichan-na-20-koli-i-chomu-12010185.html",
+      "date": "2026-10-16T09:21:00+00:00",
+      "excerpt": "[16:10:2026] Посилки з Temu можуть подорожчати для вінничан на 20%. Коли і чому? ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153782-posilki-z-temu-mozhut-podorozhchati-dlya-vinnichan-na-20-koli-i-chomu.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Румунія попереджає про ризики поширення наслідків російських атак у Чорному морі",
+      "url": "https://www.ukrinform.ua/rubric-ato/4175133-rumunia-poperedzae-pro-riziki-posirenna-naslidkiv-rosijskih-atak-u-cornomu-mori.html",
+      "date": "2026-10-16T11:35:00+00:00",
+      "excerpt": "Росія дедалі частіше атакує морський коридор, яким Україна експортує зерно через Чорне море, що підвищує загрози для безпеки всього регіону. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_05/thumb_files/630_360_1747825977-227.jpg",
+      "source": "Укрінформ"
+    },
+    {
+      "area": "local",
+      "title": "2 шкільні автобуси та 4 генератори передали для закладів освіти Шаргородської громади",
+      "url": "https://zhmerynka-rda.gov.ua/2026/10/15/2-%D1%88%D0%BA%D1%96%D0%BB%D1%8C%D0%BD%D1%96-%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D0%B8-%D1%82%D0%B0-4-%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B4",
+      "date": "2026-10-15T13:27:12+00:00",
+      "excerpt": "Автобуси забезпечуватимуть довезення учнів до Плебанівського ліцею та Шаргородського ліцею № 2. Шкільний транспорт придбали за співфінансування держави та громади. Наразі актуальну потребу громади у автобусах повністю закрито. Генератори потужністю 6,5 кВт отримали Носиківська, Гибалівська, Івашковецька та Лозівська гі",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/02/01-11-300x127.jpg",
+      "source": "Жмеринська РВА"
+    },
+    {
+      "area": "region",
       "title": "У Вінниці зорганізували персоналізовану хвилину мовчання Едуарду Дембовському",
       "url": "https://suspilne.media/vinnytsia/1428725-droni-stali-ne-lise-robotou-a-j-castinou-jogo-zitta-u-vinnici-akciu-pamati-priurocili-eduardu-dembovskomu",
       "date": "2026-10-16T08:42:24+00:00",
@@ -53,39 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Фредеріксен назвала заморожені активи РФ найочевиднішим джерелом фінансування України",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4175077-frederiksen-nazvala-zamorozeni-aktivi-rf-najocevidnisim-dzerelom-finansuvanna-ukraini.html",
-      "date": "2026-10-16T10:37:00+00:00",
-      "excerpt": "Прем’єр-міністерка Данії Метте Фредеріксен вважає використання заморожених російських активів одним із найкращих рішень для фінансування України у 2026-2027 роках. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_01/thumb_files/630_360_1769510025-991.jpg",
+      "title": "Російська армія атакує Дніпро, під ударом - критична інфраструктура",
+      "url": "https://www.ukrinform.ua/rubric-regions/4175128-rosijska-armia-atakue-dnipro-pid-udarom-kriticna-infrastruktura.html",
+      "date": "2026-10-16T11:25:00+00:00",
+      "excerpt": "Російська армія атакує Дніпро, зокрема критичну інфраструктуру. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_10/thumb_files/630_360_1728310907-206.jpg",
       "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "2 шкільні автобуси та 4 генератори передали для закладів освіти Шаргородської громади",
-      "url": "https://zhmerynka-rda.gov.ua/2026/10/15/2-%D1%88%D0%BA%D1%96%D0%BB%D1%8C%D0%BD%D1%96-%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D0%B8-%D1%82%D0%B0-4-%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B4",
-      "date": "2026-10-15T13:27:12+00:00",
-      "excerpt": "Автобуси забезпечуватимуть довезення учнів до Плебанівського ліцею та Шаргородського ліцею № 2. Шкільний транспорт придбали за співфінансування держави та громади. Наразі актуальну потребу громади у автобусах повністю закрито. Генератори потужністю 6,5 кВт отримали Носиківська, Гибалівська, Івашковецька та Лозівська гі",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/10/02-9.jpg",
-      "source": "Жмеринська РВА"
-    },
-    {
-      "area": "region",
-      "title": "Де у Вінниці сьогодні можуть зникнути вода та світло - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/de-u-vinnitsi-sogodni-mozhut-zniknuti-voda-ta-svitlo-12010163.html",
-      "date": "2026-10-16T08:02:00+00:00",
-      "excerpt": "[16:10:2026] Де у Вінниці сьогодні можуть зникнути вода та світло ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153658-de-u-vinnitsi-sogodni-mozhut-zniknuti-voda-ta-svitlo.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "МОН: 87% шкіл мають додаткові джерела живлення",
-      "url": "https://suspilne.media/1429111-mon-87-skil-maut-dodatkovi-dzerela-zivlenna",
-      "date": "2026-10-16T10:36:56+00:00",
-      "excerpt": "Міністр освіти та науки Андрій Бутенко заявив, що в Україні понад 9 000 шкіл — 87% з загальної кількості, мають джерела живлення, щоб функціонувати понад 8 годин — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/d8/d8cb423bd63106da03ffdee671eb133799149f1280800e2d51c66e0797fcdc01.jpg",
-      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -107,20 +107,20 @@
     },
     {
       "area": "region",
-      "title": "Вінниця прощається з 44-річним захисником Віталієм Овчінниковим - 20 хвилин",
-      "url": "https://vn.20minut.ua/lyudi/vinnitsya-proschaetsya-z-44-richnim-zahisnikom-vitaliem-ovchinnikovim-12010159.html",
-      "date": "2026-10-16T07:12:00+00:00",
-      "excerpt": "[16:10:2026] Вінниця прощається з 44-річним захисником Віталієм Овчінниковим ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153618-vinnitsya-proschaetsya-z-44-richnim-zahisnikom-vitaliem-ovchinnikovim.jpeg",
+      "title": "Де у Вінниці сьогодні можуть зникнути вода та світло - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/de-u-vinnitsi-sogodni-mozhut-zniknuti-voda-ta-svitlo-12010163.html",
+      "date": "2026-10-16T08:02:00+00:00",
+      "excerpt": "[16:10:2026] Де у Вінниці сьогодні можуть зникнути вода та світло ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153658-de-u-vinnitsi-sogodni-mozhut-zniknuti-voda-ta-svitlo.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Пошкоджена дроном РФ «Космогонія»: автор найбільшої у світі картини не відновлюватиме її до кінця війни",
-      "url": "https://www.ukrinform.ua/rubric-culture/4175076-poskodzena-dronom-rf-kosmogonia-avtor-najbilsoi-u-sviti-kartini-ne-vidnovluvatime-ii-do-kinca-vijni.html",
-      "date": "2026-10-16T10:36:00+00:00",
-      "excerpt": "Художник Петро Антип, автор найбільшої у світі картини «Космогонія», вирішив не відновлювати пошкоджену внаслідок російської атаки частину монументального полотна до закінчення війни. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791994454-760.jpeg",
+      "title": "Український слід на Місяці, сталевий шлак замість асфальту та реальне омолодження людських клітин",
+      "url": "https://www.ukrinform.ua/rubric-technology/4175124-ukrainskij-slid-na-misaci-stalevij-slak-zamist-asfaltu-ta-realne-omolodzenna-ludskih-klitin.html",
+      "date": "2026-10-16T11:22:00+00:00",
+      "excerpt": "Головні науково-технологічні прориви та сенсації тижня: 9 – 16 жовтня — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792149694-910.jpg",
       "source": "Укрінформ"
     },
     {
@@ -134,20 +134,20 @@
     },
     {
       "area": "region",
-      "title": "У Вінницькій громаді 16 жовтня прощаються з військовим Віталієм Овчінниковим",
-      "url": "https://suspilne.media/vinnytsia/1428851-u-vinnickij-gromadi-16-zovtna-prosautsa-z-vijskovim-vitaliem-ovcinnikovim",
-      "date": "2026-10-16T06:02:13+00:00",
-      "excerpt": "У Вінницькій громаді 16 жовтня прощаються з Віталієм Овчінниковим, який приєднався до лав ЗСУ восени 2024 року. Служив старшим солдатом у 80 окремій десантно-штурмовій Галицькій бригаді — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/63/63fdb1a4f14ea857ffec09ca7e3d22051e0cb7007b08ba80c513fb446ca8f712.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "Вінниця прощається з 44-річним захисником Віталієм Овчінниковим - 20 хвилин",
+      "url": "https://vn.20minut.ua/lyudi/vinnitsya-proschaetsya-z-44-richnim-zahisnikom-vitaliem-ovchinnikovim-12010159.html",
+      "date": "2026-10-16T07:12:00+00:00",
+      "excerpt": "[16:10:2026] Вінниця прощається з 44-річним захисником Віталієм Овчінниковим ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153618-vinnitsya-proschaetsya-z-44-richnim-zahisnikom-vitaliem-ovchinnikovim.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Болгарія запросила у НАТО «весь можливий спектр» систем для протидії дронам",
-      "url": "https://www.ukrinform.ua/rubric-world/4175094-bolgaria-zaprosila-u-nato-ves-mozlivij-spektr-sistem-dla-protidii-dronam.html",
-      "date": "2026-10-16T10:36:00+00:00",
-      "excerpt": "Міністр оборони Болгарії Дімітар Стоянов заявив, що Болгарія звернулася до НАТО з проханням надати їй літаки, засоби ППО та системи боротьби з дронами, а також забезпечити повітряне патрулювання - на тлі посилення атак на судна в Чорному морі. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_09/thumb_files/630_360_1758044303-592.jpg",
+      "title": "Сибіга: Чорне море може стати другою Ормузькою протокою",
+      "url": "https://www.ukrinform.ua/rubric-economy/4175123-sibiga-corne-more-moze-stati-drugou-ormuzkou-protokou.html",
+      "date": "2026-10-16T11:20:00+00:00",
+      "excerpt": "Чорне море може стати аналогом Ормузької протоки за впливом на глобальну продовольчу безпеку через російську блокаду та перешкоджання постачанню української агропродукції. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_09/thumb_files/630_360_1789639157-626.jpg",
       "source": "Укрінформ"
     },
     {
@@ -161,21 +161,21 @@
     },
     {
       "area": "region",
-      "title": "Вінничани повідомили поліцію про нетверезого водія. Драгер показав 2,78 проміле - 20 хвилин",
-      "url": "https://vn.20minut.ua/Kryminal/vinnichani-povidomili-politsiyu-pro-netverezogo-vodiya-drager-pokazav--12010134.html",
-      "date": "2026-10-16T06:02:00+00:00",
-      "excerpt": "[16:10:2026] Вінничани повідомили поліцію про нетверезого водія. Драгер показав 2,78 проміле ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153377-vinnichani-povidomili-politsiyu-pro-netverezogo-vodiya-drager-pokazav-278-promile.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "У Вінницькій громаді 16 жовтня прощаються з військовим Віталієм Овчінниковим",
+      "url": "https://suspilne.media/vinnytsia/1428851-u-vinnickij-gromadi-16-zovtna-prosautsa-z-vijskovim-vitaliem-ovcinnikovim",
+      "date": "2026-10-16T06:02:13+00:00",
+      "excerpt": "У Вінницькій громаді 16 жовтня прощаються з Віталієм Овчінниковим, який приєднався до лав ЗСУ восени 2024 року. Служив старшим солдатом у 80 окремій десантно-штурмовій Галицькій бригаді — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/63/63fdb1a4f14ea857ffec09ca7e3d22051e0cb7007b08ba80c513fb446ca8f712.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Вбивство трьох людей: на Закарпатті оголосили підозру колишньому священнику УПЦ МП",
-      "url": "https://www.ukrinform.ua/rubric-regions/4175089-vbivstvo-troh-ludej-na-zakarpatti-ogolosili-pidozru-kolisnomu-svasenniku-upc-mp.html",
-      "date": "2026-10-16T10:28:00+00:00",
-      "excerpt": "Затриманому після стрілянини у Вишкові на Закарпатті колишньому священнослужителю УПЦ МП повідомили про підозру в убивстві трьох людей і замаху на вбивство ще двох. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792146243-148.jpeg",
-      "source": "Укрінформ"
+      "title": "«Шукаємо варіанти»: Бутенко про підвищення зарплати вчителям",
+      "url": "https://suspilne.media/1429317-sukaemo-varianti-butenko-pro-pidvisenna-zarplati-vcitelam",
+      "date": "2026-10-16T11:18:03+00:00",
+      "excerpt": "З 1 вересня зарплату освітянам підняли на 20% після підвищення на 30% 1 січня і Кабінет міністрів напрацьовує різні варіанти підвищення заробітної плати — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/cb/cbf5d92f822c648b76bdfbbd1d3e4008cfce0e09f805551ba70a201a2a0c5853.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -192,25 +192,25 @@
       "url": "https://zhmerynka-rda.gov.ua/2026/10/14/%D1%86%D1%96%D1%94%D1%97-%D0%BD%D0%BE%D1%87%D1%96-%D0%B2%D0%BD%D0%B0%D1%81%D0%BB%D1%96%D0%B4%D0%BE%D0%BA-%D0%B2%D0%BE%D1%80%D0%BE%D0%B6%D0%BE%D0%B3%D0%BE-%D1%83%D0%B4%D0%B0%D1%80%D1%83-%D1%83-%D0%B6",
       "date": "2026-10-14T11:03:49+00:00",
       "excerpt": "Як повідомила начальниця ОВА Наталя Заболотна, роботу на місці ускладнювали повторні загрози ударів БпЛА та балістики. Через небезпеку рятувальникам доводилося призупиняти ліквідацію наслідків та повертатися до роботи після відбою. Наразі всі осередки пожежі ліквідовані. Загиблих і травмованих немає. До ліквідації насл",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2025/07/003-21-300x122.jpg",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/04/07-1-300x300.jpg",
       "source": "Жмеринська РВА"
     },
     {
       "area": "region",
-      "title": "Вінничанці Євгустині Рябошапці виповнилося 100 років - 20 хвилин",
-      "url": "https://vn.20minut.ua/lyudi/vinnichantsi-evgustini-ryaboshaptsi-vipovnilosya-100-rokiv-12010086.html",
-      "date": "2026-10-15T18:01:00+00:00",
-      "excerpt": "[15:10:2026] Вінничанці Євгустині Рябошапці виповнилося 100 років ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153048-vinnichantsi-evgustini-ryaboshaptsi-vipovnilosya-100-rokiv.jpeg",
+      "title": "Вінничани повідомили поліцію про нетверезого водія. Драгер показав 2,78 проміле - 20 хвилин",
+      "url": "https://vn.20minut.ua/Kryminal/vinnichani-povidomili-politsiyu-pro-netverezogo-vodiya-drager-pokazav--12010134.html",
+      "date": "2026-10-16T06:02:00+00:00",
+      "excerpt": "[16:10:2026] Вінничани повідомили поліцію про нетверезого водія. Драгер показав 2,78 проміле ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153377-vinnichani-povidomili-politsiyu-pro-netverezogo-vodiya-drager-pokazav-278-promile.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Війська РФ ударили по підприємству в Харкові, троє постраждалих",
-      "url": "https://www.ukrinform.ua/rubric-regions/4175088-vijska-rf-udarili-po-pidpriemstvu-v-harkovi-troe-postrazdalih.html",
-      "date": "2026-10-16T10:26:00+00:00",
-      "excerpt": "Унаслідок російського удару по Немишлянському району Харкова постраждали троє жінок. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590638-279.jpeg",
+      "title": "В Україні завтра дощитиме, вдень - до +21°",
+      "url": "https://www.ukrinform.ua/rubric-regions/4175126-v-ukraini-zavtra-dositime-vden-do-21.html",
+      "date": "2026-10-16T11:18:00+00:00",
+      "excerpt": "В Україні в суботу, 17 жовтня, буде хмарно, місцями пройдуть дощі, у низці областей уночі та вранці заляже туман. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1764150175-357.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -224,20 +224,20 @@
     },
     {
       "area": "region",
-      "title": "Вінниця передала військовим 200 FPV-дронів і 20 Matrice - 20 хвилин",
-      "url": "https://vn.20minut.ua/dopomogha-armiyi/vinnitsya-peredala-viyskovim-200-fpv-droniv-i-20-matrice-12010088.html",
-      "date": "2026-10-15T17:03:00+00:00",
-      "excerpt": "[15:10:2026] Вінниця передала військовим 200 FPV-дронів і 20 Matrice ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153058-vinnitsya-peredala-viyskovim-200-fpv-droniv-i-20-matrice.jpeg",
+      "title": "Вінничанці Євгустині Рябошапці виповнилося 100 років - 20 хвилин",
+      "url": "https://vn.20minut.ua/lyudi/vinnichantsi-evgustini-ryaboshaptsi-vipovnilosya-100-rokiv-12010086.html",
+      "date": "2026-10-15T18:01:00+00:00",
+      "excerpt": "[15:10:2026] Вінничанці Євгустині Рябошапці виповнилося 100 років ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153048-vinnichantsi-evgustini-ryaboshaptsi-vipovnilosya-100-rokiv.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Зеленський обговорив з лідерами інституцій ЄС енергетику, ППО та кластери",
-      "url": "https://www.pravda.com.ua/news/2026/10/16/8058325",
-      "date": "2026-10-16T10:24:00+00:00",
-      "excerpt": "Президент Володимир Зеленський розповів про свою зустріч з президентом Європейської ради Антоніу Коштою та главою Єврокомісії Урсулою фон дер Ляєн.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/e/7/936838/e7814db2d8d01fbdf9350972b8e92a4a.jpeg?w=1200&q=85&stamp=1792146395",
+      "title": "Зеленський провів першу зустріч з Мадяром, яка пройшла тет-а-тет",
+      "url": "https://www.pravda.com.ua/news/2026/10/16/8058333",
+      "date": "2026-10-16T11:13:00+00:00",
+      "excerpt": "Володимир Зеленський і Петер Мадяр зустрілися в Брюсселі на саміті ЄС. Переговори тривали 30 хвилин у форматі тет-а-тет.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/3/936895/835b92ce44c6947ff4a39bcbe1200d8e.jpeg?w=1200&q=85&stamp=1792149730",
       "source": "Українська правда"
     },
     {
@@ -251,21 +251,21 @@
     },
     {
       "area": "region",
-      "title": "У Вінниці провели чемпіонат із плавання серед ветеранів війни - 20 хвилин",
-      "url": "https://vn.20minut.ua/Sport/u-vinnitsi-proveli-chempionat-iz-plavannya-sered-veteraniv-viyni-12010089.html",
-      "date": "2026-10-15T16:11:00+00:00",
-      "excerpt": "[15:10:2026] У Вінниці провели чемпіонат із плавання серед ветеранів війни ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153062-u-vinnitsi-proveli-chempionat-iz-plavannya-sered-veteraniv-viyni.jpeg",
+      "title": "Вінниця передала військовим 200 FPV-дронів і 20 Matrice - 20 хвилин",
+      "url": "https://vn.20minut.ua/dopomogha-armiyi/vinnitsya-peredala-viyskovim-200-fpv-droniv-i-20-matrice-12010088.html",
+      "date": "2026-10-15T17:03:00+00:00",
+      "excerpt": "[15:10:2026] Вінниця передала військовим 200 FPV-дронів і 20 Matrice ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153058-vinnitsya-peredala-viyskovim-200-fpv-droniv-i-20-matrice.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Болгарія просить у НАТО \"весь спектр\" систем для протидії дронам через атаки у Чорному морі",
-      "url": "https://www.pravda.com.ua/news/2026/10/16/8058324",
-      "date": "2026-10-16T10:19:00+00:00",
-      "excerpt": "Болгарія звернулася до НАТО із запитом на бойову авіацію, ракетні комплекси та захист від дронів через зростання атак у Чорноморському регіоні.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/3/9/936836/395517ab11c608c5ca1d6f489c4440bf.jpeg?w=1200&q=85&stamp=1792145841",
-      "source": "Українська правда"
+      "title": "Українці зможуть побачити пік метеорного потоку Оріоніди",
+      "url": "https://www.ukrinform.ua/rubric-society/4172699-ukrainci-zmozut-pobaciti-pik-meteornogo-potoku-orionidi.html",
+      "date": "2026-10-16T11:11:00+00:00",
+      "excerpt": "У ніч проти 22 жовтня українці зможуть спостерігати за піком метеорного потоку Оріоніди. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_08/thumb_files/630_360_1754827209-131.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -287,20 +287,20 @@
     },
     {
       "area": "region",
-      "title": "Гроші на вітер? У Вінниці замовили черговий проєкт перебудови бази ДСНС на Арабея - 20 хвилин",
-      "url": "https://vn.20minut.ua/Groshi/milyoni-na-viter-chi-novi-shemi-u-vinnitsi-zamovili-chergoviy-proekt-p-12010130.html",
-      "date": "2026-10-15T15:33:00+00:00",
-      "excerpt": "[15:10:2026] Гроші на вітер? У Вінниці замовили черговий проєкт перебудови бази ДСНС на Арабея ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153346-groshi-na-viter-u-vinnitsi-zamovili-chergoviy-proekt-perebudovi-bazi-dsns-na-arabeya.jpeg",
+      "title": "У Вінниці провели чемпіонат із плавання серед ветеранів війни - 20 хвилин",
+      "url": "https://vn.20minut.ua/Sport/u-vinnitsi-proveli-chempionat-iz-plavannya-sered-veteraniv-viyni-12010089.html",
+      "date": "2026-10-15T16:11:00+00:00",
+      "excerpt": "[15:10:2026] У Вінниці провели чемпіонат із плавання серед ветеранів війни ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153062-u-vinnitsi-proveli-chempionat-iz-plavannya-sered-veteraniv-viyni.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Українським військовим на передовій оновили сухпайки - що входить до набору",
-      "url": "https://www.ukrinform.ua/rubric-society/4175084-ukrainskim-vijskovim-na-peredovij-onovili-suhpajki-so-vhodit-do-naboru.html",
-      "date": "2026-10-16T10:19:00+00:00",
-      "excerpt": "Кабінет міністрів України затвердив зміни до норм добового польового набору продуктів для військовослужбовців, які були розроблені з урахуванням результатів опитування в застосунку “Армія+”. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_04/thumb_files/630_360_1746031575-953.png",
+      "title": "Зеленський і Мадяр проводять зустріч у Брюсселі",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4175113-zelenskij-i-madar-provodat-zustric-u-brusseli.html",
+      "date": "2026-10-16T11:06:00+00:00",
+      "excerpt": "На полях саміту лідерів держав-членів ЄС Президент України Володимир Зеленський проводить зустріч із главою уряду Угорщини Петером Мадяром. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792148821-287.png",
       "source": "Укрінформ"
     },
     {
@@ -314,21 +314,21 @@
     },
     {
       "area": "region",
-      "title": "Планують випустити на волю: як лікується врятована після обстрілу РФ сова",
-      "url": "https://suspilne.media/vinnytsia/1428351-navesni-planuut-vipustiti-na-volu-ak-na-vinniccini-vratovana-pisla-rosijskogo-obstrilu-sova-prohodit-likuvanna",
-      "date": "2026-10-15T15:30:14+00:00",
-      "excerpt": "На Вінниччині після одного з російських обстрілів врятували сіру сову. Птаха знайшли біля місця прильоту та доправили до Центру порятунку та реабілітації екзотичних тварин. Нині сова проходить лікування і поступово відновлюється — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/b3/b3d52d4352e6fb08466db5d239ef86bea20bde374f72dc3af97d0345171d142d.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "Гроші на вітер? У Вінниці замовили черговий проєкт перебудови бази ДСНС на Арабея - 20 хвилин",
+      "url": "https://vn.20minut.ua/Groshi/milyoni-na-viter-chi-novi-shemi-u-vinnitsi-zamovili-chergoviy-proekt-p-12010130.html",
+      "date": "2026-10-15T15:33:00+00:00",
+      "excerpt": "[15:10:2026] Гроші на вітер? У Вінниці замовили черговий проєкт перебудови бази ДСНС на Арабея ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153928-groshi-na-viter-u-vinnitsi-zamovili-chergoviy-proekt-perebudovi-bazi-dsns-na-arabeya.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Бутенко: 42% шкіл в Україні можуть навчати дітей під час тривоги",
-      "url": "https://suspilne.media/1429205-butenko-42-skil-v-ukraini-mozut-navcati-ditej-pid-cas-trivogi",
-      "date": "2026-10-16T10:15:25+00:00",
-      "excerpt": "В Україні 82% учнів шкіл і вихованців дитячих садків забезпечені укриттями, однак лише 42% шкіл мають умови для продовження навчання під час повітряної тривоги, а не просто для перебування дітей в укритті — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/13/13c04b713da66f92c3fbe48971ab655be76b832918397403d7ec9b96810e648e.jpg",
-      "source": "Суспільне"
+      "title": "Дизель подорожчав ще на 84 копійки: які ціни на АЗС 16 жовтня",
+      "url": "https://www.ukrinform.ua/rubric-economy/4175110-dizel-podorozcav-se-na-84-kopijki-aki-cini-na-azs-16-zovtna.html",
+      "date": "2026-10-16T11:03:52+00:00",
+      "excerpt": "У п'ятницю, 16 жовтня, середня ціна на бензин марки А-95 зросла на 3 коп. до 89,72 грн/л, на дизельне пальне - на 84 коп. до 100,43 грн/л. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_05/thumb_files/630_360_1777997101-449.png",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -341,21 +341,21 @@
     },
     {
       "area": "region",
-      "title": "Платіжки за газ змінили з 1 жовтня. Що потрібно знати жителям Вінниччини - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/platizhki-za-gaz-zminili-z-1-zhovtnya-scho-potribno-znati-zhitelyam-vi-12010093.html",
-      "date": "2026-10-15T15:06:00+00:00",
-      "excerpt": "[15:10:2026] Платіжки за газ змінили з 1 жовтня. Що потрібно знати жителям Вінниччини ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/54/4153087-platizhki-za-gaz-zminili-z-1-zhovtnya-scho-potribno-znati-zhitelyam-vinnichchini.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "Планують випустити на волю: як лікується врятована після обстрілу РФ сова",
+      "url": "https://suspilne.media/vinnytsia/1428351-navesni-planuut-vipustiti-na-volu-ak-na-vinniccini-vratovana-pisla-rosijskogo-obstrilu-sova-prohodit-likuvanna",
+      "date": "2026-10-15T15:30:14+00:00",
+      "excerpt": "На Вінниччині після одного з російських обстрілів врятували сіру сову. Птаха знайшли біля місця прильоту та доправили до Центру порятунку та реабілітації екзотичних тварин. Нині сова проходить лікування і поступово відновлюється — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/b3/b3d52d4352e6fb08466db5d239ef86bea20bde374f72dc3af97d0345171d142d.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "ДСНС зможе використовувати свою техніку для оповіщення людей у разі значних блекаутів",
-      "url": "https://www.ukrinform.ua/rubric-society/4175082-dsns-zmoze-vikoristovuvati-svou-tehniku-dla-opovisenna-ludej-u-razi-znacnih-blekautiv.html",
-      "date": "2026-10-16T10:13:00+00:00",
-      "excerpt": "У разі значних блекаутів можуть статися перебої в системах оповіщення населення. У цьому випадку рятувальники зможуть застосовувати свою техніку для оповіщень людей, бо вона оснащена гучномовними сигнальними пристроями. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792143776-596.png",
-      "source": "Укрінформ"
+      "title": "НАБУ і САП завершили слідство у справі Стефанішиної щодо незаконного збагачення",
+      "url": "https://www.pravda.com.ua/news/2026/10/16/8058331",
+      "date": "2026-10-16T11:00:00+00:00",
+      "excerpt": "Антикорупційні органи завершили слідство у справі щодо колишньої віцепрем'єрки – міністерки юстиції Ольги Стефанішиної щодо незаконного збагачення на 13,9 млн грн та недостовірного декларування.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/4/3/936873/43fb142ce1dea1f5512340607a54d724.jpeg?w=1200&q=85&stamp=1792148448",
+      "source": "Українська правда"
     },
     {
       "area": "local",
