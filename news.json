@@ -1,11 +1,38 @@
 {
-  "updated_at": "2026-10-18T17:34:31.844975+00:00",
+  "updated_at": "2026-10-18T18:38:23.870176+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
     "ukraine": 30
   },
   "items": [
+    {
+      "area": "local",
+      "title": "Галина Мельник ділиться секретами обрядової випічки: у Жмеринці відроджують українські традиції – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482955/galina-melnik-dilitsya-sekretami-obryadovoi-vipichki-u-zhmerinci-vidrodzhuyut-ukrainski-tradicii",
+      "date": "2026-10-18T14:26:00+00:00",
+      "excerpt": "Галина Мельник ділиться секретами обрядової випічки: у Жмеринці відроджують українські традиції",
+      "image": "https://im2.abo.media/media/64/article/bb0a79dde8cd42e58ddb439423a51008.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "На Вінниччині внаслідок атаки РФ є влучання в об'єкт критичної інфраструктури",
+      "url": "https://suspilne.media/vinnytsia/1430779-na-vinniccini-vnaslidok-rosijskoi-ataki-e-vlucanna-v-obekt-kriticnoi-infrastrukturi",
+      "date": "2026-10-18T17:53:02+00:00",
+      "excerpt": "У Могилів-Подільській громаді на Вінниччині 18 жовтня зафіксували влучання в об'єкт критичної інфраструктури під час російської повітряної атаки. На місці працюють відповідні служби — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/c4/c49aa6c0c86042485ceeb15f5f0235c63c868065c7bde7f2eec55c4e3c673f27.jpg",
+      "source": "Суспільне Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Офіційні документи",
+      "url": "https://www.ukrinform.ua/block-docs",
+      "date": "2026-10-18T18:37:07+00:00",
+      "excerpt": "",
+      "image": "https://www.ukrinform.ua/img/img_none.jpg",
+      "source": "Укрінформ"
+    },
     {
       "area": "local",
       "title": "У Жмеринці відбувся Кубок з волейболу пам’яті Героя Дмитра Терещенка: за перемогу змагалися педагоги – Жмеринка.City",
@@ -26,12 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Офіційні документи",
-      "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-18T17:33:10+00:00",
-      "excerpt": "",
-      "image": "https://www.ukrinform.ua/img/img_none.jpg",
-      "source": "Укрінформ"
+      "title": "Зеленський пояснив, за яких умов знову балотуватиметься у президенти України",
+      "url": "https://suspilne.media/1430781-zelenskij-poasniv-za-akih-umov-znovu-balotuvatimetsa-u-prezidenti-ukraini",
+      "date": "2026-10-18T18:26:11+00:00",
+      "excerpt": "Президент України Володимир Зеленський заявив, шо готовий брати участь у виборах президента, якщо вони відбуватимуться в умовах воєнного стану — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/45/451ff93c200409ac3d4fa21fbb186e84d76e34afb3eb718e55bfbcf3d20f6d8e.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -53,11 +80,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Представники США відвідали Західний берег Йордану після нападів на європейських посадовців",
-      "url": "https://www.ukrinform.ua/rubric-world/4175700-predstavniki-ssa-vidvidali-zahidnij-bereg-jordanu-pisla-napadiv-na-evropejskih-posadovciv.html",
-      "date": "2026-10-18T17:19:00+00:00",
-      "excerpt": "Американські дипломати відвідали палестинське селище на Західному березі річки Йордан після нападів поселенців на європейських посадовців. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_08/thumb_files/630_360_1755598794-392.jpeg",
+      "title": "Дрони FP-1 Сил оборони уразили у Петербурзі об'єкти нафтової та цифрової інфраструктури",
+      "url": "https://www.ukrinform.ua/rubric-ato/4175713-droni-fp1-sil-oboroni-urazili-u-peterburzi-obekti-naftovoi-ta-cifrovoi-infrastrukturi.html",
+      "date": "2026-10-18T18:24:00+00:00",
+      "excerpt": "Сили оборони України у ніч на 18 жовтня безпілотниками FP-1 уразили у Санкт-Петербурзі кілька об'єктів, зокрема нафтовий термінал, нафтобазу «Ручьи» та дата-центр «ВКонтакте». — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792347562-607.jpg",
       "source": "Укрінформ"
     },
     {
@@ -70,6 +97,15 @@
       "source": "Жмеринська РВА"
     },
     {
+      "area": "local",
+      "title": "Володимир Горлей став лауреатом Всеукраїнської літературної премії імені Василя Юхимовича – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482580/volodimir-gorlej-stav-laureatom-vseukrainskoi-literaturnoi-premii-imeni-vasilya-yuhimovicha",
+      "date": "2026-10-14T20:46:00+00:00",
+      "excerpt": "Володимир Горлей став лауреатом Всеукраїнської літературної премії імені Василя Юхимовича",
+      "image": "https://im2.abo.media/media/64/article/eab17ec3b848460d829b26fd9a19ba0d.webp",
+      "source": "Жмеринка.City"
+    },
+    {
       "area": "region",
       "title": "Нивівці виграли подільське дербі. Вінницькі команди «Брацлав» і «Нива» лідирують у групі - 20 хвилин",
       "url": "https://vn.20minut.ua/Sport/nivivtsi-vigrali-podilske-derbi-vinnitski-komandi-bratslav-i-niva-lidi-12010374.html",
@@ -80,21 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Російські військові вдарили по підприємству на Рівненщині",
-      "url": "https://www.ukrinform.ua/rubric-regions/4175701-rosijski-vijskovi-vdarili-po-pidpriemstvu-na-rivnensini.html",
-      "date": "2026-10-18T16:58:00+00:00",
-      "excerpt": "Російська армія завдала удару по виробничому підприємству на Рівненщині, воно припинило роботу. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_01/thumb_files/630_360_1769278340-327.jpg",
-      "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "Володимир Горлей став лауреатом Всеукраїнської літературної премії імені Василя Юхимовича – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482580/volodimir-gorlej-stav-laureatom-vseukrainskoi-literaturnoi-premii-imeni-vasilya-yuhimovicha",
-      "date": "2026-10-14T20:46:00+00:00",
-      "excerpt": "Володимир Горлей став лауреатом Всеукраїнської літературної премії імені Василя Юхимовича",
-      "image": "https://im2.abo.media/media/64/article/eab17ec3b848460d829b26fd9a19ba0d.webp",
-      "source": "Жмеринка.City"
+      "title": "На військовій базі Канади спалахнула масштабна пожежа - є загиблі",
+      "url": "https://suspilne.media/1430791-na-vijskovij-bazi-kanadi-spalahnula-masstabna-pozeza-e-zagibli",
+      "date": "2026-10-18T18:22:21+00:00",
+      "excerpt": "У канадській провінції Альберта на військовій базі Вейнрайт сталася масштабна пожежа, внаслідок якої загинули та постраждали люди. Вогонь поширився за межі військового об'єкта, обставини інциденту розслідують — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/b7/b77271311f2c4b87892f1aa2ad870ed842cdf4a48b786c97be740b7fa3fa7fa7.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -116,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Битва за Україну. День 1698: Відновлення обміну розвідданими зі США, геополітичні заяви Вашингтона та масований удар по Санкт-Петербургу",
-      "url": "https://www.ukrinform.ua/rubric-ato/4175699-bitva-za-ukrainu-den-1698-vidnovlenna-obminu-rozviddanimi-zi-ssa-geopoliticni-zaavi-vasingtona-ta-masovanij-udar-po-sanktpeterburgu.html",
-      "date": "2026-10-18T16:52:00+00:00",
-      "excerpt": "Вашингтон та Київ відновлюють ключові канали обміну оперативно-розвідувальною інформацією після тимчасового блокування. Росія продовжує системно атакувати цивільну інфраструктуру України. Сили оборони України здійснюють високоточні удари по критичних об'єктах у глибокому тилу РФ — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792342342-249.jpg",
-      "source": "Укрінформ"
+      "title": "Зеленський заявив, що братиме участь у виборах, якщо вони відбудуться до кінця війни",
+      "url": "https://www.pravda.com.ua/news/2026/10/18/8058650",
+      "date": "2026-10-18T18:13:00+00:00",
+      "excerpt": "Володимир Зеленський заявив про участь у виборах президента у разі можливості їх проведення до завершення війни.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/6/5/938576/65db50f2d1ec11aae44e765c83ca2361.jpeg?w=1200&q=85&stamp=1792347554",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -143,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Дрон у небі Литви міг збитися з курсу через російську РЕБ — МЗС України",
-      "url": "https://suspilne.media/1430753-dron-u-nebi-litvi-mig-zbitisa-z-kursu-cerez-rosijsku-reb-mzs-ukraini-pereprosilo-za-incident",
-      "date": "2026-10-18T16:47:36+00:00",
-      "excerpt": "Інцидент із дроном, що залетів у неділю, 18 жовтня, до повітряного простору Литви, ймовірно є наслідком дії російських РЕБ. Україна принесла вибачення і готова надати усю відповідну інформацію для з'ясування обставин події — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/4b/4bff6917d534e5a2551c4e140b47162499282fc1f7710b0c34416e25ee1587d5.jpg",
-      "source": "Суспільне"
+      "title": "В Іспанії внаслідок сильної зливи загинула жінка",
+      "url": "https://www.ukrinform.ua/rubric-world/4175710-v-ispanii-vnaslidok-silnoi-zlivi-zaginula-zinka.html",
+      "date": "2026-10-18T18:05:00+00:00",
+      "excerpt": "Унаслідок сильної зливи в Каталонії у суботу загинула жінка. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_09/thumb_files/630_360_1758042129-113.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -157,6 +184,15 @@
       "date": "2026-10-14T13:02:00+00:00",
       "excerpt": "У Жмеринці четверо дітей тимчасово виховуватимуться у патронатній сім’ї",
       "image": "https://im2.abo.media/media/64/article/4e7132c0ea3f4b5c826bdb81e4635b96.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "У Жмеринці російський дрон поцілив об’єкт залізничної інфраструктури – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482522/u-zhmerinci-rosijskij-dron-pociliv-obyekt-zaliznichnoi-infrastrukturi",
+      "date": "2026-10-14T12:19:00+00:00",
+      "excerpt": "У Жмеринці російський дрон зруйнував об’єкт залізничної інфраструктури",
+      "image": "https://im2.abo.media/media/64/article/bdde06cbf69e46d3a89d6f764173e880.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -170,21 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Через атаку РФ зупинило роботу підприємство у Здолбунівській громаді",
-      "url": "https://suspilne.media/rivne/1430755-cerez-ataku-rf-zupinilo-robotu-virobnice-pidpriemstvo-na-rivnensini",
-      "date": "2026-10-18T16:40:20+00:00",
-      "excerpt": "Російська армія ввечері 18 жовтня атакувала виробниче підприємство на Рівненщині. Начальник ОВА Олександр Коваль повідомив, що об'єкт зазнав ураження та припинив роботу. Поранених немає. — Суспільне Рівне",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/25/259b88d76a2892c2a0db9a68dc27005fa73b246e40215dc97fcf0b5d9bc6ecda.jpg",
-      "source": "Суспільне"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринці російський дрон поцілив об’єкт залізничної інфраструктури – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482522/u-zhmerinci-rosijskij-dron-pociliv-obyekt-zaliznichnoi-infrastrukturi",
-      "date": "2026-10-14T12:19:00+00:00",
-      "excerpt": "У Жмеринці російський дрон зруйнував об’єкт залізничної інфраструктури",
-      "image": "https://im2.abo.media/media/64/article/bdde06cbf69e46d3a89d6f764173e880.webp",
-      "source": "Жмеринка.City"
+      "title": "ФК «Динамо» (Київ) звільнив Ігоря Костюка з посади головного тренера",
+      "url": "https://www.ukrinform.ua/rubric-sports/4175709-dinamo-zvilnilo-igora-kostuka-z-posadi-golovnogo-trenera.html",
+      "date": "2026-10-18T17:59:00+00:00",
+      "excerpt": "Футбольний клуб «Динамо» (Київ) ухвалив рішення про припинення співпраці з головним тренером Ігорем Костюком. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792346422-581.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -192,7 +219,7 @@
       "url": "https://zhmerynka-rda.gov.ua/2026/10/14/%D1%86%D1%96%D1%94%D1%97-%D0%BD%D0%BE%D1%87%D1%96-%D0%B2%D0%BD%D0%B0%D1%81%D0%BB%D1%96%D0%B4%D0%BE%D0%BA-%D0%B2%D0%BE%D1%80%D0%BE%D0%B6%D0%BE%D0%B3%D0%BE-%D1%83%D0%B4%D0%B0%D1%80%D1%83-%D1%83-%D0%B6",
       "date": "2026-10-14T11:03:49+00:00",
       "excerpt": "Як повідомила начальниця ОВА Наталя Заболотна, роботу на місці ускладнювали повторні загрози ударів БпЛА та балістики. Через небезпеку рятувальникам доводилося призупиняти ліквідацію наслідків та повертатися до роботи після відбою. Наразі всі осередки пожежі ліквідовані. Загиблих і травмованих немає. До ліквідації насл",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/05/005-225x300.jpg",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/01/608188166_122319032156012012_2773182032134152423_n-300x283.jpg",
       "source": "Жмеринська РВА"
     },
     {
@@ -206,12 +233,12 @@
     },
     {
       "area": "ukraine",
-      "title": "В Японії розпочався фестиваль українського кіно",
-      "url": "https://suspilne.media/amp/culture/1430719-v-aponii-rozpocavsa-festival-ukrainskogo-kino",
-      "date": "2026-10-18T16:38:31+00:00",
-      "excerpt": "У Токіо розпочався Фестиваль українського кіно, який триватиме до 29 листопада і проходитиме також у Йокогамі, Кіото, Кобе, Осаці, Сендаї та Ураясу — Суспільне Культура",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/b8/b86968ef625a7610a8d4ff5dc296144c144d6c127d94776c645ba222ae2dec8c.jpg",
-      "source": "Суспільне"
+      "title": "Графіки відключення світла в понеділок діятимуть у кількох областях",
+      "url": "https://www.ukrinform.ua/rubric-economy/4175704-grafiki-vidklucenna-svitla-v-ponedilok-diatimut-u-kilkoh-oblastah.html",
+      "date": "2026-10-18T17:41:00+00:00",
+      "excerpt": "У кількох областях України в понеділок, 19 жовтня, з 06:00 до 23:59 буде обмежене споживання електроенергії. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_12/thumb_files/630_360_1765464316-287.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -233,12 +260,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Мексику накрив потужний ураган другої категорії",
-      "url": "https://www.ukrinform.ua/rubric-world/4175696-meksiku-nakriv-potuznij-uragan-drugoi-kategorii.html",
-      "date": "2026-10-18T16:27:00+00:00",
-      "excerpt": "Сьогодні ураган «Труді» приніс потужні зливи та сильний вітер на тихоокеанське узбережжя Мексики. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792340671-625.png",
-      "source": "Укрінформ"
+      "title": "Зеленський: Якщо США офіційно стануть на бік РФ, ми не зможемо вистояти",
+      "url": "https://www.pravda.com.ua/news/2026/10/18/8058646",
+      "date": "2026-10-18T17:28:00+00:00",
+      "excerpt": "Президент України заявив, що без підтримки Сполучених Штатів Україна не зможе вистояти у війні проти Росії.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/6/f/938522/6f6ef577d565de3113ad0e6a7849b13b.jpeg?w=1200&q=85&stamp=1792344703",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -247,6 +274,15 @@
       "date": "2026-10-13T15:09:00+00:00",
       "excerpt": "11 жовтня у Публічній бібліотеці Жмеринської міської громади відбулося відкриття нового етапу навчання в Академії Пана Клякси",
       "image": "https://im2.abo.media/media/64/article/6cd01383338a4304bb38011210439c83.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "У Жмеринській міській раді відбувся тренінг із впровадження плану дій «Жінки, мир, безпека» – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482419/u-zhmerinskij-miskij-radi-vidbuvsya-trening-iz-vprovadzhennya-planu-dij-zhinki-mir-bezpeka",
+      "date": "2026-10-13T12:29:00+00:00",
+      "excerpt": "У Жмеринській міській раді відбувся тренінг із впровадження плану дій «Жінки, мир, безпека»",
+      "image": "https://im2.abo.media/media/64/article/7c4d833aae804b528085b6e360c03531.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -260,21 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Литва назвала спробу підпалу станції Starlink диверсією з метою впливу на Україну",
-      "url": "https://www.pravda.com.ua/news/2026/10/18/8058641",
-      "date": "2026-10-18T16:20:00+00:00",
-      "excerpt": "У Литві розслідують спробу підпалу станції Starlink. Влада вважає це диверсією, пов’язаною з Російською Федерацією, для підриву оборони України.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/6/6/938491/66dfee2066d690bbd12c0e30f1f37a55.jpeg?w=1200&q=85&stamp=1792340665",
-      "source": "Українська правда"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринській міській раді відбувся тренінг із впровадження плану дій «Жінки, мир, безпека» – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482419/u-zhmerinskij-miskij-radi-vidbuvsya-trening-iz-vprovadzhennya-planu-dij-zhinki-mir-bezpeka",
-      "date": "2026-10-13T12:29:00+00:00",
-      "excerpt": "У Жмеринській міській раді відбувся тренінг із впровадження плану дій «Жінки, мир, безпека»",
-      "image": "https://im2.abo.media/media/64/article/7c4d833aae804b528085b6e360c03531.webp",
-      "source": "Жмеринка.City"
+      "title": "Представники США відвідали Західний берег Йордану після нападів на європейських посадовців",
+      "url": "https://www.ukrinform.ua/rubric-world/4175700-predstavniki-ssa-vidvidali-zahidnij-bereg-jordanu-pisla-napadiv-na-evropejskih-posadovciv.html",
+      "date": "2026-10-18T17:19:00+00:00",
+      "excerpt": "Американські дипломати відвідали палестинське селище на Західному березі річки Йордан після нападів поселенців на європейських посадовців. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_08/thumb_files/630_360_1755598794-392.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -296,11 +323,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Війська РФ за день понад 20 разів обстріляли Дніпропетровщину, є поранена",
-      "url": "https://www.ukrinform.ua/rubric-regions/4175694-vijska-rf-za-den-ponad-20-raziv-obstrilali-dnipropetrovsinu-e-poranena.html",
-      "date": "2026-10-18T16:05:00+00:00",
-      "excerpt": "Протягом дня 18 жовтня російська армія понад 20 разів завдавала ударів по чотирьох районах Дніпропетровщини безпілотниками, артилерією та авіабомбою, одна людина поранена. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792339442-101.jpg",
+      "title": "Російські військові вдарили по підприємству на Рівненщині",
+      "url": "https://www.ukrinform.ua/rubric-regions/4175701-rosijski-vijskovi-vdarili-po-pidpriemstvu-na-rivnensini.html",
+      "date": "2026-10-18T16:58:00+00:00",
+      "excerpt": "Російська армія завдала удару по виробничому підприємству на Рівненщині, воно припинило роботу. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_01/thumb_files/630_360_1769278340-327.jpg",
       "source": "Укрінформ"
     },
     {
@@ -323,11 +350,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський анонсував зустрічі в Європі для посилення протиповітряної оборони України",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4175693-zelenskij-anonsuvav-zustrici-v-evropi-dla-posilenna-protipovitranoi-oboroni-ukraini.html",
-      "date": "2026-10-18T15:59:00+00:00",
-      "excerpt": "Посилення протиповітряної оборони є першим пріоритетом у співпраці України з партнерами, а наступного тижня заплановані зустрічі в Європі, які мають допомогти суттєво посилити захист країни. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1790880305-676.jpeg",
+      "title": "Битва за Україну. День 1698: Відновлення обміну розвідданими зі США, геополітичні заяви Вашингтона та масований удар по Санкт-Петербургу",
+      "url": "https://www.ukrinform.ua/rubric-ato/4175699-bitva-za-ukrainu-den-1698-vidnovlenna-obminu-rozviddanimi-zi-ssa-geopoliticni-zaavi-vasingtona-ta-masovanij-udar-po-sanktpeterburgu.html",
+      "date": "2026-10-18T16:52:00+00:00",
+      "excerpt": "Вашингтон та Київ відновлюють ключові канали обміну оперативно-розвідувальною інформацією після тимчасового блокування. Росія продовжує системно атакувати цивільну інфраструктуру України. Сили оборони України здійснюють високоточні удари по критичних об'єктах у глибокому тилу РФ — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792342342-249.jpg",
       "source": "Укрінформ"
     },
     {
@@ -337,33 +364,6 @@
       "date": "2026-10-09T20:18:00+00:00",
       "excerpt": "У Жмеринці стартували депутатські комісії: які питання готують до 80-ї сесії міської ради 15 жовтня",
       "image": "https://im2.abo.media/media/64/article/d4f29d83bbed43c3abc9b11323441262.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "Торгівля людьми на Вінниччині: хто в групі ризику та куди звертатися по допомогу",
-      "url": "https://suspilne.media/vinnytsia/1428155-torgivla-ludmi-na-vinniccini-hto-v-grupi-riziku-ak-ne-potrapiti-v-ekspluataciu-ta-kudi-zvertatisa-po-dopomogu",
-      "date": "2026-10-18T12:32:00+00:00",
-      "excerpt": "Які форми торгівлі людьми існують, хто ризикує потрапити в експлуатацію та куди звертатися по допомогу на Вінниччині. Поради експертки та заходи у Вінниці — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/ca/ca2df9f1ac88db2c74c1e72df6ef969566dd8e623e1bc0da758c2cdd63e8d024.jpg",
-      "source": "Суспільне Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "«Фронт міцний»: Зеленський заслухав доповідь Драпатого",
-      "url": "https://suspilne.media/1430711-front-micnij-zelenskij-zasluhav-dopovid-drapatogo",
-      "date": "2026-10-18T15:58:55+00:00",
-      "excerpt": "Президент Володимир Зеленський заслухав доповідь Головнокомандувача Збройних Сил України Михайла Драпатого та розповів про результати Сил оборони на фронті — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/78/782cde3f90baf5bc46c42d33f8673aa684be8c6dc83077246298da7a769d3d43.jpg",
-      "source": "Суспільне"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринці заблокували анонімний Telegram-канал: питання кібербулінгу дійшло до Верховної Ради – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482005/-u-zhmerinci-zablokuvali-anonimnij-telegram-kanal-pitannya-kiberbulingu-dijshlo-do-verhovnoi-radi",
-      "date": "2026-10-09T11:35:00+00:00",
-      "excerpt": "У Жмеринці заблокували анонімний Telegram-канал: питання кібербулінгу дійшло до Верховної Ради",
-      "image": "https://im2.abo.media/media/64/article/781830801dc54fb5a30a8abe497e43de.webp",
       "source": "Жмеринка.City"
     }
   ]
