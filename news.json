@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T14:34:35.233461+00:00",
+  "updated_at": "2026-10-18T15:34:35.627300+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-18T14:33:11+00:00",
+      "date": "2026-10-18T15:33:25+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,12 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Інцидент на Дністрі: Молдова повернула Україні затриманих прикордонників",
-      "url": "https://www.pravda.com.ua/news/2026/10/18/8058629",
-      "date": "2026-10-18T14:28:00+00:00",
-      "excerpt": "Молдова повернула українських прикордонників, яких затримали 15 жовтня при спробі \"виловити\" з Дністра на Вінниччині чоловіка, який намагався незаконно перетнути кордон.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/8/938421/a876a03c7652f1166d674c139b453d23.jpeg?w=1200&q=85&stamp=1792333612",
-      "source": "Українська правда"
+      "title": "На Харківщині через удар БПЛА по автомобілю постраждали двоє людей",
+      "url": "https://www.ukrinform.ua/rubric-regions/4175689-na-harkivsini-cerez-udar-bpla-po-avtomobilu-postrazdali-dvoe-ludej.html",
+      "date": "2026-10-18T15:32:00+00:00",
+      "excerpt": "У селищі Старий Салтів Харківської області внаслідок удару російського безпілотника постраждали двоє людей. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792337335-156.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -66,7 +66,7 @@
       "url": "https://zhmerynka-rda.gov.ua/2026/10/15/2-%D1%88%D0%BA%D1%96%D0%BB%D1%8C%D0%BD%D1%96-%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D0%B8-%D1%82%D0%B0-4-%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B4",
       "date": "2026-10-15T13:27:12+00:00",
       "excerpt": "Автобуси забезпечуватимуть довезення учнів до Плебанівського ліцею та Шаргородського ліцею № 2. Шкільний транспорт придбали за співфінансування держави та громади. Наразі актуальну потребу громади у автобусах повністю закрито. Генератори потужністю 6,5 кВт отримали Носиківська, Гибалівська, Івашковецька та Лозівська гі",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2025/07/001-16-300x203.jpg",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/10/012-1-240x300.jpg",
       "source": "Жмеринська РВА"
     },
     {
@@ -80,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Затриманих у Молдові українських прикордонників повернули додому - ДПСУ",
-      "url": "https://suspilne.media/1430683-zatrimanih-u-moldovi-ukrainskih-prikordonnikiv-povernuli-dodomu-dpsu",
-      "date": "2026-10-18T14:26:06+00:00",
-      "excerpt": "Двох українських прикордонників, які 15 жовтня опинилися на території Молдови під час переслідування порушника кордону, повернули в Україну. Про це повідомив речник Державної прикордонної служби Андрій Демченко — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/c5/c5e453897c4298ad4f393bbb3b3b7609e8d47f56d592c96edcda3080bc66f65d.jpg",
-      "source": "Суспільне"
+      "title": "Наші воїни звільнили більше території з початку осені, ніж росіянам вдалося захопити - Зеленський",
+      "url": "https://www.ukrinform.ua/rubric-ato/4175688-nasi-voini-zvilnili-bilse-teritorii-z-pocatku-oseni-niz-rosianam-vdalosa-zahopiti-zelenskij.html",
+      "date": "2026-10-18T15:26:00+00:00",
+      "excerpt": "Сили оборони України з початку осені звільнили більше території, ніж росіянам вдалося захопити. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1774526255-718.png",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -116,12 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "В Одесі ліквідували пожежу в багатоповерхівці після атаки РФ",
-      "url": "https://www.ukrinform.ua/rubric-regions/4175671-v-odesi-likviduvali-pozezu-v-bagatopoverhivci-pisla-ataki-rf.html",
-      "date": "2026-10-18T14:15:28+00:00",
-      "excerpt": "Працівники Державної служби з надзвичайних ситуацій ліквідували пожежу в багатоповерхівці в Одесі, яка виникла внаслідок російської атаки. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792332699-483.jpeg",
-      "source": "Укрінформ"
+      "title": "Зеленський провів переговори з Віткоффом і Кушнером: про що домовлялися",
+      "url": "https://suspilne.media/1430705-zelenskij-proviv-peregovori-z-vitkoffom-i-kusnerom-pro-so-domovlalisa",
+      "date": "2026-10-18T15:15:15+00:00",
+      "excerpt": "Президент України Володимир Зеленський провів розмову зі спецпредставником президента США Стівом Віткоффом та Джаредом Кушнером. Сторони обговорили результати переговорів української та американської делегацій у Флориді — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/8d/8d79fdc35461c5002ba4e2a9529031ec44105b46d92122cf87f4c98cbaf578d4.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -143,11 +143,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Малокатеринівка у Запорізькій області перебуває під контролем ЗСУ - ЦПД",
-      "url": "https://www.ukrinform.ua/rubric-ato/4175672-malokaterinivka-u-zaporizkij-oblasti-perebuvae-pid-kontrolem-zsu-cpd.html",
-      "date": "2026-10-18T14:13:00+00:00",
-      "excerpt": "Селище Малокатеринівка Запорізької області перебуває під контролем Збройних сил України. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1761570947-578.jpg",
+      "title": "В Італії під час масових протестів сталися сутички з поліцією",
+      "url": "https://www.ukrinform.ua/rubric-world/4175670-v-italii-pid-cas-masovih-protestiv-stalisa-suticki-z-policieu.html",
+      "date": "2026-10-18T15:11:00+00:00",
+      "excerpt": "В Італії у суботу масові протести проти зростання вартості життя, підвищення цін на пальне та податкового тиску переросли у сутички з поліцією. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792333081-661.jpg",
       "source": "Укрінформ"
     },
     {
@@ -170,11 +170,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Киянка з маленькою донькою переїхала в село, щоб пережити зиму (відео)",
-      "url": "https://suspilne.media/1430673-kianka-z-malenkou-donkou-pereihala-v-selo-sob-pereziti-zimu-ak-rodina-gotuetsa-do-holodiv-video",
-      "date": "2026-10-18T14:08:53+00:00",
-      "excerpt": "Киянка Оксана Зінковська-Боярська разом із маленькою донькою переїхала на Черкащину, щоб перезимувати в приватному будинку. Родина облаштовує нове житло, де є альтернативні джерела опалення та власна криниця — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/e7/e7b0da2cd33ee48f06257f14d85d6ad07690ac218c6da292f1f235484836e332.jpg",
+      "title": "Мексику накрив потужний ураган другої категорії: що відомо про наслідки стихії",
+      "url": "https://suspilne.media/1430701-meksiku-nakriv-potuznij-uragan-drugoi-kategorii-so-vidomo-pro-naslidki-stihii",
+      "date": "2026-10-18T15:04:23+00:00",
+      "excerpt": "У неділю, 18 жовтня, на тихоокеанське узбережжя Мексики обрушився ураган Труді другої категорії зі швидкістю вітру до 170 км/год. Синоптики попереджають про сильні зливи, раптові повені та зсуви ґрунту — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/ac/ac3652f3ec8c33e207ff4150c7474b9a32d7d952731cb7470661b333a7afc76c.jpg",
       "source": "Суспільне"
     },
     {
@@ -206,11 +206,11 @@
     },
     {
       "area": "ukraine",
-      "title": "МЗС: Інцидент із дроном у Литві, імовірно, стався через російську РЕБ",
-      "url": "https://www.pravda.com.ua/news/2026/10/18/8058627",
-      "date": "2026-10-18T14:06:00+00:00",
-      "excerpt": "МЗС України заявило, що дрон у Литві 18 жовтня міг відхилитись через російську радіоелектронну боротьбу. Україна готова надати інформацію Литві.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/d/938419/5d8dc20f09a62020fcc9e792fd638862.jpeg?w=1200&q=85&stamp=1792332421",
+      "title": "Зеленський поговорив із представниками Трампа",
+      "url": "https://www.pravda.com.ua/news/2026/10/18/8058636",
+      "date": "2026-10-18T14:58:00+00:00",
+      "excerpt": "Президент Володимир Зеленський провів розмову зі Стівом Віткоффом і Джаредом Кушнером щодо результатів зустрічі у Флориді та подальших дипломатичних кроків.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/2/e/938453/2e40ae2a4a36ebde33254e111a961a0c.jpeg?w=1200&q=85&stamp=1792335632",
       "source": "Українська правда"
     },
     {
@@ -233,11 +233,11 @@
     },
     {
       "area": "ukraine",
-      "title": "США відновили обмін розвідданими з Україною - Зеленський",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4175664-ssa-vidnovili-obmin-rozviddanimi-z-ukrainou-zelenskij.html",
-      "date": "2026-10-18T13:51:00+00:00",
-      "excerpt": "Президент Володимир Зеленський заявив, що США відновили обмін розвідувальними даними з Україною після блокування протягом певного періоду часу. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1773933311-402.jpeg",
+      "title": "Війська РФ знову атакували критичну інфраструктуру на Вінниччині",
+      "url": "https://www.ukrinform.ua/rubric-regions/4175681-vijska-rf-znovu-atakuvali-kriticnu-infrastrukturu-na-vinniccini.html",
+      "date": "2026-10-18T14:54:00+00:00",
+      "excerpt": "Війська РФ знову атакували критичну інфраструктуру на Вінниччині, жителів області закликали зменшити споживання електроенергії. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_05/thumb_files/630_360_1716022077-259.jpg",
       "source": "Укрінформ"
     },
     {
@@ -260,12 +260,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Прем'єр Албанії заявив про загрозу євроінтеграції країни через масові протести",
-      "url": "https://www.ukrinform.ua/rubric-world/4175663-premer-albanii-zaaviv-pro-zagrozu-evrointegracii-kraini-cerez-masovi-protesti.html",
-      "date": "2026-10-18T13:49:00+00:00",
-      "excerpt": "Прем'єр-міністр Албанії Еді Рама заявив, що масштабніші вуличні протести становлять загрозу прогресу країни на шляху євроінтеграції, а не його уряду. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2020_01/thumb_files/630_360_1579532574-261.jpg",
-      "source": "Укрінформ"
+      "title": "Зеленський повідомив, що США відновили обмін розвідданими: Зараз усе працює",
+      "url": "https://www.pravda.com.ua/news/2026/10/18/8058606",
+      "date": "2026-10-18T14:53:00+00:00",
+      "excerpt": "Володимир Зеленський повідомив про відновлення обміну розвідданими між США та Україною після перерви. Обговорення тривають цього тижня.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/b/a/938358/bae955abac2067f290f9f4e49623a06d.jpeg?w=1200&q=85&stamp=1792323339",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -296,12 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Повені у Туреччині: кількість загиблих зросла до шести, тривають пошуки зниклих безвісти",
-      "url": "https://www.ukrinform.ua/rubric-world/4175661-poveni-u-tureccini-kilkist-zagiblih-zrosla-do-sesti-trivaut-posuki-zniklih-bezvisti.html",
-      "date": "2026-10-18T13:39:00+00:00",
-      "excerpt": "У Туреччині кількість загиблих унаслідок повеней у Стамбулі та у сусідній провінції Коджаелі зросла до шести. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792069285-955.jpg",
-      "source": "Укрінформ"
+      "title": "В Еквадорі священник загинув через падіння хреста під час меси",
+      "url": "https://suspilne.media/1430675-v-ekvadori-svasennik-zaginuv-cerez-padinna-hresta-pid-cas-mesi",
+      "date": "2026-10-18T14:50:40+00:00",
+      "excerpt": "В Еквадорі під час церковної служби загинув священник — на нього впав великий хрест, який відірвався від стіни у вівтарній частині храму — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/09/09b1f3d937dd1fbd389cab91924afdc27e1724b564c0cdc0f77716c87495637d.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -323,11 +323,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У Росії скаржаться на збої в роботі \"ВКонтакте\" після української атаки",
-      "url": "https://www.pravda.com.ua/news/2026/10/18/8058619",
-      "date": "2026-10-18T13:34:00+00:00",
-      "excerpt": "Після удару дронами по дата-центру VK користувачі \"ВКонтакте\" та \"VK Музика\" скаржаться на неполадки із сервісами й завантаженням стрічки.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/2/938400/a2cf0b539de2ea5785f19e89dd3aaec3.jpeg?w=1200&q=85&stamp=1792330309",
+      "title": "Зеленський про обмеження роботи Starlink для України: Повідомлення надійшло від уряду",
+      "url": "https://www.pravda.com.ua/news/2026/10/18/8058633",
+      "date": "2026-10-18T14:48:00+00:00",
+      "excerpt": "Президент Зеленський заявив, що сигнал про обмеження Starlink Україна отримала від уряду США. Повна робота системи не відновлена.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/3/a/938441/3aff5146c324db9528926ea6ff27f883.jpeg?w=1200&q=85&stamp=1792335024",
       "source": "Українська правда"
     },
     {
@@ -350,11 +350,11 @@
     },
     {
       "area": "ukraine",
-      "title": "В Індії через тисняву під час свята загинули 17 людей",
-      "url": "https://www.ukrinform.ua/rubric-world/4175659-v-indii-cerez-tisnavu-pid-cas-svata-zaginuli-17-ludej.html",
-      "date": "2026-10-18T13:27:00+00:00",
-      "excerpt": "Щонайменше 17 людей загинули, ще десятки зазнали поранень унаслідок тисняви під час святкування індуїстського свята Дурга-пуджа в індійському місті Колката. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792329881-575.jpg",
+      "title": "Інцидент із дроном у Литві, імовірно, стався через російські засоби РЕБ - МЗС України",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4175679-incident-iz-dronom-u-litvi-imovirno-stavsa-cerez-rosijski-zasobi-reb-mzs-ukraini.html",
+      "date": "2026-10-18T14:43:00+00:00",
+      "excerpt": "Речник Міністерства закордонних справ України Георгій Тихий заявив, що інцидент з дроном у повітряному просторі Литви, ймовірно, є наслідком застосування Росією засобів радіоелектронної боротьби. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_02/thumb_files/630_360_1707132883-117.jpg",
       "source": "Укрінформ"
     },
     {
