@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T10:35:52.079659+00:00",
+  "updated_at": "2026-10-18T11:34:33.430802+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -17,18 +17,18 @@
     },
     {
       "area": "region",
-      "title": "Перший рівень небезпеки. На Вінниччину суне штормовий циклон - 20 хвилин",
-      "url": "https://vn.20minut.ua/Pogoda/pershiy-riven-nebezpeki-na-vinnichchinu-sune-shtormoviy-tsiklon-12010360.html",
-      "date": "2026-10-18T10:10:00+00:00",
-      "excerpt": "[18:10:2026] Перший рівень небезпеки. На Вінниччину суне штормовий циклон ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/56/4155364-pershiy-riven-nebezpeki-na-vinnichchinu-sune-shtormoviy-tsiklon.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "Гра без забитих голів: вінницький «Брацлав» зіграв унічию з «Вільхівцями»",
+      "url": "https://suspilne.media/vinnytsia/1430555-gra-bez-zabitih-goliv-vinnickij-braclav-zigrav-uniciu-z-vilhivcami-u-futbolnomu-matci-ukraini",
+      "date": "2026-10-18T11:07:47+00:00",
+      "excerpt": "18 жовтня на стадіоні «Колос» у селищі Ставище на Київщині вінницький ФК «Брацлав» приймав гостей — закарпатські «Вільхівці». Команди зіграли внічию — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/ba/ba1d2d0a7b33afd248a93645e786a0b06a7d9ca90fd4caec32ca2609ff69fe28.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-18T10:34:31+00:00",
+      "date": "2026-10-18T11:33:14+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -44,6 +44,33 @@
     },
     {
       "area": "region",
+      "title": "Перший рівень небезпеки. На Вінниччину суне штормовий циклон - 20 хвилин",
+      "url": "https://vn.20minut.ua/Pogoda/pershiy-riven-nebezpeki-na-vinnichchinu-sune-shtormoviy-tsiklon-12010360.html",
+      "date": "2026-10-18T10:10:00+00:00",
+      "excerpt": "[18:10:2026] Перший рівень небезпеки. На Вінниччину суне штормовий циклон ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/56/4155364-pershiy-riven-nebezpeki-na-vinnichchinu-sune-shtormoviy-tsiklon.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Завтра в Україні дощитиме, вдень - до +18°",
+      "url": "https://www.ukrinform.ua/rubric-regions/4175640-zavtra-v-ukraini-dositime-vden-do-18.html",
+      "date": "2026-10-18T11:32:00+00:00",
+      "excerpt": "У понеділок, 19 жовтня, в Україні збережеться хмарна й дощова погода. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_12/thumb_files/630_360_1766411368-580.png",
+      "source": "Укрінформ"
+    },
+    {
+      "area": "local",
+      "title": "2 шкільні автобуси та 4 генератори передали для закладів освіти Шаргородської громади",
+      "url": "https://zhmerynka-rda.gov.ua/2026/10/15/2-%D1%88%D0%BA%D1%96%D0%BB%D1%8C%D0%BD%D1%96-%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D0%B8-%D1%82%D0%B0-4-%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B4",
+      "date": "2026-10-15T13:27:12+00:00",
+      "excerpt": "Автобуси забезпечуватимуть довезення учнів до Плебанівського ліцею та Шаргородського ліцею № 2. Шкільний транспорт придбали за співфінансування держави та громади. Наразі актуальну потребу громади у автобусах повністю закрито. Генератори потужністю 6,5 кВт отримали Носиківська, Гибалівська, Івашковецька та Лозівська гі",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/05/04-5-300x200.jpg",
+      "source": "Жмеринська РВА"
+    },
+    {
+      "area": "region",
       "title": "У Калинівці відкрили майданчик для гри в петанк, де відбувся ветеранський турнір",
       "url": "https://suspilne.media/vinnytsia/1430503-u-kalinivci-na-vinniccini-vidkrili-majdancik-dla-gri-v-petank-de-vidbuvsa-veteranskij-turnir",
       "date": "2026-10-18T09:53:18+00:00",
@@ -53,38 +80,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Військові показали кадри збиття реактивних дронів у повітряному просторі Румунії",
-      "url": "https://suspilne.media/1430549-vijskovi-pokazali-kadri-zbitta-reaktivnih-droniv-u-povitranomu-prostori-rumunii",
-      "date": "2026-10-18T10:23:32+00:00",
-      "excerpt": "Міністерство оборони Румунії показало кадри збиття двох реактивних дронів, які порушили національний повітряний простір увечері в суботу, 17 жовтня — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/3b/3bdaefd52ed8387c724a8c693f70e75a0697192ba0a4527a979bb430b72443f0.jpg",
-      "source": "Суспільне"
-    },
-    {
-      "area": "local",
-      "title": "2 шкільні автобуси та 4 генератори передали для закладів освіти Шаргородської громади",
-      "url": "https://zhmerynka-rda.gov.ua/2026/10/15/2-%D1%88%D0%BA%D1%96%D0%BB%D1%8C%D0%BD%D1%96-%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D0%B8-%D1%82%D0%B0-4-%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B4",
-      "date": "2026-10-15T13:27:12+00:00",
-      "excerpt": "Автобуси забезпечуватимуть довезення учнів до Плебанівського ліцею та Шаргородського ліцею № 2. Шкільний транспорт придбали за співфінансування держави та громади. Наразі актуальну потребу громади у автобусах повністю закрито. Генератори потужністю 6,5 кВт отримали Носиківська, Гибалівська, Івашковецька та Лозівська гі",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2025/11/5-1-300x200.jpeg",
-      "source": "Жмеринська РВА"
-    },
-    {
-      "area": "region",
-      "title": "Громадський транспорт Вінниці працює за графіком вихідного дня - 20 хвилин",
-      "url": "https://vn.20minut.ua/DTP/gromadskiy-transport-vinnitsi-pratsyue-za-grafikom-vihidnogo-dnya-12010335.html",
-      "date": "2026-10-18T09:01:00+00:00",
-      "excerpt": "[18:10:2026] Громадський транспорт Вінниці працює за графіком вихідного дня ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/56/4155212-gromadskiy-transport-vinnitsi-pratsyue-za-grafikom-vihidnogo-dnya.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "На Рівненщині рятувальники ліквідували всі пожежі після російської атаки",
-      "url": "https://www.ukrinform.ua/rubric-regions/4175621-na-rivnensini-ratuvalniki-likviduvali-vsi-pozezi-pisla-rosijskoi-ataki.html",
-      "date": "2026-10-18T10:20:00+00:00",
-      "excerpt": "У Рівненській області рятувальники ліквідували всі пожежі після масованої російської атаки. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792318686-751.jpg",
+      "title": "Кабмін утворив комісію для продажу «Сенс Банку» і «Укргазбанку» - Корецький",
+      "url": "https://www.ukrinform.ua/rubric-economy/4175639-kabmin-utvoriv-komisiu-dla-prodazu-sens-banku-i-ukrgazbanku-koreckij.html",
+      "date": "2026-10-18T11:30:00+00:00",
+      "excerpt": "Кабінет Міністрів України утворив комісію з продажу державних пакетів акцій “Сенс Банку” та “Укргазбанку”. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_09/thumb_files/630_360_1789373414-969.jpg",
       "source": "Укрінформ"
     },
     {
@@ -107,20 +107,20 @@
     },
     {
       "area": "region",
-      "title": "Вода повернулася у Вінницю, але містян просять подбати про запаси - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/voda-povernulasya-u-vinnitsyu-ale-mistyan-prosyat-podbati-pro-zapasi-12010334.html",
-      "date": "2026-10-18T08:02:00+00:00",
-      "excerpt": "[18:10:2026] Вода повернулася у Вінницю, але містян просять подбати про запаси ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/56/4155207-voda-povernulasya-u-vinnitsyu-ale-mistyan-prosyat-podbati-pro-zapasi.jpeg",
+      "title": "Громадський транспорт Вінниці працює за графіком вихідного дня - 20 хвилин",
+      "url": "https://vn.20minut.ua/DTP/gromadskiy-transport-vinnitsi-pratsyue-za-grafikom-vihidnogo-dnya-12010335.html",
+      "date": "2026-10-18T09:01:00+00:00",
+      "excerpt": "[18:10:2026] Громадський транспорт Вінниці працює за графіком вихідного дня ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/56/4155212-gromadskiy-transport-vinnitsi-pratsyue-za-grafikom-vihidnogo-dnya.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "У Саудівській Аравії розбився розвідувальний гелікоптер, є загиблі",
-      "url": "https://www.ukrinform.ua/rubric-world/4175619-u-saudivskij-aravii-rozbivsa-rozviduvalnij-gelikopter-e-zagibli.html",
-      "date": "2026-10-18T10:18:00+00:00",
-      "excerpt": "Розвідувальний гелікоптер AH-6i зазнав аварії в регіоні Наджран у Саудівській Аравії через технічну несправність, унаслідок чого загинули двоє членів екіпажу. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792317987-819.png",
+      "title": "Папа Римський зустрівся з паломниками після повернення з лікарні",
+      "url": "https://www.ukrinform.ua/rubric-society/4175638-papa-rimskij-zustrivsa-z-palomnikami-pisla-povernenna-z-likarni.html",
+      "date": "2026-10-18T11:21:26+00:00",
+      "excerpt": "Папа Римський Лев XIV у неділю зустрівся з паломниками після повернення з лікарні. Він висловив вдячність вірянам за молитовну підтримку, а також подякував персоналу лікарні Джемеллі. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_02/thumb_files/630_360_1770205563-414.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -134,21 +134,21 @@
     },
     {
       "area": "region",
-      "title": "Полеглі герої із Вінниччини: за тиждень стало відомо про загибель 18 оборонців",
-      "url": "https://suspilne.media/vinnytsia/1429393-polegli-geroi-iz-vinniccini-za-tizden-stalo-vidomo-pro-zagibel-18-oboronciv",
-      "date": "2026-10-18T07:30:00+00:00",
-      "excerpt": "Від 12 по 18 жовтня 2026 року Суспільному стало відомо про загибель 18 військовослужбовців із Вінницької області. Список, біографії та інформація про оборонців, які загинули на фронті — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/f0/f0218e5f0dfd33606de7fea3e9cc3bdf6361b3a3e937e0a685f0fdfce22b6523.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "Вода повернулася у Вінницю, але містян просять подбати про запаси - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/voda-povernulasya-u-vinnitsyu-ale-mistyan-prosyat-podbati-pro-zapasi-12010334.html",
+      "date": "2026-10-18T08:02:00+00:00",
+      "excerpt": "[18:10:2026] Вода повернулася у Вінницю, але містян просять подбати про запаси ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/56/4155207-voda-povernulasya-u-vinnitsyu-ale-mistyan-prosyat-podbati-pro-zapasi.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "За добу на фронті відбулося 250 боєзіткнень — Генштаб ЗСУ",
-      "url": "https://suspilne.media/1430375-za-dobu-na-fronti-vidbulosa-250-boezitknen-armia-rf-vtratila-2090-soldativ-genstab-zsu",
-      "date": "2026-10-18T10:06:19+00:00",
-      "excerpt": "За минулу добу ракетні війська та артилерія Сил оборони уразили два райони скупчення «живої сили» та 2 пункти управління БпЛА окупантів. Загалом за добу армія РФ втратила 2090 солдатів — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/22/22da960d482cbc2e31adbb45550b70eb8fd27e9240590db47b029c0079b0d9ce.jpg",
-      "source": "Суспільне"
+      "title": "На фронті загинув відеооператор із Полтави Василь Величко",
+      "url": "https://www.ukrinform.ua/rubric-ato/4175634-na-fronti-zaginuv-videooperator-iz-poltavi-vasil-velicko.html",
+      "date": "2026-10-18T11:07:00+00:00",
+      "excerpt": "На війні під час виконання обов’язку із захисту України загинув відеооператор полтавських телеканалів Василь Величко. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792321562-383.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -161,20 +161,20 @@
     },
     {
       "area": "region",
-      "title": "Вінниця прощається з 57-річним офіцером Віктором Кочубейником - 20 хвилин",
-      "url": "https://vn.20minut.ua/lyudi/vinnitsya-proschaetsya-z-57-richnim-ofitserom-viktorom-kochubeynikom-12010323.html",
-      "date": "2026-10-18T07:00:00+00:00",
-      "excerpt": "[18:10:2026] Вінниця прощається з 57-річним офіцером Віктором Кочубейником ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/56/4155156-vinnitsya-proschaetsya-z-57-richnim-ofitserom-viktorom-kochubeynikom.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "Полеглі герої із Вінниччини: за тиждень стало відомо про загибель 18 оборонців",
+      "url": "https://suspilne.media/vinnytsia/1429393-polegli-geroi-iz-vinniccini-za-tizden-stalo-vidomo-pro-zagibel-18-oboronciv",
+      "date": "2026-10-18T07:30:00+00:00",
+      "excerpt": "Від 12 по 18 жовтня 2026 року Суспільному стало відомо про загибель 18 військовослужбовців із Вінницької області. Список, біографії та інформація про оборонців, які загинули на фронті — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/f0/f0218e5f0dfd33606de7fea3e9cc3bdf6361b3a3e937e0a685f0fdfce22b6523.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "РФ влучила по багатоповерхівці в Одесі: спалахнула пожежа, постраждала дитина",
-      "url": "https://www.pravda.com.ua/news/2026/10/18/8058597",
-      "date": "2026-10-18T10:03:00+00:00",
-      "excerpt": "Після ворожого обстрілу в Одесі постраждали дві особи, серед них 14-річна дівчинка. Пошкоджено дах і квартири багатоповерхового будинку.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/2/938334/f2010b23811ad747e854a9d1705f4bcf.jpeg?w=1200&q=85&stamp=1792317795",
+      "title": "В Литві розповіли про наслідки падіння невідомого дрона",
+      "url": "https://www.pravda.com.ua/news/2026/10/18/8058602",
+      "date": "2026-10-18T11:00:00+00:00",
+      "excerpt": "Деталі інциденту з дрона, що впав у Литві: пошкоджено цивільний автомобіль, постраждалих немає. Триває розслідування походження апарата.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/c/938347/ac3ae60ff6cf4f166e733f8ca868a609.jpeg?w=1200&q=85&stamp=1792321138",
       "source": "Українська правда"
     },
     {
@@ -192,26 +192,26 @@
       "url": "https://zhmerynka-rda.gov.ua/2026/10/14/%D1%86%D1%96%D1%94%D1%97-%D0%BD%D0%BE%D1%87%D1%96-%D0%B2%D0%BD%D0%B0%D1%81%D0%BB%D1%96%D0%B4%D0%BE%D0%BA-%D0%B2%D0%BE%D1%80%D0%BE%D0%B6%D0%BE%D0%B3%D0%BE-%D1%83%D0%B4%D0%B0%D1%80%D1%83-%D1%83-%D0%B6",
       "date": "2026-10-14T11:03:49+00:00",
       "excerpt": "Як повідомила начальниця ОВА Наталя Заболотна, роботу на місці ускладнювали повторні загрози ударів БпЛА та балістики. Через небезпеку рятувальникам доводилося призупиняти ліквідацію наслідків та повертатися до роботи після відбою. Наразі всі осередки пожежі ліквідовані. Загиблих і травмованих немає. До ліквідації насл",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/01/01-12-300x164.jpg",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/10/03-7.jpg",
       "source": "Жмеринська РВА"
     },
     {
       "area": "region",
-      "title": "Сильний дощ накриє Вінниччину, а туман обмежить видимість до 500 метрів - 20 хвилин",
-      "url": "https://vn.20minut.ua/Pogoda/silniy-dosch-nakrie-vinnichchinu-a-tuman-obmezhit-vidimist-do-500-metr-12010324.html",
-      "date": "2026-10-18T06:17:00+00:00",
-      "excerpt": "[18:10:2026] Сильний дощ накриє Вінниччину, а туман обмежить видимість до 500 метрів ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/56/4155161-silniy-dosch-nakrie-vinnichchinu-a-tuman-obmezhit-vidimist-do-500-metriv.jpeg",
+      "title": "Вінниця прощається з 57-річним офіцером Віктором Кочубейником - 20 хвилин",
+      "url": "https://vn.20minut.ua/lyudi/vinnitsya-proschaetsya-z-57-richnim-ofitserom-viktorom-kochubeynikom-12010323.html",
+      "date": "2026-10-18T07:00:00+00:00",
+      "excerpt": "[18:10:2026] Вінниця прощається з 57-річним офіцером Віктором Кочубейником ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/56/4155156-vinnitsya-proschaetsya-z-57-richnim-ofitserom-viktorom-kochubeynikom.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Чотири потяги на Запорізькому напрямку рухаються із затримкою через обстріли РФ",
-      "url": "https://suspilne.media/zaporizhzhia/1430551-cotiri-potagi-na-zaporizkomu-napramku-ruhautsa-iz-zatrimkou-cerez-obstrili-rf-ukrzaliznica-2",
-      "date": "2026-10-18T10:00:10+00:00",
-      "excerpt": "Сьогодні, 18 жовтня, через російські обстріли, деякі потяги на Запорізькому напрямку рухаються із затримкою. Найбільша становить понад шість годин — Суспільне Запоріжжя",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/63/63e319d4e9afcd43fc57def2ceccdcbf03e4610347556bf4c29f6a1b94cc8a2e.jpg",
-      "source": "Суспільне"
+      "title": "Чеські компанії зацікавлені в участі у відбудові України - спецпредставник Торгової палати ЧР",
+      "url": "https://www.ukrinform.ua/rubric-vidbudova/4175632-ceski-kompanii-zacikavleni-v-ucasti-u-vidbudovi-ukraini-specpredstavnik-torgovoi-palati-cr.html",
+      "date": "2026-10-18T10:54:00+00:00",
+      "excerpt": "Чеські компанії зацікавлені в розширенні співпраці з Україною та участі у проєктах з її відбудови, а чеський експорт до України зростає. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792162381-882.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -224,20 +224,20 @@
     },
     {
       "area": "region",
-      "title": "У Вінницькій громаді 18 жовтня прощаються з захисником Віктором Кочубейником",
-      "url": "https://suspilne.media/vinnytsia/1430427-u-vinnickij-gromadi-18-zovtna-prosautsa-z-zahisnikom-viktorom-kocubejnikom",
-      "date": "2026-10-18T05:55:38+00:00",
-      "excerpt": "18 жовтня у Вінниці прощаються з полеглим старшим лейтенантом Віктором Кочубейником, який у складі авіаційної бригади виконував бойові завдання на Вінниччині — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/ac/ac531c997c7230f404483a93147d6b7a37cce97737cd02f40833178706da8708.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "Сильний дощ накриє Вінниччину, а туман обмежить видимість до 500 метрів - 20 хвилин",
+      "url": "https://vn.20minut.ua/Pogoda/silniy-dosch-nakrie-vinnichchinu-a-tuman-obmezhit-vidimist-do-500-metr-12010324.html",
+      "date": "2026-10-18T06:17:00+00:00",
+      "excerpt": "[18:10:2026] Сильний дощ накриє Вінниччину, а туман обмежить видимість до 500 метрів ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/56/4155161-silniy-dosch-nakrie-vinnichchinu-a-tuman-obmezhit-vidimist-do-500-metriv.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "На Харківщині російський дрон вдарив по мікроавтобусу, двоє поранених",
-      "url": "https://www.ukrinform.ua/rubric-regions/4175617-na-harkivsini-rosijskij-dron-vdariv-po-mikroavtobusu-dvoe-poranenih.html",
-      "date": "2026-10-18T09:57:00+00:00",
-      "excerpt": "Російський дрон вдарив по мікроавтобусу на ділянці траси Великий Бурлук - Нова Олександрівка на Харківщині. Двоє людей зазнали поранень. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590638-279.jpeg",
+      "title": "Сибіга про енергетичне перемир’я: Москва не дотрималася жодних зобов’язань",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4175629-sibiga-pro-energeticne-peremira-moskva-ne-dotrimalasa-zodnih-zobovazan.html",
+      "date": "2026-10-18T10:46:00+00:00",
+      "excerpt": "Поки тривають міжнародні зусилля, спрямовані на припинення війни, Москва цілеспрямовано завдає ударів по українській енергетичній системі, залишаючи десятки тисяч сімей без електроенергії. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_09/thumb_files/630_360_1789639156-215.jpg",
       "source": "Укрінформ"
     },
     {
@@ -251,20 +251,20 @@
     },
     {
       "area": "region",
-      "title": "Тривоги не вщухали, а атака спричинила перебої зі світлом — хроніка подій на Вінниччині - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/trivogi-ne-vschuhali-a-ataka-sprichinila-pereboyi-zi-svitlom--hronika--12010319.html",
-      "date": "2026-10-18T05:44:00+00:00",
-      "excerpt": "[18:10:2026] Тривоги не вщухали, а атака спричинила перебої зі світлом — хроніка подій на Вінниччині ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/56/4155139-trivogi-ne-vschuhali-a-ataka-sprichinila-pereboyi-zi-svitlom--hronika-podiy-na-vinnichchini.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "У Вінницькій громаді 18 жовтня прощаються з захисником Віктором Кочубейником",
+      "url": "https://suspilne.media/vinnytsia/1430427-u-vinnickij-gromadi-18-zovtna-prosautsa-z-zahisnikom-viktorom-kocubejnikom",
+      "date": "2026-10-18T05:55:38+00:00",
+      "excerpt": "18 жовтня у Вінниці прощаються з полеглим старшим лейтенантом Віктором Кочубейником, який у складі авіаційної бригади виконував бойові завдання на Вінниччині — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/ac/ac531c997c7230f404483a93147d6b7a37cce97737cd02f40833178706da8708.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "У Дніпрі військові РФ атакували об’єкт критичної інфраструктури",
-      "url": "https://www.ukrinform.ua/rubric-regions/4175616-u-dnipri-vijskovi-rf-atakuvali-obekt-kriticnoi-infrastrukturi.html",
-      "date": "2026-10-18T09:54:00+00:00",
-      "excerpt": "У Дніпрі війська РФ атакували об’єкт критичної інфраструктури. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_10/thumb_files/630_360_1728310907-237.jpg",
+      "title": "Біля Львова уламок збитого дрона пробив дах промислової будівлі",
+      "url": "https://www.ukrinform.ua/rubric-regions/4175628-bila-lvova-ulamok-zbitogo-drona-probiv-dah-promislovoi-budivli.html",
+      "date": "2026-10-18T10:43:00+00:00",
+      "excerpt": "У Львівській громаді, у селі Малехів, уламок збитого дрона пробив дах цивільної промислової будівлі. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792319970-139.jpg",
       "source": "Укрінформ"
     },
     {
@@ -287,21 +287,21 @@
     },
     {
       "area": "region",
-      "title": "На Вінниччині через повітряну атаку РФ пошкоджена критична інфраструктура",
-      "url": "https://suspilne.media/vinnytsia/1430369-na-vinniccini-cerez-povitranu-ataku-rf-poskodzena-kriticna-infrastruktura-diut-avarijni-vidklucenna-svitla",
-      "date": "2026-10-18T02:19:01+00:00",
-      "excerpt": "Внаслідок російської повітряної атаки на Вінниччині 18 жовтні є руйнування критичної інфраструктури. По області наявні аварійні відключення світла, повідомила начальниця ОВА Наталя Заболотна — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/7e/7ec16c104cbcb59eccb45ecb01d8f04078f0a3b813c6a325df63d3ec184ff5a4.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "Тривоги не вщухали, а атака спричинила перебої зі світлом — хроніка подій на Вінниччині - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/trivogi-ne-vschuhali-a-ataka-sprichinila-pereboyi-zi-svitlom--hronika--12010319.html",
+      "date": "2026-10-18T05:44:00+00:00",
+      "excerpt": "[18:10:2026] Тривоги не вщухали, а атака спричинила перебої зі світлом — хроніка подій на Вінниччині ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/56/4155139-trivogi-ne-vschuhali-a-ataka-sprichinila-pereboyi-zi-svitlom--hronika-podiy-na-vinnichchini.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "У Польщі від початку доби двічі підіймали авіацію через російські обстріли України",
-      "url": "https://www.ukrinform.ua/rubric-world/4175615-u-polsi-vid-pocatku-dobi-dvici-pidijmali-aviaciu-cerez-rosijski-obstrili-ukraini.html",
-      "date": "2026-10-18T09:53:00+00:00",
-      "excerpt": "У Польщі від початку доби двічі підіймали військову авіацію у зв’язку з російськими повітряними атаками на Україну. Жителі Підкарпатського та Люблінського воєводств отримали сповіщення про загрозу. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_09/thumb_files/630_360_1757484651-479.jpg",
-      "source": "Укрінформ"
+      "title": "Повітряні сили показали бойову роботу винищувача під час збиття російської \"Герані\"",
+      "url": "https://www.pravda.com.ua/news/2026/10/18/8058601",
+      "date": "2026-10-18T10:42:00+00:00",
+      "excerpt": "Льотчик із позивним Denfix збив безпілотник \"Герань\" росіян. Момент знищення дрона оприлюднили Повітряні сили Збройних сил України.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/2/938346/f2c01aad5c32e68403dae7091645c701.jpeg?w=1200&q=85&stamp=1792319784",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -314,20 +314,20 @@
     },
     {
       "area": "region",
-      "title": "На трьох ділянках Вінниці встановили адаптивні світлофори - 20 хвилин",
-      "url": "https://vn.20minut.ua/DTP/na-troh-dilyankah-vinnitsi-vstanovili-adaptivni-svitlofori-12010280.html",
-      "date": "2026-10-17T18:01:00+00:00",
-      "excerpt": "[17:10:2026] На трьох ділянках Вінниці встановили адаптивні світлофори ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/55/4154616-na-troh-dilyankah-vinnitsi-vstanovili-adaptivni-svitlofori.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "На Вінниччині через повітряну атаку РФ пошкоджена критична інфраструктура",
+      "url": "https://suspilne.media/vinnytsia/1430369-na-vinniccini-cerez-povitranu-ataku-rf-poskodzena-kriticna-infrastruktura-diut-avarijni-vidklucenna-svitla",
+      "date": "2026-10-18T02:19:01+00:00",
+      "excerpt": "Внаслідок російської повітряної атаки на Вінниччині 18 жовтні є руйнування критичної інфраструктури. По області наявні аварійні відключення світла, повідомила начальниця ОВА Наталя Заболотна — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/7e/7ec16c104cbcb59eccb45ecb01d8f04078f0a3b813c6a325df63d3ec184ff5a4.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Росіяни вдарили по Одесі - поцілили по багатоповерхівці, постраждала дитина",
-      "url": "https://www.ukrinform.ua/rubric-regions/4175602-rosiani-atakuvali-odesu-e-poskodzenna.html",
-      "date": "2026-10-18T09:44:00+00:00",
-      "excerpt": "Російські війська атакували Одесу. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792317652-866.jpg",
+      "title": "Під Любліном шукають місце можливого падіння невідомого об’єкта",
+      "url": "https://www.ukrinform.ua/rubric-world/4175620-pid-lublinom-sukaut-misce-mozlivogo-padinna-nevidomogo-obekta.html",
+      "date": "2026-10-18T10:38:00+00:00",
+      "excerpt": "Польські військові перевіряють інформацію про можливе порушення повітряного простору країни невідомим об’єктом, який міг впасти минулої ночі неподалік Любліна. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_06/thumb_files/630_360_1751025296-821.jpg",
       "source": "Укрінформ"
     },
     {
@@ -341,21 +341,21 @@
     },
     {
       "area": "region",
-      "title": "Мотопатруль, шкільні офіцери та камери відеоспостереження — як працює поліція Вінниці - 20 хвилин",
-      "url": "https://vn.20minut.ua/Kryminal/motopatrul-shkilni-ofitseri-ta-kameri-videosposterezhennya--yak-pratsy-12010281.html",
-      "date": "2026-10-17T17:02:00+00:00",
-      "excerpt": "[17:10:2026] Мотопатруль, шкільні офіцери та камери відеоспостереження — як працює поліція Вінниці ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/55/4154627-motopatrul-shkilni-ofitseri-ta-kameri-videosposterezhennya--yak-pratsyue-politsiya-vinnitsi.jpeg",
+      "title": "На трьох ділянках Вінниці встановили адаптивні світлофори - 20 хвилин",
+      "url": "https://vn.20minut.ua/DTP/na-troh-dilyankah-vinnitsi-vstanovili-adaptivni-svitlofori-12010280.html",
+      "date": "2026-10-17T18:01:00+00:00",
+      "excerpt": "[17:10:2026] На трьох ділянках Вінниці встановили адаптивні світлофори ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/55/4154616-na-troh-dilyankah-vinnitsi-vstanovili-adaptivni-svitlofori.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Генштаб: Сили оборони уразили ремонтну базу армії РФ на Луганщині",
-      "url": "https://suspilne.media/donbas/1430513-genstab-sili-oboroni-urazili-remontnu-bazu-armii-rf-na-lugansini-ta-misce-puskiv-bezpilotnikiv-u-donecku",
-      "date": "2026-10-18T09:43:58+00:00",
-      "excerpt": "Генштаб ЗСУ прозвітував про нову серію уражень російських обʼєктів на тимчасово окупованій частині Луганської та Донецької областей. Сили оборони атакували Донецьк, Дубове та Суходільськ — Суспільне Донбас",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/f0/f0802fd38cb3691f829e43298e07df9babd4ecbbaa8a845583898003950b6931.jpg",
-      "source": "Суспільне"
+      "title": "Із Берислава на Херсонщині евакуювали ще 15 людей",
+      "url": "https://www.ukrinform.ua/rubric-regions/4175626-iz-berislava-na-hersonsini-evakuuvali-se-15-ludej.html",
+      "date": "2026-10-18T10:36:00+00:00",
+      "excerpt": "На Херсонщині, з міста Берислава, яке росіяни обстрілюють цілодобово, військові евакуювали ще 15 людей. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792319518-286.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
