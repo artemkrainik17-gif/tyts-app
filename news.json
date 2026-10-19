@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T01:42:42.804445+00:00",
+  "updated_at": "2026-10-19T02:39:11.051393+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-19T01:41:31+00:00",
+      "date": "2026-10-19T02:37:51+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,11 +53,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Через атаку РФ дві станції на червоній гілці метро будуть тимчасово зачинені - КМДА",
-      "url": "https://www.ukrinform.ua/rubric-regions/4175745-cerez-ataku-rf-dvi-stancii-na-cervonij-gilci-metro-budut-timcasovo-zacineni-kmda.html",
-      "date": "2026-10-19T01:23:00+00:00",
-      "excerpt": "Унаслідок російського удару по Києву наземні станції «Чернігівська» та «Лісова» на червоній гілці метро будуть тимчасово зачинені на вхід і вихід. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_09/thumb_files/630_360_1726139997-3857.jpeg",
+      "title": "Атаками на судна у Чорному морі Росія наближає війну до берегів НАТО - The Guardian",
+      "url": "https://www.ukrinform.ua/rubric-economy/4175599-atakami-na-sudna-u-cornomu-mori-rosia-nablizae-vijnu-do-beregiv-nato-the-guardian.html",
+      "date": "2026-10-19T02:19:00+00:00",
+      "excerpt": "Атаки на торговельні судна у Чорному морі спрямовані на підрив українського агроекспорту та дедалі більше наближають війну до берегів країн НАТО. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_02/thumb_files/630_360_1770038895-305.jpg",
       "source": "Укрінформ"
     },
     {
@@ -80,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Міністр фінансів США: Ми не на боці Росії",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4175743-ministr-finansiv-ssa-mi-ne-na-boci-rosii.html",
-      "date": "2026-10-19T01:09:00+00:00",
-      "excerpt": "Міністр фінансів США Скотт Бессент запевнив, що його країна - не на боці Росії, але не зміг дати пряму відповідь на запитання, чи у Вашингтоні вважають Київ союзником. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_05/thumb_files/630_360_1746110286-292.png",
-      "source": "Укрінформ"
+      "title": "Росія атакувала Київ балістикою: пошкоджена одна зі станцій метро, є постраждалі",
+      "url": "https://www.pravda.com.ua/news/2026/10/19/8058667",
+      "date": "2026-10-19T02:04:00+00:00",
+      "excerpt": "У ніч на 19 жовтня російські ракети пошкодили станцію метро в Києві. Троє людей постраждали від уламків у житловому будинку.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/b/7/938693/b7d9c3c74eea5632dbc75015949b4a41.jpeg?w=1200&q=85&stamp=1792368460",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -93,7 +93,7 @@
       "url": "https://zhmerynka-rda.gov.ua/2026/10/15/2-%D1%88%D0%BA%D1%96%D0%BB%D1%8C%D0%BD%D1%96-%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D0%B8-%D1%82%D0%B0-4-%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B4",
       "date": "2026-10-15T13:27:12+00:00",
       "excerpt": "Автобуси забезпечуватимуть довезення учнів до Плебанівського ліцею та Шаргородського ліцею № 2. Шкільний транспорт придбали за співфінансування держави та громади. Наразі актуальну потребу громади у автобусах повністю закрито. Генератори потужністю 6,5 кВт отримали Носиківська, Гибалівська, Івашковецька та Лозівська гі",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/08/07-212x300.jpg",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/07/01-16-300x169.jpg",
       "source": "Жмеринська РВА"
     },
     {
@@ -116,12 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Росія атакували Київ балістикою: пошкоджена одна зі станцій метро",
-      "url": "https://www.pravda.com.ua/news/2026/10/19/8058667",
-      "date": "2026-10-19T00:47:00+00:00",
-      "excerpt": "У ніч на 19 жовтня Київ зазнав ракетної атаки. Одна зі станцій метро пошкоджена, є влучання уламків у будівлі.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/b/7/938693/b7d9c3c74eea5632dbc75015949b4a41.jpeg?w=1200&q=85&stamp=1792368460",
-      "source": "Українська правда"
+      "title": "У ніч на 25 жовтня Україна перейде на зимовий час",
+      "url": "https://www.ukrinform.ua/rubric-society/4169249-u-nic-na-25-zovtna-ukraina-perejde-na-zimovij-cas.html",
+      "date": "2026-10-19T02:02:00+00:00",
+      "excerpt": "У ніч із суботи, 24 жовтня, на неділю, 25-те, українці перейдуть на зимовий час, перевівши о четвертій годині ранку стрілки годинника на одну годину назад. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1761244461-688.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -143,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Польща не повторюватиме міграційних помилок інших країн Європи - Туск",
-      "url": "https://www.ukrinform.ua/rubric-world/4175737-polsa-ne-povtoruvatime-migracijnih-pomilok-insih-krain-evropi-tusk.html",
-      "date": "2026-10-19T00:38:00+00:00",
-      "excerpt": "Прем’єр-міністр Польщі Дональд Туск заявив, що країна не повторюватиме помилок інших європейських держав у питаннях міграції та безпеки й не платитиме за їхні наслідки. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1774375073-574.jpeg",
-      "source": "Укрінформ"
+      "title": "У Києві через російську атаку зачинять дві станції метро",
+      "url": "https://www.pravda.com.ua/news/2026/10/19/8058669",
+      "date": "2026-10-19T01:59:00+00:00",
+      "excerpt": "У Києві через обстріл закрили станції метро \"Чернігівська\" та \"Лісова\"",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/0/5/938706/05bc24a217eab585d3317fa2cbe2687b.jpeg?w=1200&q=85&stamp=1792375220",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -170,11 +170,11 @@
     },
     {
       "area": "ukraine",
-      "title": "«Як французи можуть робити таке з Францією?»: звернення Макрона до нації",
-      "url": "https://suspilne.media/1430825-ak-francuzi-mozut-robiti-take-z-francieu-makron-zvernuvsa-do-nacii-pisla-pogromiv",
-      "date": "2026-10-19T00:28:00+00:00",
-      "excerpt": "Президент Франції 18 жовтня поклав відповідальність за погроми на ультралівих і злочинців, оголосив про кризовий штаб для постраждалих і розкритикував тих, хто закликає французів виходити на вулиці. — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/7c/7cb8bcbeadab1785c09ea5b67ca4b24f20dbe37ff63d00940ff794e7a7be7737.jpg",
+      "title": "Туреччина отримає частину дизпалива, яке Росія постачатиме за угодою з Трампом",
+      "url": "https://suspilne.media/1430829-tureccina-otrimae-castinu-dizelnogo-palnogo-ake-rosia-postacatime-za-ugodou-z-trampom",
+      "date": "2026-10-19T01:57:49+00:00",
+      "excerpt": "Угоду Росії та США про дизель розкритикували Зеленський і європейські посадовці. Водночас 18 жовтня Анкара заявила, що отримає частину цього пального — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/8e/8e7f47161df674b4b9bb38907672c9894388af9c0e5c8653f991fc50dc6746ae.jpg",
       "source": "Суспільне"
     },
     {
@@ -206,11 +206,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Ворожий удар пошкодив станцію метро на лівому березі столиці - Кличко",
-      "url": "https://www.ukrinform.ua/rubric-regions/4175742-vorozij-udar-poskodiv-stanciu-metro-na-livomu-berezi-stolici-klicko.html",
-      "date": "2026-10-19T00:14:00+00:00",
-      "excerpt": "У Києві внаслідок повітряної атаки військ РФ зазнала пошкоджень одна зі станцій метро. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_05/thumb_files/630_360_1716022077-259.jpg",
+      "title": "Від уламків ракети в Києві постраждали троє людей",
+      "url": "https://www.ukrinform.ua/rubric-regions/4175746-vid-ulamkiv-raketi-v-kievi-postrazdali-troe-ludej.html",
+      "date": "2026-10-19T01:43:00+00:00",
+      "excerpt": "У Соломʼянському районі столиці через падіння уламків на житлову 25-поверхівку постраждали троє осіб. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590638-279.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -219,7 +219,7 @@
       "url": "https://zhmerynka-rda.gov.ua/2026/10/14/%D1%86%D1%96%D1%94%D1%97-%D0%BD%D0%BE%D1%87%D1%96-%D0%B2%D0%BD%D0%B0%D1%81%D0%BB%D1%96%D0%B4%D0%BE%D0%BA-%D0%B2%D0%BE%D1%80%D0%BE%D0%B6%D0%BE%D0%B3%D0%BE-%D1%83%D0%B4%D0%B0%D1%80%D1%83-%D1%83-%D0%B6",
       "date": "2026-10-14T11:03:49+00:00",
       "excerpt": "Як повідомила начальниця ОВА Наталя Заболотна, роботу на місці ускладнювали повторні загрози ударів БпЛА та балістики. Через небезпеку рятувальникам доводилося призупиняти ліквідацію наслідків та повертатися до роботи після відбою. Наразі всі осередки пожежі ліквідовані. Загиблих і травмованих немає. До ліквідації насл",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2025/12/598820017_122316448478012012_6982912727700030823_n-300x184.jpg",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/04/04-5-300x225.jpg",
       "source": "Жмеринська РВА"
     },
     {
@@ -233,11 +233,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Запорізька область передала військовим обладнання майже на ₴40 мільйонів",
-      "url": "https://www.ukrinform.ua/rubric-regions/4175733-zaporizka-oblast-peredala-vijskovim-obladnanna-majze-na-40-miljoniv.html",
-      "date": "2026-10-18T23:44:00+00:00",
-      "excerpt": "Підрозділи Сил оборони, які діють на Запорізькому напрямку, отримали військове обладнання майже на 40 млн грн. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792365182-112.jpg",
+      "title": "Через атаку РФ дві станції на червоній гілці метро будуть тимчасово зачинені - КМДА",
+      "url": "https://www.ukrinform.ua/rubric-regions/4175745-cerez-ataku-rf-dvi-stancii-na-cervonij-gilci-metro-budut-timcasovo-zacineni-kmda.html",
+      "date": "2026-10-19T01:23:00+00:00",
+      "excerpt": "Унаслідок російського удару по Києву наземні станції «Чернігівська» та «Лісова» на червоній гілці метро будуть тимчасово зачинені на вхід і вихід. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_09/thumb_files/630_360_1726139997-3857.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -260,11 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський заявив про готовність зустрітися з американськими переговірниками",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4175734-zelenskij-zaaviv-pro-gotovnist-zustritisa-z-amerikanskimi-peregovirnikami.html",
-      "date": "2026-10-18T23:21:00+00:00",
-      "excerpt": "Володимир Зеленський заявив, що українська переговорна група отримала від американської сторони сигнал про готовність провести зустріч, і перемовини можуть відбутися у вівторок або середу. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_09/thumb_files/630_360_1788713175-800.jpg",
+      "title": "Міністр фінансів США: Ми не на боці Росії",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4175743-ministr-finansiv-ssa-mi-ne-na-boci-rosii.html",
+      "date": "2026-10-19T01:09:00+00:00",
+      "excerpt": "Міністр фінансів США Скотт Бессент запевнив, що його країна - не на боці Росії, але не зміг дати пряму відповідь на запитання, чи у Вашингтоні вважають Київ союзником. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_05/thumb_files/630_360_1746110286-292.png",
       "source": "Укрінформ"
     },
     {
@@ -296,12 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський: Було зроблено кроки, аби переконати Україну капітулювати",
-      "url": "https://suspilne.media/1430827-zelenskij-bulo-zrobleno-kroki-abi-perekonati-ukrainu-kapituluvati",
-      "date": "2026-10-18T23:02:28+00:00",
-      "excerpt": "В інтерв'ю Bloomberg 18 жовтня президент України розповів про сповільнення Starlink і затримки ракет-перехоплювачів зі США. На його думку, Україну підштовхують до капітуляції перед Росією. — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/79/793c41fd7262d3ec8777eec268b40e25bfcb8459be6de0a4465801f6437fae13.jpg",
-      "source": "Суспільне"
+      "title": "Польща не повторюватиме міграційних помилок інших країн Європи - Туск",
+      "url": "https://www.ukrinform.ua/rubric-world/4175737-polsa-ne-povtoruvatime-migracijnih-pomilok-insih-krain-evropi-tusk.html",
+      "date": "2026-10-19T00:38:00+00:00",
+      "excerpt": "Прем’єр-міністр Польщі Дональд Туск заявив, що країна не повторюватиме помилок інших європейських держав у питаннях міграції та безпеки й не платитиме за їхні наслідки. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1774375073-574.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -323,12 +323,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Bloomberg: У Кенії стався перший в історії спалах Еболи",
-      "url": "https://www.pravda.com.ua/news/2026/10/19/8058665",
-      "date": "2026-10-18T22:57:00+00:00",
-      "excerpt": "В Кенії підтвердили перший спалах вірусу Ебола: семеро хворих, серед них троє медиків. Влада контролює контакти, нових випадків серед населення не виявлено.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/b/1/938681/b1e8bf28ca15cbe0133c53b0792843aa.jpeg?w=1200&q=85&stamp=1792364384",
-      "source": "Українська правда"
+      "title": "«Як французи можуть робити таке з Францією?»: звернення Макрона до нації",
+      "url": "https://suspilne.media/1430825-ak-francuzi-mozut-robiti-take-z-francieu-makron-zvernuvsa-do-nacii-pisla-pogromiv",
+      "date": "2026-10-19T00:28:00+00:00",
+      "excerpt": "Президент Франції 18 жовтня поклав відповідальність за погроми на ультралівих і злочинців, оголосив про кризовий штаб для постраждалих і розкритикував тих, хто закликає французів виходити на вулиці. — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/7c/7cb8bcbeadab1785c09ea5b67ca4b24f20dbe37ff63d00940ff794e7a7be7737.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -350,11 +350,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Іран знову пропонує Штатам відкрити Ормузьку протоку та відновити переговори",
-      "url": "https://www.ukrinform.ua/rubric-world/4175719-iran-znovu-proponue-statam-vidkriti-ormuzku-protoku-ta-vidnoviti-peregovori.html",
-      "date": "2026-10-18T22:47:00+00:00",
-      "excerpt": "За умови виконання вимог Ірану Ормузька протока може бути відкрита за шість днів, а наступного дня - відновляться переговори зі США. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1752410731-939.jpeg",
+      "title": "Ворожий удар пошкодив станцію метро на лівому березі столиці - Кличко",
+      "url": "https://www.ukrinform.ua/rubric-regions/4175742-vorozij-udar-poskodiv-stanciu-metro-na-livomu-berezi-stolici-klicko.html",
+      "date": "2026-10-19T00:14:00+00:00",
+      "excerpt": "У Києві внаслідок повітряної атаки військ РФ зазнала пошкоджень одна зі станцій метро. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_05/thumb_files/630_360_1716022077-259.jpg",
       "source": "Укрінформ"
     },
     {
