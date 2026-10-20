@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T11:40:38.557215+00:00",
+  "updated_at": "2026-10-20T12:49:28.962217+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -12,7 +12,34 @@
       "url": "https://zhmerynka-rda.gov.ua/2026/10/20/%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D1%8F-%D0%B6%D0%BC%D0%B5%D1%80%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D1%97-%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D0%BD%D0%BE%D1%97-%D0%B2%D1%96%D0%B9-7",
       "date": "2026-10-20T08:12:24+00:00",
       "excerpt": "Кожен із учасників з погляду власної діяльності, професійного шляху та фахових очікувань аналізував ті досягнення й виклики, з якими стикаємося щодня. Учасники прогнозували можливості якісних змін навіть у непростих умовах сьогодення. «У своєму виступі зупинилася саме на питаннях функціонування публічної служби на рівн",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/06/газ-1-300x300.jpg",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/09/829226494_982510441534208_4773770179289318253_n-300x158.jpg",
+      "source": "Жмеринська РВА"
+    },
+    {
+      "area": "region",
+      "title": "Учні ліцею на Вінниччині зібрали 30 тисяч гривень на автомобіль для військового",
+      "url": "https://suspilne.media/vinnytsia/1432195-ucni-liceu-na-vinniccini-zibrali-30-tisac-griven-na-avtomobil-dla-vijskovogo",
+      "date": "2026-10-20T11:50:06+00:00",
+      "excerpt": "Близько 30 тисяч гривень зібрали школярі у Ямполі на благодійному ярмарку. Гроші передадуть дядькові одного із учнів, підрозділ якого збирає кошти на нову автівку — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/06/067bc1213dfc48f479fa136dbaf2c26b7f9d677f4fdffe1fead31c41c27d2ea2.jpg",
+      "source": "Суспільне Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Офіційні документи",
+      "url": "https://www.ukrinform.ua/block-docs",
+      "date": "2026-10-20T12:48:14+00:00",
+      "excerpt": "",
+      "image": "https://www.ukrinform.ua/img/img_none.jpg",
+      "source": "Укрінформ"
+    },
+    {
+      "area": "local",
+      "title": "У Шаргороді дітям з особливими освітніми потребами надають послуги раннього втручання та реабілітації",
+      "url": "https://zhmerynka-rda.gov.ua/2026/10/20/%D1%83-%D1%88%D0%B0%D1%80%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%96-%D0%B4%D1%96%D1%82%D1%8F%D0%BC-%D0%B7-%D0%BE%D1%81%D0%BE%D0%B1%D0%BB%D0%B8%D0%B2%D0%B8%D0%BC%D0%B8-%D0%BE%D1%81%D0%B2%D1%96%D1%82%D0%BD",
+      "date": "2026-10-20T08:11:07+00:00",
+      "excerpt": "Навчально-реабілітаційний центр «Родина Кольпінга» у Шаргороді забезпечує комплексну підтримку дітей з особливими освітніми потребами та їхніх родин. Серед основних напрямів діяльності закладу — раннє втручання, корекційно-розвиткова робота та реабілітація. Послуга раннього втручання охоплює дітей від народження до чот",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2025/09/005-6-300x229.jpg",
       "source": "Жмеринська РВА"
     },
     {
@@ -26,39 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Офіційні документи",
-      "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-20T11:39:47+00:00",
-      "excerpt": "",
-      "image": "https://www.ukrinform.ua/img/img_none.jpg",
-      "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "У Шаргороді дітям з особливими освітніми потребами надають послуги раннього втручання та реабілітації",
-      "url": "https://zhmerynka-rda.gov.ua/2026/10/20/%D1%83-%D1%88%D0%B0%D1%80%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%96-%D0%B4%D1%96%D1%82%D1%8F%D0%BC-%D0%B7-%D0%BE%D1%81%D0%BE%D0%B1%D0%BB%D0%B8%D0%B2%D0%B8%D0%BC%D0%B8-%D0%BE%D1%81%D0%B2%D1%96%D1%82%D0%BD",
-      "date": "2026-10-20T08:11:07+00:00",
-      "excerpt": "Навчально-реабілітаційний центр «Родина Кольпінга» у Шаргороді забезпечує комплексну підтримку дітей з особливими освітніми потребами та їхніх родин. Серед основних напрямів діяльності закладу — раннє втручання, корекційно-розвиткова робота та реабілітація. Послуга раннього втручання охоплює дітей від народження до чот",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/10/02-12.jpg",
-      "source": "Жмеринська РВА"
-    },
-    {
-      "area": "region",
-      "title": "Близько 70 родин чекають на зниклих військових у Крижопільській громаді",
-      "url": "https://suspilne.media/vinnytsia/1432115-miz-nebom-i-zemleu-mi-prodovzuemo-cekati-na-vinniccini-vidbulasa-akcia-na-pidtrimku-rodin-zniklih-vijskovih",
-      "date": "2026-10-20T10:05:24+00:00",
-      "excerpt": "20 жовтня у Крижополі на Вінниччині близько 25 родин долучилися до акції на підтримку зниклих безвісти військових і полонених. Рідні розповіли про очікування, надію на повернення та потребу в підтримці — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/d4/d40e0aa4cb2f3df0b4b3f8b5a01a93501786e0334352532e06ac6528dc4110c5.jpg",
-      "source": "Суспільне Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "МВС: Польща готова до спільних перевірок з українськими прикордонниками",
-      "url": "https://suspilne.media/1432147-polsa-gotova-zaprovaditi-spilni-z-ukrainskimi-prikordonnikami-perevirki-na-svoij-teritorii",
-      "date": "2026-10-20T11:35:27+00:00",
-      "excerpt": "Польща готова розглянути запровадження спільного з Україною прикордонного контролю на своїй території, якщо цього вимагатиме безпекова ситуація. Однак рішення ще не ухвалили — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/08/0877a0ac4c185a3ac7b8afce3d6b9b5c44a0cf39e2b9905f863ae060adf51b39.jpg",
-      "source": "Суспільне"
+      "title": "Дощі, тумани і до +20° – прогноз погоди на 21-23 жовтня",
+      "url": "https://www.pravda.com.ua/news/2026/10/20/8058917",
+      "date": "2026-10-20T12:42:00+00:00",
+      "excerpt": "За прогнозом Укргідрометцентру, в Україні найближчими днями тумани, невеликий дощ і температура до 22°. У Києві – помірно тепло, місцями опади.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/b/939836/ab73780a092e539aba6665eddcc2af0d.jpeg?w=1200&q=85&stamp=1792500166",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -71,20 +71,20 @@
     },
     {
       "area": "region",
-      "title": "У Вінниці зупинилися трамваї та тролейбуси через перебої з електрикою - 20 хвилин",
-      "url": "https://vn.20minut.ua/DTP/u-vinnitsi-zupinilisya-tramvayi-ta-troleybusi-cherez-pereboyi-z-elektr-12010539.html",
-      "date": "2026-10-20T09:27:00+00:00",
-      "excerpt": "[20:10:2026] У Вінниці зупинилися трамваї та тролейбуси через перебої з електрикою ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/57/4156933-u-vinnitsi-zupinilisya-tramvayi-ta-troleybusi-cherez-pereboyi-z-elektrikoyu.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "Близько 70 родин чекають на зниклих військових у Крижопільській громаді",
+      "url": "https://suspilne.media/vinnytsia/1432115-miz-nebom-i-zemleu-mi-prodovzuemo-cekati-na-vinniccini-vidbulasa-akcia-na-pidtrimku-rodin-zniklih-vijskovih",
+      "date": "2026-10-20T10:05:24+00:00",
+      "excerpt": "20 жовтня у Крижополі на Вінниччині близько 25 родин долучилися до акції на підтримку зниклих безвісти військових і полонених. Рідні розповіли про очікування, надію на повернення та потребу в підтримці — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/d4/d40e0aa4cb2f3df0b4b3f8b5a01a93501786e0334352532e06ac6528dc4110c5.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Зеленський прибув до Норвегії",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4176304-zelenskij-pribuv-do-norvegii.html",
-      "date": "2026-10-20T11:35:00+00:00",
-      "excerpt": "Президент Володимир Зеленський прибув до Норвегії, зокрема, для зустрічі зі Стівом Віткоффом. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792496082-574.png",
+      "title": "У «Дії» можна оформити нові виплати для підтримки батьків",
+      "url": "https://www.ukrinform.ua/rubric-society/4176331-u-dii-mozna-oformiti-novi-viplati-dla-pidtrimki-batkiv.html",
+      "date": "2026-10-20T12:41:00+00:00",
+      "excerpt": "У «Дії» можна оформити допомогу під час вагітності та виплати по догляду за дитиною до року. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2019_12/thumb_files/630_360_1576543669-529.jpg",
       "source": "Укрінформ"
     },
     {
@@ -107,20 +107,20 @@
     },
     {
       "area": "region",
-      "title": "Російська армія продовжує атаки на енергообʼєкти Вінниччини — ОВА",
-      "url": "https://suspilne.media/vinnytsia/1432081-rosijska-armia-prodovzue-ataki-na-energoobekti-vinniccini-ova",
-      "date": "2026-10-20T09:18:55+00:00",
-      "excerpt": "У Вінницькій області російська армія продовжує атакували обʼєкти енергетичної інфраструктури. За словами начальниці ОВА Заболотної, енергетики ліквідовують наслідки — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/f9/f97e4fb401b9ef18a6c6b88672dd9010484ab6d5d11e0ebbbd558449602d60f7.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "У Вінниці зупинилися трамваї та тролейбуси через перебої з електрикою - 20 хвилин",
+      "url": "https://vn.20minut.ua/DTP/u-vinnitsi-zupinilisya-tramvayi-ta-troleybusi-cherez-pereboyi-z-elektr-12010539.html",
+      "date": "2026-10-20T09:27:00+00:00",
+      "excerpt": "[20:10:2026] У Вінниці зупинилися трамваї та тролейбуси через перебої з електрикою ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/57/4156933-u-vinnitsi-zupinilisya-tramvayi-ta-troleybusi-cherez-pereboyi-z-elektrikoyu.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "У ніч на 25 жовтня Україна перейде на зимовий час",
-      "url": "https://www.ukrinform.ua/rubric-society/4169249-u-nic-na-25-zovtna-ukraina-perejde-na-zimovij-cas.html",
-      "date": "2026-10-20T11:31:00+00:00",
-      "excerpt": "У ніч із суботи, 24 жовтня, на неділю, 25-те, українці перейдуть на зимовий час, перевівши о четвертій годині ранку стрілки годинника на одну годину назад. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1761244461-688.jpg",
+      "title": "В Україні завтра переважно без опадів, вдень до +20°",
+      "url": "https://www.ukrinform.ua/rubric-regions/4176336-v-ukraini-zavtra-perevazno-bez-opadiv-vden-do-20.html",
+      "date": "2026-10-20T12:38:40+00:00",
+      "excerpt": "В Україні у середу, 21 жовтня, буде хмарно з проясненнями, місцями очікуються невеликі дощі, у низці областей туман. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792426265-435.png",
       "source": "Укрінформ"
     },
     {
@@ -134,20 +134,20 @@
     },
     {
       "area": "region",
-      "title": "Росія б’є по енергетиці Вінниччини. Рятувальники й енергетики працюють від ночі - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/rosiya-be-po-energetitsi-vinnichchini-ryatuvalniki-y-energetiki-pratsy-12010537.html",
-      "date": "2026-10-20T09:18:00+00:00",
-      "excerpt": "[20:10:2026] Росія б’є по енергетиці Вінниччини. Рятувальники й енергетики працюють від ночі ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/57/4156912-rosiya-be-po-energetitsi-vinnichchini-ryatuvalniki-y-energetiki-pratsyuyut-vid-nochi.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "Російська армія продовжує атаки на енергообʼєкти Вінниччини — ОВА",
+      "url": "https://suspilne.media/vinnytsia/1432081-rosijska-armia-prodovzue-ataki-na-energoobekti-vinniccini-ova",
+      "date": "2026-10-20T09:18:55+00:00",
+      "excerpt": "У Вінницькій області російська армія продовжує атакували обʼєкти енергетичної інфраструктури. За словами начальниці ОВА Заболотної, енергетики ліквідовують наслідки — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/f9/f97e4fb401b9ef18a6c6b88672dd9010484ab6d5d11e0ebbbd558449602d60f7.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Удар по зв’язку та інтернету: в окупованому Донецьку вночі атакували датацентр",
-      "url": "https://www.ukrinform.ua/rubric-regions/4176302-udar-po-zvazku-ta-internetu-v-okupovanomu-donecku-vnoci-atakuvali-datacentr.html",
-      "date": "2026-10-20T11:29:03+00:00",
-      "excerpt": "В окупованому Донецьку минулої ночі атакували датацентр, що призвело до пошкодження телефонного зв’язку, інтернету та телекомунікаційної інфраструктури. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792494263-817.jpg",
+      "title": "Підготовка мирних переговорів: Туск спростував участь Польщі в зустрічі в Осло",
+      "url": "https://www.ukrinform.ua/rubric-world/4176326-pidgotovka-mirnih-peregovoriv-tusk-sprostuvav-ucast-polsi-v-zustrici-v-oslo.html",
+      "date": "2026-10-20T12:37:00+00:00",
+      "excerpt": "Прем’єр-міністр Польщі Дональд Туск спростував повідомлення в медіа про те, що в Осло відбудеться зустріч у форматі E4 або E5 за участю найбільших європейських держав, зокрема Польщі, для підготовки мирних переговорів щодо України. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_12/thumb_files/630_360_1764852262-307.png",
       "source": "Укрінформ"
     },
     {
@@ -161,21 +161,21 @@
     },
     {
       "area": "region",
-      "title": "Ранкові аварії на Вінниччині: у Хмільнику збили жінку, а в Немирові зіткнулися три авто - 20 хвилин",
-      "url": "https://vn.20minut.ua/DTP/rankovi-avariyi-na-vinnichchini-u-hmilniku-zbili-zhinku-a-v-nemirovi-z-12010535.html",
-      "date": "2026-10-20T09:03:00+00:00",
-      "excerpt": "[20:10:2026] Ранкові аварії на Вінниччині: у Хмільнику збили жінку, а в Немирові зіткнулися три авто ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/57/4156902-rankovi-avariyi-na-vinnichchini-u-hmilniku-zbili-zhinku-a-v-nemirovi-zitknulisya-tri-avto.jpeg",
+      "title": "Росія б’є по енергетиці Вінниччини. Рятувальники й енергетики працюють від ночі - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/rosiya-be-po-energetitsi-vinnichchini-ryatuvalniki-y-energetiki-pratsy-12010537.html",
+      "date": "2026-10-20T09:18:00+00:00",
+      "excerpt": "[20:10:2026] Росія б’є по енергетиці Вінниччини. Рятувальники й енергетики працюють від ночі ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/57/4156912-rosiya-be-po-energetitsi-vinnichchini-ryatuvalniki-y-energetiki-pratsyuyut-vid-nochi.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Окупанти вдарили по торговельному центрі на Рівненщині: троє поранених",
-      "url": "https://www.pravda.com.ua/news/2026/10/20/8058905",
-      "date": "2026-10-20T11:26:00+00:00",
-      "excerpt": "Троє людей отримали поранення в результаті російської атаки на торговельний центр на Рівненщині.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/1/2/939802/122c20373837ba221bece17d21fab768.jpeg?w=1200&q=85&stamp=1792495584",
-      "source": "Українська правда"
+      "title": "На Рівненщині через російські атаки постраждали четверо людей",
+      "url": "https://www.ukrinform.ua/rubric-regions/4176333-na-rivnensini-cerez-rosijski-ataki-postrazdali-cetvero-ludej.html",
+      "date": "2026-10-20T12:31:22+00:00",
+      "excerpt": "На Рівненщині внаслідок обстрілів за ніч і станом на 15 годину постраждали четверо людей. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792499318-904.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -197,6 +197,33 @@
     },
     {
       "area": "region",
+      "title": "Ранкові аварії на Вінниччині: у Хмільнику збили жінку, а в Немирові зіткнулися три авто - 20 хвилин",
+      "url": "https://vn.20minut.ua/DTP/rankovi-avariyi-na-vinnichchini-u-hmilniku-zbili-zhinku-a-v-nemirovi-z-12010535.html",
+      "date": "2026-10-20T09:03:00+00:00",
+      "excerpt": "[20:10:2026] Ранкові аварії на Вінниччині: у Хмільнику збили жінку, а в Немирові зіткнулися три авто ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/57/4156902-rankovi-avariyi-na-vinnichchini-u-hmilniku-zbili-zhinku-a-v-nemirovi-zitknulisya-tri-avto.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "У Чехії планують удвічі знизити виплати українським біженцям",
+      "url": "https://www.ukrinform.ua/rubric-society/4176327-u-cehii-planuut-udvici-zniziti-viplati-ukrainskim-bizencam.html",
+      "date": "2026-10-20T12:24:35+00:00",
+      "excerpt": "Уряд і парламент Чехії планують наполовину знизити виплати українцям, які мають у країні статус тимчасового захисту. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_03/thumb_files/630_360_1711562599-700.jpg",
+      "source": "Укрінформ"
+    },
+    {
+      "area": "local",
+      "title": "Підтримка захисників, підготовка до зими та відзнака Вовкодаву: 80 сесія Жмеринської міської ради – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482716/pidtrimka-zahisnikiv-pidgotovka-do-zimi-ta-vidznaka-vovkodavu-80-sesiya-zhmerinskoi-miskoi-radi",
+      "date": "2026-10-15T19:05:00+00:00",
+      "excerpt": "Підтримка захисників, підготовка до зими та допомога лікарні: 80 сесія Жмеринської міської ради",
+      "image": "https://im2.abo.media/media/64/article/4992b74a8cfe48e5be5e77cc8240633b.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
       "title": "Чоловіка із Вінниччини підозрюють у зґвалтуванні 14-річної дівчини",
       "url": "https://suspilne.media/vinnytsia/1432041-colovika-iz-vinniccini-pidozruut-u-zgvaltuvanni-14-ricnoi-divcini",
       "date": "2026-10-20T08:48:52+00:00",
@@ -206,20 +233,20 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський прибув до Норвегії; очікується зустріч з Віткоффом",
-      "url": "https://suspilne.media/1432245-zelenskij-pribuv-do-norvegii-ocikuetsa-zustric-z-vitkoffom",
-      "date": "2026-10-20T11:24:33+00:00",
-      "excerpt": "Зеленський прибув з офіційним візитом до Норвегії. Очікується, що він проведе зустріч зі спецпосланцем президента США Трампа Стівом Віткоффом — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/cf/cfcc9bd766c7cfd38345728775c92e31c7667ffc01511c8ae5c7d1a8d490ade1.jpg",
+      "title": "У «Дії» тепер можна оформити допомогу на дитину",
+      "url": "https://suspilne.media/1432281-u-dii-teper-mozna-oformiti-dopomogu-pid-cas-vagitnosti-ta-viplati-po-dogladu-za-ditinou-do-roku",
+      "date": "2026-10-20T12:22:08+00:00",
+      "excerpt": "На порталі Дія можна оформити виплати у зв'язку з вагітністю та пологами, а також фіндопомогу по догляду за дитиною до досягнення нею одного року. Вони зараховуватимуться на Дія.Картку, але з різними умовами використання — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/61/617bb824d28953f280f0179e04ab3fc71ef1726986d381826f176239e7ef03ca.jpg",
       "source": "Суспільне"
     },
     {
       "area": "local",
-      "title": "Підтримка захисників, підготовка до зими та відзнака Вовкодаву: 80 сесія Жмеринської міської ради – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482716/pidtrimka-zahisnikiv-pidgotovka-do-zimi-ta-vidznaka-vovkodavu-80-sesiya-zhmerinskoi-miskoi-radi",
-      "date": "2026-10-15T19:05:00+00:00",
-      "excerpt": "Підтримка захисників, підготовка до зими та допомога лікарні: 80 сесія Жмеринської міської ради",
-      "image": "https://im2.abo.media/media/64/article/4992b74a8cfe48e5be5e77cc8240633b.webp",
+      "title": "Володимир Горлей став лауреатом Всеукраїнської літературної премії імені Василя Юхимовича – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482580/volodimir-gorlej-stav-laureatom-vseukrainskoi-literaturnoi-premii-imeni-vasilya-yuhimovicha",
+      "date": "2026-10-14T20:46:00+00:00",
+      "excerpt": "Володимир Горлей став лауреатом Всеукраїнської літературної премії імені Василя Юхимовича",
+      "image": "https://im2.abo.media/media/64/article/eab17ec3b848460d829b26fd9a19ba0d.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -233,38 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленському довіряють 54% українців",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4176301-zelenskomu-doviraut-54-ukrainciv.html",
-      "date": "2026-10-20T11:23:50+00:00",
-      "excerpt": "Президенту Володимиру Зеленському довіряють 54% українців, не довіряють – 41%. Баланс довіри-недовіри становить +13%. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_04/thumb_files/630_360_1775226694-273.jpeg",
-      "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "Володимир Горлей став лауреатом Всеукраїнської літературної премії імені Василя Юхимовича – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482580/volodimir-gorlej-stav-laureatom-vseukrainskoi-literaturnoi-premii-imeni-vasilya-yuhimovicha",
-      "date": "2026-10-14T20:46:00+00:00",
-      "excerpt": "Володимир Горлей став лауреатом Всеукраїнської літературної премії імені Василя Юхимовича",
-      "image": "https://im2.abo.media/media/64/article/eab17ec3b848460d829b26fd9a19ba0d.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "Вінничанин Дмитро Рогозюк очолив Третій армійський корпус ЗСУ - 20 хвилин",
-      "url": "https://vn.20minut.ua/lyudi/vinnichanin-dmitro-rogozyuk-ocholiv-tretiy-armiyskiy-korpus-zsu-12010513.html",
-      "date": "2026-10-20T07:08:00+00:00",
-      "excerpt": "[20:10:2026] Вінничанин Дмитро Рогозюк очолив Третій армійський корпус ЗСУ ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/57/4156758-vinnichanin-dmitro-rogozyuk-ocholiv-tretiy-armiyskiy-korpus-zsu.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Українська експедиція завершила пошукові роботи у польському Ласкові - виявили останки понад 40 осіб",
-      "url": "https://www.ukrinform.ua/rubric-society/4176297-ukrainska-ekspedicia-zaversila-posukovi-roboti-u-polskomu-laskovi-viavili-ostanki-ponad-40-osib.html",
-      "date": "2026-10-20T11:19:00+00:00",
-      "excerpt": "У селі Ласків Люблінського воєводства (Польща) завершилися пошукові дослідження на православному кладовищі, під час експедиції виявили останки понад 40 осіб. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792494576-959.jpg",
+      "title": "Атака дронів: у Києві від початку доби одна людина загинула, семеро постраждалих",
+      "url": "https://www.ukrinform.ua/rubric-regions/4176325-ataka-droniv-u-kievi-vid-pocatku-dobi-odna-ludina-zaginula-semero-postrazdalih.html",
+      "date": "2026-10-20T12:21:35+00:00",
+      "excerpt": "Станом на 14.45 вівторка, 20 жовтня, у Києві семеро людей постраждали внаслідок російських атак, одна людина загинула. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590638-279.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -287,21 +287,21 @@
     },
     {
       "area": "region",
-      "title": "На яких вулицях Вінниці сьогодні ремонтуватимуть мережі та не буде світла - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/na-yakih-vulitsyah-vinnitsi-sogodni-remontuvatimut-merezhi-ta-ne-bude--12010491.html",
-      "date": "2026-10-20T06:43:00+00:00",
-      "excerpt": "[20:10:2026] На яких вулицях Вінниці сьогодні ремонтуватимуть мережі та не буде світла ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/57/4156496-na-yakih-vulitsyah-vinnitsi-sogodni-remontuvatimut-merezhi-ta-ne-bude-svitla.jpeg",
+      "title": "Вінничанин Дмитро Рогозюк очолив Третій армійський корпус ЗСУ - 20 хвилин",
+      "url": "https://vn.20minut.ua/lyudi/vinnichanin-dmitro-rogozyuk-ocholiv-tretiy-armiyskiy-korpus-zsu-12010513.html",
+      "date": "2026-10-20T07:08:00+00:00",
+      "excerpt": "[20:10:2026] Вінничанин Дмитро Рогозюк очолив Третій армійський корпус ЗСУ ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/57/4156758-vinnichanin-dmitro-rogozyuk-ocholiv-tretiy-armiyskiy-korpus-zsu.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Отримайте можливості річної підписки на УП з оплатою частинами в monobank",
-      "url": "https://www.pravda.com.ua/news/2026/10/20/8053728",
-      "date": "2026-10-20T11:16:00+00:00",
-      "excerpt": "З 16 вересня клієнти monobank можуть оформити оплату частинами на річну підписку на \"Українську правду\". Підписка дає необмежений доступ до матеріалів УП: сайт без комерційної реклами в пакеті \"Стандарт\" або доступ до всього платного контенту й закритих подій у пакеті \"Преміум\".",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/c/929500/8ca88bb06912194808358bf470bb262d.jpeg?w=1200&q=85&stamp=1791391083",
-      "source": "Українська правда"
+      "title": "Сікорський посянив, чому Польща не може передати Україні ракети Patriot",
+      "url": "https://suspilne.media/1432309-nema-dostatnih-zapasiv-sikorskij-posaniv-comu-polsa-ne-moze-peredati-ukraini-raketi-patriot",
+      "date": "2026-10-20T12:21:32+00:00",
+      "excerpt": "Польща не має можливості постачати Україні американські ракети-перехоплювачі для систем протиповітряної оборони Patriot через їхній дефіцит, заявив міністр закордонних справ Польщі Радослав Сікорський — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/cb/cbb310fa3096ce938859c23b3c481fee0376d192ac6da33bd6031ad225b10680.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -314,20 +314,20 @@
     },
     {
       "area": "region",
-      "title": "Робота у Вінниця, актуальні вакансії Вінниччини - 20 хвилин",
-      "url": "https://vn.20minut.ua/novini-kompanij/robota-pid-chas-viyni-yaki-vakansiyi-proponuyut-na-vinnichchini-novini-11541339.html",
-      "date": "2026-10-20T06:20:00+00:00",
-      "excerpt": "[20:10:2026] Вакансії в супермаркеті «Грош», АН «Благоустрій» та 34 актуальні пропозиції роботи у Вінниці (оновлено) ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/38/4137544-vakansiyi-v-supermarketi-grosh-an-blagoustriy-ta-34-aktualni-propozitsiyi-roboti-u-vinnitsi-onovleno.jpeg",
+      "title": "На яких вулицях Вінниці сьогодні ремонтуватимуть мережі та не буде світла - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/na-yakih-vulitsyah-vinnitsi-sogodni-remontuvatimut-merezhi-ta-ne-bude--12010491.html",
+      "date": "2026-10-20T06:43:00+00:00",
+      "excerpt": "[20:10:2026] На яких вулицях Вінниці сьогодні ремонтуватимуть мережі та не буде світла ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/57/4156496-na-yakih-vulitsyah-vinnitsi-sogodni-remontuvatimut-merezhi-ta-ne-bude-svitla.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Атака на склади у передмісті Дніпра: під час гасіння пожежі знайшли двох загиблих",
-      "url": "https://www.ukrinform.ua/rubric-regions/4176292-ataka-na-skladi-u-peredmisti-dnipra-pid-cas-gasinna-pozezi-znajsli-dvoh-zagiblih.html",
-      "date": "2026-10-20T11:04:00+00:00",
-      "excerpt": "Внаслідок атаки по передмістю Дніпра загинули двоє людей. Їхні тіла знайшли під час ліквідації наслідків удару. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792478234-233.jpg",
+      "title": "Польща розраховує на співпрацю з Україною в розслідуванні інциденту з дроном у Литві",
+      "url": "https://www.ukrinform.ua/rubric-world/4176316-polsa-rozrahovue-na-spivpracu-z-ukrainou-v-rozsliduvanni-incidentu-z-dronom-u-litvi.html",
+      "date": "2026-10-20T12:17:00+00:00",
+      "excerpt": "Польща розраховує на повну співпрацю з Україною у з’ясуванні обставин інциденту з українським безпілотником, який вибухнув поблизу литовсько-латвійського кордону та, за попередніми даними, залетів із боку Польщі. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1752500983-295.jpg",
       "source": "Укрінформ"
     },
     {
@@ -341,21 +341,21 @@
     },
     {
       "area": "region",
-      "title": "У садках уже гріють, а в квартирах ще ні: коли у Вінниці ввімкнуть опалення? - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/u-sadkah-uzhe-griyut-a-v-kvartirah-sche-ni-koli-u-vinnitsi-vvimknut-op-12010489.html",
-      "date": "2026-10-20T06:12:00+00:00",
-      "excerpt": "[20:10:2026] У садках уже гріють, а в квартирах ще ні: коли у Вінниці ввімкнуть опалення? ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/57/4156487-u-sadkah-uzhe-griyut-a-v-kvartirah-sche-ni-koli-u-vinnitsi-vvimknut-opalennya.jpeg",
+      "title": "Робота у Вінниця, актуальні вакансії Вінниччини - 20 хвилин",
+      "url": "https://vn.20minut.ua/novini-kompanij/robota-pid-chas-viyni-yaki-vakansiyi-proponuyut-na-vinnichchini-novini-11541339.html",
+      "date": "2026-10-20T06:20:00+00:00",
+      "excerpt": "[20:10:2026] Вакансії в супермаркеті «Грош», АН «Благоустрій» та 34 актуальні пропозиції роботи у Вінниці (оновлено) ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/38/4137544-vakansiyi-v-supermarketi-grosh-an-blagoustriy-ta-34-aktualni-propozitsiyi-roboti-u-vinnitsi-onovleno.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "У Києві уламки дрона РФ впали на дах медзакладу: працюють екстрені служби",
-      "url": "https://www.pravda.com.ua/news/2026/10/20/8058902",
-      "date": "2026-10-20T11:02:00+00:00",
-      "excerpt": "Уламки російського безпілотника впали на будівлю медичного закладу в Солом'янському районі Києва.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/7/939799/8793f7d8b2fd787f389d0652570e5bb8.jpeg?w=1200&q=85&stamp=1792494263",
-      "source": "Українська правда"
+      "title": "У Молдові вдруге за тиждень затримали українських прикордонників",
+      "url": "https://www.ukrinform.ua/rubric-world/4176323-u-moldovi-vdruge-za-tizden-zatrimali-ukrainskih-prikordonnikiv.html",
+      "date": "2026-10-20T12:15:00+00:00",
+      "excerpt": "У Молдові затримали ще двох українських прикордонників за незаконний перетин кордону – це вже другий такий інцидент впродовж останніх 7 днів. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2023_09/thumb_files/630_360_1694521864-650.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
