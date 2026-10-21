@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T18:45:05.416286+00:00",
+  "updated_at": "2026-10-21T19:42:17.559993+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-21T18:43:40+00:00",
+      "date": "2026-10-21T19:41:04+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,12 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський повідомив про співпрацю з Норвегією у сфері ОПК",
-      "url": "https://suspilne.media/1433545-zelenskij-povidomiv-pro-spivpracu-z-norvegieu-u-sferi-opk",
-      "date": "2026-10-21T18:35:48+00:00",
-      "excerpt": "Зеленський повідомив, що Україна та Норвегія співпрацюють у сфері оборонно-промислового комплексу (ОПК), а саме над проєктами для протиповітряної оборони — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/b5/b5e406d5ff95cf4762fe3e17727a29dfb30eb70d7ea23ec4d6d94a01e9b8fa5b.jpg",
-      "source": "Суспільне"
+      "title": "У Києві пролунали вибухи: Повітряні сили попереджали про балістичну загрозу",
+      "url": "https://www.pravda.com.ua/news/2026/10/21/8059143",
+      "date": "2026-10-21T19:18:00+00:00",
+      "excerpt": "Увечері 21 жовтня в українській столиці пролунали вибухи, перед цим було попередження про балістичні удари.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/2/940816/524657b0d9d0bc795ee0b206bec0a23d.jpeg?w=1200&q=85&stamp=1792610518",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -80,11 +80,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни за три дні завдали близько 60 ударів по енерго- і нафтогазовій інфраструктурі",
-      "url": "https://www.ukrinform.ua/rubric-economy/4176852-rosiani-za-tri-dni-zavdali-blizko-60-udariv-po-energo-i-naftogazovij-infrastrukturi.html",
-      "date": "2026-10-21T18:34:47+00:00",
-      "excerpt": "Російські загарбники упродовж трьох днів завдали близько 60 ударів по енергетичній і нафтогазовій інфраструктурі. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_02/thumb_files/630_360_1771524987-494.jpg",
+      "title": "На фронті за добу - 165 зіткнень, Покровський напрямок залишається найгарячішим",
+      "url": "https://www.ukrinform.ua/rubric-ato/4176862-na-fronti-za-dobu-165-zitknen-pokrovskij-napramok-zalisaetsa-najgaracisim.html",
+      "date": "2026-10-21T19:18:00+00:00",
+      "excerpt": "Протягом 21 жовтня на фронті сталося 165 бойових зіткнень Сил оборони України з російськими загарбниками. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_05/thumb_files/630_360_1748500472-674.jpg",
       "source": "Укрінформ"
     },
     {
@@ -93,7 +93,7 @@
       "url": "https://zhmerynka-rda.gov.ua/2026/10/20/%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D1%8F-%D0%B6%D0%BC%D0%B5%D1%80%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D1%97-%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D0%BD%D0%BE%D1%97-%D0%B2%D1%96%D0%B9-7",
       "date": "2026-10-20T08:12:24+00:00",
       "excerpt": "Кожен із учасників з погляду власної діяльності, професійного шляху та фахових очікувань аналізував ті досягнення й виклики, з якими стикаємося щодня. Учасники прогнозували можливості якісних змін навіть у непростих умовах сьогодення. «У своєму виступі зупинилася саме на питаннях функціонування публічної служби на рівн",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2025/10/004-12-300x200.jpg",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/10/03-10.jpg",
       "source": "Жмеринська РВА"
     },
     {
@@ -116,12 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Польщі впав навчальний літальний апарат військових НАТО",
-      "url": "https://www.ukrinform.ua/rubric-world/4176851-u-polsi-vpav-navcalnij-litalnij-aparat-vijskovih-nato.html",
-      "date": "2026-10-21T18:34:00+00:00",
-      "excerpt": "У Підкарпатському воєводстві впав навчальний літальний апарат, що належить військовослужбовцям однієї з країн НАТО, які беруть участь у військових навчаннях у Польщі. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1752500983-295.jpg",
-      "source": "Укрінформ"
+      "title": "Двох військових затримали за підозрою у вбивстві двох жінок у Вінниці – поліція",
+      "url": "https://www.pravda.com.ua/news/2026/10/21/8059142",
+      "date": "2026-10-21T19:11:00+00:00",
+      "excerpt": "Поліція повідомила, що затримала 2 військовослужбовців після подвійного вбивства на вул. Олексія Береста у Вінниці, тривають слідчі дії.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/e/0/940794/e0e553828dea5a1b84c97f7b54f14548.jpeg?w=1200&q=85&stamp=1792609803",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -143,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський заявив, що Росія підтримує тристоронню зустріч на рівні команд",
-      "url": "https://www.pravda.com.ua/news/2026/10/21/8059139",
-      "date": "2026-10-21T18:32:00+00:00",
-      "excerpt": "Президент України Володимир Зеленський заявив, що Росія підтримує тристоронню зустріч на рівні команд, дати цієї можливої зустрічі ще узгоджуються.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/a/940791/fa9d9533df9af952647a85d1929299be.jpeg?w=1200&q=85&stamp=1792607527",
-      "source": "Українська правда"
+      "title": "Зеленський: Отримали фідбек від зустрічі Віткоффа з Путіним - тристоронні переговори можуть бути на початку листопада",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4176859-zelenskij-otrimali-fidbek-vid-zustrici-vitkoffa-z-putinim-tristoronni-peregovori-mozut-buti-na-pocatku-listopada.html",
+      "date": "2026-10-21T19:00:00+00:00",
+      "excerpt": "Українська, американська і російська перемовні команди спілкуватимуться, щоб напрацювати порядок денний тристоронньої зустрічі, яка може відбутися на початку листопада, але точні дати ще не відомі. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1772721556-135.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -170,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський: РФ підтримує тристоронню зустріч на рівні команд",
-      "url": "https://suspilne.media/1433541-zelenskij-rf-pidtrimue-tristoronnu-zustric-na-rivni-komand",
-      "date": "2026-10-21T18:25:26+00:00",
-      "excerpt": "Президент Володимир Зеленський заявив , що РФ підтримала зустріч на рівні переговорних команд. За його словами, американська сторона пропонує провести зустріч якомога швидше — орієнтовно в листопаді За його словами, США пропонують — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/21/21e03c29399e0c4111f1853e30955f96711647ed1a00983c518472b4c3fa25f9.jpg",
-      "source": "Суспільне"
+      "title": "Ворожий дрон атакував евакуаційну автівку на Донеччині",
+      "url": "https://www.ukrinform.ua/rubric-regions/4176857-vorozij-dron-atakuvav-evakuacijnu-avtivku-na-doneccini.html",
+      "date": "2026-10-21T18:58:00+00:00",
+      "excerpt": "У середу, 21 жовтня, російський FPV-дрон атакував у Донецькій області евакуаційний автомобіль гуманітарної місії \"Проліска\". — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1761480128-769.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -206,12 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Польща заборонила в’їзд у Шенген посадовцю Львівської облради через ініціативу \"року УПА\"",
-      "url": "https://www.pravda.com.ua/news/2026/10/21/8059137",
-      "date": "2026-10-21T18:16:00+00:00",
-      "excerpt": "Польща заборонила на п'ять років в'їзд до Шенгенської зони депутату Львівської обласної ради Святославу Шереметі, який ініціював проголошення на Львівщині 2027 року роком Романа Шухевича, Української повстанської армії та Олега Ольжича.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/c/940789/acc3bac894bb96bdf73f37edb79f9ccb.jpeg?w=1200&q=85&stamp=1792607148",
-      "source": "Українська правда"
+      "title": "Напад у монастирі в Польщі: суд залишив під арештом українця, підозрюваного у вбивстві священника",
+      "url": "https://www.ukrinform.ua/rubric-society/4176858-napad-u-monastiri-v-polsi-sud-zalisiv-pid-arestom-ukrainca-pidozruvanogo-u-vbivstvi-svasennika.html",
+      "date": "2026-10-21T18:56:00+00:00",
+      "excerpt": "Окружний суд у Перемишлі залишив під вартою на три місяці 31-річного громадянина України, підозрюваного у вбивстві священника та замаху на вбивство ще чотирьох осіб на території монастиря бенедиктинок у польському місті Ярослав. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792608952-790.png",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -219,7 +219,7 @@
       "url": "https://zhmerynka-rda.gov.ua/2026/10/19/%D0%B2%D0%B7%D1%8F%D0%BB%D0%B8-%D1%83%D1%87%D0%B0%D1%81%D1%82%D1%8C-%D1%83-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE-%D1%88%D1%82%D0%B0%D0%B1%D0%BD%D0%B8%D1%85-%D0%BD%D0%B0%D0%B2%D1%87%D0%B0",
       "date": "2026-10-19T07:39:50+00:00",
       "excerpt": "Жмеринська районна військова адміністрація, Жмеринське районне управління цивільного захисту та превентивної діяльності ГУ ДСНС України у Вінницькій облаті та Жмеринська міська територіальна громада взяли участь у проведенні командно-штабних навчань з відпрацювання алгоритмів дій органів управління та сил цивільного за",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/05/03-8-240x300.jpg",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/05/03-5-300x225.jpg",
       "source": "Жмеринська РВА"
     },
     {
@@ -233,11 +233,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У Франції превентивно відключили держсайти через «критичні вразливості»",
-      "url": "https://www.ukrinform.ua/rubric-world/4176847-u-francii-preventivno-vidklucili-derzsajti-cerez-kriticni-vrazlivosti.html",
-      "date": "2026-10-21T18:15:00+00:00",
-      "excerpt": "У Франції 21 жовтня через критичні вразливості у мові програмування PHP превентивно відключили сайти префектур. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_08/thumb_files/630_360_1754479606-551.jpg",
+      "title": "Захист від «Шахедів» і не тільки: Зеленський розповів про спільні з Норвегією проєкти",
+      "url": "https://www.ukrinform.ua/rubric-ato/4176856-zahist-vid-sahediv-i-ne-tilki-zelenskij-rozpoviv-pro-spilni-z-norvegieu-proekti.html",
+      "date": "2026-10-21T18:54:00+00:00",
+      "excerpt": "Президент Володимир Зеленський заявив, що спільно з Норвегією зараз активно розвиваються три проєкти у сфері захисту неба. Один з них, за його словами, показав сильний результат у захисті від «Шахедів». — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1790873806-791.png",
       "source": "Укрінформ"
     },
     {
@@ -260,12 +260,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Премʼєр: Болгарія не фінансуватиме закупівлю летальної зброї для України",
-      "url": "https://suspilne.media/1433527-bolgaria-ne-finansuvatime-zakupivlu-letalnoi-zbroi-dla-ukraini-cerez-fond-es-premer",
-      "date": "2026-10-21T18:12:13+00:00",
-      "excerpt": "Болгарія відмовилася фінансувати закупівлю нової летальної зброї для України через Європейський фонд миру, заявивши, що підтримуватиме лише нелетальну допомогу. Водночас країна наголосила на підтримці суверенітету України — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/df/dfa7f9fad94a22d00ae81c2515a0ab78f4fb372ed114662524a427f48b8349df.jpg",
-      "source": "Суспільне"
+      "title": "Україна та Норвегія працюють над трьома оборонними проєктами: серед них захист від \"шахедів\"",
+      "url": "https://www.pravda.com.ua/news/2026/10/21/8059140",
+      "date": "2026-10-21T18:53:00+00:00",
+      "excerpt": "Президент Володимир Зеленський заявив, що Україна та Норвегія працюють над трьома оборонними проєктами.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/0/a/940792/0ac52dcb026bae770c031e8b9b0abe74.jpeg?w=1200&q=85&stamp=1792608886",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -296,12 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Пишний заявив, що обшуки НАБУ не пов’язані ані з ним, ані з діяльністю Нацбанку",
-      "url": "https://www.ukrinform.ua/rubric-economy/4176843-pisnij-zaaviv-so-obsuki-nabu-ne-povazani-ani-z-nim-ani-z-dialnistu-nacbanku.html",
-      "date": "2026-10-21T18:02:53+00:00",
-      "excerpt": "Обшуки, які провело Національне антикорупційне бюро у приміщенні Національного банку, були проведені у межах кримінального провадження, яке не стосується діяльності Національного банку, а також очільника установи. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_01/thumb_files/630_360_1768576410-242.jpg",
-      "source": "Укрінформ"
+      "title": "Зеленський повідомив про співпрацю з Норвегією у сфері ОПК",
+      "url": "https://suspilne.media/1433545-zelenskij-povidomiv-pro-spivpracu-z-norvegieu-u-sferi-opk",
+      "date": "2026-10-21T18:35:48+00:00",
+      "excerpt": "Зеленський повідомив, що Україна та Норвегія співпрацюють у сфері оборонно-промислового комплексу (ОПК), а саме над проєктами для протиповітряної оборони — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/b5/b5e406d5ff95cf4762fe3e17727a29dfb30eb70d7ea23ec4d6d94a01e9b8fa5b.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -323,11 +323,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни атакували склади у Кропивницькому",
-      "url": "https://www.ukrinform.ua/rubric-regions/4176841-rosiani-atakuvali-skladi-u-kropivnickomu.html",
-      "date": "2026-10-21T17:57:21+00:00",
-      "excerpt": "Армія РФ атакувала складські приміщення у Кропивницькому районі Кіровоградської області. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_06/thumb_files/630_360_1782559784-187.png",
+      "title": "Росіяни за три дні завдали близько 60 ударів по енерго- і нафтогазовій інфраструктурі",
+      "url": "https://www.ukrinform.ua/rubric-economy/4176852-rosiani-za-tri-dni-zavdali-blizko-60-udariv-po-energo-i-naftogazovij-infrastrukturi.html",
+      "date": "2026-10-21T18:34:47+00:00",
+      "excerpt": "Російські загарбники упродовж трьох днів завдали близько 60 ударів по енергетичній і нафтогазовій інфраструктурі. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_02/thumb_files/630_360_1771524987-494.jpg",
       "source": "Укрінформ"
     },
     {
@@ -350,11 +350,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Тристоронні переговори продовжаться на технічному рівні - Віткофф",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4176838-tristoronni-peregovori-prodovzatsa-na-tehnicnomu-rivni-vitkoff.html",
-      "date": "2026-10-21T17:50:00+00:00",
-      "excerpt": "Спецпредставник президента США Стів Віткофф заявив, що обговорення щодо завершення російсько-української війни продовжаться у форматі тристоронніх переговорів на технічному рівні. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_09/thumb_files/630_360_1788716123-188.jpg",
+      "title": "У Польщі впав навчальний літальний апарат військових НАТО",
+      "url": "https://www.ukrinform.ua/rubric-world/4176851-u-polsi-vpav-navcalnij-litalnij-aparat-vijskovih-nato.html",
+      "date": "2026-10-21T18:34:00+00:00",
+      "excerpt": "У Підкарпатському воєводстві впав навчальний літальний апарат, що належить військовослужбовцям однієї з країн НАТО, які беруть участь у військових навчаннях у Польщі. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1752500983-295.jpg",
       "source": "Укрінформ"
     },
     {
