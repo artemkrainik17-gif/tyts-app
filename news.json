@@ -1,11 +1,38 @@
 {
-  "updated_at": "2026-10-22T17:39:09.272567+00:00",
+  "updated_at": "2026-10-22T18:44:21.946928+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
     "ukraine": 30
   },
   "items": [
+    {
+      "area": "local",
+      "title": "У Жмеринці пропонують створити панорамний арт-простір на «Калинці»: як підтримати петицію – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/483462/u-zhmerinci-proponuyut-stvoriti-panoramnij-art-prostir-na-kalinci-yak-pidtrimati-peticiyu",
+      "date": "2026-10-22T16:22:00+00:00",
+      "excerpt": "У Жмеринці пропонують створити панорамний арт-простір на «Калинці»: як підтримати петицію",
+      "image": "https://im2.abo.media/media/64/article/bb2b21ff2908473196e647d73b969cdb.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "У Вінниці чоловік бив жінку та погрожував ножем її подрузі. Його затримали патрульні - 20 хвилин",
+      "url": "https://vn.20minut.ua/Kryminal/u-vinnitsi-cholovik-biv-zhinku-ta-pogrozhuvav-nozhem-yiyi-podruzi-yogo-12010692.html",
+      "date": "2026-10-22T18:00:00+00:00",
+      "excerpt": "[22:10:2026] У Вінниці чоловік бив жінку та погрожував ножем її подрузі. Його затримали патрульні ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/59/4158160-u-vinnitsi-cholovik-biv-zhinku-ta-pogrozhuvav-nozhem-yiyi-podruzi-yogo-zatrimali-patrulni.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Офіційні документи",
+      "url": "https://www.ukrinform.ua/block-docs",
+      "date": "2026-10-22T18:43:11+00:00",
+      "excerpt": "",
+      "image": "https://www.ukrinform.ua/img/img_none.jpg",
+      "source": "Укрінформ"
+    },
     {
       "area": "local",
       "title": "Після року невідомості до Жмеринки «на щиті» повертається батько чотирьох дітей Антон Кедь – Жмеринка.City",
@@ -26,11 +53,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Офіційні документи",
-      "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-22T17:37:56+00:00",
-      "excerpt": "",
-      "image": "https://www.ukrinform.ua/img/img_none.jpg",
+      "title": "У Запоріжжі кількість загиблих через російський удар зросла до трьох",
+      "url": "https://www.ukrinform.ua/rubric-regions/4177266-u-zaporizzi-kilkist-zagiblih-cerez-rosijskij-udar-zrosla-do-troh.html",
+      "date": "2026-10-22T18:36:00+00:00",
+      "excerpt": "Кількість загиблих унаслідок удару російської армії по Запоріжжю зросла до трьох осіб. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590638-279.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -53,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Росія посилить обстріли України балістичними ракетами — Зеленський",
-      "url": "https://suspilne.media/1434473-rosia-posilit-obstrili-ukraini-balisticnimi-raketami-zelenskij",
-      "date": "2026-10-22T17:32:36+00:00",
-      "excerpt": "Про це український лідер Володимир Зеленський сказав під час спілкування із журналістами 22 жовтня, передала кореспондентка Суспільного — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/90/903af8cd51dffbb69e6f8fde22936d440198421983e0a7ecb702597a51f1dda9.jpg",
-      "source": "Суспільне"
+      "title": "Росія посилить удари балістикою на тлі зменшення поставок від США ракет до Patriot - Зеленський",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4177263-rosia-posilit-udari-balistikou-na-tli-zmensenna-postavok-vid-ssa-raket-do-patriot-zelenskij.html",
+      "date": "2026-10-22T18:22:00+00:00",
+      "excerpt": "Президент Володимир Зеленський заявив, що росіяни будуть посилювати балістичні атаки проти України, особливо на тлі зменшення постачання в Україну ракет-перехоплювачів. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1772721556-135.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -67,6 +94,15 @@
       "date": "2026-10-20T16:33:00+00:00",
       "excerpt": "У Жмеринці дорослі безкоштовно опановують залізничні професії: Вище професійне училище виграло грант",
       "image": "https://im2.abo.media/media/64/article/73bc8d8aa444468bb15a1511d7dccbd6.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "«Театральна осінь – 2026» у Жмеринці: творчість, гумор і визнання – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/483054/teatralna-osin-2026-u-zhmerinci-tvorchist-gumor-i-viznannya",
+      "date": "2026-10-19T16:50:00+00:00",
+      "excerpt": "У Жмеринці відбувся обласний фестиваль театрального мистецтва «Театральна осінь – 2026»",
+      "image": "https://im2.abo.media/media/64/article/9c59fa484fa84596adb781c20fb6a9b1.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -80,21 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Україна отримала новий пакет допомоги від Фінляндії на €300 мільйонів",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4177245-ukraina-ta-finlandia-pidpisali-sim-dokumentiv-na-sumu-blizko-300-miljoniv.html",
-      "date": "2026-10-22T17:31:00+00:00",
-      "excerpt": "У присутності Президента Володимира Зеленського та Прем’єр-міністра Фінляндії Петтері Орпо у Києві підписано сім документів на суму близько 300 млн євро. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_03/thumb_files/630_360_1742396393-321.jpeg",
+      "title": "У Німеччині цьогоріч зафіксували понад тисячу підозрілих прольотів дронів",
+      "url": "https://www.ukrinform.ua/rubric-world/4177068-u-nimeccini-cogoric-zafiksuvali-ponad-tisacu-pidozrilih-prolotiv-droniv.html",
+      "date": "2026-10-22T18:20:00+00:00",
+      "excerpt": "У Німеччині з початку цього року до 19 серпня зафіксували 1034 випадки прольоту безпілотників над об'єктами критичної інфраструктури, військовими об'єктами та підприємствами оборонної промисловості. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_08/thumb_files/630_360_1786534020-909.jpeg",
       "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "«Театральна осінь – 2026» у Жмеринці: творчість, гумор і визнання – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/483054/teatralna-osin-2026-u-zhmerinci-tvorchist-gumor-i-viznannya",
-      "date": "2026-10-19T16:50:00+00:00",
-      "excerpt": "У Жмеринці відбувся обласний фестиваль театрального мистецтва «Театральна осінь – 2026»",
-      "image": "https://im2.abo.media/media/64/article/9c59fa484fa84596adb781c20fb6a9b1.webp",
-      "source": "Жмеринка.City"
     },
     {
       "area": "local",
@@ -116,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Бельгія хоче долучитися до антибалістичної програми FREYJA - прем’єр",
-      "url": "https://www.ukrinform.ua/rubric-ato/4177243-belgia-hoce-dolucitisa-do-antibalisticnoi-programi-freyja-premer.html",
-      "date": "2026-10-22T17:21:00+00:00",
-      "excerpt": "Бельгія зацікавлена в участі в загальноєвропейській програмі FREYJA зі створення антибалістичної системи та веде переговори з Україною щодо можливого приєднання до проєкту. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1761207467-332.jpeg",
-      "source": "Укрінформ"
+      "title": "Зеленський заявив, що очікує на доповідь Віткоффа після його зустрічі із Путіним",
+      "url": "https://suspilne.media/1434487-zelenskij-zaaviv-so-ocikue-na-dopovid-vitkoffa-pisla-jogo-zustrici-iz-putinim",
+      "date": "2026-10-22T18:17:12+00:00",
+      "excerpt": "Президент Володимир Зеленський заявив, що очікує на доповідь спецпредставника президента США Дональда Трампа Стіва Віткоффа після відвідин РФ, а потім очікується спільна доповідь переговорних команд. Про це він сказав під час спіл — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/75/75d4ca74ed3d0848a68ff9c1f52b405c257838c7c0fc253a0eccbc2a8fb95f10.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -143,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Репортаж з прифронтової Просяної, де залишилося близько сотні людей",
-      "url": "https://suspilne.media/dnipro/1434357-so-a-mozu-cekati-a-hocu-miru-reportaz-z-prifrontovoi-prosanoi-de-zalisilosa-blizko-sotni-ludej",
-      "date": "2026-10-22T17:20:17+00:00",
-      "excerpt": "Селище Просяна, що в Синельниківському районі Дніпропетровщини — розташоване за 30 кілометрів від лінії фронту. Нині населений пункт зруйнований наполовину: десятки побитих будинків, порожні вулиці та покинуті тварини. Репортаж — Суспільне Дніпро",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/23/23b2d0bfbe4d21514cfc601b0a54c31bfe72835fe937008966a12f81cc309ffa.jpg",
-      "source": "Суспільне"
+      "title": "Газові угоди ЄС з Росією неприпустимі, поки Кремль продовжує свою війну - Орпо",
+      "url": "https://www.ukrinform.ua/rubric-world/4177262-gazovi-ugodi-es-z-rosieu-nepripustimi-poki-kreml-prodovzue-svou-vijnu-orpo.html",
+      "date": "2026-10-22T18:17:00+00:00",
+      "excerpt": "Прем’єр-міністр Фінляндії Петтері Орпо виключив можливість укладення газових угод між країнами Євросоюзу та Росією в умовах триваючої російської агресії проти України, наголосивши на необхідності зменшення енергетичної залежності Європи. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792694203-814.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -157,6 +184,15 @@
       "date": "2026-10-19T10:25:00+00:00",
       "excerpt": "Опалювальний сезон у Жмеринській громаді розпочнеться з 20 жовтня: рішення виконкому",
       "image": "https://im2.abo.media/media/64/article/633ebb0b3b5a4b868add828c3e9b3c2c.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "Галина Мельник ділиться секретами обрядової випічки: у Жмеринці відроджують українські традиції – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482955/galina-melnik-dilitsya-sekretami-obryadovoi-vipichki-u-zhmerinci-vidrodzhuyut-ukrainski-tradicii",
+      "date": "2026-10-18T14:26:00+00:00",
+      "excerpt": "Галина Мельник ділиться секретами обрядової випічки: у Жмеринці відроджують українські традиції",
+      "image": "https://im2.abo.media/media/64/article/bb0a79dde8cd42e58ddb439423a51008.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -170,21 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Без участі Європи неможливо досягти тривалого миру в Україні - Мерц",
-      "url": "https://www.ukrinform.ua/rubric-world/4177242-bez-ucasti-evropi-nemozlivo-dosagti-trivalogo-miru-v-ukraini-merc.html",
-      "date": "2026-10-22T17:19:07+00:00",
-      "excerpt": "Досягнення тривалого миру в Україні неможливе без повноцінної участі європейських країн у переговорному процесі. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791128173-876.jpg",
+      "title": "У ніч на 25 жовтня Україна перейде на зимовий час",
+      "url": "https://www.ukrinform.ua/rubric-society/4169249-u-nic-na-25-zovtna-ukraina-perejde-na-zimovij-cas.html",
+      "date": "2026-10-22T18:16:00+00:00",
+      "excerpt": "У ніч із суботи, 24 жовтня, на неділю, 25-те, українці перейдуть на зимовий час, перевівши о четвертій годині ранку стрілки годинника на одну годину назад. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1761244461-688.jpg",
       "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "Галина Мельник ділиться секретами обрядової випічки: у Жмеринці відроджують українські традиції – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482955/galina-melnik-dilitsya-sekretami-obryadovoi-vipichki-u-zhmerinci-vidrodzhuyut-ukrainski-tradicii",
-      "date": "2026-10-18T14:26:00+00:00",
-      "excerpt": "Галина Мельник ділиться секретами обрядової випічки: у Жмеринці відроджують українські традиції",
-      "image": "https://im2.abo.media/media/64/article/bb0a79dde8cd42e58ddb439423a51008.webp",
-      "source": "Жмеринка.City"
     },
     {
       "area": "local",
@@ -206,12 +233,12 @@
     },
     {
       "area": "ukraine",
-      "title": "ПДВ на посилки та податковий контроль: Зеленський підписав законопроєкти",
-      "url": "https://suspilne.media/1434451-sistema-kontrolu-za-podatkovou-informacieu-ta-pdv-za-posilki-zelenskij-zatverdiv-kilka-zakonoproektiv",
-      "date": "2026-10-22T17:07:54+00:00",
-      "excerpt": "Президент Володимир Зеленський 22 жовтня затвердив законопроєкти, раніше ухвалені Верховною Радою. Йдеться про європейську систему контролю щодо податкової інформації, а також ПДВ на товари, придбані на маркетплейсах. — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/ae/ae7e8775c3573f7e6e6978f7f3d61e229a4c7a23dbe5047ca8eb9c1bf76c0b58.jpg",
-      "source": "Суспільне"
+      "title": "Зеленський поїде на саміт G20 у Флориду для переговорів із Трампом і Путіним, якщо буде запрошення",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4177259-zelenskij-poide-na-samit-g20-u-floridu-dla-peregovoriv-z-trampom-i-putinim-akso-bude-zaprosenna.html",
+      "date": "2026-10-22T18:15:00+00:00",
+      "excerpt": "Президент Володимир Зеленський запевнив, що поїде на саміт G20 у Флориді, якщо буде можливість провести там переговори з Президентом США Дональдом Трампом та російським диктатором Володимиром Путіним для досягнення мирних домовленостей, але запрошення на саміт він ще не отримав. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792694106-531.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -233,11 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Із тимчасово захоплених територій повернули ще 11 українців",
-      "url": "https://www.ukrinform.ua/rubric-society/4177234-iz-timcasovo-zahoplenih-teritorij-povernuli-se-11-ukrainciv.html",
-      "date": "2026-10-22T17:06:06+00:00",
-      "excerpt": "Ще 11 громадян України повернулися на підконтрольну Уряду України територію. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792688614-855.jpg",
+      "title": "Трамп попросив Маска зняти обмеження Starlink для України - WSJ",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4177257-tramp-poprosiv-maska-znati-obmezenna-starlink-dla-ukraini-wsj.html",
+      "date": "2026-10-22T18:11:00+00:00",
+      "excerpt": "Президент США Дональд Трамп зателефонував Ілону Маску й попросив його скасувати обмеження швидкості роботи військової версії Starlink в Україні, які запровадив керівник SpaceX. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_01/thumb_files/630_360_1769160720-836.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -247,33 +274,6 @@
       "date": "2026-10-14T20:46:00+00:00",
       "excerpt": "Володимир Горлей став лауреатом Всеукраїнської літературної премії імені Василя Юхимовича",
       "image": "https://im2.abo.media/media/64/article/eab17ec3b848460d829b26fd9a19ba0d.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "Вибухи у Вінниці 22 жовтня: що відомо",
-      "url": "https://suspilne.media/vinnytsia/1434307-vibuhi-u-vinnici-22-zovtna-so-vidomo",
-      "date": "2026-10-22T13:55:49+00:00",
-      "excerpt": "У Вінниці 22 жовтня під час повітряної тривоги пролунали звуки вибухів. Повітряні сили попереджали про рух реактивних БпЛА в напрямку міста. Кореспонденти Суспільного повідомили про вибухи та звуки роботи ППО. Наслідки уточнюються — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/e0/e008c7f9323beb94081202c512bfa25e63b7a5bb6febe06c598dfc2f733caff0.jpg",
-      "source": "Суспільне Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Справа «Карфаген»: суд взяв під варту ексочільника департаменту ОГП, застава - ₴8 мільйонів",
-      "url": "https://www.ukrinform.ua/rubric-society/4177231-sprava-karfagen-sud-vzav-pid-vartu-eksocilnika-departamentu-ogp-zastava-8-miljoniv.html",
-      "date": "2026-10-22T16:45:00+00:00",
-      "excerpt": "Вищий антикорупційний суд обрав запобіжний захід у вигляді тримання під вартою з альтернативою внесення 8 млн грн застави для ексочільника департаменту Офісу генпрокурора, який є фігурантом справи «Карфаген». — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792687420-773.jpg",
-      "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринці безкоштовно стригтимуть Захисників: меморандум Тетяни Горбачук і ветеранського простору – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482553/u-zhmerinci-bezkoshtovno-strigtimutzahisnikiv-memorandum-tetyani-gorbachuk-i-veteranskogo-prostoru",
-      "date": "2026-10-14T16:21:00+00:00",
-      "excerpt": "У Жмеринці безкоштовно стригтимуть Захисників: меморандум Тетяни Горбачук і ветеранського простору",
-      "image": "https://im2.abo.media/media/64/article/382a6b2dac7d467482106a0fa0311925.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -287,20 +287,20 @@
     },
     {
       "area": "region",
-      "title": "Вінницькі правоохоронці виявили 10 чоловіків у фурі серед молочної продукції",
-      "url": "https://suspilne.media/vinnytsia/1434217-sered-palet-iz-molocnou-produkcieu-vinnicki-pravoohoronci-viavili-10-colovikiv-u-furi-aka-pramuvala-do-moldovi",
-      "date": "2026-10-22T13:05:17+00:00",
-      "excerpt": "Вінницькі правоохоронці виявили 10 чоловіків, яких перевозили у фурі серед молочної продукції до кордону з Молдовою. Вартість переправлення — до $16 тисяч — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/6f/6f265b3f9b79c5a2cf7b00ddf6fe08a19b36789f8bebf88e6dcead6597adba31.jpg",
+      "title": "Вибухи у Вінниці 22 жовтня: що відомо",
+      "url": "https://suspilne.media/vinnytsia/1434307-vibuhi-u-vinnici-22-zovtna-so-vidomo",
+      "date": "2026-10-22T13:55:49+00:00",
+      "excerpt": "У Вінниці 22 жовтня під час повітряної тривоги пролунали звуки вибухів. Повітряні сили попереджали про рух реактивних БпЛА в напрямку міста. Кореспонденти Суспільного повідомили про вибухи та звуки роботи ППО. Наслідки уточнюються — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/e0/e008c7f9323beb94081202c512bfa25e63b7a5bb6febe06c598dfc2f733caff0.jpg",
       "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "«Це не щось особисте між мною і Трампом»: Зеленський прокоментував напругу у відносинах зі США",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4177232-zelenskij-nazvav-dvi-golovni-potrebi-ukraini-sankcii-proti-rosii-i-raketi.html",
-      "date": "2026-10-22T16:43:00+00:00",
-      "excerpt": "Президент Володимир Зеленський заявив, що напруга у відносинах зі Сполученими Штатами не пов’язана з особистими стосунками із Трампом, водночас наголосивши, що російський лідер Володимир Путін не має наміру припиняти війну проти України. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_02/thumb_files/630_360_1771408697-883.jpg",
+      "title": "Фінляндія передасть Україні 10 локомотивів і додаткову «зимову» допомогу - прем'єр",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4177255-finlandia-peredast-ukraini-10-lokomotiviv-i-dodatkovu-zimovu-dopomogu-premer.html",
+      "date": "2026-10-22T18:04:00+00:00",
+      "excerpt": "Фінляндія передасть Україні десять локомотивів для підтримки залізничного сполучення після російських атак, виділить 5 мільйонів євро на підтримку енергетики та додаткові 2 мільйони євро гуманітарної допомоги для підготовки до зими. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792692291-385.png",
       "source": "Укрінформ"
     },
     {
@@ -314,20 +314,20 @@
     },
     {
       "area": "region",
-      "title": "Опалення увімкнули у 62 закладах соцсфери: коли подадуть у житлові будинки",
-      "url": "https://suspilne.media/vinnytsia/1434065-u-vinnici-opalenna-uvimknuli-u-62-zakladah-socsferi-koli-teplo-podadut-u-zitlovi-budinki",
-      "date": "2026-10-22T11:56:46+00:00",
-      "excerpt": "У Вінниці станом на 22 жовтня опалення увімкнули у 62 закладах соціальної сфери. Коли тепло подадуть до 1225 житлових будинків громади — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/d3/d389443f7105e5eaf88220f557176079f7200f35561c2afb78702da65d45586f.jpg",
+      "title": "Вінницькі правоохоронці виявили 10 чоловіків у фурі серед молочної продукції",
+      "url": "https://suspilne.media/vinnytsia/1434217-sered-palet-iz-molocnou-produkcieu-vinnicki-pravoohoronci-viavili-10-colovikiv-u-furi-aka-pramuvala-do-moldovi",
+      "date": "2026-10-22T13:05:17+00:00",
+      "excerpt": "Вінницькі правоохоронці виявили 10 чоловіків, яких перевозили у фурі серед молочної продукції до кордону з Молдовою. Вартість переправлення — до $16 тисяч — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/6f/6f265b3f9b79c5a2cf7b00ddf6fe08a19b36789f8bebf88e6dcead6597adba31.jpg",
       "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Битва за Україну. День 1702: 2250! Рекордні втрати загарбників. Атака РФ «Іскандером» із касетною боєголовкою на Київ. Зеленський про ключові уроки війни",
-      "url": "https://www.ukrinform.ua/rubric-ato/4177229-bitva-za-ukrainu-den-1702-2250-rekordni-vtrati-rosijskih-zagarbnikiv-voroza-ataka-iskanderom-iz-kasetnou-boegolovkou-na-stolicu-prezident-zelenskij-okresliv-klucovi-uroki-vijni.html",
-      "date": "2026-10-22T16:40:00+00:00",
-      "excerpt": "Ворог зазнав рекордно високих добових втрат від початку війни. РФ завдала масованого удару по Україні, застосувавши балістичні ракети з касетними боєголовками. Президент України окреслив стратегічне бачення війни — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792687207-334.jpg",
+      "title": "Біля Керченського мосту шторм розірвав загородження з барж - супутникові знімки",
+      "url": "https://www.ukrinform.ua/rubric-regions/4177254-bila-kercenskogo-mostu-storm-rozirvav-zagorodzenna-z-barz-suputnikovi-znimki.html",
+      "date": "2026-10-22T18:03:36+00:00",
+      "excerpt": "Шторм розірвав загородження з барж біля Керченського мосту. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_01/thumb_files/630_360_1736322452-347.jpg",
       "source": "Укрінформ"
     },
     {
@@ -341,21 +341,21 @@
     },
     {
       "area": "region",
-      "title": "Вінниця отримала трансформатор із Німеччини для посилення енергетичної стійкості - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/vinnitsya-otrimala-transformator-iz-nimechchini-dlya-posilennya-energe-12010694.html",
-      "date": "2026-10-22T11:24:00+00:00",
-      "excerpt": "[22:10:2026] Вінниця отримала трансформатор із Німеччини для посилення енергетичної стійкості ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/59/4158191-vinnitsya-otrimala-transformator-iz-nimechchini-dlya-posilennya-energetichnoyi-stiykosti.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "Опалення увімкнули у 62 закладах соцсфери: коли подадуть у житлові будинки",
+      "url": "https://suspilne.media/vinnytsia/1434065-u-vinnici-opalenna-uvimknuli-u-62-zakladah-socsferi-koli-teplo-podadut-u-zitlovi-budinki",
+      "date": "2026-10-22T11:56:46+00:00",
+      "excerpt": "У Вінниці станом на 22 жовтня опалення увімкнули у 62 закладах соціальної сфери. Коли тепло подадуть до 1225 житлових будинків громади — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/d3/d389443f7105e5eaf88220f557176079f7200f35561c2afb78702da65d45586f.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "У Нідерландах кількість випадків зараження вірусом Західного Нілу зросла до 72",
-      "url": "https://www.ukrinform.ua/rubric-world/4177227-u-niderlandah-kilkist-vipadkiv-zarazenna-virusom-zahidnogo-nilu-zrosla-do-72.html",
-      "date": "2026-10-22T16:33:00+00:00",
-      "excerpt": "У Нідерландах число заражень лихоманкою Західного Нілу зросло до 72, за останній тиждень було діагностовано 8 випадків. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2021_01/thumb_files/630_360_1611040667-505.jpg",
-      "source": "Укрінформ"
+      "title": "Фінляндія оголосила новий пакет допомоги Україні: Зеленський розкрив деталі",
+      "url": "https://suspilne.media/1434479-finlandia-ogolosila-novij-paket-dopomogi-ukraini-zelenskij-rozkriv-detali-domovlenostej",
+      "date": "2026-10-22T17:57:12+00:00",
+      "excerpt": "Президент Володимир Зеленський повідомив про новий пакет підтримки України від Фінляндії. За підсумками переговорів із прем'єр-міністром Петтері Орпо у Києві сторони також підписали сім документів загальною вартістю 300 мільйонів — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/b8/b8777e36ccfe28ddd36c5cb065d31c9bd08d3cb909b3c1d87cc9b1409467a8c3.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
