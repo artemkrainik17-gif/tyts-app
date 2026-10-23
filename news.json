@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T00:52:13.630935+00:00",
+  "updated_at": "2026-10-23T01:46:11.678356+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-23T00:50:40+00:00",
+      "date": "2026-10-23T01:44:43+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,12 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Литві дві повітряні кулі з цигарками вибухнули після зіткнення з ЛЕП",
-      "url": "https://www.ukrinform.ua/rubric-world/4177122-u-litvi-dvi-povitrani-kuli-z-cigarkami-vibuhnuli-pisla-zitknenna-z-lep.html",
-      "date": "2026-10-23T00:46:00+00:00",
-      "excerpt": "У центральній частині Литви вибухнули дві повітряні кулі, завантажені контрабандними цигарками, після зіткнення з лініями електропередачі. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792671120-200.jpg",
-      "source": "Укрінформ"
+      "title": "У Японії під час посадки українського Ан-124 помітили полум'я",
+      "url": "https://suspilne.media/1434557-aponskij-aeroport-na-15-hvilin-zakriv-smugu-cerez-poluma-na-ukrainskomu-vantaznomu-litaku",
+      "date": "2026-10-23T01:38:20+00:00",
+      "excerpt": "22 жовтня вантажний літак Авіаліній Антонова, що прилетів зі США, ненадовго зупинився на смузі аеропорту Тюбу. Огляд не підтвердив пожежі, обставини з'ясовує Міністерство землі, інфраструктури, транспорту й туризму Японії — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/7d/7d36631780afbed5fbf2fce155e69c213ba4af198905709bec8836dbdc48ca1d.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -80,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Ворог масовано атакував Суми дронами - щонайменше двоє людей постраждали",
-      "url": "https://www.ukrinform.ua/rubric-regions/4177310-rosiani-masovano-atakuvali-sumi-dronami-sonajmense-dvoe-ludej-postrazdali.html",
-      "date": "2026-10-23T00:29:00+00:00",
-      "excerpt": "У ніч проти 23 жовтня російські війська масовано атакували Суми ударними дронами, постраждали щонайменше двоє людей, пошкоджені об'єкти цивільної інфраструктури. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_11/thumb_files/630_360_1732800411-699.png",
-      "source": "Укрінформ"
+      "title": "АР: В адміністрації Трампа – суперечливі сигнали про обмеження доступу України до Starshield",
+      "url": "https://www.pravda.com.ua/news/2026/10/23/8059323",
+      "date": "2026-10-23T01:16:00+00:00",
+      "excerpt": "ЗМІ пишуть, що в адміністрації Трампа суперечливі сигнали про обмеження доступу України до Starshield.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/4/9/941694/49b8012cfe4fe4b981b0549435374d8d.jpeg?w=1200&q=85&stamp=1792718413",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -116,12 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни масовано атакували Суми безпілотниками – ОВА",
-      "url": "https://www.pravda.com.ua/news/2026/10/23/8059322",
-      "date": "2026-10-23T00:20:00+00:00",
-      "excerpt": "Про атаку дронів на Суми повідомили в ОВА в ніч на 23 жовтня.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/b/e/941685/be73f2629e8ac5d9ba8b2b4d27b47178.jpeg?w=1200&q=85&stamp=1792714987",
-      "source": "Українська правда"
+      "title": "ЄС виділить Естонії €32 мільйони на посилення моніторингу східного кордону",
+      "url": "https://www.ukrinform.ua/rubric-world/4177184-es-vidilit-estonii-32-miljoni-na-posilenna-monitoringu-shidnogo-kordonu.html",
+      "date": "2026-10-23T01:15:00+00:00",
+      "excerpt": "Естонія отримає від Європейського Союзу 32 млн євро на створення системи моніторингу за допомогою безпілотників. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1772793898-131.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -143,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Харкові створили перший в місті антидроновий коридор (ВІДЕО)",
-      "url": "https://suspilne.media/1434547-u-harkovi-stvorili-persij-v-misti-antidronovij-koridor-video",
-      "date": "2026-10-23T00:10:34+00:00",
-      "excerpt": "Сітками від російських дронів у Харкові затягнули дорогу, найближчу до фронту в межах міста. Це зробила вінницька 70-та окрема бригада, яка за два роки облаштувала понад 200 кілометрів такого захисту на Донеччині й Харківщині — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/5b/5bd6f75ac4169537c1182ffc3a1bf10d836608095ddd68c9405f6af648e6881a.jpg",
-      "source": "Суспільне"
+      "title": "У Литві дві повітряні кулі з цигарками вибухнули після зіткнення з ЛЕП",
+      "url": "https://www.ukrinform.ua/rubric-world/4177122-u-litvi-dvi-povitrani-kuli-z-cigarkami-vibuhnuli-pisla-zitknenna-z-lep.html",
+      "date": "2026-10-23T00:46:00+00:00",
+      "excerpt": "У центральній частині Литви вибухнули дві повітряні кулі, завантажені контрабандними цигарками, після зіткнення з лініями електропередачі. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792671120-200.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -170,11 +170,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У Нігері звільнили двох європейок, які понад рік перебували у полоні",
-      "url": "https://www.ukrinform.ua/rubric-world/4177180-u-nigeri-zvilnili-dvoh-evropejok-aki-ponad-rik-perebuvali-u-poloni.html",
-      "date": "2026-10-23T00:10:00+00:00",
-      "excerpt": "Двох полонених громадянок - зі Швейцарії та Австрії - звільнили після понад року перебування в полоні у Нігері. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792678513-501.png",
+      "title": "Ворог масовано атакував Суми дронами - щонайменше двоє людей постраждали",
+      "url": "https://www.ukrinform.ua/rubric-regions/4177310-rosiani-masovano-atakuvali-sumi-dronami-sonajmense-dvoe-ludej-postrazdali.html",
+      "date": "2026-10-23T00:29:00+00:00",
+      "excerpt": "У ніч проти 23 жовтня російські війська масовано атакували Суми ударними дронами, постраждали щонайменше двоє людей, пошкоджені об'єкти цивільної інфраструктури. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_11/thumb_files/630_360_1732800411-699.png",
       "source": "Укрінформ"
     },
     {
@@ -206,11 +206,11 @@
     },
     {
       "area": "ukraine",
-      "title": "В японському аеропорту загорівся український літак \"Руслан\"",
-      "url": "https://www.pravda.com.ua/news/2026/10/23/8059320",
-      "date": "2026-10-22T23:58:00+00:00",
-      "excerpt": "У японському аеропорту Chubu Centrair сталося займання українського транспортного літака Ан-124-100 \"Руслан\" авіакомпанії \"Авіалінії Антонова\".",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/7/941681/f7403efa569ffa518837197f8d0e32a6.jpeg?w=1200&q=85&stamp=1792713732",
+      "title": "Росіяни масовано атакували Суми безпілотниками – ОВА",
+      "url": "https://www.pravda.com.ua/news/2026/10/23/8059322",
+      "date": "2026-10-23T00:20:00+00:00",
+      "excerpt": "Про атаку дронів на Суми повідомили в ОВА в ніч на 23 жовтня.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/b/e/941685/be73f2629e8ac5d9ba8b2b4d27b47178.jpeg?w=1200&q=85&stamp=1792714987",
       "source": "Українська правда"
     },
     {
@@ -233,12 +233,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Трамп просив Google перейменувати Атлантичний океан, але дістав відмову",
-      "url": "https://www.ukrinform.ua/rubric-world/4177309-tramp-prosiv-google-perejmenuvati-atlanticnij-okean-ale-distav-vidmovu.html",
-      "date": "2026-10-22T23:51:00+00:00",
-      "excerpt": "Президент США Дональд Трамп заявив, що просив гендиректора Google Сундара Пічаї перейменувати Атлантичний океан, однак компанія відхилила його пропозицію. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_06/thumb_files/630_360_1781609685-124.jpg",
-      "source": "Укрінформ"
+      "title": "У Харкові створили перший в місті антидроновий коридор (ВІДЕО)",
+      "url": "https://suspilne.media/1434547-u-harkovi-stvorili-persij-v-misti-antidronovij-koridor-video",
+      "date": "2026-10-23T00:10:34+00:00",
+      "excerpt": "Сітками від російських дронів у Харкові затягнули дорогу, найближчу до фронту в межах міста. Це зробила вінницька 70-та окрема бригада, яка за два роки облаштувала понад 200 кілометрів такого захисту на Донеччині й Харківщині — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/5b/5bd6f75ac4169537c1182ffc3a1bf10d836608095ddd68c9405f6af648e6881a.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -260,11 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни на ТОТ проводять рейди проти нелегалів для залякування українців без паспортів РФ",
-      "url": "https://www.ukrinform.ua/rubric-regions/4177139-rosiani-na-tot-provodat-rejdi-proti-nelegaliv-dla-zalakuvanna-ukrainciv-bez-pasportiv-rf.html",
-      "date": "2026-10-22T23:41:00+00:00",
-      "excerpt": "Росія проводить на тимчасово окупованих територіях операцію “Нелегал-2026”, під час якої шукають українців, що відмовивилися отримувати громадянство держави-агресора. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2021_12/thumb_files/630_360_1639473341-759.jpg",
+      "title": "У Нігері звільнили двох європейок, які понад рік перебували у полоні",
+      "url": "https://www.ukrinform.ua/rubric-world/4177180-u-nigeri-zvilnili-dvoh-evropejok-aki-ponad-rik-perebuvali-u-poloni.html",
+      "date": "2026-10-23T00:10:00+00:00",
+      "excerpt": "Двох полонених громадянок - зі Швейцарії та Австрії - звільнили після понад року перебування в полоні у Нігері. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792678513-501.png",
       "source": "Укрінформ"
     },
     {
@@ -296,11 +296,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Розрахунки Трампа на проміжні вибори у США вносять плутанину в політику щодо України – Reuters",
-      "url": "https://www.pravda.com.ua/news/2026/10/23/8059319",
-      "date": "2026-10-22T23:22:00+00:00",
-      "excerpt": "Reuters пояснює, як проміжні вибори у США внесли плутанину в політику Трампа щодо України.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/7/9/941680/793f02670c14b1f1b1eed1df34446a5c.jpeg?w=1200&q=85&stamp=1792711105",
+      "title": "В японському аеропорту загорівся український літак \"Руслан\"",
+      "url": "https://www.pravda.com.ua/news/2026/10/23/8059320",
+      "date": "2026-10-22T23:58:00+00:00",
+      "excerpt": "У японському аеропорту Chubu Centrair сталося займання українського транспортного літака Ан-124-100 \"Руслан\" авіакомпанії \"Авіалінії Антонова\".",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/7/941681/f7403efa569ffa518837197f8d0e32a6.jpeg?w=1200&q=85&stamp=1792713732",
       "source": "Українська правда"
     },
     {
@@ -323,11 +323,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Досягнути миру шляхом переговорів неможливо, поки Путін при владі - президент Інституту Хадсона",
-      "url": "https://www.ukrinform.ua/rubric-ato/4177013-dosagnuti-miru-slahom-peregovoriv-nemozlivo-poki-putin-pri-vladi-prezident-institutu-hadsona.html",
-      "date": "2026-10-22T23:22:00+00:00",
-      "excerpt": "Правління російського диктатора Путіна залежить від продовження війни, тому Заходу необхідна стратегія, яка передбачає зміцнення України, стримування Росії та підготовку до змін після його відходу від влади. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_06/thumb_files/630_360_1780931203-602.jpg",
+      "title": "Трамп просив Google перейменувати Атлантичний океан, але дістав відмову",
+      "url": "https://www.ukrinform.ua/rubric-world/4177309-tramp-prosiv-google-perejmenuvati-atlanticnij-okean-ale-distav-vidmovu.html",
+      "date": "2026-10-22T23:51:00+00:00",
+      "excerpt": "Президент США Дональд Трамп заявив, що просив гендиректора Google Сундара Пічаї перейменувати Атлантичний океан, однак компанія відхилила його пропозицію. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_06/thumb_files/630_360_1781609685-124.jpg",
       "source": "Укрінформ"
     },
     {
@@ -350,12 +350,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У ніч на 25 жовтня Україна перейде на зимовий час",
-      "url": "https://www.ukrinform.ua/rubric-society/4169249-u-nic-na-25-zovtna-ukraina-perejde-na-zimovij-cas.html",
-      "date": "2026-10-22T23:14:00+00:00",
-      "excerpt": "У ніч із суботи, 24 жовтня, на неділю, 25-те, українці перейдуть на зимовий час, перевівши о четвертій годині ранку стрілки годинника на одну годину назад. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1761244461-688.jpg",
-      "source": "Укрінформ"
+      "title": "Землетрус у Тибеті зруйнував сотні будинків: загинули щонайменше 16 людей",
+      "url": "https://suspilne.media/1434549-u-tibeti-stavsa-najpotuznisij-za-pat-rokiv-zemletrus-zaginuli-sonajmense-16-ludej",
+      "date": "2026-10-22T23:49:13+00:00",
+      "excerpt": "У місті Нагчу в Тибеті 22 жовтня обвалилися щонайменше 339 будинків, 11 травмованих перебувають у тяжкому стані. До рятувальних робіт залучили понад 1600 людей, у частині регіону не працює зв'язок, а рух поїздів зупинили — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/76/76db4257ebd70601cb3b73632d82f0c9b74ddebf19d78215e4a13881e6279988.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
