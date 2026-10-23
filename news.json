@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T07:51:09.530264+00:00",
+  "updated_at": "2026-10-23T08:42:58.865856+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-23T07:49:53+00:00",
+      "date": "2026-10-23T08:41:48+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,12 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Макрон зустрінеться з представниками студентських протестів та поліції",
-      "url": "https://suspilne.media/1434739-makron-zustrinetsa-z-predstavnikami-studentskih-protestiv-ta-policii",
-      "date": "2026-10-23T07:42:14+00:00",
-      "excerpt": "Президент Франції Емманюель Макрон зустрінеться з представниками студентських протестів та правоохоронних органів перед запланованими на 24 жовтня демонстраціями — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/76/76a1c8f57b050671aff1f4912dab812b14df1dad16c3496d82bcc612789563df.jpg",
-      "source": "Суспільне"
+      "title": "В окремих областях застосовуються аварійні знеструмлення - Укренерго",
+      "url": "https://www.ukrinform.ua/rubric-regions/4177400-v-okremih-oblastah-zastosovuutsa-avarijni-znestrumlenna-ukrenergo.html",
+      "date": "2026-10-23T08:28:28+00:00",
+      "excerpt": "Станом на 11:10 через наслідки російських обстрілів енергетики в окремих областях застосовують аварійні відключення світла. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1760689490-502.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -71,20 +71,20 @@
     },
     {
       "area": "region",
-      "title": "Врятував побратимів ціною власного життя. Вінниця прощається з 51-річним Андрієм Жуковським - 20 хвилин",
-      "url": "https://vn.20minut.ua/lyudi/vryatuvav-pobratimiv-tsinoyu-vlasnogo-zhittya-vinnitsya-proschaetsya-z-12010785.html",
-      "date": "2026-10-23T06:36:00+00:00",
-      "excerpt": "[23:10:2026] Врятував побратимів ціною власного життя. Вінниця прощається з 51-річним Андрієм Жуковським ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/60/4159121-vryatuvav-pobratimiv-tsinoyu-vlasnogo-zhittya-vinnitsya-proschaetsya-z-51-richnim-andriem-zhukovskim.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "Внаслідок атаки РФ пошкоджена енергетична й промислова інфраструктура",
+      "url": "https://suspilne.media/vinnytsia/1434655-na-vinniccini-vnaslidok-masovanoi-ataki-poskodzena-energeticna-ta-promislova-infrastruktura",
+      "date": "2026-10-23T06:46:58+00:00",
+      "excerpt": "Упродовж минулої доби Вінниччина зазнала масованої атаки РФ. Внаслідок обстрілів пошкоджені об'єкти енергетичної та промислової інфраструктури, приватні будинки й господарські споруди — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/4c/4c26fbbfa03c72113c817d84355159bd978edbc89963b27647a48b7c8c30b375.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "На Житомирщині затримали юнку, яка допомагала ФСБ отруювати військових, 2 померли – поліція",
-      "url": "https://www.pravda.com.ua/news/2026/10/23/8059358",
-      "date": "2026-10-23T07:38:00+00:00",
-      "excerpt": "17-річну підозрюють у пересиланні наркотиків за завданням ФСБ, двоє військових загинули. Дівчину перевіряють на причетність до інших злочинів, їй загрожує до 15 років тюрми – поліція.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/d/3/941830/d3efbc3558760e91ad553bcb4b1564a6.jpeg?w=1200&q=85&stamp=1792741111",
+      "title": "ЗМІ назвали п’ятьох кандидатів на роль перемовників з РФ щодо закінчення війни в Україні",
+      "url": "https://www.pravda.com.ua/news/2026/10/23/8059369",
+      "date": "2026-10-23T08:26:00+00:00",
+      "excerpt": "Європейські лідери шукають представників для переговорів із Росією. Розглядаються президент Чехії Павел, прем'єри Данії, Італії, Норвегії та Фінляндії.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/a/941864/5af334b36e85f80b34174d82ed87503f.jpeg?w=1200&q=85&stamp=1792743899",
       "source": "Українська правда"
     },
     {
@@ -107,21 +107,21 @@
     },
     {
       "area": "region",
-      "title": "23 жовтня у Вінниці прощаються з полеглим Андрієм Жуковським на псевдо «Монах»",
-      "url": "https://suspilne.media/vinnytsia/1434619-23-zovtna-u-vinnici-prosautsa-z-poleglim-andriem-zukovskim-na-psevdo-monah",
-      "date": "2026-10-23T05:55:13+00:00",
-      "excerpt": "23 жовтня у Вінниці прощаються з полеглим Андрієм Жуковським на псевдо «Монах». Чоловік був командиро зенітно-кулеметного взводу. Загинув на Донеччині влітку 2026 — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/92/92f1960454c65e73d926e726c9edf65914f4be746c8b1b602494a0581be93534.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "Врятував побратимів ціною власного життя. Вінниця прощається з 51-річним Андрієм Жуковським - 20 хвилин",
+      "url": "https://vn.20minut.ua/lyudi/vryatuvav-pobratimiv-tsinoyu-vlasnogo-zhittya-vinnitsya-proschaetsya-z-12010785.html",
+      "date": "2026-10-23T06:36:00+00:00",
+      "excerpt": "[23:10:2026] Врятував побратимів ціною власного життя. Вінниця прощається з 51-річним Андрієм Жуковським ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/60/4159121-vryatuvav-pobratimiv-tsinoyu-vlasnogo-zhittya-vinnitsya-proschaetsya-z-51-richnim-andriem-zhukovskim.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Кількість жертв удару по ринку в Лозовій на Харківщині зросла до трьох",
-      "url": "https://www.ukrinform.ua/rubric-regions/4177386-kilkist-zertv-udaru-po-rinku-v-lozovij-na-harkivsini-zrosla-do-troh.html",
-      "date": "2026-10-23T07:37:00+00:00",
-      "excerpt": "Унаслідок російського удару по ринку в Лозовій на Харківщині померла ще одна постраждала, кількість загиблих зросла до трьох. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792741533-900.jpg",
-      "source": "Укрінформ"
+      "title": "У Міноборони не спостерігають покращення роботи Starlink на фронті",
+      "url": "https://suspilne.media/1434833-u-minoboroni-ne-sposterigaut-pokrasenna-roboti-starlink-na-fronti",
+      "date": "2026-10-23T08:23:27+00:00",
+      "excerpt": "У Міністерстві оборони України спостерігають випадки втрати звʼязку на швидкості 161 км/год у супутникових системах звʼязку Starlink та Starshield — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/d0/d0e92643158880ef71c6fdd179d54db1332b3eac2093c422b609ec0114aa8bd2.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -134,21 +134,21 @@
     },
     {
       "area": "region",
-      "title": "Внаслідок атаки РФ пошкоджена енергетична й промислова інфраструктура",
-      "url": "https://suspilne.media/vinnytsia/1434655-na-vinniccini-vnaslidok-masovanoi-ataki-poskodzena-energeticna-ta-promislova-infrastruktura",
-      "date": "2026-10-23T03:46:58+00:00",
-      "excerpt": "Упродовж минулої доби Вінниччина зазнала масованої атаки РФ. Внаслідок обстрілів пошкоджені об'єкти енергетичної та промислової інфраструктури, приватні будинки й господарські споруди — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/4c/4c26fbbfa03c72113c817d84355159bd978edbc89963b27647a48b7c8c30b375.jpg",
+      "title": "23 жовтня у Вінниці прощаються з полеглим Андрієм Жуковським на псевдо «Монах»",
+      "url": "https://suspilne.media/vinnytsia/1434619-23-zovtna-u-vinnici-prosautsa-z-poleglim-andriem-zukovskim-na-psevdo-monah",
+      "date": "2026-10-23T05:55:13+00:00",
+      "excerpt": "23 жовтня у Вінниці прощаються з полеглим Андрієм Жуковським на псевдо «Монах». Чоловік був командиро зенітно-кулеметного взводу. Загинув на Донеччині влітку 2026 — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/92/92f1960454c65e73d926e726c9edf65914f4be746c8b1b602494a0581be93534.jpg",
       "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Дрони атакували хімзавод «Азот» у Пермському краї - ЗМІ",
-      "url": "https://www.ukrinform.ua/rubric-world/4177382-droni-atakuvali-himzavod-azot-u-permskomu-krai-zmi.html",
-      "date": "2026-10-23T07:35:00+00:00",
-      "excerpt": "У п’ятницю вранці, 23 жовтня, безпілотники уразили російський хімічний завод «Азот» у Пермському краї. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1764081786-428.jpg",
-      "source": "Укрінформ"
+      "title": "В Україні не підтверджують зняття обмежень швидкості Starlink/Starshield",
+      "url": "https://www.pravda.com.ua/news/2026/10/23/8059366",
+      "date": "2026-10-23T08:22:00+00:00",
+      "excerpt": "В Міністерстві оборони України наразі так само фіксують перебої в роботі Starlink/Starshield на фронті.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/4/c/941865/4c72c28e7155213c08f1f5144c5994f0.jpeg?w=1200&q=85&stamp=1792743923",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -170,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Курси долара та євро на 23 жовтня",
-      "url": "https://www.ukrinform.ua/rubric-economy/4177380-kursi-dolara-ta-evro-na-23-zovtna.html",
-      "date": "2026-10-23T07:31:20+00:00",
-      "excerpt": "Долар офіційно подорожчав на 3 копійки, євро подешевшав на 13 копійок. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2023_03/thumb_files/630_360_1679320501-539.png",
-      "source": "Укрінформ"
+      "title": "23 жовтня в деяких регіонах України запровадили аварійні відключення світла",
+      "url": "https://suspilne.media/1434811-u-castini-regioniv-ukraini-zaprovadili-avarijni-vidklucenna-svitla-cerez-obstrili-rf",
+      "date": "2026-10-23T08:21:08+00:00",
+      "excerpt": "Компанія зазначила, що раніше оприлюднені графіки знеструмлень у регіонах, де застосовані аварійні відключення, наразі не діють, проте ситуація впродовж дня може змінюватись — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/35/35838207e9e760bbe3d43ace0cbc2b2bebbe3e75688b7916a496400886fd059b.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -206,11 +206,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни вдарили по підприємству на Дніпропетровщині, поранені двоє людей",
-      "url": "https://www.ukrinform.ua/rubric-regions/4177379-rosiani-atakuvali-pidpriemstvo-na-dnipropetrovsini-poraneni-dvoe-ludej.html",
-      "date": "2026-10-23T07:30:00+00:00",
-      "excerpt": "Війська РФ атакували підприємство у Дніпровському районі, поранені двоє людей. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590714-109.jpeg",
+      "title": "Обмеження швидкості терміналів Starlink поки не зняті - джерела в Міноборони",
+      "url": "https://www.ukrinform.ua/rubric-ato/4177397-obmezenna-svidkosti-terminaliv-starlink-poki-ne-znati-dzerela-v-minoboroni.html",
+      "date": "2026-10-23T08:08:00+00:00",
+      "excerpt": "Станом на ранок 23 жовтня фіксуються випадки втрати зв’язку через супутникову систему Starshield на швидкості 161 км/год. Підтверджень скасування обмежень наразі немає. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_02/thumb_files/630_360_1771251261-545.jpg",
       "source": "Укрінформ"
     },
     {
@@ -233,11 +233,11 @@
     },
     {
       "area": "ukraine",
-      "title": "На Волині через атаки РФ є знеструмлення, постраждала людина",
-      "url": "https://www.ukrinform.ua/rubric-regions/4177374-na-volini-cerez-ataki-rf-e-znestrumlenna-postrazdala-ludina.html",
-      "date": "2026-10-23T07:26:00+00:00",
-      "excerpt": "У Волинській області через російські дронові атаки травмована людина, без електропостачання залишилося майже 105 тис. абонентів. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590204-860.jpeg",
+      "title": "Посилки з наркотиками: на Житомирщині затримали дівчину, яку підозрюють в отруєнні українських військових",
+      "url": "https://www.ukrinform.ua/rubric-regions/4177395-posilki-z-narkotikami-na-zitomirsini-zatrimali-divcinu-aku-pidozruut-v-otruenni-ukrainskih-vijskovih.html",
+      "date": "2026-10-23T08:07:00+00:00",
+      "excerpt": "Поліцейські Житомирщини затримали 17-річну дівчину, яка, за даними слідства, допомагала ФСБ отруювати українських військових. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2017_07/thumb_files/630_360_1501220558-6401.jpg",
       "source": "Укрінформ"
     },
     {
@@ -260,11 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Помер японський письменник Рю Муракамі",
-      "url": "https://www.ukrinform.ua/rubric-culture/4177372-pomer-aponskij-pismennik-ru-murakami.html",
-      "date": "2026-10-23T07:25:00+00:00",
-      "excerpt": "Помер японський письменник Рю Муракамі, чиї гострі твори досліджували секс, насильство та молодіжну культуру і були перекладені різними мовами по всьому світу. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792740159-762.jpg",
+      "title": "У Києві та області екстрені відключення світла",
+      "url": "https://www.ukrinform.ua/rubric-economy/4177394-u-kievi-ta-oblasti-ekstreni-vidklucenna-svitla.html",
+      "date": "2026-10-23T07:59:00+00:00",
+      "excerpt": "У Києві та Київській області станом на 10:40 п'ятниці застосовані екстрені відключення електроенергії. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590204-860.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -296,12 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Європарламент закликав ЄС до військової операції у Чорному морі",
-      "url": "https://suspilne.media/1434677-evroparlament-zaklikav-es-do-vijskovoi-operacii-u-cornomu-mori",
-      "date": "2026-10-23T07:24:19+00:00",
-      "excerpt": "Європейський парламент опублікував заклик до Євросоюзу провести військову операцію в Чорному морі через обстріли вантажних суден. Європарламент розкритикував уряд Болгарії через «слабку дипломатичну реакцію» на російську загрозу — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/c2/c215e003d11730c9f8ffaca2a8d02a61105f801a254df640fe0bd128eaa3026a.jpg",
-      "source": "Суспільне"
+      "title": "Через російські атаки є знеструмлення у восьми областях - Укренерго",
+      "url": "https://www.ukrinform.ua/rubric-economy/4177392-cerez-rosijski-ataki-e-znestrumlenna-u-vosmi-oblastah-ukrenergo.html",
+      "date": "2026-10-23T07:56:26+00:00",
+      "excerpt": "Станом на ранок 23 жовтня через російські обстріли є знеструмлені споживачі у восьми областях; графіки відключення світла обсягом до 2 черг застосовуються на частині території країни. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590204-860.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -323,11 +323,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Російські судна після проходження Босфору вимикають системи ідентифікації - Плетенчук",
-      "url": "https://www.ukrinform.ua/rubric-world/4177371-rosijski-sudna-pisla-prohodzenna-bosforu-vimikaut-sistemi-identifikacii-pletencuk.html",
-      "date": "2026-10-23T07:24:01+00:00",
-      "excerpt": "Російські судна після перетину протоки Босфор вимикають системи ідентифікації AIS, щоб приховати своє місцезнаходження. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_08/thumb_files/630_360_1754395511-248.jpg",
+      "title": "Росія готує операції з дестабілізації Європи під чужим прапором - ГУР",
+      "url": "https://www.ukrinform.ua/rubric-ato/4177391-rosia-gotue-operacii-z-destabilizacii-evropi-pid-cuzim-praporom-gur.html",
+      "date": "2026-10-23T07:55:00+00:00",
+      "excerpt": "Росія готує під чужим прапором операції з дестабілізації в Європі з подальшим звинуваченням у цьому України. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1790945801-436.png",
       "source": "Укрінформ"
     },
     {
@@ -350,11 +350,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Київ для водоканалу замовив «дизельні електростанції» - Кличко",
-      "url": "https://www.ukrinform.ua/rubric-regions/4177369-kiiv-dla-vodokanalu-zamoviv-dizelni-elektrostancii-klicko.html",
-      "date": "2026-10-23T07:20:34+00:00",
-      "excerpt": "Київ замовив генератори великої потужності для забезпечення роботи водоканалу під час можливих знеструмлень. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792739526-553.png",
+      "title": "Війська РФ завдали удару по Дніпру, виникла пожежа",
+      "url": "https://www.ukrinform.ua/rubric-regions/4177393-vijska-rf-zavdali-udaru-po-dnipru-vinikla-pozeza.html",
+      "date": "2026-10-23T07:53:00+00:00",
+      "excerpt": "Російські загарбники вдарили по Дніпру, виникла пожежа. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792742155-861.jpg",
       "source": "Укрінформ"
     },
     {
