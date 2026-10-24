@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T20:35:42.889681+00:00",
+  "updated_at": "2026-10-24T21:36:55.136764+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-24T20:34:16+00:00",
+      "date": "2026-10-24T21:35:43+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,11 +53,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Сибіга попередив про небезпеку відновлення постачання газу з Росії в Європу",
-      "url": "https://suspilne.media/1436175-sibiga-poperediv-pro-nebezpeku-vidnovlenna-postacanna-gazu-z-rosii-v-evropu-2",
-      "date": "2026-10-24T20:30:20+00:00",
-      "excerpt": "Відновлення продажів російського газу до Європи є небезпечною та недосконалою ідеєю, яка поверне енергетичний шантаж. Будь-які поступки Москві призведуть лише до нових воєн і криз — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/28/28393ac6f35122dac1db1dcf1881e5976288aac3022fa842a503c5fe336914c3.jpg",
+      "title": "Стрілянина в Києві, Starlink відновили роботу без обмежень швидкості",
+      "url": "https://suspilne.media/1436171-strilanina-v-kievi-starlink-vidnoviv-robotu-bez-obmezen-svidkosti-1705-den-vijni",
+      "date": "2026-10-24T21:14:31+00:00",
+      "excerpt": "Обмеження на швидкість роботи Starlink та Starshield скасували, водночас Маск заявив про порушення умов використання з боку українських військових. У Києві сталася стрілянина, є загиблі — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/df/df9254fb2f06286ff7246583b3b216f6492e520acfda097686b1fa9a5cf79029.jpg",
       "source": "Суспільне"
     },
     {
@@ -80,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Сьогодні вночі Україна переходить на зимовий час",
-      "url": "https://www.ukrinform.ua/rubric-society/4169249-u-nic-na-25-zovtna-ukraina-perejde-na-zimovij-cas.html",
-      "date": "2026-10-24T20:15:00+00:00",
-      "excerpt": "У ніч із суботи, 24 жовтня, на неділю, 25-те, українці перейдуть на зимовий час, перевівши о четвертій годині ранку стрілки годинника на одну годину назад. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1761244461-688.jpg",
-      "source": "Укрінформ"
+      "title": "Маск звинуватив українських військових у порушенні правил Starlink",
+      "url": "https://suspilne.media/1436177-mask-zvinuvativ-ukrainskih-vijskovih-u-porusenni-pravil-starlink-fles-nagadav-jomu-pro-obmezenna-servisu",
+      "date": "2026-10-24T20:58:28+00:00",
+      "excerpt": "Засновник SpaceX Ілон Маск 24 жовтня написав, що цивільний Starlink не можна використовувати для наступальних ударів дронами. За його словами, без цього сервісу фронт в Україні негайно обвалився б — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/94/947e7ae1ebda5ee09f538a908dc7630f33a20c9c08357490f6fa11507b7d0dc8.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -116,12 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "На фронті 117 боїв: найбільше росіяни атакували Покровський і ще 2 напрямки",
-      "url": "https://www.pravda.com.ua/news/2026/10/24/8059581",
-      "date": "2026-10-24T20:01:00+00:00",
-      "excerpt": "За добу відбулося 117 бойових зіткнень: основні бої на Костянтинівському, Покровському та Гуляйпільському напрямках.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/c/943198/5c9d3c369eed7b7a3f356a3623dd642c.jpeg?w=1200&q=85&stamp=1792872143",
-      "source": "Українська правда"
+      "title": "Російський дрон атакував Харків: є загиблий та поранені",
+      "url": "https://www.ukrinform.ua/rubric-regions/4177884-rosijskij-dron-atakuvav-harkiv-troe-postrazdalih.html",
+      "date": "2026-10-24T20:56:00+00:00",
+      "excerpt": "Унаслідок удару російського безпілотника в Новобаварскому районі Харкова загинула людина, ще троє постраждали. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_10/thumb_files/630_360_1730304558-605.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -143,11 +143,11 @@
     },
     {
       "area": "ukraine",
-      "title": "На фронті - 117 зіткнень, ЗСУ ліквідували майже 30 окупантів на Покровському напрямку",
-      "url": "https://www.ukrinform.ua/rubric-ato/4177881-na-fronti-117-zitknen-zsu-likviduvali-majze-30-okupantiv-na-pokrovskomu-napramku.html",
-      "date": "2026-10-24T19:52:00+00:00",
-      "excerpt": "Протягом 24 жовтня на фронті сталося 117 бойових зіткнень Сил оборони України з російськими загарбниками, найактивніше ворог намагався атакувати на Покровському напрямку. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1790842637-343.jpeg",
+      "title": "Через удар РФ один з районів Вінниччини залишився без світла",
+      "url": "https://www.ukrinform.ua/rubric-regions/4177882-cerez-udar-rf-odin-z-rajoniv-vinniccini-zalisivsa-bez-svitla.html",
+      "date": "2026-10-24T20:38:00+00:00",
+      "excerpt": "В одному з районів Вінниччини російський удар по обʼєкту енергетики призвів до аварійного відключення електропостачання. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_02/thumb_files/630_360_1739780560-184.jpg",
       "source": "Укрінформ"
     },
     {
@@ -170,11 +170,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У частині областей 25 жовтня діятимуть графіки відключень світла",
-      "url": "https://suspilne.media/1436165-u-castini-oblastej-25-zovtna-diatimut-grafiki-vidklucen-svitla",
-      "date": "2026-10-24T19:51:39+00:00",
-      "excerpt": "У частині областей України в неділю, 25 жовтня, графіки погодинних відключень світла діятимуть для всіх категорій споживачів із 07:00 до 23:59 — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/1b/1b3923fc3468678f1a58da0ca81758b6dca532c4ae3e09d47f9ae3fed1580495.jpg",
+      "title": "Сибіга попередив про небезпеку відновлення постачання газу з Росії в Європу",
+      "url": "https://suspilne.media/1436175-sibiga-poperediv-pro-nebezpeku-vidnovlenna-postacanna-gazu-z-rosii-v-evropu-2",
+      "date": "2026-10-24T20:30:20+00:00",
+      "excerpt": "Відновлення продажів російського газу до Європи є небезпечною та недосконалою ідеєю, яка поверне енергетичний шантаж. Будь-які поступки Москві призведуть лише до нових воєн і криз — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/28/28393ac6f35122dac1db1dcf1881e5976288aac3022fa842a503c5fe336914c3.jpg",
       "source": "Суспільне"
     },
     {
@@ -206,12 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Маск: Українські військові порушили умови використання Starlink, цю прогалину закрили",
-      "url": "https://www.pravda.com.ua/news/2026/10/24/8059580",
-      "date": "2026-10-24T19:35:00+00:00",
-      "excerpt": "Ілон Маск заявив, що українські військові використовували Starlink для атак дронами, що порушує правила сервісу. Обмеження вже виправлені.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/9/f/943197/9f97349a859b0bce2f0e04731528c24f.jpeg?w=1200&q=85&stamp=1792870572",
-      "source": "Українська правда"
+      "title": "«Дитяче Євробачення-2026»: виступ Еріка Колесніченко у фіналі пісенного конкурсу",
+      "url": "https://suspilne.media/culture/1436149-ditace-evrobacenna-2026-ak-vistupila-erika-kolesnicenko-u-finali-pisennogo-konkursu-na-malti",
+      "date": "2026-10-24T20:16:45+00:00",
+      "excerpt": "Україну на конкурсі представляє Еріка Колесніченко з піснею Not A Lullaby. Вона виступила під носером 11 на сцені фіналу пісенного конкурсу Дитяче Євробачення-2026 — Суспільне Культура",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/2a/2ad4a1a47de948a14b810d28a8ac9df21071fd5480f9461176fbdb2b84f0b336.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -233,12 +233,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Сутички з поліцією і водомети: У Франції на протести вийшло 400 тисяч людей",
-      "url": "https://suspilne.media/1436139-suticki-z-policieu-i-vodometi-u-francii-na-protesti-vijslo-400-tisac-ludej",
-      "date": "2026-10-24T19:34:46+00:00",
-      "excerpt": "У Парижі та низці інших міст сталися сутички з поліцією, яка застосувала сльозогінний газ і водомети, однак масштаб насильства був значно меншим, ніж у попередні вихідні — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/1d/1d75db5db6695cb75d6d2c373d45c82bb8634cfdeba9566a46012a923d8e78e3.jpg",
-      "source": "Суспільне"
+      "title": "Сьогодні вночі Україна переходить на зимовий час",
+      "url": "https://www.ukrinform.ua/rubric-society/4169249-u-nic-na-25-zovtna-ukraina-perejde-na-zimovij-cas.html",
+      "date": "2026-10-24T20:15:00+00:00",
+      "excerpt": "У ніч із суботи, 24 жовтня, на неділю, 25-те, українці перейдуть на зимовий час, перевівши о четвертій годині ранку стрілки годинника на одну годину назад. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1761244461-688.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -260,12 +260,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Мітинг проти Нетаньягу в Тель-Авіві зібрав напередодні виборів тисячі людей",
-      "url": "https://www.ukrinform.ua/rubric-world/4177878-miting-proti-netanagu-u-telavivi-zibrav-naperedodni-viboriv-tisaci-ludej.html",
-      "date": "2026-10-24T19:29:00+00:00",
-      "excerpt": "У Тель-Авіві тисячі людей зібралися на масштабну антиурядову демонстрацію за три дні до загальних виборів, які багато хто розглядає як референдум щодо уряду прем’єр-міністра Біньяміна Нетаньягу. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1772997750-458.jpg",
-      "source": "Укрінформ"
+      "title": "На фронті 117 боїв: найбільше росіяни атакували Покровський і ще 2 напрямки",
+      "url": "https://www.pravda.com.ua/news/2026/10/24/8059581",
+      "date": "2026-10-24T20:01:00+00:00",
+      "excerpt": "За добу відбулося 117 бойових зіткнень: основні бої на Костянтинівському, Покровському та Гуляйпільському напрямках.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/c/943198/5c9d3c369eed7b7a3f356a3623dd642c.jpeg?w=1200&q=85&stamp=1792872143",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -296,11 +296,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У центрі Києва уламки дрона впали на паркування, постраждала людина",
-      "url": "https://www.ukrinform.ua/rubric-regions/4177879-u-centri-kieva-ulamki-drona-vpali-na-parkuvanna-postrazdala-ludina.html",
-      "date": "2026-10-24T19:04:00+00:00",
-      "excerpt": "У Шевченківському районі столиці уламки безпілотника пошкодили припарковані автомобілі, одна людина постраждала. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_05/thumb_files/630_360_1779084494-161.jpg",
+      "title": "На фронті - 117 зіткнень, ЗСУ ліквідували майже 30 окупантів на Покровському напрямку",
+      "url": "https://www.ukrinform.ua/rubric-ato/4177881-na-fronti-117-zitknen-zsu-likviduvali-majze-30-okupantiv-na-pokrovskomu-napramku.html",
+      "date": "2026-10-24T19:52:00+00:00",
+      "excerpt": "Протягом 24 жовтня на фронті сталося 117 бойових зіткнень Сил оборони України з російськими загарбниками, найактивніше ворог намагався атакувати на Покровському напрямку. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1790842637-343.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -323,12 +323,12 @@
     },
     {
       "area": "ukraine",
-      "title": "До українських полонених допустили спецпосланця Папи Римського – Лубінець",
-      "url": "https://www.pravda.com.ua/news/2026/10/24/8059579",
-      "date": "2026-10-24T19:02:00+00:00",
-      "excerpt": "Спецпосланець Папи Римського Маттео Дзуппі отримав доступ до українських військовополонених. Переговори щодо обміну тривають.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/4/1/943196/41e66d7f386635f13099fc556157e6d7.jpeg?w=1200&q=85&stamp=1792868483",
-      "source": "Українська правда"
+      "title": "У частині областей 25 жовтня діятимуть графіки відключень світла",
+      "url": "https://suspilne.media/1436165-u-castini-oblastej-25-zovtna-diatimut-grafiki-vidklucen-svitla",
+      "date": "2026-10-24T19:51:39+00:00",
+      "excerpt": "У частині областей України в неділю, 25 жовтня, графіки погодинних відключень світла діятимуть для всіх категорій споживачів із 07:00 до 23:59 — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/1b/1b3923fc3468678f1a58da0ca81758b6dca532c4ae3e09d47f9ae3fed1580495.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -350,12 +350,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Франції на нові протести вийшли понад 400 тисяч людей, поліція затримала майже тисячу",
-      "url": "https://www.ukrinform.ua/rubric-world/4177877-u-francii-na-novi-protesti-vijsli-ponad-400-tisac-ludej-policia-zatrimala-majze-tisacu.html",
-      "date": "2026-10-24T18:41:00+00:00",
-      "excerpt": "У Франції під час демонстрацій 24 жовтня, у яких взяли участь близько 410 тисяч людей, поліція затримала майже тисячу осіб. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792868703-482.jpg",
-      "source": "Укрінформ"
+      "title": "Маск: Українські військові порушили умови використання Starlink, цю прогалину закрили",
+      "url": "https://www.pravda.com.ua/news/2026/10/24/8059580",
+      "date": "2026-10-24T19:35:00+00:00",
+      "excerpt": "Ілон Маск заявив, що українські військові використовували Starlink для атак дронами, що порушує правила сервісу. Обмеження вже виправлені.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/9/f/943197/9f97349a859b0bce2f0e04731528c24f.jpeg?w=1200&q=85&stamp=1792870572",
+      "source": "Українська правда"
     },
     {
       "area": "local",
