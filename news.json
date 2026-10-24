@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T18:38:32.989170+00:00",
+  "updated_at": "2026-10-24T19:33:41.092893+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-24T18:37:29+00:00",
+      "date": "2026-10-24T19:32:31+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,11 +53,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Ворог ударив по Синельниковому: троє людей загинули, восьмеро поранені",
-      "url": "https://www.ukrinform.ua/rubric-regions/4177873-vorog-udariv-po-sinelnikovomu-troe-ludej-zaginuli-vosmero-poraneni.html",
-      "date": "2026-10-24T18:17:00+00:00",
-      "excerpt": "Унаслідок обстрілу Синельникового на Дніпропетровщині троє людей загинули, щонайменше восьмеро зазнали поранень, пошкоджені автівки. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590638-279.jpeg",
+      "title": "У центрі Києва уламки дрона впали на паркування, постраждала людина",
+      "url": "https://www.ukrinform.ua/rubric-regions/4177879-u-centri-kieva-ulamki-drona-vpali-na-parkuvanna-postrazdala-ludina.html",
+      "date": "2026-10-24T19:04:00+00:00",
+      "excerpt": "У Шевченківському районі столиці уламки безпілотника пошкодили припарковані автомобілі, одна людина постраждала. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_05/thumb_files/630_360_1779084494-161.jpg",
       "source": "Укрінформ"
     },
     {
@@ -80,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Лубінець заявив про узгодження з РФ часу припинення вогню в Олешках",
-      "url": "https://suspilne.media/1436111-lubinec-zaaviv-pro-uzgodzenna-z-rf-casu-pripinenna-vognu-v-oleskah",
-      "date": "2026-10-24T18:09:18+00:00",
-      "excerpt": "Переговорні групи України та Росії домовилися, що режим тиші для проведення гуманітарної операції в Олешках Херсонської області почне діяти з 03:00 (04:00 за московським часом) 27 жовтня — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/3a/3a2980b0de8415bab12033fb817487c9a0f2124c8a8b8dfd059147328b65d881.jpg",
-      "source": "Суспільне"
+      "title": "До українських полонених допустили спецпосланця Папи Римського – Лубінець",
+      "url": "https://www.pravda.com.ua/news/2026/10/24/8059579",
+      "date": "2026-10-24T19:02:00+00:00",
+      "excerpt": "Спецпосланець Папи Римського Маттео Дзуппі отримав доступ до українських військовополонених. Переговори щодо обміну тривають.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/4/1/943196/41e66d7f386635f13099fc556157e6d7.jpeg?w=1200&q=85&stamp=1792868483",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -116,11 +116,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У передмісті Харкова через російську атаку горить склад",
-      "url": "https://www.ukrinform.ua/rubric-regions/4177871-u-peredmisti-harkova-cerez-rosijsku-ataku-gorit-sklad.html",
-      "date": "2026-10-24T18:05:00+00:00",
-      "excerpt": "У Безлюдівській громаді Харківської області реактивний безпілотник російської армії ввечері влучив у дах складської будівлі приватного підприємства, унаслідок чого виникла пожежа. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792865132-812.jpg",
+      "title": "У Франції на нові протести вийшли понад 400 тисяч людей, поліція затримала майже тисячу",
+      "url": "https://www.ukrinform.ua/rubric-world/4177877-u-francii-na-novi-protesti-vijsli-ponad-400-tisac-ludej-policia-zatrimala-majze-tisacu.html",
+      "date": "2026-10-24T18:41:00+00:00",
+      "excerpt": "У Франції під час демонстрацій 24 жовтня, у яких взяли участь близько 410 тисяч людей, поліція затримала майже тисячу осіб. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792868703-482.jpg",
       "source": "Укрінформ"
     },
     {
@@ -143,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "РФ атакувала Слов’янськ ФАБами: зруйновані будинки, освітній заклад, кафе, є поранені",
-      "url": "https://www.pravda.com.ua/news/2026/10/24/8059576",
-      "date": "2026-10-24T18:00:00+00:00",
-      "excerpt": "Увечері 24 жовтня російські війська атакували Слов’янськ фугасними бомбами. Є руйнування багатоповерхівок, поранені місцеві жителі.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/1/9/943115/1926024e018495117271e365b88a0bc4.jpeg?w=1200&q=85&stamp=1792864541",
-      "source": "Українська правда"
+      "title": "Ворог ударив по Синельниковому: троє людей загинули, 12 поранені",
+      "url": "https://www.ukrinform.ua/rubric-regions/4177873-vorog-udariv-po-sinelnikovomu-troe-ludej-zaginuli-vosmero-poraneni.html",
+      "date": "2026-10-24T18:17:00+00:00",
+      "excerpt": "Унаслідок обстрілу Синельникового на Дніпропетровщині троє людей загинули, 12 осіб зазнали поранень, пошкоджені автівки. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590638-279.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -170,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Мерц: Росія прагне щодня дестабілізувати Німеччину",
-      "url": "https://www.pravda.com.ua/news/2026/10/24/8059574",
-      "date": "2026-10-24T17:39:00+00:00",
-      "excerpt": "Канцлер Мерц заявив про спроби Росії дестабілізувати Німеччину. Влада фіксує загрози саботажу, підозри у шпигунстві й арешти.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/1/a/943106/1a7cbeec0061682aab1b8aea2122d9fa.jpeg?w=1200&q=85&stamp=1792863522",
-      "source": "Українська правда"
+      "title": "Лубінець заявив про узгодження з РФ часу припинення вогню в Олешках",
+      "url": "https://suspilne.media/1436111-lubinec-zaaviv-pro-uzgodzenna-z-rf-casu-pripinenna-vognu-v-oleskah",
+      "date": "2026-10-24T18:09:18+00:00",
+      "excerpt": "Переговорні групи України та Росії домовилися, що режим тиші для проведення гуманітарної операції в Олешках Херсонської області почне діяти з 03:00 (04:00 за московським часом) 27 жовтня — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/3a/3a2980b0de8415bab12033fb817487c9a0f2124c8a8b8dfd059147328b65d881.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -206,11 +206,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Мерц наголосив на загрозі з боку Москви та екстремістських партій",
-      "url": "https://www.ukrinform.ua/rubric-world/4177865-merc-nagolosiv-na-zagrozi-z-boku-moskvi-ta-ekstremistskih-partij.html",
-      "date": "2026-10-24T17:39:00+00:00",
-      "excerpt": "Канцлер ФРН Фрідріх Мерц наголосив на загрозі, з якою стикається Німеччина – від екстремістських партій до зовнішніх ворогів, зокрема на \"масштабній загрозі\" з боку РФ. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791128173-876.jpg",
+      "title": "У передмісті Харкова через російську атаку горить склад",
+      "url": "https://www.ukrinform.ua/rubric-regions/4177871-u-peredmisti-harkova-cerez-rosijsku-ataku-gorit-sklad.html",
+      "date": "2026-10-24T18:05:00+00:00",
+      "excerpt": "У Безлюдівській громаді Харківської області реактивний безпілотник російської армії ввечері влучив у дах складської будівлі приватного підприємства, унаслідок чого виникла пожежа. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792865132-812.jpg",
       "source": "Укрінформ"
     },
     {
@@ -233,12 +233,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни вдарили по Слов’янську фугасними авіабомбами: двоє поранених, є руйнування",
-      "url": "https://www.ukrinform.ua/rubric-regions/4177866-rosiani-vdarili-po-slovansku-fugasnimi-aviabombami-dvoe-poranenih-e-rujnuvanna.html",
-      "date": "2026-10-24T17:23:00+00:00",
-      "excerpt": "Росіяни атакували Слов’янськ на Донеччині фугасними бомбами, пошкоджені житлові і адмінбудинки, об’єкт інфраструктури, два освітні заклади, мінімум двоє поранених. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792862541-880.jpg",
-      "source": "Укрінформ"
+      "title": "РФ атакувала Слов’янськ ФАБами: зруйновані будинки, освітній заклад, кафе, є поранені",
+      "url": "https://www.pravda.com.ua/news/2026/10/24/8059576",
+      "date": "2026-10-24T18:00:00+00:00",
+      "excerpt": "Увечері 24 жовтня російські війська атакували Слов’янськ фугасними бомбами. Є руйнування багатоповерхівок, поранені місцеві жителі.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/1/9/943115/1926024e018495117271e365b88a0bc4.jpeg?w=1200&q=85&stamp=1792864541",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -260,11 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни атакували Синельникове: спалахнула багатоповерхівка, понівечений магазин, 3 загиблих",
-      "url": "https://www.pravda.com.ua/news/2026/10/24/8059572",
-      "date": "2026-10-24T17:11:00+00:00",
-      "excerpt": "Внаслідок атаки дрона по Синельниковому загинули троє людей, восьмеро поранені, серед них 11-річна дівчинка. Пошкоджено житловий будинок і магазин.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/7/f/943089/7fe6c060a5010ae9be6ee69227f1652d.jpeg?w=1200&q=85&stamp=1792861828",
+      "title": "Мерц: Росія прагне щодня дестабілізувати Німеччину",
+      "url": "https://www.pravda.com.ua/news/2026/10/24/8059574",
+      "date": "2026-10-24T17:39:00+00:00",
+      "excerpt": "Канцлер Мерц заявив про спроби Росії дестабілізувати Німеччину. Влада фіксує загрози саботажу, підозри у шпигунстві й арешти.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/1/a/943106/1a7cbeec0061682aab1b8aea2122d9fa.jpeg?w=1200&q=85&stamp=1792863522",
       "source": "Українська правда"
     },
     {
@@ -296,11 +296,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У Франції поліція застосувала сльозогінний газ під час протестів",
-      "url": "https://www.ukrinform.ua/rubric-world/4177860-u-francii-policia-zastosuvala-slozoginnij-gaz-pid-cas-protestiv.html",
-      "date": "2026-10-24T16:59:00+00:00",
-      "excerpt": "У Франції тривають загальнонаціональні протести: якщо в Парижі поки йдеться лише про мирні демонстрації, то в інших містах країни сталися сутички протестувальників з поліцією. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792858761-573.png",
+      "title": "Мерц наголосив на загрозі з боку Москви та екстремістських партій",
+      "url": "https://www.ukrinform.ua/rubric-world/4177865-merc-nagolosiv-na-zagrozi-z-boku-moskvi-ta-ekstremistskih-partij.html",
+      "date": "2026-10-24T17:39:00+00:00",
+      "excerpt": "Канцлер ФРН Фрідріх Мерц наголосив на загрозі, з якою стикається Німеччина – від екстремістських партій до зовнішніх ворогів, зокрема на \"масштабній загрозі\" з боку РФ. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791128173-876.jpg",
       "source": "Укрінформ"
     },
     {
@@ -323,11 +323,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Битва за Україну. День 1704: Starlink знову працює на швидкості 400 км/год, зв'язок стабільний",
-      "url": "https://www.ukrinform.ua/rubric-ato/4177861-bitva-za-ukrainu-den-1704-starlink-znovu-pracue-na-svidkosti-400-kmgod-zvazok-stabilnij.html",
-      "date": "2026-10-24T16:49:00+00:00",
-      "excerpt": "Удар по ракетній програмі Росії; створено Координаційний центр і змінено правила бронювання працівників; Україна переходить на зимовий час — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792860549-551.jpg",
+      "title": "Росіяни вдарили по Слов’янську фугасними авіабомбами: двоє поранених, є руйнування",
+      "url": "https://www.ukrinform.ua/rubric-regions/4177866-rosiani-vdarili-po-slovansku-fugasnimi-aviabombami-dvoe-poranenih-e-rujnuvanna.html",
+      "date": "2026-10-24T17:23:00+00:00",
+      "excerpt": "Росіяни атакували Слов’янськ на Донеччині фугасними бомбами, пошкоджені житлові і адмінбудинки, об’єкт інфраструктури, два освітні заклади, мінімум двоє поранених. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792862541-880.jpg",
       "source": "Укрінформ"
     },
     {
@@ -350,12 +350,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Трамп частково скасував мита на товари з Канади",
-      "url": "https://suspilne.media/1436093-tramp-castkovo-skasuvav-mita-na-tovari-z-kanadi",
-      "date": "2026-10-24T16:32:52+00:00",
-      "excerpt": "Адміністрація президента США Дональда Трампа звільнить частину товарів із Канади від додаткового 50% мита. Зміни набудуть чинності 30 жовтня — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/b6/b66f36d3abcd85b8faf321c6fcad4b405a7f43d2b50c8f8f96fc7eeddf0bc3f9.jpg",
-      "source": "Суспільне"
+      "title": "Росіяни атакували Синельникове: вирували пожежі, є руйнування, 3 загиблих, 12 поранених",
+      "url": "https://www.pravda.com.ua/news/2026/10/24/8059572",
+      "date": "2026-10-24T17:11:00+00:00",
+      "excerpt": "Внаслідок удару безпілотника по Синельниковому загинули троє людей, поранено 12. Серед постраждалих – 11-річна дівчинка. Пошкоджені багатоповерхівка та магазин.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/7/f/943089/7fe6c060a5010ae9be6ee69227f1652d.jpeg?w=1200&q=85&stamp=1792861828",
+      "source": "Українська правда"
     },
     {
       "area": "local",
