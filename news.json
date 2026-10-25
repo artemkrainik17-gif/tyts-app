@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T21:36:13.816302+00:00",
+  "updated_at": "2026-10-25T23:33:11.961406+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -10,7 +10,7 @@
       "area": "local",
       "title": "Жмеринка має три міста-побратими: чим вони цікаві та що нас об’єднує – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/483467/zhmerinka-maye-tri-mista-pobratimi-chim-voni-cikavi-ta-scho-nas-obyednuye",
-      "date": "2026-10-22T18:18:00+00:00",
+      "date": "2026-10-22T15:18:00+00:00",
       "excerpt": "Жмеринка має три міста-побратими: чим вони цікаві та що нас об’єднує",
       "image": "https://im2.abo.media/media/64/article/252bd4c4573345f6b21b9fbe4efdc3e6.webp",
       "source": "Жмеринка.City"
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-25T21:34:49+00:00",
+      "date": "2026-10-25T23:32:00+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -37,7 +37,7 @@
       "area": "local",
       "title": "У Жмеринці пропонують створити панорамний арт-простір на «Калинці»: як підтримати петицію – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/483462/u-zhmerinci-proponuyut-stvoriti-panoramnij-art-prostir-na-kalinci-yak-pidtrimati-peticiyu",
-      "date": "2026-10-22T16:22:00+00:00",
+      "date": "2026-10-22T13:22:00+00:00",
       "excerpt": "У Жмеринці пропонують створити панорамний арт-простір на «Калинці»: як підтримати петицію",
       "image": "https://im2.abo.media/media/64/article/bb2b21ff2908473196e647d73b969cdb.webp",
       "source": "Жмеринка.City"
@@ -53,18 +53,18 @@
     },
     {
       "area": "ukraine",
-      "title": "Сибіга: Війну неможливо завершити, зупинивши опір України",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4178085-sibiga-vijnu-nemozlivo-zaversiti-zupinivsi-opir-ukraini.html",
-      "date": "2026-10-25T21:24:00+00:00",
-      "excerpt": "Андрій Сибіга зреагував на заяви помічника президента РФ Юрія Ушакова про те, що в Москві очікували тиску на Україну з боку США після зустрічі Дональда Трампа та Володимира Путіна на Алясці. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_09/thumb_files/630_360_1788520048-8291.jpeg",
-      "source": "Укрінформ"
+      "title": "На президентських виборах у Болгарії лідирує проросійська кандидатка Йотова",
+      "url": "https://suspilne.media/1436701-na-prezidentskih-viborah-u-bolgarii-lidirue-prorosijska-kandidatka-jotova",
+      "date": "2026-10-25T23:31:23+00:00",
+      "excerpt": "За даними екзитполів, на президентських виборах у Болгарії лідирує прихильниця діалогу з РФ, виконувачка обов'язків президента Іліяна Йотова — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/21/21202a48758a2355b1f0bb839fbfe6c2f7b8d8391db5a908fd6be805b0558e15.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
       "title": "Після року невідомості до Жмеринки «на щиті» повертається батько чотирьох дітей Антон Кедь – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/483306/pislya-roku-nevidomosti-do-zhmerinki-na-schiti-povertayetsya-batko-chotiroh-ditej-anton-ked",
-      "date": "2026-10-21T12:58:00+00:00",
+      "date": "2026-10-21T09:58:00+00:00",
       "excerpt": "Після року невідомості до Жмеринки «на щиті» повертається батько чотирьох дітей Антон Кедь",
       "image": "https://im2.abo.media/media/64/article/8860456a6fd84348aeb0f52c9e1661ac.webp",
       "source": "Жмеринка.City"
@@ -80,18 +80,18 @@
     },
     {
       "area": "ukraine",
-      "title": "Вучич визнав поразку на парламентських виборах студентському руху",
-      "url": "https://www.pravda.com.ua/news/2026/10/25/8059669",
-      "date": "2026-10-25T21:02:00+00:00",
-      "excerpt": "Студентський список отримав більшість на дострокових парламентських виборах у Сербії. Вучич підтвердив поразку своєї партії.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/3/943537/83fd8f18ac763f10c8f646f78140051a.jpeg?w=1200&q=85&stamp=1792962267",
-      "source": "Українська правда"
+      "title": "Росіяни атакували об’єкт енергетики на Хмельниччині, є аварійні відключення світла",
+      "url": "https://www.ukrinform.ua/rubric-regions/4178091-rosiani-atakuvali-obekt-energetiki-na-hmelniccini-e-avarijni-vidklucenna-svitla.html",
+      "date": "2026-10-25T23:03:00+00:00",
+      "excerpt": "У Кам’янець-Подільському районі Хмельницької області війська РФ атакували об’єкт енергетики, що призвело до аварійних відключень електрики. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_07/thumb_files/630_360_1721754919-451.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
       "title": "У Жмеринці перевіряють укриття та підвали: стан приміщень і доступ під час тривог – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/483230/u-zhmerinci-pereviryayut-ukrittya-ta-pidvali-stan-primischen-i-dostup-pid-chas-trivog",
-      "date": "2026-10-20T18:11:00+00:00",
+      "date": "2026-10-20T15:11:00+00:00",
       "excerpt": "У Жмеринці перевіряють укриття та підвали: стан приміщень і доступ під час тривог",
       "image": "https://im2.abo.media/media/64/article/49e9bc77575841328059b10e071e7f38.webp",
       "source": "Жмеринка.City"
@@ -100,7 +100,7 @@
       "area": "local",
       "title": "У Жмеринці дорослі безкоштовно опановують залізничні професії: Вище професійне училище виграло грант – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/483217/u-zhmerinci-dorosli-bezkoshtovno-opanovuyut-zaliznichni-profesii-vische-profesijne-uchilische-vigralo-grant",
-      "date": "2026-10-20T16:33:00+00:00",
+      "date": "2026-10-20T13:33:00+00:00",
       "excerpt": "У Жмеринці дорослі безкоштовно опановують залізничні професії: Вище професійне училище виграло грант",
       "image": "https://im2.abo.media/media/64/article/73bc8d8aa444468bb15a1511d7dccbd6.webp",
       "source": "Жмеринка.City"
@@ -116,18 +116,18 @@
     },
     {
       "area": "ukraine",
-      "title": "На фронті - 157 зіткнень, ЗСУ знешкодили понад пів сотні окупантів на Покровському напрямку",
-      "url": "https://www.ukrinform.ua/rubric-ato/4178084-na-fronti-157-zitknen-zsu-zneskodili-ponad-piv-sotni-okupantiv-na-pokrovskomu-napramku.html",
-      "date": "2026-10-25T20:56:00+00:00",
-      "excerpt": "Протягом 25 жовтня на фронті сталося 157 бойових зіткнень Сил оборони України з російськими загарбниками, зокрема 22 ворожі атаки зафіксовано на Покровському напрямку. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791111251-334.jpg",
-      "source": "Укрінформ"
+      "title": "РФ б'є по Епіцентрах, у частині областей відключення світла — 1706 день війни",
+      "url": "https://suspilne.media/1436697-zelenskij-nazvav-metu-tristoronnih-peregovoriv-z-rosieu-i-ssa-rf-atakuvala-cotiri-epicentri-za-dobu-1706-den-vijni",
+      "date": "2026-10-25T23:02:26+00:00",
+      "excerpt": "У Росії заявили, що готові до переговорів після 4 листопада. РФ знищила останній Епіцентр у Харкові. Зеленський їде на переговори у Брюссель — 26 жовтня, 1706 день війни — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/3c/3ccba255c60086ffcce9d8353069541a83d00d4b07e71e42910246aad2c4f864.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
       "title": "«Театральна осінь – 2026» у Жмеринці: творчість, гумор і визнання – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/483054/teatralna-osin-2026-u-zhmerinci-tvorchist-gumor-i-viznannya",
-      "date": "2026-10-19T16:50:00+00:00",
+      "date": "2026-10-19T13:50:00+00:00",
       "excerpt": "У Жмеринці відбувся обласний фестиваль театрального мистецтва «Театральна осінь – 2026»",
       "image": "https://im2.abo.media/media/64/article/9c59fa484fa84596adb781c20fb6a9b1.webp",
       "source": "Жмеринка.City"
@@ -143,18 +143,18 @@
     },
     {
       "area": "ukraine",
-      "title": "Вучич визнав свою поразку на дострокових парламентських виборах у Сербії",
-      "url": "https://suspilne.media/1436681-vucic-viznav-svou-porazku-na-dostrokovih-parlamentskih-viborah-u-serbii",
-      "date": "2026-10-25T20:45:52+00:00",
-      "excerpt": "За словами, Александара Вучича, опозиційний «Студентський список», що виник на хвилі масових антиурядових протестів, отримає від 135 до 140 із 250 депутатських мандатів. Втім, офіційних результатів поки не оприлюднено — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/df/df4b2597b9688a9450a2717f34e5e0fcf11b12af46be5b7ff9a7297d43f35cce.jpg",
-      "source": "Суспільне"
+      "title": "Сибіга: РФ не готова до серйозних переговорів",
+      "url": "https://www.pravda.com.ua/news/2026/10/26/8059675",
+      "date": "2026-10-25T22:38:00+00:00",
+      "excerpt": "Сибіга заявив, що РФ відмовляється від діалогу, поки сподівається досягти цілей тиском.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/b/8/943568/b8cdbff353b6755e102f9182449192a8.jpeg?w=1200&q=85&stamp=1792967911",
+      "source": "Українська правда"
     },
     {
       "area": "local",
       "title": "У Жмеринці дитячий центр розвитку «Лідер» відзначає 10 років: англійська, підготовка до школи, IT – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/483030/uzhmerinci-dityachij-centr-rozvitku-lider-vidznachaye-10-rokivanglijska-pidgotovka-do-shkoli-it",
-      "date": "2026-10-19T13:58:00+00:00",
+      "date": "2026-10-19T10:58:00+00:00",
       "excerpt": "У Жмеринці дитячий центр розвитку «Лідер» відзначає 10 років: англійська, підготовка до школи, IT",
       "image": "https://im2.abo.media/media/64/article/2158763abf3d40a28ac27fae4bb1fad4.webp",
       "source": "Жмеринка.City"
@@ -170,18 +170,18 @@
     },
     {
       "area": "ukraine",
-      "title": "Двопартійна підтримка України у США посилилася - Зеленський",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4178081-dvopartijna-pidtrimka-ukraini-u-ssa-posililasa-zelenskij.html",
-      "date": "2026-10-25T20:31:00+00:00",
-      "excerpt": "Підтримка України в США серед республіканців та демократів зараз найсильніша за останні півтора року. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2023_02/thumb_files/630_360_1676889541-543.jpg",
+      "title": "В Україні у понеділок подекуди дощитиме, вдень до +16°",
+      "url": "https://www.ukrinform.ua/rubric-regions/4177994-v-ukraini-u-ponedilok-podekudi-dositime-vden-do-16.html",
+      "date": "2026-10-25T22:38:00+00:00",
+      "excerpt": "У понеділок, 26 жовтня, в Україні збережеться хмарна із проясненнями погода, у західних, в Житомирській, Вінницькій, Київській та Одеській областях очікуються дощі. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792426220-266.png",
       "source": "Укрінформ"
     },
     {
       "area": "local",
       "title": "У Жмеринці оголосили конкурс молодих краєзнавців до 100-річчя Володимира Вовкодава – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/483007/u-zhmerinci-ogolosili-konkurs-molodih-krayeznavciv-do100-richchya-volodimira-vovkodava",
-      "date": "2026-10-19T10:39:00+00:00",
+      "date": "2026-10-19T07:39:00+00:00",
       "excerpt": "У Жмеринці оголосили конкурс молодих краєзнавців до 100-річчя Володимира Вовкодава",
       "image": "https://im2.abo.media/media/64/article/cbc8828b54a64cb686729bcdbdcf2d79.webp",
       "source": "Жмеринка.City"
@@ -190,7 +190,7 @@
       "area": "local",
       "title": "Опалювальний сезон у Жмеринській громаді розпочнеться з 20 жовтня: рішення виконкому – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/482987/opalyuvalnij-sezon-u-zhmerinskij-gromadi-rozpochnetsya-z-20-zhovtnya-rishennya-vikonkomu",
-      "date": "2026-10-19T10:25:00+00:00",
+      "date": "2026-10-19T07:25:00+00:00",
       "excerpt": "Опалювальний сезон у Жмеринській громаді розпочнеться з 20 жовтня: рішення виконкому",
       "image": "https://im2.abo.media/media/64/article/633ebb0b3b5a4b868add828c3e9b3c2c.webp",
       "source": "Жмеринка.City"
@@ -206,18 +206,18 @@
     },
     {
       "area": "ukraine",
-      "title": "В Україні у понеділок подекуди дощитиме, вдень до +16°",
-      "url": "https://www.ukrinform.ua/rubric-regions/4177994-v-ukraini-u-ponedilok-podekudi-dositime-vden-do-16.html",
-      "date": "2026-10-25T20:19:00+00:00",
-      "excerpt": "У понеділок, 26 жовтня, в Україні збережеться хмарна із проясненнями погода, у західних, в Житомирській, Вінницькій, Київській та Одеській областях очікуються дощі. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792426220-266.png",
-      "source": "Укрінформ"
+      "title": "Зеленський назвав три умови для припинення ударів по НПЗ у РФ",
+      "url": "https://suspilne.media/1436677-zelenskij-nazvav-tri-umovi-dla-pripinenna-udariv-po-rosijskih-naftopererobnih-zavodah",
+      "date": "2026-10-25T22:26:40+00:00",
+      "excerpt": "Говорячи про претензії адміністрації президента США щодо ударів по російській нафтовій галузі, він наголосив, що ці атаки «є вимушеною та справедливою відповіддю» на знищення енергетики України — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/d0/d013a5158767648fca4182b0a67807b77e9811d2f224214facb220cd0a4ea6da.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
       "title": "Галина Мельник ділиться секретами обрядової випічки: у Жмеринці відроджують українські традиції – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/482955/galina-melnik-dilitsya-sekretami-obryadovoi-vipichki-u-zhmerinci-vidrodzhuyut-ukrainski-tradicii",
-      "date": "2026-10-18T14:26:00+00:00",
+      "date": "2026-10-18T11:26:00+00:00",
       "excerpt": "Галина Мельник ділиться секретами обрядової випічки: у Жмеринці відроджують українські традиції",
       "image": "https://im2.abo.media/media/64/article/bb0a79dde8cd42e58ddb439423a51008.webp",
       "source": "Жмеринка.City"
@@ -233,18 +233,18 @@
     },
     {
       "area": "ukraine",
-      "title": "ЗСУ спинили 22 атаки на Покровському напрямку та знешкодили понад 50 окупантів – Генштаб",
-      "url": "https://www.pravda.com.ua/news/2026/10/25/8059667",
-      "date": "2026-10-25T20:16:00+00:00",
-      "excerpt": "З початку доби на фронті 157 боєзіткнень. На Покровському напрямку знешкодили понад 50 російських загарбників, знищено техніку та БПЛА.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/d/5/943520/d57a42fd4f76c9749ba252eb9278e606.jpeg?w=1200&q=85&stamp=1792959386",
-      "source": "Українська правда"
+      "title": "У Миколаєві знайшли тигреня, яке втекло із зоопарку",
+      "url": "https://www.ukrinform.ua/rubric-regions/4178087-u-mikolaevi-znajsli-tigrena-ake-vteklo-iz-zooparku.html",
+      "date": "2026-10-25T22:16:00+00:00",
+      "excerpt": "У Миколаївському зоопарку Mykolaiv zoo зловили зникле тигреня, яке втекло в ніч на неділю. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792965703-305.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
       "title": "У Жмеринці відбувся Кубок з волейболу пам’яті Героя Дмитра Терещенка: за перемогу змагалися педагоги – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/482721/u-zhmerinci-vidbuvsya-kubok-z-volejbolu-pamyati-geroya-dmitra-tereschenka-za-peremogu-zmagalisya-pedagogi",
-      "date": "2026-10-15T21:08:00+00:00",
+      "date": "2026-10-15T18:08:00+00:00",
       "excerpt": "У Жмеринці відбувся Кубок з волейболу пам’яті Героя Дмитра Терещенка: за перемогу змагалися педагоги",
       "image": "https://im2.abo.media/media/64/article/dc8da30edc4e48eca75617168c893db5.webp",
       "source": "Жмеринка.City"
@@ -260,18 +260,18 @@
     },
     {
       "area": "ukraine",
-      "title": "Обмеження армії та нейтральний статус України на перемовинах не обговорюються - Президент",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4178082-obmezenna-armii-ta-nejtralnij-status-ukraini-na-peremovinah-ne-obgovoruutsa-zelenskij.html",
-      "date": "2026-10-25T20:14:00+00:00",
-      "excerpt": "Володимир Зеленський заявив, що обмеження чисельності ЗСУ та затвердження нейтрального статусу України на переговорах не обговорюються. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_07/thumb_files/630_360_1785414428-960.jpg",
-      "source": "Укрінформ"
+      "title": "«Реал» із Андрієм Луніним здобув перемогу у матчі проти «Барселони»",
+      "url": "https://suspilne.media/sport/1436683-real-iz-luninim-zdobuv-peremogu-u-matci-proti-barseloni-ak-ukrainec-zigrav-u-el-klasiko",
+      "date": "2026-10-25T22:01:16+00:00",
+      "excerpt": "Андрій Лунін: український голкіпер мадридського «Реала», матч проти «Барселони» в чемпіонаті Іспанії, як зіграв українець в Ель Класіко — Суспільне Спорт",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/bb/bbf8cd5b406e0414c773c9d065eecebf39d791974645f8b8ac972cb203ba8c84.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
       "title": "Підтримка захисників, підготовка до зими та відзнака Вовкодаву: 80 сесія Жмеринської міської ради – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/482716/pidtrimka-zahisnikiv-pidgotovka-do-zimi-ta-vidznaka-vovkodavu-80-sesiya-zhmerinskoi-miskoi-radi",
-      "date": "2026-10-15T19:05:00+00:00",
+      "date": "2026-10-15T16:05:00+00:00",
       "excerpt": "Підтримка захисників, підготовка до зими та допомога лікарні: 80 сесія Жмеринської міської ради",
       "image": "https://im2.abo.media/media/64/article/4992b74a8cfe48e5be5e77cc8240633b.webp",
       "source": "Жмеринка.City"
@@ -280,7 +280,7 @@
       "area": "local",
       "title": "​​​​​​​Допомога захисникам, підтримка родин загиблих та благоустрій громади: акценти виконкому – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/482543/dopomoga-zahisnikam-pidtrimka-rodin-zagiblih-ta-blagoustrij-gromadi-akcenti-vikonkomu",
-      "date": "2026-10-14T14:59:00+00:00",
+      "date": "2026-10-14T11:59:00+00:00",
       "excerpt": "​​​​​​​Допомога захисникам, підтримка родин загиблих та благоустрій громади: акценти виконкому",
       "image": "https://im2.abo.media/media/64/article/0b61c1f2cf8d423da110d0af5bc3a687.webp",
       "source": "Жмеринка.City"
@@ -296,18 +296,18 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський - про дипломатичні результати цього тижня: Ми прямуємо до миру",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4178080-zelenskij-pro-diplomaticni-rezultati-cogo-tizna-mi-pramuemo-do-miru.html",
-      "date": "2026-10-25T19:58:00+00:00",
-      "excerpt": "Президент Володимир Зеленський вважає, що Україна просувається вперед до настання миру. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_09/thumb_files/630_360_1789819527-465.jpg",
-      "source": "Укрінформ"
+      "title": "Трамп обурився через те, що не отримав Нобелівську премію миру",
+      "url": "https://suspilne.media/1436687-norvegia-vidstij-tramp-oburivsa-cerez-te-so-ne-otrimav-nobelivsku-premiu-miru",
+      "date": "2026-10-25T21:56:51+00:00",
+      "excerpt": "Президент США Дональд Трамп обурився тим, що не отримав Нобелівську премію миру та висловив образливий коментар в бік Норвегії, де буде проходити вручення — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/6a/6a2656ab42fe194d319fdf133950217f4a394d9be153b5561f21c19baf893503.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
       "title": "У Жмеринці четверо дітей тимчасово виховуватимуться у патронатній сім’ї – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/482527/u-zhmerinci-chetvero-ditej-timchasovo-vihovuvatimutsya-u-patronatnij-simi",
-      "date": "2026-10-14T13:02:00+00:00",
+      "date": "2026-10-14T10:02:00+00:00",
       "excerpt": "У Жмеринці четверо дітей тимчасово виховуватимуться у патронатній сім’ї",
       "image": "https://im2.abo.media/media/64/article/4e7132c0ea3f4b5c826bdb81e4635b96.webp",
       "source": "Жмеринка.City"
@@ -323,18 +323,18 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський анонсував зустріч України, США, ЄС і НАТО в Брюсселі",
-      "url": "https://suspilne.media/1436661-zelenskij-anonsuvav-zustric-ukraini-ssa-es-i-nato-v-brusseli",
-      "date": "2026-10-25T19:57:41+00:00",
-      "excerpt": "Український президент Володимир Зеленський заявив, що 27-28 жовтня у Брюсселі він зустрінеться з лідерами Євросоюзу, американцями та генеральним секретарем НАТО Марком Рютте. Сторони обговорять гарантії безпеки — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/35/35bf4a980aade5ecb62866d9930dbc6eeb75071bf736f319c29d60ca34abb66f.jpg",
-      "source": "Суспільне"
+      "title": "Вучич визнав поразку на парламентських виборах",
+      "url": "https://www.ukrinform.ua/rubric-world/4178086-vucic-viznav-porazku-na-parlamentskih-viborah.html",
+      "date": "2026-10-25T21:49:00+00:00",
+      "excerpt": "Александар Вучич, який донедавна був президентом Сербії, визнав, що його партія поступилася на парламентських виборах очолюваному студентами протестному руху. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_08/thumb_files/630_360_1786195399-989.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
       "title": "У Жмеринці російський дрон поцілив об’єкт залізничної інфраструктури – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/482522/u-zhmerinci-rosijskij-dron-pociliv-obyekt-zaliznichnoi-infrastrukturi",
-      "date": "2026-10-14T12:19:00+00:00",
+      "date": "2026-10-14T09:19:00+00:00",
       "excerpt": "У Жмеринці російський дрон зруйнував об’єкт залізничної інфраструктури",
       "image": "https://im2.abo.media/media/64/article/bdde06cbf69e46d3a89d6f764173e880.webp",
       "source": "Жмеринка.City"
@@ -350,18 +350,18 @@
     },
     {
       "area": "ukraine",
-      "title": "Президент: Сигналом готовності РФ до миру може стати енергетичне перемир’я чи зустріч лідерів",
-      "url": "https://www.pravda.com.ua/news/2026/10/25/8059666",
-      "date": "2026-10-25T19:55:00+00:00",
-      "excerpt": "Володимир Зеленський вважає, що перші сигнали від Росії про готовність до миру — енергетичне перемир'я або тристороння зустріч лідерів.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/2/f/943519/2f57ffa8efb24333b98b4a354095dae7.jpeg?w=1200&q=85&stamp=1792958060",
-      "source": "Українська правда"
+      "title": "Сибіга: Війну неможливо завершити, зупинивши опір України",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4178085-sibiga-vijnu-nemozlivo-zaversiti-zupinivsi-opir-ukraini.html",
+      "date": "2026-10-25T21:24:00+00:00",
+      "excerpt": "Андрій Сибіга зреагував на заяви помічника президента РФ Юрія Ушакова про те, що в Москві очікували тиску на Україну з боку США після зустрічі Дональда Трампа та Володимира Путіна на Алясці. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_09/thumb_files/630_360_1788520048-8291.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
       "title": "У лікарні Чернігова помер військовослужбовець з Браїлова Віталій Петрусь із позивним «Вітер» – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/482398/u-likarni-chernigova-pomer-vijskovosluzhbovec-z-brailova-vitalij-petrus-iz-pozivnim-viter",
-      "date": "2026-10-13T17:12:00+00:00",
+      "date": "2026-10-13T14:12:00+00:00",
       "excerpt": "Воїн, який любив свою родину, цінував дружбу та вмів радіти простим речам",
       "image": "https://im2.abo.media/media/64/article/485c59153bd8458bbd836f0de488fb28.webp",
       "source": "Жмеринка.City"
