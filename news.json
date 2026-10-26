@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T19:48:23.012744+00:00",
+  "updated_at": "2026-10-26T20:42:44.264260+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-26T19:47:06+00:00",
+      "date": "2026-10-26T20:41:05+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,11 +53,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський увів у дію рішення РНБО про Стратегію нацбезпеки",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4178377-zelenskij-uviv-u-diu-risenna-rnbo-pro-strategiu-nacbezpeki.html",
-      "date": "2026-10-26T19:44:00+00:00",
-      "excerpt": "Президент Володимир Зеленський увів у дію рішення Ради національної безпеки і оборони «Про актуалізацію Стратегії національної безпеки України». — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_09/thumb_files/630_360_1725379558-696.jpg",
+      "title": "РФ атакувала Київ балістикою: є загиблий, під обстріл потрапили медзаклади та бригада «швидкої»",
+      "url": "https://www.ukrinform.ua/rubric-regions/4178426-u-kievi-progrimili-vibuhi-vorog-atakue-balistikou.html",
+      "date": "2026-10-26T20:38:00+00:00",
+      "excerpt": "Під час повітряної тривоги у столиці було чутно вибухи - війська РФ атакували місто балістичними ракетами. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590638-279.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -80,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Сухопутних військах перевіряють обставини ВЛК та служби лікаря, який помер за два тижні після мобілізації",
-      "url": "https://www.ukrinform.ua/rubric-society/4178422-u-suhoputnih-vijskah-pereviraut-obstavini-vlk-ta-sluzbi-likara-akij-pomer-za-dva-tizni-pisla-mobilizacii.html",
-      "date": "2026-10-26T19:37:37+00:00",
-      "excerpt": "Командування Сухопутних військ почало перевірку обставин проходження ВЛК, служби та смерті військовослужбовця з Харківщини Ігоря Ревеки. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1764271055-764.jpg",
-      "source": "Укрінформ"
+      "title": "На фронті від початку доби зафіксували 185 боїв",
+      "url": "https://www.pravda.com.ua/news/2026/10/26/8059833",
+      "date": "2026-10-26T20:26:00+00:00",
+      "excerpt": "Від початку доби 26 жовтня на фронті зафіксували 185 бойових зіткнень.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/1/7/944025/176c831a5813aab36eebbab1bedad5df.jpeg?w=1200&q=85&stamp=1793046200",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -116,12 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У США готують розслідування дизельної угоди Трампа з Путіним",
-      "url": "https://www.ukrinform.ua/rubric-world/4178420-u-ssa-gotuut-rozsliduvanna-dizelnoi-ugodi-trampa-z-putinim.html",
-      "date": "2026-10-26T19:33:49+00:00",
-      "excerpt": "Демократи у Конгресі США вимагають від великих банків та портів зберегти документи щодо операцій з російським дизелем, готуючись до можливого розслідування домовленостей президента Дональда Трампа з російським лідером. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1753862457-681.jpg",
-      "source": "Укрінформ"
+      "title": "Кабмін оприлюднив нові правила бронювання від мобілізації",
+      "url": "https://suspilne.media/1437583-kabmin-opriludniv-novi-pravila-bronuvanna-vid-mobilizacii-so-zminitsa-dla-pidpriemstv",
+      "date": "2026-10-26T20:16:52+00:00",
+      "excerpt": "Кабінет міністрів України оприлюднив оновлені правила бронювання військовозобов'язаних працівників. Зокрема, для підприємств оборонно-промислового та паливно-енергетичного комплексів встановили граничний рівень бронювання до 95% — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/43/43c75c5accc07d4a93eb1eddc587c077616d563b03d598e94c392958c6dc6067.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -143,11 +143,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Меланія Трамп готова продовжувати гуманітарні зусилля в Україні після операції в Олешках - головний радник",
-      "url": "https://www.ukrinform.ua/rubric-society/4178419-melania-tramp-gotova-prodovzuvati-gumanitarni-zusilla-v-ukraini-pisla-operacii-v-oleskah-golovnij-radnik.html",
-      "date": "2026-10-26T19:31:07+00:00",
-      "excerpt": "Перша леді США Меланія Трамп готова продовжувати гуманітарні зусилля в Україні, якщо Президент Володимир Зеленський і очільник РФ Володимир Путін будуть готові до подальшої співпраці з нею після завершення операції в Олешках. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_04/thumb_files/630_360_1775152183-317.jpg",
+      "title": "Що змінюється у бронюванні військовозобов’язаних - уряд оприлюднив постанову",
+      "url": "https://www.ukrinform.ua/rubric-society/4178427-so-zminuetsa-u-bronuvanni-vijskovozobovazanih-urad-opriludniv-postanovu.html",
+      "date": "2026-10-26T20:12:00+00:00",
+      "excerpt": "Кабінет міністрів оприлюднив постанову “Деякі питання організації бронювання військовозобов’язаних на період мобілізації та на воєнний час”. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_08/thumb_files/630_360_1754304821-772.jpg",
       "source": "Укрінформ"
     },
     {
@@ -170,11 +170,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У РФ вперше допустили японських дипломатів до заарештованого журналіста",
-      "url": "https://suspilne.media/1437565-vlada-rf-vperse-dopustila-aponskih-diplomativ-do-zaarestovanogo-zurnalista-gazeti-hokkaido-shimbun",
-      "date": "2026-10-26T19:29:54+00:00",
-      "excerpt": "У заяві японського Міністерства закордонних справ не вказується ім'я заарештованого, але, судячи з опису, йдеться саме про Імаї Юкі. Втім, там стверджують, що «людина не має проблем зі здоров'ям» — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/31/31f4b7d39bdddc00c93b25ffb5aae0f8545d983c970694698aa0dfee3426b7fc.jpg",
+      "title": "У пам'ять про загиблого на війні сина подружжя усиновило чотирьох дітей",
+      "url": "https://suspilne.media/1437575-u-pamat-pro-zagiblogo-na-vijni-sina-podruzza-usinovilo-cotiroh-ditej-video",
+      "date": "2026-10-26T19:58:36+00:00",
+      "excerpt": "В інтерв'ю Суспільному Оксана Карпцова розповіла про загибель її сина Єгора, виїзд з окупації, рішення всиновити дітей і те, як вони змінили життя родини — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/af/af4a4ae019d3b63ba0fba7ed9b9757e44ef921a94fb3a288a884e71177f00308.jpg",
       "source": "Суспільне"
     },
     {
@@ -206,12 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Прем’єр Албанії анонсував законопроєкт для протидії антиурядовим протестам",
-      "url": "https://www.ukrinform.ua/rubric-world/4178416-premer-albanii-anonsuvav-zakonoproekt-dla-protidii-antiuradovim-protestam.html",
-      "date": "2026-10-26T19:26:00+00:00",
-      "excerpt": "Після кількох тижнів сутичок між демонстрантами та поліцією голова уряду Албанії Еді Рама оголосив про законопроєкт, спрямований на боротьбу з насильством під час вуличних протестів. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2022_10/thumb_files/630_360_1665078592-532.jpeg",
-      "source": "Укрінформ"
+      "title": "Росія ввечері понеділка атакувала балістикою Київ: попередньо, є загиблий",
+      "url": "https://www.pravda.com.ua/news/2026/10/26/8059832",
+      "date": "2026-10-26T19:58:00+00:00",
+      "excerpt": "Росія ввечері понеділка атакувала балістичними ракетами Київ.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/8/944024/5886a458337666000e304f7ab6296817.jpeg?w=1200&q=85&stamp=1793045521",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -233,12 +233,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни атакували енергооб’єкт у Чернівецькій області, є знеструмлення",
-      "url": "https://www.ukrinform.ua/rubric-regions/4178414-rosiani-atakuvali-energoobekt-u-cerniveckij-oblasti-e-znestrumlenna.html",
-      "date": "2026-10-26T19:18:00+00:00",
-      "excerpt": "У Чернівецькій області внаслідок падіння уламків реактивного безпілотника російських військ пошкоджень зазнав енергооб’єкт, сталося знеструмлення споживачів. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1761480128-769.jpg",
-      "source": "Укрінформ"
+      "title": "В Олешках із 03:00 27 жовтня діятиме режим припинення вогню — Генштаб",
+      "url": "https://suspilne.media/1437579-v-oleskah-iz-0300-27-zovtna-diatime-rezim-pripinenna-vognu-genstab",
+      "date": "2026-10-26T19:52:37+00:00",
+      "excerpt": "Українські військові готуються до гуманітарної операції в Херсонській області, під час якої планують доставити допомогу жителям міста та створити умови для пересування цивільних — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/20/205d7a358aa57763f70060ad166c5eb643d5371146ac5bd0efab5fac6fe9bbb1.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -260,12 +260,12 @@
     },
     {
       "area": "ukraine",
-      "title": "В Генштабі закликали не поширювати чутки про маршрути евакуації з Олешок",
-      "url": "https://www.pravda.com.ua/news/2026/10/26/8059829",
-      "date": "2026-10-26T19:13:00+00:00",
-      "excerpt": "ЗСУ нагадує: з 27 жовтня діє режим тиші для гуманітарної операції в Олешках на Херсонщині. Не поширюйте неперевірені маршрути евакуації.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/2/9/944018/293b215e92e3a17409a05a6e74d6d62b.jpeg?w=1200&q=85&stamp=1793042116",
-      "source": "Українська правда"
+      "title": "Зеленський увів у дію рішення РНБО про Стратегію нацбезпеки",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4178377-zelenskij-uviv-u-diu-risenna-rnbo-pro-strategiu-nacbezpeki.html",
+      "date": "2026-10-26T19:44:00+00:00",
+      "excerpt": "Президент Володимир Зеленський увів у дію рішення Ради національної безпеки і оборони «Про актуалізацію Стратегії національної безпеки України». — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_09/thumb_files/630_360_1725379558-696.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -296,11 +296,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський нагородив ще 420 військових, 230 з них - посмертно",
-      "url": "https://www.ukrinform.ua/rubric-society/4178400-zelenskij-nagorodiv-se-420-vijskovih-230-z-nih-posmertno.html",
-      "date": "2026-10-26T19:10:00+00:00",
-      "excerpt": "Президент Володимир Зеленський відзначив державними нагородами 420 захисників України, 230 із них - посмертно. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_12/thumb_files/630_360_1734720786-787.png",
+      "title": "У Сухопутних військах перевіряють обставини ВЛК та служби лікаря, який помер за два тижні після мобілізації",
+      "url": "https://www.ukrinform.ua/rubric-society/4178422-u-suhoputnih-vijskah-pereviraut-obstavini-vlk-ta-sluzbi-likara-akij-pomer-za-dva-tizni-pisla-mobilizacii.html",
+      "date": "2026-10-26T19:37:37+00:00",
+      "excerpt": "Командування Сухопутних військ почало перевірку обставин проходження ВЛК, служби та смерті військовослужбовця з Харківщини Ігоря Ревеки. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1764271055-764.jpg",
       "source": "Укрінформ"
     },
     {
@@ -323,12 +323,12 @@
     },
     {
       "area": "ukraine",
-      "title": "На Буковині російський БпЛА пошкодив об’єкт енергетики",
-      "url": "https://www.pravda.com.ua/news/2026/10/26/8059827",
-      "date": "2026-10-26T19:07:00+00:00",
-      "excerpt": "Російські війська 26 жовтня пошкодили об'єкт енергетики в Чернівецькій області, в деяких районах Чернівців зникло світло.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/1/c/944001/1c7e69f71cc6c6f2ff06d8612d797b5b.jpeg?w=1200&q=85&stamp=1793041691",
-      "source": "Українська правда"
+      "title": "У США готують розслідування дизельної угоди Трампа з Путіним",
+      "url": "https://www.ukrinform.ua/rubric-world/4178420-u-ssa-gotuut-rozsliduvanna-dizelnoi-ugodi-trampa-z-putinim.html",
+      "date": "2026-10-26T19:33:49+00:00",
+      "excerpt": "Демократи у Конгресі США вимагають від великих банків та портів зберегти документи щодо операцій з російським дизелем, готуючись до можливого розслідування домовленостей президента Дональда Трампа з російським лідером. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1753862457-681.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -350,11 +350,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Україна запроваджує вночі 27 жовтня режим припинення вогню в районі Олешок",
-      "url": "https://www.ukrinform.ua/rubric-ato/4178412-ukraina-zaprovadzue-vnoci-27-zovtna-rezim-pripinenna-vognu-v-rajoni-olesok.html",
-      "date": "2026-10-26T19:05:00+00:00",
-      "excerpt": "Україна з 03:00 27 жовтня за київським часом запроваджує режим припинення вогню у визначеному районі для проведення гуманітарної операції в тимчасово окупованих Олешках Херсонської області. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1774635046-487.jpg",
+      "title": "Меланія Трамп готова продовжувати гуманітарні зусилля в Україні після операції в Олешках - головний радник",
+      "url": "https://www.ukrinform.ua/rubric-society/4178419-melania-tramp-gotova-prodovzuvati-gumanitarni-zusilla-v-ukraini-pisla-operacii-v-oleskah-golovnij-radnik.html",
+      "date": "2026-10-26T19:31:07+00:00",
+      "excerpt": "Перша леді США Меланія Трамп готова продовжувати гуманітарні зусилля в Україні, якщо Президент Володимир Зеленський і очільник РФ Володимир Путін будуть готові до подальшої співпраці з нею після завершення операції в Олешках. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_04/thumb_files/630_360_1775152183-317.jpg",
       "source": "Укрінформ"
     },
     {
