@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T16:10:32.433975+00:00",
+  "updated_at": "2026-10-26T16:55:32.135853+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -17,6 +17,33 @@
     },
     {
       "area": "region",
+      "title": "У нього — гараж, у колишньої — майно в Маямі: як керівник СБУ Вінниччини «збіднів» після розлучення - 20 хвилин",
+      "url": "https://vn.20minut.ua/analitika-i-publicistika/u-nogo--garazh-u-kolishnoyi--mayno-v-mayami-yak-kerivnik-sbu-vinnichch-12011073.html",
+      "date": "2026-10-26T16:32:00+00:00",
+      "excerpt": "[26:10:2026] У нього — гараж, у колишньої — майно в Маямі: як керівник СБУ Вінниччини «збіднів» після розлучення ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/62/4161439-u-nogo--garazh-u-kolishnoyi--mayno-v-mayami-yak-kerivnik-sbu-vinnichchini-zbidniv-pislya-rozluchennya.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Офіційні документи",
+      "url": "https://www.ukrinform.ua/block-docs",
+      "date": "2026-10-26T16:54:09+00:00",
+      "excerpt": "",
+      "image": "https://www.ukrinform.ua/img/img_none.jpg",
+      "source": "Укрінформ"
+    },
+    {
+      "area": "local",
+      "title": "У Жмеринській громаді відбувся чемпіонат зі спортивної аеробіки: жмеринчани здобули понад 30 медалей – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/483823/u-zhmerinskij-gromadi-vidbuvsya-chempionat-zi-sportivnoi-aerobiki-zhmerinchani-zdobuli-ponad-30-medalej",
+      "date": "2026-10-26T14:55:00+00:00",
+      "excerpt": "Свято краси, грації та спортивного характеру",
+      "image": "https://im2.abo.media/media/64/article/e021f7d0bcc345f683e000c5441297e6.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
       "title": "59-ту бригаду імені Якова Гандзюка повертають до Сухопутних військ",
       "url": "https://suspilne.media/vinnytsia/1437365-59-tu-brigadu-imeni-akova-gandzuka-povertaut-do-suhoputnih-vijsk",
       "date": "2026-10-26T15:00:00+00:00",
@@ -26,11 +53,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Офіційні документи",
-      "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-26T16:09:16+00:00",
-      "excerpt": "",
-      "image": "https://www.ukrinform.ua/img/img_none.jpg",
+      "title": "Нідерланди відповіли на ноту РФ через слова про «ворога»: Підтримка України не зміниться",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4178371-niderlandi-vidpovili-na-notu-rf-cerez-slova-pro-voroga-pidtrimka-ukraini-ne-zminitsa.html",
+      "date": "2026-10-26T16:51:00+00:00",
+      "excerpt": "Росія надіслала дипломатичну ноту до Міністерства закордонних справ Нідерландів у зв’язку із заявою міністерки оборони Ділан Єшільгоз-Зегеріус, яка назвала РФ не просто агресором, а ворогом. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_08/thumb_files/630_360_1755532420-873.jpg",
       "source": "Укрінформ"
     },
     {
@@ -53,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "В Італії кажуть, що новий пакет військової допомоги Україні вже готовий",
-      "url": "https://www.pravda.com.ua/news/2026/10/26/8059801",
-      "date": "2026-10-26T16:03:00+00:00",
-      "excerpt": "Міністр закордонних справ Італії Антоніо Таяні заявив у понеділок, 26 жовтня, що для України уже готовий новий пакет військової допомоги.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/0/943961/f0c357e6bf9b326c148182893e3db4cc.jpeg?w=1200&q=85&stamp=1793030667",
-      "source": "Українська правда"
+      "title": "Зеленський затвердив закони про продовження воєнного стану та мобілізації",
+      "url": "https://suspilne.media/1437465-zelenskij-zatverdiv-zakoni-ta-ukazi-pro-prodovzenna-voennogo-stanu-ta-mobilizacii-v-ukraini",
+      "date": "2026-10-26T16:47:28+00:00",
+      "excerpt": "Також президент Володимир Зеленський підписав укази №1060/2026 «Про продовження строку дії воєнного стану в Україні» та №1061/2026 «Про продовження строку проведення загальної мобілізації» — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/04/0478890433763dffe66b70633d8d1825d4cbedd44208eced70427cf4d2297427.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -67,6 +94,15 @@
       "date": "2026-10-22T13:22:00+00:00",
       "excerpt": "У Жмеринці пропонують створити панорамний арт-простір на «Калинці»: як підтримати петицію",
       "image": "https://im2.abo.media/media/64/article/bb2b21ff2908473196e647d73b969cdb.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "Після року невідомості до Жмеринки «на щиті» повертається батько чотирьох дітей Антон Кедь – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/483306/pislya-roku-nevidomosti-do-zhmerinki-na-schiti-povertayetsya-batko-chotiroh-ditej-anton-ked",
+      "date": "2026-10-21T09:58:00+00:00",
+      "excerpt": "Після року невідомості до Жмеринки «на щиті» повертається батько чотирьох дітей Антон Кедь",
+      "image": "https://im2.abo.media/media/64/article/8860456a6fd84348aeb0f52c9e1661ac.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -80,21 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Прем’єр Молдови: Від початку війни наш повітряний простір порушували понад 100 разів",
-      "url": "https://www.ukrinform.ua/rubric-world/4178354-premer-moldovi-vid-pocatku-vijni-nas-povitranij-prostir-porusuvali-ponad-100-raziv.html",
-      "date": "2026-10-26T15:57:42+00:00",
-      "excerpt": "Від початку російсько-української війни повітряний простір Молдови порушували понад 100 разів, а на територію країни падали безпілотники та уламки снарядів. Саме тому Молдова хоче перейняти український досвід протидії дронам. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793024159-150.jpg",
-      "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "Після року невідомості до Жмеринки «на щиті» повертається батько чотирьох дітей Антон Кедь – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/483306/pislya-roku-nevidomosti-do-zhmerinki-na-schiti-povertayetsya-batko-chotiroh-ditej-anton-ked",
-      "date": "2026-10-21T09:58:00+00:00",
-      "excerpt": "Після року невідомості до Жмеринки «на щиті» повертається батько чотирьох дітей Антон Кедь",
-      "image": "https://im2.abo.media/media/64/article/8860456a6fd84348aeb0f52c9e1661ac.webp",
-      "source": "Жмеринка.City"
+      "title": "РФ атакувала АЗС в Запоріжжі: двоє людей отримали поранення",
+      "url": "https://www.pravda.com.ua/news/2026/10/26/8059806",
+      "date": "2026-10-26T16:44:00+00:00",
+      "excerpt": "Російська армія 26 жовтня атакувала АЗС в Запоріжжі: двоє людей отримали поранення.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/b/a/943966/bafb53916dfa0747c2f9d03112c24a43.jpeg?w=1200&q=85&stamp=1793033056",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -116,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "«За цим велике майбутнє». На Харківщині провели ще дві повітряні евакуації",
-      "url": "https://suspilne.media/kharkiv/1437403-za-cim-velike-majbutne-na-harkivsini-proveli-se-dvi-povitrani-evakuacii",
-      "date": "2026-10-26T15:53:29+00:00",
-      "excerpt": "З початку жовтня військові провели щонайменше чотири повітряні евакуації, три з них відбулися на Харківщині, повідомили у Харківському шпиталі — Суспільне Харків",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/7f/7f39576027020f3d8a53f53744ab86dd8dd7694a2ed233dfb6a0ed4247bff5c5.jpg",
-      "source": "Суспільне"
+      "title": "Синоптики розповіли, якою буде погода протягом тижня",
+      "url": "https://www.ukrinform.ua/rubric-regions/4178366-sinoptiki-rozpovili-akou-bude-pogoda-protagom-tizna.html",
+      "date": "2026-10-26T16:44:00+00:00",
+      "excerpt": "В Україні цього тижня подекуди дощитиме, а найтепліше має бути на півдні країни. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792426029-952.png",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -143,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Тофан: Від початку війни в Україні повітряний простір Молдови порушили понад 100 разів",
-      "url": "https://www.pravda.com.ua/news/2026/10/26/8059795",
-      "date": "2026-10-26T15:46:00+00:00",
-      "excerpt": "Прем'єр-міністр Молдови Василе Тофан заявив, що з початку повномасштабної російсько-української війни повітряний простір його країни був порушений понад 100 разів.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/1/f/943945/1f450ac01ff15aafb33184695cd5112d.jpeg?w=1200&q=85&stamp=1793029606",
-      "source": "Українська правда"
+      "title": "Переможці виборів у Сербії відмовляються запроваджувати санкції проти Росії",
+      "url": "https://suspilne.media/1437459-peremozci-viboriv-u-serbii-vidmovlautsa-zaprovadzuvati-sankcii-proti-rosii-reuters",
+      "date": "2026-10-26T16:37:40+00:00",
+      "excerpt": "Політична сила Студентський список, яка здобула перемогу на виборах 25 жовтня, має намір зберегти економічні зв'язки з Москвою. Водночас її представники виступають за припинення експорту озброєння до зон бойових дій — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/31/31bbb2bf7d2a105d517a68be0690ce58a22d6c4836897d2c47b3eecbc870066b.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -157,6 +184,15 @@
       "date": "2026-10-19T13:50:00+00:00",
       "excerpt": "У Жмеринці відбувся обласний фестиваль театрального мистецтва «Театральна осінь – 2026»",
       "image": "https://im2.abo.media/media/64/article/9c59fa484fa84596adb781c20fb6a9b1.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "У Жмеринці дитячий центр розвитку «Лідер» відзначає 10 років: англійська, підготовка до школи, IT – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/483030/uzhmerinci-dityachij-centr-rozvitku-lider-vidznachaye-10-rokivanglijska-pidgotovka-do-shkoli-it",
+      "date": "2026-10-19T10:58:00+00:00",
+      "excerpt": "У Жмеринці дитячий центр розвитку «Лідер» відзначає 10 років: англійська, підготовка до школи, IT",
+      "image": "https://im2.abo.media/media/64/article/2158763abf3d40a28ac27fae4bb1fad4.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -170,21 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "ВАКС зменшив заставу для Тимошенко з понад ₴33 мільйонів до ₴266 тисяч",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4178349-vaks-zmensiv-zastavu-dla-timosenko-z-ponad-33-miljoniv-do-266-tisac.html",
-      "date": "2026-10-26T15:44:11+00:00",
-      "excerpt": "Вищий антикорупційний суд значно зменшив розмір застави для нардепки Юлії Тимошенко - з понад 33 млн грн до понад 266 тисяч гривень. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_04/thumb_files/630_360_1776692634-4228.jpeg",
+      "title": "Воєнний стан і мобілізацію продовжили до 29 січня 2027 року - Зеленський підписав закони",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4178363-zelenskij-pidpisav-zakoni-pro-voennij-stan-i-prodovzenna-mobilizacii-do-29-sicna-2027-roku.html",
+      "date": "2026-10-26T16:35:00+00:00",
+      "excerpt": "Президент Володимир Зеленський підписав закони про продовження дії воєнного стану та проведення загальної мобілізації до 29 січня 2027 року. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_12/thumb_files/630_360_1734720786-787.png",
       "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринці дитячий центр розвитку «Лідер» відзначає 10 років: англійська, підготовка до школи, IT – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/483030/uzhmerinci-dityachij-centr-rozvitku-lider-vidznachaye-10-rokivanglijska-pidgotovka-do-shkoli-it",
-      "date": "2026-10-19T10:58:00+00:00",
-      "excerpt": "У Жмеринці дитячий центр розвитку «Лідер» відзначає 10 років: англійська, підготовка до школи, IT",
-      "image": "https://im2.abo.media/media/64/article/2158763abf3d40a28ac27fae4bb1fad4.webp",
-      "source": "Жмеринка.City"
     },
     {
       "area": "local",
@@ -206,12 +233,12 @@
     },
     {
       "area": "ukraine",
-      "title": "ВАКС зменшив заставу для Тимошенко з 33 мільйонів до 266 тисяч гривень",
-      "url": "https://suspilne.media/1437415-vaks-zmensiv-zastavu-dla-timosenko-z-33-miljoniv-do-266-tisac-griven",
-      "date": "2026-10-26T15:42:34+00:00",
-      "excerpt": "ВАКС зменшив заставу народній депутатці та лідерці фракції «Батьківщина» Юлії Тимошенко з 33 мільйонів до 266 тисяч гривень. Її підозрюють у пропозиції хабаря колегам по Верховній Раді — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/f6/f6d3afeed90225e7ab1520ef5b1f5ffc01b92acaff388c1fd03fde42e31144a2.jpg",
-      "source": "Суспільне"
+      "title": "Україна цьогоріч уже відкрила 29 нових напрямків аграрного експорту",
+      "url": "https://www.ukrinform.ua/rubric-economy/4178361-ukraina-cogoric-uze-vidkrila-29-novih-napramkiv-agrarnogo-eksportu.html",
+      "date": "2026-10-26T16:30:48+00:00",
+      "excerpt": "Для української продукції з початку 2026 року станом на жовтень погоджено 29 нових експортних напрямків у 13 країнах і Європейському Союзі; це найбільший річний показник щонайменше з 2022 року. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1753863872-111.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -233,12 +260,12 @@
     },
     {
       "area": "ukraine",
-      "title": "На Полтавщині ворожий дрон влучив по території підприємства",
-      "url": "https://www.ukrinform.ua/rubric-regions/4178347-na-poltavsini-vorozij-dron-vluciv-po-teritorii-pidpriemstva.html",
-      "date": "2026-10-26T15:38:00+00:00",
-      "excerpt": "У Миргородському районі Полтавської області зафіксували влучання російського БПЛА по території одного з підприємств. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_10/thumb_files/630_360_1728310907-206.jpg",
-      "source": "Укрінформ"
+      "title": "Як бригада «Рубіж» доставляє вантажі на позиції під обстрілами",
+      "url": "https://suspilne.media/donbas/1435545-nebo-brudne-vid-droniv-ak-brigada-rubiz-dostavlae-vantazi-na-pozicii-pid-obstrilami",
+      "date": "2026-10-26T16:25:24+00:00",
+      "excerpt": "Броньовані авто, небезпечні дороги та важкі бомбери «Вампір». Як військові забезпечують позиції пальним, водою та боєприпасами на Донеччині — Суспільне Донбас",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/fd/fdac3f9578f72b51ef96a0d59f80aec8744dec647fa01c54dc9402fa199403f8.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -247,33 +274,6 @@
       "date": "2026-10-18T11:26:00+00:00",
       "excerpt": "Галина Мельник ділиться секретами обрядової випічки: у Жмеринці відроджують українські традиції",
       "image": "https://im2.abo.media/media/64/article/bb0a79dde8cd42e58ddb439423a51008.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "Трасу на Могилів-Подільський будували в’язні. Що відомо про «сталінку» - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/trasu-na-mogiliv-podilskiy-buduvali-vyazni-scho-vidomo-pro-stalinku-12010934.html",
-      "date": "2026-10-25T18:03:00+00:00",
-      "excerpt": "[25:10:2026] Трасу на Могилів-Подільський будували в’язні. Що відомо про «сталінку» ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/61/4160299-trasu-na-mogiliv-podilskiy-buduvali-vyazni-scho-vidomo-pro-stalinku.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Напад на церкву в Йорданії: поліція затримала підозрюваних",
-      "url": "https://suspilne.media/1437411-napad-na-cerkvu-v-jordanii-de-zaginuli-devatero-ludej-policia-zatrimala-troh-pidozruvanih",
-      "date": "2026-10-26T15:33:17+00:00",
-      "excerpt": "Йорданські правоохоронці затримали трьох чоловіків, яких підозрюють у смертельному нападі на православну церкву в провінції Карак 23 жовтня. Під час спецоперації між підозрюваними та силовиками сталася перестрілка — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/a8/a83ee4684f5d03007835578f9d781114c1ae13cd627b182ea80813b68bd0ca39.jpg",
-      "source": "Суспільне"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринці відбувся Кубок з волейболу пам’яті Героя Дмитра Терещенка: за перемогу змагалися педагоги – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482721/u-zhmerinci-vidbuvsya-kubok-z-volejbolu-pamyati-geroya-dmitra-tereschenka-za-peremogu-zmagalisya-pedagogi",
-      "date": "2026-10-15T18:08:00+00:00",
-      "excerpt": "У Жмеринці відбувся Кубок з волейболу пам’яті Героя Дмитра Терещенка: за перемогу змагалися педагоги",
-      "image": "https://im2.abo.media/media/64/article/dc8da30edc4e48eca75617168c893db5.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -287,21 +287,21 @@
     },
     {
       "area": "region",
-      "title": "Вінничанин Дмитро Рогозюк отримав «Срібний хрест» за операцію «Вівальді» - 20 хвилин",
-      "url": "https://vn.20minut.ua/lyudi/vinnichanin-dmitro-rogozyuk-otrimav-sribniy-hrest-za-operatsiyu-vivald-12010933.html",
-      "date": "2026-10-25T17:13:00+00:00",
-      "excerpt": "[25:10:2026] Вінничанин Дмитро Рогозюк отримав «Срібний хрест» за операцію «Вівальді» ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/61/4160293-vinnichanin-dmitro-rogozyuk-otrimav-sribniy-hrest-za-operatsiyu-vivaldi.jpeg",
+      "title": "Трасу на Могилів-Подільський будували в’язні. Що відомо про «сталінку» - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/trasu-na-mogiliv-podilskiy-buduvali-vyazni-scho-vidomo-pro-stalinku-12010934.html",
+      "date": "2026-10-25T18:03:00+00:00",
+      "excerpt": "[25:10:2026] Трасу на Могилів-Подільський будували в’язні. Що відомо про «сталінку» ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/61/4160299-trasu-na-mogiliv-podilskiy-buduvali-vyazni-scho-vidomo-pro-stalinku.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "У Німеччині розробляють два перехоплювачі для боротьби з реактивними дронами",
-      "url": "https://www.ukrinform.ua/rubric-world/4178344-u-nimeccini-rozroblaut-dva-perehopluvaci-dla-borotbi-z-reaktivnimi-dronami.html",
-      "date": "2026-10-26T15:29:38+00:00",
-      "excerpt": "Німецька оборонна компанія Helsing розробляє два нові типи ракет-перехоплювачів для боротьби з реактивними безпілотниками та крилатими ракетами. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_02/thumb_files/630_360_1739444818-259.jpg",
-      "source": "Укрінформ"
+      "title": "Уряд відновлює конкурси на держслужбу та в органи місцевого самоврядування",
+      "url": "https://suspilne.media/1437433-kabmin-vidnovlue-konkursi-na-derzsluzbu-ta-v-organi-miscevogo-samovraduvanna",
+      "date": "2026-10-26T16:24:09+00:00",
+      "excerpt": "Зокрема на посади категорії «А» їх оголошуватимуть з дня набрання законом чинності, категорії «Б» — через місяць, категорії «В» та на посади в органах місцевого самоврядування — через два місяці — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/01/017fd31afbf7d0c07e97946af7a3a6eba2709cecba6d66b550967f0ffa8ca8fd.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -323,12 +323,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Прем'єр Молдови заявив, що Кишинів зацікавлений у досвіді України щодо ППО",
-      "url": "https://suspilne.media/1437381-ponad-sto-porusen-povitranogo-prostoru-premer-moldovi-zaaviv-so-kisiniv-zacikavlenij-u-dosvidi-ukraini-sodo-ppo",
-      "date": "2026-10-26T15:28:48+00:00",
-      "excerpt": "Також молдовський прем'єр-міністр Василе Тофан підтвердив позицію уряду Молдови щодо настання в Україні «справедливого і тривалого миру», а також вважає, що Москва повинна відповісти за скоєне — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/d8/d8ddc3045ae4d71d7ab5d8aa3519f859fcdefd41f677696ce457b403f2e17e86.jpg",
-      "source": "Суспільне"
+      "title": "Російські НПЗ збільшують виробництво дизелю після угоди Трампа і Путіна - Reuters",
+      "url": "https://www.ukrinform.ua/rubric-economy/4178356-rosijski-npz-zbilsuut-virobnictvo-dizelu-pisla-ugodi-trampa-i-putina-reuters.html",
+      "date": "2026-10-26T16:12:00+00:00",
+      "excerpt": "Російські нафтопереробні заводи у жовтні збільшують виробництво дизельного пального після того, як уряд РФ надав експортні квоти в межах домовленості Москви із Вашингтоном. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2019_06/thumb_files/630_360_1561817083-857.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -341,21 +341,21 @@
     },
     {
       "area": "region",
-      "title": "Осіння прохолода та до +1° вночі. Чого чекати від погоди у Вінниці - 20 хвилин",
-      "url": "https://vn.20minut.ua/Pogoda/osinnya-proholoda-ta-do-1-vnochi-chogo-chekati-vid-pogodi-u-vinnitsi-12010936.html",
-      "date": "2026-10-25T16:09:00+00:00",
-      "excerpt": "[25:10:2026] Осіння прохолода та до +1° вночі. Чого чекати від погоди у Вінниці ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/61/4160315-osinnya-proholoda-ta-do-1-vnochi-chogo-chekati-vid-pogodi-u-vinnitsi.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "Від бойових виїздів до перевірки автівок: історія прикордонника з Вінниччини",
+      "url": "https://suspilne.media/vinnytsia/1436375-vid-bojovih-viizdiv-do-perevirki-avtivok-istoria-prikordonnika-z-vinniccini",
+      "date": "2026-10-25T15:30:00+00:00",
+      "excerpt": "До Дня автомобіліста у Могилів-Подільському прикордонному загоні розповіли історію прикордонника, який раніше доправляв снайперів на позиції та евакуйовував військових, а нині відповідає за технічний стан службових автомобілів — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/30/30a4e1ca2d873451fa21afa7a4d2e5f74180c571bbf0a711ce3765be6bcb9c1d.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "ДБР затримало військового, якого підозрюють у передачі ФСБ даних про позиції Сил оборони",
-      "url": "https://www.ukrinform.ua/rubric-regions/4178239-dbr-zatrimalo-vijskovogo-akogo-pidozruut-u-peredaci-fsb-danih-pro-pozicii-sil-oboroni.html",
-      "date": "2026-10-26T15:25:00+00:00",
-      "excerpt": "Працівники Державного бюро розслідувань повідомили про підозру військовослужбовцю Збройних сил України, у самовільному залишенні місця служби та співпраці з російськими спецслужбами. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2017_07/thumb_files/630_360_1500619729-5674-narucniki-foto-arvidas-semetas-ukrinform.jpg",
-      "source": "Укрінформ"
+      "title": "В Італії кажуть, що новий пакет військової допомоги Україні вже готовий",
+      "url": "https://www.pravda.com.ua/news/2026/10/26/8059801",
+      "date": "2026-10-26T16:03:00+00:00",
+      "excerpt": "Міністр закордонних справ Італії Антоніо Таяні заявив у понеділок, 26 жовтня, що для України уже готовий новий пакет військової допомоги.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/0/943961/f0c357e6bf9b326c148182893e3db4cc.jpeg?w=1200&q=85&stamp=1793030667",
+      "source": "Українська правда"
     },
     {
       "area": "local",
