@@ -1,11 +1,38 @@
 {
-  "updated_at": "2026-10-26T14:52:30.737204+00:00",
+  "updated_at": "2026-10-26T16:10:32.433975+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
     "ukraine": 30
   },
   "items": [
+    {
+      "area": "local",
+      "title": "Rarog оновлює лінійку засобів індивідуального захисту для ЗСУ відповідно до вимог сучасної війни – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/483819/rarog-onovlyuye-linijku-zasobiv-individualnogo-zahistu-dlya-zsu-vidpovidno-do-vimog-suchasnoi-vijni",
+      "date": "2026-10-26T15:14:00+00:00",
+      "excerpt": "Український ринок військового спорядження продовжує стрімко трансформуватися під запити фронту.",
+      "image": "https://im2.abo.media/media/64/article/5933754065e841d5b2ea0b4baf14c62a.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "59-ту бригаду імені Якова Гандзюка повертають до Сухопутних військ",
+      "url": "https://suspilne.media/vinnytsia/1437365-59-tu-brigadu-imeni-akova-gandzuka-povertaut-do-suhoputnih-vijsk",
+      "date": "2026-10-26T15:00:00+00:00",
+      "excerpt": "59-ту бригаду імені Якова Гандзюка повертають із Сил безпілотних систем до Сухопутних військ. Вона увійде до 9-го армійського корпусу на Покровському напрямку, повідомляє hromadske. Рішення змінить штатне підпорядкування підрозділ — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/e4/e4171d0fff1494358777aa0dacbc4a06687603fe7e2b9847063def2028b9826c.jpg",
+      "source": "Суспільне Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Офіційні документи",
+      "url": "https://www.ukrinform.ua/block-docs",
+      "date": "2026-10-26T16:09:16+00:00",
+      "excerpt": "",
+      "image": "https://www.ukrinform.ua/img/img_none.jpg",
+      "source": "Укрінформ"
+    },
     {
       "area": "local",
       "title": "Жмеринка має три міста-побратими: чим вони цікаві та що нас об’єднує – Жмеринка.City",
@@ -26,12 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Офіційні документи",
-      "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-26T14:51:06+00:00",
-      "excerpt": "",
-      "image": "https://www.ukrinform.ua/img/img_none.jpg",
-      "source": "Укрінформ"
+      "title": "В Італії кажуть, що новий пакет військової допомоги Україні вже готовий",
+      "url": "https://www.pravda.com.ua/news/2026/10/26/8059801",
+      "date": "2026-10-26T16:03:00+00:00",
+      "excerpt": "Міністр закордонних справ Італії Антоніо Таяні заявив у понеділок, 26 жовтня, що для України уже готовий новий пакет військової допомоги.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/0/943961/f0c357e6bf9b326c148182893e3db4cc.jpeg?w=1200&q=85&stamp=1793030667",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -53,11 +80,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У Судані удари дронів по п’яти електростанціях спричинили масштабні відключення світла",
-      "url": "https://www.ukrinform.ua/rubric-world/4178327-u-sudani-udari-droniv-po-pati-elektrostanciah-spricinili-masstabni-vidklucenna-svitla.html",
-      "date": "2026-10-26T14:43:56+00:00",
-      "excerpt": "Бойовики воєнізованого угруповання «Сили швидкого реагування» (RSF) завдали ударів безпілотниками по п’яти електростанціях у Судані, спричинивши масштабні відключення електроенергії у східній частині країни. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2018_12/thumb_files/630_360_1545475535-382.jpg",
+      "title": "Прем’єр Молдови: Від початку війни наш повітряний простір порушували понад 100 разів",
+      "url": "https://www.ukrinform.ua/rubric-world/4178354-premer-moldovi-vid-pocatku-vijni-nas-povitranij-prostir-porusuvali-ponad-100-raziv.html",
+      "date": "2026-10-26T15:57:42+00:00",
+      "excerpt": "Від початку російсько-української війни повітряний простір Молдови порушували понад 100 разів, а на територію країни падали безпілотники та уламки снарядів. Саме тому Молдова хоче перейняти український досвід протидії дронам. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793024159-150.jpg",
       "source": "Укрінформ"
     },
     {
@@ -67,6 +94,15 @@
       "date": "2026-10-21T09:58:00+00:00",
       "excerpt": "Після року невідомості до Жмеринки «на щиті» повертається батько чотирьох дітей Антон Кедь",
       "image": "https://im2.abo.media/media/64/article/8860456a6fd84348aeb0f52c9e1661ac.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "У Жмеринці перевіряють укриття та підвали: стан приміщень і доступ під час тривог – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/483230/u-zhmerinci-pereviryayut-ukrittya-ta-pidvali-stan-primischen-i-dostup-pid-chas-trivog",
+      "date": "2026-10-20T15:11:00+00:00",
+      "excerpt": "У Жмеринці перевіряють укриття та підвали: стан приміщень і доступ під час тривог",
+      "image": "https://im2.abo.media/media/64/article/49e9bc77575841328059b10e071e7f38.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -80,21 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Уряд оголошує конкурс на посаду голови АРМА",
-      "url": "https://www.ukrinform.ua/rubric-economy/4178325-urad-ogolosue-konkurs-na-posadu-golovi-arma.html",
-      "date": "2026-10-26T14:38:00+00:00",
-      "excerpt": "Уряд оголошує відкритий і прозорий конкурс на посаду голови Національного агентства з питань виявлення, розшуку та управління активами, одержаними від корупційних та інших злочинів (АРМА). — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_08/thumb_files/630_360_1754304820-591.jpg",
-      "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринці перевіряють укриття та підвали: стан приміщень і доступ під час тривог – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/483230/u-zhmerinci-pereviryayut-ukrittya-ta-pidvali-stan-primischen-i-dostup-pid-chas-trivog",
-      "date": "2026-10-20T15:11:00+00:00",
-      "excerpt": "У Жмеринці перевіряють укриття та підвали: стан приміщень і доступ під час тривог",
-      "image": "https://im2.abo.media/media/64/article/49e9bc77575841328059b10e071e7f38.webp",
-      "source": "Жмеринка.City"
+      "title": "«За цим велике майбутнє». На Харківщині провели ще дві повітряні евакуації",
+      "url": "https://suspilne.media/kharkiv/1437403-za-cim-velike-majbutne-na-harkivsini-proveli-se-dvi-povitrani-evakuacii",
+      "date": "2026-10-26T15:53:29+00:00",
+      "excerpt": "З початку жовтня військові провели щонайменше чотири повітряні евакуації, три з них відбулися на Харківщині, повідомили у Харківському шпиталі — Суспільне Харків",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/7f/7f39576027020f3d8a53f53744ab86dd8dd7694a2ed233dfb6a0ed4247bff5c5.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -116,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Україна просить Молдову продовжити 50% знижку на транзит залізницею",
-      "url": "https://suspilne.media/1437327-ukraina-prosit-moldovu-prodovziti-50-znizku-na-tranzit-zalizniceu-u-2027-roci-koreckij",
-      "date": "2026-10-26T14:29:38+00:00",
-      "excerpt": "Також прем'єр-міністр Сергій Корецький розповів, для збільшення транзиту пропонується використовувати українські локомотиви та бригади на ділянці «Окниця-Берешти» — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/35/35d08700c63287c81f1e0ff4b570d59c2f39d578e8f93b8410a16e948afe17be.jpg",
-      "source": "Суспільне"
+      "title": "Тофан: Від початку війни в Україні повітряний простір Молдови порушили понад 100 разів",
+      "url": "https://www.pravda.com.ua/news/2026/10/26/8059795",
+      "date": "2026-10-26T15:46:00+00:00",
+      "excerpt": "Прем'єр-міністр Молдови Василе Тофан заявив, що з початку повномасштабної російсько-української війни повітряний простір його країни був порушений понад 100 разів.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/1/f/943945/1f450ac01ff15aafb33184695cd5112d.jpeg?w=1200&q=85&stamp=1793029606",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -143,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Україна та Молдова співпрацюватимуть у військово-технічній сфері",
-      "url": "https://suspilne.media/1437335-ukraina-ta-moldova-spivpracuvatimut-u-vijskovo-tehnicnij-sferi",
-      "date": "2026-10-26T14:28:26+00:00",
-      "excerpt": "Представники урядів України та Молдови підписали угоду про військово-технічне співробітництво. Подробиці угоди не розголошуються. В уряді України заявили, що угода відкриє обмін досвідом — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/28/2835dabf4657d43f935d3c49a73f111559a5f874d2d2952e41c698d9c121fd45.jpg",
-      "source": "Суспільне"
+      "title": "ВАКС зменшив заставу для Тимошенко з понад ₴33 мільйонів до ₴266 тисяч",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4178349-vaks-zmensiv-zastavu-dla-timosenko-z-ponad-33-miljoniv-do-266-tisac.html",
+      "date": "2026-10-26T15:44:11+00:00",
+      "excerpt": "Вищий антикорупційний суд значно зменшив розмір застави для нардепки Юлії Тимошенко - з понад 33 млн грн до понад 266 тисяч гривень. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_04/thumb_files/630_360_1776692634-4228.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -157,6 +184,15 @@
       "date": "2026-10-19T10:58:00+00:00",
       "excerpt": "У Жмеринці дитячий центр розвитку «Лідер» відзначає 10 років: англійська, підготовка до школи, IT",
       "image": "https://im2.abo.media/media/64/article/2158763abf3d40a28ac27fae4bb1fad4.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "У Жмеринці оголосили конкурс молодих краєзнавців до 100-річчя Володимира Вовкодава – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/483007/u-zhmerinci-ogolosili-konkurs-molodih-krayeznavciv-do100-richchya-volodimira-vovkodava",
+      "date": "2026-10-19T07:39:00+00:00",
+      "excerpt": "У Жмеринці оголосили конкурс молодих краєзнавців до 100-річчя Володимира Вовкодава",
+      "image": "https://im2.abo.media/media/64/article/cbc8828b54a64cb686729bcdbdcf2d79.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -170,21 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Україна обмежує нове розмінування у 50-кілометровій зоні від фронту та кордону",
-      "url": "https://suspilne.media/1437283-ukraina-obmezue-nove-rozminuvanna-u-50-kilometrovij-zoni-vid-frontu-ta-kordonu",
-      "date": "2026-10-26T14:27:44+00:00",
-      "excerpt": "В Україні обмежили нове гуманітарне розмінування у зоні 20–50 км від фронту та кордону з Росією. Рішення Міноборони для шести областей — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/73/73a43b4b32de14f57f76224d8d93fec7fc05841c31133d9caf5b5d238764e368.jpg",
+      "title": "ВАКС зменшив заставу для Тимошенко з 33 мільйонів до 266 тисяч гривень",
+      "url": "https://suspilne.media/1437415-vaks-zmensiv-zastavu-dla-timosenko-z-33-miljoniv-do-266-tisac-griven",
+      "date": "2026-10-26T15:42:34+00:00",
+      "excerpt": "ВАКС зменшив заставу народній депутатці та лідерці фракції «Батьківщина» Юлії Тимошенко з 33 мільйонів до 266 тисяч гривень. Її підозрюють у пропозиції хабаря колегам по Верховній Раді — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/f6/f6d3afeed90225e7ab1520ef5b1f5ffc01b92acaff388c1fd03fde42e31144a2.jpg",
       "source": "Суспільне"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринці оголосили конкурс молодих краєзнавців до 100-річчя Володимира Вовкодава – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/483007/u-zhmerinci-ogolosili-konkurs-molodih-krayeznavciv-do100-richchya-volodimira-vovkodava",
-      "date": "2026-10-19T07:39:00+00:00",
-      "excerpt": "У Жмеринці оголосили конкурс молодих краєзнавців до 100-річчя Володимира Вовкодава",
-      "image": "https://im2.abo.media/media/64/article/cbc8828b54a64cb686729bcdbdcf2d79.webp",
-      "source": "Жмеринка.City"
     },
     {
       "area": "local",
@@ -206,12 +233,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Молдові заявили, що мотопараплан з України порушив повітряний простір країни",
-      "url": "https://www.pravda.com.ua/news/2026/10/26/8059778",
-      "date": "2026-10-26T14:26:00+00:00",
-      "excerpt": "Міністерство оборони Молдови у понеділок повідомило про порушення повітряного простору літальним апаратом типу мотопараплана, який залетів з України.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/2/c/943900/2cbec77e538e92344abbfc781adca5a7.jpeg?w=1200&q=85&stamp=1793024818",
-      "source": "Українська правда"
+      "title": "На Полтавщині ворожий дрон влучив по території підприємства",
+      "url": "https://www.ukrinform.ua/rubric-regions/4178347-na-poltavsini-vorozij-dron-vluciv-po-teritorii-pidpriemstva.html",
+      "date": "2026-10-26T15:38:00+00:00",
+      "excerpt": "У Миргородському районі Полтавської області зафіксували влучання російського БПЛА по території одного з підприємств. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_10/thumb_files/630_360_1728310907-206.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -233,11 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "55% українців вважає, що в Україні є позитивні зрушення у боротьбі з корупцією",
-      "url": "https://suspilne.media/1437297-ponad-polovina-ukrainciv-vvazae-so-v-ukraini-e-pozitivni-zrusenna-u-borotbi-z-korupcieu-opituvanna-kmis",
-      "date": "2026-10-26T14:22:39+00:00",
-      "excerpt": "За результатами опитування Київського міжнародного інституту соціології (КМІС), ще 41% дотримуються думки, що держава безнадійно корумпована. Ця ж група людей також має більш песимістичні погляди з питань війни та миру — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/b2/b2348e9b75c2436aaade1d33d80ddb2f355f893aaeb21ca71c1b89c6f861a533.jpg",
+      "title": "Напад на церкву в Йорданії: поліція затримала підозрюваних",
+      "url": "https://suspilne.media/1437411-napad-na-cerkvu-v-jordanii-de-zaginuli-devatero-ludej-policia-zatrimala-troh-pidozruvanih",
+      "date": "2026-10-26T15:33:17+00:00",
+      "excerpt": "Йорданські правоохоронці затримали трьох чоловіків, яких підозрюють у смертельному нападі на православну церкву в провінції Карак 23 жовтня. Під час спецоперації між підозрюваними та силовиками сталася перестрілка — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/a8/a83ee4684f5d03007835578f9d781114c1ae13cd627b182ea80813b68bd0ca39.jpg",
       "source": "Суспільне"
     },
     {
@@ -247,6 +274,15 @@
       "date": "2026-10-15T18:08:00+00:00",
       "excerpt": "У Жмеринці відбувся Кубок з волейболу пам’яті Героя Дмитра Терещенка: за перемогу змагалися педагоги",
       "image": "https://im2.abo.media/media/64/article/dc8da30edc4e48eca75617168c893db5.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "Підтримка захисників, підготовка до зими та відзнака Вовкодаву: 80 сесія Жмеринської міської ради – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/482716/pidtrimka-zahisnikiv-pidgotovka-do-zimi-ta-vidznaka-vovkodavu-80-sesiya-zhmerinskoi-miskoi-radi",
+      "date": "2026-10-15T16:05:00+00:00",
+      "excerpt": "Підтримка захисників, підготовка до зими та допомога лікарні: 80 сесія Жмеринської міської ради",
+      "image": "https://im2.abo.media/media/64/article/4992b74a8cfe48e5be5e77cc8240633b.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -260,21 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Чоловіку, який під час конфлікту у Києві застрелив хлопця, оголосили підозру",
-      "url": "https://www.pravda.com.ua/news/2026/10/26/8059777",
-      "date": "2026-10-26T14:21:00+00:00",
-      "excerpt": "Поліція Києва повідомила про підозру 41-річному чоловіку за вбивство під час конфлікту 24 жовтня. Йому загрожує до 15 років позбавлення волі.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/6/943898/569be357edbf67347cfb27b423bcb81b.jpeg?w=1200&q=85&stamp=1793024457",
-      "source": "Українська правда"
-    },
-    {
-      "area": "local",
-      "title": "Підтримка захисників, підготовка до зими та відзнака Вовкодаву: 80 сесія Жмеринської міської ради – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482716/pidtrimka-zahisnikiv-pidgotovka-do-zimi-ta-vidznaka-vovkodavu-80-sesiya-zhmerinskoi-miskoi-radi",
-      "date": "2026-10-15T16:05:00+00:00",
-      "excerpt": "Підтримка захисників, підготовка до зими та допомога лікарні: 80 сесія Жмеринської міської ради",
-      "image": "https://im2.abo.media/media/64/article/4992b74a8cfe48e5be5e77cc8240633b.webp",
-      "source": "Жмеринка.City"
+      "title": "У Німеччині розробляють два перехоплювачі для боротьби з реактивними дронами",
+      "url": "https://www.ukrinform.ua/rubric-world/4178344-u-nimeccini-rozroblaut-dva-perehopluvaci-dla-borotbi-z-reaktivnimi-dronami.html",
+      "date": "2026-10-26T15:29:38+00:00",
+      "excerpt": "Німецька оборонна компанія Helsing розробляє два нові типи ракет-перехоплювачів для боротьби з реактивними безпілотниками та крилатими ракетами. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_02/thumb_files/630_360_1739444818-259.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -296,11 +323,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Суд у Швейцарії засудив білоруського силовика за викрадення опозиціонера",
-      "url": "https://suspilne.media/1437291-sud-u-svejcarii-zasudiv-biloruskogo-silovika-za-pricetnist-do-zniknenna-opozicijnogo-biznesmena-krasovskogo",
-      "date": "2026-10-26T14:20:54+00:00",
-      "excerpt": "26 жовтня швейцарський суд визнав винним ексспівробітника білоруської служби безпеки у викраденні бізнесмена Анатолія Красовського — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/27/27ddc7aa45367690f18bf70e44efff2525ad9c4703478816f265bed88f00427c.jpg",
+      "title": "Прем'єр Молдови заявив, що Кишинів зацікавлений у досвіді України щодо ППО",
+      "url": "https://suspilne.media/1437381-ponad-sto-porusen-povitranogo-prostoru-premer-moldovi-zaaviv-so-kisiniv-zacikavlenij-u-dosvidi-ukraini-sodo-ppo",
+      "date": "2026-10-26T15:28:48+00:00",
+      "excerpt": "Також молдовський прем'єр-міністр Василе Тофан підтвердив позицію уряду Молдови щодо настання в Україні «справедливого і тривалого миру», а також вважає, що Москва повинна відповісти за скоєне — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/d8/d8ddc3045ae4d71d7ab5d8aa3519f859fcdefd41f677696ce457b403f2e17e86.jpg",
       "source": "Суспільне"
     },
     {
@@ -323,11 +350,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У Японії розробили пластик, який у 30 разів швидше розкладається в морі",
-      "url": "https://www.ukrinform.ua/rubric-world/4178311-u-aponii-rozrobili-plastik-akij-u-30-raziv-svidse-rozkladaetsa-v-mori.html",
-      "date": "2026-10-26T14:19:00+00:00",
-      "excerpt": "Група вчених з Токійського університету та інших установ Японії розробила пластик, який містить ферменти, що прискорюють його розкладання в морському середовищі. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2021_09/thumb_files/630_360_1630660764-322.jpg",
+      "title": "ДБР затримало військового, якого підозрюють у передачі ФСБ даних про позиції Сил оборони",
+      "url": "https://www.ukrinform.ua/rubric-regions/4178239-dbr-zatrimalo-vijskovogo-akogo-pidozruut-u-peredaci-fsb-danih-pro-pozicii-sil-oboroni.html",
+      "date": "2026-10-26T15:25:00+00:00",
+      "excerpt": "Працівники Державного бюро розслідувань повідомили про підозру військовослужбовцю Збройних сил України, у самовільному залишенні місця служби та співпраці з російськими спецслужбами. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2017_07/thumb_files/630_360_1500619729-5674-narucniki-foto-arvidas-semetas-ukrinform.jpg",
       "source": "Укрінформ"
     },
     {
@@ -337,33 +364,6 @@
       "date": "2026-10-14T09:19:00+00:00",
       "excerpt": "У Жмеринці російський дрон зруйнував об’єкт залізничної інфраструктури",
       "image": "https://im2.abo.media/media/64/article/bdde06cbf69e46d3a89d6f764173e880.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "Понад 40 звернень після атаки на Вінницю: як постраждалим отримати допомогу? - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/ponad-40-zvernen-pislya-ataki-na-vinnitsyu-yak-postrazhdalim-otrimati--12010982.html",
-      "date": "2026-10-25T15:32:00+00:00",
-      "excerpt": "[25:10:2026] Понад 40 звернень після атаки на Вінницю: як постраждалим отримати допомогу? ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/61/4160707-ponad-40-zvernen-pislya-ataki-na-vinnitsyu-yak-postrazhdalim-otrimati-dopomogu.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Макрон про заворушення у Франції: Соцмережі шкодять демократії та сприяють насильству",
-      "url": "https://www.ukrinform.ua/rubric-world/4178317-makron-pro-zavorusenna-u-francii-socmerezi-skodat-demokratii-ta-spriaut-nasilstvu.html",
-      "date": "2026-10-26T14:14:20+00:00",
-      "excerpt": "Президент Франції Еммануель Макрон заявив, що соціальні мережі шкодять демократії та використовуються для залучання людей до нападів і пограбувань під час протестів. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_08/thumb_files/630_360_1755600779-750.jpeg",
-      "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "У лікарні Чернігова помер військовослужбовець з Браїлова Віталій Петрусь із позивним «Вітер» – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482398/u-likarni-chernigova-pomer-vijskovosluzhbovec-z-brailova-vitalij-petrus-iz-pozivnim-viter",
-      "date": "2026-10-13T14:12:00+00:00",
-      "excerpt": "Воїн, який любив свою родину, цінував дружбу та вмів радіти простим речам",
-      "image": "https://im2.abo.media/media/64/article/485c59153bd8458bbd836f0de488fb28.webp",
       "source": "Жмеринка.City"
     }
   ]
