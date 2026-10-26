@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T20:42:44.264260+00:00",
+  "updated_at": "2026-10-26T21:42:14.155528+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-26T20:41:05+00:00",
+      "date": "2026-10-26T21:40:24+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,12 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "РФ атакувала Київ балістикою: є загиблий, під обстріл потрапили медзаклади та бригада «швидкої»",
-      "url": "https://www.ukrinform.ua/rubric-regions/4178426-u-kievi-progrimili-vibuhi-vorog-atakue-balistikou.html",
-      "date": "2026-10-26T20:38:00+00:00",
-      "excerpt": "Під час повітряної тривоги у столиці було чутно вибухи - війська РФ атакували місто балістичними ракетами. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590638-279.jpeg",
-      "source": "Укрінформ"
+      "title": "Зеленський після балістичного удару по Києву: Штучні затримки ППО допомагають терору",
+      "url": "https://www.pravda.com.ua/news/2026/10/26/8059835",
+      "date": "2026-10-26T21:25:00+00:00",
+      "excerpt": "Президент Володимир Зеленський увечері 26 жовтня заявив, що Україна потрібні належні інструменти для знищення пускових російської балістики.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/0/f/944027/0ffc2b2471e962c04a36bff5e31643d6.jpeg?w=1200&q=85&stamp=1793050005",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -80,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "На фронті від початку доби зафіксували 185 боїв",
-      "url": "https://www.pravda.com.ua/news/2026/10/26/8059833",
-      "date": "2026-10-26T20:26:00+00:00",
-      "excerpt": "Від початку доби 26 жовтня на фронті зафіксували 185 бойових зіткнень.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/1/7/944025/176c831a5813aab36eebbab1bedad5df.jpeg?w=1200&q=85&stamp=1793046200",
-      "source": "Українська правда"
+      "title": "РФ атакувала Київ балістикою: є загиблий і поранені, пошкоджені медзаклади та школа",
+      "url": "https://www.ukrinform.ua/rubric-regions/4178426-u-kievi-progrimili-vibuhi-vorog-atakue-balistikou.html",
+      "date": "2026-10-26T21:25:00+00:00",
+      "excerpt": "Під час повітряної тривоги у столиці було чутно вибухи - війська РФ атакували місто балістичними ракетами. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590638-279.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -116,11 +116,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Кабмін оприлюднив нові правила бронювання від мобілізації",
-      "url": "https://suspilne.media/1437583-kabmin-opriludniv-novi-pravila-bronuvanna-vid-mobilizacii-so-zminitsa-dla-pidpriemstv",
-      "date": "2026-10-26T20:16:52+00:00",
-      "excerpt": "Кабінет міністрів України оприлюднив оновлені правила бронювання військовозобов'язаних працівників. Зокрема, для підприємств оборонно-промислового та паливно-енергетичного комплексів встановили граничний рівень бронювання до 95% — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/43/43c75c5accc07d4a93eb1eddc587c077616d563b03d598e94c392958c6dc6067.jpg",
+      "title": "Україну може чекати м'якша зима: прогноз Укргідрометцентру",
+      "url": "https://suspilne.media/1437597-ukrainu-moze-cekati-maksa-zima-ale-morozi-povernutsa-prognoz-ukrgidrometcentru",
+      "date": "2026-10-26T21:21:36+00:00",
+      "excerpt": "Зима 2026–2027 років в Україні може бути теплішою за кліматичну норму на 1–2 градуси. Водночас синоптики не виключають періодів похолодання та вторгнення арктичного повітря — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/6e/6ee91b96f775fa8d056a05eac3db0976ba2a8d046de5e3eb48aa0af2e7f8b7ac.jpg",
       "source": "Суспільне"
     },
     {
@@ -143,11 +143,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Що змінюється у бронюванні військовозобов’язаних - уряд оприлюднив постанову",
-      "url": "https://www.ukrinform.ua/rubric-society/4178427-so-zminuetsa-u-bronuvanni-vijskovozobovazanih-urad-opriludniv-postanovu.html",
-      "date": "2026-10-26T20:12:00+00:00",
-      "excerpt": "Кабінет міністрів оприлюднив постанову “Деякі питання організації бронювання військовозобов’язаних на період мобілізації та на воєнний час”. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_08/thumb_files/630_360_1754304821-772.jpg",
+      "title": "Зеленський - після російського удару по Києву: Штучні атримки ППО для України допомагають терору",
+      "url": "https://www.ukrinform.ua/rubric-ato/4178433-zelenskij-pisla-rosijskogo-udaru-po-kievu-stucni-atrimki-ppo-dla-ukraini-dopomagaut-teroru.html",
+      "date": "2026-10-26T21:19:00+00:00",
+      "excerpt": "В умовах постійної загрози російських повітряних ударів штучні затримки засобів протиповітряної оборони для захисту України тільки допомагають терору. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_12/thumb_files/630_360_1765392737-572.jpg",
       "source": "Укрінформ"
     },
     {
@@ -170,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У пам'ять про загиблого на війні сина подружжя усиновило чотирьох дітей",
-      "url": "https://suspilne.media/1437575-u-pamat-pro-zagiblogo-na-vijni-sina-podruzza-usinovilo-cotiroh-ditej-video",
-      "date": "2026-10-26T19:58:36+00:00",
-      "excerpt": "В інтерв'ю Суспільному Оксана Карпцова розповіла про загибель її сина Єгора, виїзд з окупації, рішення всиновити дітей і те, як вони змінили життя родини — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/af/af4a4ae019d3b63ba0fba7ed9b9757e44ef921a94fb3a288a884e71177f00308.jpg",
-      "source": "Суспільне"
+      "title": "Росія атакувала балістикою Київ: є загиблий та постраждалі, пошкоджені медзаклади та гуртожиток",
+      "url": "https://www.pravda.com.ua/news/2026/10/26/8059832",
+      "date": "2026-10-26T20:58:00+00:00",
+      "excerpt": "Росія ввечері понеділка атакувала балістичними ракетами Київ. Одна людина загинула, 10 постраждали, зокрема студенти гуртожитку.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/8/944024/5886a458337666000e304f7ab6296817.jpeg?w=1200&q=85&stamp=1793045521",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -206,12 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Росія ввечері понеділка атакувала балістикою Київ: попередньо, є загиблий",
-      "url": "https://www.pravda.com.ua/news/2026/10/26/8059832",
-      "date": "2026-10-26T19:58:00+00:00",
-      "excerpt": "Росія ввечері понеділка атакувала балістичними ракетами Київ.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/8/944024/5886a458337666000e304f7ab6296817.jpeg?w=1200&q=85&stamp=1793045521",
-      "source": "Українська правда"
+      "title": "На фронті - 185 зіткнень, ЗСУ ліквідували 45 окупантів на Покровському напрямку",
+      "url": "https://www.ukrinform.ua/rubric-ato/4178430-na-fronti-185-zitknen-zsu-likviduvali-45-okupantiv-na-pokrovskomu-napramku.html",
+      "date": "2026-10-26T20:56:00+00:00",
+      "excerpt": "Протягом 26 жовтня на фронті зафіксовано 185 бойових зіткнень Сил оборони України з російськими загарбниками, найактивніше - 25 разів - ворог намагався атакувати на Покровському напрямку. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791111251-769.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -233,11 +233,11 @@
     },
     {
       "area": "ukraine",
-      "title": "В Олешках із 03:00 27 жовтня діятиме режим припинення вогню — Генштаб",
-      "url": "https://suspilne.media/1437579-v-oleskah-iz-0300-27-zovtna-diatime-rezim-pripinenna-vognu-genstab",
-      "date": "2026-10-26T19:52:37+00:00",
-      "excerpt": "Українські військові готуються до гуманітарної операції в Херсонській області, під час якої планують доставити допомогу жителям міста та створити умови для пересування цивільних — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/20/205d7a358aa57763f70060ad166c5eb643d5371146ac5bd0efab5fac6fe9bbb1.jpg",
+      "title": "Російські війська ввечері 26 жовтня завдали ракетного удару по Києву",
+      "url": "https://suspilne.media/kyiv/1437589-poskodzena-stancia-metro-desat-poranenih-i-odin-zagiblij-rosijski-vijska-zavdali-raketnogo-udaru-po-kievu",
+      "date": "2026-10-26T20:45:40+00:00",
+      "excerpt": "Увечері, 26 жовтня, російські війська завдали ракетного удару по Києву. Внаслідок атаки у Деснянському районі столиці пошкоджена одна зі станцій метро. Також під обстріл потрапила бригада швидкої допомоги, яка прямувала на виклик — Суспільне Київ",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/82/8258d05cb3e4c32b57e3f62ab6a137fcedab90c7dc9c7a1ac9917695bd6af842.jpg",
       "source": "Суспільне"
     },
     {
@@ -260,11 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський увів у дію рішення РНБО про Стратегію нацбезпеки",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4178377-zelenskij-uviv-u-diu-risenna-rnbo-pro-strategiu-nacbezpeki.html",
-      "date": "2026-10-26T19:44:00+00:00",
-      "excerpt": "Президент Володимир Зеленський увів у дію рішення Ради національної безпеки і оборони «Про актуалізацію Стратегії національної безпеки України». — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_09/thumb_files/630_360_1725379558-696.jpg",
+      "title": "Головний радник Меланії Трамп: Росія пообіцяла поважати вибір жителів Олешок, куди евакуюватися",
+      "url": "https://www.ukrinform.ua/rubric-society/4178425-golovnij-radnik-melanii-tramp-rosia-poobicala-povazati-vibir-ziteliv-olesok-kudi-evakuuvatisa.html",
+      "date": "2026-10-26T20:35:00+00:00",
+      "excerpt": "Росія запевнила Україну та США, що поважатиме вибір мешканців тимчасово окупованих Олешок на Херсонщині щодо місця евакуації. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1774635046-487.jpg",
       "source": "Укрінформ"
     },
     {
@@ -296,12 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Сухопутних військах перевіряють обставини ВЛК та служби лікаря, який помер за два тижні після мобілізації",
-      "url": "https://www.ukrinform.ua/rubric-society/4178422-u-suhoputnih-vijskah-pereviraut-obstavini-vlk-ta-sluzbi-likara-akij-pomer-za-dva-tizni-pisla-mobilizacii.html",
-      "date": "2026-10-26T19:37:37+00:00",
-      "excerpt": "Командування Сухопутних військ почало перевірку обставин проходження ВЛК, служби та смерті військовослужбовця з Харківщини Ігоря Ревеки. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1764271055-764.jpg",
-      "source": "Укрінформ"
+      "title": "На фронті від початку доби зафіксували 185 боїв",
+      "url": "https://www.pravda.com.ua/news/2026/10/26/8059833",
+      "date": "2026-10-26T20:26:00+00:00",
+      "excerpt": "Від початку доби 26 жовтня на фронті зафіксували 185 бойових зіткнень.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/1/7/944025/176c831a5813aab36eebbab1bedad5df.jpeg?w=1200&q=85&stamp=1793046200",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -323,12 +323,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У США готують розслідування дизельної угоди Трампа з Путіним",
-      "url": "https://www.ukrinform.ua/rubric-world/4178420-u-ssa-gotuut-rozsliduvanna-dizelnoi-ugodi-trampa-z-putinim.html",
-      "date": "2026-10-26T19:33:49+00:00",
-      "excerpt": "Демократи у Конгресі США вимагають від великих банків та портів зберегти документи щодо операцій з російським дизелем, готуючись до можливого розслідування домовленостей президента Дональда Трампа з російським лідером. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1753862457-681.jpg",
-      "source": "Укрінформ"
+      "title": "Кабмін оприлюднив нові правила бронювання від мобілізації",
+      "url": "https://suspilne.media/1437583-kabmin-opriludniv-novi-pravila-bronuvanna-vid-mobilizacii-so-zminitsa-dla-pidpriemstv",
+      "date": "2026-10-26T20:16:52+00:00",
+      "excerpt": "Кабінет міністрів України оприлюднив оновлені правила бронювання військовозобов'язаних працівників. Зокрема, для підприємств оборонно-промислового та паливно-енергетичного комплексів встановили граничний рівень бронювання до 95% — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/43/43c75c5accc07d4a93eb1eddc587c077616d563b03d598e94c392958c6dc6067.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -350,11 +350,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Меланія Трамп готова продовжувати гуманітарні зусилля в Україні після операції в Олешках - головний радник",
-      "url": "https://www.ukrinform.ua/rubric-society/4178419-melania-tramp-gotova-prodovzuvati-gumanitarni-zusilla-v-ukraini-pisla-operacii-v-oleskah-golovnij-radnik.html",
-      "date": "2026-10-26T19:31:07+00:00",
-      "excerpt": "Перша леді США Меланія Трамп готова продовжувати гуманітарні зусилля в Україні, якщо Президент Володимир Зеленський і очільник РФ Володимир Путін будуть готові до подальшої співпраці з нею після завершення операції в Олешках. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_04/thumb_files/630_360_1775152183-317.jpg",
+      "title": "Що змінюється у бронюванні військовозобов’язаних - уряд оприлюднив постанову",
+      "url": "https://www.ukrinform.ua/rubric-society/4178427-so-zminuetsa-u-bronuvanni-vijskovozobovazanih-urad-opriludniv-postanovu.html",
+      "date": "2026-10-26T20:12:00+00:00",
+      "excerpt": "Кабінет міністрів оприлюднив постанову “Деякі питання організації бронювання військовозобов’язаних на період мобілізації та на воєнний час”. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_08/thumb_files/630_360_1754304821-772.jpg",
       "source": "Укрінформ"
     },
     {
