@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T03:42:17.674873+00:00",
+  "updated_at": "2026-10-27T04:40:32.459655+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-27T03:40:47+00:00",
+      "date": "2026-10-27T04:39:11+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,11 +53,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У Німеччині випробували бронемашину Boxer з лазерною системою протидії дронам",
-      "url": "https://www.ukrinform.ua/rubric-world/4178222-u-nimeccini-viprobuvali-bronemasinu-boxer-z-lazernou-sistemou-protidii-dronam.html",
-      "date": "2026-10-27T03:31:00+00:00",
-      "excerpt": "Німецькі оборонні компанії KNDS Deutschland та Ground A розробили лазерну систему протидії безпілотникам на базі колісної бронемашини Boxer, яка вже успішно пройшла вогневі випробування. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793010569-368.jpg",
+      "title": "Розвідка: Будівельну галузь РФ охоплює криза - з початку року закрилися десятки тисяч компаній",
+      "url": "https://www.ukrinform.ua/rubric-economy/4178248-rozvidka-budivelnu-galuz-rf-ohoplue-kriza-z-pocatku-roku-zakrilisa-desatki-tisac-kompanij.html",
+      "date": "2026-10-27T04:36:00+00:00",
+      "excerpt": "У Росії поглиблюються проблеми будівельної галузі, які супроводжуються масовим закриттям підприємств, зростанням ризиків банкрутства та скороченням житлового будівництва. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793014321-187.jpg",
       "source": "Укрінформ"
     },
     {
@@ -80,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "П'ять жінок звинуватили Трампа в сексуальному насильстві в присутності Епштейна",
-      "url": "https://suspilne.media/1437621-zvit-demokrativ-u-kongresi-ssa-pat-zinok-zvinuvatili-trampa-v-seksualnomu-nasilstvi-v-prisutnosti-epstejna",
-      "date": "2026-10-27T03:27:11+00:00",
-      "excerpt": "Новий звіт демократів у Конгресі США містить звинувачення п'яти жінок. Демократи закликали призначити спецпрокурора. Білий дім усе заперечує — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/20/20ef67888e5603220789da2690d7106cb81aa577594b41b204f4065fa6654190.jpg",
-      "source": "Суспільне"
+      "title": "Сили оборони уразили склад боєприпасів окупантів на Луганщині – соцмережі",
+      "url": "https://www.pravda.com.ua/news/2026/10/27/8059852",
+      "date": "2026-10-27T04:13:00+00:00",
+      "excerpt": "У ніч на 27 жовтня Сили оборони України завдали удару безпілотниками по складу боєприпасів російських військ у районі тимчасово окупованого міста Хрустальний Луганської області.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/6/944085/a6f6f98f73f81f92e1647987485a5d96.jpeg?w=1200&q=85&stamp=1793074478",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -116,12 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Під час обстрілу Києва влучили у Південний міст: рух \"червоною\" і \"зеленою\" гілками метро обмежили",
-      "url": "https://www.pravda.com.ua/news/2026/10/27/8059848",
-      "date": "2026-10-27T03:25:00+00:00",
-      "excerpt": "Після нічної атаки 27 жовтня пошкоджено інфраструктуру метро й Південний міст. Рух поїздів червоною і зеленою лініями у Києві обмежено.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/0/7/944082/079d370accf26720e6a8128c321b08ac.jpeg?w=1200&q=85&stamp=1793071877",
-      "source": "Українська правда"
+      "title": "Apple представила новий водостійкий iPad Mini",
+      "url": "https://www.ukrinform.ua/rubric-world/4178312-apple-predstavila-novij-vodostijkij-ipad-mini.html",
+      "date": "2026-10-27T04:13:00+00:00",
+      "excerpt": "Американська компанія Apple презентувала у понеділок, 26 жовтня, оновлений планшет iPad Mini з органічно світлодіодним дисплеєм, водостійким корпусом і швидшим процесором. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793023971-842.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -143,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Через ворожу атаку в Києві обмежили рух Південним мостом",
-      "url": "https://www.ukrinform.ua/rubric-regions/4178459-cerez-vorozu-ataku-v-kievi-obmezili-ruh-pivdennim-mostom.html",
-      "date": "2026-10-27T03:04:00+00:00",
-      "excerpt": "У звʼязку з повітряно атакою військ РФ на столицю обмежено рух транспорту Південним мостом. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2017_09/thumb_files/630_360_1504851978-7185.jpg",
-      "source": "Укрінформ"
+      "title": "Американський Мін'юст утретє висунув обвинувачення ексдиректору ФБР Комі",
+      "url": "https://suspilne.media/1437627-a-dosi-nevinuvatij-amerikanskij-minust-utrete-visunuv-obvinuvacenna-eksdirektoru-fbr-komi",
+      "date": "2026-10-27T04:06:10+00:00",
+      "excerpt": "Комі обвинувачують у переданні секретних даних журналістові The New York Times 2016 року. Захист просить закрити справу через сплив строку давності — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/40/40dd574a4e552db75c63fdbae580bdc2f2a5a2c469c88d9dcf5e046b322ee7e8.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -170,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Тайвань протидіятиме тиску Китаю у \"сірій зоні\" за допомогою автономних роїв дронів",
-      "url": "https://www.pravda.com.ua/news/2026/10/27/8059847",
-      "date": "2026-10-27T02:59:00+00:00",
-      "excerpt": "Тайвань розробляє систему на базі штучного інтелекту для координації роїв безпілотників, покликану забезпечити безперервне морське спостереження та протидіяти операціям Китаю у \"сірій зоні\".",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/e/5/944080/e5c22bbc23977d7fcab3ed3ef684c727.jpeg?w=1200&q=85&stamp=1793070148",
-      "source": "Українська правда"
+      "title": "Прикарпатські рятувальники отримали партію автомобілів від Південної Кореї",
+      "url": "https://www.ukrinform.ua/rubric-regions/4178457-prikarpatski-ratuvalniki-otrimali-partiu-avtomobiliv-vid-pivdennoi-korei.html",
+      "date": "2026-10-27T03:52:00+00:00",
+      "excerpt": "Завдяки партнерам з Південної Кореї рятувальники Івано-Франківської області отримали 10 нових автомобілів для оперативного реагування на надзвичайні ситуації. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793069209-8298.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -206,12 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Сили оборони в жовтні провели чотири повітряні евакуації поранених",
-      "url": "https://www.ukrinform.ua/rubric-ato/4178451-sili-oboroni-v-zovtni-proveli-cotiri-povitrani-evakuacii-poranenih.html",
-      "date": "2026-10-27T02:48:00+00:00",
-      "excerpt": "Сили оборони протягом цього мсяця провели щонайменше чотири повітряні евакуації поранених військовослужбовців. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793063764-866.jpg",
-      "source": "Укрінформ"
+      "title": "США призупинили безвіз для громадян Китаю через через наплив \"пологових туристів\"",
+      "url": "https://www.pravda.com.ua/news/2026/10/27/8059850",
+      "date": "2026-10-27T03:43:00+00:00",
+      "excerpt": "Міністерство внутрішньої безпеки США призупинило дію програми безвізових поїздок для громадян Китаю на Північні Маріанські острови через ризики шпигунства та поширення \"пологового туризму\".",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/7/e/944083/7ec0b7f38c1c9e5314273a1b44fa9bf3.jpeg?w=1200&q=85&stamp=1793072748",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -233,11 +233,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Російські структури можуть контролювати діяльність Yandex Go у Молдові",
-      "url": "https://www.ukrinform.ua/rubric-world/4178321-rosijski-strukturi-mozut-kontroluvati-dialnist-yandex-go-u-moldovi.html",
-      "date": "2026-10-27T02:23:00+00:00",
-      "excerpt": "Російські структури можуть контролювати діяльність Yandex Go у Молдові, попри зміни у структурі власності компанії після початку війни РФ проти України. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2017_05/thumb_files/630_360_1494943378-5786.jpg",
+      "title": "У Німеччині випробували бронемашину Boxer з лазерною системою протидії дронам",
+      "url": "https://www.ukrinform.ua/rubric-world/4178222-u-nimeccini-viprobuvali-bronemasinu-boxer-z-lazernou-sistemou-protidii-dronam.html",
+      "date": "2026-10-27T03:31:00+00:00",
+      "excerpt": "Німецькі оборонні компанії KNDS Deutschland та Ground A розробили лазерну систему протидії безпілотникам на базі колісної бронемашини Boxer, яка вже успішно пройшла вогневі випробування. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793010569-368.jpg",
       "source": "Укрінформ"
     },
     {
@@ -260,11 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Хмара запропонував країнам E5 передати Україні 10% запасів перехоплювачів",
-      "url": "https://suspilne.media/1437619-hmara-zaproponuvav-krainam-e5-peredati-ukraini-10-zapasiv-perehopluvaciv-v-obmin-na-majbutni-postavki",
-      "date": "2026-10-27T02:23:00+00:00",
-      "excerpt": "Міністр оборони закликав передати Україні 10% запасів перехоплювачів в обмін на майбутні поставки й вчасно профінансувати виробництво дронів на 2027 рік — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/e3/e33fe463ab109535745e0876c98fe1814917de4b843709800f7ce9176f16b27c.jpg",
+      "title": "П'ять жінок звинуватили Трампа в сексуальному насильстві в присутності Епштейна",
+      "url": "https://suspilne.media/1437621-zvit-demokrativ-u-kongresi-ssa-pat-zinok-zvinuvatili-trampa-v-seksualnomu-nasilstvi-v-prisutnosti-epstejna",
+      "date": "2026-10-27T03:27:11+00:00",
+      "excerpt": "Новий звіт демократів у Конгресі США містить звинувачення п'яти жінок. Демократи закликали призначити спецпрокурора. Білий дім усе заперечує — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/20/20ef67888e5603220789da2690d7106cb81aa577594b41b204f4065fa6654190.jpg",
       "source": "Суспільне"
     },
     {
@@ -296,12 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Нічна атака РФ на Київ: зафіксовані кілька влучань, зокрема в адмінбудівлю",
-      "url": "https://www.ukrinform.ua/rubric-regions/4178454-nicna-ataka-rf-na-kiiv-zafiksovani-kilka-vlucan-zokrema-v-adminbudivlu.html",
-      "date": "2026-10-27T02:02:00+00:00",
-      "excerpt": "Унаслідок чергової балістичної атаки російських військ у Подільському районі столиці сталося влучання в адміністративну будівлю. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_05/thumb_files/630_360_1716022077-259.jpg",
-      "source": "Укрінформ"
+      "title": "У Києві перекрили Південний міст через пошкодження внаслідок обстрілу",
+      "url": "https://www.pravda.com.ua/news/2026/10/27/8059848",
+      "date": "2026-10-27T03:25:00+00:00",
+      "excerpt": "Під час ракетної атаки 27 жовтня пошкоджено Південний міст і інфраструктуру метро в Києві. Транспорт тимчасово не курсує через міст, метро працює з обмеженнями.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/0/7/944082/079d370accf26720e6a8128c321b08ac.jpeg?w=1200&q=85&stamp=1793071877",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -323,11 +323,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Лубінець оголосив про початок режиму тиші в Олешках",
-      "url": "https://www.ukrinform.ua/rubric-ato/4178453-lubinec-ogolosiv-pro-pocatok-rezimu-tisi-v-rajoni-olesok.html",
-      "date": "2026-10-27T01:44:00+00:00",
-      "excerpt": "У районі тимчасово окупованого міста Олешки Херсонської області розпочався режим тиші, українська сторона виконує свої домовленості. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_03/thumb_files/630_360_1743081466-302.jpg",
+      "title": "Через ворожу атаку в Києві пошкоджена інфраструктура метро, рух Південним мостом обмежили",
+      "url": "https://www.ukrinform.ua/rubric-regions/4178459-cerez-vorozu-ataku-v-kievi-obmezili-ruh-pivdennim-mostom.html",
+      "date": "2026-10-27T03:04:00+00:00",
+      "excerpt": "У звʼязку з повітряно атакою військ РФ на столицю обмежено рух транспорту Південним мостом. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2017_09/thumb_files/630_360_1504851978-7185.jpg",
       "source": "Укрінформ"
     },
     {
@@ -350,11 +350,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни атакували Київ балістикою: у Подільському районі влучили в адмінбудівлю",
-      "url": "https://www.pravda.com.ua/news/2026/10/27/8059845",
-      "date": "2026-10-27T01:37:00+00:00",
-      "excerpt": "Вночі 27 жовтня росіяни атакували Київ балістичними ракетами. У Подільському районі влучили в адмінбудівлю, є руйнування.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/1/944077/a19aa09ab161e066268fee541cef2bd8.jpeg?w=1200&q=85&stamp=1793064896",
+      "title": "Тайвань протидіятиме тиску Китаю у \"сірій зоні\" за допомогою автономних роїв дронів",
+      "url": "https://www.pravda.com.ua/news/2026/10/27/8059847",
+      "date": "2026-10-27T02:59:00+00:00",
+      "excerpt": "Тайвань розробляє систему на базі штучного інтелекту для координації роїв безпілотників, покликану забезпечити безперервне морське спостереження та протидіяти операціям Китаю у \"сірій зоні\".",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/e/5/944080/e5c22bbc23977d7fcab3ed3ef684c727.jpeg?w=1200&q=85&stamp=1793070148",
       "source": "Українська правда"
     },
     {
