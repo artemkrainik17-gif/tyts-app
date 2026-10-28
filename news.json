@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T04:51:26.450289+00:00",
+  "updated_at": "2026-10-28T05:49:46.374579+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-28T04:50:23+00:00",
+      "date": "2026-10-28T05:48:55+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,11 +53,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Україні у середу прогнозують дощ, температура - від +3° до +17°",
-      "url": "https://www.ukrinform.ua/rubric-regions/4178674-ukraini-u-seredu-prognozuut-dos-temperatura-vid-3-do-17.html",
-      "date": "2026-10-28T04:45:00+00:00",
-      "excerpt": "В Україні у середу, 28 жовтня, буде хмарно з проясненнями, очікуються невеликі дощі, вночі 3-8° тепла, вдень 9-14°, на Закарпатті та південних областях до 17°. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792426265-435.png",
+      "title": "Армія РФ втратила на війні проти України ще 1510 військових та 21 артсистему",
+      "url": "https://www.ukrinform.ua/rubric-ato/4178810-armia-rf-vtratila-na-vijni-proti-ukraini-se-1510-vijskovih-ta-21-artsistemu.html",
+      "date": "2026-10-28T05:41:00+00:00",
+      "excerpt": "Загальні бойові втрати російських військ від початку повномасштабного вторгнення в Україну, з 24 лютого 2022 року по 28 жовтня 2026 року, становлять близько 1 583 350 осіб, зокрема 1 510 осіб – за минулу добу. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2022_04/thumb_files/630_360_1649246846-717.jpg",
       "source": "Укрінформ"
     },
     {
@@ -80,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "ЗСУ за добу ліквідували понад 1500 окупантів та 1500 дронів – Генштаб",
-      "url": "https://www.pravda.com.ua/news/2026/10/28/8060018",
-      "date": "2026-10-28T04:43:00+00:00",
-      "excerpt": "За минулу добу Сили оборони України вбили та поранили 1 510 російських окупантів, загальні втрати ворога у війні склали 1 583 350 осіб.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/1/944994/f1fa024de3c6903ea0aec5a477465503.jpeg?w=1200&q=85&stamp=1793162745",
-      "source": "Українська правда"
+      "title": "Росіяни за добу 846 разів били по Запорізькій області, двоє поранених",
+      "url": "https://www.ukrinform.ua/rubric-regions/4178807-rosiani-za-dobu-846-raziv-bili-po-zaporizkij-oblasti-dvoe-poranenih.html",
+      "date": "2026-10-28T05:36:00+00:00",
+      "excerpt": "Упродовж доби окупанти завдали 846 ударів по 41 населеному пункту Запорізької області. Двоє людей поранені внаслідок ворожих атак по Запорізькому району. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793165012-221.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -116,11 +116,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У Харкові росіяни атакували житлові будинки: п'ятеро постраждалих, серед них дитина",
-      "url": "https://www.pravda.com.ua/news/2026/10/28/8060007",
-      "date": "2026-10-28T04:27:00+00:00",
-      "excerpt": "Внаслідок удару російського дрона по житлових будинках у Харкові п’ятеро поранених, зокрема хлопчик 4 років. Знищено кілька будівель.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/d/944976/5def0c5189d8cb44d36ba576c964114a.jpeg?w=1200&q=85&stamp=1793142939",
+      "title": "У Новомосковську дрони вразили один з найбільших хімзаводів РФ",
+      "url": "https://www.pravda.com.ua/news/2026/10/28/8060019",
+      "date": "2026-10-28T05:30:00+00:00",
+      "excerpt": "Безпілотники атакували \"Азот\" у Тульській області РФ. Після удару зайнявся агрегат виробництва аміаку.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/0/7/944996/07c039dcf8c5d49e35f2fd68a483bc46.jpeg?w=1200&q=85&stamp=1793164236",
       "source": "Українська правда"
     },
     {
@@ -143,11 +143,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У «Дії» готують до запуску нову послугу",
-      "url": "https://www.ukrinform.ua/rubric-society/4178757-u-dii-gotuut-do-zapusku-novu-poslugu.html",
-      "date": "2026-10-28T04:25:00+00:00",
-      "excerpt": "Мінцифри готує до запуску «Дія. Офіс» - сервіс, за допомогою якого можна буде податися на вакансію на держслужбі. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_07/thumb_files/630_360_1785409464-201.jpg",
+      "title": "Графіки відключення світла у середу діятимуть у кількох областях",
+      "url": "https://www.ukrinform.ua/rubric-economy/4178760-grafiki-vidklucenna-svitla-u-seredu-diatimut-u-kilkoh-oblastah.html",
+      "date": "2026-10-28T05:28:00+00:00",
+      "excerpt": "У частині областей України з 06:00 до 23:59 середи, 28 жовтня, буде обмежене споживання електроенергії. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_04/thumb_files/630_360_1775113180-247.jpg",
       "source": "Укрінформ"
     },
     {
@@ -170,11 +170,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У Росії нові податки загострили конфлікт між Кремлем і великим бізнесом - розвідка",
-      "url": "https://www.ukrinform.ua/rubric-economy/4178793-u-rosii-novi-podatki-zagostrili-konflikt-miz-kremlem-i-velikim-biznesom-rozvidka.html",
-      "date": "2026-10-28T04:02:00+00:00",
-      "excerpt": "Наразі російський бізнес вимагає перегляду податкових змін через ризик скорочення інвестицій і відтоку капіталу. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793143619-159.png",
+      "title": "Instagram випустив застосунок для Apple TV",
+      "url": "https://www.ukrinform.ua/rubric-world/4178579-instagram-vipustiv-zastosunok-dla-apple-tv.html",
+      "date": "2026-10-28T05:19:00+00:00",
+      "excerpt": "Соціальна мережа Instagram випустила застосунок для медіаплеєрів Apple TV, який дозволяє дивитися Reels, довгі відео та прямі трансляції на великому екрані. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_07/thumb_files/630_360_1721649319-407.jpg",
       "source": "Укрінформ"
     },
     {
@@ -206,12 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "ЄС тисне на союзників із G7 через наближення кризи фінансування України – FT",
-      "url": "https://www.pravda.com.ua/news/2026/10/28/8060016",
-      "date": "2026-10-28T03:58:00+00:00",
-      "excerpt": "Брюссель тисне на партнерів із \"Групи семи\" (G7), вимагаючи надати фінансування для України на наступний рік, аби покрити бюджетний дефіцит у 70 мільярдів євро на тлі скорочення допомоги від країн з-поза меж блоку.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/c/d/944989/cdf95f1e30072bcbb0b3cf88fee96d50.jpeg?w=1200&q=85&stamp=1793160135",
-      "source": "Українська правда"
+      "title": "Ворожий удар по Харкову: кількість постраждалих зросла до п'яти, серед них дитина",
+      "url": "https://www.ukrinform.ua/rubric-regions/4178804-vorozij-udar-po-budinku-u-harkovi-kilkist-postrazdalih-zrosla-do-pati-sered-nih-ditina.html",
+      "date": "2026-10-28T04:58:00+00:00",
+      "excerpt": "Кількість постраждалих через удар РФ по Основ’янському району Харкова зросла до п'яти, серед них є дитина. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793163546-455.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -233,12 +233,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Генсек ООН призначив російського дипломата помічником із протимінної діяльності",
-      "url": "https://suspilne.media/1438617-gensek-oon-priznaciv-rosijskogo-diplomata-pomicnikom-iz-protiminnoi-dialnosti",
-      "date": "2026-10-28T03:41:02+00:00",
-      "excerpt": "Генсек Гуттереш оголосив, що російський дипломат відповідатиме за протимінну діяльність і поліцію в Департаменті операцій ООН із підтримання миру — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/12/12d5e17bee1b99a982b94da4b269f3543f7fc3230d495082e55e38f0a3adb297.jpg",
-      "source": "Суспільне"
+      "title": "Трамп назвав Венесуелу потенційним \"51 штатом\" США",
+      "url": "https://www.pravda.com.ua/news/2026/10/28/8060015",
+      "date": "2026-10-28T04:55:00+00:00",
+      "excerpt": "Американський президент Дональд Трамп припустив, що Венесуела можливо стане \"51-м штатом\" США, продемонструвавши танкер з венесуельською нафтою.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/9/3/944991/939d27a632d980dec6b4b656a7288896.jpeg?w=1200&q=85&stamp=1793161352",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -260,11 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Норвегія видала Україні банкіра, якого підозрюють у крадіжці мільйона гривень з рахунків клієнтів",
-      "url": "https://www.ukrinform.ua/rubric-society/4178755-norvegia-vidala-ukraini-bankira-akogo-pidozruut-u-kradizci-miljona-griven-z-rahunkiv-klientiv.html",
-      "date": "2026-10-28T03:36:00+00:00",
-      "excerpt": "В Україну з Норвегії екстрадували колишнього працівника банку з Тернопільської області, підозрюваного у заволодінні коштами клієнтів фінансової установи та оголошеного у міжнародний розшук. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793125037-151.jpg",
+      "title": "Україні у середу прогнозують дощ, температура - від +3° до +17°",
+      "url": "https://www.ukrinform.ua/rubric-regions/4178674-ukraini-u-seredu-prognozuut-dos-temperatura-vid-3-do-17.html",
+      "date": "2026-10-28T04:45:00+00:00",
+      "excerpt": "В Україні у середу, 28 жовтня, буде хмарно з проясненнями, очікуються невеликі дощі, вночі 3-8° тепла, вдень 9-14°, на Закарпатті та південних областях до 17°. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792426265-435.png",
       "source": "Укрінформ"
     },
     {
@@ -296,12 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "ЄС шукає для України гроші: союзники поза ним пообіцяли чотири мільярди євро",
-      "url": "https://suspilne.media/1438615-evrosouz-sukae-dla-ukraini-dodatkovi-grosi-na-2027-rik-souzniki-poza-nim-poki-poobicali-lise-cotiri-milardi-evro-ft",
-      "date": "2026-10-28T03:12:29+00:00",
-      "excerpt": "За оцінкою Єврокомісії дефіцит фінансування України на 2027 рік становить 70 мільярдів євро, тоді як США, Британія, Канада та Японія разом мають надати лише мільярд. ЄС розглядає можливість нових спільних запозичень — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/98/984fd66e93a01c483695aed6d8895a12a17f80b07e0aa31c27b559e084d3ba63.jpg",
-      "source": "Суспільне"
+      "title": "ЗСУ за добу ліквідували понад 1500 окупантів та 1500 дронів – Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/10/28/8060018",
+      "date": "2026-10-28T04:43:00+00:00",
+      "excerpt": "За минулу добу Сили оборони України вбили та поранили 1 510 російських окупантів, загальні втрати ворога у війні склали 1 583 350 осіб.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/1/944994/f1fa024de3c6903ea0aec5a477465503.jpeg?w=1200&q=85&stamp=1793162745",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -323,12 +323,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Toyota відкликає понад 220 тисяч авто у США",
-      "url": "https://www.ukrinform.ua/rubric-world/4178673-toyota-vidklikae-ponad-220-tisac-avto-u-ssa.html",
-      "date": "2026-10-28T03:00:00+00:00",
-      "excerpt": "Японський автовиробник Toyota відкликає у Сполучених Штатах 228 367 автомобілів через те, що спинки сидіння можуть не фіксуватися належним чином під час аварії. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2021_11/thumb_files/630_360_1638256067-931.jpg",
-      "source": "Укрінформ"
+      "title": "У Харкові росіяни атакували житлові будинки: п'ятеро постраждалих, серед них дитина",
+      "url": "https://www.pravda.com.ua/news/2026/10/28/8060007",
+      "date": "2026-10-28T04:27:00+00:00",
+      "excerpt": "Внаслідок удару російського дрона по житлових будинках у Харкові п’ятеро поранених, зокрема хлопчик 4 років. Знищено кілька будівель.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/d/944976/5def0c5189d8cb44d36ba576c964114a.jpeg?w=1200&q=85&stamp=1793142939",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -350,12 +350,12 @@
     },
     {
       "area": "ukraine",
-      "title": "США попередили країни Перської затоки про можливе відновлення війни з Іраном – WSJ",
-      "url": "https://www.pravda.com.ua/news/2026/10/28/8060014",
-      "date": "2026-10-28T02:53:00+00:00",
-      "excerpt": "Вашингтон попередив кілька арабських країн Перської затоки про необхідність підготуватися до короткої та інтенсивної військової кампанії проти Ірану після проміжних виборів до Конгресу США.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/4/d/944988/4d7301b76c5757bdeb070a816c14a20c.jpeg?w=1200&q=85&stamp=1793156123",
-      "source": "Українська правда"
+      "title": "У «Дії» готують до запуску нову послугу",
+      "url": "https://www.ukrinform.ua/rubric-society/4178757-u-dii-gotuut-do-zapusku-novu-poslugu.html",
+      "date": "2026-10-28T04:25:00+00:00",
+      "excerpt": "Мінцифри готує до запуску «Дія. Офіс» - сервіс, за допомогою якого можна буде податися на вакансію на держслужбі. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_07/thumb_files/630_360_1785409464-201.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
