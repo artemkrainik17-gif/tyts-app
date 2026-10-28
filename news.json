@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T08:03:34.929043+00:00",
+  "updated_at": "2026-10-28T08:58:40.745761+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-28T08:02:22+00:00",
+      "date": "2026-10-28T08:57:28+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,11 +53,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський назвав людей, яким пропонували очолити посольство України в США",
-      "url": "https://suspilne.media/1438725-budemo-prodovzuvati-konsultacii-zelenskij-nazvav-tri-kandidaturi-akim-proponuvali-ocoliti-posolstvo-ukraini-v-ssa",
-      "date": "2026-10-28T08:01:11+00:00",
-      "excerpt": "Президент Володимир Зеленський заявив, що серед кандидатур на посаду посла України у США розглядали експрем'єрку Юлію Свириденко, колишнього очільника МЗС та заступника керівника Офісу президента, бригадного генерала Павла Палісу. — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/43/43c75c5accc07d4a93eb1eddc587c077616d563b03d598e94c392958c6dc6067.jpg",
+      "title": "ГУР МО розкрило деталі щодо реалізації проєкту супутникової системи РФ",
+      "url": "https://suspilne.media/1438715-analog-starlink-gur-mo-rozkrilo-detali-sodo-realizacii-proektu-suputnikovoi-sistemi-rf-rassvet",
+      "date": "2026-10-28T08:52:43+00:00",
+      "excerpt": "Ця система включає орбітальне угруповання у складі низькоорбітальних супутників, наземну інфраструктуру управління, шлюзові станції та абонентські термінали для стаціонарних і рухомих об'єктів — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/c4/c42a4b89fe0823cb0f1ccae1147539e2508ff5464cb40b7335ca3dbeb8a9492b.jpg",
       "source": "Суспільне"
     },
     {
@@ -80,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Новомосковську РФ сталося загоряння на хімзаводі «Азот»",
-      "url": "https://suspilne.media/1438669-na-tli-ataki-bpla-v-novomoskovsku-rf-stalosa-zagoranna-na-himzavodi-azot",
-      "date": "2026-10-28T07:56:31+00:00",
-      "excerpt": "ASTRA, спираючись на свій аналіз фотоджерел, зауважує, що на території промислового підприємства зафіксовано відкрите горіння та задимлення. Ймовірно, це горить агрегат заводу для виробництва аміаку АМ-70 — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/c2/c27c7c4498cba7d32d198827258d18f8127c9494b41f6abf0f51b0b857541f45.jpg",
-      "source": "Суспільне"
+      "title": "Зеленський: \"Дизельна угода\" може стати початком інших домовленостей США з Росією",
+      "url": "https://www.pravda.com.ua/news/2026/10/28/8060047",
+      "date": "2026-10-28T08:50:00+00:00",
+      "excerpt": "Президент вказав, що за \"дизельною угодою\" США і Росії можуть послідувати домовленості щодо енергоресурсів, заморожених активів і можливого послаблення санкцій.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/b/9/945200/b9a798bc984c8dda205c077b573678d3.jpeg?w=1200&q=85&stamp=1793177463",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -116,12 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "В Олешках за 30 годин режиму тиші не зафіксували жодного інциденту - Лубінець",
-      "url": "https://www.ukrinform.ua/rubric-regions/4178856-v-oleskah-za-30-godin-rezimu-tisi-ne-zafiksuvali-zodnogo-incidentu-lubinec.html",
-      "date": "2026-10-28T07:50:00+00:00",
-      "excerpt": "У тимчасово захоплених росіянами Олешках Херсонської області за 30 годин режиму тиші не зафіксували жодного інциденту. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_08/thumb_files/630_360_1786545212-261.jpg",
-      "source": "Укрінформ"
+      "title": "Зеленський заявив, що не має альтернативи переговорній групі щодо миру, але готовий до пропозицій",
+      "url": "https://www.pravda.com.ua/news/2026/10/28/8060045",
+      "date": "2026-10-28T08:44:00+00:00",
+      "excerpt": "Президент заявив, що затверджена група веде переговори з радниками інших країн щодо безпеки, дипломатії та економіки. Відкритий до пропозицій.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/e/d/945176/ed976564fb1e24c110d75cd60b1dd124.jpeg?w=1200&q=85&stamp=1793177006",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -143,11 +143,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Кораблі з російським дизелем, які прямують до США, точно ніхто не чіпає - Зеленський",
-      "url": "https://www.ukrinform.ua/rubric-economy/4178854-korabli-z-rosijskim-dizelem-aki-pramuut-do-ssa-tocno-nihto-ne-cipae-zelenskij.html",
-      "date": "2026-10-28T07:48:00+00:00",
-      "excerpt": "Президент Володимир Зеленський заявив, що кораблі з російським дизелем, які прямують до США, Україна не буде атакувати. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1774640155-155.jpeg",
+      "title": "Туреччина може постачати газ до Європи замість Росії",
+      "url": "https://www.ukrinform.ua/rubric-economy/4178878-tureccina-moze-postacati-gaz-do-evropi-zamist-rosii.html",
+      "date": "2026-10-28T08:40:00+00:00",
+      "excerpt": "Туреччина може стати для європейських країн важливою альтернативою постачанню російського газу і з Європи вже надходять пропозиції щодо цього. У планах - перетворення країни на енергетичний хаб та нарощування видобутку газу в Чорному морі. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2016_10/thumb_files/630_360_1476620513-8043.jpg",
       "source": "Укрінформ"
     },
     {
@@ -170,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Тульській області після атаки дронів горить хімзавод «Азот» - ЗМІ",
-      "url": "https://www.ukrinform.ua/rubric-world/4178855-u-tulskij-oblasti-pisla-ataki-droniv-gorit-himzavod-azot-zmi.html",
-      "date": "2026-10-28T07:45:00+00:00",
-      "excerpt": "У місті Новомосковськ Тульської області РФ на тлі атаки безпілотників горить «Новомосковська акціонерна компанія «Азот». — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793174095-413.png",
-      "source": "Укрінформ"
+      "title": "Лубінець: В Олешках за 30 годин режиму тиші не зафіксували жодного інциденту",
+      "url": "https://www.pravda.com.ua/news/2026/10/28/8060044",
+      "date": "2026-10-28T08:36:00+00:00",
+      "excerpt": "Уповноважений Верховної Ради з прав людини Дмитро Лубінець повідомив, що за 30 годин режиму тиші в тимчасово окупованих Олешках, які потерпають від гуманітарної катастрофи, не зафіксували жодного інциденту.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/d/b/945175/db10b42d317292b922aef041f0a9d884.jpeg?w=1200&q=85&stamp=1793176527",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -206,11 +206,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Ердоган і Макрон обговорили реформування ООН та обрання нового генсека",
-      "url": "https://www.ukrinform.ua/rubric-world/4178857-erdogan-i-makron-obgovorili-reformuvanna-oon-ta-obranna-novogo-genseka.html",
-      "date": "2026-10-28T07:42:00+00:00",
-      "excerpt": "Президенти Туреччини та Франції Реджеп Тайїп Ердоган і Еммануель Макрон під час телефонної розмови обговорили реформування ООН і процес обрання нового генерального секретаря Організації. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793174138-215.jpg",
+      "title": "Україна краще, ніж США, розуміє менталітет Путіна і російського народу - Зеленський",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4178876-ukraina-krase-niz-ssa-rozumie-mentalitet-putina-i-rosijskogo-narodu-zelenskij.html",
+      "date": "2026-10-28T08:36:00+00:00",
+      "excerpt": "Україна краще, ніж Сполучені Штати, розуміє менталітет очільника Кремля Володимира Путіна і російського народу. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793177179-499.jpg",
       "source": "Укрінформ"
     },
     {
@@ -233,12 +233,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський: Паліса відмовився від посади посла у США, хоче повернутися на фронт",
-      "url": "https://www.pravda.com.ua/news/2026/10/28/8060033",
-      "date": "2026-10-28T07:40:00+00:00",
-      "excerpt": "Президент Зеленський підтвердив, що на посаду посла у США розглядали Свириденко, Кулебу, Палісу. Консультації щодо кандидатури тривають.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/4/0/945096/4068d3916b3c10a711a43c854a7b0a5d.jpeg?w=1200&q=85&stamp=1793173190",
-      "source": "Українська правда"
+      "title": "Трамп заявив, що схвалює прибуття Болсонару до США",
+      "url": "https://www.ukrinform.ua/rubric-world/4178880-tramp-zaaviv-so-shvalue-pributta-bolsonaru-do-ssa.html",
+      "date": "2026-10-28T08:35:00+00:00",
+      "excerpt": "Президент США Дональд Трамп заявив у середу, що схвалює приїзд бразильського ультраправого сенатора Флавіо Болсонару до Сполучених Штатів після поразки на недільних президентських виборах. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_07/thumb_files/630_360_1783505506-794.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -260,11 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "«Дизельна угода» може відкрити Росії шлях до нових домовленостей зі США - Зеленський",
-      "url": "https://www.ukrinform.ua/rubric-economy/4178849-zelenskij-dizelna-ugoda-moze-vidkriti-rosii-slah-do-novih-domovlenostej-zi-ssa.html",
-      "date": "2026-10-28T07:39:00+00:00",
-      "excerpt": "Президент Володимир Зеленський заявив, що так звана \"дизельна угода\" може відкрити шлях до нових домовленостей між Росією та США, зокрема щодо добрив, газу, заморожених активів і зняття санкцій з окремих російських осіб та структур. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_02/thumb_files/630_360_1771408697-883.jpg",
+      "title": "Росіяни минулої доби атакували дронами цивільну інфраструктуру на Чернігівщині",
+      "url": "https://www.ukrinform.ua/rubric-regions/4178879-rosiani-minuloi-dobi-atakuvali-dronami-civilnu-infrastrukturu-na-cernigivsini.html",
+      "date": "2026-10-28T08:34:00+00:00",
+      "excerpt": "Російські війська минулої доби завдали ударів безпілотниками по цивільних об'єктах інфраструктури на Чернігівщині. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_05/thumb_files/630_360_1748325145-713.jpg",
       "source": "Укрінформ"
     },
     {
@@ -296,12 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Белграді застрелили підлітка, який напав на охоронця біля посольства Ізраїлю",
-      "url": "https://suspilne.media/1438683-u-belgradi-zastrelili-pidlitka-akij-napav-iz-nozami-na-ohoronca-bila-posolstva-izrailu",
-      "date": "2026-10-28T07:38:35+00:00",
-      "excerpt": "Неповнолітній напав із двома ножами на співробітника жандармерії, який охороняв об'єкт перед посольством Ізраїлю у Белграді, вигукуючи «Аллаху акбар». Той застрелив хлопця — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/0a/0a9cd4d0d857cfd4cd35c3dc4db610ec7610637a1e1e50371de23b078a2efcb5.jpg",
-      "source": "Суспільне"
+      "title": "Зеленський відреагував на заяву Трампа про вибори в Україні та пояснив свою гостру риторику на адресу США",
+      "url": "https://www.ukrinform.ua/rubric-ato/4178871-zelenskij-vidreaguvav-na-zaavu-trampa-pro-vibori-v-ukraini-ta-poasniv-svou-gostru-ritoriku-na-adresu-ssa.html",
+      "date": "2026-10-28T08:32:00+00:00",
+      "excerpt": "Президент Володимир Зеленський заявив, що спокійно ставиться до заяв Президента США Дональда Трампа про необхідність проведення виборів в Україні, бо, за його словами, свобода слова – не тільки в Україні, в Америці також. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1774640155-155.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -323,11 +323,11 @@
     },
     {
       "area": "ukraine",
-      "title": "На Харківщині за добу внаслідок обстрілів постраждали 14 людей",
-      "url": "https://www.ukrinform.ua/rubric-regions/4178853-na-harkivsini-za-dobu-vnaslidok-obstriliv-postrazdali-14-ludej.html",
-      "date": "2026-10-28T07:38:00+00:00",
-      "excerpt": "На Харківщині минулої доби (з 8:00 27 жовтня до 8:00 28-го) внаслідок російських обстрілів постраждали 14 людей. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793173599-804.jpg",
+      "title": "Сезон грипу: за тиждень в Україні захворіли понад 109 тисяч людей",
+      "url": "https://www.ukrinform.ua/rubric-society/4178874-sezon-gripu-za-tizden-v-ukraini-zahvorili-ponad-109-tisac-ludej.html",
+      "date": "2026-10-28T08:30:00+00:00",
+      "excerpt": "За минулий тиждень в Україні на грип, ГРВІ та COVID-19 захворіли понад 109 тис. осіб. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1763985722-729.jpg",
       "source": "Укрінформ"
     },
     {
@@ -350,11 +350,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Курси долара та євро на 28 жовтня",
-      "url": "https://www.ukrinform.ua/rubric-economy/4178850-kursi-dolara-ta-evro-na-28-zovtna.html",
-      "date": "2026-10-28T07:37:00+00:00",
-      "excerpt": "Долар офіційно подорожчав на 7 копійок, євро подешевшав на 10 копійок. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1772624894-750.png",
+      "title": "У Херсоні загинув медійник і військовий з Олешок Володимир Обертас",
+      "url": "https://www.ukrinform.ua/rubric-society/4178864-u-hersoni-zaginuv-medijnik-i-vijskovij-z-olesok-volodimir-obertas.html",
+      "date": "2026-10-28T08:28:00+00:00",
+      "excerpt": "У Херсоні 27 жовтня загинув військовий та відеооператор з Олешок Володимир Обертас. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793175231-772.jpg",
       "source": "Укрінформ"
     },
     {
