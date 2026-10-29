@@ -1,11 +1,38 @@
 {
-  "updated_at": "2026-10-29T08:07:50.350988+00:00",
+  "updated_at": "2026-10-29T09:00:58.815776+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
     "ukraine": 30
   },
   "items": [
+    {
+      "area": "local",
+      "title": "У Жмеринському ліцеї №5 учнів навчають мирно вирішувати конфлікти – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/484143/u-zhmerinskomu-licei-5-uchniv-navchayut-mirno-virishuvati-konflikti",
+      "date": "2026-10-29T07:08:00+00:00",
+      "excerpt": "Мета – підготувати школярів до впровадження медіації однолітків",
+      "image": "https://im2.abo.media/media/64/article/015d1e8d0b454c269835738585ac469a.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "На кількох вулицях Вінниці ремонтуватимуть мережі. Де можливі перебої з водою та світлом - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/na-kilkoh-vulitsyah-vinnitsi-remontuvatimut-merezhi-de-mozhlivi-perebo-12011304.html",
+      "date": "2026-10-29T08:09:00+00:00",
+      "excerpt": "[29:10:2026] На кількох вулицях Вінниці ремонтуватимуть мережі. Де можливі перебої з водою та світлом ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/64/4163513-na-kilkoh-vulitsyah-vinnitsi-remontuvatimut-merezhi-de-mozhlivi-pereboyi-z-vodoyu-ta-svitlom.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Офіційні документи",
+      "url": "https://www.ukrinform.ua/block-docs",
+      "date": "2026-10-29T08:59:55+00:00",
+      "excerpt": "",
+      "image": "https://www.ukrinform.ua/img/img_none.jpg",
+      "source": "Укрінформ"
+    },
     {
       "area": "local",
       "title": "Освітні заклади Жмеринського району посилюють енергетичну стійкість",
@@ -26,12 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Офіційні документи",
-      "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-29T08:06:47+00:00",
-      "excerpt": "",
-      "image": "https://www.ukrinform.ua/img/img_none.jpg",
-      "source": "Укрінформ"
+      "title": "Пенсонер дістав поранень через удар РФ по Старому Салтову",
+      "url": "https://suspilne.media/kharkiv/1439745-pensoner-distav-poranen-cerez-udar-rf-po-staromu-saltovu",
+      "date": "2026-10-29T08:48:48+00:00",
+      "excerpt": "Внаслідок російського удару по Старому Салтову 28 жовтня поранено 75-річного чоловіка, його госпіталізували. Ще один цивільний зазнав гострої реакції на стрес, пошкоджено авто — Суспільне Харків",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/c8/c83645eb712b50d9b383f2e7e5f99c9669c3018052e66242c11d2972e54111ca.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -53,11 +80,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Робітники з КНДР працюють на російських заводах у військово-промисловій галузі",
-      "url": "https://www.ukrinform.ua/rubric-world/4179258-robitniki-z-kndr-pracuut-na-rosijskih-zavodah-u-vijskovopromislovij-galuzi.html",
-      "date": "2026-10-29T08:04:10+00:00",
-      "excerpt": "Північнокорейські працівники вже працюють на російських заводах у військово-промисловій галузі, яка займається виробництвом продукції для продовження ведення війни РФ проти України. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_03/thumb_files/630_360_1741724029-580.jpeg",
+      "title": "США та Ізраїль підготували план «тижневого бомбардування» Ірану, якщо не буде угоди - Axios",
+      "url": "https://www.ukrinform.ua/rubric-world/4179276-ssa-ta-izrail-pidgotuvali-plan-tiznevogo-bombarduvanna-iranu-akso-ne-bude-ugodi-axios.html",
+      "date": "2026-10-29T08:45:00+00:00",
+      "excerpt": "Військові США та Ізраїлю підготували план масштабних ударів по Ірану, націлених на його керівників, енергетичні та ядерні об'єкти, а також інфраструктуру країни. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1772530288-193.jpg",
       "source": "Укрінформ"
     },
     {
@@ -67,6 +94,15 @@
       "date": "2026-10-26T16:03:00+00:00",
       "excerpt": "Додому «на щиті» повертається Степан Бондар",
       "image": "https://im2.abo.media/media/64/article/0afc6586bf024e008837866d74725560.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "У Жмеринській громаді відбувся чемпіонат зі спортивної аеробіки: жмеринчани здобули понад 30 медалей – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/483823/u-zhmerinskij-gromadi-vidbuvsya-chempionat-zi-sportivnoi-aerobiki-zhmerinchani-zdobuli-ponad-30-medalej",
+      "date": "2026-10-26T14:55:00+00:00",
+      "excerpt": "Свято краси, грації та спортивного характеру",
+      "image": "https://im2.abo.media/media/64/article/e021f7d0bcc345f683e000c5441297e6.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -80,21 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Запоріжжі росіяни вдарили дроном по муніципальному автобусу: 4 поранених",
-      "url": "https://www.pravda.com.ua/news/2026/10/29/8060211",
-      "date": "2026-10-29T08:00:00+00:00",
-      "excerpt": "Російські окупанти атакували FPV-дроном муніципальний автобус у Запоріжжі, поранення дістали 4 людини.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/7/a/945843/7abe3295f095dcc4fc76e46d6a9b952a.jpeg?w=1200&q=85&stamp=1793260913",
-      "source": "Українська правда"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринській громаді відбувся чемпіонат зі спортивної аеробіки: жмеринчани здобули понад 30 медалей – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/483823/u-zhmerinskij-gromadi-vidbuvsya-chempionat-zi-sportivnoi-aerobiki-zhmerinchani-zdobuli-ponad-30-medalej",
-      "date": "2026-10-26T14:55:00+00:00",
-      "excerpt": "Свято краси, грації та спортивного характеру",
-      "image": "https://im2.abo.media/media/64/article/e021f7d0bcc345f683e000c5441297e6.webp",
-      "source": "Жмеринка.City"
+      "title": "Енергетики відновили електропостачання всіх споживачів Конотопа на Сумщині",
+      "url": "https://suspilne.media/sumy/1439711-energetiki-vidnovili-elektropostacanna-vsih-spozivaciv-konotopa-na-sumsini-so-vidomo-pro-situaciu-u-misti",
+      "date": "2026-10-29T08:44:42+00:00",
+      "excerpt": "Станом на ранок 29 жовтня енергетикам вдалося відновити електропостачання всіх споживачів Конотопа. Наразі електроенергія подається почергово, порядок і черговість її подачі регулюють енергетики — Суспільне Суми",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/ae/aec5a9f35ec8dfb3e4a208d5e94f4dd57f2b85abedabadd583f5eb05c564f9f5.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -116,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "В Олешках порушення режиму тиші немає, гуманітарний вантаж планують доставити у п’ятницю - Лубінець",
-      "url": "https://www.ukrinform.ua/rubric-regions/4179257-v-oleskah-porusenna-rezimu-tisi-nemae-gumanitarnij-vantaz-planuut-dostaviti-u-patnicu-lubinec.html",
-      "date": "2026-10-29T07:55:09+00:00",
-      "excerpt": "Уповноважений Верховної Ради з прав людини Дмитро Лубінець повідомив про формування гуманітарного вантажу для жителів Олешок. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1774635046-487.jpg",
-      "source": "Укрінформ"
+      "title": "У Єгипті закривають незалежне медіа Mada Masr: головну редакторку оштрафували",
+      "url": "https://suspilne.media/1439733-u-egipti-zakrivaut-nezalezne-media-mada-masr-golovnu-redaktorku-ostrafuvali-na-53-tisaci",
+      "date": "2026-10-29T08:42:29+00:00",
+      "excerpt": "Суд у Єгипті постановив закрити сайт незалежного видання Mada Masr та оштрафував його головну редакторку Ліну Атталлу на 3 мільйони єгипетських фунтів за роботу без ліцензії — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/dd/dd41e0018b63cb33234682bcd30591df6663f94610936768a2e43d56cfeec13c.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -143,11 +170,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Корецький про наслідки останніх атак РФ: збитки сягають майже $8 мільярдів",
-      "url": "https://www.ukrinform.ua/rubric-economy/4179254-koreckij-pro-naslidki-ostannih-atak-rf-zbitki-sagaut-majze-8-milardiv.html",
-      "date": "2026-10-29T07:47:33+00:00",
-      "excerpt": "Очільники урядів України та Естонії узгодили спільне бачення щодо URC-2027, яка має консолідувати підтримку партнерів в умовах викликів цієї зими. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793259618-960.jpg",
+      "title": "Зіткнення поїздів в Іспанії: у МЗС з’ясовують, чи є українці серед загиблих і постраждалих",
+      "url": "https://www.ukrinform.ua/rubric-society/4179275-zitknenna-poizdiv-v-ispanii-u-mzs-zasovuut-ci-e-ukrainci-sered-zagiblih-i-postrazdalih.html",
+      "date": "2026-10-29T08:42:00+00:00",
+      "excerpt": "Посольство України в Іспанії надіслало запит до компетентних органів країни для перевірки інформації щодо наявності загиблих чи постраждалих громадян України внаслідок зіткнення поїздів у провінції Толедо. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793184765-375.jpg",
       "source": "Укрінформ"
     },
     {
@@ -157,6 +184,15 @@
       "date": "2026-10-21T09:58:00+00:00",
       "excerpt": "Після року невідомості до Жмеринки «на щиті» повертається батько чотирьох дітей Антон Кедь",
       "image": "https://im2.abo.media/media/64/article/8860456a6fd84348aeb0f52c9e1661ac.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "У Жмеринці перевіряють укриття та підвали: стан приміщень і доступ під час тривог – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/483230/u-zhmerinci-pereviryayut-ukrittya-ta-pidvali-stan-primischen-i-dostup-pid-chas-trivog",
+      "date": "2026-10-20T15:11:00+00:00",
+      "excerpt": "У Жмеринці перевіряють укриття та підвали: стан приміщень і доступ під час тривог",
+      "image": "https://im2.abo.media/media/64/article/49e9bc77575841328059b10e071e7f38.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -170,21 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни вдарили безпілотником по Павлограду: зайнялися магазин і будинок, поранено дитину",
-      "url": "https://www.pravda.com.ua/news/2026/10/29/8060210",
-      "date": "2026-10-29T07:46:00+00:00",
-      "excerpt": "15-річна дівчина дістала поранень через атаку російських військ на місто Павлоград Дніпропетровської області.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/1/3/945833/136604ea55c50b7622faf71359f17403.jpeg?w=1200&q=85&stamp=1793259968",
-      "source": "Українська правда"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринці перевіряють укриття та підвали: стан приміщень і доступ під час тривог – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/483230/u-zhmerinci-pereviryayut-ukrittya-ta-pidvali-stan-primischen-i-dostup-pid-chas-trivog",
-      "date": "2026-10-20T15:11:00+00:00",
-      "excerpt": "У Жмеринці перевіряють укриття та підвали: стан приміщень і доступ під час тривог",
-      "image": "https://im2.abo.media/media/64/article/49e9bc77575841328059b10e071e7f38.webp",
-      "source": "Жмеринка.City"
+      "title": "Ворожий FPV-дрон атакував автобус у центрі Запоріжжя, є поранені",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179270-vorozij-fpvdron-atakuvav-avtobus-u-centri-zaporizza-e-poraneni.html",
+      "date": "2026-10-29T08:36:00+00:00",
+      "excerpt": "Російські військові атакували FPV-дроном автобус, що підʼїжджав до зупинки в центрі Запоріжжя, поранено чотирьох людей. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793262777-494.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -206,11 +233,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни атакували дроном Павлоград, поранена 15-річна дівчина",
-      "url": "https://www.ukrinform.ua/rubric-regions/4179251-rosiani-atakuvali-dronom-pavlograd-poranena-15ricna-divcina.html",
-      "date": "2026-10-29T07:42:39+00:00",
-      "excerpt": "Російські війська атакували Павлоград на Дніпропетровщині безпілотником. Унаслідок влучання виникла пожежа, поранень зазнала 15-річна дівчина. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590638-279.jpeg",
+      "title": "Польща передасть Україні ще два винищувачі МіГ-29",
+      "url": "https://www.ukrinform.ua/rubric-ato/4179271-polsa-peredast-ukraini-se-dva-vinisuvaci-mig29.html",
+      "date": "2026-10-29T08:35:00+00:00",
+      "excerpt": "Польща найближчим часом передасть Україні ще два винищувачі МіГ-29 у межах нового пакета військової допомоги вартістю близько 50 млн євро. До нього також увійдуть боєприпаси та засоби протиповітряної оборони. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_10/thumb_files/630_360_1729753018-104.jpg",
       "source": "Укрінформ"
     },
     {
@@ -233,12 +260,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Лубінець: Режим тиші в Олешках триває вже 54 години, у п'ятницю мають доставити гумдопомогу",
-      "url": "https://www.pravda.com.ua/news/2026/10/29/8060206",
-      "date": "2026-10-29T07:29:00+00:00",
-      "excerpt": "Уповноважений Верховної Ради з прав людини Дмитро Лубінець у четвер констатує, що розмінування в Олешках на Херсонщині проходить успішно, готується партія гуманітарної допомоги, яку мають доставити 30 жовтня.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/f/945829/ffdd8e5046f6ecc4bae641dea74e4e56.jpeg?w=1200&q=85&stamp=1793258818",
-      "source": "Українська правда"
+      "title": "У Конотопі відновили електропостачання після п’яти діб без світла",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179268-u-konotopi-vidnovili-elektropostacanna-pisla-pati-dib-bez-svitla.html",
+      "date": "2026-10-29T08:34:36+00:00",
+      "excerpt": "У Конотопі Сумської області відновлене електропостачання. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792934240-622.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -247,6 +274,15 @@
       "date": "2026-10-19T10:58:00+00:00",
       "excerpt": "У Жмеринці дитячий центр розвитку «Лідер» відзначає 10 років: англійська, підготовка до школи, IT",
       "image": "https://im2.abo.media/media/64/article/2158763abf3d40a28ac27fae4bb1fad4.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "У Жмеринці оголосили конкурс молодих краєзнавців до 100-річчя Володимира Вовкодава – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/483007/u-zhmerinci-ogolosili-konkurs-molodih-krayeznavciv-do100-richchya-volodimira-vovkodava",
+      "date": "2026-10-19T07:39:00+00:00",
+      "excerpt": "У Жмеринці оголосили конкурс молодих краєзнавців до 100-річчя Володимира Вовкодава",
+      "image": "https://im2.abo.media/media/64/article/cbc8828b54a64cb686729bcdbdcf2d79.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -260,21 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Трамп підтвердив, що дозволив Венсу звернутися до влади Ірану",
-      "url": "https://www.pravda.com.ua/news/2026/10/29/8060207",
-      "date": "2026-10-29T07:28:00+00:00",
-      "excerpt": "Президент США Дональд Трамп заявив, що погодив контакт віцепрезидента Джей Ді Венса з іранською владою щодо допомоги, але заперечив, що доручав йому відновити мирні переговори.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/b/2/945830/b216faae95293bfc54ea0604e85f82e8.jpeg?w=1200&q=85&stamp=1793258965",
+      "title": "Стьоре про розмову з Путіним: Це не була \"лекція\", ми теж виклали свої позиції",
+      "url": "https://www.pravda.com.ua/news/2026/10/29/8060216",
+      "date": "2026-10-29T08:24:00+00:00",
+      "excerpt": "Йонас Гар Стьоре заявив, що під час телефонної розмови з Володимиром Путіним усі учасники мали приблизно однаковий час для висловлювань.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/2/f/945860/2ff0ddc48da812cd227928ce02e51078.jpeg?w=1200&q=85&stamp=1793262456",
       "source": "Українська правда"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринці оголосили конкурс молодих краєзнавців до 100-річчя Володимира Вовкодава – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/483007/u-zhmerinci-ogolosili-konkurs-molodih-krayeznavciv-do100-richchya-volodimira-vovkodava",
-      "date": "2026-10-19T07:39:00+00:00",
-      "excerpt": "У Жмеринці оголосили конкурс молодих краєзнавців до 100-річчя Володимира Вовкодава",
-      "image": "https://im2.abo.media/media/64/article/cbc8828b54a64cb686729bcdbdcf2d79.webp",
-      "source": "Жмеринка.City"
     },
     {
       "area": "local",
@@ -296,12 +323,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Курси долара та євро на 29 жовтня",
-      "url": "https://www.ukrinform.ua/rubric-economy/4179245-kursi-dolara-ta-evro-na-29-zovtna.html",
-      "date": "2026-10-29T07:27:03+00:00",
-      "excerpt": "Долар офіційно подешевшав на 1 копійку, євро - на 9 копійок. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_09/thumb_files/630_360_1727176942-795.jpg",
-      "source": "Укрінформ"
+      "title": "У Києві транспортний колапс через удар РФ по Південному мосту",
+      "url": "https://suspilne.media/kyiv/1439677-u-kievi-transportnij-kolaps-misto-skuvali-zatori-cerez-udar-rf-po-pivdennomu-mostu",
+      "date": "2026-10-29T08:22:13+00:00",
+      "excerpt": "Ситуація на дорогах Києва ускладнилася після закриття Південного мосту, пошкодженого російською атакою 27 жовтня. Метро через Південний міст нині теж не курсує — Суспільне Київ",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/5d/5d5cf31584513155211726987c37de3971d318461d965cdac550cf4473cf7653.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -323,12 +350,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Партизани вивели з ладу електрообладнання комбінату з виробництва ракетного палива в Ростовській області",
-      "url": "https://www.ukrinform.ua/rubric-ato/4179243-partizani-viveli-z-ladu-elektroobladnanna-kombinatu-z-virobnictva-raketnogo-paliva-v-rostovskij-oblasti.html",
-      "date": "2026-10-29T07:23:24+00:00",
-      "excerpt": "Агенти партизанського руху «АТЕШ» здійснили диверсію на електропідстанції в місті Каменську-Шахтинському Ростовської області РФ, яка забезпечує електроенергією підприємство, що виготовляє тверде ракетне паливо для потреб російської армії. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_09/thumb_files/630_360_1790010375-731.jpeg",
-      "source": "Укрінформ"
+      "title": "Лубінець із делегацією вирушив до Олешок",
+      "url": "https://www.pravda.com.ua/news/2026/10/29/8060214",
+      "date": "2026-10-29T08:19:00+00:00",
+      "excerpt": "Уповноважений Верховної Ради з прав людини Дмитро Лубінець із делегацією у четвер вирушив безпосередньо у район гуманітарної місії в Олешках на Херсонщині.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/e/5/945853/e5d7dba68c87135e2ae5c12774e251cb.jpeg?w=1200&q=85&stamp=1793261991",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -337,33 +364,6 @@
       "date": "2026-10-15T18:08:00+00:00",
       "excerpt": "У Жмеринці відбувся Кубок з волейболу пам’яті Героя Дмитра Терещенка: за перемогу змагалися педагоги",
       "image": "https://im2.abo.media/media/64/article/dc8da30edc4e48eca75617168c893db5.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "У Хмільнику з Південного Бугу дістали тіло 49-річного чоловіка - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/u-hmilniku-z-pivdennogo-bugu-distali-tilo-49-richnogo-cholovika-12011212.html",
-      "date": "2026-10-28T11:09:00+00:00",
-      "excerpt": "[28:10:2026] У Хмільнику з Південного Бугу дістали тіло 49-річного чоловіка ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/63/4162448-u-hmilniku-z-pivdennogo-bugu-distali-tilo-49-richnogo-cholovika.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Краще вкладатися у звичайні озброєння, ніж розвивати власну ядерну програму - експерт",
-      "url": "https://www.ukrinform.ua/rubric-world/4179238-krase-vkladatisa-u-zvicajni-ozbroenna-niz-rozvivati-vlasnu-adernu-programu-ekspert.html",
-      "date": "2026-10-29T07:18:17+00:00",
-      "excerpt": "Найкращими гарантіями безпеки є членство в Північноатлантичному альянсі або принаймні перебування під «ядерною парасолькою», натомість володіння власною ядерною зброєю є надто дорогим і небезпечним. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793195808-436.jpeg",
-      "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "Підтримка захисників, підготовка до зими та відзнака Вовкодаву: 80 сесія Жмеринської міської ради – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482716/pidtrimka-zahisnikiv-pidgotovka-do-zimi-ta-vidznaka-vovkodavu-80-sesiya-zhmerinskoi-miskoi-radi",
-      "date": "2026-10-15T16:05:00+00:00",
-      "excerpt": "Підтримка захисників, підготовка до зими та допомога лікарні: 80 сесія Жмеринської міської ради",
-      "image": "https://im2.abo.media/media/64/article/4992b74a8cfe48e5be5e77cc8240633b.webp",
       "source": "Жмеринка.City"
     }
   ]
