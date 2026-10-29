@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T22:50:28.643818+00:00",
+  "updated_at": "2026-10-29T23:45:04.661607+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-29T22:49:05+00:00",
+      "date": "2026-10-29T23:44:02+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,11 +53,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Нацгвардійці уразили в небі над Донеччиною дрон-матку РФ «Молнія-13»",
-      "url": "https://www.ukrinform.ua/rubric-ato/4179353-nacgvardijci-urazili-v-nebi-nad-doneccinou-dronmatku-rf-molnia13.html",
-      "date": "2026-10-29T22:30:00+00:00",
-      "excerpt": "Пілоти перехоплювачів Центру спеціального призначення «Омега» Національної гвардії України виявили й уразили в небі над Донецькою областю ворожий дрон-матку «Молнія-13». — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793271506-635.jpg",
+      "title": "Наслідки агресії РФ для природи України: знищені 25% біорізноманіття, припинили роботу 10 нацпарків",
+      "url": "https://www.ukrinform.ua/rubric-economy/4179309-naslidki-agresii-rf-dla-prirodi-ukraini-zniseni-25-bioriznomanitta-pripinili-robotu-10-nacparkiv.html",
+      "date": "2026-10-29T23:31:00+00:00",
+      "excerpt": "На 17-й Конференції сторін Конвенції ООН про біологічне різноманіття (COP17), яка проходить в Єревані (Вірменія), українська делегація зосередила увагу на масштабних наслідках російської збройної агресії для природи України. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2019_02/thumb_files/630_360_1549005719-828.jpg",
       "source": "Укрінформ"
     },
     {
@@ -80,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Через російські атаки у Дніпрі та прилеглих населених пунктах – без світла понад 350 тисяч абонентів",
-      "url": "https://www.pravda.com.ua/news/2026/10/30/8060368",
-      "date": "2026-10-29T22:10:00+00:00",
-      "excerpt": "Внаслідок ударів РФ понад 350 тисяч абонентів без світла у Дніпрі та прилеглих районах.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/9/a/946751/9a493a76500c14bfe7a3dc729ec68ac4.jpeg?w=1200&q=85&stamp=1793312511",
-      "source": "Українська правда"
+      "title": "Латвія вперше головуватиме в Радбезі ООН",
+      "url": "https://suspilne.media/1440471-latvia-vperse-golovuvatime-v-radbezi-oon",
+      "date": "2026-10-29T23:29:00+00:00",
+      "excerpt": "З 1 листопада 2026 року Латвія вперше в історії на один місяць стане головою Ради Безпеки ООН; серед основних пріоритетів — війна в Україні — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/be/be261dec62ab23ab923c2c7f993c27cd92f447ef5f2fb73ce4ffe4bac39edbcd.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -116,12 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "РФ готує нові удари балістичним ракетами, Дніпро частково без світла",
-      "url": "https://suspilne.media/1440445-rf-atakuvala-kiiv-dnipro-castkovo-bez-svitla-cerez-obstril-1710-j-den-vijni",
-      "date": "2026-10-29T22:04:15+00:00",
-      "excerpt": "РФ атакувала Дніпро, пошкоджена електромережа, частина міста без світла. Зеленський попередив, що Росія готує нові удари балістичними ракетами — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/3a/3aae821deaba94f077ec5dfc5975795bdf3b88f73ea4cf4ea0b77d423d77aff5.jpg",
-      "source": "Суспільне"
+      "title": "У РФ закрили всі московські аеропорти на тлі атаки дронів",
+      "url": "https://www.pravda.com.ua/news/2026/10/30/8060370",
+      "date": "2026-10-29T23:28:00+00:00",
+      "excerpt": "У Москві через атаку дронів припинили роботу всі аеропорти.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/c/1/946753/c152ef6dcc8fe18988a41918fb0060b0.jpeg?w=1200&q=85&stamp=1793316847",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -143,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "РФ вдарила по Києву: пошкоджено житловий комплекс, є загиблий",
-      "url": "https://suspilne.media/kyiv/1440467-rf-vdarila-po-kievu-poskodzeno-zitlovij-kompleks",
-      "date": "2026-10-29T22:00:36+00:00",
-      "excerpt": "Ввечері 29 жовтня Росія вдарила по Києву: у двох районах міста пошкоджень зазнали житловий комплекс, будівля магазину та складські приміщення — Суспільне Київ",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/7f/7f536d7ff70f2cd8fd762f502e34d01e52a916e0692287b8f8487a75bbd1594e.jpg",
-      "source": "Суспільне"
+      "title": "У Дніпрі та прилеглих населених пунктах через атаки РФ знеструмлені понад 350 тисяч абонентів",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179569-u-dnipri-ta-prileglih-naselenih-punktah-cerez-ataki-rf-znestrumleni-ponad-350-tisac-abonentiv.html",
+      "date": "2026-10-29T23:02:00+00:00",
+      "excerpt": "Після російських атак у Дніпрі та прилеглих населених пунктах без електропостачання залишилося понад 350 тисяч абонентів. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_06/thumb_files/630_360_1719307559-195.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -170,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Турецькі інвестиції в Україну за шість років зросли майже на $100 мільйонів - посолка",
-      "url": "https://www.ukrinform.ua/rubric-economy/4179556-turecki-investicii-v-ukrainu-za-sist-rokiv-zrosli-majze-na-100-miljoniv-posolka.html",
-      "date": "2026-10-29T21:57:00+00:00",
-      "excerpt": "Прямі турецькі інвестиції в Україну зросли з $454,7 мільйона у 2019 році до $555,8 мільйона у 2025 році, а турецькі компанії продовжують працювати та інвестувати в українську економіку попри війну. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793307449-286.jpg",
-      "source": "Укрінформ"
+      "title": "Меланія Трамп поки не планує візит до Олешків, однак цього не відкидає — радник",
+      "url": "https://suspilne.media/1440409-melania-tramp-poki-ne-planue-vizit-do-oleskiv-odnak-takoi-mozlivosti-ne-vidkidae-radnik-persoi-ledi",
+      "date": "2026-10-29T23:01:00+00:00",
+      "excerpt": "Старший радник Меланії Трамп Марк Бекман у коментарі Суспільному заявив, що візит на Херсонщину першої леді можливий, якщо дозволятиме безпекова ситуація та графік Меланії — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/15/150f0b5c14c4b7a153cc326a1dfc3ba5ad0c6551fe8c92591aac499f1551b2b9.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -206,11 +206,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни атакували Київ балістикою, є загиблий",
-      "url": "https://www.ukrinform.ua/rubric-regions/4179557-rosiani-atakuvali-kiiv-balistikou-u-darnickomu-rajoni-vlucili-u-skladski-budivli.html",
-      "date": "2026-10-29T21:48:00+00:00",
-      "excerpt": "Російські війська атакували Київ балістикою, у Дарницькому районі зафіксували влучання у складські будівлі. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_08/thumb_files/630_360_1786205585-323.jpg",
+      "title": "Нацгвардійці уразили в небі над Донеччиною дрон-матку РФ «Молнія-13»",
+      "url": "https://www.ukrinform.ua/rubric-ato/4179353-nacgvardijci-urazili-v-nebi-nad-doneccinou-dronmatku-rf-molnia13.html",
+      "date": "2026-10-29T22:30:00+00:00",
+      "excerpt": "Пілоти перехоплювачів Центру спеціального призначення «Омега» Національної гвардії України виявили й уразили в небі над Донецькою областю ворожий дрон-матку «Молнія-13». — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793271506-635.jpg",
       "source": "Укрінформ"
     },
     {
@@ -233,12 +233,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Помер британський актор Патрік Стюарт - зірка «Зоряного шляху» та «Людей Ікс»",
-      "url": "https://www.ukrinform.ua/rubric-culture/4179559-pomer-britanskij-aktor-patrik-stuart-zirka-zoranogo-slahu-ta-ludej-iks.html",
-      "date": "2026-10-29T21:20:00+00:00",
-      "excerpt": "Британський актор театру, кіно й телебачення сер Патрік Стюарт помер на 87-му році життя. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793310545-950.jpg",
-      "source": "Укрінформ"
+      "title": "Через російські атаки у Дніпрі та прилеглих населених пунктах – без світла понад 350 тисяч абонентів",
+      "url": "https://www.pravda.com.ua/news/2026/10/30/8060368",
+      "date": "2026-10-29T22:10:00+00:00",
+      "excerpt": "Внаслідок ударів РФ понад 350 тисяч абонентів без світла у Дніпрі та прилеглих районах.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/9/a/946751/9a493a76500c14bfe7a3dc729ec68ac4.jpeg?w=1200&q=85&stamp=1793312511",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -260,11 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "В США помер актор, зірка «Людей Ікс» Патрік Стюарт",
-      "url": "https://suspilne.media/1440459-v-ssa-pomer-aktor-zirka-ludej-iks-patrik-stuart",
-      "date": "2026-10-29T21:13:27+00:00",
-      "excerpt": "Британський актор сер Патрік Стюарт, який здобув світову славу як капітан Жан-Люк Пікар у «Зоряному шляху» та професор Чарльз Ксав'єр у «Людях Ікс», помер у віці 86 років — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/f6/f6faac9ade6e21a57c2d713113e38c49eb93d059b7ae4b3eca6919a8a6a2a1ba.jpg",
+      "title": "РФ готує нові удари балістичним ракетами, Дніпро частково без світла",
+      "url": "https://suspilne.media/1440445-rf-atakuvala-kiiv-dnipro-castkovo-bez-svitla-cerez-obstril-1710-j-den-vijni",
+      "date": "2026-10-29T22:04:15+00:00",
+      "excerpt": "РФ атакувала Дніпро, пошкоджена електромережа, частина міста без світла. Зеленський попередив, що Росія готує нові удари балістичними ракетами — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/3a/3aae821deaba94f077ec5dfc5975795bdf3b88f73ea4cf4ea0b77d423d77aff5.jpg",
       "source": "Суспільне"
     },
     {
@@ -296,12 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "РФ атакувала Київ балістикою: уламки ракети впали у дворі ЖК, загинула людина",
-      "url": "https://www.pravda.com.ua/news/2026/10/29/8060364",
-      "date": "2026-10-29T21:01:00+00:00",
-      "excerpt": "29 жовтня російські сили атакували Київ балістичними ракетами. У Дарницькому та Дніпровському районах пошкоджено склади, будинки та автомобілі.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/4/6/946695/46a4fa05ec111d40f05f2eb2b9b1408d.jpeg?w=1200&q=85&stamp=1793307907",
-      "source": "Українська правда"
+      "title": "РФ вдарила по Києву: пошкоджено житловий комплекс, є загиблий",
+      "url": "https://suspilne.media/kyiv/1440467-rf-vdarila-po-kievu-poskodzeno-zitlovij-kompleks",
+      "date": "2026-10-29T22:00:36+00:00",
+      "excerpt": "Ввечері 29 жовтня Росія вдарила по Києву: у двох районах міста пошкоджень зазнали житловий комплекс, будівля магазину та складські приміщення — Суспільне Київ",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/7f/7f536d7ff70f2cd8fd762f502e34d01e52a916e0692287b8f8487a75bbd1594e.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -323,12 +323,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Дніпрі та прилеглих районах знеструмлення через удар РФ – ДТЕК",
-      "url": "https://www.pravda.com.ua/news/2026/10/29/8060363",
-      "date": "2026-10-29T20:56:00+00:00",
-      "excerpt": "Російська атака призвела до відключень електроенергії у Дніпрі та навколишніх районах. Енергетики працюють над ліквідацією наслідків.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/b/946671/ab5d5ae9d1102a00aae89f4fc7b12742.jpeg?w=1200&q=85&stamp=1793307319",
-      "source": "Українська правда"
+      "title": "Турецькі інвестиції в Україну за шість років зросли майже на $100 мільйонів - посолка",
+      "url": "https://www.ukrinform.ua/rubric-economy/4179556-turecki-investicii-v-ukrainu-za-sist-rokiv-zrosli-majze-na-100-miljoniv-posolka.html",
+      "date": "2026-10-29T21:57:00+00:00",
+      "excerpt": "Прямі турецькі інвестиції в Україну зросли з $454,7 мільйона у 2019 році до $555,8 мільйона у 2025 році, а турецькі компанії продовжують працювати та інвестувати в українську економіку попри війну. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793307449-286.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -350,11 +350,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Зіткнення поїздів в Іспанії: кількість загиблих зросла до 69",
-      "url": "https://www.ukrinform.ua/rubric-world/4179554-zitknenna-poizdiv-v-ispanii-kilkist-zagiblih-zrosla-do-69.html",
-      "date": "2026-10-29T20:52:00+00:00",
-      "excerpt": "Кількість загиблих у результаті зіткнення двох швидкісних поїздів в іспанській провінції Толедо зросла до 69 осіб. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793184765-172.jpg",
+      "title": "Росіяни атакували Київ балістикою, є загиблий",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179557-rosiani-atakuvali-kiiv-balistikou-u-darnickomu-rajoni-vlucili-u-skladski-budivli.html",
+      "date": "2026-10-29T21:48:00+00:00",
+      "excerpt": "Російські війська атакували Київ балістикою, у Дарницькому районі зафіксували влучання у складські будівлі. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_08/thumb_files/630_360_1786205585-323.jpg",
       "source": "Укрінформ"
     },
     {
