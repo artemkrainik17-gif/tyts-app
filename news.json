@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T01:01:00.977673+00:00",
+  "updated_at": "2026-10-29T02:02:10.334851+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -12,7 +12,7 @@
       "url": "https://zhmerynka-rda.gov.ua/2026/10/28/%D0%BE%D1%81%D0%B2%D1%96%D1%82%D0%BD%D1%96-%D0%B7%D0%B0%D0%BA%D0%BB%D0%B0%D0%B4%D0%B8-%D0%B6%D0%BC%D0%B5%D1%80%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE-%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D1%83",
       "date": "2026-10-28T10:06:48+00:00",
       "excerpt": "У межах виконання Комплексного плану стійкості Вінниччини, громади продовжують посилювати енергетичну незалежність, щоб забезпечити стабільну роботу закладів освіти навіть під час перебоїв з електропостачанням. У одній з громад модернізують системи опалення, встановлюють резервне енергетичне обладнання та дбають про за",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2025/06/005-3-300x169.jpg",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/02/02-300x169.jpg",
       "source": "Жмеринська РВА"
     },
     {
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-29T00:59:48+00:00",
+      "date": "2026-10-29T02:01:09+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,12 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Путіна заявили, що питання тристоронніх переговорів \"залежатиме від ситуації на полі бою\"",
-      "url": "https://www.pravda.com.ua/news/2026/10/29/8060187",
-      "date": "2026-10-29T00:54:00+00:00",
-      "excerpt": "Ушаков заявив, що питання тристоронніх переговорів буде залежати і від ситуації на полі бою.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/0/a/945795/0a141212365d28eedb2696028b73a29e.jpeg?w=1200&q=85&stamp=1793235232",
-      "source": "Українська правда"
+      "title": "У Херсоні в мікрорайоні Корабел залишається близько півтори сотні людей",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179136-u-hersoni-v-mikrorajoni-korabel-zalisaetsa-blizko-pivtori-sotni-ludej.html",
+      "date": "2026-10-29T02:00:00+00:00",
+      "excerpt": "У Херсоні в мікрорайоні Корабел (Острів) залишається близько півтори сотні людей, їх закликають евакуюватися. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1759487598-539.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -80,11 +80,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Москву атакували безпілотники, в аеропортах ввели обмеження",
-      "url": "https://www.ukrinform.ua/rubric-world/4179206-moskvu-atakuvali-bezpilotniki-v-aeroportah-vveli-obmezenna.html",
-      "date": "2026-10-29T00:41:00+00:00",
-      "excerpt": "Безпілотники атакували столицю Росії та Підмосков'я. Два літаки, що летіли з Туреччини до Москви, розвернули через обмеження в аеропорту \"Внуково\". — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_06/thumb_files/630_360_1717408696-146.jpg",
+      "title": "Волкер: Україна не має зважати на заклики Трампа припинити удари по Росії",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4179213-volker-ukraina-ne-mae-zvazati-na-zakliki-trampa-pripiniti-udari-po-rosii.html",
+      "date": "2026-10-29T01:52:00+00:00",
+      "excerpt": "Україна повинна продовжувати завдавати ударів по Росії, оскільки очільник РФ Володимир Путін не слухатиме жодних спроб його переконати, вважає науковий співробітник Центру аналізу європейської політики, колишній спецпредставник США з питань України Курт Волкер. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2022_01/thumb_files/630_360_1642074996-616.jpg",
       "source": "Укрінформ"
     },
     {
@@ -116,12 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Військові можуть замовити НРК-амфібії на Brave1 Market",
-      "url": "https://www.ukrinform.ua/rubric-ato/4179205-vijskovi-mozut-zamoviti-nrkamfibii-na-brave1-market.html",
-      "date": "2026-10-29T00:33:00+00:00",
-      "excerpt": "На платформі Brave1 Market для військових доступний новий клас наземних роботизованих комплексів – НРК-амфібії. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793233655-873.jpg",
-      "source": "Укрінформ"
+      "title": "Геніспектор Пентагону відмовився розслідувати обмеження Starlink для України – АР",
+      "url": "https://www.pravda.com.ua/news/2026/10/29/8060188",
+      "date": "2026-10-29T01:48:00+00:00",
+      "excerpt": "У Пентагоні пояснили, чому не хочуть розслідувати обмеження Starlink для України.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/c/945798/8c5c383bdfb06d8e2662558dea7dad84.jpeg?w=1200&q=85&stamp=1793239165",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -143,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Близько 57 тисяч цивільних залишаються в зоні активних бойових дій на Донеччині",
-      "url": "https://www.pravda.com.ua/news/2026/10/29/8060186",
-      "date": "2026-10-29T00:30:00+00:00",
-      "excerpt": "У зоні активних бойових дій на Донеччині залишаються близько 57 тисяч цивільних, з яких понад 1,7 тисячі дітей.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/d/a/945794/daad7938eb360df9be923c410e8c778b.jpeg?w=1200&q=85&stamp=1793232339",
-      "source": "Українська правда"
+      "title": "У «Дії» можна буде погасити борг за виконавчим провадженням",
+      "url": "https://www.ukrinform.ua/rubric-society/4179111-u-dii-mozna-bude-pogasiti-borg-za-vikonavcim-provadzennam.html",
+      "date": "2026-10-29T01:37:00+00:00",
+      "excerpt": "У «Дії» можна буде погасити борг за виконавчим провадженням розміром до 10 мінімальних зарплат. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_07/thumb_files/630_360_1785409463-981.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -170,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Генеральна директорка суспільного мовника Сербії подала у відставку",
-      "url": "https://suspilne.media/1439581-generalna-direktorka-suspilnogo-movnika-serbii-podala-u-vidstavku",
-      "date": "2026-10-29T00:23:44+00:00",
-      "excerpt": "Маня Грчич очолювала RTS із лютого 2026 року. Профспілка й Студентський список вимагали, щоб вона пішла. Перед цим Грчич звільнила головну редакторку новин — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/05/0536f0bc023bc5e9196ffbf195db4db869584129b4c39b01a0d02c1f32bc69b4.jpg",
-      "source": "Суспільне"
+      "title": "Україна працює над розширенням кола держав, залучених до спецтрибуналу щодо агресії РФ - Карасевич",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4179210-ukraina-pracue-nad-rozsirennam-kola-derzav-zalucenih-do-spectribunalu-sodo-agresii-rf-karasevic.html",
+      "date": "2026-10-29T01:11:00+00:00",
+      "excerpt": "Україна працює над розширенням географічного представництва держав у спеціальному трибуналі щодо злочину агресії Росії. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793236092-387.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -206,12 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Розвідка ідентифікувала ботсванця, який воював на боці Росії на Луганщині",
-      "url": "https://www.ukrinform.ua/rubric-ato/4178922-rozvidka-identifikuvala-botsvanca-akij-vouvav-na-boci-rosii-na-lugansini.html",
-      "date": "2026-10-29T00:23:00+00:00",
-      "excerpt": "У Головному управлінні розвідки Міністерства оборони України оприлюднили інформацію про громадянина Ботсвани, який воював на боці росіян та був ліквідований у Луганській області. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793180973-381.jpg",
-      "source": "Укрінформ"
+      "title": "Смерть члена князівської родини: у Монако затримали українця",
+      "url": "https://suspilne.media/1439537-smert-clena-knazivskoi-rodini-u-monako-zatrimali-ukrainca",
+      "date": "2026-10-29T01:08:13+00:00",
+      "excerpt": "Антуан де Массі імовірно загинув унаслідок падіння з висоти 13 метрів. Українцю, який 30 років живе в князівстві, інкримінують вбивство через необережність — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/c5/c559daa2da0477dd32036265f4ce1ca3c43d7dcfbad6372945491c77cf6e3667.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -233,11 +233,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Перші результати обстеження Південного мосту очікуються у п’ятницю - КМВА",
-      "url": "https://www.ukrinform.ua/rubric-regions/4179201-persi-rezultati-obstezenna-pivdennogo-mostu-ocikuutsa-u-patnicu-kmva.html",
-      "date": "2026-10-28T23:53:00+00:00",
-      "excerpt": "Перші результати досліджень Південного мосту в Києві очікуються у п’ятницю зранку. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793105584-397.png",
+      "title": "Війна і падіння доходів змушують Кремль розпродавати золоті запаси - розвідка",
+      "url": "https://www.ukrinform.ua/rubric-world/4179018-vijna-i-padinna-dohodiv-zmusuut-kreml-rozprodavati-zoloti-zapasi-rozvidka.html",
+      "date": "2026-10-29T01:01:00+00:00",
+      "excerpt": "Наразі РФ витрачає золоті резерви для покриття бюджетного дефіциту, який зростає через скорочення нафтогазових доходів і збільшення державних видатків. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2017_05/thumb_files/630_360_1496062438-6655.jpg",
       "source": "Укрінформ"
     },
     {
@@ -260,12 +260,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Американський експерт пояснив, чому питання відповідальності РФ за злочини в Україні треба порушувати вже зараз",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4179196-amerikanskij-ekspert-poasniv-comu-pitanna-vidpovidalnosti-rf-za-zlocin-v-ukraini-potribno-porusuvati-vze-zaraz.html",
-      "date": "2026-10-28T23:25:00+00:00",
-      "excerpt": "Питання міжнародного правосуддя, відповідальності за злочини та відшкодування завданих Україні збитків необхідно порушувати вже зараз, не відкладаючи їх до завершення війни, оскільки цей процес триватиме десятиліттями. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793228907-307.jpeg",
-      "source": "Укрінформ"
+      "title": "У Путіна заявили, що питання тристоронніх переговорів \"залежатиме від ситуації на полі бою\"",
+      "url": "https://www.pravda.com.ua/news/2026/10/29/8060187",
+      "date": "2026-10-29T00:54:00+00:00",
+      "excerpt": "Ушаков заявив, що питання тристоронніх переговорів буде залежати і від ситуації на полі бою.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/0/a/945795/0a141212365d28eedb2696028b73a29e.jpeg?w=1200&q=85&stamp=1793235232",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -296,12 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Москві заявили про атаку безпілотників",
-      "url": "https://www.pravda.com.ua/news/2026/10/29/8060184",
-      "date": "2026-10-28T23:24:00+00:00",
-      "excerpt": "У Москві заявили про атаку дронів, аеропорти обмежували роботу.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/0/945780/80400a74c0c1fad73b682492e349f2aa.jpeg?w=1200&q=85&stamp=1793229997",
-      "source": "Українська правда"
+      "title": "Москву атакували безпілотники, в аеропортах ввели обмеження",
+      "url": "https://www.ukrinform.ua/rubric-world/4179206-moskvu-atakuvali-bezpilotniki-v-aeroportah-vveli-obmezenna.html",
+      "date": "2026-10-29T00:41:00+00:00",
+      "excerpt": "Безпілотники атакували Москву та Підмосков'я. Росавіація ввела обмеження на прийом та виліт повітряних суден в аеропортах. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_06/thumb_files/630_360_1717408696-146.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -323,12 +323,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Чернігові після удару дрона по ветцентру прилаштовують тварин (Відео)",
-      "url": "https://suspilne.media/1439577-u-cernigovi-pisla-udaru-rosijskogo-drona-po-veterinarnomu-centru-prilastovuut-tvarin-na-peretrimku-video",
-      "date": "2026-10-28T23:08:16+00:00",
-      "excerpt": "Ветеринарка, яка під час удару оперувала собаку, розповіла, як на них посипалися вікна. Поранені дві волонтерки та працівниця центру, загинув собака — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/b2/b2625fb23d984bed6f0465958f4be8e1825a2e645ec1d101659218e1d5ad0ce4.jpg",
-      "source": "Суспільне"
+      "title": "Військові можуть замовити НРК-амфібії на Brave1 Market",
+      "url": "https://www.ukrinform.ua/rubric-ato/4179205-vijskovi-mozut-zamoviti-nrkamfibii-na-brave1-market.html",
+      "date": "2026-10-29T00:33:00+00:00",
+      "excerpt": "На платформі Brave1 Market для військових доступний новий клас наземних роботизованих комплексів – НРК-амфібії. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793233655-873.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -350,11 +350,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Болсонару із США заявив, що він є \"законно обраним президентом\" Бразилії",
-      "url": "https://www.pravda.com.ua/news/2026/10/29/8060183",
-      "date": "2026-10-28T23:08:00+00:00",
-      "excerpt": "Болсунару втік у США і звідти проголосив себе \"законно обраним президентом\" Бразилії.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/1/945778/5139f638efa9d4e98c2fe3fce830440c.jpeg?w=1200&q=85&stamp=1793228771",
+      "title": "Близько 57 тисяч цивільних залишаються в зоні активних бойових дій на Донеччині",
+      "url": "https://www.pravda.com.ua/news/2026/10/29/8060186",
+      "date": "2026-10-29T00:30:00+00:00",
+      "excerpt": "У зоні активних бойових дій на Донеччині залишаються близько 57 тисяч цивільних, з яких понад 1,7 тисячі дітей.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/d/a/945794/daad7938eb360df9be923c410e8c778b.jpeg?w=1200&q=85&stamp=1793232339",
       "source": "Українська правда"
     },
     {
