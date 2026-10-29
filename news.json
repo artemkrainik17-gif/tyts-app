@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T19:57:08.694454+00:00",
+  "updated_at": "2026-10-29T20:52:05.421188+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-29T19:55:44+00:00",
+      "date": "2026-10-29T20:50:53+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,11 +53,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У Москві та Петербурзі затримали або скасували понад 460 авіарейсів через атаку дронів - ЗМІ",
-      "url": "https://www.ukrinform.ua/rubric-world/4179546-u-moskvi-ta-peterburzi-zatrimali-abo-skasuvali-ponad-460-aviarejsiv-cerez-ataku-droniv-zmi.html",
-      "date": "2026-10-29T19:53:00+00:00",
-      "excerpt": "У четвер в аеропортах Москви та Санкт-Петербургу в Росії затримали або скасували понад 460 рейсів на тлі атаки безпілотників. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_02/thumb_files/630_360_1772287704-718.jpg",
+      "title": "Бутенко відреагував на ворожий удар по студентському гуртожитку у Дніпрі",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179551-butenko-vidreaguvav-na-vorozij-udar-po-studentskomu-gurtozitku-u-dnipri.html",
+      "date": "2026-10-29T20:33:00+00:00",
+      "excerpt": "Міністерство освіти і науки України разом з керівництвом вищого професійного училища у Дніпрі, по гуртожитку якого росіяни вдарили безпілотником, і обласною військовою адміністрацією з'ясовують масштаб пошкоджень. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_08/thumb_files/630_360_1786120841-482.jpg",
       "source": "Укрінформ"
     },
     {
@@ -80,11 +80,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У Конгресі Ради Європи підтримали розширення патронату над українськими заручниками - правозахисниця",
-      "url": "https://www.ukrinform.ua/rubric-society/4179545-u-kongresi-radi-evropi-pidtrimali-rozsirenna-patronatu-nad-ukrainskimi-zarucnikami-pravozahisnica.html",
-      "date": "2026-10-29T19:51:00+00:00",
-      "excerpt": "Представники всіх політичних груп Конгресу місцевих і регіональних влад Ради Європи в Страсбурзі висловили підтримку ініціативі муніципального патронату над українськими цивільними заручниками. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793303312-516.jpg",
+      "title": "На фронті за добу сталося 191 зіткнення, найгарячіші - Костянтинівський та Покровський напрямки",
+      "url": "https://www.ukrinform.ua/rubric-ato/4179550-na-fronti-za-dobu-stalosa-191-zitknenna-najgaracisi-kostantinivskij-ta-pokrovskij-napramki.html",
+      "date": "2026-10-29T20:25:00+00:00",
+      "excerpt": "Протягом 29 жовтня на фронті зафіксовано 191 бойове зіткнення Сил оборони України з російськими загарбниками. 23 рази ворог намагався атакувати на Костянтинівському напрямку, 18 - на Покровському. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1760095809-482.jpg",
       "source": "Укрінформ"
     },
     {
@@ -116,12 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "На Харківщині вже 21 постраждалий унаслідок російських ударів, одна людина загинула",
-      "url": "https://www.ukrinform.ua/rubric-world/4179543-na-harkivsini-vze-21-postrazdalij-unaslidok-rosijskih-udariv-odna-ludina-zaginula.html",
-      "date": "2026-10-29T19:35:00+00:00",
-      "excerpt": "У Харківській області станом на вечір четверга, 29 жовтня, 21 людина постраждала внаслідок російських ударів, загинула жінка. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793302387-144.png",
-      "source": "Укрінформ"
+      "title": "Росіяни атакували понад 40 разів Костянтинівський і Покровський напрямки - Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/10/29/8060360",
+      "date": "2026-10-29T20:17:00+00:00",
+      "excerpt": "На фронті 191 бойове зіткнення за добу. На Костянтинівському та Покровському напрямках знищено 40 росіян, понад 200 дронів і військову техніку – дані Генштабу.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/a/946657/8a853777829d41dfcedd2c80dfaa1343.jpeg?w=1200&q=85&stamp=1793304922",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -143,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Путін: Росія не хоче війни з Європою, але готова до неї",
-      "url": "https://suspilne.media/1440419-putin-rosia-ne-hoce-vijni-z-evropou-ale-gotova-do-nei",
-      "date": "2026-10-29T19:33:10+00:00",
-      "excerpt": "Очільник Кремля Володимир Путін заявив, що багато хто в Європі «готується до війни» з РФ і Москва готова до цього, однак не хоче конфлікту — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/81/818c84692e0a35e544120f17a7d0777fed26dc4f1e8fc373d5dad8c5364452e0.jpg",
-      "source": "Суспільне"
+      "title": "Європа реагує на російські атаки по Україні",
+      "url": "https://www.ukrinform.ua/rubric-world/4179452-evropa-reague-na-rosijski-ataki-po-ukraini.html",
+      "date": "2026-10-29T20:07:00+00:00",
+      "excerpt": "Представники європейських країн та інституцій засудили атаки Росії по українських містах, які відбуваються упродовж 29 жовтня і внаслідок яких є багато загиблих та поранених серед цивільного населення, зокрема дітей. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793285468-818.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -170,11 +170,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Європа реагує на російські атаки по Україні",
-      "url": "https://www.ukrinform.ua/rubric-world/4179452-evropa-reague-na-rosijski-ataki-po-ukraini.html",
-      "date": "2026-10-29T19:30:00+00:00",
-      "excerpt": "Представники європейських країн та інституцій засудили атаки Росії по українських містах, які відбуваються упродовж 29 жовтня і внаслідок яких є багато загиблих та поранених серед цивільного населення, зокрема дітей. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793285468-818.jpg",
+      "title": "У Москві та Петербурзі затримали або скасували понад 460 авіарейсів через атаку дронів - ЗМІ",
+      "url": "https://www.ukrinform.ua/rubric-world/4179546-u-moskvi-ta-peterburzi-zatrimali-abo-skasuvali-ponad-460-aviarejsiv-cerez-ataku-droniv-zmi.html",
+      "date": "2026-10-29T19:53:00+00:00",
+      "excerpt": "У четвер в аеропортах Москви та Санкт-Петербургу в Росії затримали або скасували понад 460 рейсів на тлі атаки безпілотників. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_02/thumb_files/630_360_1772287704-718.jpg",
       "source": "Укрінформ"
     },
     {
@@ -206,11 +206,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський: Робимо все, щоб гуманітарна операція в Олешках вдалася",
-      "url": "https://www.ukrinform.ua/rubric-regions/4179541-prezident-robimo-vse-sob-gumanitarna-operacia-v-oleskah-vdalasa.html",
-      "date": "2026-10-29T19:28:00+00:00",
-      "excerpt": "Президент України Володимир Зеленський запевнив, що українська сторона робить все можливе, щоб вдалася гуманітарна операція в Олешках. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1790873806-791.png",
+      "title": "У Конгресі Ради Європи підтримали розширення патронату над українськими заручниками - правозахисниця",
+      "url": "https://www.ukrinform.ua/rubric-society/4179545-u-kongresi-radi-evropi-pidtrimali-rozsirenna-patronatu-nad-ukrainskimi-zarucnikami-pravozahisnica.html",
+      "date": "2026-10-29T19:51:00+00:00",
+      "excerpt": "Представники всіх політичних груп Конгресу місцевих і регіональних влад Ради Європи в Страсбурзі висловили підтримку ініціативі муніципального патронату над українськими цивільними заручниками. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793303312-516.jpg",
       "source": "Укрінформ"
     },
     {
@@ -233,12 +233,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Повітряні сили показали уламки російського реактивного дрона, який вдарив по вокзалу у Дніпрі",
-      "url": "https://www.ukrinform.ua/rubric-ato/4179540-povitrani-sili-pokazali-ulamki-rosijskogo-reaktivnogo-drona-akij-vdariv-po-vokzalu-u-dnipri.html",
-      "date": "2026-10-29T19:26:00+00:00",
-      "excerpt": "Російська пропаганда після удару по залізничному вокзалу у Дніпрі поширила хвилю фейків, мета яких – виправдання власних воєнних злочинів. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793301904-967.jpeg",
-      "source": "Укрінформ"
+      "title": "Пліснява та \"парниковий ефект\": у Києві демонтують захисні конструкції з пам’ятників",
+      "url": "https://www.pravda.com.ua/news/2026/10/29/8060357",
+      "date": "2026-10-29T19:48:00+00:00",
+      "excerpt": "Комунальники обстежують пам’ятки мистецтва після часткового демонтажу укриттів. Рішення щодо захисту об’єктів ухвалюють індивідуально.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/b/946637/5bb48dce5daa94c48167cd8a17fa68ec.jpeg?w=1200&q=85&stamp=1793303120",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -260,11 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "В Україні відкриті 135 кримінальних справ про злочини проти журналістів",
-      "url": "https://www.ukrinform.ua/rubric-society/4179366-v-ukraini-vidkriti-135-kriminalnih-sprav-pro-zlocini-proti-zurnalistiv.html",
-      "date": "2026-10-29T19:20:00+00:00",
-      "excerpt": "В Україні відкриті 135 кримінальних проваджень щодо злочинів проти журналістів. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_08/thumb_files/630_360_1722874347-532.jpg",
+      "title": "На Харківщині вже 21 постраждалий унаслідок російських ударів, одна людина загинула",
+      "url": "https://www.ukrinform.ua/rubric-world/4179543-na-harkivsini-vze-21-postrazdalij-unaslidok-rosijskih-udariv-odna-ludina-zaginula.html",
+      "date": "2026-10-29T19:35:00+00:00",
+      "excerpt": "У Харківській області станом на вечір четверга, 29 жовтня, 21 людина постраждала внаслідок російських ударів, загинула жінка. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793302387-144.png",
       "source": "Укрінформ"
     },
     {
@@ -296,12 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "ЗМІ: У НАТО побоюються, що Трамп не передасть перехоплювачі Україні до виборів у США",
-      "url": "https://www.pravda.com.ua/news/2026/10/29/8060355",
-      "date": "2026-10-29T19:16:00+00:00",
-      "excerpt": "Союзники НАТО не впевнені, що Україна отримає ракети Patriot до виборів у Конгрес США. Вашингтон і союзники закликають розблокувати допомогу Києву.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/c/9/946635/c9ffe30d88e3622f9329c52079549be5.jpeg?w=1200&q=85&stamp=1793301462",
-      "source": "Українська правда"
+      "title": "Зеленський: Робимо все, щоб гуманітарна операція в Олешках вдалася",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179541-prezident-robimo-vse-sob-gumanitarna-operacia-v-oleskah-vdalasa.html",
+      "date": "2026-10-29T19:28:00+00:00",
+      "excerpt": "Президент України Володимир Зеленський запевнив, що українська сторона робить все можливе, щоб вдалася гуманітарна операція в Олешках. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1790873806-791.png",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -323,11 +323,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський: У Дніпрі, Чернігові й Кременчуці від ударів РФ загинули 19 людей",
-      "url": "https://www.ukrinform.ua/rubric-regions/4179538-zelenskij-u-dnipri-cernigovi-j-kremencuci-vid-udariv-rf-zaginuli-19-ludej.html",
-      "date": "2026-10-29T19:16:00+00:00",
-      "excerpt": "Президент Володимир Зеленський заявив, що від ударів РФ удень у Дніпрі, Кременчуці й Чернігові загинуло 19 людей. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793285852-511.jpg",
+      "title": "Повітряні сили показали уламки російського реактивного дрона, який вдарив по вокзалу у Дніпрі",
+      "url": "https://www.ukrinform.ua/rubric-ato/4179540-povitrani-sili-pokazali-ulamki-rosijskogo-reaktivnogo-drona-akij-vdariv-po-vokzalu-u-dnipri.html",
+      "date": "2026-10-29T19:26:00+00:00",
+      "excerpt": "Російська пропаганда після удару по залізничному вокзалу у Дніпрі поширила хвилю фейків, мета яких – виправдання власних воєнних злочинів. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793301904-967.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -350,12 +350,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Укренерго: графіки відключень світла 30 жовтня діятимуть у частині областей",
-      "url": "https://suspilne.media/1440421-ukrenergo-grafiki-pogodinnih-vidklucen-svitla-30-zovtna-diatimut-u-castini-oblastej",
-      "date": "2026-10-29T19:09:04+00:00",
-      "excerpt": "У частині областей України 30 жовтня діятимуть погодинні графіки відключення світла для всіх категорій споживачів (обсягом від 1,5 до 2,5 черг), а також для бізнесу і промисловості. Причина обмежень — наслідки атак РФ — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/ae/ae34d1cbbc488ad730c720bcb39e641a942d1cd92b79e168fa5af5b7a7162bf5.jpg",
-      "source": "Суспільне"
+      "title": "В Україні відкриті 135 кримінальних справ про злочини проти журналістів",
+      "url": "https://www.ukrinform.ua/rubric-society/4179366-v-ukraini-vidkriti-135-kriminalnih-sprav-pro-zlocini-proti-zurnalistiv.html",
+      "date": "2026-10-29T19:20:00+00:00",
+      "excerpt": "В Україні відкриті 135 кримінальних проваджень щодо злочинів проти журналістів. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_08/thumb_files/630_360_1722874347-532.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
