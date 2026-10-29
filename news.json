@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T20:52:05.421188+00:00",
+  "updated_at": "2026-10-29T21:49:02.772096+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-29T20:50:53+00:00",
+      "date": "2026-10-29T21:47:57+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,11 +53,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Бутенко відреагував на ворожий удар по студентському гуртожитку у Дніпрі",
-      "url": "https://www.ukrinform.ua/rubric-regions/4179551-butenko-vidreaguvav-na-vorozij-udar-po-studentskomu-gurtozitku-u-dnipri.html",
-      "date": "2026-10-29T20:33:00+00:00",
-      "excerpt": "Міністерство освіти і науки України разом з керівництвом вищого професійного училища у Дніпрі, по гуртожитку якого росіяни вдарили безпілотником, і обласною військовою адміністрацією з'ясовують масштаб пошкоджень. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_08/thumb_files/630_360_1786120841-482.jpg",
+      "title": "Росіяни атакували Київ балістикою, у Дарницькому районі влучили у склади",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179557-rosiani-atakuvali-kiiv-balistikou-u-darnickomu-rajoni-vlucili-u-skladski-budivli.html",
+      "date": "2026-10-29T21:15:00+00:00",
+      "excerpt": "Російські війська атакували Київ балістикою, у Дарницькому районі зафіксували влучання у складські будівлі. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_08/thumb_files/630_360_1786205585-323.jpg",
       "source": "Укрінформ"
     },
     {
@@ -80,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "На фронті за добу сталося 191 зіткнення, найгарячіші - Костянтинівський та Покровський напрямки",
-      "url": "https://www.ukrinform.ua/rubric-ato/4179550-na-fronti-za-dobu-stalosa-191-zitknenna-najgaracisi-kostantinivskij-ta-pokrovskij-napramki.html",
-      "date": "2026-10-29T20:25:00+00:00",
-      "excerpt": "Протягом 29 жовтня на фронті зафіксовано 191 бойове зіткнення Сил оборони України з російськими загарбниками. 23 рази ворог намагався атакувати на Костянтинівському напрямку, 18 - на Покровському. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1760095809-482.jpg",
-      "source": "Укрінформ"
+      "title": "В США помер актор, зірка «Людей Ікс» Патрік Стюарт",
+      "url": "https://suspilne.media/1440459-v-ssa-pomer-aktor-zirka-ludej-iks-patrik-stuart",
+      "date": "2026-10-29T21:13:27+00:00",
+      "excerpt": "Британський актор сер Патрік Стюарт, який здобув світову славу як капітан Жан-Люк Пікар у «Зоряному шляху» та професор Чарльз Ксав'єр у «Людях Ікс», помер у віці 86 років — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/f6/f6faac9ade6e21a57c2d713113e38c49eb93d059b7ae4b3eca6919a8a6a2a1ba.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -116,11 +116,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни атакували понад 40 разів Костянтинівський і Покровський напрямки - Генштаб",
-      "url": "https://www.pravda.com.ua/news/2026/10/29/8060360",
-      "date": "2026-10-29T20:17:00+00:00",
-      "excerpt": "На фронті 191 бойове зіткнення за добу. На Костянтинівському та Покровському напрямках знищено 40 росіян, понад 200 дронів і військову техніку – дані Генштабу.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/a/946657/8a853777829d41dfcedd2c80dfaa1343.jpeg?w=1200&q=85&stamp=1793304922",
+      "title": "РФ атакувала Київ балістикою: пошкоджено житловий будинок, уламки ракети впали у дворі ЖК",
+      "url": "https://www.pravda.com.ua/news/2026/10/29/8060364",
+      "date": "2026-10-29T21:01:00+00:00",
+      "excerpt": "29 жовтня російські сили атакували Київ балістичними ракетами. У Дарницькому та Дніпровському районах пошкоджено склади, будинки та автомобілі.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/4/6/946695/46a4fa05ec111d40f05f2eb2b9b1408d.jpeg?w=1200&q=85&stamp=1793307907",
       "source": "Українська правда"
     },
     {
@@ -143,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Європа реагує на російські атаки по Україні",
-      "url": "https://www.ukrinform.ua/rubric-world/4179452-evropa-reague-na-rosijski-ataki-po-ukraini.html",
-      "date": "2026-10-29T20:07:00+00:00",
-      "excerpt": "Представники європейських країн та інституцій засудили атаки Росії по українських містах, які відбуваються упродовж 29 жовтня і внаслідок яких є багато загиблих та поранених серед цивільного населення, зокрема дітей. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793285468-818.jpg",
-      "source": "Укрінформ"
+      "title": "У Дніпрі та прилеглих районах знеструмлення через удар РФ – ДТЕК",
+      "url": "https://www.pravda.com.ua/news/2026/10/29/8060363",
+      "date": "2026-10-29T20:56:00+00:00",
+      "excerpt": "Російська атака призвела до відключень електроенергії у Дніпрі та навколишніх районах. Енергетики працюють над ліквідацією наслідків.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/b/946671/ab5d5ae9d1102a00aae89f4fc7b12742.jpeg?w=1200&q=85&stamp=1793307319",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -170,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Москві та Петербурзі затримали або скасували понад 460 авіарейсів через атаку дронів - ЗМІ",
-      "url": "https://www.ukrinform.ua/rubric-world/4179546-u-moskvi-ta-peterburzi-zatrimali-abo-skasuvali-ponad-460-aviarejsiv-cerez-ataku-droniv-zmi.html",
-      "date": "2026-10-29T19:53:00+00:00",
-      "excerpt": "У четвер в аеропортах Москви та Санкт-Петербургу в Росії затримали або скасували понад 460 рейсів на тлі атаки безпілотників. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_02/thumb_files/630_360_1772287704-718.jpg",
-      "source": "Укрінформ"
+      "title": "У Боснії розбився італійський вертоліт, є загиблі і поранені",
+      "url": "https://suspilne.media/1440439-u-bosnii-rozbivsa-italijskij-vertolit-e-zagibli-i-poraneni",
+      "date": "2026-10-29T20:52:27+00:00",
+      "excerpt": "У Боснії та Герцеговині у місті Горице, поблизу Брчко розбився італійський вертоліт CH 47, який брав участь в операції ЄС EUFOR Althea. Чотири людини загинули та дванадцять отримали поранення — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/95/95b41fe47247fbc2181d89fb425cea2a96d7e8919d2d5267fc949fb52aa9df69.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -206,11 +206,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У Конгресі Ради Європи підтримали розширення патронату над українськими заручниками - правозахисниця",
-      "url": "https://www.ukrinform.ua/rubric-society/4179545-u-kongresi-radi-evropi-pidtrimali-rozsirenna-patronatu-nad-ukrainskimi-zarucnikami-pravozahisnica.html",
-      "date": "2026-10-29T19:51:00+00:00",
-      "excerpt": "Представники всіх політичних груп Конгресу місцевих і регіональних влад Ради Європи в Страсбурзі висловили підтримку ініціативі муніципального патронату над українськими цивільними заручниками. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793303312-516.jpg",
+      "title": "Зіткнення поїздів в Іспанії: кількість загиблих зросла до 69",
+      "url": "https://www.ukrinform.ua/rubric-world/4179554-zitknenna-poizdiv-v-ispanii-kilkist-zagiblih-zrosla-do-69.html",
+      "date": "2026-10-29T20:52:00+00:00",
+      "excerpt": "Кількість загиблих у результаті зіткнення двох швидкісних поїздів в іспанській провінції Толедо зросла до 69 осіб. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793184765-172.jpg",
       "source": "Укрінформ"
     },
     {
@@ -233,12 +233,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Пліснява та \"парниковий ефект\": у Києві демонтують захисні конструкції з пам’ятників",
-      "url": "https://www.pravda.com.ua/news/2026/10/29/8060357",
-      "date": "2026-10-29T19:48:00+00:00",
-      "excerpt": "Комунальники обстежують пам’ятки мистецтва після часткового демонтажу укриттів. Рішення щодо захисту об’єктів ухвалюють індивідуально.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/b/946637/5bb48dce5daa94c48167cd8a17fa68ec.jpeg?w=1200&q=85&stamp=1793303120",
-      "source": "Українська правда"
+      "title": "Бутенко відреагував на ворожий удар по студентському гуртожитку у Дніпрі",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179551-butenko-vidreaguvav-na-vorozij-udar-po-studentskomu-gurtozitku-u-dnipri.html",
+      "date": "2026-10-29T20:33:00+00:00",
+      "excerpt": "Міністерство освіти і науки України разом з керівництвом вищого професійного училища у Дніпрі, по гуртожитку якого росіяни вдарили безпілотником, і обласною військовою адміністрацією з'ясовують масштаб пошкоджень. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_08/thumb_files/630_360_1786120841-482.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -260,11 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "На Харківщині вже 21 постраждалий унаслідок російських ударів, одна людина загинула",
-      "url": "https://www.ukrinform.ua/rubric-world/4179543-na-harkivsini-vze-21-postrazdalij-unaslidok-rosijskih-udariv-odna-ludina-zaginula.html",
-      "date": "2026-10-29T19:35:00+00:00",
-      "excerpt": "У Харківській області станом на вечір четверга, 29 жовтня, 21 людина постраждала внаслідок російських ударів, загинула жінка. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793302387-144.png",
+      "title": "На фронті за добу сталося 191 зіткнення, найгарячіші - Костянтинівський та Покровський напрямки",
+      "url": "https://www.ukrinform.ua/rubric-ato/4179550-na-fronti-za-dobu-stalosa-191-zitknenna-najgaracisi-kostantinivskij-ta-pokrovskij-napramki.html",
+      "date": "2026-10-29T20:25:00+00:00",
+      "excerpt": "Протягом 29 жовтня на фронті зафіксовано 191 бойове зіткнення Сил оборони України з російськими загарбниками. 23 рази ворог намагався атакувати на Костянтинівському напрямку, 18 - на Покровському. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1760095809-482.jpg",
       "source": "Укрінформ"
     },
     {
@@ -296,12 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський: Робимо все, щоб гуманітарна операція в Олешках вдалася",
-      "url": "https://www.ukrinform.ua/rubric-regions/4179541-prezident-robimo-vse-sob-gumanitarna-operacia-v-oleskah-vdalasa.html",
-      "date": "2026-10-29T19:28:00+00:00",
-      "excerpt": "Президент України Володимир Зеленський запевнив, що українська сторона робить все можливе, щоб вдалася гуманітарна операція в Олешках. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1790873806-791.png",
-      "source": "Укрінформ"
+      "title": "Росіяни атакували понад 40 разів Костянтинівський і Покровський напрямки - Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/10/29/8060360",
+      "date": "2026-10-29T20:17:00+00:00",
+      "excerpt": "На фронті 191 бойове зіткнення за добу. На Костянтинівському та Покровському напрямках знищено 40 росіян, понад 200 дронів і військову техніку – дані Генштабу.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/a/946657/8a853777829d41dfcedd2c80dfaa1343.jpeg?w=1200&q=85&stamp=1793304922",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -323,11 +323,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Повітряні сили показали уламки російського реактивного дрона, який вдарив по вокзалу у Дніпрі",
-      "url": "https://www.ukrinform.ua/rubric-ato/4179540-povitrani-sili-pokazali-ulamki-rosijskogo-reaktivnogo-drona-akij-vdariv-po-vokzalu-u-dnipri.html",
-      "date": "2026-10-29T19:26:00+00:00",
-      "excerpt": "Російська пропаганда після удару по залізничному вокзалу у Дніпрі поширила хвилю фейків, мета яких – виправдання власних воєнних злочинів. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793301904-967.jpeg",
+      "title": "Європа реагує на російські атаки по Україні",
+      "url": "https://www.ukrinform.ua/rubric-world/4179452-evropa-reague-na-rosijski-ataki-po-ukraini.html",
+      "date": "2026-10-29T20:07:00+00:00",
+      "excerpt": "Представники європейських країн та інституцій засудили атаки Росії по українських містах, які відбуваються упродовж 29 жовтня і внаслідок яких є багато загиблих та поранених серед цивільного населення, зокрема дітей. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793285468-818.jpg",
       "source": "Укрінформ"
     },
     {
@@ -350,12 +350,12 @@
     },
     {
       "area": "ukraine",
-      "title": "В Україні відкриті 135 кримінальних справ про злочини проти журналістів",
-      "url": "https://www.ukrinform.ua/rubric-society/4179366-v-ukraini-vidkriti-135-kriminalnih-sprav-pro-zlocini-proti-zurnalistiv.html",
-      "date": "2026-10-29T19:20:00+00:00",
-      "excerpt": "В Україні відкриті 135 кримінальних проваджень щодо злочинів проти журналістів. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_08/thumb_files/630_360_1722874347-532.jpg",
-      "source": "Укрінформ"
+      "title": "Молдова продовжила до кінця року ліцензування імпорту зерна, зокрема з України",
+      "url": "https://suspilne.media/1440429-moldova-prodovzila-do-kinca-roku-licenzuvanna-importu-zerna-j-olijnih-kultur-zokrema-z-ukraini",
+      "date": "2026-10-29T19:57:28+00:00",
+      "excerpt": "Парламент Молдови продовжив до кінця року ліцензування імпорту зернових та олійних культур, зокрема з України, щоб захистити місцевих аграріїв від масового імпорту — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/3e/3ee04f18de60ef6f557f4eb78eee9e96011654b4b2f32e8f7bdcab76be445478.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
