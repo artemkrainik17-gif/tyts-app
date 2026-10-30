@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T15:02:40.184509+00:00",
+  "updated_at": "2026-10-30T15:57:58.390954+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-30T15:01:38+00:00",
+      "date": "2026-10-30T15:56:47+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,12 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Люди з Олешків уже вирушили на територію РФ, звідки полетять в Білорусь",
-      "url": "https://www.pravda.com.ua/news/2026/10/30/8060492",
-      "date": "2026-10-30T14:54:00+00:00",
-      "excerpt": "Евакуйовані мешканці Олешок разом з українською делегацією уже вирушили на територію Росії, звідки вилетять в Білорусь, а звідти автобусами дістануться додому.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/7/e/947310/7edddd75e22418e3de351470a5fda86a.jpeg?w=1200&q=85&stamp=1793371478",
-      "source": "Українська правда"
+      "title": "На Херсонщині Росія застосувала проти цивільних все, крім ядерної зброї - Прокудін",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179837-na-hersonsini-rosia-zastosuvala-proti-civilnih-vse-krim-adernoi-zbroi-prokudin.html",
+      "date": "2026-10-30T15:53:30+00:00",
+      "excerpt": "На Херсонщині тільки з моменту звільнення правобережжя Росія випустила по містах і селах області понад 925 тис. снарядів, окрему небезпеку становить «дронове сафарі» – це до 6,5 тис. атак безпілотників щотижня. Ворог застосовував по області все, крім ядерної зброї. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_09/thumb_files/630_360_1788859075-809.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -80,11 +80,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Екскерівнику одного з підприємств Укрспецекспорту повідомлено про підозру",
-      "url": "https://suspilne.media/1441163-roztrata-na-ponad-11-mlrd-griven-nabu-i-sap-povidomili-pro-pidozru-ekskerivniku-odnogo-z-pidpriemstv-ukrspeceksportu",
-      "date": "2026-10-30T14:53:05+00:00",
-      "excerpt": "У межах досудового розслідування встановлено, що у 2015 році екскерівник держпідприємства уклав договір з іноземною компанією, яка мала отримувати «винагороду» за посередництво під час продажу української військової продукції — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/ea/eaa5ac24071af6fd5d65b0408e796ffe3f92b542ad65c87d7d0b7859424631da.jpg",
+      "title": "У ЄС повідомили про розподіл 45 млрд євро позики для України у 2027 році",
+      "url": "https://suspilne.media/1441253-u-es-povidomili-pro-rozpodil-45-mlrd-evro-poziki-dla-ukraini-u-2027-roci",
+      "date": "2026-10-30T15:50:57+00:00",
+      "excerpt": "ЄС розподілить 45 млрд євро для України: 13,3 мільярда євро планують виділити на бюджетну підтримку України, а 31,7 мільярда євро виділять на військову підтримку — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/0a/0a1273daa66c5c22da1026df21e78242977a32ef66742a2f8f96c72c74dcf9a7.jpg",
       "source": "Суспільне"
     },
     {
@@ -116,12 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Туреччині анонсували візит Зеленського до країни",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4179817-u-tureccini-anonsuvali-vizit-zelenskogo-do-kraini.html",
-      "date": "2026-10-30T14:50:01+00:00",
-      "excerpt": "Президент України Володимир Зеленський 31 жовтня відвідає Туреччину на запрошення Президента Реджепа Тайїпа Ердогана. У ході перемовин йтиметься, зокрема, про безпеку Чорного моря та війну Росії проти України. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1773760839-575.jpeg",
-      "source": "Укрінформ"
+      "title": "Порушення ПДР: у 2026 році вже відкрито тисячі проваджень за несплату штрафів",
+      "url": "https://suspilne.media/1441201-porusenna-pdr-u-2026-roci-vze-vidkrito-ponad-6-tisac-provadzen-za-nesplatu-strafiv",
+      "date": "2026-10-30T15:40:09+00:00",
+      "excerpt": "За даними Опендатабот, середній вік боржників зі штрафів за порушення ПДР у цьогорічному топі — 41-річні. Наймолодшому порушнику — 22 роки, а найстаршому — 63. Найбільше порушників віком від 41 до 50 років — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/04/04271167988234c5515a23aceffa9f62ce1d732e2a0c85000453d4b764f45bef.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -143,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "В усіх укриттях України можуть одночасно розміститися близько 55% населення",
-      "url": "https://www.ukrinform.ua/rubric-society/4179813-v-usih-ukrittah-ukraini-mozut-odnocasno-rozmistitisa-blizko-55-naselenna.html",
-      "date": "2026-10-30T14:43:59+00:00",
-      "excerpt": "В усіх об'єктах фонду захисних споруд України наразі загалом може укритися приблизно 55% населення країни. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793371267-253.jpeg",
-      "source": "Укрінформ"
+      "title": "Екскерівника держпідприємства з орбіти \"Укрспецекспорта\" підозрюють у розтраті понад 1,1 млрд грн",
+      "url": "https://www.pravda.com.ua/news/2026/10/30/8060504",
+      "date": "2026-10-30T15:37:00+00:00",
+      "excerpt": "Антикорупційні органи повідомили про підозру екскерівнику одного з держпідприємств у складі ДК \"Укрспецекспорт\" в розтраті понад 1,1 млрд грн.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/d/1/947335/d1758d25b8d8467c2ddc6b1509a246db.jpeg?w=1200&q=85&stamp=1793374627",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -170,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "В Іспанії стався вибух на заводі боєприпасів, що постачає продукцію Україні",
-      "url": "https://suspilne.media/1440995-v-ispanii-stavsa-vibuh-na-zavodi-boepripasiv-so-postacae-produkciu-ukraini-vidomo-pro-postrazdalih",
-      "date": "2026-10-30T14:41:52+00:00",
-      "excerpt": "Джерела в профспілці підприємства повідомили журналістам, що вибух стався через збій під час проведення випробувань, і це є звичайною практикою на заводі. Ділянка, на якій стався вибух, була огороджена, поблизу неї не було людей — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/b7/b7337b69740ab5121cd4796d914b44777ce707149ab3028aacba46a808e75aad.jpg",
-      "source": "Суспільне"
+      "title": "Лубінець: Є люди, які хочуть залишитися в Олешках",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179831-lubinec-e-ludi-aki-hocut-zalisitisa-v-oleskah.html",
+      "date": "2026-10-30T15:37:00+00:00",
+      "excerpt": "У тимчасово окупованих Олешках є люди, які не планують виїжджати, і для їхньої підтримки організували доставку гуманітарної допомоги. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793349781-478.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -206,12 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У НАТО заявили, що не бачать затримок у постачанні Україні ракет для Patriot",
-      "url": "https://suspilne.media/1441157-use-vze-dostavlene-u-nato-zaavili-so-ne-bacat-zatrimok-u-postacanni-ukraini-raket-dla-patriot",
-      "date": "2026-10-30T14:32:56+00:00",
-      "excerpt": "Головнокомандувач Об'єднаних збройних сил НАТО в Європі генерал Алексус Гринкевич заявив, що США продовжують постачати Україні ракети-перехоплювачі для систем Patriot, а також пакети озброєнь, оплачені європейськими союзниками — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/d8/d86914ac41ad053561fe138f2ba52efdc131d6cdc6f9cf72272b59a5482582eb.jpg",
-      "source": "Суспільне"
+      "title": "Зеленського 31 жовтня чекають у Туреччині",
+      "url": "https://www.pravda.com.ua/news/2026/10/30/8060503",
+      "date": "2026-10-30T15:30:00+00:00",
+      "excerpt": "Президент України Володимир Зеленський, як очікується, у суботу, 31 жовтня, відвідає Туреччину з робочим візитом.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/7/947334/87e5b9d1eba0eaef329cc65c8999e8d4.jpeg?w=1200&q=85&stamp=1793374288",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -233,11 +233,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Українська делегація та евакуйовані жителі Олешків вирушили до Анапи - Арахамія",
-      "url": "https://www.ukrinform.ua/rubric-regions/4179810-arahamia-ukrainska-delegacia-ta-evakujovani-ziteli-oleskiv-virusili-do-anapi.html",
-      "date": "2026-10-30T14:29:00+00:00",
-      "excerpt": "Евакуйовані жителі Олешків разом із українською делегацією прямують до Анапи, звідки вилетять до Білорусі, а далі автобусами дістануться до України. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2022_03/thumb_files/630_360_1646406939-675.jpg",
+      "title": "Болгарія приєднається до ініціативи НАТО з протидії повітряним загрозам",
+      "url": "https://www.ukrinform.ua/rubric-world/4179826-bolgaria-priednaetsa-do-iniciativi-nato-z-protidii-povitranim-zagrozam.html",
+      "date": "2026-10-30T15:28:00+00:00",
+      "excerpt": "Міністр оборони Болгарії Дімітар Стоянов підписав документ про приєднання Болгарії до ініціативи НАТО щодо розвитку спроможностей протидії низьколітаючим повітряним загрозам. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_09/thumb_files/630_360_1758044303-592.jpg",
       "source": "Укрінформ"
     },
     {
@@ -260,11 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Італія розслідує катастрофу гелікоптера у Боснії, через яку загинули військові",
-      "url": "https://suspilne.media/1441121-italia-rozsliduvatime-katastrofu-gelikoptera-u-bosnii-cerez-aku-zaginuli-vijskovi",
-      "date": "2026-10-30T14:25:54+00:00",
-      "excerpt": "Римська військова прокуратура розпочала розслідування катастрофи гелікоптера CH 47, який брав участь в операції ЄС EUFOR Althea у Боснії. Чотири людини загинули та дванадцять отримали поранення — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/12/12536eb66cbbe2b136d30838ce06a7f1a1a9b697aa8599865349ffa645d6dcb6.jpg",
+      "title": "Смертельна ДТП на Одещині: зіткнулися легковик і швидка, двоє дітей у лікарні",
+      "url": "https://suspilne.media/odesa/1441221-v-odeskomu-rajoni-zitknulisa-legkovik-i-svidka-dopomoga-zaginula-zinka-dvoe-ditej-travmuvalisa",
+      "date": "2026-10-30T15:27:52+00:00",
+      "excerpt": "В Одеському районі 30 жовтня поблизу села Троїцьке легковик зіткнувся зі швидкою допомогою. Загинула 65-річна водійка, двоє її онуків віком 12 і 15 років травмувалися. Дітей госпіталізували — Суспільне Одеса",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/a2/a2f556986dec4c57049c128ee725f3d48065e8f992e93fc13dd4de0189f8c7c6.jpg",
       "source": "Суспільне"
     },
     {
@@ -296,12 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Ворог вдарив по обʼєкту критичної інфраструктури у Дніпрі",
-      "url": "https://www.ukrinform.ua/rubric-regions/4179805-vorog-vdariv-po-obektu-kriticnoi-infrastrukturi-u-dnipri.html",
-      "date": "2026-10-30T14:17:56+00:00",
-      "excerpt": "Ворожа армія знову вдарила по Дніпру. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_05/thumb_files/630_360_1716022077-259.jpg",
-      "source": "Укрінформ"
+      "title": "У США розпочалась зустріч G20 за участю глав МЗС",
+      "url": "https://suspilne.media/1441211-u-ssa-rozpocalas-zustric-g20-za-ucastu-glav-mzs",
+      "date": "2026-10-30T15:16:04+00:00",
+      "excerpt": "В Атланті, США, розпочалася зустріч міністрів закордонних справ країн G20. У цій зустрічі бере участь глава МЗС Росії Сергій Лавров. Питання зустрічі - енергетика та штучний інтелект — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/b8/b85ad0cfb477cd55322ba475008d5abfa4366e80754aca1655dc9bb71be50539.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -323,12 +323,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Новак підтвердив атаки на три російські НПЗ та один газохімічний комплекс",
-      "url": "https://suspilne.media/1441095-vicepremer-rf-novak-pidtverdiv-ataki-na-tri-rosijski-npz-ta-odin-gazohimicnij-kompleks",
-      "date": "2026-10-30T14:16:24+00:00",
-      "excerpt": "Раніше повідомлялось, що в Самарській області внаслідок атаки горів Новокуйбишевський НПЗ, а у Брянській області було атаковано підприємство, яке виготовляє консерви для російської армії. У Генштабі ЗСУ поки офіційно не підтверджу — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/a9/a930d985b171a919d61f2c41c5ae3e45be9ddf522d2eba500202de1be8507d0d.jpg",
-      "source": "Суспільне"
+      "title": "На вихідних в Україні опади очікуються в окремих областях, вдень до +14°",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179784-na-vihidnih-v-ukraini-opadi-ocikuutsa-v-okremih-oblastah-vden-do-14.html",
+      "date": "2026-10-30T15:11:00+00:00",
+      "excerpt": "В Україні у суботу опади пройдуть у більшості областей, у неділю невеликі та помірні дощі очікуються на північному сході країни та Закарпатті, в Карпатах з мокрим снігом. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792426029-952.png",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -350,12 +350,12 @@
     },
     {
       "area": "ukraine",
-      "title": "15-річний підліток отримав вогнепальне поранення біля стрільбища",
-      "url": "https://suspilne.media/chernivtsi/1441133-na-bukovini-15-ricnij-pidlitok-otrimav-vognepalne-poranenna-bila-strilbisa",
-      "date": "2026-10-30T14:15:53+00:00",
-      "excerpt": "У Вижницькому районі Чернівецької області 15-річний підліток отримав вонепальне поранення, коли був поблизу місця, де проводили навчальні стрільби. Це сталося у Вижницькому районі. Розпочали кримінальне провадження — Суспільне Чернівці",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/fe/fee32c28e0a6b0acee1c5c5e2d2259d29fd96a7828f97042cdd42842aaf7f148.jpg",
-      "source": "Суспільне"
+      "title": "У Польщі вирішать, чи видавати Румунії українця за підозрою у спробі підпалу заводу",
+      "url": "https://www.pravda.com.ua/news/2026/10/30/8060498",
+      "date": "2026-10-30T15:05:00+00:00",
+      "excerpt": "Українця Артема С. можуть екстрадувати до Румунії у справі про спробу підпалу заводу Carfil у Брашові. Засідання суду очікується в понеділок.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/d/c/947329/dc7f483b071d665e39157c6554b66bf3.jpeg?w=1200&q=85&stamp=1793373081",
+      "source": "Українська правда"
     },
     {
       "area": "local",
