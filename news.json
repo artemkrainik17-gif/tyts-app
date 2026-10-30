@@ -1,11 +1,38 @@
 {
-  "updated_at": "2026-10-30T16:55:09.715000+00:00",
+  "updated_at": "2026-10-30T17:49:14.943204+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
     "ukraine": 30
   },
   "items": [
+    {
+      "area": "local",
+      "title": "Додому «на щиті» повертається 49-річний жмеринчанин Сергій Фурманчук – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/484351/dodomu-na-schiti-povertayetsya-49-richnij-zhmerinchanin-sergij-furmanchuk",
+      "date": "2026-10-30T16:26:00+00:00",
+      "excerpt": "Жмеринка схиляє голови перед пам'яттю Героя",
+      "image": "https://im2.abo.media/media/64/article/3290b05f6f6941a6845cc41bfb935661.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "Чи повернеться тепло на Вінниччину на початку листопада: прогноз синоптиків - 20 хвилин",
+      "url": "https://vn.20minut.ua/Pogoda/chi-povernetsya-teplo-na-vinnichchinu-na-pochatku-listopada-prognoz-si-12011431.html",
+      "date": "2026-10-30T17:02:00+00:00",
+      "excerpt": "[30:10:2026] Чи повернеться тепло на Вінниччину на початку листопада: прогноз синоптиків ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/65/4164758-chi-povernetsya-teplo-na-vinnichchinu-na-pochatku-listopada-prognoz-sinoptikiv.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Офіційні документи",
+      "url": "https://www.ukrinform.ua/block-docs",
+      "date": "2026-10-30T17:48:05+00:00",
+      "excerpt": "",
+      "image": "https://www.ukrinform.ua/img/img_none.jpg",
+      "source": "Укрінформ"
+    },
     {
       "area": "local",
       "title": "У Жмеринці відбувся відкритий дитячий шаховий турнір «Жмеринська осінь – 2026» – Жмеринка.City",
@@ -26,11 +53,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Офіційні документи",
-      "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-30T16:54:03+00:00",
-      "excerpt": "",
-      "image": "https://www.ukrinform.ua/img/img_none.jpg",
+      "title": "Сили оборони знищили дронами російський гелікоптер Мі-8 на Луганщині",
+      "url": "https://www.ukrinform.ua/rubric-ato/4179876-sili-oboroni-znisili-dronami-rosijskij-gelikopter-mi8-na-lugansini.html",
+      "date": "2026-10-30T17:46:00+00:00",
+      "excerpt": "Бійці Третьої окремої штурмової бригади Збройних сил України знищили російський гелікоптер Мі-8 у Луганській області. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_09/thumb_files/630_360_1759138721-139.jpg",
       "source": "Укрінформ"
     },
     {
@@ -53,11 +80,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У МЗС спростували інформацію про можливу підготовку Південної Кореї до розриву дипвідносин з Україною",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4179847-u-mzs-sprostuvali-informaciu-pro-mozlivu-pidgotovku-pivdennou-koreeu-rozrivu-dipvidnosin-z-ukrainou.html",
-      "date": "2026-10-30T16:49:00+00:00",
-      "excerpt": "Речник Міністерства закордонних справ Георгій Тихий заявив, що повідомлення про нібито готовність Сеула розірвати дипломатичні відносини з Києвом не відповідають дійсності. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793377654-124.png",
+      "title": "В Україні розпочинається опалювальний сезон - скільки котелень вже запустили",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179874-v-ukraini-rozpocinaetsa-opaluvalnij-sezon-skilki-kotelen-vze-zapustili.html",
+      "date": "2026-10-30T17:44:00+00:00",
+      "excerpt": "У низці регіонів України найближчим часом розпочнеться повноцінний запуск систем теплопостачання. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1759679607-320.jpg",
       "source": "Укрінформ"
     },
     {
@@ -67,6 +94,15 @@
       "date": "2026-10-27T16:58:00+00:00",
       "excerpt": "За Україну загинув Андрій Бармалюк",
       "image": "https://im2.abo.media/media/64/article/b21683cd95d448e0a6f743a86dea6580.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "За Україну загинув 40-річний Степан Бондар із позивним «Генерал»: пів року вважався безвісти зниклим – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/483834/za-ukrainu-zaginuv-40-richnij-stepan-bondar-iz-pozivnim-general-piv-roku-vvazhavsya-bezvisti-zniklim",
+      "date": "2026-10-26T16:03:00+00:00",
+      "excerpt": "Додому «на щиті» повертається Степан Бондар",
+      "image": "https://im2.abo.media/media/64/article/0afc6586bf024e008837866d74725560.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -80,21 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "ЗМІ: Адміністрація Трампа тисне на Литву, щоб та скасувала санкції щодо добрив з Білорусі",
-      "url": "https://www.pravda.com.ua/news/2026/10/30/8060524",
-      "date": "2026-10-30T16:48:00+00:00",
-      "excerpt": "Адміністрація президента США Дональда Трампа тисне на Литву, щоб та відкрила центральний порт у Балтійському морі для експорту калійних добрив з Білорусі, незважаючи на європейські санкції.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/b/947397/8b806d163f3c20b6758142f34b01f3e9.jpeg?w=1200&q=85&stamp=1793377377",
-      "source": "Українська правда"
-    },
-    {
-      "area": "local",
-      "title": "За Україну загинув 40-річний Степан Бондар із позивним «Генерал»: пів року вважався безвісти зниклим – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/483834/za-ukrainu-zaginuv-40-richnij-stepan-bondar-iz-pozivnim-general-piv-roku-vvazhavsya-bezvisti-zniklim",
-      "date": "2026-10-26T16:03:00+00:00",
-      "excerpt": "Додому «на щиті» повертається Степан Бондар",
-      "image": "https://im2.abo.media/media/64/article/0afc6586bf024e008837866d74725560.webp",
-      "source": "Жмеринка.City"
+      "title": "Криптобіржа Binance заявляє, що компенсує клієнтам втрачені через хакерську атаку кошти",
+      "url": "https://www.ukrinform.ua/rubric-world/4179872-kriptobirza-binance-zaavlae-so-kompensue-klientam-vtraceni-cerez-hakersku-ataku-kosti.html",
+      "date": "2026-10-30T17:35:00+00:00",
+      "excerpt": "Криптовалютна біржа Binance, в якої хакери викрали понад 6 мільярдів доларів, почала повертати постраждалим користувачам їхні активи. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_06/thumb_files/630_360_1782470966-872.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -116,11 +143,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Україна скликає екстрене засідання Радбезу ООН у зв'язку з новими ударами РФ",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4179851-ukraina-sklikae-ekstrene-zasidanna-radbezu-oon-u-zvazku-z-ostannimi-udarami-rf.html",
-      "date": "2026-10-30T16:46:00+00:00",
-      "excerpt": "Постійний представник України при ООН Андрій Мельник заявив, що Україна скликає екстрене засідання Ради безпеки ООН у зв'язку з останніми ударами Росії по цивільному населенню. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2019_07/thumb_files/630_360_1563297749-719.jpg",
+      "title": "Графіки відключення світла у суботу діятимуть у частині областей",
+      "url": "https://www.ukrinform.ua/rubric-economy/4179852-grafiki-vidklucenna-svitla-u-subotu-diatimut-u-castini-oblastej.html",
+      "date": "2026-10-30T17:32:00+00:00",
+      "excerpt": "У частині областей України у суботу, 31 жовтня, із 06:00 до 23:59 буде обмежене споживання електроенергії. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793027889-332.jpg",
       "source": "Укрінформ"
     },
     {
@@ -143,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Польща передає Україні два літаки МіГ-29, які вже вичерпали свій ресурс - Косіняк-Камиш",
-      "url": "https://www.ukrinform.ua/rubric-world/4179849-polsa-peredae-ukraini-dva-litaki-mig29-aki-vze-vicerpali-svij-resurs-kosinakkamis.html",
-      "date": "2026-10-30T16:39:27+00:00",
-      "excerpt": "Два винищувачі МіГ-29, які Польща передає Україні, вичерпали свій ресурс і вже не могли б використовуватися у польській армії. Натомість польська армія отримуватиме безпілотні системи. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2017_07/thumb_files/630_360_1500120615-6807.jpeg",
-      "source": "Укрінформ"
+      "title": "Лубінець: Мешканці з Олешків вже в дорозі, колони розділились, режим тиші триває",
+      "url": "https://www.pravda.com.ua/news/2026/10/30/8060551",
+      "date": "2026-10-30T17:26:00+00:00",
+      "excerpt": "Колони мешканців Олешок в процесі евакуації до України. Порушень під час гуманітарної місії не зафіксовано, триває режим тиші.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/b/947597/5bd9153a64d92e2e9eb3599489a63648.jpeg?w=1200&q=85&stamp=1793380996",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -157,6 +184,15 @@
       "date": "2026-10-22T13:22:00+00:00",
       "excerpt": "У Жмеринці пропонують створити панорамний арт-простір на «Калинці»: як підтримати петицію",
       "image": "https://im2.abo.media/media/64/article/bb2b21ff2908473196e647d73b969cdb.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "Після року невідомості до Жмеринки «на щиті» повертається батько чотирьох дітей Антон Кедь – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/483306/pislya-roku-nevidomosti-do-zhmerinki-na-schiti-povertayetsya-batko-chotiroh-ditej-anton-ked",
+      "date": "2026-10-21T09:58:00+00:00",
+      "excerpt": "Після року невідомості до Жмеринки «на щиті» повертається батько чотирьох дітей Антон Кедь",
+      "image": "https://im2.abo.media/media/64/article/8860456a6fd84348aeb0f52c9e1661ac.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -170,21 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Україна та НАТО підписали меморандум про розширення співпраці в оборонці",
-      "url": "https://suspilne.media/1441291-ukraina-ta-nato-pidpisali-memorandum-pro-rozsirenna-spivpraci-u-sferi-oboronnih-innovacij",
-      "date": "2026-10-30T16:36:11+00:00",
-      "excerpt": "Відповідний меморандум про взаєморозуміння підписали заступник Міністра оборони України Сергій Боєв та представники Прискорювача оборонних інновацій Альянсу (Defence Innovation Accelerator for the North Atlantic – DIANA) — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/39/3971e05ac8274d53a49c16d411d4d645d6d1b9c0ee7511a133dad4daafedc53f.jpg",
-      "source": "Суспільне"
-    },
-    {
-      "area": "local",
-      "title": "Після року невідомості до Жмеринки «на щиті» повертається батько чотирьох дітей Антон Кедь – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/483306/pislya-roku-nevidomosti-do-zhmerinki-na-schiti-povertayetsya-batko-chotiroh-ditej-anton-ked",
-      "date": "2026-10-21T09:58:00+00:00",
-      "excerpt": "Після року невідомості до Жмеринки «на щиті» повертається батько чотирьох дітей Антон Кедь",
-      "image": "https://im2.abo.media/media/64/article/8860456a6fd84348aeb0f52c9e1661ac.webp",
-      "source": "Жмеринка.City"
+      "title": "Росіяни за день завдали понад 40 ударів по Дніпропетровщині: є загиблий і поранені",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179858-rosiani-zavdali-ponad-40-udariv-po-cotiroh-rajonah-dnipropetrovsini-e-zagiblij-i-poraneni.html",
+      "date": "2026-10-30T17:24:00+00:00",
+      "excerpt": "Упродовж дня російські війська понад 40 разів атакували чотири райони області безпілотниками та артилерією. Одна людина загинула, ще троє дістали поранення. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793379699-748.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -206,12 +233,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Астрономи виявили нову імовірну карликову планету за орбітою Плутона",
-      "url": "https://suspilne.media/1440715-astronomi-viavili-novu-imovirnu-karlikovu-planetu-za-orbitou-plutona",
-      "date": "2026-10-30T16:34:43+00:00",
-      "excerpt": "Астрономи обсерваторії імені Вери Рубін виявили ED138 — велике небесне тіло за орбітою Плутона. Чим воно особливе та чому його не помічали раніше — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/6c/6c17409757d1fd48f47166214ae153d8aec2c8d81ec7ca9f950add1f0dbca60e.jpg",
-      "source": "Суспільне"
+      "title": "Сікорський на G20 передасть Лаврову послання, що вже треба завершити війну",
+      "url": "https://www.ukrinform.ua/rubric-world/4179867-sikorskij-na-g20-peredast-lavrovu-poslanna-so-vze-treba-zaversiti-vijnu.html",
+      "date": "2026-10-30T17:23:00+00:00",
+      "excerpt": "Міністр закордонних справ Польщі Радослав Сікорський має намір під час зустрічі глав МЗС країн G20 в Атланті передати керівнику російської дипломатії Сергію Лаврову послання про необхідність завершити війну проти України. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1760098528-886.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -233,12 +260,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Міністр транспорту Іспанії відмовляється йти у відставку після смертельної аварії потягів",
-      "url": "https://www.ukrinform.ua/rubric-world/4179846-ministr-transportu-ispanii-vidmovlaetsa-jti-u-vidstavku-pisla-smertelnoi-avarii-potagiv.html",
-      "date": "2026-10-30T16:27:37+00:00",
-      "excerpt": "Міністр транспорту Іспанії Оскар Пуенте відкинув можливість своєї відставки на тлі залізничної катастрофи в провінції Толедо, що сталася у середу вранці, 28 жовтня. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793184765-375.jpg",
-      "source": "Укрінформ"
+      "title": "Експрем'єри та міністри Болгарії закликають на виборах президента голосувати за проукраїнського кандидата",
+      "url": "https://www.pravda.com.ua/news/2026/10/30/8060533",
+      "date": "2026-10-30T17:21:00+00:00",
+      "excerpt": "Колишній президент, експрем'єри та колишні міністри Болгарії звернулися до громадян із закликом проголосувати за проукраїнського та прозахідного кандидата Андрея Гюрова у другому турі президентських виборів.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/0/2/947476/027673a4791c8023d1d7037440fc080e.jpeg?w=1200&q=85&stamp=1793378585",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -247,6 +274,15 @@
       "date": "2026-10-19T13:50:00+00:00",
       "excerpt": "У Жмеринці відбувся обласний фестиваль театрального мистецтва «Театральна осінь – 2026»",
       "image": "https://im2.abo.media/media/64/article/9c59fa484fa84596adb781c20fb6a9b1.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "У Жмеринці дитячий центр розвитку «Лідер» відзначає 10 років: англійська, підготовка до школи, IT – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/483030/uzhmerinci-dityachij-centr-rozvitku-lider-vidznachaye-10-rokivanglijska-pidgotovka-do-shkoli-it",
+      "date": "2026-10-19T10:58:00+00:00",
+      "excerpt": "У Жмеринці дитячий центр розвитку «Лідер» відзначає 10 років: англійська, підготовка до школи, IT",
+      "image": "https://im2.abo.media/media/64/article/2158763abf3d40a28ac27fae4bb1fad4.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -260,21 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "31 жовтня у частині областей України вимикатимуть світло за графіками",
-      "url": "https://suspilne.media/1441021-31-zovtna-u-castini-oblastej-ukraini-vimikatimut-svitlo-za-grafikami-ukrenergo",
-      "date": "2026-10-30T16:14:13+00:00",
-      "excerpt": "У компанії додали, що через обстріли з боку РФ ситуація в енергосистемі може змінитись та порадили українцям стежити за повідомленнями на сторінках операторів систем розподілу (обленерго) кожного конкретного регіону — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/f1/f1dfc27c9f74dd10e1e3ae8befeb5365c661ca954832de15d424c6e5265af9bf.jpg",
+      "title": "Як Херсон живе під час режиму тиші – фоторепортаж",
+      "url": "https://suspilne.media/1441219-podihati-teplim-povitram-i-pobuti-vdoma-ak-herson-zive-pid-cas-rezimu-tisi-cerez-gumanitarnu-operaciu-v-oleskah",
+      "date": "2026-10-30T17:15:02+00:00",
+      "excerpt": "Через гуманітарну операцію в окупованих Олешках Україна й Росія погодились тимчасово припинити вогонь на цій ділянці фронту. У Херсоні, який роками щодня страждає від обстрілів, стало тихо. Ось як місто живе у ці дні — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/3e/3eb42ebb5d27d04635b8ed2384bdb99b1ca82178c4af46d66b01068697703dc3.jpg",
       "source": "Суспільне"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринці дитячий центр розвитку «Лідер» відзначає 10 років: англійська, підготовка до школи, IT – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/483030/uzhmerinci-dityachij-centr-rozvitku-lider-vidznachaye-10-rokivanglijska-pidgotovka-do-shkoli-it",
-      "date": "2026-10-19T10:58:00+00:00",
-      "excerpt": "У Жмеринці дитячий центр розвитку «Лідер» відзначає 10 років: англійська, підготовка до школи, IT",
-      "image": "https://im2.abo.media/media/64/article/2158763abf3d40a28ac27fae4bb1fad4.webp",
-      "source": "Жмеринка.City"
     },
     {
       "area": "local",
@@ -296,12 +323,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Україна готує міжурядові зустрічі з Угорщиною та Словаччиною",
-      "url": "https://www.pravda.com.ua/news/2026/10/30/8060512",
-      "date": "2026-10-30T16:12:00+00:00",
-      "excerpt": "Речник Міністерства закордонних справ Георгій Тихий анонсував зустріч міжурядової комісії з Угорщиною, а також міжурядові консультації зі Словаччиною.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/a/947354/fa172ff6661dcd36d17c6a3128032b68.jpeg?w=1200&q=85&stamp=1793376804",
-      "source": "Українська правда"
+      "title": "Лубінець: Жителі Олешків, які бажали виїхати в Україну, зараз у дорозі",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179864-lubinec-ziteli-oleskiv-aki-bazali-viihati-v-ukrainu-zaraz-u-dorozi.html",
+      "date": "2026-10-30T17:10:00+00:00",
+      "excerpt": "Жителі Олешків, які бажали виїхати в Україну, зараз у дорозі. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793361150-883.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -323,12 +350,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Удари України по законних військових цілях у РФ є відповіддю на російський терор - речник МЗС",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4179842-udari-ukraini-po-zakonnih-vijskovih-cilah-u-rf-e-vidpoviddu-na-rosijskij-teror-recnik-mzs.html",
-      "date": "2026-10-30T16:07:00+00:00",
-      "excerpt": "Українські удари по легітимних військових цілях на території РФ слід розглядати як відповідь на російський терор проти цивільного населення та умисні атаки Росії на енергетичну інфраструктуру України. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793377439-418.png",
-      "source": "Укрінформ"
+      "title": "Болгарія приєднається до ініціативи НАТО з протидії загрозам у повітрі",
+      "url": "https://suspilne.media/1441307-bolgaria-priednaetsa-do-iniciativi-nato-z-protidii-nizkolitnim-zagrozam-u-povitri",
+      "date": "2026-10-30T17:09:34+00:00",
+      "excerpt": "Зазначається, що основною метою співпрації між країнами стане більш ефективний захист від повітряних загроз на висоті до 150 метрів. Зокрема, мова йде про крилаті ракети, БпЛА та керовані бомби — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/63/634795ec94096bc674fa0ff606e27ecdb18b036b3a038b91fd3194283a928c64.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -337,33 +364,6 @@
       "date": "2026-10-18T11:26:00+00:00",
       "excerpt": "Галина Мельник ділиться секретами обрядової випічки: у Жмеринці відроджують українські традиції",
       "image": "https://im2.abo.media/media/64/article/bb0a79dde8cd42e58ddb439423a51008.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "У Вінниці виділили 200 млн грн на посилення протиповітряної оборони громади",
-      "url": "https://suspilne.media/vinnytsia/1440707-u-vinnici-vidilili-200-mln-grn-na-posilenna-ppo-u-gromadi-aki-risenna-uhvalili-na-sesii",
-      "date": "2026-10-30T11:06:28+00:00",
-      "excerpt": "На сесії Вінницької міської ради 30 жовтня депутати ухвалили низку рішень, які стосуються, зокрема, посилення системи ППО, дооснащення Пунктів незламності та допомоги внаслідок атаки РФ — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/c4/c4b7a722b8c6192366d16a3e907cabb67134e626f6055f6b50e28d00020f53fc.jpg",
-      "source": "Суспільне Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Топкомандувач НАТО не бачить затримок надходження в Україну ракет для Patriot",
-      "url": "https://www.pravda.com.ua/news/2026/10/30/8060510",
-      "date": "2026-10-30T16:01:00+00:00",
-      "excerpt": "Україна регулярно отримує ракети до Patriot. Поставки озброєння тривають, затримок у рамках PURL немає, зазначив Гринкевич.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/7/b/947351/7b21f0e216b3ca9331b2b02bea9122d6.jpeg?w=1200&q=85&stamp=1793376162",
-      "source": "Українська правда"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринці відбувся Кубок з волейболу пам’яті Героя Дмитра Терещенка: за перемогу змагалися педагоги – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/482721/u-zhmerinci-vidbuvsya-kubok-z-volejbolu-pamyati-geroya-dmitra-tereschenka-za-peremogu-zmagalisya-pedagogi",
-      "date": "2026-10-15T18:08:00+00:00",
-      "excerpt": "У Жмеринці відбувся Кубок з волейболу пам’яті Героя Дмитра Терещенка: за перемогу змагалися педагоги",
-      "image": "https://im2.abo.media/media/64/article/dc8da30edc4e48eca75617168c893db5.webp",
       "source": "Жмеринка.City"
     }
   ]
