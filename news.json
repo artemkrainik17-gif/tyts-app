@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T23:43:52.998591+00:00",
+  "updated_at": "2026-10-31T01:02:21.326315+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-30T23:42:43+00:00",
+      "date": "2026-10-31T01:01:22+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,11 +53,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський заявив, що постачання ракет PAC-3 для Patriot може початись за кілька років, а треба вже цієї зими",
-      "url": "https://www.pravda.com.ua/news/2026/10/31/8060579",
-      "date": "2026-10-30T23:28:00+00:00",
-      "excerpt": "Зеленський привітав рішення Держдепу США щодо PAC-3, але зазначив, що їхнє постачання для Patriot може розпочатися лише за кілька років.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/b/a/947814/bac7571d35ac651d67358926ad033904.jpeg?w=1200&q=85&stamp=1793403052",
+      "title": "Трамп заявив, що \"дурні люди\" хотіли, щоб він запровадив санкції проти РФ",
+      "url": "https://www.pravda.com.ua/news/2026/10/31/8060582",
+      "date": "2026-10-31T00:52:00+00:00",
+      "excerpt": "Президент США Дональд Трамп назвав ініціаторів додаткових санкцій проти Росії «дурнями».",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/c/947823/5c4ca1c616a8b707c9d3b325f979679c.jpeg?w=1200&q=85&stamp=1793407921",
       "source": "Українська правда"
     },
     {
@@ -80,11 +80,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Євросоюз і Канада підтвердили подальшу підтримку України",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4179925-evrosouz-i-kanada-pidtverdili-podalsu-pidtrimku-ukraini.html",
-      "date": "2026-10-30T23:21:00+00:00",
-      "excerpt": "Європейський Союз і Канада зобов’язалися й надалі посилювати тиск на Росію та підтримувати Україну, в тому числі у реформах та євроатлантичній інтеграції. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793402220-975.jpg",
+      "title": "Україна й НАТО поглиблюватимуть співпрацю у сфері інноваційних технологій",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4179928-ukraina-j-nato-poglibluvatimut-spivpracu-u-sferi-innovacijnih-tehnologij.html",
+      "date": "2026-10-31T00:49:00+00:00",
+      "excerpt": "Заступник міністра оборони Сергій Боєв та представники Прискорювача оборонних інновацій Альянсу (DIANA) підписали меморандум про порозуміння щодо поглиблення співпраці у сфері спільної розробки, тестування та впровадження інноваційних технологій. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_05/thumb_files/630_360_1715680775-803.jpg",
       "source": "Укрінформ"
     },
     {
@@ -116,11 +116,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський: постачання Patriot може початись тільки за кілька років",
-      "url": "https://suspilne.media/1441435-zelenskij-postacanna-patriot-moze-pocatis-tilki-za-kilka-rokiv-a-ne-zaraz-koli-e-realna-nebezpeka",
-      "date": "2026-10-30T23:04:45+00:00",
-      "excerpt": "Зеленський повідомив, що надання пакетів Patriot може початись тільки за кілька років і закликав американських партнерів прискорити постачання на найближчий час — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/36/36f68796ea6416c594ce7a20add4158fc8705ad7cac5aae02d8923a9e759a9ac.jpg",
+      "title": "Уряд спрямував 354,6 млн грн на ремонт укриттів у пологових будинках і лікарень",
+      "url": "https://suspilne.media/1441445-urad-spramuvav-3546-mln-griven-na-remont-ukrittiv-u-pologovih-budinkah-i-zahist-likaren",
+      "date": "2026-10-31T00:40:04+00:00",
+      "excerpt": "294,8 мільйона із цієї суми підуть на ремонт укриттів у 84 закладах, де приймають пологи. Ще 59,8 мільйона підуть на посилення захисту медичних закладів, що належать до сфери управління Міністерства охорони здоров'я — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/40/403ba160d3e542fa4c2b1dbbe1b1e1bac55da1a45ea18487107db4da05d85735.jpg",
       "source": "Суспільне"
     },
     {
@@ -143,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський - про дозвіл США на продаж Україні ракет Patriot: Цієї зими це міг би бути дуже ефективний пакет",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4179924-zelenskij-pro-dozvil-ssa-na-prodaz-ukraini-raket-patriot-ciei-zimi-ce-mig-bi-buti-duze-efektivnij-paket.html",
-      "date": "2026-10-30T22:54:00+00:00",
-      "excerpt": "Володимир Зеленський назвав сильним рішення Державного департаменту США дозволити Україні купити перехоплювачі російської балістики для систем Patriot. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1773933311-402.jpeg",
-      "source": "Укрінформ"
+      "title": "Армія РФ атакувала безпілотниками Суми: спалахнули пожежі",
+      "url": "https://www.pravda.com.ua/news/2026/10/31/8060581",
+      "date": "2026-10-31T00:35:00+00:00",
+      "excerpt": "Уночі Суми зазнали атаки ударних безпілотників РФ. Обстріляно Зарічний район, пошкоджені нежитлова будівля й автомийка. Жертв немає, наслідки ліквідовують.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/c/1/947822/c1350504a8c02d5a54cddc06f34876a3.jpeg?w=1200&q=85&stamp=1793406922",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -170,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Посол Польщі у Китаї йде у відставку через конституційну кризу",
-      "url": "https://www.pravda.com.ua/news/2026/10/31/8060578",
-      "date": "2026-10-30T22:52:00+00:00",
-      "excerpt": "Якуб Кумох залишає посаду посла Польщі у Китаї на тлі подій у Конституційному трибуналі Польщі та політичної напруги в країні.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/d/b/947807/db0840f3baea6c59da84db7051caf29d.jpeg?w=1200&q=85&stamp=1793400916",
-      "source": "Українська правда"
+      "title": "Лев XIV став першим Папою який взяв участь у виборах у США",
+      "url": "https://suspilne.media/1441433-lev-xiv-stav-persim-papou-akij-vzav-ucast-u-viborah-u-ssa",
+      "date": "2026-10-31T00:29:12+00:00",
+      "excerpt": "Папа Римський Лев XIV, який народився у Америці, проголосував поштою на проміжних виборах у США — таким чином він став першим понтифіком, що взяв участь у виборах — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/29/29765a40b8f992dbb08bdceb899a2fa24bed84295de9046301788a7f2a5f0ad0.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -206,11 +206,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Героїн і кокаїн не виробляються на території України - поліція",
-      "url": "https://www.ukrinform.ua/rubric-society/4179844-geroin-i-kokain-ne-viroblautsa-na-teritorii-ukraini-policia.html",
-      "date": "2026-10-30T22:29:00+00:00",
-      "excerpt": "У Національній поліції України заявили, що героїн і кокаїн на території нашої держави не виробляються. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2015_12/thumb_files/630_360_1450965654-9573.jpg",
+      "title": "На акціях протесту в кількох містах Італії сталися сутички з поліцією",
+      "url": "https://www.ukrinform.ua/rubric-world/4179927-na-akciah-protestu-v-kilkoh-mistah-italii-stalisa-suticki-z-policieu.html",
+      "date": "2026-10-31T00:25:00+00:00",
+      "excerpt": "У різних містах Італії десятки тисяч людей вийшли на протести проти зростання вартості життя та збільшення військових видатків, подекуди сталися сутички демонстрантів з поліцією. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1752578441-568.jpg",
       "source": "Укрінформ"
     },
     {
@@ -233,11 +233,11 @@
     },
     {
       "area": "ukraine",
-      "title": "На вихідних в Україні опади очікуються в окремих областях, удень до +14°",
-      "url": "https://www.ukrinform.ua/rubric-regions/4179784-na-vihidnih-v-ukraini-opadi-ocikuutsa-v-okremih-oblastah-vden-do-14.html",
-      "date": "2026-10-30T22:11:00+00:00",
-      "excerpt": "В Україні у суботу опади пройдуть у більшості областей, у неділю невеликі та помірні дощі очікуються на північному сході країни та Закарпатті, в Карпатах з мокрим снігом. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792426029-952.png",
+      "title": "Мільйонні махінації з житлом для військових: судитимуть директора підприємства та посадовця Міноборони",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179702-miljonni-mahinacii-z-zitlom-dla-vijskovih-suditimut-direktora-pidpriemstva-ta-posadovca-minoboroni.html",
+      "date": "2026-10-31T00:03:00+00:00",
+      "excerpt": "На Вінниччині директора підприємства та посадовця МОУ підозрюють у махінаціях із житлом для військових на 15,5 млн гривень. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1761145601-517.png",
       "source": "Укрінформ"
     },
     {
@@ -260,12 +260,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Київ частково без світла. 1711-й день війни",
-      "url": "https://suspilne.media/1441429-rf-vdarila-po-kriticnij-infrastrukturi-kieva-derzdep-shvaliv-prodaz-raket-dla-patriot-1711-j-den-vijni",
-      "date": "2026-10-30T22:03:46+00:00",
-      "excerpt": "Держдеп США схвалив можливий продаж Україні ракет для системи ППО Patriot. РФ атакувала столицю дронами, є влучання в критичну інфраструктуру, частина міста без світла — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/8c/8c146271e1c2eab60c469dffe7190aafd3a60250b9b3800b79e9911a2d9c277c.jpg",
-      "source": "Суспільне"
+      "title": "Росіяни влучили в приватний будинок у Харкові: постраждали троє людей",
+      "url": "https://www.pravda.com.ua/news/2026/10/31/8060580",
+      "date": "2026-10-30T23:54:00+00:00",
+      "excerpt": "У ніч на 31 жовтня російський дрон влучив у приватний будинок у Харкові. Троє поранених, пошкоджено ще 10 будинків – дані міського голови.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/2/c/947821/2c8b01b9761a2c2747b6b2581782bd61.jpeg?w=1200&q=85&stamp=1793404526",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -296,11 +296,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Кілька районів Києва після ворожої атаки залишаються без води",
-      "url": "https://www.ukrinform.ua/rubric-regions/4179923-kilka-rajoniv-kieva-pisla-vorozoi-ataki-zalisautsa-bez-vodi.html",
-      "date": "2026-10-30T21:52:00+00:00",
-      "excerpt": "Енергетики працюють над відновленням живлення обʼєктів критичної інфраструктури столиці після атаки ворога. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1751377050-940.jpg",
+      "title": "Від удару «Шахеда» у Харкові постраждали троє людей, пошкоджені будинки",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179926-vid-udaru-saheda-u-harkovi-postrazdali-troe-ludej-poskodzeni-budinki.html",
+      "date": "2026-10-30T23:38:00+00:00",
+      "excerpt": "Унаслідок удару російського безпілотника у Харкові зазнали поранень троє людей, пошкоджені 10 будинків. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1763119100-724.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -323,12 +323,12 @@
     },
     {
       "area": "ukraine",
-      "title": "На фронті - 168 зіткнень, ЗСУ знешкодили 50 окупантів на Покровському напрямку",
-      "url": "https://www.ukrinform.ua/rubric-ato/4179913-na-fronti-168-zitknen-zsu-zneskodili-50-okupantiv-na-poerovskomu-napramku.html",
-      "date": "2026-10-30T21:31:00+00:00",
-      "excerpt": "Протягом 30 жовтня на фронті сталося 168 бойових зіткнень Сил оборони України з російськими загарбниками, найбільше ворожих атак зафіксовано на Костянтинівському та Покровському напрямках. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791111251-334.jpg",
-      "source": "Укрінформ"
+      "title": "Зеленський заявив, що постачання ракет PAC-3 для Patriot може початись за кілька років, а треба вже цієї зими",
+      "url": "https://www.pravda.com.ua/news/2026/10/31/8060579",
+      "date": "2026-10-30T23:28:00+00:00",
+      "excerpt": "Зеленський привітав рішення Держдепу США щодо PAC-3, але зазначив, що їхнє постачання для Patriot може розпочатися лише за кілька років.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/b/a/947814/bac7571d35ac651d67358926ad033904.jpeg?w=1200&q=85&stamp=1793403052",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -350,12 +350,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Урядова коаліція Польщі домоглась зміни голови Конституційного суду: у суді це заперечують",
-      "url": "https://www.pravda.com.ua/news/2026/10/30/8060576",
-      "date": "2026-10-30T21:30:00+00:00",
-      "excerpt": "Анна Корвін-Пьотровська очолила Конституційний трибунал Польщі, відсторонивши Свечковського і Соханського на місяць. Причина — порушення закону.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/c/b/947791/cb34f5505cfdc07e774cd4e751cd5a76.jpeg?w=1200&q=85&stamp=1793395669",
-      "source": "Українська правда"
+      "title": "Євросоюз і Канада підтвердили подальшу підтримку України",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4179925-evrosouz-i-kanada-pidtverdili-podalsu-pidtrimku-ukraini.html",
+      "date": "2026-10-30T23:21:00+00:00",
+      "excerpt": "Європейський Союз і Канада зобов’язалися й надалі посилювати тиск на Росію та підтримувати Україну, в тому числі у реформах та євроатлантичній інтеграції. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793402220-975.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
