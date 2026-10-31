@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T08:50:21.965297+00:00",
+  "updated_at": "2026-10-31T09:45:36.072137+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-31T08:49:20+00:00",
+      "date": "2026-10-31T09:44:19+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,12 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Армія РФ завдала подвійного удару «Бандеролями» по Харкову",
-      "url": "https://www.ukrinform.ua/rubric-regions/4179979-armia-rf-zavdala-podvijnogo-udaru-banderolami-po-harkovu.html",
-      "date": "2026-10-31T08:41:00+00:00",
-      "excerpt": "Армія РФ вдарила ракетами «Бандероль» по двох районах Харкова. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_01/thumb_files/630_360_1769278340-327.jpg",
-      "source": "Укрінформ"
+      "title": "Російські удари по Донеччині та Харківщині: 2 загиблих і 23 поранених",
+      "url": "https://www.pravda.com.ua/news/2026/10/31/8060604",
+      "date": "2026-10-31T09:27:00+00:00",
+      "excerpt": "Унаслідок атак 30 жовтня на Донеччині та Харківщині загинули цивільні, серед них підліток, поранено 23 людини. Зафіксовано гострі стресові реакції.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/d/947881/fd16378eb91cc7cb9964da3b991c43b8.jpeg?w=1200&q=85&stamp=1793438031",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -80,11 +80,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Постачання Україні 500 ракет до Patriot почнеться не раніше 2030 року – журналіст",
-      "url": "https://www.pravda.com.ua/news/2026/10/31/8060598",
-      "date": "2026-10-31T08:34:00+00:00",
-      "excerpt": "Партія ракет для Patriot на $2,1 млрд буде поставлена Україні після 2030 року. Зеленський та союзники закликають до термінової допомоги вже цієї зими.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/0/5/947875/05f419ce863e45c18360cb244e6e1ed3.jpeg?w=1200&q=85&stamp=1793434127",
+      "title": "Арахамія: Чотири літаки з евакуйованими з Олешків вранці прибули до Білорусі, далі – в Україну",
+      "url": "https://www.pravda.com.ua/news/2026/10/31/8060602",
+      "date": "2026-10-31T08:59:00+00:00",
+      "excerpt": "Всі чотири літаки з евакуйованими мешканцями Олешок прибули до Білорусі. Українці невдовзі повернуться на батьківщину.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/d/8/947879/d8398fd92abe0dd195f12b273ef7095c.jpeg?w=1200&q=85&stamp=1793437363",
       "source": "Українська правда"
     },
     {
@@ -116,11 +116,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Навроцький заявив про порушення конституційного ладу Польщі",
-      "url": "https://www.ukrinform.ua/rubric-world/4179976-navrockij-zaaviv-pro-porusenna-konstitucijnogo-ladu-polsi.html",
-      "date": "2026-10-31T08:32:00+00:00",
-      "excerpt": "Президент Польщі Кароль Навроцький назвав учорашнє усунення голови Конституційного суду Богдана Свєнчковського від виконання обов'язків порушенням конституційного ладу та силовим захопленням державного органу. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762350310-553.jpg",
+      "title": "Армія РФ завдала подвійного удару «Бандеролями» по Харкову",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179979-armia-rf-zavdala-podvijnogo-udaru-banderolami-po-harkovu.html",
+      "date": "2026-10-31T08:41:00+00:00",
+      "excerpt": "Армія РФ вдарила ракетами «Бандероль» по двох районах Харкова. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_01/thumb_files/630_360_1769278340-327.jpg",
       "source": "Укрінформ"
     },
     {
@@ -143,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Уже за кілька годин евакуйовані жителі Олешок будуть на території України - Арахамія",
-      "url": "https://www.ukrinform.ua/rubric-regions/4179975-uze-za-kilka-godin-evakujovani-ziteli-olesok-budut-na-teritorii-ukraini-arahamia.html",
-      "date": "2026-10-31T08:26:00+00:00",
-      "excerpt": "Уже через кілька годин евакуйовані жителі Олешок будуть на території України. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2022_03/thumb_files/630_360_1646406939-675.jpg",
-      "source": "Укрінформ"
+      "title": "Постачання Україні 500 ракет до Patriot почнеться не раніше 2030 року – журналіст",
+      "url": "https://www.pravda.com.ua/news/2026/10/31/8060598",
+      "date": "2026-10-31T08:34:00+00:00",
+      "excerpt": "Партія ракет для Patriot на $2,1 млрд буде поставлена Україні після 2030 року. Зеленський та союзники закликають до термінової допомоги вже цієї зими.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/0/5/947875/05f419ce863e45c18360cb244e6e1ed3.jpeg?w=1200&q=85&stamp=1793434127",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -170,11 +170,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни вдарили дронами по Сумах, є влучання у промзоні",
-      "url": "https://www.ukrinform.ua/rubric-regions/4179971-rosiani-vdarili-dronami-po-sumah-e-vlucanna-u-promzoni.html",
-      "date": "2026-10-31T08:13:00+00:00",
-      "excerpt": "Росіяни уранці вдарили дронами та безпілотниками по об’єктах цивільної інфраструктури у Сумах, є влучання у промзоні. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793434099-301.jpg",
+      "title": "Навроцький заявив про порушення конституційного ладу Польщі",
+      "url": "https://www.ukrinform.ua/rubric-world/4179976-navrockij-zaaviv-pro-porusenna-konstitucijnogo-ladu-polsi.html",
+      "date": "2026-10-31T08:32:00+00:00",
+      "excerpt": "Президент Польщі Кароль Навроцький назвав учорашнє усунення голови Конституційного суду Богдана Свєнчковського від виконання обов'язків порушенням конституційного ладу та силовим захопленням державного органу. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762350310-553.jpg",
       "source": "Укрінформ"
     },
     {
@@ -206,12 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "В Уфі після атаки дронів горить НПЗ: імовірно, уражена ключова установка – ЗМІ",
-      "url": "https://www.pravda.com.ua/news/2026/10/31/8060596",
-      "date": "2026-10-31T08:02:00+00:00",
-      "excerpt": "У ніч на 31 жовтня у Башкортостані безпілотники атакували НПЗ в Уфі. На заводі Башнефть-Новойл спалахнула пожежа, горить установка каталітичного риформінгу.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/5/947867/a58e5f3be81069b64483e05991a4addd.jpeg?w=1200&q=85&stamp=1793433775",
-      "source": "Українська правда"
+      "title": "Уже за кілька годин евакуйовані жителі Олешків будуть на території України - Арахамія",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179975-uze-za-kilka-godin-evakujovani-ziteli-olesok-budut-na-teritorii-ukraini-arahamia.html",
+      "date": "2026-10-31T08:26:00+00:00",
+      "excerpt": "Уже через кілька годин евакуйовані жителі Олешків будуть на території України. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2022_03/thumb_files/630_360_1646406939-675.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -233,11 +233,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Диспетчерка Слов’янської ТЕС, яка стала саперкою",
-      "url": "https://www.ukrinform.ua/rubric-regions/4179750-dispetcerka-slovanskoi-tes-aka-stala-saperkou.html",
-      "date": "2026-10-31T08:00:00+00:00",
-      "excerpt": "Після 24 років роботи на теплоелектростанції Вікторія Бондаренко вимушено переїхала до Харкова та змінила фах — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793362079-130.jpg",
+      "title": "Росіяни вдарили дронами по Сумах, є влучання у промзоні",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179971-rosiani-vdarili-dronami-po-sumah-e-vlucanna-u-promzoni.html",
+      "date": "2026-10-31T08:13:00+00:00",
+      "excerpt": "Росіяни уранці вдарили дронами та безпілотниками по об’єктах цивільної інфраструктури у Сумах, є влучання у промзоні. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793434099-301.jpg",
       "source": "Укрінформ"
     },
     {
@@ -260,12 +260,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Потяги, які прямують з або до Дніпра, рухаються із суттєвим запізненням",
-      "url": "https://www.ukrinform.ua/rubric-regions/4179969-potagi-aki-pramuut-z-abo-do-dnipra-ruhautsa-iz-suttevim-zapiznennam.html",
-      "date": "2026-10-31T07:59:00+00:00",
-      "excerpt": "Унаслідок обстрілів залізничної інфраструктури Дніпра та підвищеного ризику нових атак велика кількість поїздів рухаються із суттєвою затримкою. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_06/thumb_files/630_360_1751184220-465.jpg",
-      "source": "Укрінформ"
+      "title": "В Уфі після атаки дронів горить НПЗ: імовірно, уражена ключова установка – ЗМІ",
+      "url": "https://www.pravda.com.ua/news/2026/10/31/8060596",
+      "date": "2026-10-31T08:02:00+00:00",
+      "excerpt": "У ніч на 31 жовтня у Башкортостані безпілотники атакували НПЗ в Уфі. На заводі Башнефть-Новойл спалахнула пожежа, горить установка каталітичного риформінгу.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/5/947867/a58e5f3be81069b64483e05991a4addd.jpeg?w=1200&q=85&stamp=1793433775",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -296,12 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Евакуйовані з Олешків українці прибули в Білорусь",
-      "url": "https://suspilne.media/1441511-evakujovani-z-oleskiv-ukrainci-pribuvaut-v-bilorus",
-      "date": "2026-10-31T07:49:38+00:00",
-      "excerpt": "Чотири літаки з жителями Олешків, які захотіли виїхати на підконтрольну Україні територію, прибули в аеропорт Гомеля. Там їх зустріли медики, які надають першу допомогу — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/74/74a86ae8411c30abe08e442bef6f9eb659de6ca27bce0b1940e9b719aaef4d41.jpg",
-      "source": "Суспільне"
+      "title": "Диспетчерка Слов’янської ТЕС, яка стала саперкою",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179750-dispetcerka-slovanskoi-tes-aka-stala-saperkou.html",
+      "date": "2026-10-31T08:00:00+00:00",
+      "excerpt": "Після 24 років роботи на теплоелектростанції Вікторія Бондаренко вимушено переїхала до Харкова та змінила фах — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793362079-130.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -323,11 +323,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Глава МЗС Японії закликав Росію звільнити затриманого на Сахаліні журналіста",
-      "url": "https://www.ukrinform.ua/rubric-world/4179968-glava-mzs-aponii-zaklikav-rosiu-zvilniti-zatrimanogo-na-sahalini-zurnalista.html",
-      "date": "2026-10-31T07:47:00+00:00",
-      "excerpt": "Міністр закордонних справ Японії Тосіміцу Мотегі під час зустрічі зі своїм російським колегою Сергієм Лавровим у п’ятницю закликав Москву негайно звільнити затриманого японського журналіста, а також вжити заходів для досягнення справедливого і тривалого миру в Україні. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793432466-407.jpg",
+      "title": "Потяги, які прямують з або до Дніпра, рухаються із суттєвим запізненням",
+      "url": "https://www.ukrinform.ua/rubric-regions/4179969-potagi-aki-pramuut-z-abo-do-dnipra-ruhautsa-iz-suttevim-zapiznennam.html",
+      "date": "2026-10-31T07:59:00+00:00",
+      "excerpt": "Унаслідок обстрілів залізничної інфраструктури Дніпра та підвищеного ризику нових атак велика кількість поїздів рухаються із суттєвою затримкою. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_06/thumb_files/630_360_1751184220-465.jpg",
       "source": "Укрінформ"
     },
     {
@@ -350,11 +350,11 @@
     },
     {
       "area": "ukraine",
-      "title": "На фронті за добу відбулося 173 боєзіткнення — Генштаб",
-      "url": "https://suspilne.media/1441503-na-fronti-za-dobu-vidbulosa-173-boezitknenna-armia-rf-vtratila-1670-soldativ-genstab",
-      "date": "2026-10-31T07:36:25+00:00",
-      "excerpt": "Найгарячіше було на Покровському, Костянтинівському, Гуляйпільському напрямках. За минулу добу армія РФ втратила на війні в Україні 1670 військових — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/70/7097ca60c1bd11159f045aa81fdadeb3a8e528b0050edace4829e875c270c007.jpg",
+      "title": "Евакуйовані з Олешків українці прибули в Білорусь",
+      "url": "https://suspilne.media/1441511-evakujovani-z-oleskiv-ukrainci-pribuvaut-v-bilorus",
+      "date": "2026-10-31T07:49:38+00:00",
+      "excerpt": "Чотири літаки з жителями Олешків, які захотіли виїхати на підконтрольну Україні територію, прибули в аеропорт Гомеля. Там їх зустріли медики, які надають першу допомогу — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/74/74a86ae8411c30abe08e442bef6f9eb659de6ca27bce0b1940e9b719aaef4d41.jpg",
       "source": "Суспільне"
     },
     {
