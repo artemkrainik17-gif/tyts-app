@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T08:03:43.135441+00:00",
+  "updated_at": "2026-11-01T08:55:20.132841+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-11-01T08:02:33+00:00",
+      "date": "2026-11-01T08:54:17+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,12 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни атакували енергетику Київщини та Житомирщини",
-      "url": "https://www.pravda.com.ua/news/2026/11/01/8060702",
-      "date": "2026-11-01T07:45:00+00:00",
-      "excerpt": "Внаслідок російських ударів по енергетичній інфраструктурі Житомирської області без електропостачання залишилися понад 650 населених пунктів. На Київщині також пошкоджені енергооб'єкти, постраждала жінка.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/e/7/948388/e7091694b62a3d839e2c70dea4507bf7.jpeg?w=1200&q=85&stamp=1793519664",
-      "source": "Українська правда"
+      "title": "У Болгарії розпочався другий тур президентських виборів",
+      "url": "https://suspilne.media/1442073-u-bolgarii-rozpocavsa-drugij-tur-prezidentskih-viboriv",
+      "date": "2026-11-01T08:50:01+00:00",
+      "excerpt": "Голосування розпочалось о 7:00 ранку за місцевим часом й триватиме до 20:00 вечора. У перегонах беруть участь Іліяна Йотова, яка зараз тимчасово виконує президентські обов'язки експрем'єр країни Андрей Гюров — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/1e/1e4a60b96dc7fcbee42c3cd9dcde91036c2d3ba67d5952df9dbb6222b766aa0e.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -80,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У ФБР заявили, що за хакерською атакою на криптобіржу Binance стоїть КНДР",
-      "url": "https://suspilne.media/1442045-u-fbr-zaavili-so-za-hakerskou-atakou-na-kriptobirzu-binance-stoit-pivnicna-korea",
-      "date": "2026-11-01T07:39:05+00:00",
-      "excerpt": "30 жовтня стало відомо, що хакери викрали 6,3 мільярда доларів із найбільшої у світі криптовалютної біржі Binance. Аналітики вважають, що ця крадіжка змусить інвесторів переглянути ризики володіння цифровими активами — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/07/0769a623b10f33b26f35e830cb723e56eaa0c8db7b479cb6c092f517c0eb48fd.jpg",
-      "source": "Суспільне"
+      "title": "На Київщині під ударами ворожих дронів були шість районів: пошкоджені енергооб’єкти, постраждала жінка",
+      "url": "https://www.ukrinform.ua/rubric-regions/4180193-na-kiivsini-pid-udarami-vorozih-droniv-buli-sist-rajoniv-poskodzeni-energoobekti-postrazdala-zinka.html",
+      "date": "2026-11-01T08:41:00+00:00",
+      "excerpt": "Російські безпілотники упродовж доби атакували Київську область, наслідки зафіксували у шести районах, постраждала жінка. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_02/thumb_files/630_360_1739873822-348.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -116,12 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Удар РФ по Солоницівській громаді: поранений чоловік, пошкоджене підприємство",
-      "url": "https://suspilne.media/kharkiv/1442049-udar-rf-po-solonicivskij-gromadi-poranenij-colovik-poskodzene-pidpriemstvo",
-      "date": "2026-11-01T07:34:22+00:00",
-      "excerpt": "31 жовтня росіяни атакували цивільне підприємство у Пересічному Солоницівської громади, повідомили в ОВА. Поранень зазнав 40-річний чоловік — Суспільне Харків",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/2d/2d0ba843dcdac1bbe929ecac8af650c7c91fe880cd58e3c771e3af541ad701a7.jpg",
-      "source": "Суспільне"
+      "title": "Трамп заявив, що у США залишилися «одна або дві» цілі в Ірані",
+      "url": "https://www.ukrinform.ua/rubric-world/4180197-tramp-zaaviv-so-u-ssa-zalisilisa-odna-abo-dvi-cili-v-irani.html",
+      "date": "2026-11-01T08:36:03+00:00",
+      "excerpt": "Президент США Дональд Трамп заявив, що американські військові завдали значних втрат іранським збройним силам, але ще потрібно уразити «один або два» об’єкти. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1774517678-259.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -143,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "На Харківщині за добу через обстріли РФ постраждали семеро людей",
-      "url": "https://www.ukrinform.ua/rubric-regions/4180184-na-harkivsini-za-dobu-cerez-obstrili-rf-postrazdali-semero-ludej.html",
-      "date": "2026-11-01T07:32:00+00:00",
-      "excerpt": "Минулої доби, 31 жовтня, у Харківській області внаслідок російських обстрілів постраждали семеро людей, зокрема дитина. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1793517902-543.jpg",
-      "source": "Укрінформ"
+      "title": "У Вінниці пошкоджені вежа зв'язку та багатоповерхівки, в області – енергетика",
+      "url": "https://www.pravda.com.ua/news/2026/11/01/8060708",
+      "date": "2026-11-01T08:28:00+00:00",
+      "excerpt": "Вінницька область зазнала російських ударів: пошкоджено вежу зв’язку, склад, транспортну зупинку і багатоповерхівки.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/b/1/948407/b17e4032de10c8aa829eb9fcc6e6de4c.jpeg?w=1200&q=85&stamp=1793521660",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -170,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Болгарії розпочався другий тур президентських виборів",
-      "url": "https://www.pravda.com.ua/news/2026/11/01/8060701",
-      "date": "2026-11-01T07:27:00+00:00",
-      "excerpt": "У другому турі президентських виборів у Болгарії змагаються Іліяна Йотова й Андрей Гюров. Виборці голосують в країні та за кордоном.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/9/3/948387/935f71aa5a54ec5d9f6c29658f56c2e2.jpeg?w=1200&q=85&stamp=1793518354",
-      "source": "Українська правда"
+      "title": "Через російські атаки є знеструмлення у восьми областях",
+      "url": "https://www.ukrinform.ua/rubric-economy/4180194-cerez-rosijski-ataki-e-znestrumlenna-u-vosmi-oblastah.html",
+      "date": "2026-11-01T08:22:00+00:00",
+      "excerpt": "Станом на ранок 1 листопада через російські атаки є знеструмлені споживачі у восьми областях, найскладніша ситуація з електропостачанням - на Дніпропетровщині та Київщині. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_02/thumb_files/630_360_1739781107-947.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -206,11 +206,11 @@
     },
     {
       "area": "ukraine",
-      "title": "На Кіровоградщині уламки російських дронів пошкодили ЛЕП і навчальний заклад",
-      "url": "https://www.ukrinform.ua/rubric-regions/4180183-na-kirovogradsini-ulamki-rosijskih-droniv-poskodili-lep-i-navcalnij-zaklad.html",
-      "date": "2026-11-01T07:26:36+00:00",
-      "excerpt": "У Кіровоградській області уламки російських безпілотників пошкодили лінії електропередач, навчальний заклад та склади агрогосподарства. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_05/thumb_files/630_360_1716022077-259.jpg",
+      "title": "На Житомирщині ворог вдарив по енергетичній інфраструктурі, знеструмлені понад 650 населених пунктів",
+      "url": "https://www.ukrinform.ua/rubric-regions/4180191-na-zitomirsini-vorog-vdariv-po-energeticnij-infrastrukturi-znestrumleni-ponad-650-naselenih-punktiv.html",
+      "date": "2026-11-01T08:06:00+00:00",
+      "excerpt": "На Житомирщині російські війська атакували енергетичну інфраструктуру, унаслідок чого знеструмлено понад 650 населених пунктів. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_09/thumb_files/630_360_1725725609-669.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -233,11 +233,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У Болгарії проходить другий тур президентських виборів",
-      "url": "https://www.ukrinform.ua/rubric-world/4180181-u-bolgarii-prohodit-drugij-tur-prezidentskih-viboriv.html",
-      "date": "2026-11-01T07:20:57+00:00",
-      "excerpt": "У Болгарії 1 листопада проходить другий тур президентських виборів, у якому змагаються чинна глава держави Іліана Йотова, яка виступає за діалог із Москвою, та прозахідний опозиційний кандидат Андрій Гюров. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_04/thumb_files/630_360_1776336199-551.png",
+      "title": "Латвія заборонила в’їзд російській телеведучій Собчак та режисеру Богомолову",
+      "url": "https://www.ukrinform.ua/rubric-world/4180190-latvia-zaboronila-vizd-rosijskij-televeducij-sobcak-ta-reziseru-bogomolovu.html",
+      "date": "2026-11-01T08:00:00+00:00",
+      "excerpt": "Міністерка закордонних справ Байба Браже внесла до списку осіб, небажаних у Латвії, російську журналістку та телеведучу Ксенію Собчак, а також її чоловіка, театрального режисера Костянтина Богомолова. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1793519595-671.png",
       "source": "Укрінформ"
     },
     {
@@ -260,12 +260,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни атакували Ізюм вранці 1 листопада: поранена одна людина (фото)",
-      "url": "https://suspilne.media/kharkiv/1442039-rosiani-atakuvali-izum-vranci-1-listopada-poranena-odna-ludina-foto",
-      "date": "2026-11-01T07:15:42+00:00",
-      "excerpt": "Через російський удар по Ізюму вранці 1 листопада поранень зазнала одна людина, повідомили в Ізюмській РВА. Також пошкоджені близько 10 приватних будинків — Суспільне Харків",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/b7/b7c21fe590467f2bd6a851b54c4586044fbd16ea1f6a4c3b42bf177dc78ce4f1.jpg",
-      "source": "Суспільне"
+      "title": "Український дзюдоїст Савицький здобув «бронзу» на Grand Slam в ОАЕ",
+      "url": "https://www.ukrinform.ua/rubric-sports/4180188-ukrainskij-dzudoist-savickij-zdobuv-bronzu-na-grand-slam-v-oae.html",
+      "date": "2026-11-01T07:55:00+00:00",
+      "excerpt": "В Абу-Дабі (Об'єднані Арабські Емірати) пройшов черговий турнір сезону-2026 серії Grand Slam, на якому Україну представляли 11 дзюдоїстів. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_03/thumb_files/630_360_1742745095-750.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -296,12 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Міноборони: від початку повномасштабної війни від мін загинуло 510 людей",
-      "url": "https://suspilne.media/1442021-v-ukraini-vid-pocatku-povnomasstabnoi-vijni-vid-rosijskih-min-ta-vibuhivki-zaginulo-510-ludej-minoboroni",
-      "date": "2026-11-01T07:10:17+00:00",
-      "excerpt": "У Міноборони кажуть, що серед загиблих є діти. Так, від початку повномасштабного російського вторгнення загинули 25 хлопчиків і одна дівчинка, ще 125 хлопців і 20 дівчат отримали поранення — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/49/493c0a3889591652d51ad5aa5d80eccb6a5593e1ebf459d3102ca90745bb359d.jpg",
-      "source": "Суспільне"
+      "title": "Росіяни атакували енергетику Київщини та Житомирщини",
+      "url": "https://www.pravda.com.ua/news/2026/11/01/8060702",
+      "date": "2026-11-01T07:45:00+00:00",
+      "excerpt": "Внаслідок російських ударів по енергетичній інфраструктурі Житомирської області без електропостачання залишилися понад 650 населених пунктів. На Київщині також пошкоджені енергооб'єкти, постраждала жінка.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/e/7/948388/e7091694b62a3d839e2c70dea4507bf7.jpeg?w=1200&q=85&stamp=1793519664",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -323,11 +323,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Через удар РФ по Старому Салтову постраждали четверо людей",
-      "url": "https://suspilne.media/kharkiv/1442033-cerez-udar-rf-po-staromu-saltovu-postrazdali-cetvero-ludej",
-      "date": "2026-11-01T07:03:30+00:00",
-      "excerpt": "Троє людей зазнали поранень, ще одна жінка мала гостру реакцію на стрес через російський удар по Старому Салтову Чугуївського району, повідомили в ОВА — Суспільне Харків",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/d7/d7feb587a676fb05f63b2b9d581ae4dc6a8d6b9f71217cb45fa0e37ef1abdbba.jpg",
+      "title": "У ФБР заявили, що за хакерською атакою на криптобіржу Binance стоїть КНДР",
+      "url": "https://suspilne.media/1442045-u-fbr-zaavili-so-za-hakerskou-atakou-na-kriptobirzu-binance-stoit-pivnicna-korea",
+      "date": "2026-11-01T07:39:05+00:00",
+      "excerpt": "30 жовтня стало відомо, що хакери викрали 6,3 мільярда доларів із найбільшої у світі криптовалютної біржі Binance. Аналітики вважають, що ця крадіжка змусить інвесторів переглянути ризики володіння цифровими активами — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/07/0769a623b10f33b26f35e830cb723e56eaa0c8db7b479cb6c092f517c0eb48fd.jpg",
       "source": "Суспільне"
     },
     {
@@ -350,12 +350,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Памʼяті старшого сержанта Максима Міщенка",
-      "url": "https://www.ukrinform.ua/rubric-ato/4178166-pamati-starsogo-serzanta-maksima-misenka.html",
-      "date": "2026-11-01T07:00:00+00:00",
-      "excerpt": "Як від водія, від нього залежало, чи дістануться бійці до позицій та чи зможуть поранені вибратися з-під обстрілу — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1793365215-316.jpg",
-      "source": "Укрінформ"
+      "title": "Удар РФ по Солоницівській громаді: поранений чоловік, пошкоджене підприємство",
+      "url": "https://suspilne.media/kharkiv/1442049-udar-rf-po-solonicivskij-gromadi-poranenij-colovik-poskodzene-pidpriemstvo",
+      "date": "2026-11-01T07:34:22+00:00",
+      "excerpt": "31 жовтня росіяни атакували цивільне підприємство у Пересічному Солоницівської громади, повідомили в ОВА. Поранень зазнав 40-річний чоловік — Суспільне Харків",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/2d/2d0ba843dcdac1bbe929ecac8af650c7c91fe880cd58e3c771e3af541ad701a7.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
