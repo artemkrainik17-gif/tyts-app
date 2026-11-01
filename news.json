@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T23:41:33.550345+00:00",
+  "updated_at": "2026-11-01T01:10:16.682093+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-10-31T23:40:15+00:00",
+      "date": "2026-11-01T01:09:08+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,12 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "ФБР заявило, що за атакою на Binance стоїть Північна Корея",
-      "url": "https://www.pravda.com.ua/news/2026/11/01/8060681",
-      "date": "2026-10-31T23:25:00+00:00",
-      "excerpt": "ФБР встановило: північнокорейські хакери викрали з Binance понад 6 млрд доларів. Викрадені активи конвертують переважно в Ethereum.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/e/b/948312/ebf93afece50c1d1a3f878d29cdfa803.jpeg?w=1200&q=85&stamp=1793489128",
-      "source": "Українська правда"
+      "title": "За час війни від вибухонебезпечних предметів постраждали понад 1700 українців",
+      "url": "https://www.ukrinform.ua/rubric-society/4180147-za-cas-vijni-vid-vibuhonebezpecnih-predmetiv-postrazdali-ponad-1700-ukrainciv.html",
+      "date": "2026-11-01T00:56:00+00:00",
+      "excerpt": "Від початку повномасштабної війни Росії проти України верифіковано 1256 нещасних випадків, пов’язаних з мінами та іншими вибухонебезпечними предметами. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2023_09/thumb_files/630_360_1695372905-597.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -80,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Окупанти на ТОТ Луганщини планують масово навчати молодь керувати дронами",
-      "url": "https://www.ukrinform.ua/rubric-regions/4180143-okupanti-na-tot-lugansini-planuut-masovo-navcati-molod-keruvati-dronami.html",
-      "date": "2026-10-31T23:20:00+00:00",
-      "excerpt": "У новостворених молодіжних центрах на ТОТ Луганщини окупаційна «влада» планує обладнати кабінети, де юнаків та дівчат навчатимуть керувати безпілотниками. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_08/thumb_files/630_360_1722847461-543.jpg",
-      "source": "Укрінформ"
+      "title": "DeepState: Війська РФ просунулись поблизу Миколаївки на Донеччині",
+      "url": "https://www.pravda.com.ua/news/2026/11/01/8060683",
+      "date": "2026-11-01T00:45:00+00:00",
+      "excerpt": "Аналітичний проєкт DeepState фіксує просування російських військ поблизу Миколаївки у Донецькій області. Деталі – на мапі DeepState.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/b/948317/ab802f66a5acf7e21e7af433eed3c11b.jpeg?w=1200&q=85&stamp=1793493890",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -116,12 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Карні: я готовий чекати нову адміністрацію США для укладення угоди",
-      "url": "https://suspilne.media/1441961-karni-zaaviv-so-za-potrebi-gotovij-cekati-novu-administraciu-ssa-dla-ukladenna-torgivelnoi-ugodi",
-      "date": "2026-10-31T23:16:24+00:00",
-      "excerpt": "Карні заявив, що якщо його уряду не вдасться успішно домовитися з адміністрацією Трампа про прийнятну торговельну угоду, він готовий дочекатися приходу нового президента США, щоб укласти її — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/5c/5c4c441b62dcc2a7db81778a3d431434ee8574727b95ca22b44f4361daeebec8.jpg",
-      "source": "Суспільне"
+      "title": "Хаменеї наказав розширити плани ударів Ірану у відповідь на атаки США й Ізраїлю - ЗМІ",
+      "url": "https://www.ukrinform.ua/rubric-world/4180038-hamenei-nakazav-rozsiriti-plani-udariv-iranu-u-vidpovid-na-ataki-ssa-j-izrailu-zmi.html",
+      "date": "2026-11-01T00:24:00+00:00",
+      "excerpt": "Верховний лідер Ірану Моджтаба Хаменеї наказав вищим військовим командирам підготуватися до відновлення конфронтації зі США й Ізраїлем та розширити можливості щодо ударів у відповідь. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1773032428-621.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -143,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Україні в перший день листопада прогнозують до +15°, подекуди дощі",
-      "url": "https://www.ukrinform.ua/rubric-regions/4180053-ukraini-v-persij-den-listopada-prognozuut-do-15-podekudi-dosi.html",
-      "date": "2026-10-31T22:59:00+00:00",
-      "excerpt": "В Україні в неділю, 1 листопада, буде хмарно, у окремих областях ймовірні дощі, вночі 2-8° тепла, вдень 6-11°, на Закарпатті, півдні та сході країни до 15°. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792426223-397.png",
-      "source": "Укрінформ"
+      "title": "Суд відхилив позов Трампа проти видання WSJ через зв'язок політика з Епштейном",
+      "url": "https://suspilne.media/1441973-sud-vidhiliv-pozov-trampa-proti-vidanna-wsj-cerez-zvazok-politika-z-epstejnom",
+      "date": "2026-11-01T00:07:43+00:00",
+      "excerpt": "Федеральний суд відхилив позов президента США Дональда Трампа проти видання Wall Street Journal через листівку Епштейну на день народження — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/c0/c090b5d535ed531d7d1db23fe32deff8b55d783393b8efffb686b80f220d7865.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -170,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Рубіо припускає участь Зеленського в саміті G20, але рішення - за Трампом",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4180145-rubio-pripuskae-ucast-zelenskogo-v-samiti-g20-ale-risenna-za-trampom.html",
-      "date": "2026-10-31T22:44:00+00:00",
-      "excerpt": "Державний секретар США не виключає участі Президента України Володимира Зеленського в саміті «Групи двадцяти», який відбудеться наприкінці року у Флориді. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_02/thumb_files/630_360_1771099736-614.jpeg",
-      "source": "Укрінформ"
+      "title": "Російська армія авіаударом зруйнувала будівлю міськвиконкому в Краматорську",
+      "url": "https://www.pravda.com.ua/news/2026/11/01/8060682",
+      "date": "2026-10-31T23:48:00+00:00",
+      "excerpt": "31 жовтня у Краматорську російський авіаудар знищив будівлю виконкому на площі Миру. Про подію повідомив Олександр Гончаренко.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/e/c/948315/ec2a5f1b7d9fcb191c96bd2cfb988d13.jpeg?w=1200&q=85&stamp=1793490462",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -206,12 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "В \"Айдарі\" не погодилися зі звільненням командира Коваленка та звернулися до Зеленського й Драпатого",
-      "url": "https://www.pravda.com.ua/news/2026/11/01/8060680",
-      "date": "2026-10-31T22:37:00+00:00",
-      "excerpt": "24-й ОШП \"Айдар\" закликає переглянути рішення про звільнення майора Олександра Коваленка з посади командира полку",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/e/b/948307/ebbe798b3a32fa34e1e56c3cfc1662f8.jpeg?w=1200&q=85&stamp=1793486200",
-      "source": "Українська правда"
+      "title": "Трамп вважає, що мирна угода між Україною та Росією наближається",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4180146-tramp-vvazae-so-mirna-ugoda-miz-ukrainou-ta-rosieu-nablizaetsa.html",
+      "date": "2026-10-31T23:47:00+00:00",
+      "excerpt": "Дональд Трамп укотре заявив, що Сполучені Штати наближають досягнення домовленостей стосовно завершення війни в Україні. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1773775340-287.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -233,12 +233,12 @@
     },
     {
       "area": "ukraine",
-      "title": "З Олешків провели евакуацію людей, у Києві погіршилась ситуація зі світлом",
-      "url": "https://suspilne.media/1441955-z-oleskiv-proveli-evakuaciu-ludej-u-kievi-pogirsilas-situacia-zi-svitlom-1712-j-den-vijn",
-      "date": "2026-10-31T22:35:05+00:00",
-      "excerpt": "Україна та Росія провели евакуаційну місію в Олешках, звідки вивезли людей на підконтрольну територію. У Києві після атак погіршилась ситуація зі світлом — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/43/43ea4558224f5ca032c2e455d24184cc48d739ceae82cc2456c94572b0897a15.jpg",
-      "source": "Суспільне"
+      "title": "ФБР заявило, що за атакою на Binance стоїть Північна Корея",
+      "url": "https://www.pravda.com.ua/news/2026/11/01/8060681",
+      "date": "2026-10-31T23:25:00+00:00",
+      "excerpt": "ФБР встановило: північнокорейські хакери викрали з Binance понад 6 млрд доларів. Викрадені активи конвертують переважно в Ethereum.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/e/b/948312/ebf93afece50c1d1a3f878d29cdfa803.jpeg?w=1200&q=85&stamp=1793489128",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -260,11 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни знищили будівлю виконкому в Краматорську",
-      "url": "https://www.ukrinform.ua/rubric-regions/4180144-rosiani-znisili-budivlu-vikonkomu-v-kramatorsku.html",
-      "date": "2026-10-31T22:16:00+00:00",
-      "excerpt": "У Краматорську Донецької області внаслідок російського авіаудару зруйновано будівлю міського виконкому. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_05/thumb_files/630_360_1716022077-259.jpg",
+      "title": "Окупанти на ТОТ Луганщини планують масово навчати молодь керувати дронами",
+      "url": "https://www.ukrinform.ua/rubric-regions/4180143-okupanti-na-tot-lugansini-planuut-masovo-navcati-molod-keruvati-dronami.html",
+      "date": "2026-10-31T23:20:00+00:00",
+      "excerpt": "У новостворених молодіжних центрах на ТОТ Луганщини окупаційна «влада» планує обладнати кабінети, де юнаків та дівчат навчатимуть керувати безпілотниками. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_08/thumb_files/630_360_1722847461-543.jpg",
       "source": "Укрінформ"
     },
     {
@@ -296,11 +296,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Каллас: Путін на G20 може стати кроком до нормалізації воєнних злочинів РФ",
-      "url": "https://suspilne.media/1441953-kallas-povernenna-putina-na-g20-moze-stati-persim-krokom-do-normalizacii-voennih-zlociniv-rosii",
-      "date": "2026-10-31T21:58:14+00:00",
-      "excerpt": "Кая Каллас заявила, що можливе повернення Володимира Путіна на саміт G20 у Флориді в грудні загрожує нормалізацією воєнних злочинів Росії в Україні — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/58/58c37dcecbf0f0955b8a384c2d300f1b90fb3176c530d2ead8e0c717afcaa45e.jpg",
+      "title": "Карні: я готовий чекати нову адміністрацію США для укладення угоди",
+      "url": "https://suspilne.media/1441961-karni-zaaviv-so-za-potrebi-gotovij-cekati-novu-administraciu-ssa-dla-ukladenna-torgivelnoi-ugodi",
+      "date": "2026-10-31T23:16:24+00:00",
+      "excerpt": "Карні заявив, що якщо його уряду не вдасться успішно домовитися з адміністрацією Трампа про прийнятну торговельну угоду, він готовий дочекатися приходу нового президента США, щоб укласти її — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/5c/5c4c441b62dcc2a7db81778a3d431434ee8574727b95ca22b44f4361daeebec8.jpg",
       "source": "Суспільне"
     },
     {
@@ -323,11 +323,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський подякував Меланії Трамп за посередництво у припиненні вогню в Олешках",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4180134-zelenskij-podakuvav-melanii-tramp-za-poserednictvo-u-pripinenni-vognu-v-oleskah.html",
-      "date": "2026-10-31T21:51:00+00:00",
-      "excerpt": "Президент Володимир Зеленський висловив вдячність першій леді США Меланії Трамп за посередництво в організації припинення вогню в тимчасово окупованих Олешках і заявив, що Україна підтримуватиме продовження цієї ініціативи. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_09/thumb_files/630_360_1759138076-754.jpg",
+      "title": "Україні в перший день листопада прогнозують до +15°, подекуди дощі",
+      "url": "https://www.ukrinform.ua/rubric-regions/4180053-ukraini-v-persij-den-listopada-prognozuut-do-15-podekudi-dosi.html",
+      "date": "2026-10-31T22:59:00+00:00",
+      "excerpt": "В Україні в неділю, 1 листопада, буде хмарно, у окремих областях ймовірні дощі, вночі 2-8° тепла, вдень 6-11°, на Закарпатті, півдні та сході країни до 15°. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1792426223-397.png",
       "source": "Укрінформ"
     },
     {
@@ -350,12 +350,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Росіяни вже вбили близько 120 представників духовенства – Зеленський",
-      "url": "https://www.pravda.com.ua/news/2026/10/31/8060679",
-      "date": "2026-10-31T21:48:00+00:00",
-      "excerpt": "Президент Зеленський заявив про цілеспрямовані атаки РФ на духовенство та релігійні споруди України, внаслідок чого знищено чи пошкоджено близько 800 храмів.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/e/b/948306/eb15fa62afcbac76b80765dd3d7cd922.jpeg?w=1200&q=85&stamp=1793483339",
-      "source": "Українська правда"
+      "title": "Рубіо припускає участь Зеленського в саміті G20, але рішення - за Трампом",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4180145-rubio-pripuskae-ucast-zelenskogo-v-samiti-g20-ale-risenna-za-trampom.html",
+      "date": "2026-10-31T22:44:00+00:00",
+      "excerpt": "Державний секретар США не виключає участі Президента України Володимира Зеленського в саміті «Групи двадцяти», який відбудеться наприкінці року у Флориді. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_02/thumb_files/630_360_1771099736-614.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
