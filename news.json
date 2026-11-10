@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T17:47:45.455276+00:00",
+  "updated_at": "2026-11-10T23:17:55.089611+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -8,11 +8,38 @@
   "items": [
     {
       "area": "local",
+      "title": "MagSafe, Qi і Qi2: сумісність iPhone з магнітною зарядкою – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/485435/magsafe-i-i-i2-sumisnist-iphone-z-magnitnoyu-zaryadkoyu",
+      "date": "2026-11-10T19:59:00+00:00",
+      "excerpt": "Бездротова передача енергії стала стандартним сценарієм для власників сучасних смартфонів Apple.",
+      "image": "https://im2.abo.media/media/64/article/a889eb59d5f5400bb436f1edac0ebfc7.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "Петиції тепер можна підтримати у смартфоні: у Вінниці додали нову функцію в MISTO - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/petitsiyi-teper-mozhna-pidtrimati-u-smartfoni-u-vinnitsi-dodali-novu-f-12012356.html",
+      "date": "2026-11-10T18:09:00+00:00",
+      "excerpt": "[10:11:2026] Петиції тепер можна підтримати у смартфоні: у Вінниці додали нову функцію в MISTO ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/74/4173380-petitsiyi-teper-mozhna-pidtrimati-u-smartfoni-u-vinnitsi-dodali-novu-funktsiyu-v-misto.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Офіційні документи",
+      "url": "https://www.ukrinform.ua/block-docs",
+      "date": "2026-11-10T23:16:43+00:00",
+      "excerpt": "",
+      "image": "https://www.ukrinform.ua/img/img_none.jpg",
+      "source": "Укрінформ"
+    },
+    {
+      "area": "local",
       "title": "Представники культури, якими пишається Жмеринський район: Ірині Дєдовій присвоєно звання «Заслужений працівник культури України»",
       "url": "https://zhmerynka-rda.gov.ua/2026/11/10/%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D0%B8%D0%BA%D0%B8-%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B8-%D1%8F%D0%BA%D0%B8%D0%BC%D0%B8-%D0%BF%D0%B8%D1%88%D0%B0%D1%94%D1%82%D1%8C",
       "date": "2026-11-10T15:10:32+00:00",
       "excerpt": "Головній режисерці Барського міського художнього аматорського театру Ірині Дєдовій присвоєно почесне звання «Заслужений працівник культури України». Відповідний Указ №1100/2026 Президент України підписав 9 листопада 2026 року з нагоди Всеукраїнського дня працівників культури та майстрів народного мистецтва. Ірина Дєдов",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/07/05-300x179.jpg",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/11/05-4.jpg",
       "source": "Жмеринська РВА"
     },
     {
@@ -26,11 +53,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Офіційні документи",
-      "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-11-10T17:46:54+00:00",
-      "excerpt": "",
-      "image": "https://www.ukrinform.ua/img/img_none.jpg",
+      "title": "Зеленський обговорив із прем’єрами країн Північної Європи підтримку України на тлі російської ескалації",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4183571-zelenskij-obgovoriv-iz-premerami-krain-pivnicnoi-evropi-pidtrimku-ukraini-na-tli-rosijskoi-eskalacii.html",
+      "date": "2026-11-10T23:12:22+00:00",
+      "excerpt": "Президент обговорив із прем’єр-міністрами країн Північної Європи дипломатичний процес і підтримку України на тлі російської ескалації. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1794352228-574.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -53,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Для жителів Олешків готують можливість додаткового виїзду - Лубінець",
-      "url": "https://www.ukrinform.ua/rubric-society/4183492-dla-ziteliv-oleskiv-gotuut-mozlivist-dodatkovogo-viizdu-lubinec.html",
-      "date": "2026-11-10T17:41:00+00:00",
-      "excerpt": "Офіс омбудсмана працює над можливістю організації додаткового виїзду жителів тимчасово захопленого міста Олешки та інших населених пунктів Олешківської громади Херсонської області. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1794332106-378.jpeg",
-      "source": "Укрінформ"
+      "title": "Російську Ленінградську область атакують безпілотники",
+      "url": "https://www.pravda.com.ua/news/2026/11/11/8062242",
+      "date": "2026-11-10T22:58:00+00:00",
+      "excerpt": "У ніч на середу, 11 листопада, у Росії Ленобласть зазнала атаки безпілотників.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/7/8/954522/784a860cc4e3cc0aeeef0f98b6d395e6.jpeg?w=1200&q=85&stamp=1794351817",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -67,6 +94,15 @@
       "date": "2026-11-09T16:05:00+00:00",
       "excerpt": "Цікаві факти про культуру у Жмеринській громаді",
       "image": "https://im2.abo.media/media/64/article/2c58bbecbe4147499eb9508df411fdfd.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "Культура єднає серця: у Жмеринці привітали працівників культури та майстрів народного мистецтва – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/485291/kultura-yednaye-sercya-u-zhmerinci-privitali-pracivnikiv-kulturi-ta-majstriv-narodnogo-mistectva",
+      "date": "2026-11-09T13:44:00+00:00",
+      "excerpt": "У Жмеринці привітали працівників культури та майстрів народного мистецтва",
+      "image": "https://im2.abo.media/media/64/article/5c342bdbfac249a48d83d1988e5703d2.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -80,21 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Чехія планує відкрити у Львові представництво агентства CzechBusiness",
-      "url": "https://www.ukrinform.ua/rubric-economy/4183483-cehia-planue-vidkriti-u-lvovi-predstavnictvo-agentstva-czechbusiness.html",
-      "date": "2026-11-10T17:32:00+00:00",
-      "excerpt": "Уряд у Празі планує посилити підтримку чеських підприємців, які ведуть бізнес з Україною, у тому числі шляхом відкриття представництва агентства CzechBusiness у Львові. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1794308334-126.jpg",
-      "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "Культура єднає серця: у Жмеринці привітали працівників культури та майстрів народного мистецтва – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/485291/kultura-yednaye-sercya-u-zhmerinci-privitali-pracivnikiv-kulturi-ta-majstriv-narodnogo-mistectva",
-      "date": "2026-11-09T13:44:00+00:00",
-      "excerpt": "У Жмеринці привітали працівників культури та майстрів народного мистецтва",
-      "image": "https://im2.abo.media/media/64/article/5c342bdbfac249a48d83d1988e5703d2.webp",
-      "source": "Жмеринка.City"
+      "title": "«Європа обов'язково має бути присутня за столом перемовин» — Зеленський",
+      "url": "https://suspilne.media/1449847-evropa-obovazkovo-mae-buti-prisutna-za-stolom-peremovin-zelenskij-zustrivsa-z-premer-ministrami-pivnicnoi-evropi",
+      "date": "2026-11-10T22:55:53+00:00",
+      "excerpt": "Прем'єрам Данії, Ісландії, Норвегії, Фінляндії та Швеції президент розповів про переговори в Абу-Дабі й відключення світла через російські удари — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/c4/c463f599f49984861f9d8182b83449d1996153e27b128eaa57e44e0c00c52d14.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -116,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Угорщина знову не дала \"зелене світло\" на відкриття кластерів 4 і 5 для України",
-      "url": "https://www.pravda.com.ua/news/2026/11/10/8062207",
-      "date": "2026-11-10T17:26:00+00:00",
-      "excerpt": "У вівторок, 10 листопада, на засіданні робочої групи Ради ЄС із питань розширення (COELA) Угорщина знову не погодилася затвердити результати скринінгу кластерів 4 та 5 у межах переговорів про вступ України до Європейського Союзу, що дозволило б просунутися до відкриття цих кластерів.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/2/3/954419/23228e21e10fdbd4f38372e896dd007d.jpeg?w=1200&q=85&stamp=1794331650",
-      "source": "Українська правда"
+      "title": "Литва посилює перевірку зерна, що ускладнить російський експорт через її територію - Reuters",
+      "url": "https://www.ukrinform.ua/rubric-world/4183309-litva-posilue-perevirku-zerna-so-uskladnit-rosijskij-eksport-cerez-ii-teritoriu-reuters.html",
+      "date": "2026-11-10T22:42:00+00:00",
+      "excerpt": "Влада Литви вимагатиме, щоб російське та білоруське зерно, яке транспортується через порт Клайпеда, залишалося на місці до завершення перевірок для підтвердження його походження, що може затримати його експорт на кілька місяців. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1753863871-423.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -143,11 +170,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Каллас: Ніхто не повинен піддаватися на російські наративи про «безпекові занепокоєння»",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4183485-kallas-nihto-ne-povinen-piddavatisa-na-rosijski-narativi-pro-bezpekovi-zanepokoenna.html",
-      "date": "2026-11-10T17:18:29+00:00",
-      "excerpt": "НАТО є оборонним альянсом, який ніколи не загрожував Росії, а територіальна цілісність України та її право обирати альянси не є розмінними монетами. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1794330839-986.jpeg",
+      "title": "Кривий Ріг зазнав масованої атаки російських БПЛА, місто частково без електрики та теплопостачання",
+      "url": "https://www.ukrinform.ua/rubric-regions/4183568-krivij-rig-zaznav-masovanoi-ataki-rosijskih-bpla-misto-castkovo-bez-elektriki-ta-teplopostacanna.html",
+      "date": "2026-11-10T22:22:00+00:00",
+      "excerpt": "Кривий Ріг зазнав масованої атаки російських БПЛА, місто частково без електрики та теплопостачання, пошкоджені будинки, школи та дитсадки. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590204-860.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -160,6 +187,15 @@
       "source": "Жмеринська РВА"
     },
     {
+      "area": "local",
+      "title": "У Жмеринці ветеран-десантник Микола Прокопов став фахівцем із супроводу ветеранів – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/485046/u-zhmerinci-veteran-desantnik-mikola-prokopov-stav-fahivcem-iz-suprovodu-veteraniv",
+      "date": "2026-11-06T11:02:00+00:00",
+      "excerpt": "У Жмеринці до роботи приступив новий фахівець із супроводу ветеранів війни та демобілізованих осіб – 37-річний Микола Прокопов.",
+      "image": "https://im2.abo.media/media/64/article/b15fda3da77947a6b7b16655327b1020.webp",
+      "source": "Жмеринка.City"
+    },
+    {
       "area": "region",
       "title": "Екзотичні делікатеси: як на Вінниччині вирощують королівські креветки, равлики та раки - 20 хвилин",
       "url": "https://vn.20minut.ua/Podii/ekzotichni-delikatesi-yak-na-podilli-viroschuyut-korolivski-krevetki-r-12012386.html",
@@ -170,21 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Офіс омбудсмана працює над можливістю організації додаткового безпечного виїзду з Олешок",
-      "url": "https://www.pravda.com.ua/news/2026/11/10/8062204",
-      "date": "2026-11-10T17:11:00+00:00",
-      "excerpt": "Офіс омбудсмена працює над можливістю організації додаткового безпечного виїзду мешканців Олешок та навколишніх населених пунктів.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/b/9/954416/b9a6c28cce853e24c972aafcd255fecf.jpeg?w=1200&q=85&stamp=1794330709",
+      "title": "Через масовану атаку російських дронів частково знеструмлений Кривий Ріг",
+      "url": "https://www.pravda.com.ua/news/2026/11/11/8062239",
+      "date": "2026-11-10T22:08:00+00:00",
+      "excerpt": "Вілкул повідомив, що росіяни частково знеструмили Кривий Ріг.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/1/954513/814855fd0d56ad4506e17e0d8ba703eb.jpeg?w=1200&q=85&stamp=1794348882",
       "source": "Українська правда"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринці ветеран-десантник Микола Прокопов став фахівцем із супроводу ветеранів – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/485046/u-zhmerinci-veteran-desantnik-mikola-prokopov-stav-fahivcem-iz-suprovodu-veteraniv",
-      "date": "2026-11-06T11:02:00+00:00",
-      "excerpt": "У Жмеринці до роботи приступив новий фахівець із супроводу ветеранів війни та демобілізованих осіб – 37-річний Микола Прокопов.",
-      "image": "https://im2.abo.media/media/64/article/b15fda3da77947a6b7b16655327b1020.webp",
-      "source": "Жмеринка.City"
     },
     {
       "area": "local",
@@ -206,11 +233,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Україна та РФ після перемовин в Абу-Дабі можуть провести масштабний обмін полоненими - Мережко",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4183481-ukraina-ta-rf-pisla-peremovin-v-abudabi-mozut-provesti-masstabnij-obmin-polonenimi-merezko.html",
-      "date": "2026-11-10T17:07:00+00:00",
-      "excerpt": "Україна та Росія після перемовин в Абу-Дабі можуть провести черговий масштабний обмін військовополоненими, але на більш серйозні прориви розраховувати не варто. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_03/thumb_files/630_360_1741789517-116.jpg",
+      "title": "Російському генералу заочно оголосили підозру за фактом участі в захопленні Херсона",
+      "url": "https://www.ukrinform.ua/rubric-ato/4183567-rosijskomu-generalu-zaocno-ogolosili-pidozru-za-faktom-ucasti-v-zahoplenni-hersona.html",
+      "date": "2026-11-10T22:07:00+00:00",
+      "excerpt": "Служба безпеки України заочно оголосила нову підозру колишньому командувачу Південного військового округу збройних сил РФ генералу Олександру Дворнікову. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_01/thumb_files/630_360_1737552825-550.png",
       "source": "Укрінформ"
     },
     {
@@ -233,12 +260,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Війська РФ за день понад 30 разів атакували Дніпропетровщину - троє загиблих, п’ятеро поранених",
-      "url": "https://www.ukrinform.ua/rubric-regions/4183480-vijska-rf-za-den-ponad-30-raziv-atakuvali-dnipropetrovsinu-troe-zagiblih-patero-poranenih.html",
-      "date": "2026-11-10T17:06:00+00:00",
-      "excerpt": "Російські загарбники протягом дня понад 30 разів атакували Дніпро та область, унаслідок чого троє людей загинули, ще п’ятеро дістали поранення. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1794330259-760.jpg",
-      "source": "Укрінформ"
+      "title": "Другий день тристоронніх переговорів в Абу-Дабі, Данія виділяє Україні допомогу",
+      "url": "https://suspilne.media/1449811-drugij-den-tristoronnih-peregovoriv-v-abu-dabi-dania-vidilae-ukraini-vijskovu-dopomogu-1722-j-den-vijni",
+      "date": "2026-11-10T22:01:50+00:00",
+      "excerpt": "11 листопада розпочинається другий раунд тристоронніх переговорів в Абу-Дабі за участі РФ, США та Росії. Данія виділяє Україні військову допомогу — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/cb/cb9eb037423e12927baf83e8902627985a768a948274ea676a354c74db52320a.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -247,6 +274,15 @@
       "date": "2026-11-02T16:09:00+00:00",
       "excerpt": "Генеральне прибирання власної оселі традиційно сприймається як виснажливий процес, що забирає чимало сил та ресурсів.",
       "image": "https://im2.abo.media/media/64/article/0efc2755eb634c2986b1f19ace940aeb.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "У Жмеринці відкрився «ПіцаЦентр»: 20 видів піци, курка-гриль, хачапурі і випічка – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/484615/u-zhmerincividkrivsya-picacentr-20-vidiv-pici-kurka-gril-hachapuri-i-vipichka",
+      "date": "2026-11-02T15:06:00+00:00",
+      "excerpt": "На вулиці Київській, 16, неподалік площі Миру, поруч із ліцеєм №2, відкрився новий заклад «ПіцаЦентр».",
+      "image": "https://im2.abo.media/media/64/article/658111aa976f4977a9cd4d00ea299c9d.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -260,21 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Синєгубов пояснив, чому FPV-дрони стали частіше долітати до Харкова",
-      "url": "https://www.ukrinform.ua/rubric-regions/4183471-sinegubov-poasniv-comu-fpvdroni-stali-castise-dolitati-do-harkova.html",
-      "date": "2026-11-10T17:04:00+00:00",
-      "excerpt": "Чергову хвилю російських ударів по Харкову FPV-дронами, зокрема на радіокеруванні (на оптоволокні), начальник Харківської ОВА Олег Синєгубов пояснює тим, що окупанти знайшли певні нові технічні можливості, яким наразі будуть протидіяти Сили оборони. Водночас більшість дронів знищують на підходах до міста. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1794326931-472.jpg",
+      "title": "Битва за Україну. День 1721: В Абу-Дабі сторони домовилися провести масштабний обмін полоненими найближчим часом",
+      "url": "https://www.ukrinform.ua/rubric-ato/4183564-bitva-za-ukrainu-den-1721-v-abudabi-storoni-domovilisa-provesti-masstabnij-obmin-polonenimi-najblizcim-casom.html",
+      "date": "2026-11-10T21:56:00+00:00",
+      "excerpt": "У Росії атаковано завод, де ремонтують літаки-радари А-50. Останні українські атаки обвалили нафтопереробку РФ на 30% — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1794347735-398.jpg",
       "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринці відкрився «ПіцаЦентр»: 20 видів піци, курка-гриль, хачапурі і випічка – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/484615/u-zhmerincividkrivsya-picacentr-20-vidiv-pici-kurka-gril-hachapuri-i-vipichka",
-      "date": "2026-11-02T15:06:00+00:00",
-      "excerpt": "На вулиці Київській, 16, неподалік площі Миру, поруч із ліцеєм №2, відкрився новий заклад «ПіцаЦентр».",
-      "image": "https://im2.abo.media/media/64/article/658111aa976f4977a9cd4d00ea299c9d.webp",
-      "source": "Жмеринка.City"
     },
     {
       "area": "local",
@@ -296,11 +323,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Сербська компанія поставила до РФ верстати для виробництва балістики й літаків на €27 млн – розслідуваня",
-      "url": "https://www.pravda.com.ua/news/2026/11/10/8062201",
-      "date": "2026-11-10T16:58:00+00:00",
-      "excerpt": "Сербський виробник металообробного обладнання Grindex після початку повномасштабного вторгнення експортував до Росії верстати на суму близько 27,5 мільйона євро, які через компанії-посередники надійшли підприємствам військово-промислового комплексу держави-агресора.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/0/5/954413/05edebbe08bb6320ec24a835fafdbc13.jpeg?w=1200&q=85&stamp=1794330106",
+      "title": "Зеленський: Росіяни заявляють, що окупували більше території, ніж є насправді",
+      "url": "https://www.pravda.com.ua/news/2026/11/10/8062236",
+      "date": "2026-11-10T21:49:00+00:00",
+      "excerpt": "Президент України Володимир Зеленський заявив, що на переговорах з'ясувалось, що росіяни вважають окуповану територію більшою, ніж вона є насправді.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/3/a/954507/3a115766ea6ff3d6f114254a4703b568.jpeg?w=1200&q=85&stamp=1794347396",
       "source": "Українська правда"
     },
     {
@@ -323,11 +350,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Рубіо: переговори в Абу-Дабі продуктивні, але швидкої угоди не буде",
-      "url": "https://suspilne.media/1449697-rubio-nazvav-peregovori-v-abu-dabi-produktivnimi-ale-nagolosiv-so-ugodi-ne-varto-ocikuvati-najblizcoi-dobi",
-      "date": "2026-11-10T16:57:46+00:00",
-      "excerpt": "Рубіо назвав перший день переговорів України, США та РФ в Абу-Дабі продуктивним, але заявив, що швидких домовленостей очікувати не варто — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/de/de41daa9dfd47f4c451f4aebf444401c9cbc825c81f74854c2f59b7ba50196bd.jpg",
+      "title": "Марта Костюк втратила шанси відібратися до півфіналу Підсумкового турніру-2026",
+      "url": "https://suspilne.media/sport/1449837-marta-kostuk-prograla-peguli-na-pidsumkovomu-turniri-ta-vtratila-sansi-vidibratisa-do-pivfinalu",
+      "date": "2026-11-10T21:48:03+00:00",
+      "excerpt": "Українська тенісистка Марта Костюк зіграла в другому матчі на Підсумковому турнірі, результат гри проти півфіналістки US Open Джессіки Пегули — Суспільне Спорт",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/fb/fbe9a674ca1446482929deb22d2570b558b035a85cda45d51c7dc880950eab03.jpg",
       "source": "Суспільне"
     },
     {
@@ -337,33 +364,6 @@
       "date": "2026-10-29T07:08:00+00:00",
       "excerpt": "Мета – підготувати школярів до впровадження медіації однолітків",
       "image": "https://im2.abo.media/media/64/article/015d1e8d0b454c269835738585ac469a.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "У Вінниці вшанували пам'ять майора Миколи Ільчука на псевдо «Флеш»",
-      "url": "https://suspilne.media/vinnytsia/1449117-zavzdi-v-rusi-zavzdi-pragnuv-stavati-krasim-u-vinnici-vsanuvali-pamat-majora-mikoli-ilcuka-na-psevdo-fles",
-      "date": "2026-11-10T10:24:10+00:00",
-      "excerpt": "У Вінниці в день народження вшанували пам'ять Миколи Ільчука з позивним «Флеш». 35-річний офіцер СБУ загинув 13 лютого 2026 року на Запоріжжі — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/6f/6f3e01ae497fcecf0aeddf43563bff7f70bd66e94d94a03c49a87cb442f238d0.jpg",
-      "source": "Суспільне Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Загарбники вдарили по енергооб'єктах у Ніжині",
-      "url": "https://www.ukrinform.ua/rubric-regions/4183477-zagarbniki-vdarili-po-energoobektah-u-nizini.html",
-      "date": "2026-11-10T16:55:00+00:00",
-      "excerpt": "Російські військові у вівторок, 10 листопада, атакували об’єкти енергетики у Ніжині Чернігівської області. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_08/thumb_files/630_360_1786205585-323.jpg",
-      "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "Жмеринська громада прощатиметься з 39-річним захисником Андрієм Бармалюком – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/483974/zhmerinska-gromada-proschatimetsya-z-39-richnim-zahisnikom-andriyem-barmalyukom",
-      "date": "2026-10-27T16:58:00+00:00",
-      "excerpt": "За Україну загинув Андрій Бармалюк",
-      "image": "https://im2.abo.media/media/64/article/b21683cd95d448e0a6f743a86dea6580.webp",
       "source": "Жмеринка.City"
     }
   ]
