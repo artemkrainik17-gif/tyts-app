@@ -1,11 +1,38 @@
 {
-  "updated_at": "2026-11-09T17:28:51.376889+00:00",
+  "updated_at": "2026-11-10T01:32:37.411165+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
     "ukraine": 30
   },
   "items": [
+    {
+      "area": "local",
+      "title": "Цікаві факти про культуру у Жмеринській громаді: відео – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/485300/cikavi-fakti-pro-kulturu-u-zhmerinskij-gromadi-video",
+      "date": "2026-11-09T16:05:00+00:00",
+      "excerpt": "Цікаві факти про культуру у Жмеринській громаді",
+      "image": "https://im2.abo.media/media/64/article/2c58bbecbe4147499eb9508df411fdfd.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "Захисник із Калинівки повернувся з російського полону після чотирьох років неволі - 20 хвилин",
+      "url": "https://vn.20minut.ua/lyudi/zahisnik-iz-kalinivki-povernuvsya-z-rosiyskogo-polonu-pislya-chotiroh--12012300.html",
+      "date": "2026-11-09T18:07:00+00:00",
+      "excerpt": "[09:11:2026] Захисник із Калинівки повернувся з російського полону після чотирьох років неволі ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/73/4172772-zahisnik-iz-kalinivki-povernuvsya-z-rosiyskogo-polonu-pislya-chotiroh-rokiv-nevoli.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Офіційні документи",
+      "url": "https://www.ukrinform.ua/block-docs",
+      "date": "2026-11-10T01:31:40+00:00",
+      "excerpt": "",
+      "image": "https://www.ukrinform.ua/img/img_none.jpg",
+      "source": "Укрінформ"
+    },
     {
       "area": "local",
       "title": "Культура єднає серця: у Жмеринці привітали працівників культури та майстрів народного мистецтва – Жмеринка.City",
@@ -26,12 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Офіційні документи",
-      "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-11-09T17:27:52+00:00",
-      "excerpt": "",
-      "image": "https://www.ukrinform.ua/img/img_none.jpg",
-      "source": "Укрінформ"
+      "title": "Букерівську премію з літератури здобув М. Джон Гаррісон",
+      "url": "https://suspilne.media/1448943-bukerivsku-premiu-z-literaturi-zdobuv-m-dzon-garrison-stavsi-najstarsim-laureatom-v-istorii",
+      "date": "2026-11-10T01:25:50+00:00",
+      "excerpt": "81-річний британський письменник М. Джон Гаррісон здобув Букерівську премію з літератури за постапокаліптичний роман «Кінець усього». Таким чином він став найстаршим лауреатом в історії премії — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/6b/6bf1f98b9d325b4e2726efdd6825635dc08be6d7e5f492f15c2067c4ea9a1e86.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -53,11 +80,11 @@
     },
     {
       "area": "ukraine",
-      "title": "У Франції підозрюють хакерів, пов’язаних із Іраном, в атаках на супермаркети - ЗМІ",
-      "url": "https://www.ukrinform.ua/rubric-world/4183062-u-francii-pidozruut-hakeriv-povazanih-iz-iranom-v-atakah-na-supermarketi-zmi.html",
-      "date": "2026-11-09T17:20:10+00:00",
-      "excerpt": "У Франції підозрюють, що за кібератаками, які нещодавно вивели з ладу комерційні холодильники, стояли підтримувані Іраном хакери. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1752765201-153.jpg",
+      "title": "На підконтрольній території Запорізької області проживають близько мільйона людей - ОВА",
+      "url": "https://www.ukrinform.ua/rubric-regions/4182971-na-pidkontrolnij-teritorii-zaporizkoi-oblasti-prozivaut-blizko-miljona-ludej-ova.html",
+      "date": "2026-11-10T01:22:00+00:00",
+      "excerpt": "На підконтрольній Україні території Запорізької області проживають близько мільйона людей, понад 230 тисяч із них мають статус внутрішньо переміщених осіб. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_02/thumb_files/630_360_1770214033-173.jpg",
       "source": "Укрінформ"
     },
     {
@@ -70,6 +97,15 @@
       "source": "Жмеринка.City"
     },
     {
+      "area": "local",
+      "title": "ОГОЛОШЕННЯ про оцінювання корупційних ризиків в діяльності Жмеринської районної військової адміністрації та надання представниками громадськості кандидатур для включення до складу робочої групи",
+      "url": "https://zhmerynka-rda.gov.ua/2026/11/06/%D0%BE%D0%B3%D0%BE%D0%BB%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D1%8F-%D0%BF%D1%80%D0%BE-%D0%BE%D1%86%D1%96%D0%BD%D1%8E%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-%D0%BA%D0%BE%D1%80%D1%83%D0%BF%D1%86%D1%96%D0%B9%D0%BD-2",
+      "date": "2026-11-06T13:11:21+00:00",
+      "excerpt": "Відповідно до Методології управління корупційними ризиками, затвердженої наказом Національного агентства з питань запобігання корупції від 28 грудня 2021 року № 830/21, до складу робочої групи, крім працівників районної військової адміністрації, запрошуються особи, які володіють знаннями про середовище районної військо",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2025/08/002-19-300x225.jpg",
+      "source": "Жмеринська РВА"
+    },
+    {
       "area": "region",
       "title": "«Не доїхав буквально два метри»: як сталася смертельна ДТП під Вінницею та чому майже рік триває суд - 20 хвилин",
       "url": "https://vn.20minut.ua/DTP/ne-doyihav-bukvalno-dva-metri-yak-stalasya-smertelna-dtp-pid-vinnitsey-12012290.html",
@@ -80,21 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Кличко розповів про підготовку до зими та конфлікт із Зеленським",
-      "url": "https://suspilne.media/1448793-mer-klicko-rozpoviv-pro-pidgotovku-kieva-do-zimi-ta-ci-mae-konflikt-iz-zelenskim-video",
-      "date": "2026-11-09T17:19:35+00:00",
-      "excerpt": "Віталій Кличко працює міським головою Києва вже понад 12 років — із червня 2014-го. Суспільне зустрілося з ним на тлі складної ситуації з електро- та водопостачанням у місті внаслідок російських обстрілів — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/cb/cb7897c6b896051c358d3b50a230503f91b1ecd5023f5be897f92744e5597296.jpg",
-      "source": "Суспільне"
-    },
-    {
-      "area": "local",
-      "title": "ОГОЛОШЕННЯ про оцінювання корупційних ризиків в діяльності Жмеринської районної військової адміністрації та надання представниками громадськості кандидатур для включення до складу робочої групи",
-      "url": "https://zhmerynka-rda.gov.ua/2026/11/06/%D0%BE%D0%B3%D0%BE%D0%BB%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D1%8F-%D0%BF%D1%80%D0%BE-%D0%BE%D1%86%D1%96%D0%BD%D1%8E%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-%D0%BA%D0%BE%D1%80%D1%83%D0%BF%D1%86%D1%96%D0%B9%D0%BD-2",
-      "date": "2026-11-06T13:11:21+00:00",
-      "excerpt": "Відповідно до Методології управління корупційними ризиками, затвердженої наказом Національного агентства з питань запобігання корупції від 28 грудня 2021 року № 830/21, до складу робочої групи, крім працівників районної військової адміністрації, запрошуються особи, які володіють знаннями про середовище районної військо",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/11/04-3.jpg",
-      "source": "Жмеринська РВА"
+      "title": "Нідерландська компанія вироблятиме ізраїльські гвинтівки та кулемети для ринку Європи та партнерів НАТО",
+      "url": "https://www.ukrinform.ua/rubric-world/4183128-niderlandska-kompania-viroblatime-izrailski-gvintivki-ta-kulemeti-dla-rinku-evropi-ta-partneriv-nato.html",
+      "date": "2026-11-10T00:53:00+00:00",
+      "excerpt": "Нідерландська оборонна компанія Artillerie Inrichtingen Armaments (AIA) із міста Тілбург уклала угоду з ізраїльським виробником зброї Israel Weapon Industries (IWI) про виробництво двох моделей стрілецької зброї. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_02/thumb_files/630_360_1709056996-636.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -116,12 +143,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Армія РФ протягом дня понад 40 разів атакувала Дніпропетровщину, постраждав чоловік",
-      "url": "https://www.ukrinform.ua/rubric-regions/4183058-armia-rf-protagom-dna-ponad-40-raziv-atakuvala-dnipropetrovsinu-postrazdav-colovik.html",
-      "date": "2026-11-09T17:19:00+00:00",
-      "excerpt": "Російські загарбники протягом дня понад 40 разів атакували три райони Дніпропетровської області, унаслідок чого одна людина дістала поранення, є низка пошкоджень. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1794244743-236.jpg",
-      "source": "Укрінформ"
+      "title": "Макрони подали у суд на подкастерку, яка заявила, що Бріджит — чоловік",
+      "url": "https://suspilne.media/1448935-podruzza-makroniv-podalo-u-sud-na-podkasterku-aka-zaavila-so-bridzit-transgendernij-colovik",
+      "date": "2026-11-10T00:50:26+00:00",
+      "excerpt": "Президент Франції Еммануель Макрон та його дружина Бріжит подали у суд на подкастерку Кендіс Овенс за те, що та назвала першу ледії Франції трансгендерним чоловіком — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/5e/5e22ceea0ff01d4b7356768aecf7c7cad45aefd8f8c74f271748f88322ece8d0.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -143,11 +170,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Трамп поставив під сумнів чесність виборів до Конгресу",
-      "url": "https://www.pravda.com.ua/news/2026/11/09/8062019",
-      "date": "2026-11-09T17:10:00+00:00",
-      "excerpt": "Президент США Дональд Трамп поставив під сумнів легітимність результатів проміжних виборів до Конгресу США.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/2/7/953574/2741c68e896a515fd03df69adf53675b.jpeg?w=1200&q=85&stamp=1794244152",
+      "title": "Рубіо: Гарантії безпеки для України мають бути прийнятними для Росії",
+      "url": "https://www.pravda.com.ua/news/2026/11/10/8062054",
+      "date": "2026-11-10T00:44:00+00:00",
+      "excerpt": "Рубіо вважає, що гарантії безпеки для України мають бути прийнятними для Росії.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/2/4/953686/24394b66adcf4f013da0b9367a8960c2.jpeg?w=1200&q=85&stamp=1794271516",
       "source": "Українська правда"
     },
     {
@@ -157,6 +184,15 @@
       "date": "2026-11-05T16:39:00+00:00",
       "excerpt": "Жмеринська громада здобула перше місце в обласному конкурсі «Громада року:т ветеранський спорт»",
       "image": "https://im2.abo.media/media/64/article/af8883d81bcb48078916332f9a793559.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "У Жмеринці створять безбар’єрний простір для студентів і людей з інвалідністю: училище здобуло грант – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/484717/u-zhmerinci-stvoryat-bezbaryernij-prostir-dlya-studentiv-i-lyudej-z-invalidnistyu-uchilische-zdobulo-grant",
+      "date": "2026-11-03T15:29:00+00:00",
+      "excerpt": "Благодійний фонд «Допомога», який сприяє розвитку місцевого вищого професійного училища, став переможцем грантового конкурсу Програми розвитку ООН (ПРООН) в Україні за підтримки Японії.",
+      "image": "https://im2.abo.media/media/64/article/44fc68645c304426ac4548ebc43f8d8e.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -170,21 +206,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Зеленський вручив нагороди десантникам",
-      "url": "https://www.ukrinform.ua/rubric-ato/4183055-zelenskij-vruciv-nagorodi-desantnikam.html",
-      "date": "2026-11-09T17:00:00+00:00",
-      "excerpt": "Президент Володимир Зеленський відзначив державними нагородами українських десантників та вручив бойові прапори й стрічки почесного найменування військовим частинам Десантно-штурмових військ (ДШВ). — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1794243488-747.jpg",
+      "title": "У Тернополі до 8 років ув’язнення засудили губернатора Іванівської області РФ",
+      "url": "https://www.ukrinform.ua/rubric-ato/4183137-u-ternopoli-do-8-rokiv-uvaznenna-zasudili-gubernatora-ivanivskoi-oblasti-rf.html",
+      "date": "2026-11-10T00:19:00+00:00",
+      "excerpt": "У Тернополі заочно засудили до 8 років позбавлення волі губернатора Іванівської області Станіслава Воскресенського за фінансування російських військ у війні проти України. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_06/thumb_files/630_360_1750867470-586.jpg",
       "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринці створять безбар’єрний простір для студентів і людей з інвалідністю: училище здобуло грант – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/484717/u-zhmerinci-stvoryat-bezbaryernij-prostir-dlya-studentiv-i-lyudej-z-invalidnistyu-uchilische-zdobulo-grant",
-      "date": "2026-11-03T15:29:00+00:00",
-      "excerpt": "Благодійний фонд «Допомога», який сприяє розвитку місцевого вищого професійного училища, став переможцем грантового конкурсу Програми розвитку ООН (ПРООН) в Україні за підтримки Японії.",
-      "image": "https://im2.abo.media/media/64/article/44fc68645c304426ac4548ebc43f8d8e.webp",
-      "source": "Жмеринка.City"
     },
     {
       "area": "local",
@@ -206,12 +233,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Трамп уже піддає сумніву результати проміжних виборів",
-      "url": "https://www.ukrinform.ua/rubric-world/4183057-tramp-uze-piddae-sumnivu-rezultati-promiznih-viboriv.html",
-      "date": "2026-11-09T16:59:34+00:00",
-      "excerpt": "Президент США Дональд Трамп поставив під сумнів чесність проміжних виборів до Конгресу, заявивши, що результати опитувань не відповідали підсумкам голосування. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1773775339-857.jpg",
-      "source": "Укрінформ"
+      "title": "Трамп пообіцяв підтримати Гегсета в разі процедури імпічменту",
+      "url": "https://www.pravda.com.ua/news/2026/11/10/8062052",
+      "date": "2026-11-09T23:42:00+00:00",
+      "excerpt": "Трамп заявив, що захищатиме Гегсета в разі процедури імпічменту.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/c/4/953682/c4f8bb664ae336f5e10fc7727d3869b3.jpeg?w=1200&q=85&stamp=1794268311",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -233,11 +260,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Як у сім'ї Вікарій приховали смерть дитини: фільм «Не плач, їй це подобається»",
-      "url": "https://suspilne.media/1448769-ak-u-simi-vikarij-prihovali-smert-ditini-dokumentalnij-film-ne-plac-ij-ce-podobaetsa-video",
-      "date": "2026-11-09T16:58:38+00:00",
-      "excerpt": "Дашу Саннікову віддали з інтернату матері через 10 місяців після заборони суду. Ще через вісім місяців дитина померла. Чотири роки зникнення 10-річної дівчинки ніхто не помічав — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/c0/c05125cf02d4d557339f22ad73c141bf33b0e2b989fcf10122d941a3cf51c430.jpg",
+      "title": "Трамп: Іран переможений, ми просто зберігаємо нинішній стан речей",
+      "url": "https://suspilne.media/1448929-tramp-iran-peremozenij-mi-prosto-zberigaemo-ninisnij-stan-recej",
+      "date": "2026-11-09T23:39:22+00:00",
+      "excerpt": "Президент США Дональд Трамп заявив, що війна в Ірані «фактично завершена у військовому плані», але він продовжує шукати «довгострокове рішення» — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/f0/f0078859f6128a2b332e7bff5df2d9246cd9aacf682cb5795e7e1f7e95fc5c07.jpg",
       "source": "Суспільне"
     },
     {
@@ -247,6 +274,15 @@
       "date": "2026-10-30T16:26:00+00:00",
       "excerpt": "Жмеринка схиляє голови перед пам'яттю Героя",
       "image": "https://im2.abo.media/media/64/article/3290b05f6f6941a6845cc41bfb935661.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "У Жмеринці відбувся відкритий дитячий шаховий турнір «Жмеринська осінь – 2026» – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/484184/u-zhmerinci-vidbuvsya-vidkritij-dityachij-shahovij-turnir-zhmerinska-osin-2026",
+      "date": "2026-10-29T12:17:00+00:00",
+      "excerpt": "Найінтелектуальніша гра зібрала юних шахістів Жмеринської громади за шахівницями.",
+      "image": "https://im2.abo.media/media/64/article/404ba4cbeb364403b5a6cdffe385b3b3.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -260,21 +296,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Арахамія: На перших переговорах навряд буде прорив, є очікування від другого раунду",
-      "url": "https://www.pravda.com.ua/news/2026/11/09/8062017",
-      "date": "2026-11-09T16:58:00+00:00",
-      "excerpt": "Давид Арахамія заявив, що від першого раунду переговорів Україна не чекає прориву, але має надії на другий раунд зустрічей у Абу-Дабі.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/b/0/953565/b053ec97c4514c5cae88d5e6416017ce.jpeg?w=1200&q=85&stamp=1794243558",
-      "source": "Українська правда"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринці відбувся відкритий дитячий шаховий турнір «Жмеринська осінь – 2026» – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/484184/u-zhmerinci-vidbuvsya-vidkritij-dityachij-shahovij-turnir-zhmerinska-osin-2026",
-      "date": "2026-10-29T12:17:00+00:00",
-      "excerpt": "Найінтелектуальніша гра зібрала юних шахістів Жмеринської громади за шахівницями.",
-      "image": "https://im2.abo.media/media/64/article/404ba4cbeb364403b5a6cdffe385b3b3.webp",
-      "source": "Жмеринка.City"
+      "title": "Пентагон підтвердив, що найближчим часом Україна отримає озброєння на $400 мільйонів - Сєнік",
+      "url": "https://www.ukrinform.ua/rubric-ato/4183131-pentagon-pidtverdiv-so-najblizcim-casom-ukraina-otrimae-ozbroenna-na-400-miljoniv-senik.html",
+      "date": "2026-11-09T23:30:00+00:00",
+      "excerpt": "Пентагон повідомив українській стороні, що найближчим часом Україна зможе отримати озброєння на суму $400 млн, передбачену у межах програми USAI на поточний фінансовий рік. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_02/thumb_files/630_360_1740052666-812.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -296,12 +323,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Велика Британія створила першу ескадру безекіпажних катерів",
-      "url": "https://suspilne.media/1448547-velika-britania-stvorila-persu-avtonomnu-eskadru-bezekipaznih-kateriv",
-      "date": "2026-11-09T16:56:56+00:00",
-      "excerpt": "Королівський флот Великої Британії створив першу автономну ескадру безекіпажних катерів. До її складу увійшли катери Kraken і Rattler, які використовуватимуть для військових операцій. — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/84/848f9c57e984d871425e70b95b314542a6888af4238e671eee3833af471bfc61.jpg",
-      "source": "Суспільне"
+      "title": "Зеленський: Культура та мистецтво дуже важливі і є частиною нашої дипломатії",
+      "url": "https://www.ukrinform.ua/rubric-culture/4183132-zelenskij-kultura-ta-mistectvo-duze-vazlivi-i-e-castinou-nasoi-diplomatii.html",
+      "date": "2026-11-09T23:17:00+00:00",
+      "excerpt": "Українців об’єднує розуміння, що культура й мистецтво дуже потрібні та важливі і є частиною нашої дипломатії, це голос, який чути скрізь. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1794266023-400.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -323,11 +350,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Кушнер та Віткофф зустрінуться з європейськими представниками перед перемовинами в Абу-Дабі",
-      "url": "https://www.ukrinform.ua/rubric-world/4183052-kusner-ta-vitkoff-zustrinutsa-z-evropejskimi-predstavnikami-pered-peremovinami-v-abudabi.html",
-      "date": "2026-11-09T16:46:00+00:00",
-      "excerpt": "Спецпредставники американського президента Дональда Трампа – Джаред Кушнер та Стів Віткофф – проведуть зустріч з представниками ЄС перед початком тристоронніх перемовин Україна–США–РФ в Абу-Дабі. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_09/thumb_files/630_360_1788713175-800.jpg",
+      "title": "На тлі протестів через дорожнечу уряд Франції підвищить мінімальну зарплату",
+      "url": "https://www.ukrinform.ua/rubric-world/4183031-na-tli-protestiv-cerez-doroznecu-urad-francii-pidvisit-minimalnu-zarplatu.html",
+      "date": "2026-11-09T23:05:00+00:00",
+      "excerpt": "Уряд Франції з 1 грудня підвищить мінімальну зарплату (SMIC) на 1,6%. Вона становитиме близько 1502 євро нетто на місяць - це майже на 24 євро більше, ніж зараз. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1752585043-800.jpg",
       "source": "Укрінформ"
     },
     {
@@ -337,33 +364,6 @@
       "date": "2026-10-26T16:03:00+00:00",
       "excerpt": "Додому «на щиті» повертається Степан Бондар",
       "image": "https://im2.abo.media/media/64/article/0afc6586bf024e008837866d74725560.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "Мамографія за 20 хвилин або через півтора місяця: чому у Вінниці черги, а в Немирові можна обстежитися одразу? - 20 хвилин",
-      "url": "https://vn.20minut.ua/Vid-Chytachiv/mamografiya-za-20-hvilin-abo-cherez-pivtora-misyatsya-chomu-u-vinnitsi-12012245.html",
-      "date": "2026-11-09T09:57:27+00:00",
-      "excerpt": "[09:11:2026] Мамографія за 20 хвилин або через півтора місяця: чому у Вінниці черги, а в Немирові можна обстежитися одразу? ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news/0042/73/4172223-mamografiya-za-20-hvilin-abo-cherez-pivtora-misyatsya-chomu-u-vinnitsi-chergi-a-v-nemirovi-mozhna-obstezhitisya-odrazu.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Мерц пригрозив заблокувати бюджет ЄС без домовленості про фінансування України - FT",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4183049-merc-prigroziv-zablokuvati-budzet-es-bez-domovlenosti-pro-finansuvanna-ukraini-ft.html",
-      "date": "2026-11-09T16:40:48+00:00",
-      "excerpt": "Федеральний канцлер Німеччини Фрідріх Мерц пригрозив не підтримати бюджет Європейського Союзу на 2028-2034 роки, якщо всі держави-члени не домовляться про спільне фінансування України у 2027 році та в подальші роки. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1793716652-389.jpg",
-      "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринській громаді відбувся чемпіонат зі спортивної аеробіки: жмеринчани здобули понад 30 медалей – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/483823/u-zhmerinskij-gromadi-vidbuvsya-chempionat-zi-sportivnoi-aerobiki-zhmerinchani-zdobuli-ponad-30-medalej",
-      "date": "2026-10-26T14:55:00+00:00",
-      "excerpt": "Свято краси, грації та спортивного характеру",
-      "image": "https://im2.abo.media/media/64/article/e021f7d0bcc345f683e000c5441297e6.webp",
       "source": "Жмеринка.City"
     }
   ]
