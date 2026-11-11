@@ -1,11 +1,128 @@
 {
-  "updated_at": "2026-11-11T14:17:57.102036+00:00",
+  "updated_at": "2026-11-11T21:56:46.162230+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
     "ukraine": 30
   },
   "items": [
+    {
+      "area": "local",
+      "title": "Додому «на щиті» повертається морський піхотинець Павло Танасейчук із Браїлова – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/485585/dodomu-na-schiti-povertayetsya-morskij-pihotinec-pavlo-tanasejchuk-iz-brailova-rik-vvazhavsya-zniklim",
+      "date": "2026-11-11T16:07:00+00:00",
+      "excerpt": "Жмеринська громада знову у жалобі за захисником України",
+      "image": "https://im2.abo.media/media/64/article/673df7717f794759be712f531014ad63.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "Від житла до оформлення документів: яка допомога є для звільнених із полону жителів Вінниччини? - 20 хвилин",
+      "url": "https://vn.20minut.ua/Vinnytski-veterany/vid-zhitla-do-psihologichnoyi-pidtrimki-yaka-dopomoga-e-dlya-zvilnenih-12012497.html",
+      "date": "2026-11-11T18:24:00+00:00",
+      "excerpt": "Станом на лютий 2025 року з російського полону додому повернулися 119 жителів Вінниччини. У 2026 році звільнили ще десятки захисників із нашої області. Однак повернення додому — лише перший крок до…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/75/4174456-vid-zhitla-do-oformlennya-dokumentiv-yaka-dopomoga-e-dlya-zvilnenih-iz-polonu-zhiteliv-vinnichchini.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Україна може отримати від Чехії 16 літаків L-39 Skyfox — віцепрем'єр Гавлічек",
+      "url": "https://suspilne.media/1450729-ukraina-moze-otrimati-vid-cehii-16-litakiv-l-39-skyfox-ceskij-vicepremer-gavlicek",
+      "date": "2026-11-11T21:53:35+00:00",
+      "excerpt": "Віцепрем'єр Чехії Карел Гавлічек вів переговори про постачання з Корецьким у Києві. За оцінкою iRozhlas, Україні, ймовірно, призначалася б протидронова версія — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/0f/0f11add08c6b5d486356fe66610b8c0147d9363de5f7f5bd1b6765719fa0bfe5.jpg",
+      "source": "Суспільне"
+    },
+    {
+      "area": "local",
+      "title": "Отримання висновку з оцінки впливу на довкілля ФГ «ПЛЕБАНІВСЬКИЙ САД» 34121355.",
+      "url": "https://zhmerynka-rda.gov.ua/2026/11/11/%D0%BE%D1%82%D1%80%D0%B8%D0%BC%D0%B0%D0%BD%D0%BD%D1%8F-%D0%B2%D0%B8%D1%81%D0%BD%D0%BE%D0%B2%D0%BA%D1%83-%D0%B7-%D0%BE%D1%86%D1%96%D0%BD%D0%BA%D0%B8-%D0%B2%D0%BF%D0%BB%D0%B8%D0%B2%D1%83-%D0%BD%D0%B0",
+      "date": "2026-11-11T15:56:19+00:00",
+      "excerpt": "Управління розвитку територій та інфорасруктури Вінницької ОВА, був виданий висновок з оцінки впливу на довкілля планової діяльності :”Оновлення умов провадження господарської діяльності на діючому виробничому комплексі за адресою: Вінницька обл. , Жмеринський р-н село Плебанівка, вул. Соборна,25 “І”, 25 “Г”, 25 “Є”, 2",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/07/02-5-300x200.jpg",
+      "source": "Жмеринська РВА"
+    },
+    {
+      "area": "region",
+      "title": "Поліцейські, капелани та курсанти влаштували сюрприз для підлітка у Вінниці - 20 хвилин",
+      "url": "https://vn.20minut.ua/Kult-podii/politseyski-kapelani-ta-kursanti-vlashtuvali-syurpriz-dlya-pidlitka-u--12012441.html",
+      "date": "2026-11-11T18:05:00+00:00",
+      "excerpt": "На день народження хлопця чекали не лише подарунки та святковий торт, а й несподіваний гість із чотирма лапами. До привітань долучилися поліцейські, капелани, курсанти та організатори свят.",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/75/4174084-politseyski-kapelani-ta-kursanti-vlashtuvali-syurpriz-dlya-pidlitka-u-vinnitsi.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Генштаб повідомив про 149 бойових зіткнень на фронті з початку доби",
+      "url": "https://www.pravda.com.ua/news/2026/11/11/8062421",
+      "date": "2026-11-11T21:18:00+00:00",
+      "excerpt": "Від початку доби 11 листопада на фронті відбулось 149 бойових зіткнень.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/1/4/955143/140b11a21aba22d4ee6d96a053e41bae.jpeg?w=1200&q=85&stamp=1794431930",
+      "source": "Українська правда"
+    },
+    {
+      "area": "local",
+      "title": "Додому «на щиті» повертається Віталій Кондратьєв з села Слобода Чернятинська – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/485580/dodomu-na-schiti-povertayetsya-vitalij-kondratyev-z-sela-sloboda-chernyatinska",
+      "date": "2026-11-11T14:51:00+00:00",
+      "excerpt": "Жмеринщина у жалобі за захисником",
+      "image": "https://im2.abo.media/media/64/article/64729f321655458d93c6d94590334e2b.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "«Не знайшли ні мобілки, ні злодія»: поліція, прокуратура, експерти — 25 людей шукали вкрадений телефон - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/ne-znayshli-ni-mobilki-ni-zlodiya-politsiya-prokuratura-eksperti--25-l-12012490.html",
+      "date": "2026-11-11T17:15:00+00:00",
+      "excerpt": "Про пошуки вкраденої мобілки вінничанин розповів у редакції «20 хвилин». Що його найбільше вразило після того, як написав заяву у поліцію? Найцікавіше почалося через сім місяців, коли отримав листа…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/75/4174407-ne-znayshli-ni-mobilki-ni-zlodiya-politsiya-prokuratura-eksperti--25-lyudey-shukali-vkradeniy-telefon.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Історія жінки, яку евакуювали з тимчасово окупованих Олешок (Відео)",
+      "url": "https://suspilne.media/1450727-istoria-zinki-aku-evakuuvali-z-timcasovo-okupovanih-olesok-video",
+      "date": "2026-11-11T20:52:56+00:00",
+      "excerpt": "72-річна Надія Негра майже п'ять років не бачилася з донькою через окупацію Олешок на Херсонщині. 30 жовтня її евакуювали під час гуманітарної місії, після чого вона зустрілася з донькою в Одесі — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/df/df8626bd82b9cc6c9336ee412c78b0c7b28075d525a2f1c4aec22fe96e86af2a.jpg",
+      "source": "Суспільне"
+    },
+    {
+      "area": "local",
+      "title": "Вода, дороги і робочі місця: що запропонували на стратегічній сесії Жмеринської громади – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/485594/voda-dorogi-i-robochi-miscya-scho-zaproponuvali-na-strategichnij-sesii-zhmerinskoi-gromadi",
+      "date": "2026-11-11T12:01:00+00:00",
+      "excerpt": "Вода, дороги і робочі місця: що запропонували на стратегічній сесії Жмеринської громади",
+      "image": "https://im2.abo.media/media/64/article/e2a6c68b53314ebd837d992f8f2db2c5.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "local",
+      "title": "Ліси Жмеринського надлісництва – під комплексною охороною – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/485570/lisi-zhmerinskogo-nadlisnictva-pid-kompleksnoyu-ohoronoyu",
+      "date": "2026-11-11T11:10:00+00:00",
+      "excerpt": "У Жмеринському надлісництві філії «Центральний лісовий офіс» ДП «Ліси України» постійно поєднують рейдову роботу, профілактичні заходи та розвиток.",
+      "image": "https://im2.abo.media/media/64/article/fba44d1c11a8488aa0b8b6d452f41de0.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "Водопровідна вода у трьох містах Вінниччини має відхилення від норми - 20 хвилин",
+      "url": "https://vn.20minut.ua/Zdorovya/vodoprovidna-voda-u-troh-mistah-vinnichchini-mae-vidhilennya-vid-normi-12012443.html",
+      "date": "2026-11-11T17:06:00+00:00",
+      "excerpt": "У трьох містах Вінниччини лабораторії виявили відхилення у складі водопровідної води. Загалом фахівці дослідили 276 проб, більшість із яких відповідали встановленим вимогам.",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/75/4174101-vodoprovidna-voda-u-troh-mistah-vinnichchini-mae-vidhilennya-vid-normi.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Зеленський про переговори: Зараз є \"вікно можливостей\", щоб отримати результат до 2027 року",
+      "url": "https://www.pravda.com.ua/news/2026/11/11/8062419",
+      "date": "2026-11-11T20:51:00+00:00",
+      "excerpt": "Президент України Володимир Зеленський каже, наразі існує \"вікно можливостей\" для результатів у переговорному процесі до 2027-го року.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/9/7/955141/97ae2e729bf766659e303ec4a3233d85.jpeg?w=1200&q=85&stamp=1794430311",
+      "source": "Українська правда"
+    },
     {
       "area": "local",
       "title": "MagSafe, Qi і Qi2: сумісність iPhone з магнітною зарядкою – Жмеринка.City",
@@ -17,20 +134,20 @@
     },
     {
       "area": "region",
-      "title": "У Вінниці горіла СТО, а в Кацмазові — дрова - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/u-vinnitsi-gorila-sto-a-v-katsmazovi--drova-12012438.html",
-      "date": "2026-11-11T13:10:00+00:00",
-      "excerpt": "[11:11:2026] У Вінниці горіла СТО, а в Кацмазові — дрова ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/75/4174060-u-vinnitsi-gorila-sto-a-v-katsmazovi--drova.jpeg",
+      "title": "Ваш лікар є у цьому списку? ТОП-10 сімейних лікарів Вінниці за кількістю пацієнтів - 20 хвилин",
+      "url": "https://vn.20minut.ua/Zdorovya/vash-likar-e-u-tsomu-spisku-top-10-simeynih-likariv-vinnitsi-za-kilkis-12012483.html",
+      "date": "2026-11-11T16:18:00+00:00",
+      "excerpt": "Ми склали рейтинг найпопулярніших медиків міста, перевірили кількість їхніх пацієнтів і підготували інструкцію, як обрати сімейного лікаря та укласти з ним декларацію.",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/75/4174371-vash-likar-e-u-tsomu-spisku-top-10-simeynih-likariv-vinnitsi-za-kilkistyu-patsientiv.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "На Дніпропетровщині викрили підполковника ЗСУ на вимаганні грошей з військових",
-      "url": "https://suspilne.media/dnipro/1450445-persij-vipadok-v-ukraini-na-dnipropetrovsini-vikrili-pidpolkovnika-zsu-na-vimaganni-grosej-za-viplati-vijskovim",
-      "date": "2026-11-11T14:15:00+00:00",
-      "excerpt": "На Дніпропетровщині підполковника однієї з військових частин Збройних сил України підозрюють у вимаганні 380 тисяч гривень за оформлення документів для отримання виплат за знищену російську техніку — Суспільне Дніпро",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/fa/fa09e01351f2fa74f351dc0769a1e86f28defb668873cd278d069b768b118881.jpg",
+      "title": "Каллас назвала скільки українських дітей незаконно депортувала Росія",
+      "url": "https://suspilne.media/1450721-kallas-nazvala-skilki-ukrainskih-ditej-nezakonno-deportuvala-rosia",
+      "date": "2026-11-11T20:29:49+00:00",
+      "excerpt": "Висока представниця Євросоюзу Кая Каллас заявила, що Росія незаконно депортувала 20 500 дітей з тимчасово окупованих територій України. Станом на листопад 2026 року Росія повернула тільки 2790 дітей — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/c4/c4a70dcf88d883da1198ed1c5189c4089d74738dab7db0b216bd80c555a41975.jpg",
       "source": "Суспільне"
     },
     {
@@ -39,25 +156,25 @@
       "url": "https://zhmerynka-rda.gov.ua/2026/11/10/%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D0%B8%D0%BA%D0%B8-%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B8-%D1%8F%D0%BA%D0%B8%D0%BC%D0%B8-%D0%BF%D0%B8%D1%88%D0%B0%D1%94%D1%82%D1%8C",
       "date": "2026-11-10T15:10:32+00:00",
       "excerpt": "Головній режисерці Барського міського художнього аматорського театру Ірині Дєдовій присвоєно почесне звання «Заслужений працівник культури України». Відповідний Указ №1100/2026 Президент України підписав 9 листопада 2026 року з нагоди Всеукраїнського дня працівників культури та майстрів народного мистецтва. Ірина Дєдов",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/11/05-4.jpg",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/05/02-5-300x251.jpg",
       "source": "Жмеринська РВА"
     },
     {
       "area": "region",
-      "title": "Збивати «Шахеди» силами бізнесу. Скільки приватних ППО готують на Вінниччині та як долучитися - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/zbivati-shahedi-silami-biznesu-skilki-privatnih-ppo-gotuyut-na-vinnich-12012462.html",
-      "date": "2026-11-11T12:26:00+00:00",
-      "excerpt": "[11:11:2026] Збивати «Шахеди» силами бізнесу. Скільки приватних ППО готують на Вінниччині та як долучитися ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/75/4174241-zbivati-shahedi-silami-biznesu-skilki-privatnih-ppo-gotuyut-na-vinnichchini-ta-yak-doluchitisya.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "«Супергерої FAST»: на Вінниччині діти вчаться допомагати рідним у разі інсульту",
+      "url": "https://suspilne.media/vinnytsia/1450423-na-vinniccini-skolariv-navcaut-rozpiznavati-insult-u-programi-berut-ucast-50-zakladiv",
+      "date": "2026-11-11T16:11:03+00:00",
+      "excerpt": "На Вінниччині у 50 закладах освіти дітей навчають розпізнавати інсульт за програмою «Супергерої FAST». Школярі вчаться помічати небезпечні симптоми, правильно діяти в екстрених ситуаціях і викликати швидку за номером 103 — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/98/9800aaa4cd3c529f523568305e946a2fff88595cfe3900cab6be46520bf03bc0.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Рада ухвалила законопроєкт про зміни доступу до банківської таємниці",
-      "url": "https://suspilne.media/1450439-rada-uhvalila-zakonoproekt-pro-zmini-dostupu-do-bankivskoi-taemnici",
-      "date": "2026-11-11T14:05:49+00:00",
-      "excerpt": "Верховна Рада ухвалила законопроєкт про зміни щодо доступу до банківської таємниці. Тепер доступ отримають лише кримінальні та адміністративні суди — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/6d/6d929d5956e55b087ae0b720294f02085c49568efc2f620a9fdcaa45a1e1cf14.jpg",
+      "title": "В Угорщині заарештували брата Віктора Орбана у справі про візову схему",
+      "url": "https://suspilne.media/1450715-v-ugorsini-sud-na-misac-zaarestuvav-brata-kolisnogo-premera-viktora-orbana-u-spravi-sodo-vizovoi-shemi",
+      "date": "2026-11-11T20:17:26+00:00",
+      "excerpt": "Суд у Будапешті взяв під варту на місяць Арона Орбана, брата колишнього прем'єра Угорщини Віктора Орбана, та його спільницю у справі про ймовірну допомогу громадянам В'єтнаму в незаконному переправленні до Західної Європи — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/0c/0c75e3e8f5607cb08cb54a6a59544a207696776b2796ef9ff6b6e56865519fa3.jpg",
       "source": "Суспільне"
     },
     {
@@ -70,24 +187,6 @@
       "source": "Жмеринка.City"
     },
     {
-      "area": "region",
-      "title": "У лісах Вінниччини дозволили відстріл диких кабанів і хижаків - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/u-lisah-vinnichchini-dozvolili-vidstril-dikih-kabaniv-i-hizhakiv-12012453.html",
-      "date": "2026-11-11T11:13:00+00:00",
-      "excerpt": "[11:11:2026] У лісах Вінниччини дозволили відстріл диких кабанів і хижаків ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/75/4174151-u-lisah-vinnichchini-dozvolili-vidstril-dikih-kabaniv-i-hizhakiv.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Попри опір бійців полк \"Айдар\" отримав нового командира",
-      "url": "https://www.pravda.com.ua/news/2026/11/11/8062356",
-      "date": "2026-11-11T14:00:00+00:00",
-      "excerpt": "24 окремий штурмовий полк \"Айдар\" очолив Сергій Мирошниченко, який до того був заступником командира 225 окремого штурмового полку.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/9/0/954952/90e990a9d8334c909f6f437988e518e5.jpeg?w=1200&q=85&stamp=1794405580",
-      "source": "Українська правда"
-    },
-    {
       "area": "local",
       "title": "Цікаві факти про культуру у Жмеринській громаді: відео – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/485300/cikavi-fakti-pro-kulturu-u-zhmerinskij-gromadi-video",
@@ -95,6 +194,24 @@
       "excerpt": "Цікаві факти про культуру у Жмеринській громаді",
       "image": "https://im2.abo.media/media/64/article/2c58bbecbe4147499eb9508df411fdfd.webp",
       "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "Семеро людей отруїлися грибами на Вінниччині, серед постраждалих двоє дітей - 20 хвилин",
+      "url": "https://vn.20minut.ua/Zdorovya/semero-lyudey-otruyilisya-gribami-na-vinnichchini-sered-postrazhdalih--12012446.html",
+      "date": "2026-11-11T16:11:00+00:00",
+      "excerpt": "Серед постраждалих від грибів на Вінниччині — п'ятирічний хлопчик і 12-річна дівчинка. Один із дорослих потрапив до лікарні після вживання сушених мухоморів, які використовував для самолікування.",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/75/4174110-semero-lyudey-otruyilisya-gribami-na-vinnichchini-sered-postrazhdalih-dvoe-ditey.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Зеленський: Американці намагаються знайти \"модифікації\" щодо Донбасу для зупинки війни",
+      "url": "https://www.pravda.com.ua/news/2026/11/11/8062413",
+      "date": "2026-11-11T19:57:00+00:00",
+      "excerpt": "Президент Зеленський заявив, що США розглядають різні підходи до врегулювання територіального питання Донбасу та планують переговори на рівні лідерів.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/d/b/955124/dbb6a08bd832b744c7ae90abc6abb93a.jpeg?w=1200&q=85&stamp=1794426951",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -107,20 +224,20 @@
     },
     {
       "area": "region",
-      "title": "На Вінниччині під час пожежі загинув 77-річний чоловік",
-      "url": "https://suspilne.media/vinnytsia/1450125-na-vinniccini-pid-cas-pozezi-zaginuv-77-ricnij-colovik-2",
-      "date": "2026-11-11T11:09:44+00:00",
-      "excerpt": "У селі Кожухів Хмільницької громади під час пожежі загинув 77-річний власник будинку. За даними ДСНС, займання виникло через несправність печі — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/b3/b39d0ee0c50c6c005c7d0ea578848bf098b5e8040d5498be95a5a332aab8040a.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "Четверо спортсменів із Вінниччини отримуватимуть стипендії Президента України - 20 хвилин",
+      "url": "https://vn.20minut.ua/lyudi/chetvero-sportsmeniv-iz-vinnichchini-otrimuvatimut-stipendiyi-preziden-12012448.html",
+      "date": "2026-11-11T15:07:00+00:00",
+      "excerpt": "Серед відзначених — два чемпіони та двоє срібних призерів XIV зимових Паралімпійських ігор із парабіатлону. Їм призначили виплати від 12 до 15 тисяч гривень на місяць.",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/75/4174128-chetvero-sportsmeniv-iz-vinnichchini-otrimuvatimut-stipendiyi-prezidenta-ukrayini.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "ВАКС дозволив Єрмаку без електронного браслета пересуватись по всій Україні",
-      "url": "https://www.pravda.com.ua/news/2026/11/11/8062355",
-      "date": "2026-11-11T13:58:00+00:00",
-      "excerpt": "Вищий антикорупційний суд змінив запобіжний захід Андрію Єрмаку, підозрюваному у легалізації 460 млн грн під час будівництва містечка.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/d/6/954935/d670ce354e676cf443749dd8c2a7e71a.jpeg?w=1200&q=85&stamp=1794405234",
+      "title": "Зеленський розповів про очікування від зустрічі з Віткоффом та Кушнером після їх візиту до Путіна",
+      "url": "https://www.pravda.com.ua/news/2026/11/11/8062411",
+      "date": "2026-11-11T19:33:00+00:00",
+      "excerpt": "Президент Володимир Зеленський заявив, що після переговорів в Абу-Дабі спецпредставники президента США вирушили до Володимиоа Путіна з конкретикою, і він розраховує, що після перемовин із ним вони прибудуть на зустріч до Дубліна у четвер також з конкретикою.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/1/9/955120/19aa6b8636441e210a91034e23500c2e.jpeg?w=1200&q=85&stamp=1794425673",
       "source": "Українська правда"
     },
     {
@@ -134,20 +251,20 @@
     },
     {
       "area": "region",
-      "title": "«Однушка» тепер коштує $63 тисячі. Що з цінами на вінницьку нерухомість? - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/odnushka-teper-koshtue-63-tisyachi-scho-z-tsinami-na-vinnitsku-neruhom-12012437.html",
-      "date": "2026-11-11T10:21:00+00:00",
-      "excerpt": "[11:11:2026] «Однушка» тепер коштує $63 тисячі. Що з цінами на вінницьку нерухомість? ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/75/4174056-odnushka-teper-koshtue-63-tisyachi-scho-z-tsinami-na-vinnitsku-neruhomist.jpeg",
+      "title": "У Вінниці горіла СТО, а в Кацмазові — дрова - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/u-vinnitsi-gorila-sto-a-v-katsmazovi--drova-12012438.html",
+      "date": "2026-11-11T13:10:00+00:00",
+      "excerpt": "Пожежі виникали як у населених пунктах, так і за їхніми межами. Серед місць займань — станція техобслуговування у Вінниці та ділянки із сухою рослинністю в громадах області.",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/75/4174060-u-vinnitsi-gorila-sto-a-v-katsmazovi--drova.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Росіяни весь день атакують Харків: 2 людини загинули, ще 5 постраждали",
-      "url": "https://www.pravda.com.ua/news/2026/11/11/8062306",
-      "date": "2026-11-11T13:58:00+00:00",
-      "excerpt": "11 листопада російські війська завдавали ударів по Салтівському, Основʼянському та Шевченківському районах Харкова, внаслідок чого 2 людей загинули, ще 5 постраждали.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/7/5/954938/75168e2fad3dad30cc57c03590a48883.jpeg?w=1200&q=85&stamp=1794405435",
+      "title": "Трамп заявив, що США не розпочинали війну з Іраном",
+      "url": "https://www.pravda.com.ua/news/2026/11/11/8062409",
+      "date": "2026-11-11T19:05:00+00:00",
+      "excerpt": "Президент США Дональд Трамп заявив, що Америка не розпочинала війну з Іраном, коментуючи поточний конфлікт і дії США.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/7/1/955109/7110f77701cf48fb3e4a756e915413cb.jpeg?w=1200&q=85&stamp=1794423726",
       "source": "Українська правда"
     },
     {
@@ -160,33 +277,6 @@
       "source": "Жмеринка.City"
     },
     {
-      "area": "region",
-      "title": "На кордоні з Молдовою вінницькі митники виявили карабін, глушник та 32 набої",
-      "url": "https://suspilne.media/vinnytsia/1450107-na-kordoni-z-moldovou-vinnicki-mitniki-viavili-karabin-glusnik-ta-32-naboi-v-avtomobili",
-      "date": "2026-11-11T10:13:00+00:00",
-      "excerpt": "У пункті пропуску «Могилів-Подільський — Отач» вінницькі митники виявили карабін, глушник та 32 набої. Власник не мав дозвільних документів на їх вивезення — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/08/0819d86925713f20df534a9dc9c320fd469f141d38f655974b5f0cd6d8c24fc8.jpg",
-      "source": "Суспільне Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Рада підтримала законопроєкт про забезпечення незалежності прокуратури",
-      "url": "https://suspilne.media/1450397-rada-pidtrimala-zakonoproekt-pro-zminu-pravil-ocinuvanna-roboti-prokuraturi",
-      "date": "2026-11-11T13:57:57+00:00",
-      "excerpt": "Документ визначає правила оцінювання роботи прокурорів і відбору кандидатів на адміністративні посади, а також передбачає перетворення Ради прокурорів України на незалежний орган самоврядування — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/b4/b428953a4862bc5828e40c2e6106cd032920c0fab4690634ff325c0e85bd8db8.jpg",
-      "source": "Суспільне"
-    },
-    {
-      "area": "local",
-      "title": "ОГОЛОШЕННЯ про оцінювання корупційних ризиків в діяльності Жмеринської районної військової адміністрації та надання представниками громадськості кандидатур для включення до складу робочої групи",
-      "url": "https://zhmerynka-rda.gov.ua/2026/11/06/%D0%BE%D0%B3%D0%BE%D0%BB%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D1%8F-%D0%BF%D1%80%D0%BE-%D0%BE%D1%86%D1%96%D0%BD%D1%8E%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-%D0%BA%D0%BE%D1%80%D1%83%D0%BF%D1%86%D1%96%D0%B9%D0%BD-2",
-      "date": "2026-11-06T13:11:21+00:00",
-      "excerpt": "Відповідно до Методології управління корупційними ризиками, затвердженої наказом Національного агентства з питань запобігання корупції від 28 грудня 2021 року № 830/21, до складу робочої групи, крім працівників районної військової адміністрації, запрошуються особи, які володіють знаннями про середовище районної військо",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/11/04-3.jpg",
-      "source": "Жмеринська РВА"
-    },
-    {
       "area": "local",
       "title": "У Жмеринці ветеран-десантник Микола Прокопов став фахівцем із супроводу ветеранів – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/485046/u-zhmerinci-veteran-desantnik-mikola-prokopov-stav-fahivcem-iz-suprovodu-veteraniv",
@@ -197,20 +287,20 @@
     },
     {
       "area": "region",
-      "title": "Вінницька облрада передала військовим зарядний пристрій - 20 хвилин",
-      "url": "https://vn.20minut.ua/novini-kompanij/vikonavchiy-aparat-vinnitskoyi-oblasnoyi-radi-peredav-viyskovim-zaryad-12012444.html",
-      "date": "2026-11-11T09:44:00+00:00",
-      "excerpt": "[11:11:2026] Виконавчий апарат Вінницької обласної ради передав військовим зарядний пристрій (Пресслужба Вінницької обласної ради) ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/75/4174098-vikonavchiy-aparat-vinnitskoyi-oblasnoyi-radi-peredav-viyskovim-zaryadniy-pristriy-pressluzhba-vinnitskoyi-oblasnoyi-radi.jpeg",
+      "title": "Збивати «Шахеди» силами бізнесу. Скільки приватних ППО готують на Вінниччині та як долучитися - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/zbivati-shahedi-silami-biznesu-skilki-privatnih-ppo-gotuyut-na-vinnich-12012462.html",
+      "date": "2026-11-11T12:26:00+00:00",
+      "excerpt": "Український бізнес починає брати на себе завдання, які раніше були виключно відповідальністю держави. Співвласник групи компаній Nova В'ячеслав Климов нещодавно заявив, що компанія вже створила…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/75/4174241-zbivati-shahedi-silami-biznesu-skilki-privatnih-ppo-gotuyut-na-vinnichchini-ta-yak-doluchitisya.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Рада підтримала у першому читанні законопроєкт про реформу прокуратури",
-      "url": "https://www.pravda.com.ua/news/2026/11/11/8062357",
-      "date": "2026-11-11T13:54:00+00:00",
-      "excerpt": "Верховна Рада ухвалила у першому читанні законопроєкт щодо вдосконалення діяльності органів прокуратури та забезпечення незалежності прокурорського самоврядування.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/0/1/954960/01569f991c94c63c75251b26a82da06b.jpeg?w=1200&q=85&stamp=1794405738",
+      "title": "На війні в України загинули понад 11 тис. іноземців, які воювали на стороні РФ – Bloomberg",
+      "url": "https://www.pravda.com.ua/news/2026/11/11/8062407",
+      "date": "2026-11-11T18:52:00+00:00",
+      "excerpt": "Конфіденційні дані Росстату вказують на 11 335 загиблих іноземців з майже 100 країн у період з 2022 по 2026 рік.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/1/1/955107/11ede53b8f19b4f99e1bae9f7054cc96.jpeg?w=1200&q=85&stamp=1794422872",
       "source": "Українська правда"
     },
     {
@@ -224,21 +314,21 @@
     },
     {
       "area": "region",
-      "title": "Загинув на Дніпропетровщині: Вінниця прощається із захисником Сергієм Ільковим",
-      "url": "https://suspilne.media/vinnytsia/1450113-zaginuv-na-dnipropetrovsini-vinnica-prosaetsa-iz-zahisnikom-sergiem-ilkovim",
-      "date": "2026-11-11T09:41:28+00:00",
-      "excerpt": "11 листопада у Вінниці попрощаються із 38-річним захисником Сергієм Ільковим. Він служив у 148-й окремій артилерійській бригаді ДШВ, обороняв Покровський напрямок і загинув 21 квітня 2026 року на Дніпропетровщині — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/f5/f592ecf5f8bc7810163745296fe04148719e062e8497631754f331cabcd4f7a6.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "У лісах Вінниччини дозволили відстріл диких кабанів і хижаків - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/u-lisah-vinnichchini-dozvolili-vidstril-dikih-kabaniv-i-hizhakiv-12012453.html",
+      "date": "2026-11-11T11:13:00+00:00",
+      "excerpt": "Виходити в мисливські угіддя зі зброєю зможуть не лише єгері, а й мисливські бригади. Їм дозволили регулювати чисельність хижаків і диких кабанів.",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/75/4174151-u-lisah-vinnichchini-dozvolili-vidstril-dikih-kabaniv-i-hizhakiv.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Штурм окопів і десантування з човнів: як морпіхи відпрацьовують бойові завдання",
-      "url": "https://suspilne.media/mykolaiv/1449629-sturm-okopiv-i-desantuvanna-z-covniv-ak-morpihi-39-i-ta-40-i-brigad-vidpracovuut-bojovi-zavdanna",
-      "date": "2026-11-11T13:49:12+00:00",
-      "excerpt": "Так звану класику бойових дій відпрацьовували під час комплексно-тактичних занять військовослужбовці 39-ї та 40-ї бригад морської піхоти — Суспільне Миколаїв",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/3d/3d5ccdb412befe34efd457f5d8b27e012bec46dc38954ce129c404e6f5982de5.jpg",
-      "source": "Суспільне"
+      "title": "В РФ госпіталізували пенсіонерку, \"засуджену\" за донат на ЗСУ: \"Ледь тримається на ногах\"",
+      "url": "https://www.pravda.com.ua/news/2026/11/11/8062408",
+      "date": "2026-11-11T18:50:00+00:00",
+      "excerpt": "У російській Вологді госпіталізували 68-річну Галину Бехтер із Запорізької області, яку в окупації \"засудили\" за нібито переказ коштів на підтримку української армії.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/1/6/955108/16ff4b25015c24f9acff050024d61ac6.jpeg?w=1200&q=85&stamp=1794422967",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -251,30 +341,21 @@
     },
     {
       "area": "region",
-      "title": "Під час нічної атаки росія вдарила по енергетичних об'єктах на Вінниччині - 20 хвилин",
-      "url": "https://vn.20minut.ua/Kryminal/pid-chas-nichnoyi-ataki-rosiya-vdarila-po-energetichnih-obektah-na-vin-12012440.html",
-      "date": "2026-11-11T09:14:00+00:00",
-      "excerpt": "[11:11:2026] Під час нічної атаки росія вдарила по енергетичних об'єктах на Вінниччині ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/75/4174074-pid-chas-nichnoyi-ataki-rosiya-vdarila-po-energetichnih-obektah-na-vinnichchini.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "На Вінниччині під час пожежі загинув 77-річний чоловік",
+      "url": "https://suspilne.media/vinnytsia/1450125-na-vinniccini-pid-cas-pozezi-zaginuv-77-ricnij-colovik-2",
+      "date": "2026-11-11T11:09:44+00:00",
+      "excerpt": "У селі Кожухів Хмільницької громади під час пожежі загинув 77-річний власник будинку. За даними ДСНС, займання виникло через несправність печі — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/b3/b39d0ee0c50c6c005c7d0ea578848bf098b5e8040d5498be95a5a332aab8040a.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "На Полтавщині російський дрон травмував 4 людей",
-      "url": "https://www.pravda.com.ua/news/2026/11/11/8062351",
-      "date": "2026-11-11T13:47:00+00:00",
-      "excerpt": "11 листопада російський безпілотник влучив в об'єкт інфраструктури в Карлівській громаді на Полтавщині. Четверо людей отримали травми, одна людина у тяжкому стані.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/4/4/954930/441ec8e4b8df7d79127d89848e0ed48e.jpeg?w=1200&q=85&stamp=1794404947",
-      "source": "Українська правда"
-    },
-    {
-      "area": "local",
-      "title": "Як навести лад вдома і не витратити жодної гривні на миючий засіб? – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/484595/yak-navesti-lad-vdoma-i-ne-vitratiti-zhodnoi-grivni-na-miyuchij-zasib",
-      "date": "2026-11-02T16:09:00+00:00",
-      "excerpt": "Генеральне прибирання власної оселі традиційно сприймається як виснажливий процес, що забирає чимало сил та ресурсів.",
-      "image": "https://im2.abo.media/media/64/article/0efc2755eb634c2986b1f19ace940aeb.webp",
-      "source": "Жмеринка.City"
+      "title": "Помер посол Росії в США Олександр Дарчієв",
+      "url": "https://suspilne.media/1450689-pomer-posol-rosii-v-ssa-oleksandr-darciev",
+      "date": "2026-11-11T18:48:24+00:00",
+      "excerpt": "У 66 років раптово помер посол Росії у США Олександр Дарчієв. Причину смерті в МЗС РФ не повідомили. Він обійняв посаду навесні 2025 року, раніше працював послом у Канаді та обіймав керівні посади в російському МЗС — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/85/8501a3d5548603535bbb8d96993dbf323fcb3fce4fc6e008946acbfed5f8cf92.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -283,87 +364,6 @@
       "date": "2026-11-02T15:06:00+00:00",
       "excerpt": "На вулиці Київській, 16, неподалік площі Миру, поруч із ліцеєм №2, відкрився новий заклад «ПіцаЦентр».",
       "image": "https://im2.abo.media/media/64/article/658111aa976f4977a9cd4d00ea299c9d.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "На війні загинув вінничанин Сергій Ільков, який на фронті почав писати фантастичну книгу - 20 хвилин",
-      "url": "https://vn.20minut.ua/lyudi/na-viyni-zaginuv-vinnichanin-sergiy-ilkov-yakiy-na-fronti-pochav-pisat-12012416.html",
-      "date": "2026-11-11T08:01:00+00:00",
-      "excerpt": "[11:11:2026] На війні загинув вінничанин Сергій Ільков, який на фронті почав писати фантастичну книгу ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/74/4173924-na-viyni-zaginuv-vinnichanin-sergiy-ilkov-yakiy-na-fronti-pochav-pisati-fantastichnu-knigu.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Зеленський про зустріч з посланцями Трампа в Дубліні: Скоординуємо позиції та визначимо наступні кроки",
-      "url": "https://www.pravda.com.ua/news/2026/11/11/8062344",
-      "date": "2026-11-11T13:42:00+00:00",
-      "excerpt": "Президент Володимир Зеленський повідомив, що 12 листопада зустрінеться в Дубліні з американськими представниками Джаредом Кушнером і Стівом Віткоффом після їхніх переговорів у Росії.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/7/c/954908/7cbebf9f96a36c4c8dc8e737a8d27262.jpeg?w=1200&q=85&stamp=1794404614",
-      "source": "Українська правда"
-    },
-    {
-      "area": "local",
-      "title": "Додому «на щиті» повертається 49-річний жмеринчанин Сергій Фурманчук – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/484351/dodomu-na-schiti-povertayetsya-49-richnij-zhmerinchanin-sergij-furmanchuk",
-      "date": "2026-10-30T16:26:00+00:00",
-      "excerpt": "Жмеринка схиляє голови перед пам'яттю Героя",
-      "image": "https://im2.abo.media/media/64/article/3290b05f6f6941a6845cc41bfb935661.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "Частина вінничан залишиться без тепла до вечора: які адреси потрапили до списку - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/chastina-vinnichan-zalishitsya-bez-tepla-do-vechora-yaki-adresi-potrap-12012417.html",
-      "date": "2026-11-11T07:09:00+00:00",
-      "excerpt": "[11:11:2026] Частина вінничан залишиться без тепла до вечора: які адреси потрапили до списку ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/74/4173928-chastina-vinnichan-zalishitsya-bez-tepla-do-vechora-yaki-adresi-potrapili-do-spisku.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Зеленський та Умєров підбили підсумки дводенних переговорів в Абу-Дабі",
-      "url": "https://suspilne.media/1450401-obmin-polonenimi-ta-garantii-bezpeki-zelenskij-pidbiv-pidsumki-dvodennih-peregovoriv-v-abu-dabi",
-      "date": "2026-11-11T13:26:19+00:00",
-      "excerpt": "Зеленський та Умєров розповіли про результати переговорів України, США та РФ в Абу-Дабі: сторони обговорили гарантії безпеки, залучення Європи до переговорів і підготовку масштабного обміну полоненими — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/30/3083800a5b65a805c05328f0d2ab0c5a3cf2225874af9b22e5712b8251fa2d4e.jpg",
-      "source": "Суспільне"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринці відбувся відкритий дитячий шаховий турнір «Жмеринська осінь – 2026» – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/484184/u-zhmerinci-vidbuvsya-vidkritij-dityachij-shahovij-turnir-zhmerinska-osin-2026",
-      "date": "2026-10-29T12:17:00+00:00",
-      "excerpt": "Найінтелектуальніша гра зібрала юних шахістів Жмеринської громади за шахівницями.",
-      "image": "https://im2.abo.media/media/64/article/404ba4cbeb364403b5a6cdffe385b3b3.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "Графік відключення світла: де у Вінниці та області не буде електрики - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/na-vinnichchini-vvodyat-obmezhennya-elektriki-kogo-torknutsya-vidklyuc-11976644.html",
-      "date": "2026-11-11T07:00:00+00:00",
-      "excerpt": "[11:11:2026] Графік відключення світла: де у Вінниці та області не буде електрики ✔Новини від 20 хвилин ✔ Тільки свіжі новини - слідкуйте разом з нами ✔ Коментарі ✔ Фото",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/60/4159312-grafik-vidklyuchennya-svitla-de-u-vinnitsi-ta-oblasti-ne-bude-elektriki.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "ВАКС змінив запобіжний захід Єрмаку у справі про легалізацію майна",
-      "url": "https://suspilne.media/1450399-vaks-zminiv-zapobiznij-zahid-ermaku-u-sprav-pro-legalizaciu-majna",
-      "date": "2026-11-11T13:15:55+00:00",
-      "excerpt": "ВАКС змінив запобіжний захід екскерівнику Офісу президента України Андрію Єрмаку у справі про легалізацію майна, отриманого злочинним шляхом. Йому дозволили пересуватись територією України — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/92/9256cd817d22de5e45931cb5f771f7f44ba01b9ca79a939e02b76f48b5c02f26.jpg",
-      "source": "Суспільне"
-    },
-    {
-      "area": "local",
-      "title": "У Жмеринському ліцеї №5 учнів навчають мирно вирішувати конфлікти – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/484143/u-zhmerinskomu-licei-5-uchniv-navchayut-mirno-virishuvati-konflikti",
-      "date": "2026-10-29T07:08:00+00:00",
-      "excerpt": "Мета – підготувати школярів до впровадження медіації однолітків",
-      "image": "https://im2.abo.media/media/64/article/015d1e8d0b454c269835738585ac469a.webp",
       "source": "Жмеринка.City"
     }
   ]
