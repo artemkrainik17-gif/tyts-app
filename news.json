@@ -1,38 +1,11 @@
 {
-  "updated_at": "2026-11-17T03:49:41.815754+00:00",
+  "updated_at": "2026-11-17T13:15:55.060612+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
     "ukraine": 30
   },
   "items": [
-    {
-      "area": "local",
-      "title": "Продовжуємо планову роботу з посилення захисту критичної інфраструктури в громадах району.",
-      "url": "https://zhmerynka-rda.gov.ua/2026/11/16/%D0%BF%D1%80%D0%BE%D0%B4%D0%BE%D0%B2%D0%B6%D1%83%D1%94%D0%BC%D0%BE-%D0%BF%D0%BB%D0%B0%D0%BD%D0%BE%D0%B2%D1%83-%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D1%83-%D0%B7-%D0%BF%D0%BE%D1%81%D0%B8%D0%BB%D0%B5%D0%BD",
-      "date": "2026-11-16T11:29:22+00:00",
-      "excerpt": "Мета полягає в тому, щоб до піку опалювального сезону кожна громада мала відпрацьований резервний план на будь-який сценарій. За дорученням начальника Вінницької ОВА Наталя Заболотна разом з енергетиками виїжджаємо в громади. Перевіряємо готовність, визначаємо, які додаткові рішення потрібні, і закріплюємо відповідальн",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2025/12/2-1-300x225.jpg",
-      "source": "Жмеринська РВА"
-    },
-    {
-      "area": "region",
-      "title": "Принц Гаррі особисто нагородив ветерана зі Жмеринки. В’ячеслав Стражець виборов три медалі з плавання - 20 хвилин",
-      "url": "https://vn.20minut.ua/Sport/prints-garri-osobisto-nagorodiv-veterana-zi-zhmerinki-vyacheslav-straz-12012891.html",
-      "date": "2026-11-16T19:00:00+00:00",
-      "excerpt": "Ветеран війни зі Жмеринки В’ячеслав Стражець здобув три нагороди на Всеукраїнських Іграх Нескорених у Львові. Особливим моментом для спортсмена стала зустріч із принцом Гаррі, який особисто вручив…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/79/4178282-prints-garri-osobisto-nagorodiv-veterana-zi-zhmerinki-vyacheslav-strazhets-viborov-tri-medali-z-plavannya.webp",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Офіційні документи",
-      "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-11-17T03:48:30+00:00",
-      "excerpt": "",
-      "image": "https://www.ukrinform.ua/img/img_none.jpg",
-      "source": "Укрінформ"
-    },
     {
       "area": "local",
       "title": "Після трьох років невідомості Жмеринка попрощається із Віталієм Данилишеним із с. Коростівці – Жмеринка.City",
@@ -44,20 +17,20 @@
     },
     {
       "area": "region",
-      "title": "У 18 років — вже у війську: історія молодого командира гарматного розрахунку «Фікса» з вінницької 59-ї бригади - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/u-18-rokiv--vzhe-u-viysku-istoriya-molodogo-komandira-garmatnogo-rozra-12012888.html",
-      "date": "2026-11-16T18:05:00+00:00",
-      "excerpt": "Поки більшість однолітків у 18 років лише обирають професію, Нікіта Белінський уже став до лав Збройних Сил. Нині старший сержант на позивний «Фікс» командує розрахунком у гайсинській 59-й окремій…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/79/4178267-u-18-rokiv--vzhe-u-viysku-pro-molodogo-komandira-garmatnogo-rozrahunku-fiksa-z-vinnitskoyi-brigadi-59.jpeg",
+      "title": "Авто Toyota за 1,5 мільйона і позики від родини: депутат на Вінниччині не задекларував майна та грошей на 5,4 мільйона - 20 хвилин",
+      "url": "https://vn.20minut.ua/Kryminal/avto-toyota-za-15-milyona-i-poziki-vid-rodini-deputat-na-vinnichchini--12012962.html",
+      "date": "2026-11-17T13:09:00+00:00",
+      "excerpt": "Депутату Могилів-Подільської міської ради повідомили про підозру в декларуванні недостовірної інформації. У декларації за 2023 рік посадовець не вказав гараж, автомобіль Toyota Corolla Cross Hybrid…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/79/4178973-avto-toyota-za-15-milyona-i-poziki-vid-rodini-deputat-na-vinnichchini-ne-zadeklaruvav-mayna-ta-groshey-na-54-milyona.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Вдруге за ніч Київ ворог атакує Київ ракетами, у столиці пролунали потужні вибухи",
-      "url": "https://www.ukrinform.ua/rubric-regions/4185370-vdruge-za-nic-kiiv-vorog-atakue-kiiv-raketami-u-stolici-prolunali-potuzni-vibuhi.html",
-      "date": "2026-11-17T03:39:00+00:00",
-      "excerpt": "Вдруге за ніч Київ ворог атакує Київ ракетами, у столиці пролунали потужні вибухи — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_09/thumb_files/630_360_1790010375-731.jpeg",
+      "title": "Офіційні документи",
+      "url": "https://www.ukrinform.ua/block-docs",
+      "date": "2026-11-17T13:15:31+00:00",
+      "excerpt": "",
+      "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
     },
     {
@@ -71,20 +44,20 @@
     },
     {
       "area": "region",
-      "title": "Ялинка, ковзанка та атракціони: що готують у Центральному парку та які ціни? - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/yalinka-kovzanka-ta-atraktsioni-scho-gotuyut-u-tsentralnomu-parku-ta-y-12012899.html",
-      "date": "2026-11-16T17:36:00+00:00",
-      "excerpt": "У Центральному парку Леонтовича у Вінниці вже працюють атракціони, а незабаром відкриють ковзанку просто неба, встановлять новорічну ялинку та облаштують резиденції Святого Миколая і Санти. Які…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/79/4178447-yalinka-kovzanka-ta-atraktsioni-mi-diznalisya-scho-gotuyut-u-tsentralnomu-parku-ta-yaki-tsini.jpeg",
+      "title": "«Голос країни» почув співачку з Вінниччини: Альона Храмцова потрапила до команди MONATIK - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/golos-krayini-pochuv-spivachku-z-vinnichchini-alona-hramtsova-potrapil-12012897.html",
+      "date": "2026-11-17T12:09:00+00:00",
+      "excerpt": "Одна пісня — два розвернуті крісла і непростий вибір між зірковими тренерами. Співачка з Бара Альона Храмцова вразила MONATIK та PIVOVAROV на сліпих прослуховуваннях «Голосу країни».",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/79/4178409-golos-krayini-pochuv-spivachku-z-vinnichchini-alona-hramtsova-potrapila-do-komandi-monatik.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Експерт-криміналіст припускає, що Епштейна таки вбили",
-      "url": "https://www.ukrinform.ua/rubric-world/4185369-ekspertkriminalist-pripuskae-so-epstejna-taki-vbili.html",
-      "date": "2026-11-17T03:28:32+00:00",
-      "excerpt": "Британський експерт із судової медицини Майкл Фрімен дійшов висновку, що засуджений за сексуальні злочини Джеффрі Епштейн міг бути вбитий, що суперечить офіційній версії про самогубство. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_12/thumb_files/630_360_1766486857-840.jpg",
+      "title": "У Запоріжжі через ранкову атаку РФ кількість поранених зросла до 38",
+      "url": "https://www.ukrinform.ua/rubric-regions/4185603-u-zaporizzi-cerez-rankovu-ataku-rf-kilkist-poranenih-zrosla-do-38.html",
+      "date": "2026-11-17T13:11:37+00:00",
+      "excerpt": "У Запоріжжі внаслідок ранкових масованих атак кількість постраждалих зросла до 38, з них 4 - у важкому стані. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1763115270-458.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -97,6 +70,24 @@
       "source": "Жмеринка.City"
     },
     {
+      "area": "region",
+      "title": "Двох працівників ТЦК, які розпилили газ в авто з вагітною, відправили під варту - 20 хвилин",
+      "url": "https://vn.20minut.ua/Kryminal/dvoh-pratsivnikiv-ttsk-yaki-rozpilili-gaz-v-avto-z-vagitnoyu-vidpravil-12012950.html",
+      "date": "2026-11-17T11:03:00+00:00",
+      "excerpt": "Двох військовослужбовців територіального центру комплектування, яких підозрюють у хуліганстві під час мобілізаційних заходів у Вінниці, взяли під варту. За даними Вінницького міського суду, під час…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/79/4178894-dvoh-pratsivnikiv-ttsk-yaki-rozpilili-gaz-v-avto-z-vagitnoyu-vidpravili-pid-vartu.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "У Чернігові 18 листопада оголосили Днем жалоби за загиблими внаслідок удару РФ",
+      "url": "https://www.ukrinform.ua/rubric-regions/4185599-u-cernigovi-18-listopada-ogolosili-dnem-zalobi-za-zagiblimi-vnaslidok-udaru-rf.html",
+      "date": "2026-11-17T13:04:00+00:00",
+      "excerpt": "18 листопада в місті вшанують пам'ять жителів, які загинули внаслідок російського удару 16 листопада 2026 року. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1760170568-605.jpeg",
+      "source": "Укрінформ"
+    },
+    {
       "area": "local",
       "title": "За працю на землі та підтримку захисників: у Жмеринці відзначили працівників сільського господарства – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/485937/za-pracyu-na-zemli-ta-pidtrimku-zahisnikiv-u-zhmerinci-vidznachili-pracivnikiv-silskogo-gospodarstva",
@@ -104,24 +95,6 @@
       "excerpt": "У Жмеринці відзначили працівників сільського господарства",
       "image": "https://im2.abo.media/media/64/article/90b4a9e4d0db4d44b538d0d48c1a127f.webp",
       "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "Вінницький ТЦК підтвердив застосування газу під час конфлікту на Старому місті та почав розслідування - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/vinnitskiy-ttsk-pidtverdiv-zastosuvannya-gazu-pid-chas-konfliktu-na-st-12012898.html",
-      "date": "2026-11-16T17:02:00+00:00",
-      "excerpt": "Вінницький обласний територіальний центр комплектування та соціальної підтримки прокоментував інцидент, який стався 14 листопада на Старому місті за участі військовослужбовців ТЦК і цивільних. У…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/79/4178426-vinnitskiy-ttsk-pidtverdiv-zastosuvannya-gazu-pid-chas-konfliktu-na-staromu-misti-ta-pochav-rozsliduvannya.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "На Харківщині триває активна евакуація з 96 населених пунктів – Синєгубов",
-      "url": "https://www.pravda.com.ua/news/2026/11/17/8063187",
-      "date": "2026-11-17T03:22:00+00:00",
-      "excerpt": "Керівник Харківської ОВА повідомив, як в області відбувається евакуація.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/1/958261/a191722ea31325d59f5f14b189597816.jpeg?w=1200&q=85&stamp=1794883997",
-      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -134,21 +107,21 @@
     },
     {
       "area": "region",
-      "title": "«Вусатий листопад»: у Вінниці онкологи долучилися до міжнародної акції",
-      "url": "https://suspilne.media/vinnytsia/1453536-vusatij-listopad-u-vinnici-onkologi-dolucilisa-do-miznarodnoi-socialnoi-akcii",
-      "date": "2026-11-16T16:40:25+00:00",
-      "excerpt": "Відростили вуса, аби нагадати про важливість чоловічого здоровʼя: лікарі урологічного відділення Подільського регіонального центру онкології долучилися до акції «Вусатий листопад» — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/20/20031657f80a3f5370014cbb02faebb960265c9cf589c4e3bd7ebf9590d4e4d2.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "У вінницького ЖК є власна станція очищення води. На неї витратили 150-200 тисяч євро - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/u-vinnitskogo-zhk-e-vlasna-stantsiya-ochischennya-vodi-na-neyi-vitrati-12012933.html",
+      "date": "2026-11-17T10:21:00+00:00",
+      "excerpt": "У ЖК «Премʼєр-Тауер» встановили власну систему очищення води. Мешканці можуть пити воду просто з-під крана. Система очистки діє навіть під час відключень світла та централізованого водопостачання…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/79/4178775-u-vinnitskogo-zhk-e-vlasna-stantsiya-ochischennya-vodi-na-neyi-vitratili-150-200-tisyach-evro.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Молдова не конкурує з жодною країною-кандидаткою на вступ до ЄС — Санду",
-      "url": "https://suspilne.media/1453863-moldova-ne-konkurue-z-zodnou-krainou-kandidatkou-na-vstup-do-es-sandu",
-      "date": "2026-11-17T03:19:03+00:00",
-      "excerpt": "Президентка Молдови Мая Санду заявила, що Росія хоче зробити Молдову ворожою для України, як Білорусь. За її словами, Молдова дуже хоче бачити Україну в ЄС — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/f0/f0d0c351c057472b0b774d6ea41b28e2f29fe68937b5220fa2c308f7d2cd058a.jpg",
-      "source": "Суспільне"
+      "title": "Росіяни атакували промоб’єкти у Запоріжжі: 2 загиблих, 38 поранений",
+      "url": "https://www.pravda.com.ua/news/2026/11/17/8063226",
+      "date": "2026-11-17T13:03:00+00:00",
+      "excerpt": "Дві людини загинули та ще 38 постраждала внаслідок російських ударів по промислових об'єктах у Запоріжжі вранці 17 листопада.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/a/958389/aa265744d22540b74bf1f76cc9f2aba3.jpeg?w=1200&q=85&stamp=1794903606",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -161,20 +134,20 @@
     },
     {
       "area": "region",
-      "title": "Троє загиблих і десятеро травмованих: на Вінниччині за день сталися чотири серйозні ДТП - 20 хвилин",
-      "url": "https://vn.20minut.ua/DTP/troe-zagiblih-i-desyatero-travmovanih-na-vinnichchini-za-den-stalisya--12012885.html",
-      "date": "2026-11-16T16:07:00+00:00",
-      "excerpt": "Три людини загинули, ще десятеро отримали травми внаслідок чотирьох дорожньо-транспортних пригод, які сталися 15 листопада у Тульчинському, Хмільницькому та Вінницькому районах. Серед учасників…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/79/4178246-troe-zagiblih-i-desyatero-travmovanih-na-vinnichchini-za-den-stalisya-chotiri-seryozni-dtp.jpeg",
+      "title": "22-річна вінничанка сіла за кермо Infiniti напідпитку, хоча ніколи не мала водійських прав - 20 хвилин",
+      "url": "https://vn.20minut.ua/DTP/22-richna-vinnichanka-sila-za-kermo-infiniti-napidpitku-hocha-nikoli-n-12012942.html",
+      "date": "2026-11-17T10:09:00+00:00",
+      "excerpt": "У Вінниці патрульні зупинили 22-річну водійку автомобіля Infiniti, яка порушила правила дорожнього руху. Під час спілкування інспектори помітили в неї ознаки алкогольного сп’яніння. Перевірка…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/79/4178837-22-richna-vinnichanka-sila-za-kermo-infiniti-napidpitku-hocha-nikoli-ne-mala-vodiyskih-prav.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Естонія готується керувати цифровими держпослугами з-за кордону навіть у разі окупації країни",
-      "url": "https://www.ukrinform.ua/rubric-world/4185359-estonia-gotuetsa-keruvati-cifrovimi-derzposlugami-zza-kordonu-navit-u-razi-okupacii-kraini.html",
-      "date": "2026-11-17T03:12:00+00:00",
-      "excerpt": "Естонія розробляє стратегію, яка дасть змогу забезпечувати роботу державних цифрових сервісів із-за кордону навіть у разі окупації країни іноземними військами. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2016_11/thumb_files/630_360_1479450506-4222.jpg",
+      "title": "Через зіткнення потягів у Празі травмувалися 15 українців - МЗС",
+      "url": "https://www.ukrinform.ua/rubric-society/4185597-cerez-zitknenna-potagiv-u-prazi-travmuvalisa-15-ukrainciv-mzs.html",
+      "date": "2026-11-17T13:00:00+00:00",
+      "excerpt": "Унаслідок зіткнення двох потягів на головному залізничному вокзалі Праги легкі травми дістали 46 пасажирів, серед них - 15 громадян України. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1794912755-713.jpg",
       "source": "Укрінформ"
     },
     {
@@ -187,6 +160,24 @@
       "source": "Жмеринка.City"
     },
     {
+      "area": "region",
+      "title": "Загинула від російського «шахеда» у свій день народження. Подробиці ранкової атаки на Вінницю - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/zaginula-vid-rosiyskogo-shaheda-u-vlasniy-den-narodzhennya-podrobitsi--12012938.html",
+      "date": "2026-11-17T09:45:00+00:00",
+      "excerpt": "Під час ранкової атаки російський безпілотник влучив в автомобільну стоянку у Вінниці. Загинула 51-річна водійка, ще одна жінка, якій 23 роки, отримала травми та потрапила до лікарні. Внаслідок…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/79/4178810-vid-rosiyskogo-shaheda-zaginula-51-richna-vinnichanka-u-sviy-den-narodzhennya-podrobitsi-rankovoyi-ataki.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Зеленський нагородив ще 111 захисників, із них 93 - посмертно",
+      "url": "https://www.ukrinform.ua/rubric-ato/4185596-zelenskij-nagorodiv-se-111-zahisnikiv-iz-nih-93-posmertno.html",
+      "date": "2026-11-17T12:59:09+00:00",
+      "excerpt": "Президент Володимир Зеленський відзначив державними нагородами 111 захисників України, із них 93 - посмертно. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_08/thumb_files/630_360_1754651272-155.jpeg",
+      "source": "Укрінформ"
+    },
+    {
       "area": "local",
       "title": "Додому «на щиті» повертається Віталій Кондратьєв з села Слобода Чернятинська – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/485580/dodomu-na-schiti-povertayetsya-vitalij-kondratyev-z-sela-sloboda-chernyatinska",
@@ -194,24 +185,6 @@
       "excerpt": "Жмеринщина у жалобі за захисником",
       "image": "https://im2.abo.media/media/64/article/64729f321655458d93c6d94590334e2b.webp",
       "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "У Вінниці 10-річного хлопчика побили в ліцеї: дитина отримала переломи хребців",
-      "url": "https://suspilne.media/vinnytsia/1453688-u-vinnici-10-ricnogo-hlopcika-pobili-v-licei-ditina-otrimala-perelomi-hrebciv-ta-cerepno-mozkovu-travmu",
-      "date": "2026-11-16T15:36:36+00:00",
-      "excerpt": "У Вінниці 10-річний хлопчик потрапив до лікарні після бійки в ліцеї №34. У нього діагностували черепно-мозкову травму та переломи хребців. Поліція розслідує інцидент, а директорка закладу отримала догану — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/5f/5f21bf1ef9bec19e2dced98e82c42643026ac1d801149e06206d28c28b619279.jpg",
-      "source": "Суспільне Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Японія і Південна Корея піднімали винищувачі через російські літаки",
-      "url": "https://www.pravda.com.ua/news/2026/11/17/8063190",
-      "date": "2026-11-17T02:36:00+00:00",
-      "excerpt": "Через імовірне порушення повітряного простору літаками російської армії Японія підняла винищувачі, також через російські літаки піднімала винищувачі Південна Корея.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/4/0/958260/40a8dc623767c8923a7bd48529278e62.jpeg?w=1200&q=85&stamp=1794882773",
-      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -224,21 +197,21 @@
     },
     {
       "area": "region",
-      "title": "«Розпилили газ прямо в авто з вагітною»: нардеп заявив про свавілля працівників ТЦК у Вінниці - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/rozpilili-gaz-pryamo-v-avto-z-vagitnoyu-nardep-zayaviv-pro-svavillya-p-12012887.html",
-      "date": "2026-11-16T15:02:00+00:00",
-      "excerpt": "На Старому місті у Вінниці звичайна зупинка авто працівниками ТЦК ледь не обернулася трагедією — у салон, де сиділа вагітна дівчина, розпилили сльозогінний газ.",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/79/4178261-rozpilili-gaz-pryamo-v-avto-z-vagitnoyu-nardep-zayaviv-pro-svavillya-pratsivnikiv-ttsk-u-vinnitsi.jpeg",
+      "title": "У Вінниці тестуватимуть систему, яка має заощадити до 30% тепла в комунальних закладах - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/u-vinnitsi-testuvatimut-sistemu-yaka-mae-zaoschaditi-do-30-tepla-v-kom-12012896.html",
+      "date": "2026-11-17T09:22:00+00:00",
+      "excerpt": "У двох вінницьких закладах освіти планують встановити обладнання для інтелектуального управління опаленням. Польські партнери нададуть його безкоштовно, а очікувана економія тепла може сягнути 30%…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/79/4178381-u-vinnitsi-testuvatimut-sistemu-yaka-mae-zaoschaditi-do-30-tepla-v-komunalnih-zakladah.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "У Запоріжжі з-під завалів пошкодженого об'єкта промислової інфраструктури деблокували жінку",
-      "url": "https://www.ukrinform.ua/rubric-regions/4185368-u-zaporizzi-zpid-zavaliv-poskodzenogo-obekta-promislovoi-infrastrukturi-deblokuvali-zinku.html",
-      "date": "2026-11-17T02:35:00+00:00",
-      "excerpt": "У Запоріжжі з-під завалів пошкодженого об'єкта промислової інфраструктури деблокували жінку, її стан стабільний. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_11/thumb_files/630_360_1732800411-699.png",
-      "source": "Укрінформ"
+      "title": "Директор НАБУ: Після другого \"Карфагену\" стало забагато ворогів",
+      "url": "https://www.pravda.com.ua/news/2026/11/17/8063271",
+      "date": "2026-11-17T12:35:00+00:00",
+      "excerpt": "Керівники антикорупційних органів попереджають про різного роду інформаційні операції задля підриву довіри до Спеціалізованої антикорупційної прокуратури та Національного антикорупційного бюро в контексті розслідувань операції \"Карфаген\".",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/e/d/958538/edf41613a51bf91d70e0672894ff7e60.jpeg?w=1200&q=85&stamp=1794918868",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -251,20 +224,20 @@
     },
     {
       "area": "region",
-      "title": "У Вінниці затримали двох працівників ТЦК, яких підозрюють у хуліганстві",
-      "url": "https://suspilne.media/vinnytsia/1453727-u-vinnici-zatrimali-dvoh-pracivnikiv-tck-akih-pidozruut-u-huliganstvi",
-      "date": "2026-11-16T14:48:46+00:00",
-      "excerpt": "У Вінниці після інциденту з автомобілем у Старому місті затримали 2 працівників ТЦК. Їм повідомили про підозру в хуліганстві. Поліція проситиме суд взяти підозрюваних під варту. Триває розслідування обставин події. Деталі далі — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/a9/a92ccf6afdcbd9d3c909701c26c2885b418f4d18ae2ffd8d65b44c74c523a328.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "У Вінниці відкрили осередок Ветеранського корпусу - 20 хвилин",
+      "url": "https://vn.20minut.ua/novini-kompanij/u-vinnitsi-za-pidtrimki-d121-vidkrili-oseredok-veteranskogo-korpusu-no-12012925.html",
+      "date": "2026-11-17T09:00:00+00:00",
+      "excerpt": "Простір єдності та підтримки для людей із бойовим досвідом запрацював у Вінниці. Відкриття осередку профінансували девелопер D121 та його акціонери Ірина й Максим Мартинюки.",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/79/4178675-u-vinnitsi-za-pidtrimki-d121-vidkrili-oseredok-veteranskogo-korpusu-novini-kompaniy.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Військові евакуювали останнього жителя з села Кияниці на Сумщині",
-      "url": "https://www.ukrinform.ua/rubric-regions/4185281-vijskovi-evakuuvali-ostannogo-zitela-z-sela-kianici-na-sumsini.html",
-      "date": "2026-11-17T02:17:00+00:00",
-      "excerpt": "Військові евакуювали останнього жителя з села Кияниці Сумської області, операція проходила під загрозою артилерійського обстрілу та атак ворожих дронів. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1794849068-853.png",
+      "title": "Убивство Фаріон: апеляцію засудженого Зінченка розглядатиме суд у Тернополі",
+      "url": "https://www.ukrinform.ua/rubric-society/4185577-ubivstvo-farion-apelacijnu-skargu-zasudzenogo-zincenka-rozgladatime-sud-u-ternopoli.html",
+      "date": "2026-11-17T12:35:00+00:00",
+      "excerpt": "Апеляційну скаргу у справі В'ячеслава Зінченка, якого було засуджено до довічного ув’язнення за вбивство мовознавиці та громадської діячки Ірини Фаріон, розглядатиме Тернопільський апеляційний суд. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_08/thumb_files/630_360_1722507545-869.jpeg",
       "source": "Укрінформ"
     },
     {
@@ -277,6 +250,24 @@
       "source": "Жмеринка.City"
     },
     {
+      "area": "region",
+      "title": "«До роботи не доїхати, а ввечері маршрутку не дочекатися»: вінничанка скаржиться на роботу 16А - 20 хвилин",
+      "url": "https://vn.20minut.ua/transport/do-roboti-ne-doyihati-a-vvecheri-marshrutku-ne-dochekatisya-vinnichank-12012889.html",
+      "date": "2026-11-17T08:04:00+00:00",
+      "excerpt": "У Вінниці знову звернули увагу на роботу маршрутки №16А. Мешканка міста Юлія Побережець зареєструвала електронну петицію, у якій просить покращити перевезення на цьому напрямку. Серед основних…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/79/4178276-do-roboti-ne-doyihati-a-vvecheri-marshrutku-ne-dochekatisya-vinnichanka-skarzhitsya-na-robotu-16a.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "У Києві відновили рух метро між \"Осокорками\" і \"Червоним хутором\"",
+      "url": "https://www.pravda.com.ua/news/2026/11/17/8063272",
+      "date": "2026-11-17T12:34:00+00:00",
+      "excerpt": "Київський метрополітен відновив рух на зеленій лінії між \"Осокорками\" та \"Червоним хутором\". Інтервали руху 8-10 хв.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/9/d/958599/9de644bd1a29c215c5d0e4d69584d251.jpeg?w=1200&q=85&stamp=1794919581",
+      "source": "Українська правда"
+    },
+    {
       "area": "local",
       "title": "Жмеринчанин Вадим Демчуков став срібним призером Чемпіонату світу з кікбоксингу в Іспанії – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/485399/zhmerinchanin-vadim-demchukov-stav-sribnim-prizerom-chempionatu-svitu-z-kikboksingu-v-ispanii",
@@ -284,24 +275,6 @@
       "excerpt": "Жмеринчанин Вадим Демчуков став срібним призером Чемпіонату світу з кікбоксингу в Іспанії",
       "image": "https://im2.abo.media/media/64/article/3910f0fe6f624b50a857ecba5052dcaf.webp",
       "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "Ще 31 родина у Вінниці отримає гроші на ремонт пошкодженого обстрілами житла - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/sche-31-rodina-u-vinnitsi-otrimae-groshi-na-remont-poshkodzhenogo-obst-12012876.html",
-      "date": "2026-11-16T14:04:00+00:00",
-      "excerpt": "У Вінниці виділили додаткову фінансову допомогу мешканцям, чиї оселі постраждали від російських атак. На ремонт житла родинам спрямують від 15 до 50 тисяч гривень, а двом госпіталізованим після…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/79/4178189-sche-31-rodina-u-vinnitsi-otrimae-groshi-na-remont-poshkodzhenogo-obstrilami-zhitla.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Двох жителів Хмельниччини засудили до 15 років ув’язнення за підрив залізниці на замовлення РФ",
-      "url": "https://www.ukrinform.ua/rubric-regions/4185363-dvoh-ziteliv-hmelniccini-zasudili-do-15-rokiv-uvaznenna-za-pidriv-zaliznici-na-zamovlenna-rf.html",
-      "date": "2026-11-17T01:57:00+00:00",
-      "excerpt": "У Хмельницькій області до 15 років позбавлення волі засудили двох чоловіків, які здійснили підрив залізничної колії на замовлення російських спецслужб. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1794876251-634.jpg",
-      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -314,21 +287,21 @@
     },
     {
       "area": "region",
-      "title": "Грипу на Вінниччині поки не виявили: які віруси циркулюють та коли можна буде вакцинуватися - 20 хвилин",
-      "url": "https://vn.20minut.ua/Zdorovya/gripu-na-vinnichchini-poki-ne-viyavili-yaki-virusi-tsirkulyuyut-ta-kol-12012754.html",
-      "date": "2026-11-16T13:15:00+00:00",
-      "excerpt": "Нежить, кашель і біль у горлі — найпоширеніші симптоми респіраторних інфекцій, які зараз фіксують в області. Чи варто очікувати на грип, кому загрожують ускладнення та коли в аптеках з’явиться…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/78/4177062-gripu-na-vinnichchini-poki-ne-viyavili-yaki-virusi-tsirkulyuyut-ta-koli-mozhna-bude-vaktsinuvatisya.jpeg",
+      "title": "Робота у Вінниця, актуальні вакансії Вінниччини - 20 хвилин",
+      "url": "https://vn.20minut.ua/novini-kompanij/robota-pid-chas-viyni-yaki-vakansiyi-proponuyut-na-vinnichchini-novini-11541339.html",
+      "date": "2026-11-17T07:48:00+00:00",
+      "excerpt": "Усі актуальні пропозиції від вінницьких компаній ми зібрали в одній добірці та розбили за рубриками. Можливо, саме тут на вас очікує та сама ідеальна вакансія. Натискайте на потрібну рубрику та…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/38/4137544-vakansiyi-v-supermarketi-grosh-grupi-kompaniy-torgtehnika-ta-40-aktualnih-propozitsiy-roboti-u-vinnitsi-onovleno.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Іран розробляє плани підриву \"брудної бомби\" у Вашингтоні – CNN",
-      "url": "https://www.pravda.com.ua/news/2026/11/17/8063189",
-      "date": "2026-11-17T01:54:00+00:00",
-      "excerpt": "За даними ЗМІ та їхніх джерел, Іран може планувати застосування \"брудної бомби\" у Вашингтоні.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/4/8/958259/4828910335bbcebb9d78cead02b1b5b3.jpeg?w=1200&q=85&stamp=1794880940",
-      "source": "Українська правда"
+      "title": "Як працюють мости у Києві після нічної атаки РФ",
+      "url": "https://www.ukrinform.ua/rubric-regions/4185587-ak-pracuut-mosti-u-kivi-pisla-nicnoi-ataki-rf.html",
+      "date": "2026-11-17T12:30:00+00:00",
+      "excerpt": "У Києві Південний та Північний мости, пошкоджені внаслідок російської ракетної атаки в ніч 17 листопада, повністю закриті для руху транспорту. Інші мости столиці змінили режим роботи. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2017_03/thumb_files/630_360_1489950393-9052-most-patona-foto-vladimir-falin.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -341,21 +314,21 @@
     },
     {
       "area": "region",
-      "title": "Смертельні ДТП на Вінниччині: загинули троє людей, серед травмованих є діти",
-      "url": "https://suspilne.media/vinnytsia/1453645-tri-ludini-zaginuli-desatero-travmuvalisa-na-vinniccini-za-den-stalisa-cotiri-dtp",
-      "date": "2026-11-16T13:05:37+00:00",
-      "excerpt": "На Вінниччині 15 листопада сталися чотири ДТП. Унаслідок аварій у Тульчинському, Хмільницькому та Вінницькому районах троє людей загинули, ще десятеро травмувалися. Поліція розслідує обставини всіх аварій. — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/2b/2b62eb602dab636fab4f33d5f71132095a403c8e09882ea61e09277bf71de153.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "Без води, тепла та світла. Де у Вінниці 17 листопада працюватимуть комунальники - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/bez-vodi-tepla-ta-svitla-de-u-vinnitsi-17-listopada-pratsyuvatimut-kom-12012906.html",
+      "date": "2026-11-17T07:33:00+00:00",
+      "excerpt": "У місті тривають ремонти водогонів та електрообладнання. Через роботи за низкою адрес тимчасово не буде гарячої води або електроенергії.",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/79/4178511-bez-vodi-tepla-ta-svitla-de-u-vinnitsi-17-listopada-pratsyuvatimut-komunalniki.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Судмедексперт в інтерв'ю BBC: аналіз фото з розтину Епштейна вказує на вбивство",
-      "url": "https://suspilne.media/1453862-sudmedekspert-v-intervu-bbc-analiz-foto-z-roztinu-epstejna-vkazue-na-vbivstvo-a-ne-samogubstvo",
-      "date": "2026-11-17T01:48:46+00:00",
-      "excerpt": "Майкл Фрімен в інтерв'ю BBC розповів, що бачить ознаки нападу й удушення в матеріалах розтину Епштейна. Його дослідження не рецензували, 2019 року смерть злочинця визнали самогубством — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/94/94d7265b6e64c59ed3ff63697fac5bbd4e9256fbe07dc06b26ab099809748c28.jpg",
-      "source": "Суспільне"
+      "title": "Українка Жаркова встановила світовий рекорд із фридайвінгу",
+      "url": "https://www.ukrinform.ua/rubric-sports/4185584-ukrainka-zarkova-vstanovila-svitovij-rekord-iz-fridajvingu.html",
+      "date": "2026-11-17T12:27:00+00:00",
+      "excerpt": "Українська майстриня із фридайвінгу Наталія Жаркова занурилася у воду на 124 метри на одному вдиху з моноластою, перевершивши світовий рекорд (123 м), що тримався майже три з половиною роки. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1794918048-640.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -364,6 +337,33 @@
       "date": "2026-11-06T13:26:00+00:00",
       "excerpt": "Сайт Жмеринки: останні новини, цікаві люди, варті уваги місця Вінницької області - Жмеринка.City",
       "image": "https://im2.abo.media/media/64/article/48714d60933649bfbfcd98c4725a27eb.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "Графік відключення світла: де у Вінниці та області не буде електрики - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/na-vinnichchini-vvodyat-obmezhennya-elektriki-kogo-torknutsya-vidklyuc-11976644.html",
+      "date": "2026-11-17T06:00:00+00:00",
+      "excerpt": "Почали застосовувати обмеження електропостачання через напружену ситуацію в енергосистемі в Україні ще наприкінці вересня. «Вінницяобленерго» має сформований графік і застосовуватиме його у разі…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/60/4159312-grafik-vidklyuchennya-svitla-de-u-vinnitsi-ta-oblasti-ne-bude-elektriki.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Україна та Фінляндія підписали меморандум про спільне оборонне виробництво",
+      "url": "https://www.ukrinform.ua/rubric-economy/4185581-ukraina-ta-finlandia-pidpisali-memorandum-pro-spilne-oboronne-virobnictvo.html",
+      "date": "2026-11-17T12:20:00+00:00",
+      "excerpt": "Міністри оборони України та Фінляндії Євгеній Хмара й Антті Гяккянен під час зустрічі в Брюсселі підписали меморандум про спільне українсько-фінське виробництво оборонної продукції. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1794917878-294.png",
+      "source": "Укрінформ"
+    },
+    {
+      "area": "local",
+      "title": "У Жмеринці ветеран-десантник Микола Прокопов став фахівцем із супроводу ветеранів – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/485046/u-zhmerinci-veteran-desantnik-mikola-prokopov-stav-fahivcem-iz-suprovodu-veteraniv",
+      "date": "2026-11-06T11:02:00+00:00",
+      "excerpt": "У Жмеринці до роботи приступив новий фахівець із супроводу ветеранів війни та демобілізованих осіб – 37-річний Микола Прокопов.",
+      "image": "https://im2.abo.media/media/64/article/b15fda3da77947a6b7b16655327b1020.webp",
       "source": "Жмеринка.City"
     }
   ]
