@@ -1,11 +1,38 @@
 {
-  "updated_at": "2026-11-21T09:45:16.482666+00:00",
+  "updated_at": "2026-11-21T17:29:05.507110+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
     "ukraine": 30
   },
   "items": [
+    {
+      "area": "local",
+      "title": "У Жмеринці вшанували пам’ять Героїв Небесної Сотні та полеглих захисників України – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/486695/u-zhmerinci-vshanuvali-pamyat-geroiv-nebesnoi-sotni-ta-poleglih-zahisnikiv-ukraini",
+      "date": "2026-11-21T08:29:00+00:00",
+      "excerpt": "У Жмеринці вшанували пам’ять Героїв Небесної Сотні та полеглих захисників України",
+      "image": "https://im2.abo.media/media/64/article/e47307316cb74e37a9202e6535a76264.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "Мокрий сніг і перші морози. Якою буде погода на Вінниччині - 20 хвилин",
+      "url": "https://vn.20minut.ua/Pogoda/mokriy-snig-i-pershi-morozi-yakoyu-bude-pogoda-na-vinnichchini-12013350.html",
+      "date": "2026-11-21T17:04:00+00:00",
+      "excerpt": "Після відносно теплої осені на Вінниччину насувається похолодання. У неділю вночі температура може опуститися до -2°, а вже в понеділок прогнозують дощ із мокрим снігом. На дорогах місцями можлива…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182554-mokriy-snig-i-pershi-morozi-yakoyu-bude-pogoda-na-vinnichchini.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Офіційні документи",
+      "url": "https://www.ukrinform.ua/block-docs",
+      "date": "2026-11-21T17:28:06+00:00",
+      "excerpt": "",
+      "image": "https://www.ukrinform.ua/img/img_none.jpg",
+      "source": "Укрінформ"
+    },
     {
       "area": "local",
       "title": "Чи варто купувати пуско-зарядний пристрій для авто у 2026 році: критичний розбір – Жмеринка.City",
@@ -17,21 +44,21 @@
     },
     {
       "area": "region",
-      "title": "У Вінниці вшанували пам'ять учасників Революції гідності",
-      "url": "https://suspilne.media/vinnytsia/1455748-nikoli-ne-zdolati-krainu-de-e-taki-sini-ta-donki-u-vinnici-vsanuvali-pamat-ucasnikiv-revolucii-gidnosti",
-      "date": "2026-11-21T09:17:20+00:00",
-      "excerpt": "21 листопада, у День Гідності та Свободи, у Вінниці на майдані Небесної Сотні вшанували пам'ять загиблих учасників Революції гідності та полеглих захисників російсько-української війни — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/08/086fb08d9d3354534f1d7ee3b2ea0d78a49fcdd9306c8dbfac47a0ea49240620.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "На об’їзній Вінниці та у Жмеринці збили пішоходів. Ще одна аварія сталася біля Десни - 20 хвилин",
+      "url": "https://vn.20minut.ua/DTP/na-obyizniy-vinnitsi-ta-u-zhmerintsi-zbili-pishohodiv-sche-odna-avariy-12013360.html",
+      "date": "2026-11-21T16:22:00+00:00",
+      "excerpt": "У п’ятницю, 20 листопада, на дорогах Вінниці, Вінницького та Жмеринського районів сталися три аварії. Травми отримали троє людей, усіх доправили до лікарень.",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182704-na-obyizniy-vinnitsi-ta-u-zhmerintsi-zbili-pishohodiv-sche-odna-avariya-stalasya-bilya-desni.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Офіційні документи",
-      "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-11-21T09:44:07+00:00",
-      "excerpt": "",
-      "image": "https://www.ukrinform.ua/img/img_none.jpg",
-      "source": "Укрінформ"
+      "title": "США запровадили нові санкції проти «нафтових посередників» Ірану",
+      "url": "https://suspilne.media/1455896-ssa-zaprovadili-novi-sankcii-proti-naftovih-poserednikiv-iranu",
+      "date": "2026-11-21T17:27:11+00:00",
+      "excerpt": "Мінфін США запровадив нові санкції проти 4 громадян Ірану та пов'язаних із ними мереж, які допомагали Тегерану продавати нафту за кордон, обходити обмеження й фінансувати військові структури — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/ed/ed133db7b63b0db9b1beb3d4e13cd5ec6cee773760dd21f13f2a66a540d67f5c.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -44,21 +71,21 @@
     },
     {
       "area": "region",
-      "title": "Накрили ще один шахрайський колцентр у Вінниці. Учасникам готують підозри - 20 хвилин",
-      "url": "https://vn.20minut.ua/Kryminal/nakrili-sche-odin-shahrayskiy-koltsentr-u-vinnitsi-uchasnikam-gotuyut--12013338.html",
-      "date": "2026-11-21T09:04:00+00:00",
-      "excerpt": "Звичайний приватний будинок перетворили на офіс для телефонного шахрайства. Правоохоронці викрили його діяльність, провели обшук і затримали учасників.",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182474-nakrili-sche-odin-shahrayskiy-koltsentr-u-vinnitsi-uchasnikam-gotuyut-pidozri.jpeg",
+      "title": "У мікрорайоні Академічний запрацював новий дитсадок на 220 місць - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/u-mikrorayoni-akademichniy-zapratsyuvav-noviy-ditsadok-na-220-mists-12013333.html",
+      "date": "2026-11-21T15:05:00+00:00",
+      "excerpt": "У вінницькому мікрорайоні Академічний відкрили дитячий садок №41 «Барвограй». Заклад розрахований на 220 вихованців. Для місцевих родин це можливість віддавати дітей до садочка неподалік від дому…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182440-u-mikrorayoni-akademichniy-zapratsyuvav-noviy-ditsadok-na-220-mists.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "У Вінниці пошкоджена енергетика після атаки РФ, є відключення",
-      "url": "https://www.pravda.com.ua/news/2026/11/21/8063924",
-      "date": "2026-11-21T09:13:00+00:00",
-      "excerpt": "Внаслідок обстрілу у Вінницькій області постраждала жінка, пошкоджені будинки, підприємство та енергетичний об'єкт — є перебої з електрикою.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/7/2/961310/728333d7b831a8dfe9f1b51bf665e8cc.jpeg?w=1200&q=85&stamp=1795251976",
-      "source": "Українська правда"
+      "title": "Ворог майже 30 разів атакував Дніпропетровщину, є п’ятеро поранених",
+      "url": "https://www.ukrinform.ua/rubric-regions/4187225-vorog-majze-30-raziv-atakuvav-dnipropetrovsinu-e-patero-poranenih.html",
+      "date": "2026-11-21T17:09:09+00:00",
+      "excerpt": "Російські загарбники майже 30 разів атакували шість районів Дніпропетровщини, поранено п’ятьох цивільних. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795280873-571.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -70,24 +97,6 @@
       "source": "Жмеринка.City"
     },
     {
-      "area": "region",
-      "title": "У Вінниці через атаку РФ пошкоджень зазнав об'єкт енергетичної інфраструктури",
-      "url": "https://suspilne.media/vinnytsia/1455754-u-vinnici-cerez-ataku-rf-21-listopada-poskodzen-zaznav-obekt-energeticnoi-infrastrukturi",
-      "date": "2026-11-21T08:17:28+00:00",
-      "excerpt": "Об'єкт енергетичної інфраструктури зазнав пошкоджень внаслідок російської атаки у Вінниці 21 листопада. У місті є відключення електроенергії — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/62/629cf6ef47adee66c8ef056178ec0b17b77b79f7eee8ea68bee1aa49fe5f76aa.jpg",
-      "source": "Суспільне Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Росіяни вночі вдарили по підприємству на Рівненщині, є постраждалий",
-      "url": "https://www.ukrinform.ua/rubric-regions/4187088-rosiani-vnoci-vdarili-po-pidpriemstvu-na-rivnensini-e-postrazdalij.html",
-      "date": "2026-11-21T09:06:00+00:00",
-      "excerpt": "Російські війська вночі 21 листопада атакували цивільне підприємство у Рівненській області, постраждала одна людина. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795251572-269.jpg",
-      "source": "Укрінформ"
-    },
-    {
       "area": "local",
       "title": "8223 дитини, 100 гуртків і безкоштовний спорт: які можливості для дітей у Жмеринській громаді – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/486567/8223-ditini-100-gurtkiv-i-bezkoshtovnij-sport-yaki-mozhlivosti-dlya-ditej-u-zhmerinskij-gromadi",
@@ -95,6 +104,24 @@
       "excerpt": "Які можливості для дітей у Жмеринській громаді",
       "image": "https://im2.abo.media/media/64/article/a6741e85940d40ebb61ea72551203d35.webp",
       "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "Вінниця першою в Україні встановила кассельський бордюр. Що це за технологія і кому вона допомагає - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/vinnitsya-pershoyu-v-ukrayini-vstanovila-kasselskiy-bordyur-scho-tse-z-12013345.html",
+      "date": "2026-11-21T14:08:00+00:00",
+      "excerpt": "Для когось проміжок між автобусом і тротуаром — дрібниця. Для людини на кріслі колісному він може стати причиною, через яку неможливо самостійно потрапити до салону. У Вінниці цю проблему почали…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182518-vinnitsya-pershoyu-v-ukrayini-vstanovila-kasselskiy-bordyur-scho-tse-za-tehnologiya-i-komu-vona-dopomagae.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "На Дніпропетровщині та Херсонщині через атаки РФ постраждали 11 людей",
+      "url": "https://www.pravda.com.ua/news/2026/11/21/8063987",
+      "date": "2026-11-21T16:48:00+00:00",
+      "excerpt": "Унаслідок обстрілів та авіаударів Росії 21 листопада постраждали 5 людей на Дніпропетровщині та 6 на Херсонщині.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/4/0/961633/4084dcbc03f07b6e39a0c3bcb4ba4bc0.jpeg?w=1200&q=85&stamp=1795279832",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -107,20 +134,20 @@
     },
     {
       "area": "region",
-      "title": "Реактивний «шахед» атакував Вінницю. Пошкоджено об’єкт енергетичної інфраструктури - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/reaktivniy-shahed-atakuvav-vinnitsyu-poshkodzheno-obekt-energetichnoyi-12013337.html",
-      "date": "2026-11-21T08:12:00+00:00",
-      "excerpt": "Вранці вінничани почули потужний вибух після повідомлень про ворожий безпілотник над містом. Згодом стало відомо, що удар пошкодив енергетичний об’єкт. Енергетики вже працюють над відновленням…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182471-reaktivniy-shahed-atakuvav-vinnitsyu-poshkodzheno-obekt-energetichnoyi-infrastrukturi.jpeg",
+      "title": "П'ять авто по тисячі доларів: які старі машини на ходу продають у Вінниці - 20 хвилин",
+      "url": "https://vn.20minut.ua/Reviews/pyat-avto-po-tisyachi-dolariv-yaki-stari-mashini-na-hodu-prodayut-u-vi-12013358.html",
+      "date": "2026-11-21T13:15:00+00:00",
+      "excerpt": "На AUTO.RIA зараз продають 21 автомобіль у Вінниці за 1000 доларів. Ми відібрали п'ять із них, які, за словами продавців, на ходу. У списку — Ford, Peugeot, Opel і Skoda, випущені наприкінці 1980-х…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182671-pyat-avto-po-tisyachi-dolariv-yaki-stari-mashini-na-hodu-prodayut-u-vinnitsi.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Що Україна розповідає світові про клімат і війну",
-      "url": "https://www.ukrinform.ua/rubric-world/4186855-so-ukraina-rozpovidae-svitovi-pro-klimat-i-vijnu.html",
-      "date": "2026-11-21T09:00:00+00:00",
-      "excerpt": "Україна представила павільйон на кліматичній конференції ООН в Анталії — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795248175-595.jpg",
+      "title": "В Італії помер ювелір Паоло Булгарі",
+      "url": "https://www.ukrinform.ua/rubric-world/4187219-v-italii-pomer-uvelir-paolo-bulgari.html",
+      "date": "2026-11-21T16:31:00+00:00",
+      "excerpt": "В Італії на 90-му році життя помер Паоло Булгарі — представник знаменитої ювелірної династії та багаторічний керівник люксового бренду Bvlgari. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795278510-217.jpg",
       "source": "Укрінформ"
     },
     {
@@ -134,21 +161,21 @@
     },
     {
       "area": "region",
-      "title": "На Вінниччині внаслідок нічної атаки постраждала жінка: пошкоджені будинки, підприємство та сім автомобілів - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/na-vinnichchini-vnaslidok-nichnoyi-ataki-postrazhdala-zhinka-poshkodzh-12013329.html",
-      "date": "2026-11-21T07:18:00+00:00",
-      "excerpt": "Вибиті вікна, пошкоджені дахи, понівечені автомобілі та пожежа на підприємстві. Унаслідок нічної російської атаки на Вінниччину постраждала 50-річна жінка. Її госпіталізували з травмами легкого…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182419-na-vinnichchini-vnaslidok-nichnoyi-ataki-postrazhdala-zhinka-poshkodzheni-budinki-pidpriemstvo-ta-sim-avtomobiliv.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "Перервав серію без перемог: «Брацлав» обіграв «Дністер» у футбольному матчі",
+      "url": "https://suspilne.media/vinnytsia/1455820-perervav-seriu-bez-peremog-vinnickij-braclav-obigrav-dnister-u-futbolnomu-matci-cempionatu-ukraini",
+      "date": "2026-11-21T12:17:42+00:00",
+      "excerpt": "Вінницький ФК «Брацлав» на виїзді обіграв тернопільський ФК «Дністер» (Заліщики) у матчі шістнадцятого туру групи «А» Другої ліги ПФЛ сезону 2026/27 чемпіонату України — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/1f/1fe48ea6c9bc241f7b60a6ed29276e0fb7ecff6be4422405f8d0f7e987a665af.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "В Естонії через безпілотники піднімали винищувачі НАТО",
-      "url": "https://www.ukrinform.ua/rubric-world/4187087-v-estonii-cerez-bezpilotniki-pidnimali-vinisuvaci-nato.html",
-      "date": "2026-11-21T08:59:12+00:00",
-      "excerpt": "Сили оборони Естонії (EDF) вранці у суботу оголошували попередження про потенційну загрозу з боку безпілотних літальних апаратів (БПЛА) у двох північно-західних повітах країни. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_02/thumb_files/630_360_1738397337-382.jpeg",
-      "source": "Укрінформ"
+      "title": "Депардьє перебуває під слідством за звинуваченнями у груповому зґвалтуванні",
+      "url": "https://suspilne.media/culture/1455887-zerar-deparde-ta-misel-uelbek-perebuvaut-pid-slidstvom-za-zvinuvacennami-u-grupovomu-zgvaltuvanni",
+      "date": "2026-11-21T16:26:36+00:00",
+      "excerpt": "Французька поліція розслідує звинувачення у тому, що актор та засуджений за сексуальні злочини Жерар Депардьє зґвалтував та напав на жінку за співучастю автора бестселерів Мішеля Уельбека під час зйомок фільму 2018 року — Суспільне Культура",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/79/79768c4e48e04843cfc83599f0317203b7fdcc5de0dffa3de01d750571cf046d.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -160,24 +187,6 @@
       "source": "Жмеринка.City"
     },
     {
-      "area": "region",
-      "title": "Травмована жінка, пошкоджене підприємство: наслідки атаки РФ на Вінниччині",
-      "url": "https://suspilne.media/vinnytsia/1455724-travmovana-zinka-poskodzeni-pidpriemstvo-ta-avtivki-naslidki-ataki-rf-na-vinniccini-21-listopada",
-      "date": "2026-11-21T06:37:33+00:00",
-      "excerpt": "Внаслідок атаки РФ на Вінниччину 21 листопада 50-річна жінка отримала травми легкого ступеня. Її госпіталізували. Також пошкоджені цивільне підприємство, автомобілі та будинки — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/f4/f42f44238720781d56b17320faa9a0177f9f4a084d840d31284219145f265d3f.jpg",
-      "source": "Суспільне Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "У Вінниці обстрілом пошкоджений енергооб’єкт - частина міста без світла",
-      "url": "https://www.ukrinform.ua/rubric-regions/4187084-u-vinnici-obstrilom-poskodzenij-energoobekt-castina-mista-bez-svitla.html",
-      "date": "2026-11-21T08:52:22+00:00",
-      "excerpt": "У Вінниці через російську атаку пошкоджений енергооб’єкт, є відключення світла. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_10/thumb_files/630_360_1728978017-395.jpg",
-      "source": "Укрінформ"
-    },
-    {
       "area": "local",
       "title": "«Мова моя солов’їна»: у Жмеринці 28 учасників об’єднав ювілейний конкурс читців патріотичної поезії – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/485938/mova-moya-solovina-u-zhmerinci-28-uchasnikiv-obyednav-yuvilejnij-konkurs-chitciv-patriotichnoi-poezii",
@@ -185,6 +194,24 @@
       "excerpt": "У Жмеринці 28 учасників об’єднав ювілейний конкурс читців патріотичної поезії",
       "image": "https://im2.abo.media/media/64/article/d9a9ba1310234271b2df149f604205fb.webp",
       "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "Після видалення сечового міхура хірурги створили пацієнту новий — із частини кишки - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/pislya-vidalennya-sechovogo-mihura-hirurgi-stvorili-patsientu-noviy--i-12013339.html",
+      "date": "2026-11-21T12:09:00+00:00",
+      "excerpt": "Через агресивну пухлину чоловікові довелося видалити сечовий міхур. Вінницькі лікарі не лише провели складну операцію, а й одразу створили новий орган із власної тканини пацієнта. Усі етапи виконали…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182484-pislya-vidalennya-sechovogo-mihura-hirurgi-stvorili-patsientu-noviy--iz-chastini-kishki.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "На Одещині ситуація з електропостачанням залишається складною - Міненерго",
+      "url": "https://www.ukrinform.ua/rubric-regions/4187220-na-odesini-situacia-z-elektropostacannam-zalisaetsa-skladnou-minenergo.html",
+      "date": "2026-11-21T16:22:00+00:00",
+      "excerpt": "Після масованої російської атаки в ніч на 20 листопада енергетикам вдалося частково стабілізувати електропостачання у постраждалих регіонах, складною залишається ситуація в Одеській області. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1774209030-351.jpeg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -197,21 +224,21 @@
     },
     {
       "area": "region",
-      "title": "Графік відключення світла: де у Вінниці та області не буде електрики - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/na-vinnichchini-vvodyat-obmezhennya-elektriki-kogo-torknutsya-vidklyuc-11976644.html",
-      "date": "2026-11-21T06:00:00+00:00",
-      "excerpt": "Почали застосовувати обмеження електропостачання через напружену ситуацію в енергосистемі в Україні ще наприкінці вересня. «Вінницяобленерго» має сформований графік і застосовуватиме його у разі…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/60/4159312-grafik-vidklyuchennya-svitla-de-u-vinnitsi-ta-oblasti-ne-bude-elektriki.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "«Ми ближче — а її по груди засипало»: жителі громади розповіли про нічну атаку",
+      "url": "https://suspilne.media/vinnytsia/1455784-mi-blizce-blizce-a-ii-po-grudi-zasipalo-ziteli-gromadi-na-vinniccini-rozpovili-pro-nicnu-ataku-rf",
+      "date": "2026-11-21T11:24:25+00:00",
+      "excerpt": "«Скло полетіло, фронтон вгнуло, фундамент потріскав», — так наслідки нічної атаки РФ описує житель Гайсина Анатолій Коцур. Унаслідок вибухів у громаді пошкоджені житлові будинки та підприємства. Поранення отримала 50-річна жінка — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/c8/c8a580b6fe63eec71f6d9ea9ffd32628599fe7d73de6dc67ae0302395d07b0df.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "В Естонії підіймали авіацію союзників через загрозу дронів",
-      "url": "https://www.pravda.com.ua/news/2026/11/21/8063920",
-      "date": "2026-11-21T08:45:00+00:00",
-      "excerpt": "Вранці у суботу Збройні сили Естонії попередили про можливу загрозу дронів у повітах Іда-Вірумаа та Ляене-Вірумаа, у небо було піднято авіацію союзників по НАТО.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/d/8/961307/d8674d849c201df942dd98144847a5e7.jpeg?w=1200&q=85&stamp=1795250475",
-      "source": "Українська правда"
+      "title": "Трамп обіцяє «величезний штраф» компаніям, які будують центри обробки даних за кордоном",
+      "url": "https://www.ukrinform.ua/rubric-world/4187217-tramp-obicae-veliceznij-straf-kompaniam-aki-buduut-centri-obrobki-danih-za-kordonom.html",
+      "date": "2026-11-21T16:16:00+00:00",
+      "excerpt": "Президент США Дональд Трамп пригрозив запровадити «величезний штраф» для компаній, які будують центри обробки даних за межами США, оскільки Білий дім прагне зберегти технологічну перевагу над своїми суперниками в галузі штучного інтелекту. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1774517678-259.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -224,21 +251,21 @@
     },
     {
       "area": "region",
-      "title": "На Вінниччині під час уроку в тирі поранили 15-річну школярку",
-      "url": "https://suspilne.media/vinnytsia/1455664-na-vinniccini-pid-cas-uroku-v-tiri-poranili-15-ricnu-skolarku-policia-vidkrila-kriminalne-provadzenna",
-      "date": "2026-11-20T19:21:40+00:00",
-      "excerpt": "За фактом травмування школярки з гвинтівки під час уроку в одному зі Жмеринських ліцеїв поліція Вінниччини розпочала кримінальне провадження — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/dd/ddf9b75a47e75af2ceabe18be64fd0954d2b42e238241a548bf6c87fda9a614b.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "Дерева падали на дороги, рух довелося розчищати. Де на Вінниччині вирувала негода - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/dereva-padali-na-dorogi-ruh-dovelosya-rozchischati-de-na-vinnichchini--12013351.html",
+      "date": "2026-11-21T11:05:00+00:00",
+      "excerpt": "Через сильні пориви вітру на автошляхи області падали дерева, які перешкоджали руху транспорту. Рятувальникам довелося працювати у чотирьох районах. На щастя, минулося без постраждалих.",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182560-dereva-padali-na-dorogi-ruh-dovelosya-rozchischati-de-na-vinnichchini-viruvala-negoda.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "На Київщині наслідки атак РФ зафіксували у чотирьох районах, поранені троє людей",
-      "url": "https://www.ukrinform.ua/rubric-regions/4187068-na-kiivsini-cerez-ataku-droniv-rf-poranena-zinka-u-dvoh-rajonah-poskodzeni-budinki.html",
-      "date": "2026-11-21T08:40:00+00:00",
-      "excerpt": "У чотирьох районах Київської області зафіксували пошкодження внаслідок російських атак, постраждали дві жінки і чоловік. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795251930-562.jpg",
-      "source": "Укрінформ"
+      "title": "Хмара: Росіянам знадобляться місяці, щоб підняти пошкоджений елемент Кримського мосту",
+      "url": "https://www.pravda.com.ua/news/2026/11/21/8063984",
+      "date": "2026-11-21T16:13:00+00:00",
+      "excerpt": "Євгеній Хмара повідомив, що підйом пошкодженого елемента Керченського мосту триватиме від кількох місяців. Йдуть обстеження конструкції.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/7/e/961619/7e9c6801a920490b6d21c860be497d0b.jpeg?w=1200&q=85&stamp=1795277659",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -250,24 +277,6 @@
       "source": "Жмеринка.City"
     },
     {
-      "area": "region",
-      "title": "За оборону Куп’янська отримав «Срібний хрест», тепер має «Золотий»: історія захисника з Бару - 20 хвилин",
-      "url": "https://vn.20minut.ua/lyudi/za-oboronu-kupyanska-otrimav-sribniy-hrest-teper-mae-zolotiy-istoriya--12013304.html",
-      "date": "2026-11-20T19:00:00+00:00",
-      "excerpt": "Старший сержант із Вінниччини Андрій Палійчук отримав почесну відзнаку Головнокомандувача ЗСУ «Золотий хрест». Військовий служить у лавах Збройних сил із серпня 2023 року, пройшов бої на…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182141-za-oboronu-kupyanska-otrimav-sribniy-hrest-teper-mae-zolotiy-istoriya-zahisnika-z-baru.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "У Кривому Розі кількість постраждалих через ворожі обстріли зросла до 60",
-      "url": "https://www.ukrinform.ua/rubric-regions/4187075-u-krivomu-rozi-kilkist-postrazdalih-cerez-vorozi-obstrili-zrosla-do-60.html",
-      "date": "2026-11-21T08:37:00+00:00",
-      "excerpt": "Кількість постраждалих внаслідок обстрілів Кривого Рогу зросла до 60, у лікарнях залишаються 28 людей. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795249805-512.jpg",
-      "source": "Укрінформ"
-    },
-    {
       "area": "local",
       "title": "Додому «на щиті» повертається морський піхотинець Павло Танасейчук із Браїлова – Жмеринка.City",
       "url": "https://zhmerynka.city/articles/485585/dodomu-na-schiti-povertayetsya-morskij-pihotinec-pavlo-tanasejchuk-iz-brailova-rik-vvazhavsya-zniklim",
@@ -275,6 +284,24 @@
       "excerpt": "Жмеринська громада знову у жалобі за захисником України",
       "image": "https://im2.abo.media/media/64/article/673df7717f794759be712f531014ad63.webp",
       "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "Вінниця в Instagram. Кращі фото за тиждень, що минає - 20 хвилин",
+      "url": "https://vn.20minut.ua/Reviews/vinnitsya-v-instagram-kraschi-foto-za-tizhden-scho-minae-12013353.html",
+      "date": "2026-11-21T10:21:00+00:00",
+      "excerpt": "Щодня у соціальних мережах з'являються нові фотографії, що відображають міські ритми, мальовничі пейзажі, незвичайні споруди або пам'ятники, а також яскраві події з життя Вінниці та вінничан…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182573-vinnitsya-v-instagram-kraschi-foto-za-tizhden-scho-minae.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "CNN: ФБР вдруге за кілька місяців зазнало хакерської атаки — CNN",
+      "url": "https://suspilne.media/1455882-fbr-vdruge-za-kilka-misaciv-zaznalo-hakerskoi-ataki",
+      "date": "2026-11-21T16:11:20+00:00",
+      "excerpt": "ФБР розслідує ймовірний злом національної бази даних про злочини, якою користуються правоохоронці США. Це вже другий подібний випадок за останні місяці — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/67/67628bbe19138d2f7f7c778625634872bf5033c7e9a25a46798d1538b88e2663.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -287,21 +314,21 @@
     },
     {
       "area": "region",
-      "title": "У дворах Вінниці висадять 500 дерев. Які породи обрали та хто доглядатиме за саджанцями - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/u-dvorah-vinnitsi-visadyat-500-derev-yaki-porodi-obrali-ta-hto-doglyad-12013265.html",
-      "date": "2026-11-20T18:07:00+00:00",
-      "excerpt": "Цієї осені у вінницьких дворах побільшає зелені. Біля багатоповерхівок висаджують молоді клени, катальпи та сакури. Загалом у місті планують посадити 500 дерев, а місця для них визначали спільно з…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/82/4181890-u-dvorah-vinnitsi-visadyat-500-derev-yaki-porodi-obrali-ta-hto-doglyadatime-za-sadzhantsyami.jpeg",
+      "title": "Під час уроку в тирі на Вінниччині школяр поцілив в однокласницю з пневматичної гвинтівки - 20 хвилин",
+      "url": "https://vn.20minut.ua/Kryminal/pid-chas-uroku-v-tiri-na-vinnichchini-shkolyar-potsiliv-v-odnoklasnits-12013347.html",
+      "date": "2026-11-21T10:02:00+00:00",
+      "excerpt": "У Жмеринському районі 15-річний учень випадково вистрелив у 10-класницю під час заняття в шкільному тирі. Дівчину доправили до лікарні, її стан стабільний. Поліція розслідує, чи належно в закладі…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182537-pid-chas-uroku-v-tiri-na-vinnichchini-shkolyar-potsiliv-v-odnoklasnitsyu-z-pnevmatichnoyi-gvintivki.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "У Дніпрі та частині області запровадили екстрені відключення світла",
-      "url": "https://www.ukrinform.ua/rubric-regions/4187080-u-dnipri-ta-castini-oblasti-zaprovadili-ekstreni-vidklucenna-svitla.html",
-      "date": "2026-11-21T08:36:29+00:00",
-      "excerpt": "У Дніпропетровській області запроваджені екстрені відключення електроенергії. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1774209030-351.jpeg",
-      "source": "Укрінформ"
+      "title": "Російський дрон атакував залізничний вокзал в Овручі: чоловік отримав ушкодження",
+      "url": "https://suspilne.media/zhytomyr/1455893-rosijskij-dron-atakuvav-zaliznicnij-vokzal-na-zitomirsini-so-vidomo-pro-situaciu",
+      "date": "2026-11-21T16:10:30+00:00",
+      "excerpt": "Вдень 21 листопада армія РФ реактивним дроном завдала удару по залізничному вокзалу в Овручі. На місці атаки виникла пожежа. Один чоловік отримав ушкодження — Суспільне Житомир",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/2a/2a6397f5d0c75f8a8daf58975be1c80512b591d380a31f9a327b97fb4ce094c8.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -314,20 +341,20 @@
     },
     {
       "area": "region",
-      "title": "Вінницькі автобуси Solaris перевірили польські благодійники - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/vinnitski-avtobusi-solaris-perevirili-polski-blagodiyniki-12013302.html",
-      "date": "2026-11-20T17:14:00+00:00",
-      "excerpt": "Під час відключень світла вони зможуть замінити електротранспорт, а низька підлога зробить поїздки зручнішими для людей на кріслах колісних, ветеранів та батьків із дитячими візочками. Вінниця…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182128-vinnitski-avtobusi-solaris-perevirili-polski-blagodiyniki.jpeg",
-      "source": "20 хвилин. Вінниця"
+      "title": "У Вінниці вшанували пам'ять учасників Революції гідності",
+      "url": "https://suspilne.media/vinnytsia/1455748-nikoli-ne-zdolati-krainu-de-e-taki-sini-ta-donki-u-vinnici-vsanuvali-pamat-ucasnikiv-revolucii-gidnosti",
+      "date": "2026-11-21T09:17:20+00:00",
+      "excerpt": "21 листопада, у День Гідності та Свободи, у Вінниці на майдані Небесної Сотні вшанували пам'ять загиблих учасників Революції гідності та полеглих захисників російсько-української війни — Суспільне Вінниця",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/08/086fb08d9d3354534f1d7ee3b2ea0d78a49fcdd9306c8dbfac47a0ea49240620.jpg",
+      "source": "Суспільне Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "У Соломʼянському районі Києва ліквідували масштабну пожежу в торговельному центрі",
-      "url": "https://www.ukrinform.ua/rubric-regions/4187077-u-solomanskomu-rajoni-kieva-likviduvali-masstabnu-pozezu-v-torgovelnomu-centri.html",
-      "date": "2026-11-21T08:32:12+00:00",
-      "excerpt": "У Соломʼянському районі Києва вогнеборці ліквідували масштабну пожежу в торговельному центрі. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795249901-747.jpg",
+      "title": "Окупанти завдали удару по вокзалу на Житомирщині, є постраждалий",
+      "url": "https://www.ukrinform.ua/rubric-regions/4187210-okupanti-zavdali-udaru-po-vokzalu-na-zitomirsini-e-postrazdalij.html",
+      "date": "2026-11-21T15:54:48+00:00",
+      "excerpt": "Російські війська атакували залізничний вокзал в Овруцькій громаді Житомирської області, унаслідок атаки постраждала цивільна особа. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1761480128-769.jpg",
       "source": "Укрінформ"
     },
     {
@@ -337,33 +364,6 @@
       "date": "2026-11-11T11:10:00+00:00",
       "excerpt": "У Жмеринському надлісництві філії «Центральний лісовий офіс» ДП «Ліси України» постійно поєднують рейдову роботу, профілактичні заходи та розвиток.",
       "image": "https://im2.abo.media/media/64/article/fba44d1c11a8488aa0b8b6d452f41de0.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "«Кожному треба вклонитися»: у селі на Вінниччині відкрили Алею Героїв",
-      "url": "https://suspilne.media/vinnytsia/1455619-koznomu-treba-vklonitisa-u-seli-na-vinniccini-vidkrili-aleu-geroiv-iz-portretami-zagiblih-j-bezvisti-zniklih-bijciv",
-      "date": "2026-11-20T17:09:18+00:00",
-      "excerpt": "У селі Жабокрич Крижопільської громади на Вінниччині 20 листопада відкрили Алею Героїв. На центральній площі розмістили портрети восьми полеглих військовослужбовців та шістьох безвісти зниклих — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/5e/5e13ebf6d05f0480b0649820f1f7bc99b2010e28d869f9d1a13b162a591a7334.jpg",
-      "source": "Суспільне Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Ворог за добу обстріляв цивільну та енергетичну інфраструктуру у двох районах Житомирщини, двоє постраждалих",
-      "url": "https://www.ukrinform.ua/rubric-regions/4187074-vorog-za-dobu-atakuvav-civilnu-ta-energeticnu-infrastrukturu-u-dvoh-rajonah-zitomirsini-dvoe-postrazdalih.html",
-      "date": "2026-11-21T08:22:00+00:00",
-      "excerpt": "На Житомирщині внаслідок російських атак постраждали двоє людей - місцевий житель та іноземець. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795249112-753.jpg",
-      "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "Жмеринчанин Вадим Демчуков став срібним призером Чемпіонату світу з кікбоксингу в Іспанії – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/485399/zhmerinchanin-vadim-demchukov-stav-sribnim-prizerom-chempionatu-svitu-z-kikboksingu-v-ispanii",
-      "date": "2026-11-10T10:06:00+00:00",
-      "excerpt": "Жмеринчанин Вадим Демчуков став срібним призером Чемпіонату світу з кікбоксингу в Іспанії",
-      "image": "https://im2.abo.media/media/64/article/3910f0fe6f624b50a857ecba5052dcaf.webp",
       "source": "Жмеринка.City"
     }
   ]
