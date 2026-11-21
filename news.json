@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T20:08:12.416945+00:00",
+  "updated_at": "2026-11-21T01:30:25.961673+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,18 +28,18 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-11-20T20:06:55+00:00",
+      "date": "2026-11-21T01:29:22+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
     },
     {
       "area": "local",
-      "title": "8223 дитини, 100 гуртків і безкоштовний спорт: які можливості для дітей у Жмеринській громаді – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/486567/8223-ditini-100-gurtkiv-i-bezkoshtovnij-sport-yaki-mozhlivosti-dlya-ditej-u-zhmerinskij-gromadi",
-      "date": "2026-11-20T07:53:00+00:00",
-      "excerpt": "Які можливості для дітей у Жмеринській громаді",
-      "image": "https://im2.abo.media/media/64/article/a6741e85940d40ebb61ea72551203d35.webp",
+      "title": "У Жмеринці триває підготовка до 82-ї сесії міської ради: які проєкти виносять на розгляд депутатів – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/486656/u-zhmerinci-trivaye-pidgotovka-do-82-i-sesii-miskoi-radi-yaki-proyekti-vinosyat-na-rozglyad-deputativ",
+      "date": "2026-11-20T15:08:00+00:00",
+      "excerpt": "У Жмеринці триває підготовка до 82-ї сесії міської ради:",
+      "image": "https://im2.abo.media/media/64/article/947aa9a5ee6649f3bf01c4fb58b7c7ab.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -53,20 +53,20 @@
     },
     {
       "area": "ukraine",
-      "title": "РФ вдарила по Кривому Рогу двома ракетами й завдали повторної атаки «Шахедами», загинула дівчина - Вілкул",
-      "url": "https://www.ukrinform.ua/rubric-regions/4186989-rosiani-vdarili-po-krivomu-rogu-dvoma-balisticnimi-raketami-j-zavdali-povtornoi-ataki-sahedami-vilkul.html",
-      "date": "2026-11-20T20:03:00+00:00",
-      "excerpt": "Росіяни атакували Кривий Ріг двома балістичними ракетами, а потім завдали повторної атаки реактивними «Шахедами», загинула . Атака на місто триває. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_11/thumb_files/630_360_1732800411-699.png",
+      "title": "Поліція зафіксувала понад 300 випадків пошкодження іноземних підприємств від початку війни",
+      "url": "https://www.ukrinform.ua/rubric-economy/4187016-policia-zafiksuvala-ponad-300-vipadkiv-poskodzenna-inozemnih-pidpriemstv-vid-pocatku-vijni.html",
+      "date": "2026-11-21T01:12:00+00:00",
+      "excerpt": "Від початку повномасштабного російського вторгнення Національна поліція зафіксувала понад 300 випадків пошкодження або руйнування підприємств з іноземною участю та об’єктів, на яких вони розташовані. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795221160-520.jpg",
       "source": "Укрінформ"
     },
     {
       "area": "local",
-      "title": "Разом із сином пішов захищати Україну: «на щиті» повертається Сергій Семенюк із позивним «Сем» – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/486466/razom-iz-sinom-pishov-zahischati-ukrainu-a-teper-povertayetsya-na-schiti-brailiv-poroschayetsya-iz-sergiye",
-      "date": "2026-11-19T13:55:00+00:00",
-      "excerpt": "Жмеринська громада попрощається із Героєм Сергієм Семенюком",
-      "image": "https://im2.abo.media/media/64/article/16e15606042948e3ae8fe5c233316dd8.webp",
+      "title": "Подружжя лікарів-гінекологів із Запоріжжя переїхало до Жмеринки: у ЦРЛ оновили жіночу консультацію – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/486634/podruzhzhya-likariv-ginekologiv-iz-zaporizhzhya-pereihalo-do-zhmerinki-u-crl-onovili-zhinochu-konsultaciyu",
+      "date": "2026-11-20T13:40:00+00:00",
+      "excerpt": "Подружжя лікарів із Запоріжжя переїхало до Жмеринки",
+      "image": "https://im2.abo.media/media/64/article/aced7275717e4960a14d92f00096b3a8.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -80,29 +80,29 @@
     },
     {
       "area": "ukraine",
-      "title": "На Рівненщині РФ атакувала цивільне підприємство: є поранений",
-      "url": "https://www.pravda.com.ua/news/2026/11/20/8063889",
-      "date": "2026-11-20T20:02:00+00:00",
-      "excerpt": "Російські війська увечері 20 листопада атакували цивільне підприємство на Рівненщині: постраждала людина.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/4/4/961157/448e297bb1e42a675ab7afb4593442ad.jpeg?w=1200&q=85&stamp=1795204958",
-      "source": "Українська правда"
+      "title": "У Запоріжжі під ворожим ударом опинився дитячий садок, чоловік зазнав травм",
+      "url": "https://www.ukrinform.ua/rubric-regions/4187012-u-zaporizzi-pid-vorozim-udarom-opinivsa-ditacij-sadok.html",
+      "date": "2026-11-21T00:45:00+00:00",
+      "excerpt": "У Запоріжжі під ворожим ударом опинився дитячий садок, зазнала травм літня людина, у сусідньому будинку спалахнула пожежа. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795216540-296.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
-      "title": "Після трьох років невідомості Жмеринка попрощається із Віталієм Данилишеним із с. Коростівці – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/486022/pislya-troh-rokiv-nevidomosti-zhmerinka-poproschayetsya-iz-vitaliyem-danilishenim-iz-s-korostivci",
-      "date": "2026-11-16T09:40:00+00:00",
-      "excerpt": "Віталію Данилишену назавжди 31...",
-      "image": "https://im2.abo.media/media/64/article/add5095deb5643758bfde909fc10e8fa.webp",
+      "title": "8223 дитини, 100 гуртків і безкоштовний спорт: які можливості для дітей у Жмеринській громаді – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/486567/8223-ditini-100-gurtkiv-i-bezkoshtovnij-sport-yaki-mozhlivosti-dlya-ditej-u-zhmerinskij-gromadi",
+      "date": "2026-11-20T07:53:00+00:00",
+      "excerpt": "Які можливості для дітей у Жмеринській громаді",
+      "image": "https://im2.abo.media/media/64/article/a6741e85940d40ebb61ea72551203d35.webp",
       "source": "Жмеринка.City"
     },
     {
       "area": "local",
-      "title": "Принц Гаррі нагородив В’ячеслава Стражця: ветеран війни здобув три медалі на Іграх Нескорених – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/485991/princ-garri-nagorodivvyacheslava-strazhcya-veteran-vijni-zdobuv-tri-medali-na-igrah-neskorenih",
-      "date": "2026-11-16T04:45:00+00:00",
-      "excerpt": "Принц Гаррі нагородив В’ячеслава Стражця: ветеран війни здобув три медалі на Іграх Нескорених",
-      "image": "https://im2.abo.media/media/64/article/77cf6c0b927f4a68bc06d28a6cb52072.webp",
+      "title": "Разом із сином пішов захищати Україну: «на щиті» повертається Сергій Семенюк із позивним «Сем» – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/486466/razom-iz-sinom-pishov-zahischati-ukrainu-a-teper-povertayetsya-na-schiti-brailiv-poroschayetsya-iz-sergiye",
+      "date": "2026-11-19T13:55:00+00:00",
+      "excerpt": "Жмеринська громада попрощається із Героєм Сергієм Семенюком",
+      "image": "https://im2.abo.media/media/64/article/16e15606042948e3ae8fe5c233316dd8.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -116,20 +116,20 @@
     },
     {
       "area": "ukraine",
-      "title": "Трамп звинуватив Канаду в «несправедливій» торговельній політиці щодо США",
-      "url": "https://www.ukrinform.ua/rubric-world/4186972-tramp-zvinuvativ-kanadu-v-nespravedlivij-torgovelnij-politici-sodo-ssa.html",
-      "date": "2026-11-20T19:52:00+00:00",
-      "excerpt": "Президент США Дональд Трамп знову повторив, що Канада протягом багатьох років «несправедливо» поводилася зі Сполученими Штатами в торговельних відносинах, і розкритикував канадських представників на переговорах. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1774517678-712.jpg",
+      "title": "МОН вітає рішення Євросоюзу остаточно закрити Росії доступ до програми Erasmus+ з 2027 року",
+      "url": "https://www.ukrinform.ua/rubric-society/4186817-mon-vitae-risenna-evrosouzu-ostatocno-zakriti-rosii-dostup-do-programi-erasmus-z-2027-roku.html",
+      "date": "2026-11-21T00:32:00+00:00",
+      "excerpt": "Міністерство освіти і науки України вітає рішення Європейської комісії про припинення участі організацій, розташованих у Росії, та осіб, які проживають на її території, у програмі Erasmus+. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_02/thumb_files/630_360_1771843053-268.jpg",
       "source": "Укрінформ"
     },
     {
       "area": "local",
-      "title": "«Мова моя солов’їна»: у Жмеринці 28 учасників об’єднав ювілейний конкурс читців патріотичної поезії – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/485938/mova-moya-solovina-u-zhmerinci-28-uchasnikiv-obyednav-yuvilejnij-konkurs-chitciv-patriotichnoi-poezii",
-      "date": "2026-11-15T10:07:00+00:00",
-      "excerpt": "У Жмеринці 28 учасників об’єднав ювілейний конкурс читців патріотичної поезії",
-      "image": "https://im2.abo.media/media/64/article/d9a9ba1310234271b2df149f604205fb.webp",
+      "title": "Після трьох років невідомості Жмеринка попрощається із Віталієм Данилишеним із с. Коростівці – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/486022/pislya-troh-rokiv-nevidomosti-zhmerinka-poproschayetsya-iz-vitaliyem-danilishenim-iz-s-korostivci",
+      "date": "2026-11-16T09:40:00+00:00",
+      "excerpt": "Віталію Данилишену назавжди 31...",
+      "image": "https://im2.abo.media/media/64/article/add5095deb5643758bfde909fc10e8fa.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -143,20 +143,20 @@
     },
     {
       "area": "ukraine",
-      "title": "Українські та німецькі бізнеси оголосили про нові домовленості на понад €100 мільйонів",
-      "url": "https://www.ukrinform.ua/rubric-economy/4186987-ukrainski-ta-nimecki-biznesi-ogolosili-pro-novi-domovlenosti-na-ponad-100-miljoniv.html",
-      "date": "2026-11-20T19:50:00+00:00",
-      "excerpt": "У Берліні під час 9-го Німецько-українського бізнес-форуму бізнеси оголосили про нові комерційні домовленості більш як на 100 млн євро. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795203850-711.jpg",
-      "source": "Укрінформ"
+      "title": "Естонія викликала тимчасового повіреного Росії та засудила атаки на Київ",
+      "url": "https://suspilne.media/1455698-estonia-viklikala-timcasovogo-povirenogo-rosii-ta-zasudila-ataki-na-kiiv-cerez-aki-postrazdali-posolstva",
+      "date": "2026-11-21T00:17:29+00:00",
+      "excerpt": "Глава МЗС Естонії заявив про майже 700 загиблих і поранених цивільних за тиждень. Атаки 19 листопада пошкодили посольства Австрії та Нідерландів у Києві — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/8f/8f15be03bb000323dd9d2ce140fbc9797e89a20d3dc1940ee3d238fc425d3e3b.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
-      "title": "За працю на землі та підтримку захисників: у Жмеринці відзначили працівників сільського господарства – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/485937/za-pracyu-na-zemli-ta-pidtrimku-zahisnikiv-u-zhmerinci-vidznachili-pracivnikiv-silskogo-gospodarstva",
-      "date": "2026-11-15T09:46:00+00:00",
-      "excerpt": "У Жмеринці відзначили працівників сільського господарства",
-      "image": "https://im2.abo.media/media/64/article/90b4a9e4d0db4d44b538d0d48c1a127f.webp",
+      "title": "Принц Гаррі нагородив В’ячеслава Стражця: ветеран війни здобув три медалі на Іграх Нескорених – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/485991/princ-garri-nagorodivvyacheslava-strazhcya-veteran-vijni-zdobuv-tri-medali-na-igrah-neskorenih",
+      "date": "2026-11-16T04:45:00+00:00",
+      "excerpt": "Принц Гаррі нагородив В’ячеслава Стражця: ветеран війни здобув три медалі на Іграх Нескорених",
+      "image": "https://im2.abo.media/media/64/article/77cf6c0b927f4a68bc06d28a6cb52072.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -170,29 +170,29 @@
     },
     {
       "area": "ukraine",
-      "title": "«Ведмежий капкан»: як захисники зірвали плани РФ й звільнили частину Харківщини",
-      "url": "https://suspilne.media/kharkiv/1455650-vedmezij-kapkan-ak-ukrainski-bijci-zirvali-plani-rf-stvoriti-kotel-na-harkivsini-j-zvilnili-14-naselenih-punktiv",
-      "date": "2026-11-20T19:49:16+00:00",
-      "excerpt": "Українські військові провели операцію «Ведмежий капкан» у відповідь на операцію РФ «Ведмежий кут». Як готувалася операція, як вона минула і які її наслідки, читайте — Суспільне Харків",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/76/76eb32868cda867ed27224825effc31cd70b973024ea806608e1f2d8c49f6ba2.jpg",
-      "source": "Суспільне"
+      "title": "Росія не наважиться збільшувати навантаження на Керченський міст навіть після ремонту - Плетенчук",
+      "url": "https://www.ukrinform.ua/rubric-ato/4187008-rosia-ne-navazitsa-zbilsuvati-navantazenna-na-kercenskij-mist-navit-pisla-remontu-pletencuk.html",
+      "date": "2026-11-21T00:04:00+00:00",
+      "excerpt": "Навіть за умови проведення відновлювальних робіт на залізничній частині Керченського мосту збільшувати на ньому навантаження Росія не наважиться. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_06/thumb_files/630_360_1718277580-839.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
-      "title": "90 років на варті залізничної безпеки: у Жмеринці привітали колектив відновного поїзда – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/485729/90-rokiv-na-varti-zaliznichnoi-bezpeki-u-zhmerinci-privitali-kolektiv-vidnovnogo-poizda",
-      "date": "2026-11-12T16:51:00+00:00",
-      "excerpt": "У Жмеринці привітали колектив відновного поїзда",
-      "image": "https://im2.abo.media/media/64/article/46d16e112af444e0b3c4ab0ae9a3d1ee.webp",
+      "title": "«Мова моя солов’їна»: у Жмеринці 28 учасників об’єднав ювілейний конкурс читців патріотичної поезії – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/485938/mova-moya-solovina-u-zhmerinci-28-uchasnikiv-obyednav-yuvilejnij-konkurs-chitciv-patriotichnoi-poezii",
+      "date": "2026-11-15T10:07:00+00:00",
+      "excerpt": "У Жмеринці 28 учасників об’єднав ювілейний конкурс читців патріотичної поезії",
+      "image": "https://im2.abo.media/media/64/article/d9a9ba1310234271b2df149f604205fb.webp",
       "source": "Жмеринка.City"
     },
     {
       "area": "local",
-      "title": "Щоб школи були з освітленням, а місто з водою: за що голосували депутати у Жмеринці на 81 сесії – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/485713/schob-shkoli-buli-z-osvitlennyam-a-misto-z-vodoyu-za-scho-golosuvali-deputati-u-zhmerinci-na-81-sesii",
-      "date": "2026-11-12T14:20:00+00:00",
-      "excerpt": "За що голосували депутати у Жмеринці на 81 сесії",
-      "image": "https://im2.abo.media/media/64/article/7eef72b45c3d4df19f19aa1ca9422ec1.webp",
+      "title": "За працю на землі та підтримку захисників: у Жмеринці відзначили працівників сільського господарства – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/485937/za-pracyu-na-zemli-ta-pidtrimku-zahisnikiv-u-zhmerinci-vidznachili-pracivnikiv-silskogo-gospodarstva",
+      "date": "2026-11-15T09:46:00+00:00",
+      "excerpt": "У Жмеринці відзначили працівників сільського господарства",
+      "image": "https://im2.abo.media/media/64/article/90b4a9e4d0db4d44b538d0d48c1a127f.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -206,20 +206,20 @@
     },
     {
       "area": "ukraine",
-      "title": "Трамп заявив, що США не дозволять Ірану створити \"брудну бомбу\"",
-      "url": "https://www.pravda.com.ua/news/2026/11/20/8063888",
-      "date": "2026-11-20T19:43:00+00:00",
-      "excerpt": "Президент США Дональд Трамп заявив, що його країна \"не дозволить\" Ірану створити \"брудну бомбу\" та попередив: його адміністрація дізнається, якщо Тегеран займеться цим.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/9/9/961156/997a4e974015b89c91edb14f25182bdd.jpeg?w=1200&q=85&stamp=1795203769",
-      "source": "Українська правда"
+      "title": "Україна є нашим безумовним пріоритетом серед сотень партнерів - віцепрезидентка Страсбурзького університету",
+      "url": "https://www.ukrinform.ua/rubric-society/4186997-ukraina-e-nasim-bezumovnim-prioritetom-sered-soten-partneriv-viceprezidentka-strasburzkogo-universitetu.html",
+      "date": "2026-11-20T23:41:00+00:00",
+      "excerpt": "Україна є одним із головних пріоритетів міжнародної співпраці Страсбурзького університету, який має 823 партнерів у всьому світі. Цей навчальний заклад вже готує новий проєкт для підтримки українських вишів в контексті майбутнього вступу України до ЄС. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795207924-732.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
-      "title": "Додому «на щиті» повертається морський піхотинець Павло Танасейчук із Браїлова – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/485585/dodomu-na-schiti-povertayetsya-morskij-pihotinec-pavlo-tanasejchuk-iz-brailova-rik-vvazhavsya-zniklim",
-      "date": "2026-11-11T16:07:00+00:00",
-      "excerpt": "Жмеринська громада знову у жалобі за захисником України",
-      "image": "https://im2.abo.media/media/64/article/673df7717f794759be712f531014ad63.webp",
+      "title": "90 років на варті залізничної безпеки: у Жмеринці привітали колектив відновного поїзда – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/485729/90-rokiv-na-varti-zaliznichnoi-bezpeki-u-zhmerinci-privitali-kolektiv-vidnovnogo-poizda",
+      "date": "2026-11-12T16:51:00+00:00",
+      "excerpt": "У Жмеринці привітали колектив відновного поїзда",
+      "image": "https://im2.abo.media/media/64/article/46d16e112af444e0b3c4ab0ae9a3d1ee.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -233,20 +233,20 @@
     },
     {
       "area": "ukraine",
-      "title": "Російський дрон вдарив по передмістю Харкова: загорівся будинок, шестеро постраждалих",
-      "url": "https://www.ukrinform.ua/rubric-regions/4186977-rosijskij-dron-vdariv-po-peredmistu-harkova-dvoe-postrazdalih.html",
-      "date": "2026-11-20T19:37:00+00:00",
-      "excerpt": "Російський безпілотник увечері 20 листопада вдарив по передмістю Харкова, відомо про шістьох постраждалих, серед яких двоє дітей. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1763119100-724.jpeg",
-      "source": "Укрінформ"
+      "title": "РФ атакувала балістикою центр Кривого Рогу: загинула фельдшерка і дитина, 42 постраждалих",
+      "url": "https://www.pravda.com.ua/news/2026/11/21/8063886",
+      "date": "2026-11-20T23:30:00+00:00",
+      "excerpt": "Росія вдарила балістичними ракетами по Кривому Рогу – загинули фельдшерка, дівчина і хлопчик, 42 людини постраждали, пошкоджено 23 будинки та лікарню.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/3/b/961152/3b829fbac1f54d29071fa375cc4592b9.jpeg?w=1200&q=85&stamp=1795202404",
+      "source": "Українська правда"
     },
     {
       "area": "local",
-      "title": "Додому «на щиті» повертається Віталій Кондратьєв з села Слобода Чернятинська – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/485580/dodomu-na-schiti-povertayetsya-vitalij-kondratyev-z-sela-sloboda-chernyatinska",
-      "date": "2026-11-11T14:51:00+00:00",
-      "excerpt": "Жмеринщина у жалобі за захисником",
-      "image": "https://im2.abo.media/media/64/article/64729f321655458d93c6d94590334e2b.webp",
+      "title": "Щоб школи були з освітленням, а місто з водою: за що голосували депутати у Жмеринці на 81 сесії – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/485713/schob-shkoli-buli-z-osvitlennyam-a-misto-z-vodoyu-za-scho-golosuvali-deputati-u-zhmerinci-na-81-sesii",
+      "date": "2026-11-12T14:20:00+00:00",
+      "excerpt": "За що голосували депутати у Жмеринці на 81 сесії",
+      "image": "https://im2.abo.media/media/64/article/7eef72b45c3d4df19f19aa1ca9422ec1.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -260,29 +260,29 @@
     },
     {
       "area": "ukraine",
-      "title": "Трамп не бачить зв’язку між масовими технологічними збоями й похвалив екскерівника Nvidia",
-      "url": "https://www.ukrinform.ua/rubric-world/4186983-tramp-ne-bacit-zvazku-miz-masovimi-tehnologicnimi-zboami-j-pohvaliv-ekskerivnika-nvidia.html",
-      "date": "2026-11-20T19:29:00+00:00",
-      "excerpt": "Президент США Дональд Трамп вважає, що масштабні технологічні збої, які протягом останнього тижня торкнулися аеропортів, банків та інших установ і компаній, не пов’язані між собою. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1773775339-284.jpg",
-      "source": "Укрінформ"
+      "title": "Росіяни атакували дитсадок у Запоріжжі: одна людина постраждала",
+      "url": "https://www.pravda.com.ua/news/2026/11/21/8063898",
+      "date": "2026-11-20T23:14:00+00:00",
+      "excerpt": "Вночі 21 листопада російські війська атакували дитсадок у Запоріжжі, сталася пожежа в будинку. Дані про постраждалих уточнюються.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/1/b/961197/1bf59088ae9476947944d6b4d30b95e5.jpeg?w=1200&q=85&stamp=1795216763",
+      "source": "Українська правда"
     },
     {
       "area": "local",
-      "title": "Вода, дороги і робочі місця: що запропонували на стратегічній сесії Жмеринської громади – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/485594/voda-dorogi-i-robochi-miscya-scho-zaproponuvali-na-strategichnij-sesii-zhmerinskoi-gromadi",
-      "date": "2026-11-11T12:01:00+00:00",
-      "excerpt": "Вода, дороги і робочі місця: що запропонували на стратегічній сесії Жмеринської громади",
-      "image": "https://im2.abo.media/media/64/article/e2a6c68b53314ebd837d992f8f2db2c5.webp",
+      "title": "Додому «на щиті» повертається морський піхотинець Павло Танасейчук із Браїлова – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/485585/dodomu-na-schiti-povertayetsya-morskij-pihotinec-pavlo-tanasejchuk-iz-brailova-rik-vvazhavsya-zniklim",
+      "date": "2026-11-11T16:07:00+00:00",
+      "excerpt": "Жмеринська громада знову у жалобі за захисником України",
+      "image": "https://im2.abo.media/media/64/article/673df7717f794759be712f531014ad63.webp",
       "source": "Жмеринка.City"
     },
     {
       "area": "local",
-      "title": "Ліси Жмеринського надлісництва – під комплексною охороною – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/485570/lisi-zhmerinskogo-nadlisnictva-pid-kompleksnoyu-ohoronoyu",
-      "date": "2026-11-11T11:10:00+00:00",
-      "excerpt": "У Жмеринському надлісництві філії «Центральний лісовий офіс» ДП «Ліси України» постійно поєднують рейдову роботу, профілактичні заходи та розвиток.",
-      "image": "https://im2.abo.media/media/64/article/fba44d1c11a8488aa0b8b6d452f41de0.webp",
+      "title": "Додому «на щиті» повертається Віталій Кондратьєв з села Слобода Чернятинська – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/485580/dodomu-na-schiti-povertayetsya-vitalij-kondratyev-z-sela-sloboda-chernyatinska",
+      "date": "2026-11-11T14:51:00+00:00",
+      "excerpt": "Жмеринщина у жалобі за захисником",
+      "image": "https://im2.abo.media/media/64/article/64729f321655458d93c6d94590334e2b.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -296,20 +296,20 @@
     },
     {
       "area": "ukraine",
-      "title": "Війська РФ атакували Кривий Ріг, поранені 20 людей",
-      "url": "https://www.ukrinform.ua/rubric-regions/4186984-vijska-rf-atakuvali-krivij-rig-poraneni-20-ludej.html",
-      "date": "2026-11-20T19:26:00+00:00",
-      "excerpt": "Війська РФ завдали удару по Кривому Рогу. Пошкоджені ресторан, гаражі, авто. Є поранені. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795202976-233.jpg",
+      "title": "Більшість росіян заявили, що Росія не несе відповідальності за руйнування України",
+      "url": "https://www.ukrinform.ua/rubric-world/4186999-bilsist-rosian-zaavili-so-rosia-ne-nese-vidpovidalnosti-za-rujnuvanna-ukraini.html",
+      "date": "2026-11-20T22:52:00+00:00",
+      "excerpt": "Переважна більшість росіян не вважають свою країну відповідальною за руйнування України та за те, що внаслідок російських бомбардувань мешканці великих міст в середньому від 6 до 12 годин на добу проводять без електрики чи води. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2019_09/thumb_files/630_360_1568897758-760.jpg",
       "source": "Укрінформ"
     },
     {
       "area": "local",
-      "title": "Жмеринчанин Вадим Демчуков став срібним призером Чемпіонату світу з кікбоксингу в Іспанії – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/485399/zhmerinchanin-vadim-demchukov-stav-sribnim-prizerom-chempionatu-svitu-z-kikboksingu-v-ispanii",
-      "date": "2026-11-10T10:06:00+00:00",
-      "excerpt": "Жмеринчанин Вадим Демчуков став срібним призером Чемпіонату світу з кікбоксингу в Іспанії",
-      "image": "https://im2.abo.media/media/64/article/3910f0fe6f624b50a857ecba5052dcaf.webp",
+      "title": "Вода, дороги і робочі місця: що запропонували на стратегічній сесії Жмеринської громади – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/485594/voda-dorogi-i-robochi-miscya-scho-zaproponuvali-na-strategichnij-sesii-zhmerinskoi-gromadi",
+      "date": "2026-11-11T12:01:00+00:00",
+      "excerpt": "Вода, дороги і робочі місця: що запропонували на стратегічній сесії Жмеринської громади",
+      "image": "https://im2.abo.media/media/64/article/e2a6c68b53314ebd837d992f8f2db2c5.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -323,20 +323,20 @@
     },
     {
       "area": "ukraine",
-      "title": "Трамп заявив, що Путін «помилково» запустив до Польщі ракети",
-      "url": "https://suspilne.media/1455658-tramp-zaaviv-so-putin-pomilkovo-zapustiv-do-polsi-kilka-malenkih-raket-ta-droni",
-      "date": "2026-11-20T19:24:52+00:00",
-      "excerpt": "Трамп, коментуючи інцидент з перетином польського кордону російськими ракетами під час атаки на Україну заявив, що Путін зробив це помилково — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/d5/d5ed6efff57849f0f6125cab73263343761073bc0e2ad4e3b46ce0a1343183f9.jpg",
+      "title": "Протест проти мілітаризації в Нідерландах: школярі й студенти пішли із занять",
+      "url": "https://suspilne.media/1455687-protest-proti-militarizacii-v-niderlandah-kilka-tisac-skolariv-i-studentiv-pisli-iz-zanat",
+      "date": "2026-11-20T22:50:39+00:00",
+      "excerpt": "Кілька тисяч молодих людей вийшли на акції в 16 населених пунктах. Протести проти мілітаризації відбулися також у 24 країнах Європи — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/a5/a5ac3b27ed9d58401961133c59f98c4fb9efc8ddfb5b8c868bdde83549e05b47.jpg",
       "source": "Суспільне"
     },
     {
       "area": "local",
-      "title": "Культура єднає серця: у Жмеринці привітали працівників культури та майстрів народного мистецтва – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/485291/kultura-yednaye-sercya-u-zhmerinci-privitali-pracivnikiv-kulturi-ta-majstriv-narodnogo-mistectva",
-      "date": "2026-11-09T13:44:00+00:00",
-      "excerpt": "У Жмеринці привітали працівників культури та майстрів народного мистецтва",
-      "image": "https://im2.abo.media/media/64/article/5c342bdbfac249a48d83d1988e5703d2.webp",
+      "title": "Ліси Жмеринського надлісництва – під комплексною охороною – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/485570/lisi-zhmerinskogo-nadlisnictva-pid-kompleksnoyu-ohoronoyu",
+      "date": "2026-11-11T11:10:00+00:00",
+      "excerpt": "У Жмеринському надлісництві філії «Центральний лісовий офіс» ДП «Ліси України» постійно поєднують рейдову роботу, профілактичні заходи та розвиток.",
+      "image": "https://im2.abo.media/media/64/article/fba44d1c11a8488aa0b8b6d452f41de0.webp",
       "source": "Жмеринка.City"
     },
     {
@@ -350,20 +350,20 @@
     },
     {
       "area": "ukraine",
-      "title": "Майбутню архітектуру безпеки Україна розбудовуватиме за підтримки Європи - командувач NSATU",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4186706-majbutnu-arhitekturu-bezpeki-ukraina-rozbudovuvatime-za-pidtrimki-evropi-komanduvac-nsatu.html",
-      "date": "2026-11-20T19:24:00+00:00",
-      "excerpt": "Процес розбудови та підтримання майбутньої архітектури безпеки очолюватиме Україна за підтримки європейських партнерів. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795012344-277.jpg",
-      "source": "Укрінформ"
+      "title": "Через російський обстріл на Рівненщині пів сотні населених пунктів лишилися без світла",
+      "url": "https://www.pravda.com.ua/news/2026/11/21/8063895",
+      "date": "2026-11-20T22:17:00+00:00",
+      "excerpt": "Внаслідок атаки росіян на Сарненський район без світла залишились близько 50 населених пунктів. Енергетики не можуть відновити електрику через тривоги.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/6/f/961190/6f7b2c820ed0550a09801b0fcae37b79.jpeg?w=1200&q=85&stamp=1795213824",
+      "source": "Українська правда"
     },
     {
       "area": "local",
-      "title": "У Жмеринці відкрили та освятили ще одну меморіальну дошку з іменами 25 полеглих захисників України – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/485167/u-zhmerinci-vidkrili-ta-osvyatili-sche-odnu-memorialnu-doshku-z-imenami-25-poleglih-zahisnikiv-ukraini",
-      "date": "2026-11-08T12:13:00+00:00",
-      "excerpt": "У Жмеринці відкрили та освятили ще одну меморіальну дошку з іменами 25 полеглих захисників України",
-      "image": "https://im2.abo.media/media/64/article/a51814916b1b492db251e764dadf4a84.webp",
+      "title": "Жмеринчанин Вадим Демчуков став срібним призером Чемпіонату світу з кікбоксингу в Іспанії – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/485399/zhmerinchanin-vadim-demchukov-stav-sribnim-prizerom-chempionatu-svitu-z-kikboksingu-v-ispanii",
+      "date": "2026-11-10T10:06:00+00:00",
+      "excerpt": "Жмеринчанин Вадим Демчуков став срібним призером Чемпіонату світу з кікбоксингу в Іспанії",
+      "image": "https://im2.abo.media/media/64/article/3910f0fe6f624b50a857ecba5052dcaf.webp",
       "source": "Жмеринка.City"
     }
   ]
