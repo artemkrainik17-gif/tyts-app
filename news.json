@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T23:12:15.143743+00:00",
+  "updated_at": "2026-11-22T06:39:10.474878+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
@@ -28,7 +28,7 @@
       "area": "ukraine",
       "title": "Офіційні документи",
       "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-11-21T23:10:30+00:00",
+      "date": "2026-11-22T06:38:39+00:00",
       "excerpt": "",
       "image": "https://www.ukrinform.ua/img/img_none.jpg",
       "source": "Укрінформ"
@@ -53,12 +53,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Бахрейн заявив про атаку з боку Ірану",
-      "url": "https://www.pravda.com.ua/news/2026/11/22/8063999",
-      "date": "2026-11-21T22:58:00+00:00",
-      "excerpt": "Бахрейн заявив про атаку Ірану, КВІР повідомив, що атакував базу США.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/d/c/961705/dc7edf066267b4edd3ec29c20cc38d9f.jpeg?w=1200&q=85&stamp=1795302085",
-      "source": "Українська правда"
+      "title": "Росіяни атакували об’єкти інфраструктури на Дніпропетровщині",
+      "url": "https://www.ukrinform.ua/rubric-regions/4187289-rosiani-atakuvali-obekti-infrastrukturi-na-dnipropetrovsini.html",
+      "date": "2026-11-22T06:30:00+00:00",
+      "excerpt": "Унаслідок російських обстрілів постраждали об’єкти інфраструктури в Дніпропетровській області. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_02/thumb_files/630_360_1771597553-309.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -80,12 +80,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Запоріжжі повністю відновлено рух мостами та греблею ДніпроГЕС",
-      "url": "https://www.ukrinform.ua/rubric-regions/4187261-u-zaporizzi-povnistu-vidnovleno-ruh-mostami-ta-grebleu-dniproges.html",
-      "date": "2026-11-21T22:52:00+00:00",
-      "excerpt": "У Запоріжжі повністю відновлено рух усіма мостами та греблею ДніпроГЕС. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2012_10/thumb_files/630_360_1349360100.jpg",
-      "source": "Укрінформ"
+      "title": "Росія атакувала Україну 186 дронами: влучання зафіксували на 18 локаціях",
+      "url": "https://www.pravda.com.ua/news/2026/11/22/8064012",
+      "date": "2026-11-22T06:27:00+00:00",
+      "excerpt": "У ніч на 22 листопада російські війська атакували Україну 186 безпілотниками, з яких 72 були реактивними. Протиповітряна оборона збила або подавила 161 ворожий дрон.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/6/6/961748/66319405d5ed594f49f6a8b089cdae95.jpeg?w=1200&q=85&stamp=1795329171",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -116,12 +116,12 @@
     },
     {
       "area": "ukraine",
-      "title": "Трамп опублікував знімок рукостискання з Путіним із підписом «Мій друг»",
-      "url": "https://suspilne.media/1455957-tramp-opriludniv-znimok-rukostiskanna-z-putinim-iz-pidpisom-mij-drug",
-      "date": "2026-11-21T22:46:25+00:00",
-      "excerpt": "Знімок із написом My Friend з'явився на сторінці президента США 21 листопада. Раніше Зеленський у відповідь на такі слова Трампа заявив CNN, що для України Путін є ворогом і вбивцею — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/00/0030f3631df983a9d9071cb25ce361c980da5bef25b6ed9b238889f5295f2db5.jpg",
-      "source": "Суспільне"
+      "title": "На Херсонщині внаслідок російських обстрілів поранені шестеро людей",
+      "url": "https://www.ukrinform.ua/rubric-regions/4187287-na-hersonsini-vnaslidok-rosijskih-obstriliv-poraneni-sestero-ludej.html",
+      "date": "2026-11-22T06:25:31+00:00",
+      "excerpt": "Минулої доби російські війська обстріляли 35 населених пунктів Херсонщини, поранені шестеро людей. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_12/thumb_files/630_360_1764588224-845.png",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -143,11 +143,11 @@
     },
     {
       "area": "ukraine",
-      "title": "Бахрейн заявив, що Іран атакував промисловий об'єкт, намагаючись завдати удару по військових позиціях США",
-      "url": "https://www.ukrinform.ua/rubric-world/4187258-bahrejn-zaaviv-so-iran-atakuvav-promislovij-obekt-namagaucis-zavdati-udaru-po-vijskovih-poziciah-ssa.html",
-      "date": "2026-11-21T22:21:12+00:00",
-      "excerpt": "Бахрейн заявив у суботу, що іранська атака вдарила по цивільному промисловому об'єкту, спричинивши пожежу, тоді як іранський Корпус вартових ісламської революції (КВІР) оголосив про ракетно-дроновий удар по військових позиціях США, де знаходиться П'ятий флот ВМС США. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_06/thumb_files/630_360_1782548859-608.jpg",
+      "title": "ППО знешкодила 161 зі 186 безпілотників, якими росіяни з вечора атакували Україну",
+      "url": "https://www.ukrinform.ua/rubric-ato/4187285-ppo-zneskodila-161-zi-186-bezpilotnikiv-akimi-rosiani-z-vecora-atakuvali-ukrainu.html",
+      "date": "2026-11-22T06:16:46+00:00",
+      "excerpt": "Сили протиповітряної оборони знешкодили 161 зі 186 безпілотників, якими російські загарбники атакували Україну з вечора 21 листопада. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791975919-688.jpg",
       "source": "Укрінформ"
     },
     {
@@ -170,12 +170,12 @@
     },
     {
       "area": "ukraine",
-      "title": "У Запоріжжі через атаку росіян – троє поранених",
-      "url": "https://www.pravda.com.ua/news/2026/11/22/8063998",
-      "date": "2026-11-21T22:20:00+00:00",
-      "excerpt": "Внаслідок атаки в Запоріжжі троє поранених, з них двоє дітей.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/b/961702/fb16df0bb5d56b18e31fb6d72e51fa57.jpeg?w=1200&q=85&stamp=1795299834",
-      "source": "Українська правда"
+      "title": "Армія РФ втратила на війні проти України ще 2 310 загарбників",
+      "url": "https://www.ukrinform.ua/rubric-ato/4187284-armia-rf-vtratila-na-vijni-proti-ukraini-se-2-310-zagarbnikiv.html",
+      "date": "2026-11-22T06:11:20+00:00",
+      "excerpt": "Загальні бойові втрати російських військ від початку повномасштабного вторгнення в Україну, з 24 лютого 2022 року по 22 листопада 2026 року, становлять близько 1 637 170, зокрема - 2 310 осіб - за минулу добу. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_02/thumb_files/630_360_1708598022-299.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -197,21 +197,21 @@
     },
     {
       "area": "region",
-      "title": "Перервав серію без перемог: «Брацлав» обіграв «Дністер» у футбольному матчі",
-      "url": "https://suspilne.media/vinnytsia/1455820-perervav-seriu-bez-peremog-vinnickij-braclav-obigrav-dnister-u-futbolnomu-matci-cempionatu-ukraini",
-      "date": "2026-11-21T12:17:42+00:00",
-      "excerpt": "Вінницький ФК «Брацлав» на виїзді обіграв тернопільський ФК «Дністер» (Заліщики) у матчі шістнадцятого туру групи «А» Другої ліги ПФЛ сезону 2026/27 чемпіонату України — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/1f/1fe48ea6c9bc241f7b60a6ed29276e0fb7ecff6be4422405f8d0f7e987a665af.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "Після видалення сечового міхура хірурги створили пацієнту новий — із частини кишки - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/pislya-vidalennya-sechovogo-mihura-hirurgi-stvorili-patsientu-noviy--i-12013339.html",
+      "date": "2026-11-21T12:09:00+00:00",
+      "excerpt": "Через агресивну пухлину чоловікові довелося видалити сечовий міхур. Вінницькі лікарі не лише провели складну операцію, а й одразу створили новий орган із власної тканини пацієнта. Усі етапи виконали…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182484-pislya-vidalennya-sechovogo-mihura-hirurgi-stvorili-patsientu-noviy--iz-chastini-kishki.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Українські дрони вироблятимуть в Британії, атака на судно РФ поблизу Фінляндії",
-      "url": "https://suspilne.media/1455942-ukrainski-droni-viroblatimut-v-britanii-ataka-na-rosijske-sudno-poblizu-finlandii-1733-den-vijni",
-      "date": "2026-11-21T22:12:30+00:00",
-      "excerpt": "У Фінській затоці під атакою безпілотника опинилося російське судно. Українські дрони середньої та великої дальності вироблятимуть у Великій Британії — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/b7/b7919a4cb8e981b3858546871603634e3fb6a10dd6ac489c1aa7e7ea37db30ef.jpg",
-      "source": "Суспільне"
+      "title": "Під завалами зруйнованої росіянами 5-поверхівки на Київщині можуть бути люди – ДСНС",
+      "url": "https://www.pravda.com.ua/news/2026/11/22/8064011",
+      "date": "2026-11-22T05:56:00+00:00",
+      "excerpt": "Рятувальники повідомили, що на Київщині шукають людей під завалами зруйнованого росіянами будинку.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/2/961744/82b0c1cd10286149d87e85087b2be813.jpeg?w=1200&q=85&stamp=1795327041",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -224,21 +224,21 @@
     },
     {
       "area": "region",
-      "title": "Після видалення сечового міхура хірурги створили пацієнту новий — із частини кишки - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/pislya-vidalennya-sechovogo-mihura-hirurgi-stvorili-patsientu-noviy--i-12013339.html",
-      "date": "2026-11-21T12:09:00+00:00",
-      "excerpt": "Через агресивну пухлину чоловікові довелося видалити сечовий міхур. Вінницькі лікарі не лише провели складну операцію, а й одразу створили новий орган із власної тканини пацієнта. Усі етапи виконали…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182484-pislya-vidalennya-sechovogo-mihura-hirurgi-stvorili-patsientu-noviy--iz-chastini-kishki.jpeg",
+      "title": "Дерева падали на дороги, рух довелося розчищати. Де на Вінниччині вирувала негода - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/dereva-padali-na-dorogi-ruh-dovelosya-rozchischati-de-na-vinnichchini--12013351.html",
+      "date": "2026-11-21T11:05:00+00:00",
+      "excerpt": "Через сильні пориви вітру на автошляхи області падали дерева, які перешкоджали руху транспорту. Рятувальникам довелося працювати у чотирьох районах. На щастя, минулося без постраждалих.",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182560-dereva-padali-na-dorogi-ruh-dovelosya-rozchischati-de-na-vinnichchini-viruvala-negoda.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Іранські військові заявили про атаку на позиції США в Бахрейні",
-      "url": "https://suspilne.media/1455947-iranski-vijskovi-zaavili-pro-ataku-na-pozicii-ssa-v-bahrejni",
-      "date": "2026-11-21T21:52:13+00:00",
-      "excerpt": "За даними влади Бахрейну, іранська атака спричинила пожежу на цивільному промисловому об'єкті. Військові заявили, що ППО перехопила кілька атак — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/9a/9a2d9b0e91781151db1ec06fa10a3ec80d0bcd939805c5730ead602cd911d29e.jpg",
-      "source": "Суспільне"
+      "title": "Через російські атаки на Сумщині 9 потерпілих – поліція",
+      "url": "https://www.pravda.com.ua/news/2026/11/22/8064009",
+      "date": "2026-11-22T05:52:00+00:00",
+      "excerpt": "Поліція повідомила про 9 потерпілих на Сумщині через удари РФ.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/7/c/961742/7cfb75d976962e6ae55f914f7326d989.jpeg?w=1200&q=85&stamp=1795325968",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -251,20 +251,20 @@
     },
     {
       "area": "region",
-      "title": "«Ми ближче — а її по груди засипало»: жителі громади розповіли про нічну атаку",
-      "url": "https://suspilne.media/vinnytsia/1455784-mi-blizce-blizce-a-ii-po-grudi-zasipalo-ziteli-gromadi-na-vinniccini-rozpovili-pro-nicnu-ataku-rf",
-      "date": "2026-11-21T11:24:25+00:00",
-      "excerpt": "«Скло полетіло, фронтон вгнуло, фундамент потріскав», — так наслідки нічної атаки РФ описує житель Гайсина Анатолій Коцур. Унаслідок вибухів у громаді пошкоджені житлові будинки та підприємства. Поранення отримала 50-річна жінка — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/c8/c8a580b6fe63eec71f6d9ea9ffd32628599fe7d73de6dc67ae0302395d07b0df.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "Вінниця в Instagram. Кращі фото за тиждень, що минає - 20 хвилин",
+      "url": "https://vn.20minut.ua/Reviews/vinnitsya-v-instagram-kraschi-foto-za-tizhden-scho-minae-12013353.html",
+      "date": "2026-11-21T10:21:00+00:00",
+      "excerpt": "Щодня у соціальних мережах з'являються нові фотографії, що відображають міські ритми, мальовничі пейзажі, незвичайні споруди або пам'ятники, а також яскраві події з життя Вінниці та вінничан…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182573-vinnitsya-v-instagram-kraschi-foto-za-tizhden-scho-minae.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Країнам Глобального Півдня варто пояснювати окупацію Криму через досвід колоніалізму - Усеїнов",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4187174-krainam-globalnogo-pivdna-varto-poasnuvati-okupaciu-krimu-cerez-dosvid-kolonializmu-useinov.html",
-      "date": "2026-11-21T21:52:00+00:00",
-      "excerpt": "Україні варто говорити з країнами Глобального Півдня про окупацію Криму через зрозумілий їм досвід колоніалізму. На міжнародних майданчиках такий підхід може допомогти представникам цих країн краще зрозуміти, за що бореться Україна, і пояснити її позицію у себе вдома. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795269178-342.jpg",
+      "title": "У Вишгородському районі внаслідок атаки дрона пошкоджена багатоповерхівка, двоє травмованих",
+      "url": "https://www.ukrinform.ua/rubric-regions/4187276-u-visgorodskomu-rajoni-vnaslidok-ataki-bpla-poskodzenij-zitlovij-budinok-meskanciv-evakuuut.html",
+      "date": "2026-11-22T05:51:00+00:00",
+      "excerpt": "У Вишгородському районі внаслідок ворожої атаки БПЛА пошкоджена п'ятиповерхівка, виникла пожежа. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795327103-108.png",
       "source": "Укрінформ"
     },
     {
@@ -287,20 +287,20 @@
     },
     {
       "area": "region",
-      "title": "Дерева падали на дороги, рух довелося розчищати. Де на Вінниччині вирувала негода - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/dereva-padali-na-dorogi-ruh-dovelosya-rozchischati-de-na-vinnichchini--12013351.html",
-      "date": "2026-11-21T11:05:00+00:00",
-      "excerpt": "Через сильні пориви вітру на автошляхи області падали дерева, які перешкоджали руху транспорту. Рятувальникам довелося працювати у чотирьох районах. На щастя, минулося без постраждалих.",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182560-dereva-padali-na-dorogi-ruh-dovelosya-rozchischati-de-na-vinnichchini-viruvala-negoda.jpeg",
+      "title": "Під час уроку в тирі на Вінниччині школяр поцілив в однокласницю з пневматичної гвинтівки - 20 хвилин",
+      "url": "https://vn.20minut.ua/Kryminal/pid-chas-uroku-v-tiri-na-vinnichchini-shkolyar-potsiliv-v-odnoklasnits-12013347.html",
+      "date": "2026-11-21T10:02:00+00:00",
+      "excerpt": "У Жмеринському районі 15-річний учень випадково вистрелив у 10-класницю під час заняття в шкільному тирі. Дівчину доправили до лікарні, її стан стабільний. Поліція розслідує, чи належно в закладі…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182537-pid-chas-uroku-v-tiri-na-vinnichchini-shkolyar-potsiliv-v-odnoklasnitsyu-z-pnevmatichnoyi-gvintivki.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "В Україні у неділю подекуди мокрий сніг, удень буде від 0° до +8°",
-      "url": "https://www.ukrinform.ua/rubric-regions/4187187-v-ukraini-v-nedilu-podekudi-mokrij-snig-uden-bude-vid-0-do-8.html",
-      "date": "2026-11-21T21:31:00+00:00",
-      "excerpt": "В Україні у неділю, 22 листопада, у деяких областях випаде невеликий мокрий сніг, на решті території істотних опадів не передбачається. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_02/thumb_files/630_360_1739789602-965.jpg",
+      "title": "Графіки відключення світла у неділю діятимуть у частині областей",
+      "url": "https://www.ukrinform.ua/rubric-economy/4187249-grafiki-vidklucenna-svitla-u-nedilu-diatimut-u-castini-oblastej.html",
+      "date": "2026-11-22T05:41:00+00:00",
+      "excerpt": "У частині областей України у неділю, 22 листопада, цілодобово діятимуть планові відключення електроенергії. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_04/thumb_files/630_360_1775113180-247.jpg",
       "source": "Укрінформ"
     },
     {
@@ -314,21 +314,21 @@
     },
     {
       "area": "region",
-      "title": "Вінниця в Instagram. Кращі фото за тиждень, що минає - 20 хвилин",
-      "url": "https://vn.20minut.ua/Reviews/vinnitsya-v-instagram-kraschi-foto-za-tizhden-scho-minae-12013353.html",
-      "date": "2026-11-21T10:21:00+00:00",
-      "excerpt": "Щодня у соціальних мережах з'являються нові фотографії, що відображають міські ритми, мальовничі пейзажі, незвичайні споруди або пам'ятники, а також яскраві події з життя Вінниці та вінничан…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182573-vinnitsya-v-instagram-kraschi-foto-za-tizhden-scho-minae.jpeg",
+      "title": "Накрили ще один шахрайський колцентр у Вінниці. Учасникам готують підозри - 20 хвилин",
+      "url": "https://vn.20minut.ua/Kryminal/nakrili-sche-odin-shahrayskiy-koltsentr-u-vinnitsi-uchasnikam-gotuyut--12013338.html",
+      "date": "2026-11-21T09:04:00+00:00",
+      "excerpt": "Звичайний приватний будинок перетворили на офіс для телефонного шахрайства. Правоохоронці викрили його діяльність, провели обшук і затримали учасників.",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182474-nakrili-sche-odin-shahrayskiy-koltsentr-u-vinnitsi-uchasnikam-gotuyut-pidozri.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Трамп опублікував фото з Путіним у Китаї, яке назвав «Мій друг»",
-      "url": "https://www.ukrinform.ua/rubric-world/4187257-tramp-opublikuvav-foto-z-putinim-u-kitai-ake-nazvav-mij-drug.html",
-      "date": "2026-11-21T21:21:00+00:00",
-      "excerpt": "Президент США Дональд Трамп опублікував світлину з російським диктатором Володимиром Путіним, якій він дав заголовок «Мій друг». — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795073865-704.jpg",
-      "source": "Укрінформ"
+      "title": "Біля бази Балтійського флоту РФ чули вибухи, Литва заперечила причетність",
+      "url": "https://suspilne.media/1455970-bila-bazi-baltijskogo-flotu-rf-povidomili-pro-vibuhi-litva-zaperecila-pricetnist",
+      "date": "2026-11-22T05:38:27+00:00",
+      "excerpt": "Увечері 21 листопада у Калінінградській області Росії повідомляли про вибухи та роботу протиповітряної оборони в місті Балтійськ, де розташована головна база Балтійського флоту РФ — Суспільне Новини",
+      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/56/5630be84bb73bac64b2e306147d24b8f7e042fd2ffe4a0767d4b853c7184d1e1.jpg",
+      "source": "Суспільне"
     },
     {
       "area": "local",
@@ -341,21 +341,21 @@
     },
     {
       "area": "region",
-      "title": "Під час уроку в тирі на Вінниччині школяр поцілив в однокласницю з пневматичної гвинтівки - 20 хвилин",
-      "url": "https://vn.20minut.ua/Kryminal/pid-chas-uroku-v-tiri-na-vinnichchini-shkolyar-potsiliv-v-odnoklasnits-12013347.html",
-      "date": "2026-11-21T10:02:00+00:00",
-      "excerpt": "У Жмеринському районі 15-річний учень випадково вистрелив у 10-класницю під час заняття в шкільному тирі. Дівчину доправили до лікарні, її стан стабільний. Поліція розслідує, чи належно в закладі…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182537-pid-chas-uroku-v-tiri-na-vinnichchini-shkolyar-potsiliv-v-odnoklasnitsyu-z-pnevmatichnoyi-gvintivki.jpeg",
+      "title": "Реактивний «шахед» атакував Вінницю. Пошкоджено об’єкт енергетичної інфраструктури - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/reaktivniy-shahed-atakuvav-vinnitsyu-poshkodzheno-obekt-energetichnoyi-12013337.html",
+      "date": "2026-11-21T08:12:00+00:00",
+      "excerpt": "Вранці вінничани почули потужний вибух після повідомлень про ворожий безпілотник над містом. Згодом стало відомо, що удар пошкодив енергетичний об’єкт. Енергетики вже працюють над відновленням…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/83/4182471-reaktivniy-shahed-atakuvav-vinnitsyu-poshkodzheno-obekt-energetichnoyi-infrastrukturi.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "На фронті за день відбулося 116 зіткнень, найбільше на Покровському напрямку – Генштаб",
-      "url": "https://www.pravda.com.ua/news/2026/11/21/8063996",
-      "date": "2026-11-21T20:58:00+00:00",
-      "excerpt": "Генштаб ЗСУ повідомив про 116 бойових зіткнень на різних напрямках, зокрема 13 атак росіян на Покровському. Деталі зведення за 22:00.",
-      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/d/961689/8d976383cca1640948a5a7223725a84c.jpeg?w=1200&q=85&stamp=1795294759",
-      "source": "Українська правда"
+      "title": "Україна готується до відновлення роботи кокусів у новообраному Конгресі США - в.о. посла",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4187281-ukraina-gotuetsa-do-vidnovlenna-roboti-kokusiv-u-novoobranomu-kongresi-ssa-vo-posla.html",
+      "date": "2026-11-22T05:24:00+00:00",
+      "excerpt": "Одним з першочергових завдань української дипломатії після початку роботи нового складу Конгресу США 3 січня стане відновлення роботи українських кокусів в обох палатах американського парламенту, а також організація двосторонніх візитів між двома країнами. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795324842-136.png",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
