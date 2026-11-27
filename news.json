@@ -1,11 +1,101 @@
 {
-  "updated_at": "2026-11-27T12:09:05.489067+00:00",
+  "updated_at": "2026-11-27T21:12:15.910811+00:00",
   "distribution_target": {
     "local": 40,
     "region": 30,
     "ukraine": 30
   },
   "items": [
+    {
+      "area": "local",
+      "title": "У Жмеринці відзначили ветеранів спортивного руху, які виховали покоління чемпіонів – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/487481/u-zhmerinci-vidznachili-veteraniv-sportivnogo-ruhu-yaki-vihovali-pokolinnya-chempioniv",
+      "date": "2026-11-27T18:20:00+00:00",
+      "excerpt": "У Жмеринці відзначили ветеранів спортивного руху, які виховали покоління чемпіонів",
+      "image": "https://im2.abo.media/media/64/article/f1ccdcb9aef64ee690435f94492eb444.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "Не лякайтеся пострілів. На Вінниччині у вихідні відстрілюватимуть хижих тварин - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/ne-lyakaytesya-postriliv-na-vinnichchini-u-vihidni-vidstrilyuvatimut-h-12013732.html",
+      "date": "2026-11-27T19:00:00+00:00",
+      "excerpt": "У суботу та неділю в мисливських угіддях Вінниччини можуть лунати постріли. Із 28 листопада мисливці проводитимуть колективне полювання на лисиць, вовків і шакалів. Воно триватиме до кінця лютого.",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/86/4185696-ne-lyakaytesya-postriliv-na-vinnichchini-u-vihidni-vidstrilyuvatimut-hizhih-tvarin.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Офіційні документи",
+      "url": "https://www.ukrinform.ua/block-docs",
+      "date": "2026-11-27T21:12:10+00:00",
+      "excerpt": "",
+      "image": "https://www.ukrinform.ua/img/img_none.jpg",
+      "source": "Укрінформ"
+    },
+    {
+      "area": "local",
+      "title": "Жмеринка прощатиметься з Василем Добрянським, який помер у навчальному центрі на Чернігівщині – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/487414/zhmerinka-proschatimetsya-z-vasilem-dobryanskim-yakij-pomer-u-navchalnomu-centri-na-chernigivschini",
+      "date": "2026-11-27T15:49:00+00:00",
+      "excerpt": "У Жмеринській громаді день жалоби за 38-річним Воїном",
+      "image": "https://im2.abo.media/media/64/article/aaa216466c8749e48a5838c12dbf9805.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "Час за ялинкою! Перевірили вінницькі ціни на штучні красуні від бюджетних до преміум - 20 хвилин",
+      "url": "https://vn.20minut.ua/Groshi/u-vinnitsi-vipav-snig--chas-za-yalinkoyu-oglyad-tsin-vid-byudzhetnih-d-12013931.html",
+      "date": "2026-11-27T18:05:00+00:00",
+      "excerpt": "З першими снігопадами у Вінниці стартував сезон підготовки до зимових свят. Містяни вже активно придивляються до новорічних дерев, а продавці оновили асортимент. Ми промоніторили ціни у вінницьких…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/88/4187867-chas-za-yalinkoyu-perevirili-vinnitski-tsini-na-shtuchni-krasuni-vid-byudzhetnih-do-premium.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Двоє людей постраждали через атаку РФ на транспортну інфраструктуру в Дніпрі",
+      "url": "https://www.pravda.com.ua/news/2026/11/27/8065059",
+      "date": "2026-11-27T21:09:00+00:00",
+      "excerpt": "Російські війська 27 листопада атакували транспортну інфраструктуру в Дніпрі: двоє людей поранені.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/6/966541/a6bb7546aa6f952e0e3277923b7a6495.jpeg?w=1200&q=85&stamp=1795813831",
+      "source": "Українська правда"
+    },
+    {
+      "area": "local",
+      "title": "Ще один заклад освіти у Жмеринці стає безбар’єрним: вище професійне училище реалізує 3 проєкти – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/487467/sche-odin-zaklad-osviti-u-zhmerinci-staye-bezbaryernim-vische-profesijne-uchilische-realizuye-3-proyekti",
+      "date": "2026-11-27T14:52:00+00:00",
+      "excerpt": "Ще один заклад освіти у Жмеринці стає безбар’єрним",
+      "image": "https://im2.abo.media/media/64/article/2a759ab0dc204bfebfd6292595460eeb.webp",
+      "source": "Жмеринка.City"
+    },
+    {
+      "area": "region",
+      "title": "Знаки, розмітка та паркінги — що пропонують змінити на Соборній - 20 хвилин",
+      "url": "https://vn.20minut.ua/DTP/znaki-rozmitka-ta-parkingi--scho-proponuyut-zminiti-na-soborniy-12013897.html",
+      "date": "2026-11-27T17:03:00+00:00",
+      "excerpt": "Тестові зміни на Соборній у Вінниці вже дали певні результати, але водії, пішоходи та пасажири громадського транспорту звернули увагу й на проблемні місця. Під час громадського обговорення містяни…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/88/4187623-znaki-rozmitka-ta-parkingi--scho-proponuyut-zminiti-na-soborniy.jpeg",
+      "source": "20 хвилин. Вінниця"
+    },
+    {
+      "area": "ukraine",
+      "title": "Внаслідок удару росіян по транспортній інфраструктурі у Дніпрі поранені двоє людей",
+      "url": "https://www.ukrinform.ua/rubric-regions/4189436-vnaslidok-udaru-rosian-po-transportnij-infrastrukturi-u-dnipri-poraneni-dvoe-ludej.html",
+      "date": "2026-11-27T21:04:00+00:00",
+      "excerpt": "У Дніпрі ворог завдав удару по транспортній інфраструктурі, поранені двоє людей. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2024_10/thumb_files/630_360_1730304558-605.jpg",
+      "source": "Укрінформ"
+    },
+    {
+      "area": "local",
+      "title": "Від ідеї до власної справи: у Жмеринці молодь навчають підприємництва та залучення грантів – Жмеринка.City",
+      "url": "https://zhmerynka.city/articles/487469/vid-idei-do-vlasnoi-spravi-u-zhmerinci-molod-navchayut-pidpriyemnictva-ta-zaluchennya-grantiv",
+      "date": "2026-11-27T12:02:00+00:00",
+      "excerpt": "У Жмеринці молодь навчають підприємництва та залучення грантів",
+      "image": "https://im2.abo.media/media/64/article/bdc2c0eaa21b467885c6694eaa44cf92.webp",
+      "source": "Жмеринка.City"
+    },
     {
       "area": "local",
       "title": "У Жмеринці ліцей №4 стане профільним для старшокласників: за що голосували депутати на 82 сесії – Жмеринка.City",
@@ -17,20 +107,20 @@
     },
     {
       "area": "region",
-      "title": "Ще 31 вінничанці присвоїли знак «Мати Героя / Героїні» за виховання полеглих захисників - 20 хвилин",
-      "url": "https://vn.20minut.ua/lyudi/sche-31-vinnichantsi-prisvoyili-znak-mati-geroya--geroyini-za-vihovann-12013892.html",
-      "date": "2026-11-27T12:03:00+00:00",
-      "excerpt": "У Вінниці продовжують вшановувати матерів, чиї сини та доньки загинули, захищаючи Україну. Ще 31 жінці присвоїли муніципальний знак «Мати Героя / Героїні» — символ пам’яті про подвиг їхніх дітей та…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/88/4187584-sche-31-vinnichantsi-prisvoyili-znak-mati-geroya--geroyini-za-vihovannya-poleglih-zahisnikiv.jpeg",
+      "title": "Вінниччина входить у морозний період: коли температура опуститься до -13 градусів - 20 хвилин",
+      "url": "https://vn.20minut.ua/Pogoda/vinnichchina-vhodit-u-morozniy-period-koli-temperatura-opustitsya-do-1-12013900.html",
+      "date": "2026-11-27T16:02:00+00:00",
+      "excerpt": "Найближчими днями Вінниччина залишатиметься під впливом холодної погоди, а нічні температури поступово знижуватимуться. Водночас на дорогах місцями утворюватиметься ожеледиця, тож зимова погода…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/88/4187653-vinnichchina-vhodit-u-morozniy-period-koli-temperatura-opustitsya-do--13-gradusiv.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Офіційні документи",
-      "url": "https://www.ukrinform.ua/block-docs",
-      "date": "2026-11-27T12:07:37+00:00",
-      "excerpt": "",
-      "image": "https://www.ukrinform.ua/img/img_none.jpg",
+      "title": "Британія і Нідерланди найбільше постраждали від гібридних атак Ірану в Європі",
+      "url": "https://www.ukrinform.ua/rubric-world/4189253-britania-i-niderlandi-najbilse-postrazdali-vid-gibridnih-atak-iranu-v-evropi.html",
+      "date": "2026-11-27T20:53:00+00:00",
+      "excerpt": "Цьогоріч Велика Британія та Нідерланди найбільше в Європі постраждали від сплеску ворожої діяльності, організованої Іраном, що ставить під сумнів ефективність зусиль європейських країн у протидії таким операціям. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1752391729-832.jpg",
       "source": "Укрінформ"
     },
     {
@@ -39,25 +129,25 @@
       "url": "https://zhmerynka-rda.gov.ua/2026/11/26/%D0%B4%D0%BE-%D1%83%D0%B2%D0%B0%D0%B3%D0%B8-%D0%B3%D1%80%D0%BE%D0%BC%D0%B0%D0%B4%D1%8F%D0%BD-2",
       "date": "2026-11-26T12:52:31+00:00",
       "excerpt": "Жмеринська районна організація УТМР інформує: на виконання Рішення ради оборони Вінницької області від 03.11.2026 року на території мисливських угідь Жмеринського району, Жмеринською районною організацією Українського товариства мисливців та рибалок буде проводитися відстріл хижих м’ясоїдних тварин та дикого кабана, в ",
-      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/08/А4_КирилоКирилович_214х301-213x300.jpg",
+      "image": "https://zhmerynka-rda.gov.ua/wp-content/uploads/2026/11/Відстріл-хижаків.jpg",
       "source": "Жмеринська РВА"
     },
     {
       "area": "region",
-      "title": "Вінницька облрада виділила понад 8 млн грн на підтримку ЗСУ - 20 хвилин",
-      "url": "https://vn.20minut.ua/novini-kompanij/ponad-8-mln-grn-na-pidtrimku-zsu-oblasna-rada-uhvalila-rishennya-12013890.html",
-      "date": "2026-11-27T11:35:00+00:00",
-      "excerpt": "Вінниччина продовжує допомагати Силам безпеки та оборони. 27 листопада на сесії обласної ради одним з перших питань депутати проголосували рішення на підтримку Збройних Сил України та забезпечення…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/88/4187571-ponad-8-mln-grn-na-pidtrimku-zsu-oblasna-rada-uhvalila-rishennya-pressluzhba-vinnitskoyi-oblasnoyi-radi.jpeg",
+      "title": "22-річний студент з Вінниці підпалив себе у Варшаві. Він у критичному стані - 20 хвилин",
+      "url": "https://vn.20minut.ua/lyudi/22-richniy-student-z-vinnitsi-pidpaliv-sebe-u-varshavi-vin-u-kritichno-12013877.html",
+      "date": "2026-11-27T15:14:00+00:00",
+      "excerpt": "22-річний студент родом із Вінниці перебуває у критичному стані в лікарні Варшави після самопідпалення. Польські журналісти поспілкувалися з його колишніми сусідами по гуртожитку, які розповіли…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/88/4187461-22-richniy-student-z-vinnitsi-pidpaliv-sebe-u-varshavi-vin-u-kritichnomu-stani.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Росіяни атакували інфраструктуру Житомирщини, є постраждалі",
-      "url": "https://www.ukrinform.ua/rubric-regions/4189271-rosiani-atakuvali-infrastrukturu-zitomirsini-e-postrazdali.html",
-      "date": "2026-11-27T12:07:00+00:00",
-      "excerpt": "Військові РФ атакували об’єкт інфраструктури в Малинській громаді на Житомирщині. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_11/thumb_files/630_360_1762590638-279.jpeg",
+      "title": "На фронті 134 зіткнення, найбільше атак на позиції ЗСУ ворог здійснив на Костянтинівському напрямку",
+      "url": "https://www.ukrinform.ua/rubric-ato/4189433-na-fronti-134-zitknenna-najbilse-atak-na-pozicii-zsu-vorog-zdijsniv-na-kostantinivskomu-napramku.html",
+      "date": "2026-11-27T20:35:05+00:00",
+      "excerpt": "На фронті 134 бойових зіткнення, найгарячіші Костянтинівський, Покровський та Слов’янський напрямки. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2025_12/thumb_files/630_360_1765140472-293.jpg",
       "source": "Укрінформ"
     },
     {
@@ -71,21 +161,21 @@
     },
     {
       "area": "region",
-      "title": "У Вінниці до 17.00 приймають безкоштовно старі шини на утилізацію - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/u-vinnitsi-do-1700-priymayut-bezkoshtovno-stari-shini-na-utilizatsiyu-12013891.html",
-      "date": "2026-11-27T11:23:00+00:00",
-      "excerpt": "Сьогодні вінничани можуть позбутися старих автомобільних шин і здати їх на утилізацію безкоштовно. До звичайного ліміту додали ще одну шину, але скористатися акцією можна лише до кінця робочого дня.",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/88/4187566-u-vinnitsi-do-1700-priymayut-bezkoshtovno-stari-shini-na-utilizatsiyu.jpeg",
+      "title": "На скляні зупинки витрачають мільйони. А де ховатися, коли летять «шахеди»? - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/na-sklyani-zupinki-vitrachayut-milyoni-a-de-hovatisya-koli-letyat-shah-12013924.html",
+      "date": "2026-11-27T14:45:00+00:00",
+      "excerpt": "Укриття на 50 людей у Києві коштує майже чотири мільйони гривень, у Дніпрі модулі купували по 671 тисячі, а що у Вінниці? На капремонт звичайних зупинок заклали понад три мільйони. Після обстрілу 24…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/88/4187826-na-sklyani-zupinki-vitrachayut-milyoni-a-de-hovatisya-koli-letyat-shahedi.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Бразилія звинуватила Макрона у дезінформації через заяву про «допінговане» м’ясо",
-      "url": "https://www.ukrinform.ua/rubric-world/4189270-brazilia-zvinuvatila-makrona-u-dezinformacii-cerez-zaavu-pro-dopingovane-maso.html",
-      "date": "2026-11-27T12:03:00+00:00",
-      "excerpt": "Уряд Бразилії звинуватив президента Франції Еммануеля Макрона у поширенні дезінформації після того, як він назвав бразильське м’ясо \"допінгованим\", тобто накачаним антибіотиками, та привітав запроваджені Євросоюзом обмеження на його імпорт. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1751391696-877.jpg",
-      "source": "Укрінформ"
+      "title": "Росіяни атакували два заклади освіти в центрі Кременчука: поранені діти",
+      "url": "https://www.pravda.com.ua/news/2026/11/27/8065058",
+      "date": "2026-11-27T20:31:00+00:00",
+      "excerpt": "Російські війська 27 листопада атакували Кременчук на Полтавщині: пошкодили два заклади освіти, 4 людей постраждали, серед них 3 дітей.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/f/966540/aff3a026049c8950c367b6f6ec57e485.jpeg?w=1200&q=85&stamp=1795811540",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -107,21 +197,21 @@
     },
     {
       "area": "region",
-      "title": "Kia збила 80-річного пішохода на Пирогова - 20 хвилин",
-      "url": "https://vn.20minut.ua/DTP/kia-zbila-80-richnogo-pishohoda-na-pirogova-12013868.html",
-      "date": "2026-11-27T10:01:00+00:00",
-      "excerpt": "80-річний чоловік опинився в лікарні після наїзду автомобіля у Вінниці. За фактом ДТП правоохоронці розпочали кримінальне провадження.",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/88/4187349-kia-zbila-80-richnogo-pishohoda-na-pirogova.jpeg",
+      "title": "Де у Вінниці взимку не можна залишати автомобілі — з 1 грудня діятимуть обмеження - 20 хвилин",
+      "url": "https://vn.20minut.ua/DTP/de-u-vinnitsi-vzimku-ne-mozhna-zalishati-avtomobili--z-1-grudnya-diyat-12013895.html",
+      "date": "2026-11-27T14:07:00+00:00",
+      "excerpt": "Залишені вздовж бордюрів автомобілі можуть заважати снігоприбиральній техніці та створювати проблеми під час зимового утримання доріг. Тому у Вінниці з 1 грудня запровадять сезонні обмеження на…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/88/4187592-de-u-vinnitsi-vzimku-ne-mozhna-zalishati-avtomobili--z-1-grudnya-diyatimut-obmezhennya.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Ощадбанк призупиняє роботу у Краматорську",
-      "url": "https://www.ukrinform.ua/rubric-economy/4189268-osadbank-prizupinae-robotu-u-kramatorsku.html",
-      "date": "2026-11-27T11:57:42+00:00",
-      "excerpt": "АТ «Ощадбанк» з 28 листопада призупиняє свою роботу у Краматорську в Донецькій області. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2024_10/thumb_files/630_360_1730390264-645.jpg",
-      "source": "Укрінформ"
+      "title": "Директор НАБУ заявив, що перед відрядженням йому не надходило запрошення на ТСК",
+      "url": "https://www.pravda.com.ua/news/2026/11/27/8065051",
+      "date": "2026-11-27T20:14:00+00:00",
+      "excerpt": "Директор Національного антикорупційного бюро Семен Кривонос заявив, що не отримував запрошення на засідання парламентської Тимчасової слідчої комісії на момент його від'їзду в закордонні відрядження.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/7/d/966523/7d53d775a00173a91a268fc7b33c7315.jpeg?w=1200&q=85&stamp=1795810295",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -134,20 +224,20 @@
     },
     {
       "area": "region",
-      "title": "Релокованому бізнесу компенсуватимуть податки — рішення сесії міськради",
-      "url": "https://suspilne.media/vinnytsia/1458198-relokovanomu-biznesu-kompensuvatimut-podatki-a-pidpriemstvam-esv-za-novi-roboci-misca-risenna-sesii-u-vinnici",
-      "date": "2026-11-27T09:40:23+00:00",
-      "excerpt": "На сесії Вінницької міської ради 27 листопада ухвалили рішення про підтримку підприємств, які релокують свою діяльність до громади з 2027 року. Їм планують компенсувати до 25% сплачених до бюджету громади податків — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/c7/c750b3eb0591a8c7cd5ec903716730942a020b0b057456fd5ab7e56f5578de30.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "Коледж у Вінниці планують повернути до педуніверситету - 20 хвилин",
+      "url": "https://vn.20minut.ua/novini-kompanij/vinnitskiy-gumanitarno-pedagogichniy-koledzh-planuyut-povernuti-do-skl-12013902.html",
+      "date": "2026-11-27T13:30:00+00:00",
+      "excerpt": "На сесії обласної Ради депутати надали згоду на передачу в державну власність до сфери управління Міністерства освіти і науки цілісного майнового комплексу Комунального закладу вищої освіти…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/88/4187664-vinnitskiy-gumanitarno-pedagogichniy-koledzh-planuyut-povernuti-do-skladu-peduniversitetu-pressluzhba-vinnitskoyi-oblasnoyi-radi.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Мартін Купка, лідер опозиції Чехії",
-      "url": "https://www.ukrinform.ua/rubric-world/4189264-martin-kupka-lider-opozicii-cehii.html",
-      "date": "2026-11-27T11:49:00+00:00",
-      "excerpt": "Вимога Кремля повернути безпеку Європи до стану 1997 року - прояв дипломатичної агресії — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795701753-995.jpg",
+      "title": "Судна РФ з військовим вантажем, що прямували до Лівії, змінили курс після потоплення корвета - Reuters",
+      "url": "https://www.ukrinform.ua/rubric-ato/4189427-sudna-rf-z-vijskovim-vantazem-so-pramuvali-do-livii-zminili-kurs-pisla-potoplenna-korveta-reuters.html",
+      "date": "2026-11-27T20:10:00+00:00",
+      "excerpt": "Група російських суден із військовою технікою, що прямувала до Лівії, розвернулася в Середземному морі після того, як 22 листопада українські морські дрони потопили російський військовий корвет у порту Бенгазі. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_01/thumb_files/630_360_1768584572-703.jpg",
       "source": "Укрінформ"
     },
     {
@@ -161,20 +251,20 @@
     },
     {
       "area": "region",
-      "title": "Захищав Україну у складі «Скелі»: у Вінниці сьогодні прощатимуться зі Степаном Куленком - 20 хвилин",
-      "url": "https://vn.20minut.ua/lyudi/zahischav-ukrayinu-u-skladi-skeli-u-vinnitsi-sogodni-proschatimutsya-z-12013842.html",
-      "date": "2026-11-27T08:08:00+00:00",
-      "excerpt": "Сьогодні, 27 листопада, у Вінниці прощатимуться із 39-річним захисником Степаном Куленком, позивний «Джокер». Воїн служив у 425-му окремому штурмовому полку «Скеля» та загинув під час стримування…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/88/4187104-zahischav-ukrayinu-u-skladi-skeli-u-vinnitsi-sogodni-proschatimutsya-zi-stepanom-kulenkom.jpeg",
+      "title": "Ветеранів та їхні родини запрошують на незвичайну виставу: глядачі побачать власні історії очима акторів - 20 хвилин",
+      "url": "https://vn.20minut.ua/Podii/veteraniv-ta-yihni-rodini-zaproshuyut-na-nezvichaynu-vistavu-glyadachi-12013889.html",
+      "date": "2026-11-27T13:15:00+00:00",
+      "excerpt": "Цієї неділі, 29 листопада у Вінниці відбудеться перфоманс плейбек-театру «Прожито». Це незвичайний формат театру, у якому немає заздалегідь написаного сценарію, а головними героями стають самі…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/88/4187553-veteraniv-ta-yihni-rodini-zaproshuyut-na-nezvichaynu-vistavu-glyadachi-pobachat-vlasni-istoriyi-ochima-aktoriv.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Туреччина заявила, що першою у світі прийняла на озброєння безпілотний бойовий літак",
-      "url": "https://www.ukrinform.ua/rubric-world/4189266-tureccina-zaavila-so-persou-u-sviti-prijnala-na-ozbroenna-bezpilotnij-bojovij-litak.html",
-      "date": "2026-11-27T11:48:51+00:00",
-      "excerpt": "Туреччина заявила, що стала першою у світі країною, яка прийняла на озброєння безпілотний бойовий літак, включивши до складу своїх збройних сил безпілотні винищувачі Kızılelma. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795779971-791.png",
+      "title": "Угорщина скасувала заборону на в’їзд Роберту «Мадяру» Бровді",
+      "url": "https://www.ukrinform.ua/rubric-society/4189425-ugorsina-skasuvala-zaboronu-na-vizd-robertu-madaru-brovdi.html",
+      "date": "2026-11-27T19:57:29+00:00",
+      "excerpt": "Угорщина скасувала заборону на в’їзд і перебування в країні для командувача Сил безпілотних систем ЗСУ Роберта Бровді, відомого за позивним «Мадяр». — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_07/thumb_files/630_360_1784355559-429.jpg",
       "source": "Укрінформ"
     },
     {
@@ -197,21 +287,21 @@
     },
     {
       "area": "region",
-      "title": "У Вінниці 27 листопада прощаються з Олександром Нєстєровим й Степаном Куленком",
-      "url": "https://suspilne.media/vinnytsia/1458128-u-vinnici-27-listopada-prosautsa-z-poleglimi-oleksandrom-nesterovim-ta-stepanom-kulenkom",
-      "date": "2026-11-27T07:36:09+00:00",
-      "excerpt": "27 листопада Вінницька громада прощається з двома полеглими військовими: Олександром Нєстєровим та Степаном Куленко. Вони загинули на Донецькому напрямку. Поховають їх на Алеї Слави Сабарівського кладовища — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/11/114023e115a6ce182ae9527cc6052276a3b6998278a0d16b1dcfbc1249a003cb.jpg",
-      "source": "Суспільне Вінниця"
+      "title": "Ще 45 вінничан отримають муніципальну допомогу після російських атак. Скільки виплатять? - 20 хвилин",
+      "url": "https://vn.20minut.ua/Groshi/sche-45-vinnichan-otrimayut-munitsipalnu-dopomogu-pislya-rosiyskih-ata-12013899.html",
+      "date": "2026-11-27T13:01:00+00:00",
+      "excerpt": "Пошкоджені вікна, двері чи дах після російських атак — у Вінниці погодили чергові виплати на відновлення житла. Гроші отримають ще 45 жителів громади, а сума допомоги залежатиме від зафіксованих…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/88/4187634-sche-45-vinnichan-otrimayut-munitsipalnu-dopomogu-pislya-rosiyskih-atak-skilki-viplatyat.jpeg",
+      "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "Україна цінує голос Ліберії під час головування в Радбезі ООН - Сибіга",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4189263-ukraina-cinue-golos-liberii-pid-cas-golovuvanna-v-radbezi-oon-sibiga.html",
-      "date": "2026-11-27T11:41:44+00:00",
-      "excerpt": "Міністр закордонних справ України Андрій Сибіга скоординував із главою МЗС Ліберії Сарою Бейсолоу Ньянті зусилля в рамках ООН з огляду на членство Ліберії в Раді Безпеки ООН в 2026-2027 роках. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795774800-183.png",
-      "source": "Укрінформ"
+      "title": "Reuters: Військова флотилія РФ розвернулась по дорозі до Лівії після української атаки на кораблі",
+      "url": "https://www.pravda.com.ua/news/2026/11/27/8065047",
+      "date": "2026-11-27T19:34:00+00:00",
+      "excerpt": "Військова російська флотилія, що перевозив військову техніку до Лівії, розвернувся у Середземному морі після того, як 22 листопада українські морські дрони потопили російський корвет у порту Бенгазі.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/b/966512/8bf5ad3e06257fe6665bf8507f02377b.jpeg?w=1200&q=85&stamp=1795808137",
+      "source": "Українська правда"
     },
     {
       "area": "local",
@@ -224,21 +314,21 @@
     },
     {
       "area": "region",
-      "title": "П’ять адрес із ремонтом водогонів та низка вулиць без світла - 20 хвилин",
-      "url": "https://vn.20minut.ua/Podii/pyat-adres-iz-remontom-vodogoniv-ta-nizka-vulits-bez-svitla-12013849.html",
-      "date": "2026-11-27T07:32:00+00:00",
-      "excerpt": "У п’ятницю, 27 листопада, у Вінниці проводитимуть ремонтні роботи на водогонах, тепломережах та трансформаторних підстанціях. Через це за низкою адрес тимчасово припинять подачу води та…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/88/4187170-pyat-adres-iz-remontom-vodogoniv-ta-nizka-vulits-bez-svitla.jpeg",
+      "title": "Ще 31 вінничанці присвоїли знак «Мати Героя / Героїні» за виховання полеглих захисників - 20 хвилин",
+      "url": "https://vn.20minut.ua/lyudi/sche-31-vinnichantsi-prisvoyili-znak-mati-geroya--geroyini-za-vihovann-12013892.html",
+      "date": "2026-11-27T12:03:00+00:00",
+      "excerpt": "У Вінниці продовжують вшановувати матерів, чиї сини та доньки загинули, захищаючи Україну. Ще 31 жінці присвоїли муніципальний знак «Мати Героя / Героїні» — символ пам’яті про подвиг їхніх дітей та…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/88/4187584-sche-31-vinnichantsi-prisvoyili-znak-mati-geroya--geroyini-za-vihovannya-poleglih-zahisnikiv.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "В уряді очікують на відкриття ще двох переговорних кластерів про вступ до ЄС",
-      "url": "https://suspilne.media/1458264-v-uradi-ocikuut-na-vidkritta-se-dvoh-peregovornih-klasteriv-pro-vstup-do-es",
-      "date": "2026-11-27T11:41:02+00:00",
-      "excerpt": "Уряд України очікує на відкриття двох переговорних кластерів, що залишилися, про членство у Євросоюзі вже у грудні 2026 року. Ці кластери присвячені питанням сільського господарства, транспорту, довкілля, енергетики — Суспільне Новини",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/a3/a312b3fab00eb21a759ef0f38a98388bf8a449b8163152cb679f6c7bbf6c38d0.jpg",
-      "source": "Суспільне"
+      "title": "Російські групи намагаються проникнути до Степногірська на Запоріжжі - УВ «Південь»",
+      "url": "https://www.ukrinform.ua/rubric-ato/4189419-rosijski-grupi-namagautsa-proniknuti-do-stepnogirska-na-zaporizzi-uv-pivden.html",
+      "date": "2026-11-27T19:32:18+00:00",
+      "excerpt": "Російські військові намагаються проникнути у Степногірськ Запорізької області, щоб накопичити там живу силу та закріпитися, однак українські захисники виявляють і знищують ворожі групи ще на підступах до населеного пункту. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_09/thumb_files/630_360_1790074258-695.jpg",
+      "source": "Укрінформ"
     },
     {
       "area": "local",
@@ -251,20 +341,20 @@
     },
     {
       "area": "region",
-      "title": "Понад 4 тисячі хворих за тиждень, більшість — діти: яка ситуація з грипом та ГРВІ на Вінниччині - 20 хвилин",
-      "url": "https://vn.20minut.ua/Zdorovya/ponad-4-tisyachi-hvorih-za-tizhden-bilshist--diti-yaka-situatsiya-z-gr-12013833.html",
-      "date": "2026-11-27T07:29:00+00:00",
-      "excerpt": "На Вінниччині за останній тиждень на грип та ГРВІ захворіли понад 4,1 тисячі людей, і більше половини з них — діти. Попри невелике зростання кількості хворих та збільшення звернень до лікарень у…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/87/4186824-ponad-4-tisyachi-hvorih-za-tizhden-bilshist--diti-yaka-situatsiya-z-gripom-ta-grvi-na-vinnichchini.webp",
+      "title": "Вінницька облрада виділила понад 8 млн грн на підтримку ЗСУ - 20 хвилин",
+      "url": "https://vn.20minut.ua/novini-kompanij/ponad-8-mln-grn-na-pidtrimku-zsu-oblasna-rada-uhvalila-rishennya-12013890.html",
+      "date": "2026-11-27T11:35:00+00:00",
+      "excerpt": "Вінниччина продовжує допомагати Силам безпеки та оборони. 27 листопада на сесії обласної ради одним з перших питань депутати проголосували рішення на підтримку Збройних Сил України та забезпечення…",
+      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/88/4187571-ponad-8-mln-grn-na-pidtrimku-zsu-oblasna-rada-uhvalila-rishennya-pressluzhba-vinnitskoyi-oblasnoyi-radi.jpeg",
       "source": "20 хвилин. Вінниця"
     },
     {
       "area": "ukraine",
-      "title": "США підштовхували Ірак та Венесуелу до виходу з ОПЕК - Reuters",
-      "url": "https://www.ukrinform.ua/rubric-world/4189262-ssa-pidstovhuvali-irak-ta-venesuelu-do-vihodu-z-opek-reuters.html",
-      "date": "2026-11-27T11:40:00+00:00",
-      "excerpt": "Адміністрація Дональда Трампа цього року схиляла Венесуелу та Ірак до виходу з ОПЕК, а також заблокувала для Каракаса можливість сплатити щорічний членський внесок до бюджету організації. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1751713130-738.jpg",
+      "title": "Зеленський підтвердив Мелоні, що Україна не координувала з Європою операцію в Лівії",
+      "url": "https://www.ukrinform.ua/rubric-polytics/4189416-zelenskij-pidtverdiv-meloni-so-ukraina-ne-koordinuvala-z-evropou-operaciu-v-livii.html",
+      "date": "2026-11-27T19:28:37+00:00",
+      "excerpt": "Президент Володимир Зеленський підтвердив очільниці уряду Італії Джорджі Мелоні, що операцію в Лівії провели без попередньої координації з європейськими партнерами. — Укрінформ.",
+      "image": "https://static.ukrinform.com/photos/2026_02/thumb_files/630_360_1771484515-964.jpg",
       "source": "Укрінформ"
     },
     {
@@ -274,96 +364,6 @@
       "date": "2026-11-20T13:40:00+00:00",
       "excerpt": "Подружжя лікарів із Запоріжжя переїхало до Жмеринки",
       "image": "https://im2.abo.media/media/64/article/aced7275717e4960a14d92f00096b3a8.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "local",
-      "title": "8223 дитини, 100 гуртків і безкоштовний спорт: які можливості для дітей у Жмеринській громаді – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/486567/8223-ditini-100-gurtkiv-i-bezkoshtovnij-sport-yaki-mozhlivosti-dlya-ditej-u-zhmerinskij-gromadi",
-      "date": "2026-11-20T07:53:00+00:00",
-      "excerpt": "Які можливості для дітей у Жмеринській громаді",
-      "image": "https://im2.abo.media/media/64/article/a6741e85940d40ebb61ea72551203d35.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "Сніг засипає Вінницю: комунальники працюють на дорогах, водіїв просять не заважати техніці - 20 хвилин",
-      "url": "https://vn.20minut.ua/Pogoda/snig-zasipae-vinnitsyu-komunalniki-pratsyuyut-na-dorogah-vodiyiv-prosy-12013845.html",
-      "date": "2026-11-27T07:17:00+00:00",
-      "excerpt": "У п’ятницю, 27 листопада, на Вінниччині сніжить, а на дорогах місцями утворюється ожеледиця. Комунальні служби Вінниці працюють над очищенням проїжджих частин та пішохідних зон, а водіїв закликають…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/88/4187127-snig-zasipae-vinnitsyu-komunalniki-pratsyuyut-na-dorogah-vodiyiv-prosyat-ne-zavazhati-tehnitsi.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Польща переконуватиме країни V4 підтримати фінансування України - Туск",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4189260-polsa-perekonuvatime-kraini-v4-pidtrimati-finansuvanna-ukraini-tusk.html",
-      "date": "2026-11-27T11:34:00+00:00",
-      "excerpt": "Польща продовжить переконувати Чехію, Словаччину та Угорщину (країни Вишеградської групи разом з Польщею, V4) підтримати виділення фіндопомогу ЄС для України, оскільки здатність Києва протистояти агресії РФ впливає на безпеку Польщі та всієї Європи. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1774375073-574.jpeg",
-      "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "Разом із сином пішов захищати Україну: «на щиті» повертається Сергій Семенюк із позивним «Сем» – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/486466/razom-iz-sinom-pishov-zahischati-ukrainu-a-teper-povertayetsya-na-schiti-brailiv-poroschayetsya-iz-sergiye",
-      "date": "2026-11-19T13:55:00+00:00",
-      "excerpt": "Жмеринська громада попрощається із Героєм Сергієм Семенюком",
-      "image": "https://im2.abo.media/media/64/article/16e15606042948e3ae8fe5c233316dd8.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "У Вінниці сьогодні прощатимуться з 29-річним бійцем «Азову» Олександром Нєстєровим - 20 хвилин",
-      "url": "https://vn.20minut.ua/lyudi/u-vinnitsi-sogodni-proschatimutsya-z-29-richnim-biytsem-azovu-oleksand-12013841.html",
-      "date": "2026-11-27T07:07:00+00:00",
-      "excerpt": "Сьогодні, 27 листопада, у Вінниці прощатимуться з 29-річним військовослужбовцем 12-ї бригади спеціального призначення «Азов» Олександром Нєстєровим. Захисник загинув 11 листопада 2026 року під час…",
-      "image": "https://vn.20minut.ua/img/cache/reference/news_fb_og/0042/88/4187100-u-vinnitsi-sogodni-proschatimutsya-z-29-richnim-biytsem-azovu-oleksandrom-nesterovim.jpeg",
-      "source": "20 хвилин. Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "У Києві відпрацьовують алгоритми дій на випадок комунального колапсу",
-      "url": "https://suspilne.media/kyiv/1458240-u-kievi-vidpracovuut-algoritmi-dij-na-vipadok-komunalnogo-kolapsu-cerez-ataki-rf-kmva",
-      "date": "2026-11-27T11:31:33+00:00",
-      "excerpt": "У Києві нині відпрацьовують різні сценарії на випадок тривалої відсутності світла, тепла та води у столиці, заявив очільник КМВА Андрій Ткачов — Суспільне Київ",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/60/60d2aab6bbde0146a2743902dd84f37a535e5bcfe971f871072b70d51ffd4e98.jpg",
-      "source": "Суспільне"
-    },
-    {
-      "area": "local",
-      "title": "Не потрібно їхати до Жмеринки за довідками та адмінпослугами: ЦНАП сам приїде до вашого села! – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/486901/ne-potribno-ihati-do-zhmerinki-za-dovidkami-ta-adminposlugami-cnap-sam-priide-do-vashogo-sela",
-      "date": "2026-11-17T11:51:00+00:00",
-      "excerpt": "Графік виїздів мобільного ЦНАПу",
-      "image": "https://im2.abo.media/media/64/article/5e3764120203493c9568c29de586596e.webp",
-      "source": "Жмеринка.City"
-    },
-    {
-      "area": "region",
-      "title": "Через нічну атаку РФ на Вінниччині пошкоджені об'єкти інфраструктури",
-      "url": "https://suspilne.media/vinnytsia/1458104-obekti-energeticnoi-ta-zaliznicnoi-infrastrukturi-zaznali-poskodzen-cerez-ataku-rf-na-vinniccini",
-      "date": "2026-11-27T06:05:19+00:00",
-      "excerpt": "Внаслідок нічної атаки РФ на Вінниччині 27 листопада пошкоджені об'єкти енергетичної та залізничної інфраструктури, травмованих немає. — Суспільне Вінниця",
-      "image": "https://cdn4.suspilne.media/images/generated/automatic-og/v1/78/7822dd01a116e9eaa514b346651d09ad44f37cba60b2ab3de759bbc0984ef7ae.jpg",
-      "source": "Суспільне Вінниця"
-    },
-    {
-      "area": "ukraine",
-      "title": "Уряд дозволив PlayCity перевіряти операторів лотерей",
-      "url": "https://www.ukrinform.ua/rubric-economy/4189259-urad-dozvoliv-playcity-perevirati-operatoriv-loterej.html",
-      "date": "2026-11-27T11:29:58+00:00",
-      "excerpt": "Кабінет міністрів дозволив агентству PlayCity проводити планові перевірки операторів лотерей. — Укрінформ.",
-      "image": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795778809-909.png",
-      "source": "Укрінформ"
-    },
-    {
-      "area": "local",
-      "title": "Після трьох років невідомості Жмеринка попрощається із Віталієм Данилишеним із с. Коростівці – Жмеринка.City",
-      "url": "https://zhmerynka.city/articles/486022/pislya-troh-rokiv-nevidomosti-zhmerinka-poproschayetsya-iz-vitaliyem-danilishenim-iz-s-korostivci",
-      "date": "2026-11-16T09:40:00+00:00",
-      "excerpt": "Віталію Данилишену назавжди 31...",
-      "image": "https://im2.abo.media/media/64/article/add5095deb5643758bfde909fc10e8fa.webp",
       "source": "Жмеринка.City"
     }
   ]
